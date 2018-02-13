@@ -5,5 +5,5 @@
     "full": {"type": "string"},
     "short": {"type": "string"},
     "abbreviation": {"type": "string"},
-    "common": {"type": "string"},
+    "common": {"type": "string"}
 }
