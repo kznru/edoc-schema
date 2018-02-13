@@ -14,6 +14,4 @@ permalink: /specification/
 | [Name](/schemas/generic/name.json) <br> [<small>(canonical url)</small>](/generic/name) | Наименование (полное, краткое, сокращённое и общеупотребимое)
 | [INN](/schemas/identifier/ru/inn.json) <br> [<small>(canonical url)</small>](/identifier/ru/inn) | ИНН
 | [OGRN](/schemas/identifier/ru/ogrn.json) <br> [<small>(canonical url)</small>](/identifier/ru/ogrn) | ОГРН
-| [KPP](/schemas/classifier/ru/kpp.json) <br> [<small>(canonical url)</small>](/classifier/ru/kpp) | КПП
-| [Organization](/schemas/organization/ru/organization.json) <br> [<small>(canonical url)</small>](/organization/ru/organization) | Юридическое лицо
 
