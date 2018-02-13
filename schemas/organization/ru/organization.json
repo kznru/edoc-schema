@@ -1,0 +1,13 @@
+{
+    "id": "http://edoc-schema.kzn.ru/organization/ru/organization",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Russian organization properties",
+    "type": "object",
+    "properties": {
+        "inn": { "type": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
+        "ogrn": { "type": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },
+        "kpp": { "type": "http://edoc-schema.kzn.ru/classifier/ru/kpp" },
+        "property_form": { "$ref": "http://edoc-schema.kzn.ru/organization/ru/property_form" },
+        "name": { "$ref": "http://edoc-schema.kzn.ru/generic/name" }
+    }
+}
