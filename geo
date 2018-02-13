@@ -1,1 +1,1 @@
-schemas/geo.json
+schemas/geo
