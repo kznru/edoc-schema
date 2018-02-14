@@ -6,12 +6,24 @@ permalink: /examples/
 Ниже приведены примеры использования EDOC Schema.
 
 # Простые
-## ИНН
+## Пример ИНН
+Схема:
+```json
+{% include schemas/identifier/ru/inn.json %}
+```
+
+Данные:
 ```json
 "160123456789"
 ```
 
-## ОКОПФ
+## Пример ОКОПФ
+Схема:
+```json
+{% include schemas/classifier/ru/okopf.json %}
+```
+
+Данные:
 ```json
 {
   "code": "12300",
@@ -20,6 +32,12 @@ permalink: /examples/
 ```
 
 ## ФИО
+Схема:
+```json
+{% include schemas/person/ru/fio.json %}
+```
+
+Данные:
 ```json
 {
   "surname": "Пушкин",
@@ -30,6 +48,12 @@ permalink: /examples/
 
 # Составные
 ## ФИО и номер телефона
+Схема:
+```json
+{% include schemas/person/ru/fio_phone.json %}
+```
+
+Данные:
 ```json
 {
   "fio": {
@@ -46,18 +70,23 @@ permalink: /examples/
 ```
 
 ## Юридическое лицо
+Схема:
+```json
+{% include schemas/organization/ru/organization.json %}
+```
+
+Данные:
 ```json
 {
-    "inn": "1657119572",
-    "ogrn": "1121690046411",
-    "kpp": "165701001",
-    "okopf": "12300",
-    "name": {
-      "full": "Рога и копыта",
-      "short": "Рога и копыта",
-      "abbreviation": "РиК",
-      "common": "Рога",
-     }
+  "inn": "1657119572",
+  "ogrn": "1121690046411",
+  "kpp": "165701001",
+  "okopf": "12300",
+  "name": {
+    "full": "Рога и копыта",
+    "short": "Рога и копыта",
+    "abbreviation": "РиК",
+    "common": "Рога",
   }
 }
 ```
