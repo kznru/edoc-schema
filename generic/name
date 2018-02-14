@@ -2,8 +2,11 @@
     "id": "http://edoc-schema.kzn.ru/generic/name",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "description": "Name",
-    "full": {"type": "string"},
-    "short": {"type": "string"},
-    "abbreviation": {"type": "string"},
-    "common": {"type": "string"}
+    "type": "object",
+    "properties": {
+      "full": {"type": "string"},
+      "short": {"type": "string"},
+      "abbreviation": {"type": "string"},
+      "common": {"type": "string"}
+    }
 }
