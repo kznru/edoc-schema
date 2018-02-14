@@ -11,6 +11,7 @@
         "district": { "type": "string" },
         "city": { "type": "string" },
         "street": { "type": "string" },
-        "house": { "type": "string" }
+        "house": { "type": "string" },
+        "text": { "type": "string" }
     }
 }
