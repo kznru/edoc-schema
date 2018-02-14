@@ -86,7 +86,7 @@ permalink: /examples/
     "full": "Рога и копыта",
     "short": "Рога и копыта",
     "abbreviation": "РиК",
-    "common": "Рога",
+    "common": "Рога"
   }
 }
 ```
