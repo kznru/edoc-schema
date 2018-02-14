@@ -1,0 +1,10 @@
+{
+    "id": "http://edoc-schema.kzn.ru/location/ru/address_with_point",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "FIAS-based address and geo-point",
+    "type": "object",
+    "properties": {
+        "address": { "$ref": "http://edoc-schema.kzn.ru/location/fias/address" },
+        "point": { "$ref": "http://edoc-schema.kzn.ru/geo/point" }
+    }
+}
