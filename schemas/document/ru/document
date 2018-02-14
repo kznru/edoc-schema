@@ -1,0 +1,43 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/document",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Document",
+  "type": "object",
+  "properties": {
+    "source": {
+      "url": { "$ref": "#/document_url" },
+      "information_system": { "$ref": "#/information_system" },
+      "external_id": { "$ref": "#/external_id" },
+      "document_type": { "$ref": "#/document_type" },
+      "document_title": { "$ref": "#/document_title" },
+      "document_annotation": { "$ref": "#/document_annotation" },
+      "document_description": { "$ref": "#/document_description" },
+      "registered_at": { "type": "datetime" },
+      "organization": { "$ref": "#/information_system" },
+      "department": { "$ref": "#/department" },
+      "responsible_employee": { "$ref": "#/employee" },
+      "signatures": {
+        "type": "array",
+        "items": { "$ref": "#/signature" }
+      },
+      "linked_documents": {
+        "type": "array",
+        "items": { "$ref": "#/linked_document" }
+      }
+    },
+    "id": { "type": "guid"},
+    "imported_at": { "type": "datetime" },
+    "import_signature": {
+      "type": "array",
+      "items": { "$ref": "#/signature" }
+    },
+    "access_control_list": {
+      "type": "array",
+      "items": {"$ref": "#/access_control_item"}
+    },
+    "linked_documents": {
+      "type": "array",
+      "items": { "$ref": "#/linked_document" }
+    }
+  }
+}
