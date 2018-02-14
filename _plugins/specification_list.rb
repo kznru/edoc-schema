@@ -4,13 +4,30 @@ require 'active_support/core_ext/string'
 
 module Jekyll
   class SpecificationList < Liquid::Tag
+    SYNTAX = /(#{Liquid::QuotedFragment}+)?/
+
     def initialize(tag_name, markup, tokens)
       super
+      @attributes = {}
+
+      unless markup.match?(SYNTAX)
+        raise SyntaxError, "Bad options given to 'specification_list' plugin."
+      end
+
+      # Parse parameters
+      markup.scan(Liquid::TagAttributes) do |key, value|
+        @attributes[key] = value
+      end
     end
 
     def render(_context)
       root_path = File.absolute_path(File.dirname(__FILE__) + '/../')
-      dir_path = File.join(root_path, 'schemas', '**', '*.json')
+      directory = @attributes['directory_name']
+      dir_path = if directory.present?
+                   File.join(root_path, 'schemas', directory, '**', '*.json')
+                 else
+                   File.join(root_path, 'schemas', '**', '*.json')
+                 end
       usluga_path = File.join(
         root_path, 'schemas', 'document', 'ru', 'uslugi', '*.json'
       )
@@ -21,8 +38,10 @@ module Jekyll
         result << html_of_one_schema(schema)
       end
 
-      Dir[usluga_path].sort.each do |schema|
-        result << html_of_one_schema(schema)
+      if directory == 'document'
+        Dir[usluga_path].sort.each do |schema|
+          result << html_of_one_schema(schema)
+        end
       end
 
       result += ['</tbody>', '</table>']
@@ -43,7 +62,7 @@ module Jekyll
       }
       h_url = {
         json: "<a href=\"#{schema[:json_url]}\">#{schema[:name]}</a>",
-        canon: " <a href=\"#{schema[:canon_url]}\"><small>(canonical url)</small></a>",
+        canon: " <a href=\"#{schema[:canon_url]}\"><small>(canonical url)</small></a>"
       }
       full_url = "#{h_url[:json]}<br />#{h_url[:canon]}"
 
