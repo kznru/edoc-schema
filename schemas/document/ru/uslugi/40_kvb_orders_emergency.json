@@ -5,26 +5,26 @@
   "type": "object",
   "properties": {
     "confirmations": {
-      "$ref": "#/definitions/confirmations"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
     },
     "organization": {
-      "$ref": "#/definitions/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "customer_responsible": {
-      "$ref": "#/definitions/person_fio",
+      "$ref": "http://edoc-schema.kzn.ru/person/fio",
       "title": "Подписант заказчика"
     },
     "contractor_organization": {
-      "$ref": "#/definitions/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
     "contractor_responsible": {
-      "$ref": "#/definitions/person_mobile",
+      "$ref": "http://edoc-schema.kzn.ru/person/fio_phone",
       "title": "Ответственный производитель работ со стороны подрядчика"
     },
     "subcontractor_organization": {
-      "$ref": "#/definitions/organization_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_optional",
       "title": "Субподрядчик"
     },
     "subcontractor_responsible": {

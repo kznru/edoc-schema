@@ -96,6 +96,26 @@
       <td><a href="/schemas/geo/point.json">Geographic Coordinate</a> <br /> <a href="/geo/point"><small>(canonical url)</small></a></td>
       <td>географические координаты точки (широта и долгота)</td>
     </tr>
+    <tr>
+      <td><a href="/schemas/organization/ru/organization.json">Organization</a> <br /> <a href="/organization/ru/organization"><small>(canonical url)</small></a></td>
+      <td>Юридическое лицо</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/person/ru/fio.json">FIO</a> <br /> <a href="/person/ru/fio"><small>(canonical url)</small></a></td>
+      <td>Фамилия, имя и отчество</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/person/ru/fio_phone.json">FIO and phone</a> <br /> <a href="/person/ru/fio_phone"><small>(canonical url)</small></a></td>
+      <td>Фамилия, имя, отчество и номер телефона</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/organization_optional.json">Organization optional</a> <br /> <a href="/document/ru/uslugi/definitions/organization_optional"><small>(canonical url)</small></a></td>
+      <td>Юридическое лицо опционально</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/confirmations.json">Confirmations</a> <br /> <a href="/document/ru/uslugi/definitions/confirmations"><small>(canonical url)</small></a></td>
+      <td>Подтверждения</td>
+    </tr>
   </tbody>
 </table>
 
@@ -107,26 +127,26 @@
   </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
   </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="s2">"confirmations"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/confirmations"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"organization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/organization"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/organization/ru/organization"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Заказчик"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"customer_responsible"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/person_fio"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Подписант заказчика"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"contractor_organization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/organization"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/organization/ru/organization"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Подрядчик"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"contractor_responsible"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/person_mobile"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio_phone"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ответственный производитель работ со стороны подрядчика"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"subcontractor_organization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/organization_optional"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_optional"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Субподрядчик"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"subcontractor_responsible"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
