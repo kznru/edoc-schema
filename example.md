@@ -5,8 +5,8 @@ permalink: /examples/
 ---
 Ниже приведены примеры использования EDOC Schema.
 
-# Простые
-## Пример ИНН
+## Простые
+# Пример ИНН
 Схема:
 ```json
 {% include schemas/identifier/ru/inn.json %}
@@ -17,7 +17,7 @@ permalink: /examples/
 "160123456789"
 ```
 
-## Пример ОКОПФ
+# Пример ОКОПФ
 Схема:
 ```json
 {% include schemas/classifier/ru/okopf.json %}
@@ -31,7 +31,7 @@ permalink: /examples/
 }
 ```
 
-## ФИО
+# ФИО
 Схема:
 ```json
 {% include schemas/person/ru/fio.json %}
@@ -46,8 +46,8 @@ permalink: /examples/
 }
 ```
 
-# Составные
-## ФИО и номер телефона
+## Составные
+# ФИО и номер телефона
 Схема:
 ```json
 {% include schemas/person/ru/fio_phone.json %}
@@ -69,7 +69,7 @@ permalink: /examples/
 }
 ```
 
-## Юридическое лицо
+# Юридическое лицо
 Схема:
 ```json
 {% include schemas/organization/ru/organization.json %}
@@ -86,7 +86,7 @@ permalink: /examples/
     "full": "Рога и копыта",
     "short": "Рога и копыта",
     "abbreviation": "РиК",
-    "common": "Рога",
+    "common": "Рога"
   }
 }
 ```

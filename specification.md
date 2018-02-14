@@ -21,4 +21,9 @@ permalink: /specification/
 | [Address with geo-point](/schemas/location/ru/address_with_point.json) <br> [<small>(canonical url)</small>](/location/ru/address_with_point) | Типовой адрес на базе ФИАС с указанием географической точки привязки |
 | [FIO](/schemas/person/ru/fio.json) <br> [<small>(canonical url)</small>](/person/ru/fio) | Фамилия, имя и отчество |
 | [FIO and phone](/schemas/person/ru/fio_phone.json) <br> [<small>(canonical url)</small>](/person/ru/fio_phone) | Фамилия, имя, отчество и номер телефона |
+| [Document](/schemas/document/ru/document.json) <br> [<small>(canonical url)</small>](/document/ru/document) | Документ (контейнер любого документа) |
 
+Стандартный контейнер документа
+---------------
+
+//TODO
