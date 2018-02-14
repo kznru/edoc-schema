@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Топосъёмка сетей",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+}

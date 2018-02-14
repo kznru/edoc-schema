@@ -24,19 +24,19 @@
       "title": "Ответственный производитель работ со стороны подрядчика"
     },
     "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization",
       "title": "Субподрядчик"
     },
     "subcontractor_responsible": {
-      "$ref": "#/definitions/person_mobile_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
       "title": "Ответственный производитель работ со стороны субподрядчика"
     },
     "address_with_map": {
-      "$ref": "#/definitions/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map",
       "title": "Адрес (ближайший к месту работ)"
     },
     "address_comments": {
-      "$ref": "#/definitions/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_comments",
       "title": "Уточнение адреса или места проведения работ"
     },
     "begin_date": {
@@ -68,7 +68,7 @@
       ]
     },
     "objects_of_work_comments": {
-      "$ref": "#/definitions/objects_of_work_comments"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "area_of_damage_to_road": {
       "type": "string",
@@ -87,36 +87,36 @@
       "title": "Площадь повреждения зелёных насаждений"
     },
     "agent": {
-      "$ref": "#/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "#/definitions/letter_of_attorney"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "application": {
-      "$ref": "#/definitions/application",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application",
       "title": "Заявление на получение ордера"
     },
     "topography_of_networks": {
-      "$ref": "#/definitions/topography_of_networks"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
     },
     "conclusion_place_of_damage": {
-      "$ref": "#/definitions/conclusion_place_of_damage"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
     },
     "certificate_of_separation": {
-      "$ref": "#/definitions/certificate_of_separation"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
     },
     "certificate_sro": {
-      "$ref": "#/definitions/certificate_sro"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
     },
     "warranty_restore": {
-      "$ref": "#/definitions/warranty_restore"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
     },
     "attachments": {
-      "$ref": "#/definitions/attachments"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
     },
     "comments": {
-      "$ref": "#/definitions/comments"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
     }
   }
 }

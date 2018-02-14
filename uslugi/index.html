@@ -93,10 +93,6 @@
 <table>
   <tbody>
     <tr>
-      <td><a href="/schemas/geo/point.json">Geographic Coordinate</a> <br /> <a href="/geo/point"><small>(canonical url)</small></a></td>
-      <td>географические координаты точки (широта и долгота)</td>
-    </tr>
-    <tr>
       <td><a href="/schemas/organization/ru/organization.json">Organization</a> <br /> <a href="/organization/ru/organization"><small>(canonical url)</small></a></td>
       <td>Юридическое лицо</td>
     </tr>
@@ -109,12 +105,60 @@
       <td>Фамилия, имя, отчество и номер телефона</td>
     </tr>
     <tr>
-      <td><a href="/schemas/document/ru/uslugi/definitions/organization_optional.json">Organization optional</a> <br /> <a href="/document/ru/uslugi/definitions/organization_optional"><small>(canonical url)</small></a></td>
-      <td>Юридическое лицо опционально</td>
-    </tr>
-    <tr>
       <td><a href="/schemas/document/ru/uslugi/definitions/confirmations.json">Confirmations</a> <br /> <a href="/document/ru/uslugi/definitions/confirmations"><small>(canonical url)</small></a></td>
       <td>Подтверждения</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/certificate_sro.json">Certificate SRO</a> <br /> <a href="/document/ru/uslugi/definitions/certificate_sro"><small>(canonical url)</small></a></td>
+      <td>Свидетельство СРО</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/person_mobile.json">Person mobile</a> <br /> <a href="/document/ru/uslugi/definitions/person_mobile"><small>(canonical url)</small></a></td>
+      <td>Мобильный телефон</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/address_with_map.json">Address with map</a> <br /> <a href="/document/ru/uslugi/definitions/address_with_map"><small>(canonical url)</small></a></td>
+      <td>Адрес с картой</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/address_comments.json">Address comments</a> <br /> <a href="/document/ru/uslugi/definitions/address_comments"><small>(canonical url)</small></a></td>
+      <td>Комментарий к адресу</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/objects_of_work_comments.json">Objects of work comments</a> <br /> <a href="/document/ru/uslugi/definitions/objects_of_work_comments"><small>(canonical url)</small></a></td>
+      <td>Дополнительное описание необходимых работ</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/letter_of_attorney.json">Letter of attorney</a> <br /> <a href="/document/ru/uslugi/definitions/letter_of_attorney"><small>(canonical url)</small></a></td>
+      <td>Доверенность</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/application.json">Application</a> <br /> <a href="/document/ru/uslugi/definitions/application"><small>(canonical url)</small></a></td>
+      <td>Приложение</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/topography_of_networks.json">Topography of networks</a> <br /> <a href="/document/ru/uslugi/definitions/topography_of_networks"><small>(canonical url)</small></a></td>
+      <td>Топосъёмка сетей</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/conclusion_place_of_damage.json">Conclusion place of damage</a> <br /> <a href="/document/ru/uslugi/definitions/conclusion_place_of_damage"><small>(canonical url)</small></a></td>
+      <td>Заключение о месте аварии</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/certificate_of_separation.json">Certificate of separation</a> <br /> <a href="/document/ru/uslugi/definitions/certificate_of_separation"><small>(canonical url)</small></a></td>
+      <td>Акт о разграничении сетей</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/warranty_restore.json">Warrantly restore</a> <br /> <a href="/document/ru/uslugi/definitions/warranty_restore"><small>(canonical url)</small></a></td>
+      <td>Гарантия повторного восстановления (5 лет)</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/attachments.json">Attachments</a> <br /> <a href="/document/ru/uslugi/definitions/attachments"><small>(canonical url)</small></a></td>
+      <td>Приложение</td>
+    </tr>
+    <tr>
+      <td><a href="/schemas/document/ru/uslugi/definitions/comments.json">Comments</a> <br /> <a href="/document/ru/uslugi/definitions/comments"><small>(canonical url)</small></a></td>
+      <td>Комментарий</td>
     </tr>
   </tbody>
 </table>
@@ -146,19 +190,19 @@
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ответственный производитель работ со стороны подрядчика"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"subcontractor_organization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_optional"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Субподрядчик"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"subcontractor_responsible"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/person_mobile_optional"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ответственный производитель работ со стороны субподрядчика"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"address_with_map"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/address_with_map"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Адрес (ближайший к месту работ)"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"address_comments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/address_comments"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_comments"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Уточнение адреса или места проведения работ"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"begin_date"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -190,7 +234,7 @@
       </span><span class="p">]</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"objects_of_work_comments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/objects_of_work_comments"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"area_of_damage_to_road"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w">
@@ -209,36 +253,36 @@
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Площадь повреждения зелёных насаждений"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"agent"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/agent"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Представитель"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"letter_of_attorney"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/letter_of_attorney"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"application"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/application"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Заявление на получение ордера"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"topography_of_networks"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/topography_of_networks"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"conclusion_place_of_damage"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/conclusion_place_of_damage"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"certificate_of_separation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/certificate_of_separation"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"certificate_sro"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/certificate_sro"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"warranty_restore"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/warranty_restore"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"attachments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/attachments"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="s2">"comments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#/definitions/comments"</span><span class="w">
+      </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"</span><span class="w">
     </span><span class="p">}</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">

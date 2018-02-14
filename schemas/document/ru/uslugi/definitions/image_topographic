@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Топографический план",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}
