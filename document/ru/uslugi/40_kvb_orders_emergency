@@ -1,7 +1,8 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/usluga/40_kvb_orders_emergency",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "40_kvb_orders_emergency",
+  "title": "Emergency orders",
+  "description": "Реестр аварийных ордеров на выполнение земляных работ",
   "type": "object",
   "properties": {
     "confirmations": {

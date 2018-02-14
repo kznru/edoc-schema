@@ -9,7 +9,7 @@
     },
     "mobile": {
       "type": "string", "title": "Мобильный телефон"
-    },
+    }
   },
   "required": ["fio", "mobile"]
 }

@@ -1,7 +1,7 @@
 {
     "id": "http://edoc-schema.kzn.ru/location/ru/address",
     "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "FIAS-based address",
+    "description": "Адрес объекта в формате ФИАС",
     "type": "object",
     "properties": {
         "fias_id": { "type": "guid" },
