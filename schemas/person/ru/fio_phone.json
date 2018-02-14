@@ -1,0 +1,10 @@
+{
+    "id": "http://edoc-schema.kzn.ru/person/fio_phone",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Surname, name, patronic of a person, and his phone",
+    "type": "object",
+    "properties": {
+      "fio": {"$ref": "http://edoc-schema.kzn.ru/person/fio"},
+      "phone": {"$ref": "http://edoc-schema.kzn.ru/generic/phone_number"}
+    }
+}
