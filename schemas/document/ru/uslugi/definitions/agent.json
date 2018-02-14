@@ -1,7 +1,7 @@
 {
     "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
     "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Заявление",
+    "description": "Представитель",
     "type": "object",
     "properties": {
         "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта"},
