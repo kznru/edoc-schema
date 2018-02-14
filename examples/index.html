@@ -95,11 +95,38 @@
     <p>Ниже приведены примеры использования EDOC Schema.</p>
 
 <h1 id="простые">Простые</h1>
-<h2 id="инн">ИНН</h2>
+<h2 id="пример-инн">Пример ИНН</h2>
+<p>Схема:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/inn"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"INN"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"pattern"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^(?:</span><span class="se">\\</span><span class="s2">d{10}|</span><span class="se">\\</span><span class="s2">d{12})$"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>Данные:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"160123456789"</span><span class="w">
 </span></code></pre></div></div>
 
-<h2 id="окопф">ОКОПФ</h2>
+<h2 id="пример-окопф">Пример ОКОПФ</h2>
+<p>Схема:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"OGRN"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">},</span><span class="w">
+      </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>Данные:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12300"</span><span class="p">,</span><span class="w">
   </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Общество с ограниченной ответственностью"</span><span class="w">
@@ -107,6 +134,22 @@
 </span></code></pre></div></div>
 
 <h2 id="фио">ФИО</h2>
+<p>Схема:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Surname, name and patronic of a person"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"surname"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"patronimic"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>Данные:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="s2">"surname"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Пушкин"</span><span class="p">,</span><span class="w">
   </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Александр"</span><span class="p">,</span><span class="w">
@@ -116,6 +159,21 @@
 
 <h1 id="составные">Составные</h1>
 <h2 id="фио-и-номер-телефона">ФИО и номер телефона</h2>
+<p>Схема:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio_phone"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Surname, name, patronic of a person, and his phone"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"fio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">},</span><span class="w">
+      </span><span class="s2">"phone"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/generic/phone_number"</span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>Данные:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="s2">"fio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="s2">"surname"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Лобачевский"</span><span class="p">,</span><span class="w">
@@ -131,17 +189,34 @@
 </span></code></pre></div></div>
 
 <h2 id="юридическое-лицо">Юридическое лицо</h2>
+<p>Схема:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="s2">"inn"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1657119572"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"ogrn"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1121690046411"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"kpp"</span><span class="p">:</span><span class="w"> </span><span class="s2">"165701001"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"okopf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12300"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"full"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога и копыта"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"short"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога и копыта"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"abbreviation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"РиК"</span><span class="p">,</span><span class="w">
-      </span><span class="s2">"common"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога"</span><span class="p">,</span><span class="w">
-     </span><span class="p">}</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/organization/ru/organization"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Russian organization properties"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"inn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/inn"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"ogrn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"kpp"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/classifier/ru/kpp"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"okopf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/classifier/ru/okopf"</span><span class="w"> </span><span class="p">},</span><span class="w">
+        </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/generic/name"</span><span class="w"> </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>Данные:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"inn"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1657119572"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"ogrn"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1121690046411"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"kpp"</span><span class="p">:</span><span class="w"> </span><span class="s2">"165701001"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"okopf"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12300"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"full"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога и копыта"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"short"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога и копыта"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"abbreviation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"РиК"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"common"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Рога"</span><span class="p">,</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
