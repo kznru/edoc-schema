@@ -14,12 +14,23 @@ permalink: /uslugi/
 Используемые definitions
 
 |---|---|
-| [Geographic Coordinate](/schemas/geo/point.json) <br> [<small>(canonical url)</small>](/geo/point) | географические координаты точки (широта и долгота) |
 | [Organization](/schemas/organization/ru/organization.json) <br> [<small>(canonical url)</small>](/organization/ru/organization) | Юридическое лицо |
 | [FIO](/schemas/person/ru/fio.json) <br> [<small>(canonical url)</small>](/person/ru/fio) | Фамилия, имя и отчество |
 | [FIO and phone](/schemas/person/ru/fio_phone.json) <br> [<small>(canonical url)</small>](/person/ru/fio_phone) | Фамилия, имя, отчество и номер телефона |
-| [Organization optional](/schemas/document/ru/uslugi/definitions/organization_optional.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/organization_optional) | Юридическое лицо опционально |
 | [Confirmations](/schemas/document/ru/uslugi/definitions/confirmations.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/confirmations) | Подтверждения |
+| [Certificate SRO](/schemas/document/ru/uslugi/definitions/certificate_sro.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/certificate_sro) | Свидетельство СРО |
+| [Person mobile](/schemas/document/ru/uslugi/definitions/person_mobile.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/person_mobile) | Мобильный телефон |
+| [Address with map](/schemas/document/ru/uslugi/definitions/address_with_map.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/address_with_map) | Адрес с картой |
+| [Address comments](/schemas/document/ru/uslugi/definitions/address_comments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/address_comments) | Комментарий к адресу |
+| [Objects of work comments](/schemas/document/ru/uslugi/definitions/objects_of_work_comments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/objects_of_work_comments) | Дополнительное описание необходимых работ |
+| [Letter of attorney](/schemas/document/ru/uslugi/definitions/letter_of_attorney.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/letter_of_attorney) | Доверенность |
+| [Application](/schemas/document/ru/uslugi/definitions/application.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/application) | Приложение |
+| [Topography of networks](/schemas/document/ru/uslugi/definitions/topography_of_networks.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/topography_of_networks) | Топосъёмка сетей |
+| [Conclusion place of damage](/schemas/document/ru/uslugi/definitions/conclusion_place_of_damage.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/conclusion_place_of_damage) | Заключение о месте аварии |
+| [Certificate of separation](/schemas/document/ru/uslugi/definitions/certificate_of_separation.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/certificate_of_separation) | Акт о разграничении сетей |
+| [Warrantly restore](/schemas/document/ru/uslugi/definitions/warranty_restore.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/warranty_restore) | Гарантия повторного восстановления (5 лет) |
+| [Attachments](/schemas/document/ru/uslugi/definitions/attachments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/attachments) | Приложение |
+| [Comments](/schemas/document/ru/uslugi/definitions/comments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/comments) | Комментарий |
 
 
 Схема:

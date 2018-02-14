@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Document",
+  "type": "object",
+  "properties": {
+    "content": {
+      "$ref": "#/definitions/scanned_document"
+    }
+  }
+}
