@@ -1,0 +1,122 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/usluga/40_kvb_orders_emergency",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "40_kvb_orders_emergency",
+  "type": "object",
+  "properties": {
+    "confirmations": {
+      "$ref": "#/definitions/confirmations"
+    },
+    "organization": {
+      "$ref": "#/definitions/organization",
+      "title": "Заказчик"
+    },
+    "customer_responsible": {
+      "$ref": "#/definitions/person_fio",
+      "title": "Подписант заказчика"
+    },
+    "contractor_organization": {
+      "$ref": "#/definitions/organization",
+      "title": "Подрядчик"
+    },
+    "contractor_responsible": {
+      "$ref": "#/definitions/person_mobile",
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    },
+    "subcontractor_organization": {
+      "$ref": "#/definitions/organization_optional",
+      "title": "Субподрядчик"
+    },
+    "subcontractor_responsible": {
+      "$ref": "#/definitions/person_mobile_optional",
+      "title": "Ответственный производитель работ со стороны субподрядчика"
+    },
+    "address_with_map": {
+      "$ref": "#/definitions/address_with_map",
+      "title": "Адрес (ближайший к месту работ)"
+    },
+    "address_comments": {
+      "$ref": "#/definitions/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "emergency_repair_of": {
+      "type": "string",
+      "title": "Ликвидация аварии на:",
+      "enum": [
+        "Водопровод",
+        "Волжский водовод",
+        "Водопровод пожарный",
+        "Хозяйственно-бытовая канализация",
+        "Ливневая канализация",
+        "Кабельная канализация",
+        "Электрокабель",
+        "Газопровод",
+        "ЭХЗ анодного контура газопровода",
+        "Теплотрасса",
+        "Сеть отопления",
+        "Сеть ГВС"
+      ]
+    },
+    "objects_of_work_comments": {
+      "$ref": "#/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия"
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения зелёных насаждений"
+    },
+    "agent": {
+      "$ref": "#/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "#/definitions/letter_of_attorney"
+    },
+    "application": {
+      "$ref": "#/definitions/application",
+      "title": "Заявление на получение ордера"
+    },
+    "topography_of_networks": {
+      "$ref": "#/definitions/topography_of_networks"
+    },
+    "conclusion_place_of_damage": {
+      "$ref": "#/definitions/conclusion_place_of_damage"
+    },
+    "certificate_of_separation": {
+      "$ref": "#/definitions/certificate_of_separation"
+    },
+    "certificate_sro": {
+      "$ref": "#/definitions/certificate_sro"
+    },
+    "warranty_restore": {
+      "$ref": "#/definitions/warranty_restore"
+    },
+    "attachments": {
+      "$ref": "#/definitions/attachments"
+    },
+    "comments": {
+      "$ref": "#/definitions/comments"
+    }
+  }
+}
