@@ -15,6 +15,11 @@ permalink: /uslugi/
 
 |---|---|
 | [Geographic Coordinate](/schemas/geo/point.json) <br> [<small>(canonical url)</small>](/geo/point) | географические координаты точки (широта и долгота) |
+| [Organization](/schemas/organization/ru/organization.json) <br> [<small>(canonical url)</small>](/organization/ru/organization) | Юридическое лицо |
+| [FIO](/schemas/person/ru/fio.json) <br> [<small>(canonical url)</small>](/person/ru/fio) | Фамилия, имя и отчество |
+| [FIO and phone](/schemas/person/ru/fio_phone.json) <br> [<small>(canonical url)</small>](/person/ru/fio_phone) | Фамилия, имя, отчество и номер телефона |
+| [Organization optional](/schemas/document/ru/uslugi/definitions/organization_optional.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/organization_optional) | Юридическое лицо опционально |
+| [Confirmations](/schemas/document/ru/uslugi/definitions/confirmations.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/confirmations) | Подтверждения |
 
 
 Схема:
