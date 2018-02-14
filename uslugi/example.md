@@ -192,3 +192,6 @@ permalink: /uslugi/
   "area_of_damage_to_local_road": "5"
 }
 ```
+
+Показанные выше мета-данные документа "заявление на услугу" должны
+содержаться в стандартном [контейнере документа](/schemas/document/ru/document.json)
