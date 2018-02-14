@@ -4,10 +4,10 @@
     "description": "Russian organization properties",
     "type": "object",
     "properties": {
-        "inn": { "type": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
-        "ogrn": { "type": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },
-        "kpp": { "type": "http://edoc-schema.kzn.ru/classifier/ru/kpp" },
-        "property_form": { "$ref": "http://edoc-schema.kzn.ru/organization/ru/property_form" },
+        "inn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
+        "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },
+        "kpp": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/kpp" },
+        "okopf": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/okopf" },
         "name": { "$ref": "http://edoc-schema.kzn.ru/generic/name" }
     }
 }

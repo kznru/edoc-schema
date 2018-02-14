@@ -2,6 +2,9 @@
     "id": "http://edoc-schema.kzn.ru/identifier/ru/ogrn",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "description": "OGRN",
-    "type": "string",
-    "pattern": "^(?:\\d{13}|\\d{15})$"
+    "type": "object",
+    "properties": {
+      "code": {"type": "number"},
+      "title": {"type": "string"}
+    }
 }
