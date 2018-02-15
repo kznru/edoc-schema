@@ -16,7 +16,7 @@ permalink: /uslugi/signboard_no_lease_living
     "fio": {
       "name": "Ольга",
       "surname": "Иванова",
-      "patronymic_name": "Вячеславовна"
+      "patronymic": "Вячеславовна"
     },
     "mobile": "+70123456789",
     "passport_number": "532135"
