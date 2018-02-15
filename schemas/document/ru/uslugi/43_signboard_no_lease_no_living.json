@@ -48,6 +48,9 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
+    "letter_of_attorney": {
+      "$ref":"#/definitions/letter_of_attorney_optional"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
     },

@@ -31,6 +31,12 @@ permalink: /uslugi/signboard_no_lease_no_living
   },
   "planeta_number": "4245",
   "cadastre_number": "16:50:140212:1831",
+  "letter_of_attorney": {
+  "content": {
+    "files": [
+      "https://s3.uslugi.kzn.ru/uploads/9C12D1AA-5EE1-4C9C-B21D-19BBE04B407D/%D0%94%D0%BE%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C.jpg"
+    ]
+  },
   "address_with_map": {
     "address": {
       "value": "г Казань, пр-кт Победы, д 216",
