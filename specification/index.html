@@ -106,12 +106,14 @@
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/objects_of_work_comments.json">Objects of work comments</a><br /> <a href="/document/ru/uslugi/definitions/objects_of_work_comments"><small>(canonical url)</small></a></td><td>Дополнительное описание необходимых работ</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/person_fio.json">Person fio</a><br /> <a href="/document/ru/uslugi/definitions/person_fio"><small>(canonical url)</small></a></td><td>ФИО и мобильный телефон</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/person_mobile.json">Person mobile</a><br /> <a href="/document/ru/uslugi/definitions/person_mobile"><small>(canonical url)</small></a></td><td>ФИО и мобильный телефон</td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/definitions/planeta_number.json">Planeta number</a><br /> <a href="/document/ru/uslugi/definitions/planeta_number"><small>(canonical url)</small></a></td><td>Номер в ИС Планета задач</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/scanned_document.json">Scanned document</a><br /> <a href="/document/ru/uslugi/definitions/scanned_document"><small>(canonical url)</small></a></td><td>Document</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/topography_of_networks.json">Topography of networks</a><br /> <a href="/document/ru/uslugi/definitions/topography_of_networks"><small>(canonical url)</small></a></td><td>Топосъёмка сетей</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/definitions/warranty_restore.json">Warranty restore</a><br /> <a href="/document/ru/uslugi/definitions/warranty_restore"><small>(canonical url)</small></a></td><td>Document</td></tr>
 <tr><td><a href="/schemas/generic/name.json">Name</a><br /> <a href="/generic/name"><small>(canonical url)</small></a></td><td>Имя</td></tr>
 <tr><td><a href="/schemas/generic/phone_number.json">Phone number</a><br /> <a href="/generic/phone_number"><small>(canonical url)</small></a></td><td>Информация о телефоне человека</td></tr>
 <tr><td><a href="/schemas/geo/point.json">Point</a><br /> <a href="/geo/point"><small>(canonical url)</small></a></td><td>Географическая координата точки</td></tr>
+<tr><td><a href="/schemas/identifier/ru/cadastre_number.json">Cadastre number</a><br /> <a href="/identifier/ru/cadastre_number"><small>(canonical url)</small></a></td><td>Кадастровый номер</td></tr>
 <tr><td><a href="/schemas/identifier/ru/inn.json">Inn</a><br /> <a href="/identifier/ru/inn"><small>(canonical url)</small></a></td><td>ИНН</td></tr>
 <tr><td><a href="/schemas/identifier/ru/ogrn.json">Ogrn</a><br /> <a href="/identifier/ru/ogrn"><small>(canonical url)</small></a></td><td>ОГРН</td></tr>
 <tr><td><a href="/schemas/location/ru/address.json">Address</a><br /> <a href="/location/ru/address"><small>(canonical url)</small></a></td><td>Адрес объекта в формате ФИАС</td></tr>
@@ -120,12 +122,29 @@
 <tr><td><a href="/schemas/person/ru/fio.json">Fio</a><br /> <a href="/person/ru/fio"><small>(canonical url)</small></a></td><td>Фимилия, имя и отчество человека</td></tr>
 <tr><td><a href="/schemas/person/ru/fio_phone.json">Fio phone</a><br /> <a href="/person/ru/fio_phone"><small>(canonical url)</small></a></td><td>Фамилия, имя, отчество и телефон человека</td></tr>
 <tr><td><a href="/schemas/document/ru/uslugi/40_kvb_orders_emergency.json">Emergency orders</a><br /> <a href="/document/ru/uslugi/40_kvb_orders_emergency"><small>(canonical url)</small></a></td><td>Реестр аварийных ордеров на выполнение земляных работ</td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/43_signboard_no_lease_no_living.json">43 signboard no lease no living</a><br /> <a href="/document/ru/uslugi/43_signboard_no_lease_no_living"><small>(canonical url)</small></a></td><td></td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/44_signboard_no_lease_living.json">44 signboard no lease living</a><br /> <a href="/document/ru/uslugi/44_signboard_no_lease_living"><small>(canonical url)</small></a></td><td></td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/45_signboard_lease_no_living.json">45 signboard lease no living</a><br /> <a href="/document/ru/uslugi/45_signboard_lease_no_living"><small>(canonical url)</small></a></td><td></td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/46_signboard_lease_living.json">46 signboard lease living</a><br /> <a href="/document/ru/uslugi/46_signboard_lease_living"><small>(canonical url)</small></a></td><td></td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/47_signboard_lease_separate.json">47 signboard lease separate</a><br /> <a href="/document/ru/uslugi/47_signboard_lease_separate"><small>(canonical url)</small></a></td><td></td></tr>
+<tr><td><a href="/schemas/document/ru/uslugi/48_signboard_no_lease_separate.json">48 signboard no lease separate</a><br /> <a href="/document/ru/uslugi/48_signboard_no_lease_separate"><small>(canonical url)</small></a></td><td></td></tr>
 </tbody>
 </table>
 
 <h2 id="стандартный-контейнер-документа">Стандартный контейнер документа</h2>
+<p>Приведённая выше схема <a href="/schema/document/ru/document.json">Document</a> описывает свойства абстрактного документа.
+Описания конкретных типов документов используют её как контейнер для
+размещения метаданных этого типа документа.</p>
 
-<p>//TODO</p>
+<h2 id="взаимодействие-между-участниками-обмена-документами">Взаимодействие между участниками обмена документами</h2>
+<p>В процессе обмена документами задействованы различные информационные системы.
+Они используют:</p>
+<ul>
+  <li>стандартизированные форматы обмена</li>
+  <li>стандартизированные средства транспорта (TODO: про СМЭВ)</li>
+  <li>связи между документами (ссылки на документы указываются в соответствии с принципами RFC 1738 (URL) и RFC 3986 (URI))</li>
+  <li>типовые структуры данных (см. <a href="/specification">спецификацию</a> и <a href="/examples">примеры</a>)</li>
+</ul>
 
   </div>
 
