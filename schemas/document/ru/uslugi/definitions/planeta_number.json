@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Номер в ИС Планета задач",
+  "type": "string"
+}
