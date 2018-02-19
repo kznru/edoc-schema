@@ -8,7 +8,29 @@ permalink: /specification/
 Стандартные схемы данных
 ------------------------
 
-{% specification_list %}
+### Classifier
+{% specification_list directory_name:classifier %}
+
+### Document
+{% specification_list directory_name:document %}
+
+### Generic
+{% specification_list directory_name:generic %}
+
+### Geo
+{% specification_list directory_name:geo %}
+
+### Identifier
+{% specification_list directory_name:identifier %}
+
+### Location
+{% specification_list directory_name:location %}
+
+### Organization
+{% specification_list directory_name:organization %}
+
+### Person
+{% specification_list directory_name:person %}
 
 Стандартный контейнер документа
 -------------------------------
