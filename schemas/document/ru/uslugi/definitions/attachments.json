@@ -4,6 +4,6 @@
   "description": "Document",
   "type": "array",
   "items": {
-    "$ref": "#/definitions/files_with_description"
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
   }
 }

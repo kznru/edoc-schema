@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "files": {
-      "$ref": "#/definitions/files"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
     }
   }
 }

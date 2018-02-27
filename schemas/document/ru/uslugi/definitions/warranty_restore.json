@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "content": {
-      "$ref": "#/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     }
   }
 }
