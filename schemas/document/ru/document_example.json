@@ -1,0 +1,248 @@
+{
+  "source":{
+    "url":{
+      "name":"DocumentName",
+      "href":"https://tiarno.github.io/plastex/sample2e/index.html"
+    },
+    "information_system":{
+      "name":"IsUslugi"
+    },
+    "external_id":"08C510EA-DB98-47F3-B88B-8C4ADFD40041",
+    "document_type":"text/plain",
+    "document_title":"SingboardLeaseLiving",
+    "document_annotation":"Singboard lease living",
+    "document_description":"Аренда вывески",
+    "registered_at":"2018-02-27 15:23:37 +0300",
+    "organization":{
+      "inn":"6961111343",
+      "kpp":"166001001",
+      "name":"ЗАО СнабСбытТорг",
+      "ogrn":"1171690126871",
+      "value":"6961111343, ЗАО СнабСбытТорг"
+    },
+    "department":{
+      "short_name":"КПР",
+      "full_name":"Комитет потребительского рынка"
+    },
+    "responsible_employee":{
+      "fio":"А.К. Игнатьев",
+      "position":"Заведующий отдела продаж"
+    },
+    "signatures":[
+      {
+        "alg":"ES256",
+        "signature":"wqPX0tUPDxqztSPPPbzuYZCGkO/zD6hnk3EjNUavK3TazR2ACeu1GxlnQvWjDopmqNI="
+      },
+      {
+        "alg":"ES256",
+        "signature":"dUatRR8iYe2lNiejToKbRw+qXySUx3M3knWpQ+uOw2520POel9oiTYobIcZXklTiWjw="
+      }
+    ],
+    "linked_documents":[
+      {
+        "name":"FirstDocument",
+        "type":"text/plain",
+        "url":"https://tiarno.github.io/plastex/sample2e/sect0001.html"
+      },
+      {
+        "name":"SecondDocument",
+        "type":"text/plain",
+        "url":"https://tiarno.github.io/plastex/sample2e/sect0002.html"
+      }
+    ]
+  },
+  "id":"981720cb-14b8-4223-b6e8-7a661043a227",
+  "imported_at":"2018-02-27 14:57:29 +0300",
+  "import_signature":[
+    {
+      "alg":"ES256",
+      "signature":"wqPX0tUPDxqztSPPPbzuYZCGkO/zD6hnk3EjNUavK3TazR2ACeu1GxlnQvWjDopmqNI="
+    },
+    {
+      "alg":"ES256",
+      "signature":"dUatRR8iYe2lNiejToKbRw+qXySUx3M3knWpQ+uOw2520POel9oiTYobIcZXklTiWjw="
+    }
+  ],
+  "access_control_list":[
+    {
+      "alg":"HS256",
+      "typ":"JWT",
+      "value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ"
+    },
+    {
+      "alg":"SHA512",
+      "typ":"JWT",
+      "value":"ggJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ"
+    }
+  ],
+  "linked_documents":[
+    {
+      "name":"FirstDocument",
+      "type":"text/plain",
+      "url":"https://tiarno.github.io/plastex/sample2e/sect0001.html"
+    },
+    {
+      "name":"SecondDocument",
+      "type":"text/plain",
+      "url":"https://tiarno.github.io/plastex/sample2e/sect0002.html"
+    }
+  ],
+  "data":{
+    "address_with_map":{
+      "address":{
+        "value":"г Казань, ул Баумана, д 5",
+        "fias_id":"adb0d03e-6a62-47f1-8c32-40563a41f9b0",
+        "fias_level":"8",
+        "city_district":"Вахитовский р-н",
+        "geo_coordinates":{
+          "lat":55.793858,
+          "lon":49.109125
+        }
+      },
+      "geoJSON":{
+        "type":"FeatureCollection",
+        "features":[
+
+        ]
+      }
+    },
+    "cadastre_number":"123:123:123",
+    "planeta_number":"6312",
+    "passport":{
+      "text":"шоколадница",
+      "image_original":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png",
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      },
+      "image_project":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png",
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      },
+      "image_topographic":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      },
+      "image_constructions":[
+        {
+          "contruction_type":"настенная конструкция в виде световых объёмных букв",
+          "image":{
+            "file":{
+              "description":"буквы",
+              "object":"https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+            }
+          }
+        }
+      ]
+    },
+    "organization":{
+      "name":"ООО \"123АППС\"",
+      "inn":"1655237179",
+      "kpp":"165501001",
+      "ogrn":"1121690006195",
+      "value":"1655237179, ООО \"123АППС\""
+    },
+    "agent":{
+      "passport_number":"123456",
+      "fio":{
+        "name":"Гульсина",
+        "surname":"Юсупова",
+        "patronymic_name":"Муллануровна"
+      },
+      "mobile":"89274321616",
+      "email":"user@host.com"
+    },
+    "application":{
+      "content":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      }
+    },
+    "letter_of_attorney":{
+      "content":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      }
+    },
+    "passport_a":{
+      "files":[
+        "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+      ]
+    },
+    "passport_b":{
+      "files":[
+        "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+      ]
+    },
+    "lease_contracts":[
+      {
+        "landlord_persons":[
+          {
+            "name":"Петр",
+            "surname":"Иванов",
+            "patronymic_name":"Сергеевич"
+          }
+        ],
+        "tenant":{
+          "value":"1656001458, МБДОУ \"ДЕТСКИЙ САД № 321\"",
+          "name":"МБДОУ \"ДЕТСКИЙ САД № 321\"",
+          "inn":"1656001458",
+          "kpp":"165601001",
+          "ogrn":"1021603064097"
+        },
+        "valid_from":"2018-02-01",
+        "valid_to":"2018-03-31",
+        "content":{
+          "files":[
+            "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+          ]
+        }
+      },
+      {
+        "landlord_organizations":[
+          {
+            "value":"1656001458, МБДОУ \"ДЕТСКИЙ САД № 321\"",
+            "name":"МБДОУ \"ДЕТСКИЙ САД № 321\"",
+            "inn":"1656001458",
+            "kpp":"165601001",
+            "ogrn":"1021603064097"
+          }
+        ],
+        "tenant":{
+          "value":"1655237179, ООО \"123АППС\"",
+          "name":"ООО \"123АППС\"",
+          "inn":"1655237179",
+          "kpp":"165501001",
+          "ogrn":"1121690006195"
+        },
+        "valid_from":"2018-02-01",
+        "valid_to":"2018-02-28",
+        "content":{
+          "files":[
+            "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+          ]
+        }
+      }
+    ],
+    "passport_bti":{
+      "bti":"БТИ МСиЖКХ РТ",
+      "inventory_number":"123",
+      "appartment_number":"123",
+      "another_location":"сбоку от входа",
+      "issue_date":"2018-02-20",
+      "content":{
+        "files":[
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png",
+          "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
+        ]
+      }
+    },
+    "passport_id":46
+  }
+}
