@@ -1,18 +1,15 @@
 {
   "source":{
-    "url":{
-      "name":"DocumentName",
-      "href":"https://tiarno.github.io/plastex/sample2e/index.html"
-    },
+    "url":"https://example.uslugi.kzn.ru/servant/uslugas/1292",
     "information_system":{
-      "name":"IsUslugi"
+      "title":"USLUGI.KZN"
     },
-    "external_id":"08C510EA-DB98-47F3-B88B-8C4ADFD40041",
-    "document_type":"text/plain",
+    "external_id":"PO0313-0001",
+    "document_type":"Электронное заявление",
     "document_title":"SingboardLeaseLiving",
-    "document_annotation":"Singboard lease living",
-    "document_description":"Аренда вывески",
-    "registered_at":"2018-02-27 15:23:37 +0300",
+    "document_annotation":"",
+    "document_description":"Согласование проекта размещения средства наружной информации - аренда, жилой дом",
+    "registered_at":"2017-11-08 10:19:43 +0300",
     "organization":{
       "inn":"6961111343",
       "kpp":"166001001",
@@ -21,33 +18,37 @@
       "value":"6961111343, ЗАО СнабСбытТорг"
     },
     "department":{
-      "short_name":"КПР",
-      "full_name":"Комитет потребительского рынка"
+      "short_name":"ТСЖ",
+      "full_name":"ТСЖ ПромПромПром"
     },
     "responsible_employee":{
-      "fio":"А.К. Игнатьев",
-      "position":"Заведующий отдела продаж"
+      "fio":{
+        "name":"Михаил",
+        "surname":"Александров",
+        "patronymic_name":"Генадьевич"
+      },
+      "mobile":"70000000218"
     },
     "signatures":[
       {
-        "alg":"ES256",
-        "signature":"wqPX0tUPDxqztSPPPbzuYZCGkO/zD6hnk3EjNUavK3TazR2ACeu1GxlnQvWjDopmqNI="
+        "typ":"JWT",
+        "alg":"HS256",
+        "signature":"eyJ0eXAiOiJKV1QiLA0KICJhbGciOiJIUzI1NiJ9"
       },
       {
-        "alg":"ES256",
-        "signature":"dUatRR8iYe2lNiejToKbRw+qXySUx3M3knWpQ+uOw2520POel9oiTYobIcZXklTiWjw="
+        "typ":"JWT",
+        "alg":"RS256",
+        "signature":"eyJhbGciOiJSUzI1NiJ9"
       }
     ],
     "linked_documents":[
       {
-        "name":"FirstDocument",
-        "type":"text/plain",
-        "url":"https://tiarno.github.io/plastex/sample2e/sect0001.html"
+        "title":"ImageProject",
+        "url":"https://example.uslugi.kzn.ru/uploads-dev/scanned_document.jpg"
       },
       {
-        "name":"SecondDocument",
-        "type":"text/plain",
-        "url":"https://tiarno.github.io/plastex/sample2e/sect0002.html"
+        "title":"Certificate of registration of law",
+        "url":"https://example.uslugi.kzn.ru/uploads-dev/scanned_document.jpg"
       }
     ]
   },
@@ -55,36 +56,36 @@
   "imported_at":"2018-02-27 14:57:29 +0300",
   "import_signature":[
     {
-      "alg":"ES256",
-      "signature":"wqPX0tUPDxqztSPPPbzuYZCGkO/zD6hnk3EjNUavK3TazR2ACeu1GxlnQvWjDopmqNI="
+      "typ":"JWT",
+      "alg":"HS256",
+      "signature":"OcCiQKAJGLe9hV0IiKOXieIUJ0JJyiIJz1iAb1Ni"
     },
     {
-      "alg":"ES256",
-      "signature":"dUatRR8iYe2lNiejToKbRw+qXySUx3M3knWpQ+uOw2520POel9oiTYobIcZXklTiWjw="
+      "typ":"JWT",
+      "alg":"RS256",
+      "signature":"Ii19zJbhONUSiyeiGJcJ"
     }
   ],
   "access_control_list":[
     {
-      "alg":"HS256",
-      "typ":"JWT",
-      "value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ"
+      "role":"guest",
+      "canRead":true,
+      "canEdit":false
     },
     {
-      "alg":"SHA512",
-      "typ":"JWT",
-      "value":"ggJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ"
+      "role":"owner",
+      "canRead":true,
+      "canEdit":true
     }
   ],
   "linked_documents":[
     {
-      "name":"FirstDocument",
-      "type":"text/plain",
-      "url":"https://tiarno.github.io/plastex/sample2e/sect0001.html"
+      "title":"Соглашение",
+      "url":"https://example.uslugi.kzn.ru/uploads-dev/agreement.pdf"
     },
     {
-      "name":"SecondDocument",
-      "type":"text/plain",
-      "url":"https://tiarno.github.io/plastex/sample2e/sect0002.html"
+      "title":"Лицензия",
+      "url":"https://example.uslugi.kzn.ru/uploads-dev/license_copy.pdf"
     }
   ],
   "data":{
