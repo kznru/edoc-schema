@@ -53,10 +53,10 @@
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "passport_bti": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Паспорт БТИ"
     },
     "attachments": {

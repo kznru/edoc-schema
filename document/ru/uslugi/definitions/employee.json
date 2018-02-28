@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/employee",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Работник",
+  "type": "object",
+  "properties": {
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_fio", "title": "ФИО"},
+    "phone": {"type": "string"}
+  }
+}

@@ -1,15 +1,1 @@
-{
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations",
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Подтверждения",
-  "type": "array",
-  "minItems": 2,
-  "uniqueItems": true,
-  "items": {
-    "type": "string",
-    "enum": [
-      "я ознакомлен с регламентом предоставления услуги",
-      "я ознакомлен с правилами благоустройства г.Казани"
-    ]
-  }
-}
+confirmations.json

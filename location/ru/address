@@ -1,17 +1,1 @@
-{
-    "id": "http://edoc-schema.kzn.ru/location/ru/address",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Адрес объекта в формате ФИАС",
-    "type": "object",
-    "properties": {
-        "fias_id": { "type": "guid" },
-        "fias_level": { "type": "number" },
-        "zip": { "type": "number" },
-        "region": { "type": "string" },
-        "district": { "type": "string" },
-        "city": { "type": "string" },
-        "street": { "type": "string" },
-        "house": { "type": "string" },
-        "text": { "type": "string" }
-    }
-}
+address.json

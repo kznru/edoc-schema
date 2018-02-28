@@ -1,13 +1,1 @@
-{
-    "id": "http://edoc-schema.kzn.ru/organization/ru/organization",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Информация о российской организации",
-    "type": "object",
-    "properties": {
-        "inn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
-        "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },
-        "kpp": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/kpp" },
-        "okopf": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/okopf" },
-        "name": { "$ref": "http://edoc-schema.kzn.ru/generic/name" }
-    }
-}
+organization.json

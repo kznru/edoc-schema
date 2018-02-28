@@ -1,0 +1,6 @@
+{
+    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Изображение конструкции",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
+}

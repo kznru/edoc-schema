@@ -1,11 +1,1 @@
-{
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application",
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Заявление",
-  "type": "object",
-  "properties": {
-    "content": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    }
-  }
-}
+application.json

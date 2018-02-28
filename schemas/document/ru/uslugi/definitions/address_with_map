@@ -1,17 +1,1 @@
-{
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map",
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Описание местоположения",
-  "type": "object",
-  "properties": {
-    "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
-    },
-    "geoJSON": {
-      "$ref": "http://edoc-schema.kzn.ru/geo/point", "default": {
-        "type": "FeatureCollection", "features": []
-      }
-    }
-  },
-  "required": ["geoJSON"]
-}
+address_with_map.json

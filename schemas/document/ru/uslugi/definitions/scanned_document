@@ -1,11 +1,1 @@
-{
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Document",
-  "type": "object",
-  "properties": {
-    "files": {
-      "$ref": "#/definitions/files"
-    }
-  }
-}
+scanned_document.json

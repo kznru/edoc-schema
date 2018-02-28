@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_url",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Ссылка на документ",
+  "type": "string"
+}
