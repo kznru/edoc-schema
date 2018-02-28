@@ -2,11 +2,12 @@
   "source":{
     "url":"https://example.uslugi.kzn.ru/servant/uslugas/1292",
     "information_system":{
+      "id": "23450cb-14b8-4223-b6e8-7a661043a227",
       "title":"USLUGI.KZN"
     },
     "external_id":"PO0313-0001",
-    "document_type":"Электронное заявление",
-    "document_title":"SingboardLeaseLiving",
+    "document_type":"SingboardLeaseLiving",
+    "document_title":"Заявление на предоставление услуги в электронном виде",
     "document_annotation":"",
     "document_description":"Согласование проекта размещения средства наружной информации - аренда, жилой дом",
     "registered_at":"2017-11-08 10:19:43 +0300",
@@ -18,8 +19,9 @@
       "value":"6961111343, ЗАО СнабСбытТорг"
     },
     "department":{
-      "short_name":"ТСЖ",
-      "full_name":"ТСЖ ПромПромПром"
+      "short_name":"Минкульт",
+      "full_name":"Министерство культуры",
+      "official_name":"Министерство культуры республики Татарстан"
     },
     "responsible_employee":{
       "fio":{
@@ -27,17 +29,17 @@
         "surname":"Александров",
         "patronymic_name":"Генадьевич"
       },
-      "mobile":"70000000218"
+      "phone":"78431231234"
     },
     "signatures":[
       {
-        "typ":"JWT",
-        "alg":"HS256",
+        "type":"JWT",
+        "algorithm":"HS256",
         "signature":"eyJ0eXAiOiJKV1QiLA0KICJhbGciOiJIUzI1NiJ9"
       },
       {
-        "typ":"JWT",
-        "alg":"RS256",
+        "type":"JWT",
+        "algorithm":"RS256",
         "signature":"eyJhbGciOiJSUzI1NiJ9"
       }
     ],
