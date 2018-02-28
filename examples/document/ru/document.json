@@ -71,13 +71,13 @@
   "access_control_list":[
     {
       "role":"guest",
-      "canRead":true,
-      "canEdit":false
+      "read":true,
+      "edit":false
     },
     {
       "role":"owner",
-      "canRead":true,
-      "canEdit":true
+      "read":true,
+      "edit":true
     }
   ],
   "linked_documents":[
