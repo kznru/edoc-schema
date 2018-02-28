@@ -6,7 +6,7 @@
       "title":"USLUGI.KZN"
     },
     "external_id":"PO0313-0001",
-    "document_type":"SingboardLeaseLiving",
+    "document_type":"signboard_lease_living",
     "document_title":"Заявление на предоставление услуги в электронном виде",
     "document_annotation":"",
     "document_description":"Согласование проекта размещения средства наружной информации - аренда, жилой дом",
@@ -245,7 +245,6 @@
           "https://s3.uslugi.kzn.ru/uploads-dev/9DFA496D-266E-4273-AD6C-8A5DE319DC67/1.png"
         ]
       }
-    },
-    "passport_id":46
+    }
   }
 }
