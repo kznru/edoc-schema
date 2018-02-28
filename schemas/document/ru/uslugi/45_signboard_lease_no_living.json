@@ -53,7 +53,7 @@
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
