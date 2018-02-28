@@ -44,12 +44,12 @@
     ],
     "linked_documents":[
       {
-        "title":"ImageProject",
-        "url":"https://example.uslugi.kzn.ru/uploads-dev/scanned_document.jpg"
+        "title":"Usluga Request",
+        "url":"https://example.uslugi.kzn.ru/servant/usluga_requests/1200.xml"
       },
       {
-        "title":"Certificate of registration of law",
-        "url":"https://example.uslugi.kzn.ru/uploads-dev/scanned_document.jpg"
+        "title":"Usluga Info",
+        "url":"https://example.uslugi.kzn.ru/servant/usluga_infos/1100.xml"
       }
     ]
   },
@@ -81,12 +81,12 @@
   ],
   "linked_documents":[
     {
-      "title":"Соглашение",
-      "url":"https://example.uslugi.kzn.ru/uploads-dev/agreement.pdf"
+      "title":"Usluga Request",
+      "url":"https://example.uslugi.kzn.ru/servant/usluga_requests/3200.xml"
     },
     {
-      "title":"Лицензия",
-      "url":"https://example.uslugi.kzn.ru/uploads-dev/license_copy.pdf"
+      "title":"Usluga Info",
+      "url":"https://example.uslugi.kzn.ru/servant/usluga_infos/3100.xml"
     }
   ],
   "data":{
