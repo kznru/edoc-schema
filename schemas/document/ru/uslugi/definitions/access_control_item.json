@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/access_control_item",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Элемент успавления доступом",
+  "type": "string"
+}
