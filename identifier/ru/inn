@@ -1,1 +1,7 @@
-inn.json
+{
+    "id": "http://edoc-schema.kzn.ru/identifier/ru/inn",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "ИНН",
+    "type": "string",
+    "pattern": "^(?:\\d{10}|\\d{12})$"
+}

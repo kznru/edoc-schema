@@ -1,1 +1,10 @@
-okopf.json
+{
+    "id": "http://edoc-schema.kzn.ru/identifier/ru/ogrn",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "ОКОПФ",
+    "type": "object",
+    "properties": {
+      "code": {"type": "number"},
+      "title": {"type": "string"}
+    }
+}

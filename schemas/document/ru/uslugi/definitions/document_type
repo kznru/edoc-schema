@@ -1,1 +1,6 @@
-document_type.json
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Тип документа",
+  "type": "string"
+}

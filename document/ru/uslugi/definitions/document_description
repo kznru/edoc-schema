@@ -1,1 +1,6 @@
-document_description.json
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_description",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Описание документа",
+  "type": "string"
+}

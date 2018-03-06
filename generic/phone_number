@@ -1,1 +1,8 @@
-phone_number.json
+{
+    "id": "http://edoc-schema.kzn.ru/generic/phone_number",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Информация о телефоне человека",
+    "country_code": {"type": "number"},
+    "region_code": {"type": "number"},
+    "number": {"type": "number"}
+}

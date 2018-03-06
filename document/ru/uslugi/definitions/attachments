@@ -1,1 +1,9 @@
-attachments.json
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Приложение",
+  "type": "array",
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
+  }
+}

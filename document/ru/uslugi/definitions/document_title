@@ -1,1 +1,6 @@
-document_title.json
+{
+    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_title",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Название документа",
+    "type": "string"
+}

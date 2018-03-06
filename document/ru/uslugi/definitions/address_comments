@@ -1,1 +1,6 @@
-address_comments.json
+{
+    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_comments",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Описание местоположения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
+}

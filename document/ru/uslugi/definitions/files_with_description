@@ -1,1 +1,14 @@
-files_with_description.json
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Файлы с описанием",
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string"
+      },
+    "files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    }
+  }
+}

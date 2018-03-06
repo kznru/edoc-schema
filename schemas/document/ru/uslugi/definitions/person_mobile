@@ -1,1 +1,15 @@
-person_mobile.json
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "ФИО и мобильный телефон",
+  "type": "object",
+  "properties": {
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_fio", "title": "ФИО"
+    },
+    "mobile": {
+      "type": "string", "title": "Мобильный телефон"
+    }
+  },
+  "required": ["fio", "mobile"]
+}

@@ -1,1 +1,6 @@
-kpp.json
+{
+    "id": "http://edoc-schema.kzn.ru/classifier/ru/kpp",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "КПП",
+    "type": "string"
+}
