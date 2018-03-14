@@ -3,9 +3,5 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Отсканированный документ",
   "type": "object",
-  "properties": {
-    "files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
-    }
-  }
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
 }

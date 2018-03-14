@@ -1,0 +1,14 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map_and_comments",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Описание местоположения с комментариями",
+  "type": "object",
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_comments"
+    }
+  }
+}

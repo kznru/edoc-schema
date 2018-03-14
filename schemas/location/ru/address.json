@@ -1,6 +1,7 @@
 {
     "id": "http://edoc-schema.kzn.ru/location/ru/address",
     "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Адрес",
     "description": "Адрес объекта в формате ФИАС",
     "type": "object",
     "properties": {
@@ -12,6 +13,6 @@
         "city": { "type": "string" },
         "street": { "type": "string" },
         "house": { "type": "string" },
-        "text": { "type": "string" }
+        "value": { "type": "string" }
     }
 }

@@ -3,10 +3,5 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Доверенность",
   "type": "object",
-  "title": "Доверенность",
-  "properties": {
-    "content": {
-     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    }
-  }
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

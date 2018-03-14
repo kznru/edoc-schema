@@ -6,7 +6,7 @@
   "properties": {
     "description": {
       "type": "string"
-      },
+    },
     "files": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
     }
