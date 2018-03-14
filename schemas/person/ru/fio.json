@@ -1,11 +1,12 @@
 {
-    "id": "http://edoc-schema.kzn.ru/person/fio",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Фимилия, имя и отчество человека",
-    "type": "object",
-    "properties": {
-        "surname": { "type": "string" },
-        "name": { "type": "string" },
-        "patronimic": { "type": "string" }
-    }
+  "id": "http://edoc-schema.kzn.ru/person/fio",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Фимилия, имя и отчество человека",
+  "type": "object",
+  "properties": {
+    "raw": {"type": "string", "title": "фио"},
+    "name": {"type": "string", "title": "Имя"},
+    "surname": {"type": "string", "title": "Фамилия"},
+    "patronymic": {"type": "string", "title": "Отчество"}
+  }
 }

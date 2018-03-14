@@ -1,16 +1,1 @@
-{
-    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Договор аренды",
-    "type": "object",
-    "properties": {
-      "landlord_persons": {"type": "array", "items": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_fio"}, "title": "Арендодатель - физ.лицо(а)"},
-      "landlord_organizations": {"type": "array", "items": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"}, "title": "Арендодатель - юр.лицо(а)"},
-      "tenant": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Арендатор"},
-      "valid_from": {"type": "string", "format": "date", "title": "Действителен от"},
-      "valid_to": {"type": "string", "format": "date", "title": "Действителен до"},
-      "valid_forever": {"type": "boolean", "title": "Бессрочный"},
-      "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
-    },
-    "required": ["valid_from"]
-  }
+lease_contract.json

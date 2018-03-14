@@ -1,16 +1,14 @@
 {
-    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Паспорт БТИ",
-    "type": "object",
-    "properties": {
-      "bti": {"type": "string", "title": "БТИ", "enum": ["БТИ МСиЖКХ РТ","БТИ Вахитовского района","АО Росинвентаризация - Федеральное БТИ отделение по РТ","БТИ ООО 'Таткадастр'","РГУП БТИ","Зеленодольское подразделение ОКД РГУП БТИ","Филиал ФГУП 'Ростехинвентаризация - Федеральное БТИ' по РТ","ОТИ Московского района г.Казани","ОТИ Кировского района г.Казани","другое БТИ - укажите его наименование в комментариях"]},
-      "inventory_number": {"type": "string", "title": "Инвентарный номер"},
-      "appartment_number": {"type": "string", "title": "Номер помещения"},
-      "another_location": {"type": "string", "title": "Иное месторасположение"},
-      "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
-      "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
-    }
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Паспорт БТИ",
+  "type": "object",
+  "properties": {
+    "bti": {"type": "string", "title": "БТИ", "enum": ["БТИ МСиЖКХ РТ","БТИ Вахитовского района","АО Росинвентаризация - Федеральное БТИ отделение по РТ","БТИ ООО 'Таткадастр'","РГУП БТИ","Зеленодольское подразделение ОКД РГУП БТИ","Филиал ФГУП 'Ростехинвентаризация - Федеральное БТИ' по РТ","ОТИ Московского района г.Казани","ОТИ Кировского района г.Казани","другое БТИ - укажите его наименование в комментариях"]},
+    "inventory_number": {"type": "string", "title": "Инвентарный номер"},
+    "appartment_number": {"type": "string", "title": "Номер помещения"},
+    "another_location": {"type": "string", "title": "Иное месторасположение"},
+    "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
   }
-
-
+}
