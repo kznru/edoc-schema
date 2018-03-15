@@ -32,8 +32,8 @@ permalink: /uslugi/
 | [Confirmations](/schemas/document/ru/uslugi/definitions/confirmations.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/confirmations) | Подтверждения |
 | [Certificate SRO](/schemas/document/ru/uslugi/definitions/certificate_sro.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/certificate_sro) | Свидетельство СРО |
 | [Person mobile](/schemas/document/ru/uslugi/definitions/person_mobile.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/person_mobile) | Мобильный телефон |
-| [Address with map](/schemas/document/ru/uslugi/definitions/address_with_map.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/address_with_map) | Адрес с картой |
-| [Address comments](/schemas/document/ru/uslugi/definitions/address_comments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/address_comments) | Комментарий к адресу |
+| [Address with map](/schemas/location/ru/address_with_map.json) <br> [<small>(canonical url)</small>](/location/ru/address_with_map) | Адрес с картой |
+| [Address comments](/schemas/location/ru/address_comments.json) <br> [<small>(canonical url)</small>](/location/ru/address_comments) | Комментарий к адресу |
 | [Objects of work comments](/schemas/document/ru/uslugi/definitions/objects_of_work_comments.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/objects_of_work_comments) | Дополнительное описание необходимых работ |
 | [Letter of attorney](/schemas/document/ru/uslugi/definitions/letter_of_attorney.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/letter_of_attorney) | Доверенность |
 | [Application](/schemas/document/ru/uslugi/definitions/application.json) <br> [<small>(canonical url)</small>](/document/ru/uslugi/definitions/application) | Приложение |

@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -29,7 +29,7 @@
       "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "situational_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map_and_comments",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
       "title": "Ситуационный план",
       "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги"
     },

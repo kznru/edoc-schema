@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map",
+  "id": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Описание местоположения",
   "type": "object",
