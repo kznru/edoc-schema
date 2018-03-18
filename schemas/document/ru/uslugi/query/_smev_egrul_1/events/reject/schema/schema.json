@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Не найдено",
+          "Другое",
+        ]
+      },
+      "uniqueItems": true,
+    },
+    "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"},
+  },
+}

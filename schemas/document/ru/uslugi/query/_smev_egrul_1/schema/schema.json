@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    }
+  },
+}
