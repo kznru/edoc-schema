@@ -8,11 +8,11 @@
         "type": "string",
         "enum": [
           "Реестр недоступен",
-          "Другое",
+          "Другое"
         ]
       },
-      "uniqueItems": true,
+      "uniqueItems": true
     },
-    "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"},
-  },
+    "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"}
+  }
 }

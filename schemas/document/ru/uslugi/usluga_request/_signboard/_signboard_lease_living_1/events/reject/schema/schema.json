@@ -10,7 +10,7 @@
         "lease_contracts": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Договора аренды"
-        },
+        }
       }
     }
   }

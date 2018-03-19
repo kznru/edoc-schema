@@ -10,10 +10,10 @@
           "Подача документов ненадлежащим лицом",
           "Несоответствие представленных документов перечню документов, указанных в пункте 2.5 Регламента муниципальной услуги",
           "В заявлении и прилагаемых к заявлению документах имеются неоговоренные исправления, серьёзные повреждения, не позволяющие однозначно истолковать их содержание",
-          "Предоставление документов в ненадлежащий орган",
+          "Предоставление документов в ненадлежащий орган"
         ]
       },
-      "uniqueItems": true,
+      "uniqueItems": true
     },
     "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"},
     "application_missings": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_application"},
@@ -30,7 +30,7 @@
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
-        },
+        }
       }
     },
     "attachments": {

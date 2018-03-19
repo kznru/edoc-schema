@@ -8,10 +8,10 @@
         "type": "string",
         "enum": [
           "Не найдено",
-          "Найдено",
+          "Найдено"
         ]
       },
-      "uniqueItems": true,
+      "uniqueItems": true
     },
     "registry_items": {
       "type": "array",
@@ -21,9 +21,9 @@
         "properties": {
           "id": {"type": "integer", "title": "ID"},
           "registry_id": {"type": "integer", "title": "registry_id"},
-          "title": {"type": "string", "title": "Наименование"},
+          "title": {"type": "string", "title": "Наименование"}
         }
       }
-    },
-  },
+    }
+  }
 }
