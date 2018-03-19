@@ -41,7 +41,7 @@ class SchemaGenerator
 
     unless next_subdir.nil? || next_subdir.empty?
       data ||= {}
-      data = prepare_base(data, previous_dirs + [next_subdir], debug)
+      data = deep_merge(data, prepare_base(data, previous_dirs + [next_subdir], debug))
       data = deep_merge({debug: previous_dirs}, data) if debug
       generate_schemas(data, previous_dirs + [next_subdir], future_dirs, debug)
     else
