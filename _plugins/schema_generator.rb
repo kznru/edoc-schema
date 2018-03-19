@@ -38,6 +38,7 @@ class SchemaGenerator
         data_copy  = prepare(data_copy, previous_dirs + [subdir], debug)
         data_copy  = deep_merge(data, data_copy) unless replace_folder?(previous_dirs + [subdir])
         build_file = build_folder?(previous_dirs + [subdir])
+        byebug
         build(data_copy, build_file) if build_file
       end
 
