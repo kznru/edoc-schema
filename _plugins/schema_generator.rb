@@ -69,7 +69,9 @@ class SchemaGenerator
 
   def build_folder?(previous_dirs)
     build_file = @start_path.join(previous_dirs.join('/')).join('.build')
-    build_file.exist? ? File.open(build_file){ |f| f.readline } : false
+    return false unless build_file.exist?
+    return previous_dirs.last if build_file.empty?
+    File.open(build_file) { |f| previous_dirs.last + f.readline }
   end
 
   def replace_folder?(previous_dirs)
