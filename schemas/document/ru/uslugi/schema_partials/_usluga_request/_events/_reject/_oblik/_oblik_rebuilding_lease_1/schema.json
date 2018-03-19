@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "documents": {
+      "properties": {
+        "passport_bti": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Паспорт БТИ",
+          "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+        },
+        "non_capitality_conclusion": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Разрешение на использование земли без предоставления",
+          "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
+        },
+        "lease_contracts": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Договора аренды",
+          "description": "Копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект,  которые являются местом нахождения (местом осуществления деятельности) организации, индивидуального предпринимателя (при наличии документов, не подлежащих государственной регистрации)"
+        }
+      }
+    }
+  }
+}
