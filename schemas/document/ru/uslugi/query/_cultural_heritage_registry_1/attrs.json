@@ -1,4 +1,0 @@
-{
-  "type": "Query::Registry",
-  "params": {"mode": "blocked", "registry_id": 1}
-}
