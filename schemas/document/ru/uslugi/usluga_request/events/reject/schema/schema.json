@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Подача документов ненадлежащим лицом",
+          "Несоответствие представленных документов перечню документов, указанных в пункте 2.5 Регламента муниципальной услуги",
+          "В заявлении и прилагаемых к заявлению документах имеются неоговоренные исправления, серьёзные повреждения, не позволяющие однозначно истолковать их содержание",
+          "Предоставление документов в ненадлежащий орган",
+        ]
+      },
+      "uniqueItems": true,
+    },
+    "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"},
+    "application_missings": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_application"},
+    "documents": {
+      "title": "Документы",
+      "type": "object",
+      "properties": {
+        "identity document": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Документ удостоверяющий личность",
+          "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
+        },
+        "letter_of_attorney": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Доверенность",
+          "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
+        },
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "documents": {
+      "properties": {
+        "passport_bti": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Паспорт БТИ",
+          "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией (при размещении СНИ на фасадах встроенных нежилых помещений многоквартирных жилых домов), или их скан-копии (при заполнении электронной формы)."
+        },
+        "lease_contracts": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Договора аренды"
+        },
+      }
+    }
+  }
+}

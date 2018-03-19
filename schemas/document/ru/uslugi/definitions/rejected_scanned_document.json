@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "enum": [
+    "документ отсутствует",
+    "документ нечитаемый",
+    "документ неправильно составлен",
+    "сомнения в достоверности документа",
+  ],
+}
