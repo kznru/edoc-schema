@@ -1,48 +1,59 @@
 require 'json'
 require 'yaml'
 require 'pathname'
+require 'pp'
 require 'byebug'
 
 class SchemaGenerator
   def initialize(start_path, build_path, result_path)
-    @start_path = Pathname.new(start_path)
-    @build_path = Pathname.new(build_path)
+    @start_path  = Pathname.new(start_path)
+    @build_path  = Pathname.new(build_path)
     @result_path = Pathname.new(result_path)
+
+    @future_dirs = build_path.sub(start_path, '').split('/').select{|dir| dir unless dir.empty?}
   end
 
   def make
-    data = prepare({}, [], true)
+    @data = prepare_base({}, [], true)
+    generate_schemas(@data, [], @future_dirs, true)
   end
 
   private
 
-  def prepare(data, previous_dirs = [], debug = false)
+  def prepare_base(data, previous_dirs = [], debug = false)
     subdirs = get_subdirs(previous_dirs)
 
     next_data_input = file_type_exist(previous_dirs)
     if ['yaml', 'json'].include? next_data_input[:type]
       return next_data_input[:file_data]
     else
-      data_copy = data.clone
       subdirs[:attribures].each do |subdir|
         data[subdir] ||= {}
-        data_copy[subdir] = {}
-        data_copy[subdir] = prepare(data_copy[subdir], previous_dirs + [subdir], debug)
-        data_copy[subdir] = deep_merge({debug: previous_dirs}, data_copy[subdir]) if debug
+        data[subdir] = prepare_base(data[subdir], previous_dirs + [subdir], debug)
+        data[subdir] = deep_merge({debug: previous_dirs}, data[subdir]) if debug
       end
+      return data
+    end
+  end
 
-      data = deep_merge(data, data_copy)
+  def generate_schemas(data, previous_dirs = [], future_dirs = [], debug = false)
+    next_subdir = future_dirs.shift
 
-      subdirs[:keys].each do |subdir|
+    unless next_subdir.nil? || next_subdir.empty?
+      data_copy = data.clone
+      data_copy ||= {}
+      data_copy = prepare_base(data_copy, previous_dirs + [next_subdir], debug)
+      data_copy = deep_merge({debug: previous_dirs}, data_copy) if debug
+      generate_schemas(data_copy, previous_dirs + [next_subdir], future_dirs, debug)
+    else
+      subdirs = get_subdirs(previous_dirs)
+      subdirs[:attribures].each do |subdir|
         data_copy  = data.clone
-        data_copy  = prepare(data_copy, previous_dirs + [subdir], debug)
-        data_copy  = deep_merge(data, data_copy) unless replace_folder?(previous_dirs + [subdir])
-        build_file = build_folder?(previous_dirs + [subdir])
-        byebug
+        data_copy[subdir]  = prepare_base(data_copy[subdir], previous_dirs + [subdir], debug)
+        data_copy[subdir]  = deep_merge(data[subdir], data_copy[subdir]) unless replace_folder?(previous_dirs + [subdir])
+        build_file = build_folder?(previous_dirs)
         build(data_copy, build_file) if build_file
       end
-
-      return data
     end
   end
 
@@ -91,7 +102,7 @@ class SchemaGenerator
         h2_val
       elsif h2_val.nil?
         h1_val
-      elsif h1_val.is_a?(Hash) && h2_val.is_a?(Hash)
+      elsif !h1_val.is_a?(Hash) || !h2_val.is_a?(Hash)
         h2_val
       else
         deep_merge(h1_val, h2_val)
