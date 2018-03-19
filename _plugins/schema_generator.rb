@@ -20,7 +20,7 @@ class SchemaGenerator
 
   private
 
-  def prepare_base(data, previous_dirs = [], debug = false)
+  def prepare_base(data = {}, previous_dirs = [], debug = false)
     subdirs = get_subdirs(previous_dirs)
 
     next_data_input = file_type_exist(previous_dirs)
@@ -36,23 +36,23 @@ class SchemaGenerator
     end
   end
 
-  def generate_schemas(data, previous_dirs = [], future_dirs = [], debug = false)
+  def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], debug = false)
     next_subdir = future_dirs.shift
 
     unless next_subdir.nil? || next_subdir.empty?
-      data_copy = data.clone
-      data_copy ||= {}
-      data_copy = prepare_base(data_copy, previous_dirs + [next_subdir], debug)
-      data_copy = deep_merge({debug: previous_dirs}, data_copy) if debug
-      generate_schemas(data_copy, previous_dirs + [next_subdir], future_dirs, debug)
+      data ||= {}
+      data = prepare_base(data, previous_dirs + [next_subdir], debug)
+      data = deep_merge({debug: previous_dirs}, data) if debug
+      generate_schemas(data, previous_dirs + [next_subdir], future_dirs, debug)
     else
       subdirs = get_subdirs(previous_dirs)
-      subdirs[:attribures].each do |subdir|
-        data_copy  = data.clone
-        data_copy[subdir]  = prepare_base(data_copy[subdir], previous_dirs + [subdir], debug)
-        data_copy[subdir]  = deep_merge(data[subdir], data_copy[subdir]) unless replace_folder?(previous_dirs + [subdir])
-        build_file = build_folder?(previous_dirs)
-        build(data_copy, build_file) if build_file
+
+      build_file = build_folder?(previous_dirs)
+      build(data, build_file) if build_file
+
+      subdirs[:keys].each do |subdir|
+        data_copy = data.clone
+        data_copy = generate_schemas(data_copy, previous_dirs + [subdir], future_dirs, debug)
       end
     end
   end
