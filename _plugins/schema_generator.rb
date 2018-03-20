@@ -80,12 +80,11 @@ class SchemaGenerator
 
   def replace_folder?(previous_dirs)
     replace_file = @start_path.join(previous_dirs.join('/')).join('.replace')
-    byebug
     replace_file.exist?
   end
 
   def build(data, file_name)
-    result_file = @result_path.join("#{file_name.strip}.json")
+    result_file = @result_path.join("#{file_name.strip[1..-1]}.json")
     File.open(result_file,"w") do |f|
       f.write(data.to_json)
     end
