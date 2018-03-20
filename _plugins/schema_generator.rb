@@ -41,7 +41,11 @@ class SchemaGenerator
 
     unless next_subdir.nil? || next_subdir.empty?
       data ||= {}
-      data = deep_merge(data, prepare_base(data, previous_dirs + [next_subdir], debug))
+      if replace_folder?(previous_dirs + [next_subdir])
+        data = prepare_base(data, previous_dirs + [next_subdir], debug)
+      else
+        data = deep_merge(data, prepare_base(data, previous_dirs + [next_subdir], debug))
+      end
       data = deep_merge({debug: previous_dirs}, data) if debug
       generate_schemas(data, previous_dirs + [next_subdir], future_dirs, debug)
     else
@@ -76,6 +80,7 @@ class SchemaGenerator
 
   def replace_folder?(previous_dirs)
     replace_file = @start_path.join(previous_dirs.join('/')).join('.replace')
+    byebug
     replace_file.exist?
   end
 
