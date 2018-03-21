@@ -14,8 +14,8 @@ class SchemaGenerator
   end
 
   def make
-    @data = prepare_base({}, [], true)
-    generate_schemas(@data, [], @future_dirs, true)
+    @data = prepare_base({}, [])
+    generate_schemas(@data, [], @future_dirs)
   end
 
   private
@@ -27,6 +27,7 @@ class SchemaGenerator
     if ['yaml', 'json'].include? next_data_input[:type]
       return next_data_input[:file_data]
     else
+
       subdirs[:attributes].each do |subdir|
         data[subdir] ||= {}
         data[subdir] = prepare_base(data[subdir], previous_dirs + [subdir], debug)
@@ -56,7 +57,7 @@ class SchemaGenerator
 
       subdirs[:keys].each do |subdir|
         data_copy = data.clone
-        data_copy = generate_schemas(data_copy, previous_dirs + [subdir], future_dirs, debug)
+        data_copy = generate_schemas(data_copy, previous_dirs, [subdir], debug)
       end
     end
   end
@@ -86,7 +87,7 @@ class SchemaGenerator
   def build(data, file_name)
     result_file = @result_path.join("#{file_name.strip[1..-1]}.json")
     File.open(result_file,"w") do |f|
-      f.write(data.to_json)
+      f.write(JSON.pretty_generate(data))
     end
   end
 
