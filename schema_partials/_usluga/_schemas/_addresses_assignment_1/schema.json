@@ -5,9 +5,6 @@
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
-    "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
