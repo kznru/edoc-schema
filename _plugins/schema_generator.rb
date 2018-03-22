@@ -106,18 +106,16 @@ class SchemaGenerator
     dirs
   end
 
-  def deep_merge(h1, h2)
-    h1.merge(h2) do |key, h1_val, h2_val|
-      if h1_val.nil?
-        h2_val
-      elsif h2_val.nil?
-        h1_val
-      elsif !h1_val.is_a?(Hash) || !h2_val.is_a?(Hash)
-        h2_val
-      else
-        deep_merge(h1[key], h2[key])
-      end
-    end
+  def deep_merge(o1, o2)
+    return o2 if o1.nil?
+
+    return o1 if o2.nil?
+
+    return (o1 | o2).uniq if o1.is_a?(Array) && o2.is_a?(Array)
+
+    o1.is_a?(Hash) && o2.is_a?(Hash) ?
+      o1.merge(o2){|k, v1, v2| deep_merge(v1, v2)} :
+      o2
   end
 end
 
