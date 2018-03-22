@@ -8,10 +8,10 @@
       "items": {
         "type": "string",
         "enum": [
-          "Другое (указать)",
+          "Другое (указать)"
         ]
       },
-      "uniqueItems": true,
+      "uniqueItems": true
     },
     "response_text": {"$ref": "#/definitions/response_text"},
     "attachments": {
