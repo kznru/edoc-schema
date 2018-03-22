@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/local_government_decision",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Решение органа местного самоуправления",
+  "type": "object",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}

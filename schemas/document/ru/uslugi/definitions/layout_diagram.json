@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/layout_diagram",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Схема расположения объекта на кадастровом плане",
+  "type": "object",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}

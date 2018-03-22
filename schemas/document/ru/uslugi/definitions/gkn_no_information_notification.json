@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/gkn_no_information_notification",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Уведомление об отсутствии запрашиваемых сведений по объекту в ГКН",
+  "type": "object",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}

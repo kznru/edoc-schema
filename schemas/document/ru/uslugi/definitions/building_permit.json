@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_permit",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Разрешение на строительство",
+  "type": "object",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}
