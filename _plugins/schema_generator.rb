@@ -133,7 +133,7 @@ if __FILE__ == $0
     start_path:  ARGV[0] || (root_path + ['schema_partials']).join('/'),
     build_path:  ARGV[1] || (root_path + ['schema_partials']).join('/'),
     result_path: ARGV[2] || (root_path + ['schemas', 'generated_schemas']).join('/'),
-    need_links:  ARGV[3] || false,
+    need_links:  ARGV[3] || true,
     output_type: ARGV[4] || 'json'
   }
 
