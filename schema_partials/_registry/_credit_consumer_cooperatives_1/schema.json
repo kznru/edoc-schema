@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "date_of_entering": {
+      "type": "string",
+      "title": "Дата внесения сведений в единый государственный реестр юридических лиц"
+    },
+    "address": { "type": "string", "title": "Адрес" },
+    "legal_entity_method_of_formation": {
+      "type": "string",
+      "title": "Способ образования юридического лица"
+    },
+    "status_of_legal_entity": {
+      "type": "string",
+      "title": "Статус юридического лица"
+    },
+    "persons_with_granted_access": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "full_name": {
+            "type": "string",
+            "title": "ФИО"
+          },
+          "position": {
+            "type": "string",
+            "title": "Должность"
+          }
+        },
+        "required": ["full_name", "position"]
+      },
+      "title": "Сведения о лице, имеющем право без доверенности действовать от имени кооператива"
+    },
+    "date_of_admission": {
+      "type": "string",
+      "title": "Дата приема в члены саморегулируемой организации в сфере финансового рынка"
+    },
+    "date_of_membership_termination": {
+      "type": "string",
+      "title": "Дата прекращения членства в саморегулируемой организации в сфере финансового рынка"
+    },
+    "basis_for_membership_termination": {
+      "type": "string",
+      "title": "Основание прекращения членства в саморегулируемой организаци и в сфере финансового рынка"
+    },
+    "number_of_coop_members_is_hight": {
+      "type": "boolean",
+      "title": "Сведения о том, что число членов (общее число членов и ассоциированных членов) кооператива превысило три тысячи физических и (или) юридических лиц"
+    },
+    "exclusion_type": {
+      "type": "string",
+      "title": "Способ прекращения юридического лица"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Инофрмация об организации"
+    },
+    "parent_self_regulatory_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Саморегулируемая организация"
+    }
+  },
+  "required": [
+    "date_of_entering",
+    "legal_entity_method_of_formation",
+    "status_of_legal_entity",
+    "persons_with_granted_access",
+    "date_of_admission",
+    "date_of_membership_termination",
+    "basis_for_membership_termination",
+    "number_of_coop_members_is_hight",
+    "organization",
+    "parent_self_regulatory_organization",
+    "address"
+  ]
+}
