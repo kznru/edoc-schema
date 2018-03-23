@@ -105,8 +105,8 @@ class JsonSchemaGeneratorService
   def get_subdirs(previous_dirs)
     dirs = { attributes: [], keys: [] }
     path = @start_path.join(previous_dirs.join('/'))
-    all  = Dir.entries("#{path}").select do |entry|
-      File.directory?(File.join("#{path}", entry)) and !(entry =='.' || entry == '..')
+    all  = Dir.entries(path).select do |entry|
+      File.directory?(File.join(path, entry)) and !(entry =='.' || entry == '..')
     end
     all.each do |dir_name|
       dir_name.start_with?('_') ? dirs[:keys] << dir_name : dirs[:attributes] << dir_name
@@ -128,10 +128,11 @@ class JsonSchemaGeneratorService
 end
 
 if __FILE__ == $0
+  root_path = File.expand_path($0).split('/')[0...-2]
   params = {
-    start_path:  ARGV[0] || '~/workspace/headmade/edoc-schema/schema_partials/',
-    build_path:  ARGV[1] || '~/workspace/headmade/edoc-schema/schema_partials/',
-    result_path: ARGV[2] || '~/workspace/headmade/edoc-schema/schemas/generated_schemas',
+    start_path:  ARGV[0] || (root_path + ['schema_partials']).join('/'),
+    build_path:  ARGV[1] || (root_path + ['schema_partials']).join('/'),
+    result_path: ARGV[2] || (root_path + ['schemas', 'generated_schemas']).join('/'),
     need_links:  ARGV[3] || false,
     output_type: ARGV[4] || 'json'
   }
