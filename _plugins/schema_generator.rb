@@ -2,6 +2,7 @@ require 'json'
 require 'yaml'
 require 'pathname'
 require 'pp'
+require 'fileutils'
 require 'byebug'
 
 class JsonSchemaGeneratorService
@@ -87,7 +88,6 @@ class JsonSchemaGeneratorService
   end
 
   def build(data, file_name)
-    link_name = @result_path.join("#{file_name.strip[1..-1]}")
     if @output_type == 'yaml'
       result_file = @result_path.join("#{file_name.strip[1..-1]}.yaml")
       File.open(result_file,"w") do |f|
@@ -99,7 +99,14 @@ class JsonSchemaGeneratorService
         f.write(JSON.pretty_generate(data))
       end
     end
-    `ln -s #{result_file} #{link_name}` if @need_links
+    create_link(file_name, result_file)
+  end
+
+  def create_link(file_name, source_file)
+    return unless @need_links
+    link_name = @result_path.join("#{file_name.strip[1..-1]}")
+    FileUtils.remove_file(link_name) if link_name.exist?
+    `ln -s #{source_file} #{link_name}`
   end
 
   def get_subdirs(previous_dirs)
@@ -132,7 +139,7 @@ if __FILE__ == $0
   params = {
     start_path:  ARGV[0] || (root_path + ['schema_partials']).join('/'),
     build_path:  ARGV[1] || (root_path + ['schema_partials']).join('/'),
-    result_path: ARGV[2] || (root_path + ['schemas', 'generated_schemas']).join('/'),
+    result_path: ARGV[2] || (root_path + ['schemas/generated_schemas']).join('/'),
     need_links:  ARGV[3] || true,
     output_type: ARGV[4] || 'json'
   }
