@@ -4,14 +4,15 @@ require 'pathname'
 require 'pp'
 require 'byebug'
 
-class SchemaGenerator
-  def initialize(start_path, build_path, result_path, need_links)
-    @start_path  = Pathname.new(start_path)
-    @build_path  = Pathname.new(build_path)
-    @result_path = Pathname.new(result_path)
-    @need_links = need_links
+class JsonSchemaGeneratorService
+  def initialize(params)
+    @start_path  = Pathname.new(params[:start_path])
+    @build_path  = Pathname.new(params[:build_path])
+    @result_path = Pathname.new(params[:result_path])
+    @need_links  = params[:need_links] || false
+    @output_type = params[:output_type] || 'yaml'
 
-    @future_dirs = build_path.sub(start_path, '').split('/').select{|dir| dir unless dir.empty?}
+    @future_dirs = params[:build_path].sub(params[:start_path], '').split('/').select{|dir| dir unless dir.empty?}
   end
 
   def make
@@ -87,9 +88,16 @@ class SchemaGenerator
 
   def build(data, file_name)
     link_name = @result_path.join("#{file_name.strip[1..-1]}")
-    result_file = @result_path.join("#{file_name.strip[1..-1]}.json")
-    File.open(result_file,"w") do |f|
-      f.write(JSON.pretty_generate(data))
+    if @output_type == 'yaml'
+      result_file = @result_path.join("#{file_name.strip[1..-1]}.yaml")
+      File.open(result_file,"w") do |f|
+        f.write(data.to_yaml)
+      end
+    else
+      result_file = @result_path.join("#{file_name.strip[1..-1]}.json")
+      File.open(result_file,"w") do |f|
+        f.write(JSON.pretty_generate(data))
+      end
     end
     `ln -s #{result_file} #{link_name}` if @need_links
   end
@@ -120,12 +128,13 @@ class SchemaGenerator
 end
 
 if __FILE__ == $0
-  start_path = ARGV[0]
-  build_path = ARGV[1]
-  result_path = ARGV[2]
-  need_links = ARGV[3] || false
+  params = {
+    start_path:  ARGV[0] || '~/workspace/headmade/edoc-schema/schema_partials/',
+    build_path:  ARGV[1] || '~/workspace/headmade/edoc-schema/schema_partials/',
+    result_path: ARGV[2] || '~/workspace/headmade/edoc-schema/schemas/generated_schemas',
+    need_links:  ARGV[3] || false,
+    output_type: ARGV[4] || 'json'
+  }
 
-  sg = SchemaGenerator.new(start_path, build_path, result_path, need_links)
-  sg.make
+  JsonSchemaGeneratorService.new(params).make
 end
-
