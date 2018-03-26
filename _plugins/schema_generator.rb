@@ -40,7 +40,7 @@ class JsonSchemaGeneratorService
     end
   end
 
-  def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], debug = false)
+  def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], name_postfix = "", debug = false)
     next_subdir = future_dirs.shift
 
     unless next_subdir.nil? || next_subdir.empty?
@@ -51,16 +51,19 @@ class JsonSchemaGeneratorService
         data = deep_merge(data, prepare_base(data, previous_dirs + [next_subdir], debug))
       end
       data = deep_merge({debug: previous_dirs}, data) if debug
-      generate_schemas(data, previous_dirs + [next_subdir], future_dirs, debug)
+      name_postfix = update_name_postfix(previous_dirs, name_postfix)
+      generate_schemas(data, previous_dirs + [next_subdir], future_dirs, name_postfix, debug)
     else
       subdirs = get_subdirs(previous_dirs)
 
-      build_file = build_folder?(previous_dirs)
-      build(data, build_file) if build_file
+      if build_folder?(previous_dirs)
+        file_name = previous_dirs.last.strip[1..-1] + name_postfix
+        build(data, file_name)
+      end
 
       subdirs[:keys].each do |subdir|
         data_copy = data.clone
-        data_copy = generate_schemas(data_copy, previous_dirs, [subdir], debug)
+        data_copy = generate_schemas(data_copy, previous_dirs, [subdir], name_postfix, debug)
       end
     end
   end
@@ -75,11 +78,16 @@ class JsonSchemaGeneratorService
     return { type: 'folder' }
   end
 
+  def update_name_postfix(previous_dirs, name_postfix)
+    name_file = @start_path.join(previous_dirs.join('/')).join('.name')
+    return name_postfix unless name_file.exist?
+    name_postfix + previous_dirs.last
+  end
+
   def build_folder?(previous_dirs)
     build_file = @start_path.join(previous_dirs.join('/')).join('.build')
     return false unless build_file.exist?
-    return previous_dirs.last if build_file.empty?
-    File.open(build_file) { |f| previous_dirs.last + f.readline }
+    true
   end
 
   def replace_folder?(previous_dirs)
@@ -89,12 +97,12 @@ class JsonSchemaGeneratorService
 
   def build(data, file_name)
     if @output_type == 'yaml'
-      result_file = @result_path.join("#{file_name.strip[1..-1]}.yaml")
+      result_file = @result_path.join("#{file_name}.yaml")
       File.open(result_file,"w") do |f|
         f.write(data.to_yaml)
       end
     else
-      result_file = @result_path.join("#{file_name.strip[1..-1]}.json")
+      result_file = @result_path.join("#{file_name}.json")
       File.open(result_file,"w") do |f|
         f.write(JSON.pretty_generate(data))
       end
@@ -104,7 +112,7 @@ class JsonSchemaGeneratorService
 
   def create_link(file_name, source_file)
     return unless @need_links
-    link_name = @result_path.join("#{file_name.strip[1..-1]}")
+    link_name = @result_path.join("#{file_name}")
     FileUtils.remove_file(link_name) if link_name.exist?
     `ln -s #{source_file} #{link_name}`
   end
