@@ -5,7 +5,7 @@ require 'pp'
 require 'fileutils'
 require 'byebug'
 
-class JsonSchemaGeneratorService
+class SchemaGeneratorService
   def initialize(params)
     @start_path  = Pathname.new(params[:start_path])
     @build_path  = Pathname.new(params[:build_path])
@@ -40,7 +40,7 @@ class JsonSchemaGeneratorService
     end
   end
 
-  def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], name_postfix = "", debug = false)
+  def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], name_postfix = '', debug = false)
     next_subdir = future_dirs.shift
 
     unless next_subdir.nil? || next_subdir.empty?
@@ -152,5 +152,5 @@ if __FILE__ == $0
     output_type: ARGV[4] || 'json'
   }
 
-  JsonSchemaGeneratorService.new(params).make
+  SchemaGeneratorService.new(params).make
 end
