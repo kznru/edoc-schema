@@ -1,0 +1,37 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "example",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "example_lease_living_1",
+          "diff": {
+            "_schema": {
+              "files": ".replace"
+            },
+            "_events": {
+              "_reject": {
+                "action": "delete"
+              }
+            }
+          }
+        },
+        {
+          "name": "example_lease_no_living_1",
+          "virtual": true
+        },
+        {
+          "name": "example_no_lease_living_1",
+          "action": "delete"
+        },
+        {
+          "name": "example_no_lease_no_living_1",
+          "action": "rename",
+          "action_param": "example_no_lease_separate_1"
+        }
+      ]
+    }
+  ]
+}
