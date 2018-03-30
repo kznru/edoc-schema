@@ -69,6 +69,10 @@ class PartialsGenerateService
   def make_key_dirs_by_instruction(start_dir, keys)
     keys&.each do |key|
       key_dir = start_dir + ('_' + key['name'])
+      if key['action'] == 'delete'
+        key_dir.rmtree if key_dir.exist?
+        next
+      end
       key_dir.mkpath
       update_file_existence(key_dir, '.build', !key['virtual'])
       make_key_dirs_by_instruction(key_dir, key['keys'])

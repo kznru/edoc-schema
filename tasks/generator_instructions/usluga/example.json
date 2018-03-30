@@ -3,6 +3,7 @@
   "keys": [
     {
       "name": "example",
+      "action": "delete",
       "virtual": true,
       "keys": [
         {
