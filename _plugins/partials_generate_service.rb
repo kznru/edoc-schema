@@ -16,7 +16,7 @@ class PartialsGenerateService
   end
 
   def call
-    recursive_dig_structure(base_dir)
+    go_down_the_structure(base_dir)
   end
 
   private
@@ -52,12 +52,12 @@ class PartialsGenerateService
     result
   end
 
-  def recursive_dig_structure(start_dir)
+  def go_down_the_structure(start_dir)
     if generation_point?(start_dir)
-      recursive_make_dirs(start_dir, @instruction['keys'])
+      make_key_dirs_by_instruction(start_dir, @instruction['keys'])
     else
-      children_to_dig(start_dir).each do |child_dir|
-        recursive_dig_structure(child_dir)
+      child_directories(start_dir).each do |child_dir|
+        go_down_the_structure(child_dir)
       end
     end
   end
@@ -66,12 +66,12 @@ class PartialsGenerateService
     (directory + '.key_point').file?
   end
 
-  def recursive_make_dirs(start_dir, keys)
+  def make_key_dirs_by_instruction(start_dir, keys)
     keys&.each do |key|
       key_dir = start_dir + ('_' + key['name'])
       key_dir.mkpath
       update_file_existence(key_dir, '.build', !key['virtual'])
-      recursive_make_dirs(key_dir, key['keys'])
+      make_key_dirs_by_instruction(key_dir, key['keys'])
     end
   end
 
@@ -93,7 +93,7 @@ class PartialsGenerateService
     file_path.delete if file_path.exist?
   end
 
-  def children_to_dig(directory)
+  def child_directories(directory)
     directory.children.select{|child| child.directory?}
   end
 end
