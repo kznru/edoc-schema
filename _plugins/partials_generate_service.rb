@@ -16,7 +16,6 @@ class PartialsGenerateService
   end
 
   def call
-    base_dir = set_base_dir
     recursive_dig_structure(base_dir)
   end
 
@@ -37,20 +36,20 @@ class PartialsGenerateService
   def validate_path(target_path, type)
     case type
     when :dir
-      unless File.directory?(target_path)
+      unless target_path && File.directory?(target_path)
         raise ArgumentError, "#{target_path} - must be existing directory"
       end
     when :file
-      unless File.file?(target_path)
+      unless target_path && File.file?(target_path)
         raise ArgumentError, "#{target_path} - must be existing file"
       end
     end
   end
 
-  def set_base_dir
-    base_dir = @partials_dir + @instruction['base']
-    validate_path(base_dir.to_s, :dir)
-    base_dir
+  def base_dir
+    result = @partials_dir + @instruction['base']
+    validate_path(result.to_s, :dir)
+    result
   end
 
   def recursive_dig_structure(start_dir)
@@ -71,13 +70,27 @@ class PartialsGenerateService
     keys&.each do |key|
       key_dir = start_dir + ('_' + key['name'])
       key_dir.mkpath
-      touch_file(key_dir, '.build') unless key['virtual']
+      update_file_existence(key_dir, '.build', !key['virtual'])
       recursive_make_dirs(key_dir, key['keys'])
     end
   end
 
-  def touch_file(directory, file_name)
-    (directory + file_name).write(nil)
+  def update_file_existence(directory, file_name, need)
+    file_path = directory + file_name
+
+    if need
+      touch_file(file_path)
+    else
+      delete_file(file_path)
+    end
+  end
+
+  def touch_file(file_path)
+    file_path.write(nil)
+  end
+
+  def delete_file(file_path)
+    file_path.delete if file_path.exist?
   end
 
   def children_to_dig(directory)
