@@ -1,0 +1,17 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "addressing",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "addresses_assignment_create_rooms_by_partitioning_room_legal_entity_1"
+        },
+        {
+          "name": "addresses_assignment_from_scratch_legal_entity_1"
+        }
+      ]
+    }
+  ]
+}

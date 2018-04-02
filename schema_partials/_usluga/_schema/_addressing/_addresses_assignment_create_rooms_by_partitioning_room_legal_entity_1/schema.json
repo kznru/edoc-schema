@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый паспорт объекта недвижимости, следствием преобразования которого является образование одного и более объектов адресации"
+    },
+    "purpose_of_room": {
+      "type": "string",
+      "title": "Назначение помещения",
+      "description": "Назначение помещения (жилое/нежилое)",
+      "minItems": 1,
+      "enum": ["жилое", "нежилое"]
+    },
+    "kind_of_room": {
+      "type": "string",
+      "title": "Вид помещения",
+      "description": "Вид помещения"
+    },
+    "address_numbers": {
+      "type": "array",
+      "title": "Адресные номера",
+      "description": "Адресные номера",
+      "minItems": 1,
+      "items": {"type": "string"}
+    }
+  },
+  "required": [
+    "address_with_map",
+    "cadastre_number"
+  ]
+}
