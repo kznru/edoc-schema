@@ -2,6 +2,17 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "address_numbers": {
+      "type": "array",
+      "title": "Адресные номера",
+      "description": "Адресные номера",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
     "application": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application",
       "title": "Заявление"
@@ -29,6 +40,7 @@
     }
   },
   "required": [
+    "address_with_map",
     "organization"
   ]
 }
