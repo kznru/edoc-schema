@@ -1,9 +1,7 @@
 {
   "properties": {
-    "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый номер",
-      "description": "Кадастровый паспорт объекта недвижимости, следствием преобразования которого является образование одного и более объектов адресации"
+    "real_estate_infos": {
+      "maxItems": 1
     },
     "living_rooms_count": {
       "type": "integer",
@@ -20,8 +18,5 @@
       "title": "Паспорт БТИ",
       "description": "Документы технической инвентаризации"
     }
-  },
-  "required": [
-    "cadastre_number"
-  ]
+  }
 }

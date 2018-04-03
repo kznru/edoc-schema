@@ -1,9 +1,7 @@
 {
   "properties": {
-    "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый номер",
-      "description": "Кадастровый номер земельного участка, на котором осуществляется строительство (реконструкция)"
+    "real_estate_infos": {
+      "maxItems": 1
     },
     "building_name": {
       "type": "string",
@@ -20,7 +18,6 @@
     }
   },
   "required": [
-    "cadastre_number",
     "building_name"
   ]
 }
