@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_info",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "description": "Данные, идентифицирующие объект недвижимости",
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер объекта недвижимости"
+    }
+  }
+}
