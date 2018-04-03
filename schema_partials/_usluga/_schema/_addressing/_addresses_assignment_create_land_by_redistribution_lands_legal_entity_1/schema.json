@@ -4,6 +4,11 @@
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый паспорт объекта недвижимости, следствием преобразования которого является образование одного и более объектов адресации"
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации"
     }
   },
   "required": [

@@ -14,6 +14,11 @@
       "type": "integer",
       "title": "Кол-во нежилых помещений",
       "description": "Количество образуемых нежилых помещений"
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации"
     }
   },
   "required": [
