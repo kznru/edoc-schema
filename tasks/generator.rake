@@ -1,10 +1,12 @@
-require_relative [Dir.pwd, '_plugins', 'partials_generate_service'].join('/')
+root_path = File.expand_path('.')
+
+require_relative [root_path, '_plugins', 'partials_generate_service'].join('/')
 
 namespace :generator do
   namespace :partial do
     instructions_default =
       [
-        Dir.pwd, 'tasks', 'generator_instructions',
+        root_path, 'tasks', 'generator_instructions',
         'usluga', 'example.json'
       ].join('/')
     partials_dir_default = [Dir.pwd, 'schema_partials'].join('/')
