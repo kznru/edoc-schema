@@ -2,13 +2,8 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "description": "Адрес объекта"
-    },
-    "address_numbers": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos"
     },
     "application": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application",
