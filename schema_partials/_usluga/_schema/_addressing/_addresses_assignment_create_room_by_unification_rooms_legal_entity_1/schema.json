@@ -11,6 +11,9 @@
       "description": "Назначение помещения (жилое/нежилое)",
       "minItems": 1,
       "enum": ["жилое", "нежилое"]
+    },
+    "address_numbers": {
+      "maxItems": 1
     }
   },
   "required": [

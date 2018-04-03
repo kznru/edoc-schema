@@ -14,6 +14,9 @@
       "type": "string",
       "title": "Тип объекта",
       "description": "Тип здания, сооружения, объекта незавершенного строительства"
+    },
+    "address_numbers": {
+      "maxItems": 1
     }
   },
   "required": [
