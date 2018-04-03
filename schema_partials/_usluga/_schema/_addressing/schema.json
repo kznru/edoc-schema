@@ -7,11 +7,8 @@
       "description": "Адрес объекта"
     },
     "address_numbers": {
-      "type": "array",
-      "title": "Адресные номера",
-      "description": "Адресные номера",
-      "minItems": 1,
-      "items": {"type": "string"}
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
     },
     "application": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application",
