@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "description": "Адресные номера",
+  "minItems": 1,
+  "items": {"$ref": "http://edoc-schema.kzn.ru/location/ru/address_number"}
+}

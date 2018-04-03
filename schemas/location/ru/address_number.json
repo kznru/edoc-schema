@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/location/ru/address_number",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "description": "Адресный номер"
+}
