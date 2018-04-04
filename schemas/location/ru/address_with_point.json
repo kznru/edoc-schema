@@ -4,7 +4,15 @@
   "description": "Адрес объекта в формате фиас, а также его координаты",
   "type": "object",
   "properties": {
-    "address": { "$ref": "http://edoc-schema.kzn.ru/location/fias/address" },
-    "point": { "$ref": "http://edoc-schema.kzn.ru/geo/point" }
+    "fias_id": { "type": "string", "title": "Код ФИАС" },
+    "fias_level": { "type": "number" },
+    "zip": { "type": "number", "title": "Индекс" },
+    "region": { "type": "string", "title": "Регион" },
+    "district": { "type": "string", "title": "Район города" },
+    "city": { "type": "string", "title": "Город" },
+    "street": { "type": "string", "title": "Улица" },
+    "house": { "type": "string", "title": "Дом" },
+    "value": { "type": "string", "title": "Адрес одной строкой" },
+    "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/point" }
   }
 }

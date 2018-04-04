@@ -4,7 +4,7 @@
   "description": "Географическая координата точки",
   "type": "object",
   "properties": {
-    "latitude": { "type": "number" },
-    "longitude": { "type": "number" }
+    "lat": { "type": "number", "title": "Широта" },
+    "lon": { "type": "number", "title": "Долгота" }
   }
 }

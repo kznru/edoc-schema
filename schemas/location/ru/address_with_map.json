@@ -2,13 +2,14 @@
   "id": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Описание местоположения",
+  "title": "Описание местоположения",
   "type": "object",
   "properties": {
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_point"
     },
     "geoJSON": {
-      "$ref": "http://edoc-schema.kzn.ru/geo/point", "default": {
+      "$ref": "http://edoc-schema.kzn.ru/geo/geojson", "default": {
         "type": "FeatureCollection", "features": []
       }
     }
