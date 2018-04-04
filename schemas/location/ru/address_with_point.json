@@ -13,6 +13,6 @@
     "street": { "type": "string", "title": "Улица" },
     "house": { "type": "string", "title": "Дом" },
     "value": { "type": "string", "title": "Адрес одной строкой" },
-    "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/point" }
+    "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/geo_coordinates" }
   }
 }

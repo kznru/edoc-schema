@@ -6,7 +6,7 @@
   "type": "object",
   "properties": {
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_point"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
     "geoJSON": {
       "$ref": "http://edoc-schema.kzn.ru/geo/geojson", "default": {
