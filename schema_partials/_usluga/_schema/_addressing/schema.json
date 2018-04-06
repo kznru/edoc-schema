@@ -37,7 +37,7 @@
     }
   },
   "required": [
-    "address_with_map",
+    "real_estate_infos",
     "organization"
   ]
 }
