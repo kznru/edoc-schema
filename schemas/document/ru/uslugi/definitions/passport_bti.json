@@ -9,6 +9,6 @@
     "appartment_number": {"type": "string", "title": "Номер помещения"},
     "another_location": {"type": "string", "title": "Иное месторасположение"},
     "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
-    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": "", "description": ""}
   }
 }
