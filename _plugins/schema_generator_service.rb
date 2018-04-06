@@ -14,6 +14,7 @@ class SchemaGeneratorService
     @output_type = params[:output_type] || 'yaml'
     @debug       = params[:debug] || false
 
+    FileUtils.cd(@result_path) if @need_links
     @future_dirs = params[:build_path].sub(params[:start_path], '').split('/').select{|dir| dir unless dir.empty?}
   end
 
@@ -145,9 +146,8 @@ class SchemaGeneratorService
   end
 
   def create_link(file_name, source_file)
-    link_name = @result_path.join("#{file_name}")
-    FileUtils.remove_file(link_name) if link_name.exist?
-    `ln -s #{source_file} #{link_name}`
+    _, source_name = source_file.split
+    FileUtils.ln_sf source_name.to_s, file_name
   end
 
   def deep_merge(o1, o2)
