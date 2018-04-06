@@ -7,7 +7,6 @@
     "inn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
     "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },
     "kpp": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/kpp" },
-    "okopf": { "$ref": "http://edoc-schema.kzn.ru/classifier/ru/okopf" },
-    "name": { "$ref": "http://edoc-schema.kzn.ru/generic/name" }
+    "name": { "type": "string", "title": "Название" }
   }
 }
