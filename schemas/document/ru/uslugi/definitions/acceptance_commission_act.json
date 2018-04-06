@@ -2,6 +2,5 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/acceptance_commission_act",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Акт приемочной комиссии",
-  "type": "object",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }
