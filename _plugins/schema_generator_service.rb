@@ -155,10 +155,10 @@ class SchemaGeneratorService
 
     return o1 if o2.nil?
 
-    return (o1 | o2).uniq if o1.is_a?(Array) && o2.is_a?(Array)
+    return (o2 | o1).uniq if o1.is_a?(Array) && o2.is_a?(Array)
 
     o1.is_a?(Hash) && o2.is_a?(Hash) ?
-      o1.merge(o2){|k, v1, v2| deep_merge(v1, v2)} :
+      o2.merge(o1){|k, v2, v1| deep_merge(v1, v2)} :
       o2
   end
 end
