@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "fias_id": { "type": "string", "title": "Код ФИАС" },
-    "fias_level": { "type": "number" },
+    "fias_level": { "type": "string" },
     "zip": { "type": "number", "title": "Индекс" },
     "region": { "type": "string", "title": "Регион" },
     "district": { "type": "string", "title": "Район города" },
@@ -14,5 +14,6 @@
     "house": { "type": "string", "title": "Дом" },
     "value": { "type": "string", "title": "Адрес одной строкой" },
     "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/geo_coordinates" }
-  }
+  },
+  "required": ["fias_id", "value"]
 }
