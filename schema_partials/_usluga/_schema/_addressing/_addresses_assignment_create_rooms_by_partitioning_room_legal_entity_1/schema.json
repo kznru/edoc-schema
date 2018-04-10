@@ -15,10 +15,10 @@
       "title": "Вид помещения",
       "description": "Вид помещения"
     },
-    "passport_bti": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
-      "title": "Паспорт БТИ",
-      "description": "Документы технической инвентаризации"
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
+      "title": "Технический план",
+      "description": "Технический план"
     }
   }
 }
