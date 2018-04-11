@@ -37,7 +37,7 @@
       "title": "Способ прекращения юридического лица"
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Инофрмация об организации"
     }
   },
