@@ -1,14 +1,8 @@
 {
   "properties": {
     "purpose_of_room": {
-      "type": "string",
-      "title": "Назначение помещения",
-      "description": "Назначение помещения (жилое/нежилое)",
-      "minItems": 1,
-      "enum": [
-        "жилое",
-        "нежилое"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+      "title": "Назначение помещения"
     },
     "address_numbers": {
       "maxItems": 1,
