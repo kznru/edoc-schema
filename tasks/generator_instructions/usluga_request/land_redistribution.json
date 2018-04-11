@@ -1,0 +1,14 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "land_redistribution",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "land_redistribution_legal_entity_1"
+        }
+      ]
+    }
+  ]
+}

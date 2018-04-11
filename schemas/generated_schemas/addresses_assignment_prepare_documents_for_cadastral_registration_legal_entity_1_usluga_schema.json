@@ -17,7 +17,6 @@
     },
     "address_numbers": {
       "maxItems": 1,
-      "minItems": 1,
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
       "title": "Адресные номера"
     },
