@@ -1,0 +1,29 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "gpzu",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "gpzu_create_plan_legal_entity_1"
+        },
+        {
+          "name": "gpzu_give_duplicate_legal_entity_1"
+        },
+        {
+          "name": "gpzu_edit_plan_legal_entity_1"
+        },
+        {
+          "name": "gpzu_create_plan_natural_person_1"
+        },
+        {
+          "name": "gpzu_give_duplicate_natural_person_1"
+        },
+        {
+          "name": "gpzu_edit_plan_natural_person_1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/person",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Физическое лицо",
+  "type": "object",
+  "properties": {
+    "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта"},
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО"},
+    "mobile": {"type": "string", "title": "Мобильный телефон"},
+    "email": {"type": "string", "format": "email", "title": "E-mail"}
+  },
+  "required": ["fio", "passport_number", "mobile"]
+}
