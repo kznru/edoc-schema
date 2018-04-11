@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Не соответствует требованиям режима использования территории объектов культурного наследия, утверждённого постановлением Кабинета министров республики Татарстан от 23.05.2011 №416",
+          "Допускается площадь информационного поля не более 0,3 кв.м",
+          "Другое"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,51 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "maxItems": 1,
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
+      "title": "Данные, идентифицирующие объекты недвижимости"
+    },
+    "purpose_of_room": {
+      "type": "string",
+      "title": "Назначение помещения",
+      "description": "Назначение помещения (жилое/нежилое)",
+      "minItems": 1,
+      "enum": [
+        "жилое",
+        "нежилое"
+      ]
+    },
+    "address_numbers": {
+      "maxItems": 1,
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "real_estate_infos",
+    "organization"
+  ]
+}
