@@ -14,8 +14,7 @@
       "description": "Тип здания, сооружения, объекта незавершенного строительства"
     },
     "address_numbers": {
-      "maxItems": 1,
-      "minItems": 1
+      "maxItems": 1
     },
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
