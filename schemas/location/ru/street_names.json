@@ -4,5 +4,5 @@
   "type": "array",
   "description": "Названия улиц",
   "minItems": 1,
-  "items": {"type": "string"}
+  "items": {"type": "string", "title": "Название улицы"}
 }
