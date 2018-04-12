@@ -165,7 +165,7 @@
           "title": "Информация для заявителя"
         },
         "attachments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/ulsugi/definitions/attachments",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
           "title": "Приложение"
         },
         "comments": {
