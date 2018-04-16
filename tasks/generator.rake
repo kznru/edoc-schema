@@ -12,6 +12,7 @@ namespace :generator do
       ].join('/')
     partials_dir_default = [Dir.pwd, 'schema_partials'].join('/')
 
+    desc 'Generate directories via template'
     task :run, [:instruction, :partials_dir]  do |t, args|
       PartialsGenerateService.new(
         instruction: args[:instruction] || instructions_default,
