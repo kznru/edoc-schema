@@ -1,0 +1,14 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "task_to_save_culture_objects",
+      "virtual": true,
+      "keys": [
+        { "name": "task_to_save_culture_objects_customer_natural_person_1" },
+        { "name": "task_to_save_culture_objects_customer_legal_entity_1" }
+      ]
+      // "action": "delete"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "customer_natural_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/person",
+      "title": "Заказчик"
+    }
+  }
+}
