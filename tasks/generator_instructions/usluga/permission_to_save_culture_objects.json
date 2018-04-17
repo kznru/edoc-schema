@@ -2,7 +2,7 @@
   "base": "_usluga",
   "keys": [
     {
-      "name": "save_culture_objects_1"
+      "name": "permission_to_save_culture_objects_1"
       // "action": "delete"
     }
   ]
