@@ -1,0 +1,8 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "put_object_into_service"
+    }
+  ]
+}

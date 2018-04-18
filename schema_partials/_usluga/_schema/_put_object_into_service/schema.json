@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Застройщик"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "building_object_name": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+      "title": "Наименование объекта капитального строительства",
+      "description": "Наименование объекта капитального строительства в соответствии с проектной документацией"
+    }
+  }
+}
