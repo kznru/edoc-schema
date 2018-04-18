@@ -21,11 +21,12 @@
       "title": "Наименование работ"
     },
     "owner": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/person",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Собственник"
     },
     "foundation_documents": {
       "type": "array",
+      "title": "Сведения о документах-основаниях возникновения права собственности (пользования) на объект культурного наследия",
       "items": {
         "type": "object",
         "properties": {
@@ -46,7 +47,7 @@
             "title": "Ответственный представитель"
           },
           "fio": {
-            "$ref": "http://edoc-schema.kzn.ru/person/fio",
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
             "title": "ФИО"
           }
         }
@@ -54,6 +55,7 @@
     },
     "security_leasing_contracts": {
       "type": "array",
+      "title": "Сведения о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
       "items": {
         "type": "object",
         "properties": {
@@ -66,7 +68,8 @@
             "title": "Номер"
           },
           "date": {
-            "type": "datetime",
+            "type": "string",
+            "format": "date",
             "title": "Дата"
           },
           "type_of_modern_use": {

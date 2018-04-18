@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/person/ru/person",
+  "id": "http://edoc-schema.kzn.ru/person/ru/natural_person",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Физическое лицо",
   "type": "object",
