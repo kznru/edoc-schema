@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "necessary_data": {
+      "type": "string",
+      "title": "Какие именно сведения необходимо предоставить"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "По адресу"
+    }
+  }
+}
