@@ -1,13 +1,13 @@
 {
   "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
+      "title": "Данные, идентифицирующие объекты недвижимости"
+    },
     "address_numbers": {
       "maxItems": 1,
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
       "title": "Адресные номера"
-    },
-    "real_estate_infos": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
-      "title": "Данные, идентифицирующие объекты недвижимости"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

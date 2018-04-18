@@ -15,11 +15,6 @@
       "title": "Кол-во нежилых помещений",
       "description": "Количество образуемых нежилых помещений"
     },
-    "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
-      "title": "Технический план",
-      "description": "Технический план"
-    },
     "address_numbers": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
       "title": "Адресные номера"

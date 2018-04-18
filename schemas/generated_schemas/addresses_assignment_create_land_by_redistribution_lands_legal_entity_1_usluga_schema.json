@@ -1,10 +1,5 @@
 {
   "properties": {
-    "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
-      "title": "Технический план",
-      "description": "Технический план"
-    },
     "real_estate_infos": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
       "title": "Данные, идентифицирующие объекты недвижимости"

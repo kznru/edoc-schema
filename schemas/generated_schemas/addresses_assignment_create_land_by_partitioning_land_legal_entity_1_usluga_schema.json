@@ -1,8 +1,8 @@
 {
   "properties": {
     "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
       "maxItems": 1,
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
       "title": "Данные, идентифицирующие объекты недвижимости"
     },
     "address_numbers": {

@@ -1,9 +1,7 @@
 {
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "type": "object",
   "properties": {
     "real_estate_infos": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
       "title": "Данные, идентифицирующие объекты недвижимости"
     },
     "address_numbers": {
@@ -32,6 +30,8 @@
       "title": "Комментарии"
     }
   },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
   "required": [
     "real_estate_infos",
     "organization"

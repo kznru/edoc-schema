@@ -5,7 +5,7 @@
       "title": "Собственник"
     },
     "real_estate_infos": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
       "title": "Данные, идентифицирующие объекты недвижимости (земельные участки)"
     },
     "land_surveying_project_requisites": {
