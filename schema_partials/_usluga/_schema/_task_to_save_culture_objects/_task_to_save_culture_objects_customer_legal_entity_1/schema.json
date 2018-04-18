@@ -1,6 +1,6 @@
 {
   "properties": {
-    "customer_legal_entity": {
+    "customer": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     }

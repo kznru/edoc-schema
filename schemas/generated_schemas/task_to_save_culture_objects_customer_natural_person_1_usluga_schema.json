@@ -1,7 +1,7 @@
 {
   "properties": {
-    "customer_natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/person",
+    "customer": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Заказчик"
     },
     "organization": {
@@ -20,7 +20,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
       "title": "Наименование работ"
     },
-    "person": {
+    "owner": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/person",
       "title": "Собственник"
     },
@@ -87,7 +87,7 @@
     },
     "design_company": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Проектной организации"
+      "title": "Проектная организация"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
