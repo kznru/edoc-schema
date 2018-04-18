@@ -2,7 +2,7 @@
   "base": "_usluga_request",
   "keys": [
     {
-      "name": "put_object_into_service"
+      "name": "put_object_into_service_1"
     }
   ]
 }
