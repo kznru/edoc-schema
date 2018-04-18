@@ -1,0 +1,14 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "coordination_of_project_documentation_to_save_culture_objects",
+      "virtual": true,
+      "keys": [
+        { "name": "coordination_of_project_documentation_to_save_culture_objects_natural_person_1" },
+        { "name": "coordination_of_project_documentation_to_save_culture_objects_legal_entity_1" }
+      ]
+      // "action": "delete"
+    }
+  ]
+}

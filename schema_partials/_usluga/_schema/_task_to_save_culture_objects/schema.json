@@ -7,8 +7,7 @@
       "title": "Заявитель"
     },
     "culture_object_name": {
-      "type": "string",
-      "title": "Наименование объекта культурного наследия"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
