@@ -6,7 +6,7 @@
   "properties": {
     "fias_id": { "type": "string", "title": "Код ФИАС" },
     "fias_level": { "type": "string" },
-    "zip": { "type": "number", "title": "Индекс" },
+    "zip": { "type": "string", "title": "Индекс" },
     "region": { "type": "string", "title": "Регион" },
     "district": { "type": "string", "title": "Район города" },
     "city": { "type": "string", "title": "Город" },
