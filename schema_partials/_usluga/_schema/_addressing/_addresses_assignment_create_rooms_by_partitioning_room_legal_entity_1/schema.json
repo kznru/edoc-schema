@@ -11,11 +11,6 @@
       "type": "string",
       "title": "Вид помещения",
       "description": "Вид помещения"
-    },
-    "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
-      "title": "Технический план",
-      "description": "Технический план"
     }
   }
 }

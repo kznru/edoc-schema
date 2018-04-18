@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "description": "Данные, идентифицирующие объекты недвижимости",
+  "minItems": 1,
+  "items": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_info_without_technical_plan"}
+}

@@ -6,11 +6,6 @@
     },
     "address_numbers": {
       "maxItems": 1
-    },
-    "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
-      "title": "Технический план",
-      "description": "Технический план"
     }
   }
 }

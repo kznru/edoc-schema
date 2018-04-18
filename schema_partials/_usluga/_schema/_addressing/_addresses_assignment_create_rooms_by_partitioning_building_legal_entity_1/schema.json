@@ -12,11 +12,6 @@
       "type": "integer",
       "title": "Кол-во нежилых помещений",
       "description": "Количество образуемых нежилых помещений"
-    },
-    "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
-      "title": "Технический план",
-      "description": "Технический план"
     }
   }
 }
