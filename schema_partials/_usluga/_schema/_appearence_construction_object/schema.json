@@ -10,7 +10,7 @@
       "description": "Наименование проектной организации"
     },
     "building_object_name": {
-      "$ref": "ttp://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
       "title": "Наименование объекта",
       "description": "Наименование объекта строительства"
     }
