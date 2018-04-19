@@ -51,5 +51,6 @@
   "required": [
     "cadastre_number",
     "organization"
-  ]
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }

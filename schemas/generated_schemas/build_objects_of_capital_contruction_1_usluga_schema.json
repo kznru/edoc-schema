@@ -15,29 +15,26 @@
     },
     "contruction_base_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
-      "description": "Строительство (реконструкция) будет осуществляться на основании документа"
+      "title": "Строительство (реконструкция) будет осуществляться на основании документа"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "description": "Организация разработавшая проектную документацию на строительство объекта"
+      "title": "Организация разработавшая проектную документацию на строительство объекта"
     },
     "project_work_right_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
-      "description": "Документ, предоставляющий право на выполнение проектных работ"
+      "title": "Документ, предоставляющий право на выполнение проектных работ"
     },
     "positive_opinion_of_state_examination_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
-      "description": "Положительное заключение государственной экспертизы",
       "title": "Положительное заключение государственной экспертизы"
     },
     "scheme_planning_organization_of_land_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
-      "description": "Схема планировочной организации земельного участка",
       "title": "Схема планировочной организации земельного участка"
     },
     "design_and_estimate_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
-      "description": "Проектно-сметная документация",
       "title": "Проектно-сметная документация"
     },
     "agent": {
@@ -58,6 +55,7 @@
       "title": "Комментарии"
     }
   },
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "required": [
 

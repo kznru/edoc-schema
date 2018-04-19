@@ -112,5 +112,6 @@
   "type": "object",
   "required": [
 
-  ]
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }

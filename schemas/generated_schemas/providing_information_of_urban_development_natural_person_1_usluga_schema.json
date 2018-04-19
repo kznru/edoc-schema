@@ -27,6 +27,7 @@
       "title": "Комментарии"
     }
   },
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "required": [
 
