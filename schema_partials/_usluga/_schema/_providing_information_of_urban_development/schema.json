@@ -4,8 +4,8 @@
       "type": "string",
       "title": "Какие именно сведения необходимо предоставить"
     },
-    "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "По адресу"
     }
   }

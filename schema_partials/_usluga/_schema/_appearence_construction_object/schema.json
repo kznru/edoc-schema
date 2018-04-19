@@ -1,8 +1,7 @@
 {
   "properties": {
     "address_with_map_and_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "description": "Месторасположение объекта"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments"
     },
     "desing_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

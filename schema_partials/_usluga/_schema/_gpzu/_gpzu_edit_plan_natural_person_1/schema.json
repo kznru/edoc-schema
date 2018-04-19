@@ -1,7 +1,6 @@
 {
   "properties": {
-    "person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+    "agent": {
       "title": "Собственник"
     },
     "cadastre_number": {

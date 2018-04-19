@@ -1,6 +1,4 @@
 {
-  "type": "object",
-  "required": [],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
@@ -28,26 +26,12 @@
     "technical_conditions": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_conditions"
     },
-    "application": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application"
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
-    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Прилагаемые документы"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
     }
   }
 }

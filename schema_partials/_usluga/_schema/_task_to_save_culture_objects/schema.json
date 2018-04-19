@@ -1,11 +1,5 @@
 {
-  "type": "object",
-  "required": [],
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
     "culture_object_name": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
     },
@@ -18,7 +12,7 @@
       "title": "Наименование работ"
     },
     "owner": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"
     },
     "foundation_documents": {

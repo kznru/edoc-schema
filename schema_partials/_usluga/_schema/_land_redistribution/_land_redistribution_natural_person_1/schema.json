@@ -1,8 +1,7 @@
 {
   "properties": {
-    "person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-      "title": "Собственник"
+    "agent": {
+      "title": "Заявитель"
     }
   }
 }

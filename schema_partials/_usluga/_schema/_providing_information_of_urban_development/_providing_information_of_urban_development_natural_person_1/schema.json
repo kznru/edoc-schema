@@ -1,5 +1,7 @@
 {
   "properties": {
-    "letter_of_attorney": null
+    "agent": {
+      "title": "Заявитель"
+    }
   }
 }

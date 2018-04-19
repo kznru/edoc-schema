@@ -1,8 +1,7 @@
 {
   "properties": {
-    "customer": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-      "title": "Заказчик"
+    "agent": {
+      "title": "Заявитель"
     }
   }
 }
