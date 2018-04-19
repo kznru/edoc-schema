@@ -2,6 +2,7 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Документ",
+  "title": " ",
   "type": "object",
   "properties": {
     "number": {
@@ -10,7 +11,8 @@
     },
     "date":{
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "title": "Дата"
     }
   }
 }
