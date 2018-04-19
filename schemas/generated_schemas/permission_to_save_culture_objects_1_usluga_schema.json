@@ -1,8 +1,4 @@
 {
-  "type": "object",
-  "required": [
-
-  ],
   "properties": {
     "address_with_map_and_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
@@ -23,12 +19,13 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Прилагаемые документы"
+      "title": "Доп. приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
 }

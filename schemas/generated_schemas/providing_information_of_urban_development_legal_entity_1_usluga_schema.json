@@ -2,28 +2,28 @@
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
-    "necessary_data": {
-      "type": "string",
-      "title": "Какие именно сведения необходимо предоставить"
-    },
-    "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-      "title": "По адресу"
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
+      "title": "Заявитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
+    "necessary_data": {
+      "type": "string",
+      "title": "Какие именно сведения необходимо предоставить"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "По адресу"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Прилагаемые документы"
+      "title": "Доп. приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
