@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "building_object_name": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+      "description": "Наименование объекта строительства"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "mounth_count": {
+      "type": "number",
+      "title": "Количество месяцев",
+      "description": "Сроком на количество месяцев"
+    },
+    "contruction_base_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
+      "description": "Строительство (реконструкция) будет осуществляться на основании документа"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "description": "Организация разработавшая проектную документацию на строительство объекта"
+    },
+    "project_work_right_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
+      "description": "Документ, предоставляющий право на выполнение проектных работ"
+    },
+    "positive_opinion_of_state_examination_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "description": "Положительное заключение государственной экспертизы",
+      "title": "Положительное заключение государственной экспертизы"
+    },
+    "scheme_planning_organization_of_land_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
+      "description": "Схема планировочной организации земельного участка",
+      "title": "Схема планировочной организации земельного участка"
+    },
+    "design_and_estimate_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
+      "description": "Проектно-сметная документация",
+      "title": "Проектно-сметная документация"
+    }
+  }
+}
