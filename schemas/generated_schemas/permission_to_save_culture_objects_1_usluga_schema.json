@@ -4,8 +4,8 @@
 
   ],
   "properties": {
-    "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "address_with_map_and_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
       "title": "Местонахождение объекта культурного наследия"
     },
     "agent": {

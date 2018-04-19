@@ -4,11 +4,18 @@
   "description": "Описание местоположения с комментариями",
   "type": "object",
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    },
+    "geoJSON": {
+      "$ref": "http://edoc-schema.kzn.ru/geo/geojson", "default": {
+        "type": "FeatureCollection", "features": []
+      }
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
     }
-  }
+  },
+  "required": ["geoJSON"]
 }

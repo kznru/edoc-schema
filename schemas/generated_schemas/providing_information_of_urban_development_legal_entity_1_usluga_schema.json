@@ -1,9 +1,9 @@
 {
-  "organization": {
-    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-    "title": "Заказчик"
-  },
   "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заказчик"
+    },
     "necessary_data": {
       "type": "string",
       "title": "Какие именно сведения необходимо предоставить"
@@ -31,8 +31,5 @@
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "type": "object",
-  "required": [
-
-  ]
+  "type": "object"
 }

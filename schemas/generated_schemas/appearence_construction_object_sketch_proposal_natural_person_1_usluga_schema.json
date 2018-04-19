@@ -1,0 +1,37 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "address_with_map_and_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "description": "Месторасположение объекта"
+    },
+    "desing_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Проектная организация",
+      "description": "Наименование проектной организации"
+    },
+    "building_object_name": {
+      "$ref": "ttp://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+      "title": "Наименование объекта",
+      "description": "Наименование объекта строительства"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Прилагаемые документы"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
