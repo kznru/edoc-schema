@@ -1,7 +1,7 @@
 {
   "properties": {
     "agent": {
-      "title": "Собственник"
+      "title": "Заявитель"
     },
     "plan_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number",

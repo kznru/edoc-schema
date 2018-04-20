@@ -1,5 +1,14 @@
 {
   "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
     "building_object_name": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
       "description": "Наименование объекта строительства"
@@ -17,9 +26,9 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
       "title": "Строительство (реконструкция) будет осуществляться на основании документа"
     },
-    "organization": {
+    "design_document_creator": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Организация разработавшая проектную документацию на строительство объекта"
+      "title": "Организация, разработавшая проектную документацию на строительство объекта"
     },
     "project_work_right_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
