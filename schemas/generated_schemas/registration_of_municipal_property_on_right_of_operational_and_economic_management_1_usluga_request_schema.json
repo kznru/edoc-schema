@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+    "organization",
+    "agent"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http:///organization/ru/organization",
+      "title": "Заказчик"
+    },
+    "address_with_map": {
+      "$ref": "http:///location/ru/address_with_map",
+      "title": "Адрес объекта"
+    },
+    "agent": {
+      "$ref": "http:///document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "comments": {
+      "$ref": "http:///document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  }
+}
