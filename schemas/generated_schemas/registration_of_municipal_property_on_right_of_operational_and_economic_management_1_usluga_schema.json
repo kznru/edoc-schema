@@ -1,28 +1,28 @@
 {
   "properties": {
     "address_with_map": {
-      "$ref": "http:///location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Месторасположение муниципального имущества"
     },
     "organization": {
-      "$ref": "http:///organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "letter_of_attorney": {
-      "$ref": "http:///document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, казанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "agent": {
-      "$ref": "http:///document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http:///document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http:///document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
