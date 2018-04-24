@@ -1,0 +1,13 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "update_contracts_of_operational_and_economic_management_of_municipal_property",
+      "virtual": true,
+      "keys": [
+        { "name": "update_contracts_of_operational_and_economic_management_of_municipal_property_natural_person_1" },
+        { "name": "update_contracts_of_operational_and_economic_management_of_municipal_property_legal_entity_1" }
+      ]
+    }
+  ]
+}

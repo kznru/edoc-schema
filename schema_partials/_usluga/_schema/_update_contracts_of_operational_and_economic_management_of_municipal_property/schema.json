@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "title": "Договор оперативного управления, хозяйственного ведения муниципального имущества"
+    }
+  }
+}
