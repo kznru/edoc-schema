@@ -1,0 +1,13 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "land_plot_provision_for_auction_in_the_form_of_auction",
+      "virtual": true,
+      "keys": [
+        { "name": "land_plot_provision_for_auction_in_the_form_of_auction_natural_person_1" },
+        { "name": "land_plot_provision_for_auction_in_the_form_of_auction_legal_entity_1" }
+      ]
+    }
+  ]
+}
