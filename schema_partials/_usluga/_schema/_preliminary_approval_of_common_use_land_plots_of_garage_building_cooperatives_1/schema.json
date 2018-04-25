@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Председатель ГСК"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Наименование и расположение ГСК"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка",
+      "description": "Кадастровый номер в виде число:число:число..."
+    }
+  }
+}
