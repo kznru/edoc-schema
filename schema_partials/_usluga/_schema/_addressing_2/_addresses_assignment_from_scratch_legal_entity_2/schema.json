@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "object_rights": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/addressing_object_rights",
+      "title": "Правоустанавливающий документ",
+      "description": "Выписка из реестра собственности"
+    }
+  },
+  "required": [
+    "address_with_map",
+    "object_rights"
+  ]
+}

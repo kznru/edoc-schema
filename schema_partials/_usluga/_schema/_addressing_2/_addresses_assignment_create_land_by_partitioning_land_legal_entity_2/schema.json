@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "identification_data_of_lands": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
+      "maxItems": 1,
+      "title": "Данные, идентифицирующие земельный участок"
+    }
+  },
+  "required": [
+    "identification_data_of_lands"
+  ]
+}

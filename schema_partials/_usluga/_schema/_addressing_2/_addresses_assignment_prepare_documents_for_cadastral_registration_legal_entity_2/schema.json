@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "identification_data_of_buildings": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
+      "maxItems": 1,
+      "title": "Данные, идентифицирующие здание"
+    },
+    "building_name": {
+      "type": "string",
+      "title": "Наименование объекта строительства (реконструкции)",
+      "description": "Наименование объекта строительства (реконструкции) (при наличии проектной документации указывается в соответствии с проектной документацией)"
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  },
+  "required": [
+    "identification_data_of_buildings",
+    "building_name"
+  ]
+}

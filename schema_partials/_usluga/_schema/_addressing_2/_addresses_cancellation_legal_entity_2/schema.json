@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "address_numbers": {
+      "maxItems": 1
+    },
+    "address_cancellation_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_cancellation_reason",
+      "title": "Причина для аннулирования",
+      "description": "Причина для аннулирования адреса объекта адресации"
+    }
+  },
+  "required": [
+    "address_with_map",
+    "address_cancellation_reason"
+  ]
+}
