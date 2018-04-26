@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "title": "Распоряжение органа местного самоуправлне"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка или кадастрового квартала"
+    }
+  }
+}
