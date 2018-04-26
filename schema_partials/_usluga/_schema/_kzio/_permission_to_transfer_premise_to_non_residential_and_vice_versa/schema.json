@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Месторасположение объекта"
+    }
+  }
+}
