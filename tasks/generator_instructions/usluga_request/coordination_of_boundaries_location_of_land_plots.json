@@ -1,5 +1,5 @@
 {
-  "base": "_usluga",
+  "base": "_usluga_request",
   "keys": [
     {
       "name": "coordination_of_boundaries_location_of_land_plots_1"

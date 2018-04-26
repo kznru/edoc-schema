@@ -1,5 +1,5 @@
 {
-  "base": "_usluga",
+  "base": "_usluga_request",
   "keys": [
     {
       "name": "termination_of_current_lease_of_municipal_property",
