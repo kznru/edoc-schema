@@ -12,6 +12,9 @@
             { "name": "contract_for_uncompensated_use_of_municipal_property_natural_person_1" },
             { "name": "contract_for_uncompensated_use_of_municipal_property_legal_entity_1" }
           ]
+        },
+        {
+          "name": "granting_of_land_plot_belonging_to_property_of_horticultural_association_use_1"
         }
       ]
     }
