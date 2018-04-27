@@ -26,6 +26,9 @@
             { "name": "permission_to_transfer_premise_to_non_residential_and_vice_versa_natural_person_1" },
             { "name": "permission_to_transfer_premise_to_non_residential_and_vice_versa_legal_entity_1" }
           ]
+        },
+        {
+          "name": "privatization_of_living_quarters_1"
         }
       ]
     }
