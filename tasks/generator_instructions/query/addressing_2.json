@@ -1,0 +1,92 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "addressing_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "address_assigning_directive_draft",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_rooms_by_partitioning_room_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_from_scratch_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_land_from_state_or_municipal_lands_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_construction_building_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_convert_room_between_living_and_nonresidental_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_land_by_partitioning_land_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_land_by_redistribution_lands_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_land_by_separation_from_land_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_land_by_unification_lands_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_room_by_reorganization_of_public_spaces_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_room_by_unification_rooms_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_rooms_by_partitioning_building_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_prepare_documents_for_cadastral_registration_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_cancellation_legal_entity_2"
+            }
+          ]
+        },
+        {
+          "name": "address_assigning_directive_draft_with_additional_house",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "address_assigning_directive_draft_with_additional_house_for_addresses_assignment_create_rooms_by_partitioning_room_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_with_additional_house_for_addresses_assignment_convert_room_between_living_and_nonresidental_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_with_additional_house_for_addresses_assignment_create_room_by_reorganization_of_public_spaces_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_with_additional_house_for_addresses_assignment_create_room_by_unification_rooms_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_with_additional_house_for_addresses_assignment_create_rooms_by_partitioning_building_legal_entity_2"
+            }
+          ]
+        },
+        {
+          "name": "addressing_street_name_decree_draft",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "addressing_street_name_decree_draft_for_addresses_assignment_create_rooms_by_partitioning_room_legal_entity_2"
+            },
+            {
+              "name": "addressing_street_name_decree_draft_for_addresses_assignment_create_room_by_unification_rooms_legal_entity_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
