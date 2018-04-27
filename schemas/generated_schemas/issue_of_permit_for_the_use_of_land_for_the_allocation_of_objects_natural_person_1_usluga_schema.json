@@ -4,7 +4,7 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "address": {
+    "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка"
     },

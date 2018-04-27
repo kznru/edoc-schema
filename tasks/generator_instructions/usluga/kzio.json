@@ -98,6 +98,14 @@
             { "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_legal_entity_1" },
             { "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_1" }
           ]
+        },
+        {
+          "name": "issue_of_permit_for_use_of_lands_in_state_or_municipal_ownership",
+          "virtual": true,
+          "keys": [
+            { "name": "issue_of_permit_for_use_of_lands_in_state_or_municipal_ownership_legal_entity_1" },
+            { "name": "issue_of_permit_for_use_of_lands_in_state_or_municipal_ownership_natural_person_1" }
+          ]
         }
       ]
     }

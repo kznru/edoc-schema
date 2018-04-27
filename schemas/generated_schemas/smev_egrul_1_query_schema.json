@@ -5,5 +5,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     }
-  }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }

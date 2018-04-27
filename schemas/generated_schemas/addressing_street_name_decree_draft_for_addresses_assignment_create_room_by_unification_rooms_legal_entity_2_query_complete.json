@@ -1,6 +1,10 @@
 {
-  "type": "object",
   "properties": {
+    "signed_decree": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "title": "Постановление",
+      "description": "Скан постановления с печатью"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
@@ -9,5 +13,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  }
+  },
+  "required": [
+    "signed_decree"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }
