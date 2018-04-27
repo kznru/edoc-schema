@@ -90,6 +90,14 @@
             { "name": "land_redistribution_agreement_legal_entity_1" },
             { "name": "land_redistribution_agreement_natural_person_1" }
           ]
+        },
+        {
+          "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects",
+          "virtual": true,
+          "keys": [
+            { "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_legal_entity_1" },
+            { "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_1" }
+          ]
         }
       ]
     }
