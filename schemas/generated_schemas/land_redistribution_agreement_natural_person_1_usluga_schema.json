@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местоположение земельного участка"
+    },
+    "cadastre_number_gov": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка, находящегося в муниципальной собственности или государственная собственность на который не разграничена (при наличии)"
+    },
+    "cadastre_number_own": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка, находящегося в частной собственности"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
