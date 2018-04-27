@@ -106,7 +106,8 @@
             { "name": "issue_of_permit_for_use_of_lands_in_state_or_municipal_ownership_legal_entity_1" },
             { "name": "issue_of_permit_for_use_of_lands_in_state_or_municipal_ownership_natural_person_1" }
           ]
-        }
+        },
+        { "name": "free_reception_and_granting_ground_areas_1" }
       ]
     }
   ]
