@@ -46,6 +46,9 @@
             { "name": "granting_of_municipal_property_for_free_use_through_auctions_natural_person_1" },
             { "name": "granting_of_municipal_property_for_free_use_through_auctions_legal_entity_1" }
           ]
+        },
+        {
+          "name": "land_provision_detached_garage_1"
         }
       ]
     }
