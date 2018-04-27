@@ -38,6 +38,14 @@
         },
         {
           "name": "citizen_house_provision_under_social_employment_contract_1"
+        },
+        {
+          "name": "granting_of_municipal_property_for_free_use_through_auctions",
+          "virtual": true,
+          "keys": [
+            { "name": "granting_of_municipal_property_for_free_use_through_auctions_natural_person_1" },
+            { "name": "granting_of_municipal_property_for_free_use_through_auctions_legal_entity_1" }
+          ]
         }
       ]
     }
