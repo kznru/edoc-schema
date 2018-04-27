@@ -74,6 +74,14 @@
         },
         {
           "name": "land_plot_provision_to_citizens_for_gardening_1"
+        },
+        {
+          "name": "coordination_of_transfer_of_rights_of_a_land_plot_to_third_party",
+          "virtual": true,
+          "keys": [
+            { "name": "coordination_of_transfer_of_rights_of_a_land_plot_to_third_party_natural_person_1" },
+            { "name": "coordination_of_transfer_of_rights_of_a_land_plot_to_third_party_legal_entity_1" }
+          ]
         }
       ]
     }

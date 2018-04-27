@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    },
+    "third_party_natural_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Третье лицо"
+    }
+  }
+}
