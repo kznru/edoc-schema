@@ -154,6 +154,14 @@
             { "name": "issue_of_permission_to_transfer_land_to_sublease_legal_entity_1" },
             { "name": "issue_of_permission_to_transfer_land_to_sublease_natural_person_1" }
           ]
+        },
+        {
+          "name": "termination_of_current_lease_of_land",
+          "virtual": true,
+          "keys": [
+            { "name": "termination_of_current_lease_of_land_legal_entity_1" },
+            { "name": "termination_of_current_lease_of_land_natural_person_1" }
+          ]
         }
       ]
     }
