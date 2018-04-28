@@ -1,4 +1,14 @@
 {
+  "properties": {
+    "identification_data_of_lands": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
+      "title": "Данные, идентифицирующие земельные участки"
+    },
+    "address_numbers": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    }
+  },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

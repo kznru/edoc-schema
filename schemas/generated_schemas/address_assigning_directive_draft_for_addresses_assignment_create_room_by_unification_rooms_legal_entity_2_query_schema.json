@@ -1,4 +1,14 @@
 {
+  "properties": {
+    "identification_data_of_rooms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "title": "Данные, идентифицирующие помещения"
+    },
+    "address_numbers": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    }
+  },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

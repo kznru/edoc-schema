@@ -31,5 +31,8 @@
       "title": "Комментарии"
     }
   },
-  "type": "object"
+  "type": "object",
+  "required": [
+    "reject_reasons"
+  ]
 }

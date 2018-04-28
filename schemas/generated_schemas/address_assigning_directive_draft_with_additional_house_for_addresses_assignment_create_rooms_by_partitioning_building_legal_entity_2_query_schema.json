@@ -1,4 +1,19 @@
 {
+  "properties": {
+    "identification_data_of_buildings": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
+      "title": "Данные, идентифицирующие здание"
+    },
+    "address_numbers": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    },
+    "house_cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер здания",
+      "description": "Кадастровый номер здания, которому нужно присвоить адресный номер"
+    }
+  },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

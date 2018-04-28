@@ -24,5 +24,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  }
+  },
+  "required": [
+    "reject_reasons"
+  ]
 }
