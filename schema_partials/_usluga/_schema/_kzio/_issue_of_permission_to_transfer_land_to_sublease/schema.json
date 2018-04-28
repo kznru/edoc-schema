@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "lease_contract_info": {
+      "type": "object",
+      "title": "Договор аренды",
+      "properties": {
+        "number": {
+          "type": "number",
+          "title": "Номер"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    }
+  }
+}

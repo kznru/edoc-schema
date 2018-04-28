@@ -146,7 +146,15 @@
         { "name": "provision_of_land_plot_for_individual_housing_construction_without_an_auction_1" },
         { "name": "termination_of_the_right_of_permanent_use_of_land_1" },
         { "name": "provision_of_land_for_unlimited_use_1" },
-        { "name": "provision_of_land_for_church_for_unlimited_use_1" }
+        { "name": "provision_of_land_for_church_for_unlimited_use_1" },
+        {
+          "name": "issue_of_permission_to_transfer_land_to_sublease",
+          "virtual": true,
+          "keys": [
+            { "name": "issue_of_permission_to_transfer_land_to_sublease_legal_entity_1" },
+            { "name": "issue_of_permission_to_transfer_land_to_sublease_natural_person_1" }
+          ]
+        }
       ]
     }
   ]
