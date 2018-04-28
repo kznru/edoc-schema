@@ -128,6 +128,15 @@
         },
         {
           "name": "land_plot_provision_to_buildings_owners_1"
+        },
+        { "name": "free_reception_and_granting_ground_areas_1" },
+        {
+          "name": "preliminary_approval_of_the_provision_of_land",
+          "virtual": true,
+          "keys": [
+            { "name": "preliminary_approval_of_the_provision_of_land_legal_entity_1" },
+            { "name": "preliminary_approval_of_the_provision_of_land_natural_person_1" }
+          ]
         }
       ]
     }
