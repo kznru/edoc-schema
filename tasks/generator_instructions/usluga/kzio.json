@@ -142,7 +142,8 @@
           "name": "land_plot_formation",
           "virtual": true,
           "keys": [{ "name": "land_plot_formation_legal_entity_1" }, { "name": "land_plot_formation_natural_person_1" }]
-        }
+        },
+        { "name": "provision_of_land_plot_for_individual_housing_construction_without_an_auction_1" }
       ]
     }
   ]
