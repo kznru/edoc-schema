@@ -162,6 +162,14 @@
             { "name": "termination_of_current_lease_of_land_legal_entity_1" },
             { "name": "termination_of_current_lease_of_land_natural_person_1" }
           ]
+        },
+        {
+          "name": "provision_of_land_for_rent_without_auction",
+          "virtual": true,
+          "keys": [
+            { "name": "provision_of_land_for_rent_without_auction_legal_entity_1" },
+            { "name": "provision_of_land_for_rent_without_auction_natural_person_1" }
+          ]
         }
       ]
     }
