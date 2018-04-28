@@ -2,7 +2,8 @@
   "base": "_usluga_request",
   "keys": [
     {
-      "name": "inclusion_into_list_of_citizens_entitled_to_purchase_housing_1"
+      "name": "inclusion_into_list_of_citizens_entitled_to_purchase_housing_1",
+      "action": "delete"
     }
   ]
 }
