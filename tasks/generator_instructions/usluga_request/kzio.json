@@ -178,6 +178,14 @@
             { "name": "land_plot_provision_previously_agreed_by_resolution_legal_entity_1" },
             { "name": "land_plot_provision_previously_agreed_by_resolution_natural_person_1" }
           ]
+        },
+        {
+          "name": "municipal_property_of_treasury_transfer",
+          "virtual": true,
+          "keys": [
+            { "name": "municipal_property_of_treasury_transfer_legal_entity_1" },
+            { "name": "municipal_property_of_treasury_transfer_natural_person_1" }
+          ]
         }
       ]
     }
