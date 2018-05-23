@@ -14,9 +14,19 @@
       "type": "integer",
       "title": "Кол-во нежилых помещений",
       "description": "Количество образуемых нежилых помещений"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     }
   },
   "required": [
+    "organization",
     "identification_data_of_buildings"
   ]
 }

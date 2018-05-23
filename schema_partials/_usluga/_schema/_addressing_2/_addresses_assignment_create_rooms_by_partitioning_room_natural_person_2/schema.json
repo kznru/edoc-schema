@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "identification_data_of_rooms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "maxItems": 1,
+      "title": "Данные, идентифицирующие помещение"
+    },
+    "agent": { "title": "Заявитель" }
+  },
+  "required": [
+    "agent",
+    "identification_data_of_rooms"
+  ]
+}
