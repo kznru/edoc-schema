@@ -14,10 +14,6 @@
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
-    "address_numbers": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
-    },
     "extracts_from_city_property_registry": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
@@ -37,8 +33,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_lands",
-    "address_numbers"
+    "identification_data_of_lands"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

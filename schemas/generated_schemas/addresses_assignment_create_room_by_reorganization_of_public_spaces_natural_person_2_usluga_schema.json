@@ -6,9 +6,7 @@
       "title": "Данные, идентифицирующие помещение"
     },
     "address_numbers": {
-      "maxItems": 1,
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+      "maxItems": 1
     },
     "agent": {
       "title": "Заявитель",
@@ -29,8 +27,7 @@
   },
   "required": [
     "agent",
-    "identification_data_of_rooms",
-    "address_numbers"
+    "identification_data_of_rooms"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

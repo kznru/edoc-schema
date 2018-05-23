@@ -11,9 +11,7 @@
       "description": "Наименование объекта строительства (реконструкции) (при наличии проектной документации указывается в соответствии с проектной документацией)"
     },
     "address_numbers": {
-      "maxItems": 1,
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+      "maxItems": 1
     },
     "agent": {
       "title": "Заявитель",
@@ -35,8 +33,7 @@
   "required": [
     "agent",
     "identification_data_of_buildings",
-    "building_name",
-    "address_numbers"
+    "building_name"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

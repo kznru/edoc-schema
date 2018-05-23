@@ -5,9 +5,7 @@
       "description": "Адрес объекта"
     },
     "address_numbers": {
-      "maxItems": 1,
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+      "maxItems": 1
     },
     "address_cancellation_reason": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_cancellation_reason",
@@ -43,8 +41,7 @@
   "required": [
     "organization",
     "address_with_map",
-    "address_cancellation_reason",
-    "address_numbers"
+    "address_cancellation_reason"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

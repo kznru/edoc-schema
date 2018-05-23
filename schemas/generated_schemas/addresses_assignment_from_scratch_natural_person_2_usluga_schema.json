@@ -13,10 +13,6 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "address_numbers": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
-    },
     "extracts_from_city_property_registry": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
@@ -33,8 +29,7 @@
   "required": [
     "agent",
     "address_with_map",
-    "object_rights",
-    "address_numbers"
+    "object_rights"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

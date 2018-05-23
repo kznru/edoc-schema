@@ -5,9 +5,7 @@
       "title": "Данные, идентифицирующие помещения"
     },
     "address_numbers": {
-      "maxItems": 1,
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+      "maxItems": 1
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -37,8 +35,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_rooms",
-    "address_numbers"
+    "identification_data_of_rooms"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
