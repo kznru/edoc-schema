@@ -36,8 +36,8 @@
     }
   },
   "required": [
-    "identification_data_of_rooms",
     "organization",
+    "identification_data_of_rooms",
     "address_numbers"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",

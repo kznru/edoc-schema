@@ -41,9 +41,9 @@
     }
   },
   "required": [
+    "organization",
     "address_with_map",
     "address_cancellation_reason",
-    "organization",
     "address_numbers"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",

@@ -1,0 +1,42 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "address_numbers": {
+      "maxItems": 1,
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    },
+    "address_cancellation_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_cancellation_reason",
+      "title": "Причина для аннулирования",
+      "description": "Причина для аннулирования адреса объекта адресации"
+    },
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "agent",
+    "address_with_map",
+    "address_cancellation_reason",
+    "address_numbers"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

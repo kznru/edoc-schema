@@ -42,9 +42,9 @@
     }
   },
   "required": [
+    "organization",
     "identification_data_of_buildings",
     "building_name",
-    "organization",
     "address_numbers"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",

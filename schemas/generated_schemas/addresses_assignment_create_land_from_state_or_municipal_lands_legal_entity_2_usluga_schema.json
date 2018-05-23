@@ -4,10 +4,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
       "title": "Данные, идентифицирующие земельные участки"
     },
-    "address_numbers": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"
@@ -16,6 +12,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "address_numbers": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
     },
     "extracts_from_city_property_registry": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
@@ -35,8 +35,8 @@
     }
   },
   "required": [
-    "identification_data_of_lands",
     "organization",
+    "identification_data_of_lands",
     "address_numbers"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
