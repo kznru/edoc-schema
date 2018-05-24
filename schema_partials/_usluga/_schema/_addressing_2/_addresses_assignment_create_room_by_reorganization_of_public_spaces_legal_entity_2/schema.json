@@ -5,9 +5,6 @@
       "maxItems": 1,
       "title": "Данные, идентифицирующие помещение"
     },
-    "address_numbers": {
-      "maxItems": 1
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"

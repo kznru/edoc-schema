@@ -13,9 +13,6 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }
     },
-    "address_numbers": {
-      "maxItems": 1
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"

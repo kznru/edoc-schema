@@ -10,9 +10,6 @@
       "title": "Наименование объекта строительства (реконструкции)",
       "description": "Наименование объекта строительства (реконструкции) в соответствии с проектной документацией"
     },
-    "address_numbers": {
-      "maxItems": 1
-    },
     "agent": {
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
