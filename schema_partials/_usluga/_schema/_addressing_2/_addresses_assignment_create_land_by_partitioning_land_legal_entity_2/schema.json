@@ -5,6 +5,14 @@
       "maxItems": 1,
       "title": "Данные, идентифицирующие земельный участок"
     },
+    "technical_plans": {
+      "title": "Технический план помещения",
+      "maxItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
+      }
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"

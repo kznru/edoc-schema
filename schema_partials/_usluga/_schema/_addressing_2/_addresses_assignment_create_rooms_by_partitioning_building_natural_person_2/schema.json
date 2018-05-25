@@ -15,6 +15,14 @@
       "title": "Кол-во нежилых помещений",
       "description": "Количество образуемых нежилых помещений"
     },
+    "technical_plans": {
+      "title": "Технический план здания",
+      "maxItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
+      }
+    },
     "agent": { "title": "Заявитель" }
   },
   "required": [
