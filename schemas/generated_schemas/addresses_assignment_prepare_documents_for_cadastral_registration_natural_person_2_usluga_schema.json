@@ -10,6 +10,14 @@
       "title": "Наименование объекта строительства (реконструкции)",
       "description": "Наименование объекта строительства (реконструкции) (при наличии проектной документации указывается в соответствии с проектной документацией)"
     },
+    "technical_plans": {
+      "title": "Технический план здания",
+      "maxItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
+      }
+    },
     "agent": {
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"

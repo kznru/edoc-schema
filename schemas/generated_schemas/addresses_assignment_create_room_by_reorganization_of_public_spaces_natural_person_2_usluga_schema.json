@@ -5,6 +5,14 @@
       "maxItems": 1,
       "title": "Данные, идентифицирующие помещение"
     },
+    "technical_plans": {
+      "title": "Технический план помещения",
+      "maxItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
+      }
+    },
     "agent": {
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
