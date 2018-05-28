@@ -4,8 +4,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
       "title": "Данные, идентифицирующие земельные участки"
     },
-    "natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
     "letter_of_attorney": {
@@ -15,7 +15,7 @@
     }
   },
   "required": [
-    "natural_person",
+    "applicant",
     "identification_data_of_lands"
   ]
 }

@@ -18,8 +18,8 @@
       "title": "Наименование объекта строительства (реконструкции)",
       "description": "Наименование объекта строительства (реконструкции) в соответствии с проектной документацией"
     },
-    "natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
     "letter_of_attorney": {
@@ -29,7 +29,7 @@
     }
   },
   "required": [
-    "natural_person",
+    "applicant",
     "identification_data_of_buildings",
     "building_name"
   ]

@@ -9,8 +9,8 @@
       "title": "Причина для аннулирования",
       "description": "Причина для аннулирования адреса объекта адресации"
     },
-    "natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
     "letter_of_attorney": {
@@ -20,7 +20,7 @@
     }
   },
   "required": [
-    "natural_person",
+    "applicant",
     "address_with_map",
     "address_cancellation_reason"
   ]

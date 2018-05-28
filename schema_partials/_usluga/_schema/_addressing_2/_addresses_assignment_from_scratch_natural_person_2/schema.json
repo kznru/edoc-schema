@@ -17,8 +17,8 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
       }
     },
-    "natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
     "letter_of_attorney": {
@@ -28,7 +28,7 @@
     }
   },
   "required": [
-    "natural_person",
+    "applicant",
     "address_with_map",
     "object_rights"
   ]
