@@ -20,7 +20,7 @@
     }
   },
   "required": [
-    "agent",
+    "natural_person",
     "address_with_map",
     "address_cancellation_reason"
   ]

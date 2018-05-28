@@ -29,6 +29,7 @@
     }
   },
   "required": [
+    "natural_person",
     "identification_data_of_buildings",
     "building_name"
   ]

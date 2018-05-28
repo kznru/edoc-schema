@@ -34,7 +34,7 @@
     }
   },
   "required": [
-    "agent",
+    "natural_person",
     "identification_data_of_buildings"
   ]
 }
