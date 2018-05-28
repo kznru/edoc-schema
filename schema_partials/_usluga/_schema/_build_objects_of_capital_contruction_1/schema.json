@@ -13,8 +13,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
       "description": "Наименование объекта строительства"
     },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "description": "Адрес объекта"
     },
     "mounth_count": {

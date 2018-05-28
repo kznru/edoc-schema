@@ -1,7 +1,7 @@
 {
   "properties": {
-    "address_with_map_and_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Местонахождение объекта культурного наследия"
     },
     "letter_of_attorney": {

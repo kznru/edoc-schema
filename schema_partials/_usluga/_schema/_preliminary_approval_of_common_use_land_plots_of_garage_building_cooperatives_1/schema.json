@@ -3,8 +3,8 @@
     "agent": {
       "title": "Председатель ГСК"
     },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Наименование и расположение ГСК"
     },
     "cadastre_number": {
