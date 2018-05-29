@@ -10,6 +10,9 @@
       "type": "array",
       "minItems": 1,
       "maxItems": 1,
+      "default": [
+
+      ],
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }

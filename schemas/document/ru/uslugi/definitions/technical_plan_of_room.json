@@ -10,7 +10,7 @@
     "additional_info": {"type": "string", "title": "Информация о помещении"},
     "another_location": {"type": "string", "title": "Иное месторасположение"},
     "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
-    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": " ", "description": ""}
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"}
   },
   "required": ["content", "organization", "issue_date", "purpose_of_room", "object_number"]
 }

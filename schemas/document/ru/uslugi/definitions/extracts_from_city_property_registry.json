@@ -5,5 +5,6 @@
   "description": "Выписки из реестра собственности города",
   "items": {
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extract_from_city_property_registry"
-  }
+  },
+  "default": []
 }
