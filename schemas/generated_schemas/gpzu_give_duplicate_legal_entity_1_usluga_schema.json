@@ -55,6 +55,9 @@
       "title": "Комментарии"
     }
   },
+  "required": [
+    "address_with_map"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

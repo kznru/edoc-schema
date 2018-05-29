@@ -4,8 +4,8 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "address_with_map_and_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments"
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
     "desing_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

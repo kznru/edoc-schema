@@ -1,7 +1,7 @@
 {
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address",
       "title": "Адрес земельного участка"
     },
     "cadastre_number": {
