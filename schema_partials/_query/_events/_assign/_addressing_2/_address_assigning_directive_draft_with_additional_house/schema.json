@@ -1,11 +1,5 @@
 {
   "properties": {
-    "address_numbers": {
-       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-       "title": "Адресные номера"
-    }
-  },
-  "required": [
-    "address_numbers"
-  ]
+    "address_numbers": { "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers" }
+  }
 }

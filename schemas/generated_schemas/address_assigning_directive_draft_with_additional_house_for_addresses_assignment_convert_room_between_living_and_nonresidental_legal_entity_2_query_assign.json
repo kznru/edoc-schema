@@ -1,8 +1,7 @@
 {
   "properties": {
     "address_numbers": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
-      "title": "Адресные номера"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -13,9 +12,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_numbers"
-  ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
