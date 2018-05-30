@@ -1,13 +1,11 @@
 {
-  "type": "object",
   "required": [
-    "organization",
-    "agent"
+    "organization"
   ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
+      "title": "Заявитель"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
@@ -21,5 +19,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  }
+  },
+  "type": "object"
 }

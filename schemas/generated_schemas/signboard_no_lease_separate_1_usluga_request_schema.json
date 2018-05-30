@@ -1,14 +1,6 @@
 {
   "type": "object",
-  "required": [
-    "organization",
-    "agent"
-  ],
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта"
