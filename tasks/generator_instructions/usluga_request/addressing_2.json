@@ -93,6 +93,9 @@
           "name": "addresses_assignment_create_room_with_cancellation_legal_entity_2"
         },
         {
+          "name": "addresses_assignment_create_room_with_cancellation_natural_person_2"
+        },
+        {
           "name": "addresses_assignment_create_building_with_cancellation_legal_entity_2"
         },
         {
