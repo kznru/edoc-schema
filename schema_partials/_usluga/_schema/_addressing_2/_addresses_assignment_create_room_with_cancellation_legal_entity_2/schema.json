@@ -3,7 +3,9 @@
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие помещение"
+      "title": "Данные, идентифицирующие здание",
+      "description": "Данные здания, в котором находится помещение",
+      "required": ["cadastre_number", "address_with_map"]
     },
     "cancellation_number": {
       "type": "string",
