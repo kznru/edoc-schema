@@ -2,15 +2,19 @@
   "properties": {
     "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
-      "title": "Данные, идентифицирующие земельные участки"
+      "title": "Исходные земельные участки"
+    },
+    "result_lands_count": {
+      "type": "integer",
+      "minimum": 1,
+      "title": "Количество образуемых участков"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional",
-      "title": "Представитель"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
@@ -20,6 +24,7 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_lands"
+    "identification_data_of_lands",
+    "result_lands_count"
   ]
 }

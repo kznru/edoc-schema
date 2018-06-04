@@ -1,5 +1,13 @@
 {
   "properties": {
+    "identification_data_of_lands": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
+      "title": "Исходные земельные участки"
+    },
+    "result_lands_count": {
+      "type": "integer",
+      "title": "Количество образуемых участков"
+    },
     "extracts_from_city_property_registry": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"

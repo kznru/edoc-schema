@@ -17,6 +17,9 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
     },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional"
+    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",

@@ -2,7 +2,12 @@
   "properties": {
     "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
-      "title": "Данные, идентифицирующие земельные участки"
+      "title": "Исходные земельные участки"
+    },
+    "result_lands_count": {
+      "type": "integer",
+      "minimum": 1,
+      "title": "Количество образуемых участков"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -16,6 +21,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_lands"
+    "identification_data_of_lands",
+    "result_lands_count"
   ]
 }
