@@ -2,7 +2,13 @@
   "properties": {
     "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
-      "title": "Данные, идентифицирующие земельные участки"
+      "title": "Земельный участок, являющийся результатом объединения",
+      "maxItems": 1
+    },
+    "source_lands_count": {
+      "type": "integer",
+      "minimum": 1,
+      "title": "Количество объединяемых участков"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -32,7 +38,8 @@
   },
   "required": [
     "organization",
-    "identification_data_of_lands"
+    "identification_data_of_lands",
+    "source_lands_count"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

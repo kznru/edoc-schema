@@ -12,6 +12,10 @@
     "technical_plans": {
       "title": "Технический план здания",
       "maxItems": 1,
+      "default": [
+
+      ],
+      "minItems": 1,
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
@@ -46,7 +50,8 @@
   "required": [
     "applicant",
     "address_with_map",
-    "object_rights"
+    "object_rights",
+    "technical_plans"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

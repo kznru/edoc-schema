@@ -9,6 +9,9 @@
       "title": "Технический план здания",
       "type": "array",
       "maxItems": 1,
+      "default": [
+
+      ],
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
       }
@@ -16,6 +19,10 @@
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional",
+      "title": "Представитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
@@ -25,10 +32,6 @@
     "extracts_from_city_property_registry": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

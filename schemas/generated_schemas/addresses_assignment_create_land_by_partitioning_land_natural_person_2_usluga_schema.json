@@ -3,7 +3,12 @@
     "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие земельный участок"
+      "title": "Земельный участок, раздел которого осуществляется"
+    },
+    "result_lands_count": {
+      "type": "integer",
+      "minimum": 1,
+      "title": "Количество образуемых участков"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -33,7 +38,8 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_lands"
+    "identification_data_of_lands",
+    "result_lands_count"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

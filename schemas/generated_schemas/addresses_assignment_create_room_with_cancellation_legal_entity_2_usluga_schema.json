@@ -55,6 +55,7 @@
   },
   "required": [
     "technical_plans",
+    "cancellation_number",
     "organization",
     "identification_data_of_rooms"
   ],
