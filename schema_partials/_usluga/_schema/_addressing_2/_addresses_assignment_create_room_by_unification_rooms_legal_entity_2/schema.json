@@ -2,12 +2,13 @@
   "properties": {
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
-      "title": "Данные, идентифицирующие помещения"
+      "title": "Исходные помещения"
     },
     "technical_plans": {
       "title": "Технические планы образуемых помещений",
       "type": "array",
       "maxItems": 1,
+      "default": [],
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }
@@ -24,6 +25,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_rooms"
+    "identification_data_of_rooms",
+    "technical_plans"
   ]
 }

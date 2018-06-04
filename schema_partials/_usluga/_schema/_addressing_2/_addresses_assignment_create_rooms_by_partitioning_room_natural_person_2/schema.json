@@ -3,11 +3,13 @@
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие помещение"
+      "title": "Помещение, раздел которого осуществляется"
     },
     "technical_plans": {
       "title": "Технические планы образуемых помещений",
       "type": "array",
+      "default": [],
+      "minItems": 1,
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }
@@ -27,6 +29,7 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_rooms"
+    "identification_data_of_rooms",
+    "technical_plans"
   ]
 }

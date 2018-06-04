@@ -5,7 +5,7 @@
       "title": "Данные, идентифицирующие помещение"
     },
     "technical_plans": {
-      "title": "Технический план помещения",
+      "title": "Технические планы помещений",
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"

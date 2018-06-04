@@ -3,12 +3,21 @@
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие здание"
+      "title": "Данные, идентифицирующие здание",
+      "description": "Данные здания, в котором находится помещение",
+      "required": ["cadastre_number", "address_with_map"]
+    },
+    "cancellation_number": {
+      "type": "string",
+      "title": "Адресный номер для аннулирования",
+      "description": "Адресный номер помещения, который необходимо аннулировать"
     },
     "technical_plans": {
-      "title": "Технический план здания",
+      "title": "Технический план помещения",
       "type": "array",
+      "minItems": 1,
       "maxItems": 1,
+      "default": [],
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }
@@ -28,6 +37,8 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_rooms"
+    "identification_data_of_rooms",
+    "technical_plans",
+    "cancellation_number"
   ]
 }

@@ -2,7 +2,7 @@
   "properties": {
     "identification_data_of_lands": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
-      "title": "Земельный участок, из которого осуществляется выдел"
+      "title": "Данные, идентифицирующие земельный участок"
     }
   }
 }
