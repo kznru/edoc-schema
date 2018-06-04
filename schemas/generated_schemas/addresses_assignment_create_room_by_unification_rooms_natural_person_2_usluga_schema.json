@@ -11,6 +11,7 @@
       "default": [
 
       ],
+      "minItems": 1,
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }

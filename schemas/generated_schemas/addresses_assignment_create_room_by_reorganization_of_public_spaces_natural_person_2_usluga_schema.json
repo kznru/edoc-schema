@@ -1,13 +1,17 @@
 {
   "properties": {
-    "identification_data_of_rooms": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+    "identification_data_of_buildings": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
       "maxItems": 1,
-      "title": "Данные, идентифицирующие помещение"
+      "title": "Данные, идентифицирующие здание"
     },
     "technical_plans": {
-      "title": "Технический план помещения",
+      "title": "Технический план образуемого помещения",
       "maxItems": 1,
+      "default": [
+
+      ],
+      "minItems": 1,
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
@@ -41,7 +45,8 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_rooms"
+    "identification_data_of_buildings",
+    "technical_plans"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

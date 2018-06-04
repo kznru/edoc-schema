@@ -8,6 +8,7 @@
       "title": "Технические планы образуемых помещений",
       "type": "array",
       "maxItems": 1,
+      "minItems": 1,
       "default": [
 
       ],
