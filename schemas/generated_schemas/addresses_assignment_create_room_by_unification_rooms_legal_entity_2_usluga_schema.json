@@ -8,7 +8,6 @@
       "title": "Технические планы образуемых помещений",
       "type": "array",
       "maxItems": 1,
-      "minItems": 1,
       "default": [
 
       ],
@@ -44,8 +43,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_rooms",
-    "technical_plans"
+    "identification_data_of_rooms"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

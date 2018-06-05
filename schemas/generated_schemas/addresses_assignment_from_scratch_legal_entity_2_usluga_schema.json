@@ -15,7 +15,6 @@
       "default": [
 
       ],
-      "minItems": 1,
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
@@ -50,8 +49,7 @@
   "required": [
     "organization",
     "address_with_map",
-    "object_rights",
-    "technical_plans"
+    "object_rights"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

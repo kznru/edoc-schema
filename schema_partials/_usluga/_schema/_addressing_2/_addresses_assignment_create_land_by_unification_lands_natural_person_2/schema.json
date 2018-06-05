@@ -25,7 +25,6 @@
   },
   "required": [
     "applicant",
-    "identification_data_of_lands",
-    "source_lands_count"
+    "identification_data_of_lands"
   ]
 }

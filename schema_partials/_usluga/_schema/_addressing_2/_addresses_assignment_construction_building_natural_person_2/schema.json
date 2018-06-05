@@ -7,7 +7,6 @@
     },
     "technical_plans": {
       "title": "Технический план здания",
-      "minItems": 1,
       "maxItems": 1,
       "default": [],
       "type": "array",
@@ -36,7 +35,6 @@
   "required": [
     "applicant",
     "identification_data_of_buildings",
-    "building_name",
-    "technical_plans"
+    "building_name"
   ]
 }

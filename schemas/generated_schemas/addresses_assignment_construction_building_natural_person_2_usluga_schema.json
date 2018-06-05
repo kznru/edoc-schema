@@ -7,7 +7,6 @@
     },
     "technical_plans": {
       "title": "Технический план здания",
-      "minItems": 1,
       "maxItems": 1,
       "default": [
 
@@ -51,8 +50,7 @@
   "required": [
     "applicant",
     "identification_data_of_buildings",
-    "building_name",
-    "technical_plans"
+    "building_name"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

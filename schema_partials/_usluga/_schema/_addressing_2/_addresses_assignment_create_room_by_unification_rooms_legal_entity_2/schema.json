@@ -8,7 +8,6 @@
       "title": "Технические планы образуемых помещений",
       "type": "array",
       "maxItems": 1,
-      "minItems": 1,
       "default": [],
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
@@ -26,7 +25,6 @@
   },
   "required": [
     "organization",
-    "identification_data_of_rooms",
-    "technical_plans"
+    "identification_data_of_rooms"
   ]
 }

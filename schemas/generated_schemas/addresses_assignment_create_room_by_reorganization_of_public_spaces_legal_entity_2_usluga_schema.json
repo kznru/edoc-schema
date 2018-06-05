@@ -11,7 +11,6 @@
       "default": [
 
       ],
-      "minItems": 1,
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
@@ -45,8 +44,7 @@
   },
   "required": [
     "organization",
-    "identification_data_of_buildings",
-    "technical_plans"
+    "identification_data_of_buildings"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
