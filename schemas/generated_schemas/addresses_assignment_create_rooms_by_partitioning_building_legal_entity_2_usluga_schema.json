@@ -18,6 +18,9 @@
     "technical_plans": {
       "title": "Технический план здания",
       "maxItems": 1,
+      "default": [
+
+      ],
       "type": "array",
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
