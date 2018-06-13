@@ -95,6 +95,12 @@
             },
             {
               "name": "address_assigning_directive_draft_for_addresses_assignment_create_room_with_cancellation_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_building_and_land_from_scratch_legal_entity_2"
+            },
+            {
+              "name": "address_assigning_directive_draft_for_addresses_assignment_create_building_and_land_from_scratch_natural_person_2"
             }
           ]
         },
