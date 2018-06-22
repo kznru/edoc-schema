@@ -1,10 +1,10 @@
 root_path = File.expand_path('.')
 
-require_relative [root_path, '_plugins', 'partials_generate_service'].join('/')
+require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
 require_relative [root_path, '_plugins', 'schema_generator_service'].join('/')
 
 namespace :generator do
-  namespace :partial do
+  namespace :structure do
     instructions_default =
       [
         root_path, 'tasks', 'generator_instructions',
@@ -14,7 +14,7 @@ namespace :generator do
 
     desc 'Generate directories via template'
     task :run, [:instruction, :partials_dir]  do |t, args|
-      PartialsGenerateService.new(
+      StructureGeneratorService.new(
         instruction: args[:instruction] || instructions_default,
         partials_dir: args[:partials_dir] || partials_dir_default
       ).call
