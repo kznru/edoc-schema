@@ -18,9 +18,6 @@
                   "name": "signboard_insertion_legal_entity_1",
                   "keys": [
                     {
-                      "name": "signboard_insertion_legal_entity_built_in_non_residental_with_big_area_1"
-                    },
-                    {
                       "name": "signboard_insertion_legal_entity_built_in_non_residental_1"
                     },
                     {
@@ -32,9 +29,6 @@
                   "name": "signboard_insertion_natural_person_1",
                   "keys": [
                     {
-                      "name": "signboard_insertion_natural_person_built_in_non_residental_with_big_area_1"
-                    },
-                    {
                       "name": "signboard_insertion_natural_person_built_in_non_residental_1"
                     },
                     {
@@ -45,9 +39,6 @@
                 {
                   "name": "signboard_insertion_natural_person_with_agent_1",
                   "keys": [
-                    {
-                      "name": "signboard_insertion_natural_person_with_agent_built_in_non_residental_with_big_area_1"
-                    },
                     {
                       "name": "signboard_insertion_natural_person_with_agent_built_in_non_residental_1"
                     },
