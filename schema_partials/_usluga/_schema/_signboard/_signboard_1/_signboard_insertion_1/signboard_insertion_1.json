@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "original_photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo",
+      "title": "Фотофиксация исходной ситуации",
+      "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, выполненная согласно требованиям, изложенным в приложении No2 к Регламенту муниципальной услуги."
+    },
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Топографический план",
+      "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
+    },
+    "situational_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Ситуационный план",
+      "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
+    },
+    "original_photo_sni": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo",
+      "title": "Изображения проектируемых конструкций СНИ",
+      "description": "Изображения проектируемых конструкций СНИ, выполненные согласно требованиям, изложенным в приложении No2 к Регламенту муниципальной услуги."
+    }
+  }
+}
