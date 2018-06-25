@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "reject_reasons": {
+      "minItems": 1
+    }
+  }
+}
