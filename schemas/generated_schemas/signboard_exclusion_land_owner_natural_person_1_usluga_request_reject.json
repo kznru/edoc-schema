@@ -1,7 +1,11 @@
 {
+  "type": "object",
   "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
     "reject_reasons": {
-      "minItems": 1,
       "title": "Причина отказа",
       "type": "array",
       "items": {
@@ -15,10 +19,6 @@
         ]
       },
       "uniqueItems": true
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
     },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
@@ -69,6 +69,5 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  },
-  "type": "object"
+  }
 }

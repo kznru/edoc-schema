@@ -23,8 +23,8 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка"
     },
-    "original_photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo",
+    "image_original": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
       "title": "Фотофиксация исходной ситуации",
       "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, выполненная согласно требованиям, изложенным в приложении No2 к Регламенту муниципальной услуги."
     },
@@ -35,13 +35,37 @@
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Ситуационный план",
+      "title": "Адрес размещения (ситуационный план)",
       "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
-    "original_photo_sni": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo",
-      "title": "Изображения проектируемых конструкций СНИ",
-      "description": "Изображения проектируемых конструкций СНИ, выполненные согласно требованиям, изложенным в приложении No2 к Регламенту муниципальной услуги."
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "image_constructions": {
+      "type": "array",
+      "title": "Изображения конструкций",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "contruction_type",
+          "image"
+        ],
+        "properties": {
+          "contruction_type": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
+            "title": "Тип конструкции"
+          },
+          "image": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+            "title": "Изображение конструкции"
+          }
+        }
+      }
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

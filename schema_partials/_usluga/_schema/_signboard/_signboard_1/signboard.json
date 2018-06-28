@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    }
+  }
+}

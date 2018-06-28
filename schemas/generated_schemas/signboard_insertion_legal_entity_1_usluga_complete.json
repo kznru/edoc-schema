@@ -1,6 +1,9 @@
 {
-  "type": "object",
   "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер в MapEditor"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
@@ -9,5 +12,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  }
+  },
+  "type": "object"
 }

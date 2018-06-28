@@ -15,13 +15,22 @@
               "virtual": true,
               "keys": [
                 {
-                  "name": "signboard_insertion_legal_entity_1",
+                  "name": "signboard_insertion_legal_entity_no_lease_1",
                   "keys": [
                     {
-                      "name": "signboard_insertion_legal_entity_built_in_non_residental_1"
+                      "name": "signboard_insertion_legal_entity_lease_1"
                     },
                     {
-                      "name": "signboard_insertion_legal_entity_with_big_area_1"
+                      "name": "signboard_insertion_legal_entity_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_with_big_area_no_lease_1"
                     }
                   ]
                 },
