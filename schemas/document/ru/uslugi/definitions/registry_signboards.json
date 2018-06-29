@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/registry_field",
+  "config": { "registry_key": "external_information_placement_1" }
+}
