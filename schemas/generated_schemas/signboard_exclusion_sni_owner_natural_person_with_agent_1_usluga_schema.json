@@ -23,6 +23,10 @@
       "title": "Документы технической инвентаризации",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
     },
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+      "title": "Запись о проекте размещения СНИ для исключения"
+    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения"
