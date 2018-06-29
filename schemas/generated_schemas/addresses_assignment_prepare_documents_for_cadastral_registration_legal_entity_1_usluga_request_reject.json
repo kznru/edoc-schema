@@ -54,7 +54,8 @@
           "Представление Исполнителю заявления и электронных документов, не подписанных (не заверенных) простой электронной подписью в соответствии с требованиями Федеральных законов N 63-ФЗ и N 210-ФЗ"
         ]
       },
-      "uniqueItems": true
+      "uniqueItems": true,
+      "minItems": 1
     },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
