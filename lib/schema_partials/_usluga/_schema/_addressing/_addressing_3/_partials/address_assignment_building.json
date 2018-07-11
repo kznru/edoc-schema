@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "building_name": {
+      "type": "string",
+      "title": "Наименование объекта адресации",
+      "description": "При наличии проектной документации указывается в соответствии с ней"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местоположение земельного участка"
+    }
+  },
+  "required": ["building_name", "cadastre_number", "address_with_map"]
+}

@@ -2,7 +2,13 @@
   "properties": {
     "address_number": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_number"
+    },
+    "previous_directive_requisites": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "title": "Реквизиты решения о присвоении адреса",
+      "description": "Реквизиты решения о предыдущем присвоении адреса данному объекту адресации",
+      "required": ["number", "date"]
     }
   },
-  "required": ["address_number"]
+  "required": ["address_number", "previous_directive_requisites"]
 }

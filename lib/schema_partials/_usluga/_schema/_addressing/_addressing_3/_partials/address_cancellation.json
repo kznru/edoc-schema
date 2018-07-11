@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "cancellation_number": {
+      "type": "string",
+      "title": "Адресный номер для аннулирования",
+      "description": "Адресный номер объекта адресации, который необходимо аннулировать"
+    }
+  },
+  "required": ["cancellation_number"]
+}

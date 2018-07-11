@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер объекта адресации"
+    }
+  },
+  "required": ["cadastre_number"]
+}
