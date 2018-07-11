@@ -200,44 +200,6 @@
                               "partials": ["natural_person_with_agent"]
                             }
                           ]
-                        },
-                        {
-                          "name": "room_create_by_unification_rooms",
-                          "virtual": true,
-                          "partials": ["room_create_by_unification_rooms"],
-                          "keys": [
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_unification_rooms_legal_entity_3",
-                              "partials": ["legal_entity"]
-                            },
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_unification_rooms_natural_person_3",
-                              "partials": ["natural_person"]
-                            },
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_unification_rooms_natural_person_with_agent_3",
-                              "partials": ["natural_person_with_agent"]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "room_create_by_partitioning_room",
-                          "virtual": true,
-                          "partials": ["room_create_by_partitioning_room"],
-                          "keys": [
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_partitioning_room_legal_entity_3",
-                              "partials": ["legal_entity"]
-                            },
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_partitioning_room_natural_person_3",
-                              "partials": ["natural_person"]
-                            },
-                            {
-                              "name": "address_assignment_room_on_cadastral_register_create_by_partitioning_room_natural_person_with_agent_3",
-                              "partials": ["natural_person_with_agent"]
-                            }
-                          ]
                         }
                       ]
                     },
@@ -246,25 +208,6 @@
                       "virtual": true,
                       "partials": ["not_on_cadastral_register"],
                       "keys": [
-                        {
-                          "name": "room_convert_between_living_and_nonresidental",
-                          "virtual": true,
-                          "partials": ["room_convert_between_living_and_nonresidental"],
-                          "keys": [
-                            {
-                              "name": "address_assignment_room_not_on_cadastral_register_convert_between_living_and_nonresidental_legal_entity_3",
-                              "partials": ["legal_entity"]
-                            },
-                            {
-                              "name": "address_assignment_room_not_on_cadastral_register_convert_between_living_and_nonresidental_natural_person_3",
-                              "partials": ["natural_person"]
-                            },
-                            {
-                              "name": "address_assignment_room_not_on_cadastral_register_convert_between_living_and_nonresidental_natural_person_with_agent_3",
-                              "partials": ["natural_person_with_agent"]
-                            }
-                          ]
-                        },
                         {
                           "name": "room_create_by_unification_rooms",
                           "virtual": true,
@@ -332,32 +275,6 @@
                             },
                             {
                               "name": "address_assignment_land_on_cadastral_register_from_scratch_natural_person_with_agent_3",
-                              "partials": ["natural_person_with_agent"]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "not_on_cadastral_register",
-                      "virtual": true,
-                      "partials": ["not_on_cadastral_register"],
-                      "keys": [
-                        {
-                          "name": "land_from_scratch",
-                          "virtual": true,
-                          "partials": ["land_from_scratch"],
-                          "keys": [
-                            {
-                              "name": "address_assignment_land_not_on_cadastral_register_from_scratch_legal_entity_3",
-                              "partials": ["legal_entity"]
-                            },
-                            {
-                              "name": "address_assignment_land_not_on_cadastral_register_from_scratch_natural_person_3",
-                              "partials": ["natural_person"]
-                            },
-                            {
-                              "name": "address_assignment_land_not_on_cadastral_register_from_scratch_natural_person_with_agent_3",
                               "partials": ["natural_person_with_agent"]
                             }
                           ]
