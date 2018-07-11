@@ -1,7 +1,7 @@
 {
   "properties": {
     "usluga_complete_extra_notes": {
-      "$ref": "#/definitions/usluga_complete_extra_notes",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_extra_notes",
       "items": {
         "type": "string",
         "enum": [
