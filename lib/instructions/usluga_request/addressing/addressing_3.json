@@ -9,6 +9,7 @@
           "name": "addressing_3",
           "virtual": true,
           "touch_partials": [
+            "addressing_3",
             "address_assignment",
             "address_cancellation",
             "address_assignment_building",
@@ -30,7 +31,7 @@
             "address_cancellation_due_to_cadastral_registration_denial",
             "address_cancellation_due_to_existence_termination"
           ],
-          "partials": ["usluga_base"],
+          "partials": ["addressing_3"],
           "keys": [
             {
               "name": "address_assignment",
