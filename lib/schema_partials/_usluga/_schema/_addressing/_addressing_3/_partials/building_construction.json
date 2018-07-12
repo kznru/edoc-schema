@@ -1,6 +1,6 @@
 {
   "properties": {
-    "cadastre_number": {
+    "cadastre_number_of_land": {
       "description": "Кадастровый номер земельного участка, на котором осуществляется строительство (реконструкция)"
     },
     "address_with_map": {

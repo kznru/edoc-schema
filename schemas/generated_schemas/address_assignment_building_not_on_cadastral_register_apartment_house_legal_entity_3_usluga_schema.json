@@ -12,7 +12,7 @@
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя"
     },
-    "cadastre_number": {
+    "cadastre_number_of_land": {
       "description": "Кадастровый номер земельного участка, на котором осуществляется строительство (реконструкция)",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка"
@@ -42,7 +42,7 @@
   },
   "required": [
     "building_name",
-    "cadastre_number",
+    "cadastre_number_of_land",
     "address_with_map",
     "address"
   ],

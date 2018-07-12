@@ -5,7 +5,7 @@
       "title": "Наименование объекта адресации",
       "description": "При наличии проектной документации указывается в соответствии с ней"
     },
-    "cadastre_number": {
+    "cadastre_number_of_land": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка"
     },
