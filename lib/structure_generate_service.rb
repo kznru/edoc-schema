@@ -54,7 +54,7 @@ class StructureGenerateService
 
   def go_down_the_structure(start_dir)
     if generation_point?(start_dir)
-      make_key_dirs_by_instruction(start_dir, @instruction['keys'])
+      make_key_dirs_by_instruction(start_dir, @instruction['keys'], [])
     else
       child_directories(start_dir).each do |child_dir|
         go_down_the_structure(child_dir)
@@ -66,7 +66,7 @@ class StructureGenerateService
     (directory + '.key_point').file?
   end
 
-  def make_key_dirs_by_instruction(start_dir, keys)
+  def make_key_dirs_by_instruction(start_dir, keys, partial_names)
     keys&.each do |key|
       key_dir = start_dir + ('_' + key['name'])
       if key['action'] == 'delete'
@@ -75,8 +75,17 @@ class StructureGenerateService
       end
       key_dir.mkpath
       touch_partials(key_dir, key['touch_partials']) if key['touch_partials']
+      partial_names_tmp =
+        if key['partials']
+          partial_names + key['partials']
+        else
+          partial_names
+        end
       update_file_existence(key_dir, '.build', !key['virtual'])
-      make_key_dirs_by_instruction(key_dir, key['keys'])
+      unless key['virtual']
+        (key_dir + '.build').write(partial_names_tmp.join(','))
+      end
+      make_key_dirs_by_instruction(key_dir, key['keys'], partial_names_tmp.dup)
     end
   end
 

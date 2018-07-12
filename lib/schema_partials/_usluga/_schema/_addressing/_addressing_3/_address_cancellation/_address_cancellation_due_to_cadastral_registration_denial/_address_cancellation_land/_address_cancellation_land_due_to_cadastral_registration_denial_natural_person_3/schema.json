@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "cancellation_number": {
+      "type": "string",
+      "title": "Адресный номер для аннулирования",
+      "description": "Адресный номер объекта адресации, который необходимо аннулировать"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес (местоположение) объекта адресации"
+    }
+  },
+  "required": [
+    "cancellation_number",
+    "address"
+  ]
+}

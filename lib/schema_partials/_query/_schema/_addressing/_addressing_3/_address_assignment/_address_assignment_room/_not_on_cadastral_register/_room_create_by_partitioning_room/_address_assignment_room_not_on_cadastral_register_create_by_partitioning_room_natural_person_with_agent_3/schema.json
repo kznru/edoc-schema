@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "identification_data_of_rooms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "title": "Данные, идентифицирующие помещение",
+      "description": "Кадастровый номер и адрес помещения, раздел которого осуществляется"
+    },
+    "purpose_of_room": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+      "title": "Назначение помещения",
+      "description": "Назначение исходного помещения"
+    },
+    "result_rooms_count": {
+      "type": "integer",
+      "title": "Количество помещений",
+      "description": "Количество образуемых помещений"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес (местоположение) объекта адресации"
+    }
+  }
+}
