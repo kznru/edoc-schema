@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "apartments_annex": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приложение 1",
+      "description": "Приложение к распоряжению с присвоением адресов помещениям в многоквартирном доме"
+    }
+  },
+  "required": ["apartments_annex"]
+}
