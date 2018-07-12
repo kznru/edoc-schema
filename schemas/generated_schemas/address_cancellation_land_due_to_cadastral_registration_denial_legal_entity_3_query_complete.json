@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "signed_directive": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "title": "Распоряжение",
+      "description": "Скан распоряжения с печатью"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "signed_directive"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

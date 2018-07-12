@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "identification_data_of_rooms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "minItems": 1,
+      "maxItems": 1,
+      "title": "Данные, идентифицирующие помещение",
+      "description": "Кадастровый номер и адрес помещения, раздел которого осуществляется",
+      "required": [
+        "cadastre_number",
+        "address"
+      ]
+    },
+    "purpose_of_room": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+      "title": "Назначение помещения",
+      "description": "Назначение исходного помещения"
+    },
+    "result_rooms_count": {
+      "type": "integer",
+      "title": "Количество помещений",
+      "description": "Количество образуемых помещений"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес (местоположение) объекта адресации"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "identification_data_of_rooms",
+    "purpose_of_room",
+    "result_rooms_count",
+    "address"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

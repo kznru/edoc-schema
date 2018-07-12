@@ -110,6 +110,8 @@ class SchemaGenerateService
     else
       {}
     end
+  rescue JSON::ParserError
+    {}
   end
 
   def build_data(data, file)
