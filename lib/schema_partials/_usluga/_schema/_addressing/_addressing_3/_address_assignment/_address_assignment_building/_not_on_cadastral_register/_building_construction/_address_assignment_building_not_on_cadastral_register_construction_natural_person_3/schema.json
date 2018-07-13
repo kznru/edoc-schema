@@ -22,8 +22,15 @@
     "address": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
+    },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
     }
   },
+  "require": [
+    "applicant"
+  ],
   "required": [
     "building_name",
     "cadastre_number_of_land",

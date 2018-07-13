@@ -5,16 +5,19 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель",
+      "description": "Представитель заявителя"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
-      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя"
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "minItems": 1
     },
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
-      "minItems": 1,
+      "minItems": 2,
       "title": "Данные, идентифицирующие помещения",
       "description": "Кадастровые номера и адреса помещений, объединение которых осуществляется",
       "required": [
@@ -31,6 +34,10 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
     },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
@@ -40,6 +47,11 @@
       "title": "Комментарии"
     }
   },
+  "require": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "required": [
     "identification_data_of_rooms",
     "purpose_of_room",

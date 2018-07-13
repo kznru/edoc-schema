@@ -5,12 +5,15 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель",
+      "description": "Представитель заявителя"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность",
-      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя"
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "minItems": 1
     },
     "cadastre_number_of_land": {
       "description": "Кадастровый номер земельного участка, на котором расположен объект адресации",
@@ -35,8 +38,17 @@
     "address": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
+    },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
     }
   },
+  "require": [
+    "applicant",
+    "agent",
+    "letter_of_attorney"
+  ],
   "required": [
     "cadastre_number",
     "building_name",

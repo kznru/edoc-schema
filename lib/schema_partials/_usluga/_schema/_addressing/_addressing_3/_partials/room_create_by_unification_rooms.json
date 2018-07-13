@@ -2,7 +2,7 @@
   "properties": {
     "identification_data_of_rooms": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
-      "minItems": 1,
+      "minItems": 2,
       "title": "Данные, идентифицирующие помещения",
       "description": "Кадастровые номера и адреса помещений, объединение которых осуществляется",
       "required": ["cadastre_number", "address"]
