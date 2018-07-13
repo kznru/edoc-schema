@@ -3,7 +3,7 @@ COMPOSE_CMD=docker-compose --project-name $(PROJECT_NAME) -f compose_test/docker
 
 #######################################
 
-set_host:
+set_host: VIRTUAL_HOST!
 	find schemas/generated_schemas -name '*.json' -exec sed -i '' -e "s/edoc-schema.kzn.ru/$(VIRTUAL_HOST)/g" {} \;
 
 run_web:
