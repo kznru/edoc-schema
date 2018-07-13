@@ -15,6 +15,9 @@
       },
       "uniqueItems": true
     },
+    "usluga_complete_servant_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_servant_note"
+    },
     "number": {
       "type": "string",
       "title": "Номер в MapEditor"
