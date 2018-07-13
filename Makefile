@@ -6,6 +6,9 @@ COMPOSE_CMD=docker-compose --project-name $(PROJECT_NAME) -f compose_test/docker
 set_host: VIRTUAL_HOST!
 	find schemas/generated_schemas -name '*.json' -exec sed -i '' -e "s/edoc-schema.kzn.ru/$(VIRTUAL_HOST)/g" {} \;
 
+reset_host:
+	git co schemas/generated_schemas
+
 run_web:
 	@make set_host
 	bundle exec jekyll serve --port 80 --host 0.0.0.0
