@@ -1,5 +1,8 @@
 {
   "properties": {
+    "usluga_complete_servant_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_servant_note"
+    },
     "usluga_complete_extra_notes": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_extra_notes",
       "items": {
         "type": "string",
@@ -13,9 +16,6 @@
         ]
       },
       "uniqueItems": true
-    },
-    "usluga_complete_servant_note": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_servant_note"
     }
   }
 }
