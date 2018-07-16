@@ -18,9 +18,14 @@
       },
       "uniqueItems": true
     },
-    "number": {
+    "map_editor_number": {
       "type": "string",
       "title": "Номер в MapEditor"
+    },
+    "map_editor_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата в MapEditor"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -31,5 +36,9 @@
       "title": "Комментарии"
     }
   },
+  "required": [
+    "map_editor_number",
+    "map_editor_date"
+  ],
   "type": "object"
 }
