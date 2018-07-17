@@ -30,6 +30,18 @@ minima:
 plugins:
   - jekyll-feed
 
+exclude:
+  - test
+  - tasks
+  - lib
+  - schema_partials
+  - compose_test
+  - Dockerfile.test
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Rakefile
+
 header_pages:
   - specification.md
   - example.md

@@ -8,6 +8,7 @@ set_host: VIRTUAL_HOST!
 
 reset_host:
 	git co schemas/generated_schemas
+	rm -rf _site
 
 run_web:
 	@make set_host
