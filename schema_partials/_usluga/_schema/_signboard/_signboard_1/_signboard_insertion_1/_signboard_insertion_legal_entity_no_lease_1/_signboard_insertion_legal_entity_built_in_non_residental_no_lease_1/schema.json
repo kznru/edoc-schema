@@ -2,10 +2,6 @@
   "properties": {
     "address_with_map": {},
     "cadastre_number": {},
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договора аренды"
-    },
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",

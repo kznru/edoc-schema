@@ -1,9 +1,5 @@
 {
   "properties": {
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договора аренды"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения (ситуационный план)",
@@ -12,11 +8,15 @@
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
-      "description": "Кадастровый номер земельного участка"
+      "description": "Кадастровый номер"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Собственник"
+      "title": "Собственник помещения"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
@@ -36,7 +36,7 @@
     "image_original": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
       "title": "Фотофиксация исходной ситуации",
-      "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, выполненная согласно требованиям, изложенным в приложении No2 к Регламенту муниципальной услуги."
+      "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, выполненная согласно требованиям, изложенным в приложении №2 к Регламенту муниципальной услуги."
     },
     "image_topographic": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",

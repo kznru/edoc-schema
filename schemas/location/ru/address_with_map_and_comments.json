@@ -10,8 +10,10 @@
       "title": "Адрес"
     },
     "geoJSON": {
-      "$ref": "http://edoc-schema.kzn.ru/geo/geojson", "default": {
-        "type": "FeatureCollection", "features": []
+      "$ref": "http://edoc-schema.kzn.ru/geo/geojson",
+      "default": {
+        "type": "FeatureCollection",
+        "features": []
       }
     },
     "address_comments": {
