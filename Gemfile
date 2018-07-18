@@ -14,6 +14,7 @@ gem 'activesupport'
 gem "minima", "~> 2.0"
 
 gem "jgd"
+gem 'minitest'
 gem 'byebug'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

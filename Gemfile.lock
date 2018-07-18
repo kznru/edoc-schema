@@ -86,8 +86,9 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jgd
   minima (~> 2.0)
+  minitest
   rake
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
