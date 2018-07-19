@@ -10,6 +10,10 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",
@@ -64,10 +68,6 @@
           }
         }
       }
-    },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Собственник помещения"
     },
     "registry_item": {
     },

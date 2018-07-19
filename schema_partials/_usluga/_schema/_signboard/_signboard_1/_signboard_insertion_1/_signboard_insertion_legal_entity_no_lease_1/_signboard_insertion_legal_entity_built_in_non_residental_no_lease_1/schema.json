@@ -2,6 +2,7 @@
   "properties": {
     "address_with_map": {},
     "cadastre_number": {},
+    "organization": {},
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",

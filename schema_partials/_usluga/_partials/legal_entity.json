@@ -4,7 +4,7 @@
     "cadastre_number": {},
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Собственник помещения"
+      "title": "Заявитель"
     },
     "agent": {},
     "letter_of_attorney": {

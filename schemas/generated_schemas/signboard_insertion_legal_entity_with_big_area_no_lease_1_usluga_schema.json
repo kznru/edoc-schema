@@ -10,7 +10,9 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
-    "applicant": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
@@ -64,10 +66,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project",
       "title": "Проект объекта с размещением СНИ",
       "description": "Проект объекта с размещением СНИ (для зданий административно-офисного, торгового, культурно-развлекательного, спортивного назначения, имеющих общую площадь более 400 кв.м). Допускается представление части проекта такого объекта в виде концепции СНИ."
-    },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Собственник помещения"
     },
     "registry_item": {
     },
