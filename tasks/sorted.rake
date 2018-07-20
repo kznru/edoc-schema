@@ -64,7 +64,7 @@ namespace :sorted do
       end
       params = {
         start_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
-        result_path: ['schemas/generated_schemas'].join('/'),
+        result_path: ['/schemas/generated_schemas'].join('/'),
       }
       UriGeneratorService.new(params).make
       puts 'Done usluga_request'

@@ -5,7 +5,7 @@ class UriGeneratorService
     @previous_dir = ''
     @part_of_name = ''
     @record_only = "schema.json"
-    @array_names = []
+    @array_names = Hash.new
   end
 
   def make
@@ -24,7 +24,7 @@ class UriGeneratorService
       end
       previous_dir = current_path.split('/').last # записываем папку в которой находимся
       full_name = previous_dir[1..-1]+part_of_name+".json"
-      add_in_story(full_name) if File.exist?(current_path+"/"+".build") && !@array_names.include?(full_name)
+      add_in_story(full_name, current_path) if File.exist?(current_path+"/"+".build") && !@array_names.include?(full_name)
       if next_dir.nil?
         part_of_name = part_of_name.chomp(previous_dir) if File.exist?(current_path+"/"+".name") #удаляем имя папки из полного названия файла
         current_path = current_path[0...current_path.rindex('/')] # возвращаемся на папку выше
@@ -34,19 +34,18 @@ class UriGeneratorService
       generate_uri(current_path, part_of_name, previous_dir)
     else
       puts 'All generate!'
-      sleep 2
       sort(@array_names)
     end
   end
 
-  def add_in_story(full_name)
+  def add_in_story(full_name, path)
     if full_name.split('_').last == @record_only
-      @array_names << full_name
+      @array_names[full_name] = path
     end
   end
 
   def sort(array_names)
-    array_names =  array_names.group_by{|n| n.split('_').first}.to_a
+    array_names =  array_names.group_by{|n| n[0].split('_').first}.to_a
     make_record(array_names)
   end
 
@@ -59,10 +58,11 @@ class UriGeneratorService
               file.puts("#{n}\n")
               file.puts("\n")
             else
-              n.each{|nn| file.puts("[#{nn}](#{@result_path+"/"+nn.to_s})\n")}
+              n.each{|nn| file.puts("[#{File.read(nn[1]+'/'+'.build')}](#{@result_path+"/"+nn[0].to_s})\n")}
             end
           end
         }
       }
   end
+
 end

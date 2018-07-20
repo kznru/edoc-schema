@@ -51,7 +51,7 @@ namespace :sort do
     task :generate_usluga_request do
       params = {
         start_path:  [root_path, 'lib', 'schema_partials/_usluga_request'].join('/'),
-        result_path: ['schemas/generated_schemas'].join('/'),
+        result_path: ['/schemas/generated_schemas'].join('/'),
       }
       UriGenerateService.new(params).make
       puts 'Done usluga_request'
