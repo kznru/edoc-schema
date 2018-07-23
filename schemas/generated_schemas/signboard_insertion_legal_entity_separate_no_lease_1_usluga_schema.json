@@ -60,6 +60,11 @@
           "image": {
             "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
             "title": "Изображение конструкции"
+          },
+          "blueprints": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+            "title": "Чертежи конструкций или фотомонтаж(для отдельностоящих СНИ)",
+            "description": "Чертежи всех фасадов объекта или фотомонтаж(для отдельностоящих СНИ)"
           }
         }
       }

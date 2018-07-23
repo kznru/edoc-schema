@@ -32,7 +32,12 @@
         "required": ["contruction_type","image"],
         "properties": {
           "contruction_type": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type", "title": "Тип конструкции"},
-          "image": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description", "title": "Изображение конструкции"}
+          "image": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description", "title": "Изображение конструкции"},
+          "blueprints": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+            "title": "Чертежи конструкций или фотомонтаж(для отдельностоящих СНИ)",
+            "description": "Чертежи всех фасадов объекта или фотомонтаж(для отдельностоящих СНИ)"
+          }
         }
       }
     }
