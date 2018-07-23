@@ -45,24 +45,101 @@ class UriGeneratorService
   end
 
   def sort(array_names)
-    array_names =  array_names.group_by{|n| n[0].split('_').first}.to_a
+    array_names = array_names.group_by{|n| n[0].split('_').first}.to_a
     make_record(array_names)
   end
 
   def make_record(array_names)
+    array_names.detect{|a| array_names.count(a) > 1}
     array_names.each{ |names|
         names.each{ |n|
           File.open('./sorted_generation_schemas.md', 'a') do |file|
             if n.kind_of?(String)
               file.puts("\n")
-              file.puts("#{n}\n")
+              file.puts("#{in_russian(n)}")
               file.puts("\n")
             else
-              n.each{|nn| file.puts("[#{File.read(nn[1]+'/'+'.build')}](#{@result_path+"/"+nn[0].to_s})\n")}
+              n.each do |nn|
+                @duplicate << File.read(nn[1]+'/'+'.build')
+                file.puts("[#{File.read(nn[1]+'/'+'.build')}](#{@result_path+"/"+nn[0].to_s})")
+                file.puts("\n")
+              end
             end
           end
         }
       }
+  end
+
+
+  def in_russian(n)
+    case n
+    when "permission"
+      "Выдача разрешения"
+    when "signboard"
+      "Размещение наружной информации"
+    when "granting"
+      "Предоставление земельного участка или муниципального имущества"
+    when "coordination"
+      "Координация"
+    when "addresses"
+      "Присвоение, изменение и аннулирование адресов"
+    when "land"
+      "Земельные участки"
+    when "task"
+      "Сохранение культурных объектов"
+    when "property"
+      "Выписки из реестра собственности"
+    when "registration"
+      "!похоже на предыдущее!"
+    when "affirmation"
+      "Схемы расположения земельных участков"
+    when "termination"
+      "Расторжение договоров"
+    when "gpzu"
+      "Градостроительный план земельного участка"
+    when "free"
+      "Бесплатное предоставление земельного участка"
+    when "provision"
+      "Предоставление земельных участков"
+    when "preliminary"
+      "Предварительное согласование"
+    when "municipal"
+      "Муниципальные услуги"
+    when "house"
+      "Приобретение жилья"
+    when "citizens"
+      "Постановка на учёт отдельных категорий граждан"
+    when "citizen"
+      "!citizen"
+    when "contract"
+      "Контракты"
+    when "issue"
+      "issue"
+    when "privatization"
+      "privatization"
+    when "attorney"
+      "attorney"
+    when "providing"
+      "Предоставление сведений ИСОГД"
+    when "oblik"
+      "Согласование архитектурно-градостроительного облика"
+    when "appearence"
+      "Согласование архитектурно-градостроительного облика объекта строительства"
+    when "build"
+      "build"
+    when "update"
+      "Внесение изменений в договоры оперативного упрвления, хозяйственного ведения муниципального имущества "
+    when "put"
+      "put"
+    when "kvb"
+      "КВБ"
+    when "confirming"
+      "Подтверждения"
+    when "installation"
+      "Согласование установки информационных знаков индивидуального проектирования на дорожных знаках"
+    when "address"
+      "Присвоение, изменение и аннулирование адресов"
+    end
   end
 
 end
