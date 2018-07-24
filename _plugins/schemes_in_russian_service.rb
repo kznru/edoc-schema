@@ -53,7 +53,7 @@ class SchemesInRussianService
       end
       find_build_file(current_path, previous_dir)
     else
-      puts 'All find!'
+      puts 'Part find!'
     end
   end
 

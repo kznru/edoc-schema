@@ -1,12 +1,13 @@
 root_path = File.expand_path('.')
 require_relative [root_path, '_plugins', 'uri_generator_service'].join('/')
 
-
 head = "---
 layout: page
 title: Сгенерированные схемы
 permalink: /generated_schemas/
----"
+---
+
+### Оглавление"
 
 namespace :sorted do
 

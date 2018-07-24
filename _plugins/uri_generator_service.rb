@@ -33,7 +33,7 @@ class UriGeneratorService
       end
       generate_uri(current_path, part_of_name, previous_dir)
     else
-      puts 'All generate!'
+      puts 'Part generated'
       sort(@array_names)
     end
   end
@@ -46,7 +46,24 @@ class UriGeneratorService
 
   def sort(array_names)
     array_names = array_names.group_by{|n| n[0].split('_').first}.to_a
+    add_in_navigation(array_names)
     make_record(array_names)
+  end
+
+  def add_in_navigation(array_names)
+    file = File.readlines('./sorted_generation_schemas.md')
+    index_navigation = file.index("### Оглавление\n")
+    array_names.each{ |names|
+      names.each{ |n|
+          if n.kind_of?(String)
+            file.insert(index_navigation+2, "[#{in_russian(n)}](##{n})")
+            file.insert(index_navigation+3, "\n")
+          end
+        }
+      }
+    File.open('./sorted_generation_schemas.md', 'w+') do |out|
+      file.each { |element| out.puts(element) }
+    end
   end
 
   def make_record(array_names)
@@ -56,7 +73,7 @@ class UriGeneratorService
           File.open('./sorted_generation_schemas.md', 'a') do |file|
             if n.kind_of?(String)
               file.puts("\n")
-              file.puts("### #{in_russian(n)}")
+              file.puts("### #{in_russian(n)} {##{n}}")
               file.puts("\n")
             else
               n.each do |nn|
@@ -131,7 +148,7 @@ class UriGeneratorService
     when "put"
       "Выдача разрешения на ввод объекта в эксплуатацию"
     when "kvb"
-      "Выдача ТУ на отвод ливневых и талых вод"
+      "Комитет внешнего благоустройства"
     when "confirming"
       "Строительство ИЖС с привлечением семейного капитала"
     when "installation"

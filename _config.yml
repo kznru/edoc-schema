@@ -44,6 +44,7 @@ exclude:
 
 header_pages:
   - specification.md
+  - sorted_generation_schemas.md
   - example.md
   - about.md
 

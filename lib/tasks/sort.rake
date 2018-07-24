@@ -5,7 +5,9 @@ head = "---
 layout: page
 title: Сгенерированные схемы
 permalink: /generated_schemas/
----"
+---
+
+### Оглавление"
 
 namespace :sort do
 
@@ -15,6 +17,7 @@ namespace :sort do
       File.open('./sorted_generation_schemas.md', 'a') do |file|
         file.puts(head)
       end
+      puts "File refresh"
     end
 
     task generate_all: [:generate_query, :generate_regisrty, :generate_usluga, :generate_usluga_request] do
