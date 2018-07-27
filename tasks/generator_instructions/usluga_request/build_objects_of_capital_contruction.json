@@ -2,7 +2,14 @@
   "base": "_usluga_request",
   "keys": [
     {
-      "name": "build_objects_of_capital_contruction_1"
+      "name": "build_objects_of_capital_contruction",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "build_objects_of_capital_contruction_1",
+          "name": "build_objects_of_capital_contruction_natural_person_1"
+        }
+      ]
     }
   ]
 }
