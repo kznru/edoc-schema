@@ -39,28 +39,6 @@
                       "name": "signboard_insertion_legal_entity_separate_no_lease_1"
                     }
                   ]
-                },
-                {
-                  "name": "signboard_insertion_natural_person_1",
-                  "keys": [
-                    {
-                      "name": "signboard_insertion_natural_person_built_in_non_residental_1"
-                    },
-                    {
-                      "name": "signboard_insertion_natural_person_with_big_area_1"
-                    }
-                  ]
-                },
-                {
-                  "name": "signboard_insertion_natural_person_with_agent_1",
-                  "keys": [
-                    {
-                      "name": "signboard_insertion_natural_person_with_agent_built_in_non_residental_1"
-                    },
-                    {
-                      "name": "signboard_insertion_natural_person_with_agent_with_big_area_1"
-                    }
-                  ]
                 }
               ]
             },
@@ -74,9 +52,6 @@
                 },
                 {
                   "name": "signboard_exclusion_sni_owner_natural_person_1"
-                },
-                {
-                  "name": "signboard_exclusion_sni_owner_natural_person_with_agent_1"
                 }
               ]
             },
@@ -89,9 +64,6 @@
                 },
                 {
                   "name": "signboard_exclusion_land_owner_natural_person_1"
-                },
-                {
-                  "name": "signboard_exclusion_land_owner_natural_person_with_agent_1"
                 }
               ]
             }
