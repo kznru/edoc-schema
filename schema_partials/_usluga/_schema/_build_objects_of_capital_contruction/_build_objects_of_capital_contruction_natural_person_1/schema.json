@@ -9,7 +9,8 @@
     },
     "address": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-      "description": "Адрес объекта"
+      "description": "Адрес объекта",
+      "title": "Адрес объекта"
     },
     "mounth_count": {
       "type": "number",
