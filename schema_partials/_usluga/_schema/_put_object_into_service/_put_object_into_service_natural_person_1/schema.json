@@ -5,6 +5,9 @@
     "agent": {
       "title": "Заявитель"
     },
+    "notarised_letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/notarised_letter_of_attorney"
+    },
     "address": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address",
       "title": "Адрес объекта"
