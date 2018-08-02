@@ -1,0 +1,14 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "consultations_0",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "49"
+        }
+      ]
+    }
+  ]
+}
