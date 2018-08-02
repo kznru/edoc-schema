@@ -1,0 +1,14 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "signboards_0",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "1"
+        }
+      ]
+    }
+  ]
+}
