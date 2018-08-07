@@ -35,10 +35,6 @@
       "type": "array",
       "uniqueItems": true
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
     "reject_reasons": {
       "title": "Причина отказа",
       "type": "array",
