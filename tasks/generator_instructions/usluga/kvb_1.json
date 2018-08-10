@@ -1,0 +1,29 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_information_about_state_of_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_information_about_state_of_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_information_about_state_of_roads_natural_person_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
