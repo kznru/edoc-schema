@@ -66,7 +66,8 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "title": "Владелец"
           },
           "outgoing_number": {
             "type": "number",
@@ -96,7 +97,8 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "title": "Владелец"
           },
           "date": {
             "type": "string",
@@ -114,7 +116,8 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "title": "Грузоотправитель"
           },
           "date": {
             "type": "string",
