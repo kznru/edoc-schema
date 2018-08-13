@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_info",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Информация о транспортном средстве",
+  "type": "object",
+  "properties": {
+    "vehicle": {
+      "type": "string",
+      "title": "Транспортное средство (автопоезд)",
+      "description": "Марка и модель транспортного средства (тягача, прицепа (полуприцепа)"
+    },
+    "registration_number": {
+      "type": "string",
+      "title": "Государственный регистрационный знак транспортного средства"
+    }
+  }
+}
