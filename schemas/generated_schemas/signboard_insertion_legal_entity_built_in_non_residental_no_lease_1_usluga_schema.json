@@ -87,6 +87,7 @@
     }
   },
   "required": [
+    "organization",
     "address_with_map"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",

@@ -1,4 +1,8 @@
 {
+  "required": [
+    "organization",
+    "address_with_map"
+  ],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
@@ -34,9 +38,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
