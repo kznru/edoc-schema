@@ -5,6 +5,13 @@
       "items": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"},
       "title": "Заинтересованные лица"
     },
+    "cadastre_numbers": {
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+      },
+      "title": "Земельные участки, собственниками которых являются заинтересованные лица"
+    },
     "response_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"}
   }
 }
