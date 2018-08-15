@@ -80,6 +80,18 @@
                   "name": "kvb_provision_water_bodies_for_private_use_water_discharge_legal_entity_1"
                 }
               ]
+            },
+            {
+              "name": "kvb_technical_conditions_for_connection_service_to_public_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_natural_person_1"
+                }
+              ]
             }
           ]
         }

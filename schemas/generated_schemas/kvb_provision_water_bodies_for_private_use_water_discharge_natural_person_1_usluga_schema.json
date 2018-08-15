@@ -1,31 +1,31 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
     "volume_calculation": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Расчёт и обоснование заявленного объёма сброса сточных и (или) дренажных вод и показателей их качества по каждому выпуску"
     },
     "discharge_schedule": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Поквартальный график сброса сточных вод"
     },
     "special_equipment_info": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учёта объёмов и контроля (наблюдения) качества сбрасываемых сточных и (или) дренажных вод"
     },
     "special_water_body_mapping": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Графические материалы с обозначением места предполгаемого сброса сточных и (или) дренажных вод по каждому выпуску"
     },
     "agent": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "water_body_name": {
@@ -33,10 +33,10 @@
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "usage_time": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/time_limitation",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
       "title": "Сроки водопользования"
     },
     "usage_purpose": {
@@ -58,23 +58,23 @@
       }
     },
     "events_info": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Информация о намечаемых заявителем водохозяйственных мероприятиях и мероприятиях по охране водного объекта с указанием размера и источника средств, необходимых для их реализации"
     },
     "equipment_info": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
     },
     "water_body_mapping": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Материалы в графической форме с отображением водного объекта, указанного в заявлении о предоставлении в водного объекта в пользование, и размещения средств и объектов водопользования, а также пояснительная записка к ним"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
