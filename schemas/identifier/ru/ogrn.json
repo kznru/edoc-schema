@@ -3,5 +3,5 @@
     "$schema": "http://json-schema.org/draft-06/schema#",
     "description": "ОГРН",
     "type": "string",
-    "pattern": "^(?:\\d{13}|\\d{15})$"
+    "pattern": "^(?:\\d{11}|\\d{13}|\\d{15})$"
 }
