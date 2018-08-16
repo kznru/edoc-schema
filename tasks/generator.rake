@@ -3,70 +3,83 @@ root_path = File.expand_path('.')
 require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
 require_relative [root_path, '_plugins', 'schema_generator_service'].join('/')
 
-namespace :generator do
-  namespace :structure do
-    instructions_default =
-      [
-        root_path, 'tasks', 'generator_instructions',
-        'usluga', 'example.json'
-      ].join('/')
-    partials_dir_default = [Dir.pwd, 'schema_partials'].join('/')
+desc 'All tasks of "generator"'
+task :generator do
+  puts 'All tasks of "generator":'
+  Rake.application.in_namespace(:generator){|task|puts task.tasks}
+end
 
-    desc 'Generate directories via template'
-    task :run, [:instruction, :partials_dir]  do |t, args|
-      StructureGeneratorService.new(
-        instruction: args[:instruction] || instructions_default,
-        partials_dir: args[:partials_dir] || partials_dir_default
-      ).call
-    end
+namespace :generator do
+  desc 'Generate directories'
+  task :structure, [:instruction, :partials_dir]  do |t, args|
+    params = {
+      instruction: args[:instruction],
+      partials_dir: [Dir.pwd, 'schema_partials'].join('/')
+    }
+    StructureGeneratorService.new(params).call
+    puts 'Done structure.'
   end
 
-  namespace :schema do
-    task generate_all: [:generate_query, :generate_regisrty, :generate_usluga, :generate_usluga_request] do
-    end
+  desc 'Generate all'
+  task all:
+    %i(
+      query
+      registry
+      usluga
+      usluga_request
+    ) do
+    puts 'Done.'
+  end
 
-    task :generate_query do
-      params = {
-        start_path:  [root_path, 'schema_partials'].join('/'),
-        build_path:  [root_path, 'schema_partials/_query'].join('/'),
-        result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-        need_links:  true,
-        output_type: 'json'
-      }
-      SchemaGeneratorService.new(params).make
-    end
+  desc 'Generate query'
+  task :query do
+    params = {
+      start_path:  [root_path, 'schema_partials'].join('/'),
+      build_path:  [root_path, 'schema_partials/_query'].join('/'),
+      result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      need_links:  true,
+      output_type: 'json'
+    }
+    SchemaGeneratorService.new(params).make
+    puts 'Done query.'
+  end
 
-    task :generate_regisrty do
-      params = {
-        start_path:  [root_path, 'schema_partials'].join('/'),
-        build_path:  [root_path, 'schema_partials/_registry'].join('/'),
-        result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-        need_links:  true,
-        output_type: 'json'
-      }
-      SchemaGeneratorService.new(params).make
-    end
+  desc 'Generate registry'
+  task :registry do
+    params = {
+      start_path:  [root_path, 'schema_partials'].join('/'),
+      build_path:  [root_path, 'schema_partials/_registry'].join('/'),
+      result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      need_links:  true,
+      output_type: 'json'
+    }
+    SchemaGeneratorService.new(params).make
+    puts 'Done registry.'
+  end
 
-    task :generate_usluga do
-      params = {
-        start_path:  [root_path, 'schema_partials'].join('/'),
-        build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
-        result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-        need_links:  true,
-        output_type: 'json'
-      }
-      SchemaGeneratorService.new(params).make
-    end
+  desc 'Generate usluga'
+  task :usluga do
+    params = {
+      start_path:  [root_path, 'schema_partials'].join('/'),
+      build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
+      result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      need_links:  true,
+      output_type: 'json'
+    }
+    SchemaGeneratorService.new(params).make
+    puts 'Done usluga.'
+  end
 
-    task :generate_usluga_request do
-      params = {
-        start_path:  [root_path, 'schema_partials'].join('/'),
-        build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
-        result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-        need_links:  true,
-        output_type: 'json'
-      }
-      SchemaGeneratorService.new(params).make
-    end
+  desc 'Generate usluga_request'
+  task :usluga_request do
+    params = {
+      start_path:  [root_path, 'schema_partials'].join('/'),
+      build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
+      result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      need_links:  true,
+      output_type: 'json'
+    }
+    SchemaGeneratorService.new(params).make
+    puts 'Done usluga_request.'
   end
 end
