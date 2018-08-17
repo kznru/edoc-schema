@@ -66,8 +66,17 @@
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
     },
     "water_body_mapping": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Материалы в графической форме с отображением водного объекта, указанного в заявлении о предоставлении в водного объекта в пользование, и размещения средств и объектов водопользования, а также пояснительная записка к ним"
+      "title": "Материалы в графической форме с отображением водного объекта, указанного в заявлении о предоставлении в водного объекта в пользование, и размещения средств и объектов водопользования, а также пояснительная записка к ним",
+      "type": "object",
+      "properties": {
+        "note": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "title": "Пояснительная записка"
+        },
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        }
+      }
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
