@@ -31,6 +31,14 @@
     "correspondent_account": {
       "type": "number",
       "title": "Двадцатизначный номер корреспондентского счета банка в Центральном банке РФ"
+    },
+    "okpo": {
+      "type": "number",
+      "title": "Код по ОКПО"
+    },
+    "okonh": {
+      "type": "number",
+      "title": "Код по ОКОНХ"
     }
   }
 }
