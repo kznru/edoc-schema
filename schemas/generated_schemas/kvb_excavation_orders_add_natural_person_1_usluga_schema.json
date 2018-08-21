@@ -1,0 +1,152 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "confirmations": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия"
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения зелёных насаждений"
+    },
+    "customer_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Подписант заказчика"
+    },
+    "contractor_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Подрядчик"
+    },
+    "contractor_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    },
+    "subcontractor_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Субподрядчик"
+    },
+    "subcontractor_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+      "title": "Ответственный производитель работ со стороны субподрядчика"
+    },
+    "operating_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "График выполнения работ"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "conclusion_place_of_damage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
+    },
+    "topography_of_placements": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Топосъёмка мест установки"
+    },
+    "contract_for_order": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор, для которого ордер"
+    },
+    "contract_for_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор на проверку качества"
+    },
+    "traffic_scheme": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Схема дорожного движения"
+    },
+    "certificate_of_separation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
+    },
+    "certificate_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
+    },
+    "order_of_responsible_in_place": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приказ об ответственном на объекте"
+    },
+    "order_of_responsible_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приказ об ответственном за благоустройство"
+    },
+    "contract_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор на восстановление"
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
+    },
+    "interested_party_list": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заинтересованные стороны"
+    },
+    "decree_zrik_destroy": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Распоряжение ЗРИК на снос зелёных насаждений"
+    },
+    "protocol_mvk": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Протокол МВК"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
