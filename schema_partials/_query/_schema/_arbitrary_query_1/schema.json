@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "recipient": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/recipient"},
+    "query_text": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/query_text"},
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  }
+}

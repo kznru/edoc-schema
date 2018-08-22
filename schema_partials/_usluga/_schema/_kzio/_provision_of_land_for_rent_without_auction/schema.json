@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Местоположение земельного участка"
+    }
+  }
+}

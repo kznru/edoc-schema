@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Описание местоположения",
+  "title": "Описание местоположения (обязательно обведите область на карте)",
+  "type": "object",
+  "properties": {
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    },
+    "geoJSON": {
+      "$ref": "http://edoc-schema.kzn.ru/geo/geojson", "default": {
+        "type": "FeatureCollection", "features": []
+      }
+    }
+  },
+  "required": ["geoJSON"]
+}

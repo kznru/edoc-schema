@@ -1,0 +1,17 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "signboard",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "signboard_1",
+          "keys": [
+            "signboard_insertion_legal_entity_lease_1"
+          ]
+        }
+      ]
+    }
+  ]
+}

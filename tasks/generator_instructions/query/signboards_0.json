@@ -1,0 +1,26 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "signboards_0",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "1"
+        },
+        {
+          "name": "2"
+        },
+        {
+          "name": "3"
+        },
+        {
+          "name": "4"
+        },
+        {
+          "name": "smev_egrul"
+        }
+      ]
+    }
+  ]
+}

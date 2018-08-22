@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "plan_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number",
+      "title": "Номер ГПЗУ",
+      "description": "Номер градостроительного плана"
+    },
+    "reason": {
+      "type": "string",
+      "title": "Причина",
+      "description": "Причина для оказания услуги"
+    }
+  }
+}

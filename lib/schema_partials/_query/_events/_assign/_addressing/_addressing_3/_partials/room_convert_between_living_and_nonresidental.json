@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "address_number": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_number",
+      "title": "Адресный номер"
+    }
+  },
+  "required": ["address_number"]
+}

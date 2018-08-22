@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Line String Coordinates",
+  "description": "For type `LineString`, the `coordinates` member must be an array of two or more positions.",
+  "allOf": [
+    { "$ref": "http://edoc-schema.kzn.ru/geo/coordinates" },
+    {
+      "minLength": 2,
+      "items": { "$ref": "http://edoc-schema.kzn.ru/geo/position" }
+    }
+  ]
+}

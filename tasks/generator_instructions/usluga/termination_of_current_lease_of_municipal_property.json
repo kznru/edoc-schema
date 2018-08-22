@@ -1,0 +1,13 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "termination_of_current_lease_of_municipal_property",
+      "virtual": true,
+      "keys": [
+        { "name": "termination_of_current_lease_of_municipal_property_natural_person_1" },
+        { "name": "termination_of_current_lease_of_municipal_property_legal_entity_1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
+      "maxItems": 1
+    },
+    "purpose_of_room": {
+      "type": "string",
+      "title": "Назначение помещения",
+      "description": "Назначение помещения (жилое/нежилое)",
+      "minItems": 1,
+      "enum": ["жилое", "нежилое"]
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  }
+}

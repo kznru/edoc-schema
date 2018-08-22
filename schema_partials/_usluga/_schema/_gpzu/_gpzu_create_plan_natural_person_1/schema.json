@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Собственник"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "area": { "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area", "title": "Площадь" },
+    "building_object": {
+      "type": "string",
+      "title": "Объект строительства",
+      "description": "В случае строительства объектов жилищного строительства указывать этажность"
+    }
+  }
+}

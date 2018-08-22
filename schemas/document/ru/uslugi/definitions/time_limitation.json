@@ -1,0 +1,18 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Срок",
+  "type": "object",
+  "properties": {
+    "from": {
+      "type": "string",
+      "format": "date",
+      "title": "С"
+    },
+    "to": {
+      "type": "string",
+      "format": "date",
+      "title": "До"
+    }
+  }
+}

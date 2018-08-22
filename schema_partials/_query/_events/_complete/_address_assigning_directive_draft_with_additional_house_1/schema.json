@@ -1,0 +1,12 @@
+{
+  "required": [
+    "document"
+  ],
+  "properties": {
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "title": "Распоряжение",
+      "description": "Скан распоряжения с печатью"
+    }
+  }
+}

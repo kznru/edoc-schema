@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "description": "Назначение помещения",
+  "minItems": 1,
+  "enum": ["жилое", "нежилое"]
+}

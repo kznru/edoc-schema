@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "fio": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_fio", "title": "ФИО"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО"
     },
     "mobile": {
       "type": "string", "title": "Мобильный телефон"

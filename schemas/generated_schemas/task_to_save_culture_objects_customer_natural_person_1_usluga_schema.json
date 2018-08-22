@@ -1,0 +1,101 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "culture_object_name": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес объекта культурного наследия"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "title": "Наименование работ"
+    },
+    "owner": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник"
+    },
+    "foundation_documents": {
+      "type": "array",
+      "title": "Сведения о документах-основаниях возникновения права собственности (пользования) на объект культурного наследия",
+      "items": {
+        "type": "object",
+        "properties": {
+          "law_type": {
+            "type": "string",
+            "title": "Вид права"
+          },
+          "document_type": {
+            "type": "string",
+            "title": "Вид документа"
+          },
+          "cadastre_number": {
+            "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+            "title": "Кадастровый номер"
+          },
+          "responsible_representative": {
+            "type": "string",
+            "title": "Ответственный представитель"
+          },
+          "fio": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+            "title": "ФИО"
+          }
+        }
+      }
+    },
+    "security_leasing_contracts": {
+      "type": "array",
+      "title": "Сведения о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
+      "items": {
+        "type": "object",
+        "properties": {
+          "document_type": {
+            "type": "string",
+            "title": "Вид документа"
+          },
+          "number": {
+            "type": "number",
+            "title": "Номер"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "title": "Дата"
+          },
+          "type_of_modern_use": {
+            "type": "string",
+            "title": "Характер современного использования"
+          }
+        }
+      }
+    },
+    "short_description": {
+      "type": "string",
+      "title": "Краткие сведения об объекте культурного наследия",
+      "description": "Краткие сведения об объекте культурного наследия и его техническом состоянии, включая малые архитектурные формы, монументальную живопись и предметы внутреннего убранства, инженерные сооружения и оборудование"
+    },
+    "object_of_protection": {
+      "type": "string",
+      "title": "Предмет охраны объекта культурного наследия"
+    },
+    "design_company": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Проектная организация"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

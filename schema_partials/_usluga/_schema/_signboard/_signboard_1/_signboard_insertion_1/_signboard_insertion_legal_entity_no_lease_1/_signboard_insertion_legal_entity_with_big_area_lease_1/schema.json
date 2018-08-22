@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "cadastre_number": {},
+    "organization": {},
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    },
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "text": {},
+    "planeta_number": {},
+    "image_original": {},
+    "image_topographic": {},
+    "image_constructions": {},
+    "image_project": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project",
+      "title": "Проект объекта с размещением СНИ",
+      "description": "Проект объекта с размещением СНИ (для зданий административно-офисного, торгового, культурно-развлекательного, спортивного назначения, имеющих общую площадь более 400 кв.м). Допускается представление части проекта такого объекта в виде концепции СНИ."
+    }
+  }
+}

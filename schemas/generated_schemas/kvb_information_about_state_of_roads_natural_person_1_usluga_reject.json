@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "reject_reasons": {
+      "items": {
+        "enum": [
+          "Отстутствие в базе данных сведений о запрашиваемой автомобильной дороге",
+          "Запрошены сведения об автомобильной дороге, не относящейся к местным (муниципальным) автомобильным дорогам.",
+          "Другое (указать)"
+        ],
+        "type": "string"
+      },
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "reject_reasons"
+  ]
+}

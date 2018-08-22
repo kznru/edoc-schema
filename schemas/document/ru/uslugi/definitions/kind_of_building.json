@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kind_of_building",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "description": "Тип здания (сооружения)",
+  "minItems": 1,
+  "enum": ["индивидуальный жилой дом", "многоквартирный жилой дом", "административное здание"]
+}

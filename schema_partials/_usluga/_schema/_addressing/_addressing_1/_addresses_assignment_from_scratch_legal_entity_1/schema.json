@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_cadastre",
+      "maxItems": 1
+    },
+    "object_rights": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/addressing_object_rights",
+      "title": "Правоустанавливающий документ",
+      "description": "Выписка из реестра собственности"
+    }
+  }
+}

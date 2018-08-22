@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "plan_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number",
+      "title": "Номер ГПЗУ",
+      "description": "Номер градостроительного плана"
+    },
+    "reason": {
+      "type": "string",
+      "title": "Причина",
+      "description": "Причина для оказания услуги"
+    }
+  }
+}

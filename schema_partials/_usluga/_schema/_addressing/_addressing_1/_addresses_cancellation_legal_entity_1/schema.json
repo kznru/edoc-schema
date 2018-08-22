@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_cadastre",
+      "maxItems": 1
+    },
+    "address_numbers": {
+      "maxItems": 1
+    },
+    "cancellation_reason": {
+      "type": "string",
+      "title": "Причина для аннулирования",
+      "description": "Причина для аннулирования",
+      "minItems": 1,
+      "enum": [
+        "прекращение существования объекта адресации",
+        "отказ в осуществлении кадастрового учета объекта адресации",
+        "присвоение нового адреса объекту адресации"
+      ]
+    }
+  },
+  "required": ["cancellation_reason"]
+}

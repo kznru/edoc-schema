@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan"
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  }
+}

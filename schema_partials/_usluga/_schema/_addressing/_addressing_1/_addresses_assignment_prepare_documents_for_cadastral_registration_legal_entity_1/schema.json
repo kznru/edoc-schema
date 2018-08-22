@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "maxItems": 1
+    },
+    "building_name": {
+      "type": "string",
+      "title": "Наименование объекта строительства (реконструкции)",
+      "description": "Наименование объекта строительства (реконструкции) (при наличии проектной документации указывается в соответствии с проектной документацией)"
+    },
+    "kind_of_building": {
+      "type": "string",
+      "title": "Тип объекта",
+      "description": "Тип здания, сооружения, объекта незавершенного строительства"
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  },
+  "required": [
+    "building_name",
+    "kind_of_building"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер объекта адресации"
+    },
+    "cancellation_number": {
+      "type": "string",
+      "title": "Адресный номер для аннулирования",
+      "description": "Адресный номер объекта адресации, который необходимо аннулировать"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес (местоположение) объекта адресации"
+    },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
+    }
+  },
+  "require": [
+    "applicant"
+  ],
+  "required": [
+    "cadastre_number",
+    "cancellation_number",
+    "address"
+  ]
+}

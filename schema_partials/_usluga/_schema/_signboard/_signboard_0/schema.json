@@ -1,0 +1,72 @@
+{
+  "required": ["cadastre_number", "organization"],
+  "title": "Согласование проекта размещения средства наружной информации (паспорт)",
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "passport": {
+      "type": "object",
+      "title": "Вывеска",
+      "required": ["text", "image_original", "image_project", "image_topographic"],
+      "properties": {
+        "text": {
+          "type": "string", "title": "Текст вывески"
+        },
+        "image_original": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original"
+        },
+        "image_project": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
+        },
+        "image_topographic": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+        },
+        "image_constructions": {
+          "type": "array",
+          "title": "Изображения конструкций",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["contruction_type", "image"],
+            "properties": {
+              "contruction_type": {
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type"
+              },
+              "image": {
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description", "title": "Изображение конструкции"
+              }
+            }
+          }
+        }
+      }
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Заявитель"
+    },
+    "application": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "passport_a": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images", "title": "Паспорт, сторона А"
+    },
+    "passport_b": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images", "title": "Паспорт, сторона Б"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti", "title": "Паспорт БТИ"
+    }
+  }
+}

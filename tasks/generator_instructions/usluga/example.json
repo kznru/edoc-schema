@@ -1,0 +1,25 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "example",
+      "action": "delete",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "example_lease_living_1"
+        },
+        {
+          "name": "example_lease_no_living_1",
+          "virtual": true
+        },
+        {
+          "name": "example_no_lease_living_1"
+        },
+        {
+          "name": "example_no_lease_no_living_1"
+        }
+      ]
+    }
+  ]
+}

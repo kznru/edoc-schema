@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_number": {
+      "type": "string",
+      "title": "Номер в реестре мин.культуры"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "Ф",
+        "Р",
+        "М"
+      ],
+      "title": "Код принадлежности"
+    },
+    "title": {
+      "type": "string",
+      "title": "Наименование"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    },
+    "protection_document": {
+      "type": "string",
+      "title": "Документ о защите"
+    },
+    "boundary_document": {
+      "type": "string",
+      "title": "Документ о границах"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотография"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Приложения"
+    }
+  },
+  "required": [
+    "registry_number",
+    "code",
+    "title",
+    "address",
+    "protection_document",
+    "boundary_document"
+  ]
+}

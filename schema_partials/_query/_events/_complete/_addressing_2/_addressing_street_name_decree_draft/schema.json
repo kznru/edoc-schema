@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "signed_decree": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "title": "Постановление",
+      "description": "Скан постановления с печатью"
+    }
+  },
+  "required": [
+    "signed_decree"
+  ]
+}

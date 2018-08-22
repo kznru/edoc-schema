@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "real_estate_infos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
+      "title": "Данные, идентифицирующие объекты недвижимости"
+    },
+    "address_numbers": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    }
+  }
+}

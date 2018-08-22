@@ -1,0 +1,125 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_information_about_state_of_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_information_about_state_of_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_information_about_state_of_roads_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_permit_transportation_of_heavy_cargo_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_provision_water_bodies_for_private_use_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_legal_entity_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_technical_conditions_for_connection_service_to_public_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_rain_sewerage_technical_conditions_performance_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_certificate_of_capital_construction_gardening_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_certificate_of_capital_construction_gardening_legal_entity_1"
+                },
+                {
+                  "name": "kvb_certificate_of_capital_construction_gardening_natural_person_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

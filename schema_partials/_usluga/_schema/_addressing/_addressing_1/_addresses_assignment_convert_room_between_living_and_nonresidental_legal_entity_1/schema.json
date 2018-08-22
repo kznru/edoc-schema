@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "maxItems": 1
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  }
+}

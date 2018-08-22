@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "street_names": {
+       "$ref": "http://edoc-schema.kzn.ru/location/ru/street_names",
+       "title": "Названия улиц"
+    }
+  },
+  "required": [
+    "street_names"
+  ]
+}

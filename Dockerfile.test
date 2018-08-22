@@ -1,0 +1,20 @@
+FROM drecom/ubuntu-ruby:2.4.2
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+COPY Gemfile* /usr/src/app/
+
+RUN apt-get install -y curl vim wget -qq
+
+RUN gem install jekyll bundler
+
+RUN bundle config --global frozen 1
+
+RUN bundle install --without development test --jobs 10
+
+COPY . /usr/src/app
+
+CMD make run_web
+
+EXPOSE 80

@@ -1,0 +1,23 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "appearence_construction_object",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "appearence_construction_object_sketch_proposal_legal_entity_1"
+        },
+        {
+          "name": "appearence_construction_object_sketch_proposal_natural_person_1"
+        },
+        {
+          "name": "appearence_construction_object_corrections_legal_entity_1"
+        },
+        {
+          "name": "appearence_construction_object_corrections_natural_person_1"
+        }
+      ]
+    }
+  ]
+}

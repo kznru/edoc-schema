@@ -1,0 +1,38 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "signboard",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "signboard_0",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "signboard_old"
+            },
+            {
+              "name": "signboard_no_lease_no_living"
+            },
+            {
+              "name": "signboard_no_lease_living"
+            },
+            {
+              "name": "signboard_lease_no_living"
+            },
+            {
+              "name": "signboard_lease_living"
+            },
+            {
+              "name": "signboard_lease_separate"
+            },
+            {
+              "name": "signboard_no_lease_separate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

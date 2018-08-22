@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "identification_data_of_buildings": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings",
+      "maxItems": 1,
+      "title": "Данные, идентифицирующие здание"
+    },
+    "living_rooms_count": {
+      "type": "integer",
+      "title": "Кол-во жилых помещений",
+      "description": "Количество образуемых жилых помещений"
+    },
+    "nonresidental_rooms_count": {
+      "type": "integer",
+      "title": "Кол-во нежилых помещений",
+      "description": "Количество образуемых нежилых помещений"
+    },
+    "technical_plans": {
+      "title": "Технический план здания",
+      "maxItems": 1,
+      "default": [],
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
+      }
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    }
+  },
+  "required": [
+    "organization",
+    "identification_data_of_buildings"
+  ]
+}

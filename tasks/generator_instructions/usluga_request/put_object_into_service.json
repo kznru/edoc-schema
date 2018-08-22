@@ -1,0 +1,15 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "put_object_into_service",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "put_object_into_service_1",
+          "name": "put_object_into_service_natural_person_1"
+        }
+      ]
+    }
+  ]
+}

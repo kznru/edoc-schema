@@ -1,0 +1,8 @@
+{
+  "title": "Согласование проекта размещения средства наружной информации (паспорт) - аренда, жилой дом",
+  "properties": {
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    }
+  }
+}

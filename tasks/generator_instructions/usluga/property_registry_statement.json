@@ -1,0 +1,13 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "property_registry_statement",
+      "virtual": true,
+      "keys": [
+        { "name": "property_registry_statement_natural_person_1" },
+        { "name": "property_registry_statement_legal_entity_1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "agent": {
+      "title": "Собственник конструкции"
+    },
+    "text": {},
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+      "title": "Запись о проекте размещения СНИ для исключения"
+    }
+  }
+}

@@ -25,7 +25,7 @@
       "title": "Ответственный производитель работ со стороны подрядчика"
     },
     "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
     },
     "subcontractor_responsible": {
@@ -33,11 +33,11 @@
       "title": "Ответственный производитель работ со стороны субподрядчика"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)"
     },
     "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
       "title": "Уточнение адреса или места проведения работ"
     },
     "begin_date": {

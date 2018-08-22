@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "plan_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number",
+      "title": "Номер ГПЗУ",
+      "description": "Номер градостроительного плана"
+    },
+    "decree_info": {
+      "type": "object",
+      "title": "Запрашиваемое постановление",
+      "description": "Данные постановления",
+      "properties": {
+        "document_no": {"type": "string", "title": "Номер документа"},
+        "signed_date": {"type": "string", "format": "date", "title": "Дата подписания"},
+        "name": {"type": "string", "title": "Наименование документа"}
+      }
+    },
+    "reason": {
+      "type": "string",
+      "title": "Причина",
+      "description": "Причина для оказания услуги"
+    }
+  }
+}

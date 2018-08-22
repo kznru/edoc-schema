@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "documents": {
+      "properties": {
+        "calculation_of_surface_runoff": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Рассчёт поверхностных стоков"
+        },
+        "image_topographic": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Топосъёмка (съёмка текущих изменений)"
+        },
+        "situational_plan": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Cитуационный план"
+        },
+        "technical_parameters": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Информация об объекте (в соответствии с эскизным проектом)"
+        },
+        "letter_of_attorney": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Доверенность"
+        },
+        "technical_conditions": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Ранее выданные технические условия (при наличии)"
+        },
+        "application": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Заявление"
+        }
+      }
+    }
+  }
+}

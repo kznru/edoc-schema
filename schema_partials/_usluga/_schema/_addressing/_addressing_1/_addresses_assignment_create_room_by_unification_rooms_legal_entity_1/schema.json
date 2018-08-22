@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "purpose_of_room": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+      "title": "Назначение помещения"
+    },
+    "address_numbers": {
+      "maxItems": 1
+    }
+  }
+}

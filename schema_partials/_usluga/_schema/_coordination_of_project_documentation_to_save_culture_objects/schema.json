@@ -1,0 +1,55 @@
+{
+  "properties": {
+    "culture_object_name": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес объекта культурного наследия"
+    },
+    "project_documentation_info": {
+      "type": "object",
+      "title": "Проектная документация на проведение работ по сохранению объекта культурного местного (муниципального) значения разработана",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Наименование проектной документации"
+        },
+        "composition": {
+          "type": "string",
+          "title": "Состав проектной документации"
+        }
+      }
+    },
+    "info_about_license_to_save_culture_object": {
+      "type": "object",
+      "title": "Сведения о лицензии на осуществление деятельности по сохранению объекта культурного наследия",
+      "properties": {
+        "registration_number": {
+          "type": "string",
+          "title": "Регистрационный номер"
+        },
+        "date_of_issue": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата выдачи"
+        }
+      }
+    },
+    "task_info": {
+      "type": "object",
+      "title": "Сведения о задании на проведение работ по сохранению объекта культурного наследия",
+      "properties": {
+        "registration_number": {
+          "type": "string",
+          "title": "Регистрационный номер"
+        },
+        "date_of_issue": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата выдачи"
+        }
+      }
+    }
+  }
+}

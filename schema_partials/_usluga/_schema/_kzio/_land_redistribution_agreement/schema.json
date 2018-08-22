@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местоположение земельного участка"
+    },
+    "cadastre_number_gov": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка, находящегося в муниципальной собственности или государственная собственность на который не разграничена (при наличии)"
+    },
+    "cadastre_number_own": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка, находящегося в частной собственности"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "granting_the_land_plot_in_property_by_sale_of_the_land_plot_at_auction",
+      "virtual": true,
+      "keys": [
+        { "name": "granting_the_land_plot_in_property_by_sale_of_the_land_plot_at_auction_natural_person_1" },
+        { "name": "granting_the_land_plot_in_property_by_sale_of_the_land_plot_at_auction_legal_entity_1" }
+      ]
+    }
+  ]
+}

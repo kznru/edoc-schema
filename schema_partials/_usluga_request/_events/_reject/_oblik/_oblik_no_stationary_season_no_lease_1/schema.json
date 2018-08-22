@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "documents": {
+      "properties": {
+        "permission_without_provision": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "title": "Заключение о некапитальности объекта",
+          "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "installation_of_information_signs_for_individual_design_on_road_signs",
+      "virtual": true,
+      "keys": [
+        { "name": "installation_of_information_signs_for_individual_design_on_road_signs_natural_person_1" },
+        { "name": "installation_of_information_signs_for_individual_design_on_road_signs_legal_entity_1" }
+      ]
+    }
+  ]
+}

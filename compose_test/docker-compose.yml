@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  proxy:
+    image: jwilder/nginx-proxy:latest
+    container_name: proxy
+    privileged: true
+    restart: always
+    command: /bin/sh -c "echo 'client_max_body_size 20m;' > /etc/nginx/conf.d/settings.conf && forego start -r"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /etc/nginx/certs:/etc/nginx/certs:ro
+      - /etc/nginx/vhost.d
+      - /usr/share/nginx/html
+
+  edoc:
+    container_name: edoc_web
+    image: registry.headmade.pro/edoc-schema:latest
+    privileged: true
+    restart: always
+    environment:
+      - VIRTUAL_HOST=test.edoc-schema.kzn.ru

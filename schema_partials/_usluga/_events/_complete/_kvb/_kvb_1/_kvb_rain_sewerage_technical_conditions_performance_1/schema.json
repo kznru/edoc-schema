@@ -1,0 +1,25 @@
+{
+  "required": ["object_name", "object_address_with_map", "builder"],
+  "properties": {
+    "object_name": {
+      "type": "string",
+      "title": "Наименование объекта"
+    },
+    "object_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта"
+    },
+    "builder": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Застройщик-заказчик"
+    },
+    "works_done": {
+      "title": "Работы по строительству сетей ливневой канализации объекта выполнены",
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Заключения и предложения"
+    }
+  }
+}
