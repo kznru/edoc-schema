@@ -164,6 +164,18 @@
                   ]
                 },
                 {
+                  "name": "kvb_excavation_orders_add_for_roadway_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_1"
+                    }
+                  ]
+                },
+                {
                   "name": "kvb_excavation_orders_emergency_add_1",
                   "virtual": true,
                   "keys": [
