@@ -1,13 +1,4 @@
 {
-  "required": [
-    "total_road_length",
-    "total_area",
-    "category",
-    "covering_type",
-    "current_state",
-    "customer",
-    "general_contracting_organization"
-  ],
   "properties": {
     "number": {
       "type": "string",
