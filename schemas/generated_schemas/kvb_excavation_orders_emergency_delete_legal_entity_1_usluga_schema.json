@@ -3,7 +3,7 @@
     "registry_field": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
       "config": {
-        "registry_key": "kvb_orders_emergency"
+        "registry_key": "kvb_excavation_orders_emergency_1"
       },
       "title": "Ордер для закрытия"
     },
