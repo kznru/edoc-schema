@@ -1,0 +1,54 @@
+{
+  "required": [
+    "total_road_length",
+    "total_area",
+    "category",
+    "covering_type",
+    "current_state",
+    "customer",
+    "general_contracting_organization"
+  ],
+  "properties": {
+    "total_road_length": {
+      "type": "string",
+      "title": "Общая протяжённость улицы"
+    },
+    "total_area": {
+      "type": "string",
+      "title": "Общая площадь"
+    },
+    "category": {
+      "type": "string",
+      "title": "Категория"
+    },
+    "covering_type": {
+      "type": "string",
+      "title": "Тип покрытия"
+    },
+    "current_state": {
+      "type": "string",
+      "title": "Текущее состояние"
+    },
+    "guardrail_presence": {
+      "type": "boolean",
+      "title": "Наличие ограждений"
+    },
+    "customer": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заказчик работ по содержанию"
+    },
+    "general_contracting_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Генеральная подрядная организация"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object"
+}

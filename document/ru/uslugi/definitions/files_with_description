@@ -5,10 +5,12 @@
   "type": "object",
   "properties": {
     "description": {
-      "type": "string"
-      },
+      "type": "string",
+      "title": "Описание"
+    },
     "files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": " "
     }
   }
 }

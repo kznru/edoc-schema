@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "description": "Данные, идентифицирующие земельные участки",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "address_with_map": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+        "title": " "
+      },
+      "cadastre_number": {
+        "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+        "title": "Кадастровый номер"
+      }
+    }
+  },
+  "default": []
+}

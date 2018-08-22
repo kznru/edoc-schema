@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "reject_reasons": {
+      "items": {
+        "enum": [
+          "Подача заявления, не соответствующего форме, утвержденной настоящим регламентом",
+          "Отсутствие каких-либо сведений или наличие недостоверных сведений в документах, представляемых заявителем",
+          "Подача неполного комплекта документов, указанных в пункте 2.5 Регламента муниципальной услуги",
+          "Несоответствие сведений, указанных в заявлении, сведениям, содержащимся в документах, прилагаемых к заявлению",
+          "Другое (указать)"
+        ],
+        "type": "string"
+      },
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "reject_reasons"
+  ]
+}

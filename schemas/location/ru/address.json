@@ -1,17 +1,19 @@
 {
-    "id": "http://edoc-schema.kzn.ru/location/ru/address",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Адрес объекта в формате ФИАС",
-    "type": "object",
-    "properties": {
-        "fias_id": { "type": "guid" },
-        "fias_level": { "type": "number" },
-        "zip": { "type": "number" },
-        "region": { "type": "string" },
-        "district": { "type": "string" },
-        "city": { "type": "string" },
-        "street": { "type": "string" },
-        "house": { "type": "string" },
-        "text": { "type": "string" }
-    }
+  "id": "http://edoc-schema.kzn.ru/location/ru/address",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Адрес объекта в формате фиас",
+  "type": "object",
+  "properties": {
+    "fias_id": { "type": "string", "title": "Код ФИАС" },
+    "fias_level": { "type": "string" },
+    "zip": { "type": "string", "title": "Индекс" },
+    "region": { "type": "string", "title": "Регион" },
+    "district": { "type": "string", "title": "Район города" },
+    "city": { "type": "string", "title": "Город" },
+    "street": { "type": "string", "title": "Улица" },
+    "house": { "type": "string", "title": "Дом" },
+    "value": { "type": "string", "title": "Адрес одной строкой" },
+    "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/geo_coordinates" }
+  },
+  "required": ["fias_id", "value"]
 }

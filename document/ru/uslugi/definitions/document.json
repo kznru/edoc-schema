@@ -1,0 +1,18 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Документ",
+  "title": " ",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер документа"
+    },
+    "date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата"
+    }
+  }
+}

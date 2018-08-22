@@ -1,0 +1,5 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+}

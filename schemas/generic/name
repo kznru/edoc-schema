@@ -1,12 +1,12 @@
 {
-    "id": "http://edoc-schema.kzn.ru/generic/name",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Имя",
-    "type": "object",
-    "properties": {
-      "full": {"type": "string"},
-      "short": {"type": "string"},
-      "abbreviation": {"type": "string"},
-      "common": {"type": "string"}
-    }
+  "id": "http://edoc-schema.kzn.ru/generic/name",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Имя",
+  "type": "object",
+  "properties": {
+    "full": {"type": "string"},
+    "short": {"type": "string"},
+    "abbreviation": {"type": "string"},
+    "common": {"type": "string"}
+  }
 }

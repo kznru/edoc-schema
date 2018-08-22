@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/sketch_proposal",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+  "title": "Эскизное предложение"
+}

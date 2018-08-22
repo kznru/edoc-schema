@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Geometry",
+  "description": "A geometry is a GeoJSON object where the type member's value is one of the following strings: `Point`, `MultiPoint`, `LineString`, `MultiLineString`, `Polygon`, `MultiPolygon`, or `GeometryCollection`.",
+  "properties": {
+    "type": {
+      "enum": [
+        "Point",
+        "MultiPoint",
+        "LineString",
+        "MultiLineString",
+        "Polygon",
+        "MultiPolygon",
+        "GeometryCollection"
+      ]
+    }
+  }
+}

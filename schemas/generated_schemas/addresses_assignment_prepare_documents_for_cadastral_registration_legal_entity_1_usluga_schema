@@ -1,0 +1,53 @@
+{
+  "properties": {
+    "real_estate_infos": {
+      "maxItems": 1,
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos",
+      "title": "Данные, идентифицирующие объекты недвижимости"
+    },
+    "building_name": {
+      "type": "string",
+      "title": "Наименование объекта строительства (реконструкции)",
+      "description": "Наименование объекта строительства (реконструкции) (при наличии проектной документации указывается в соответствии с проектной документацией)"
+    },
+    "kind_of_building": {
+      "type": "string",
+      "title": "Тип объекта",
+      "description": "Тип здания, сооружения, объекта незавершенного строительства"
+    },
+    "address_numbers": {
+      "maxItems": 1,
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers",
+      "title": "Адресные номера"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "building_name",
+    "kind_of_building",
+    "real_estate_infos",
+    "organization"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Площадь, кв.м",
+  "type": "number"
+}

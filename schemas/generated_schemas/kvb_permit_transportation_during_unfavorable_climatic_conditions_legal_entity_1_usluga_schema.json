@@ -1,0 +1,79 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "route": {
+      "title": "Маршрут движения",
+      "type": "string"
+    },
+    "transportation_type": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"
+    },
+    "transportation_time": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+      "title": "Сроки перевозки"
+    },
+    "transportation_count": {
+      "title": "Количество перевозок",
+      "type": "number"
+    },
+    "cargo_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cargo_parameters"
+    },
+    "vehicle_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_info"
+    },
+    "vehicle_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_parameters"
+    },
+    "escort_necessity": {
+      "type": "boolean",
+      "title": "Необходимость автомобиля сопровождения (прикрытия)"
+    },
+    "estimated_maximum_speed": {
+      "type": "number",
+      "title": "Предполагаемая максимальная скорость движения транспортного средства (автопоезда) (км/час)"
+    },
+    "bank_details": {
+      "type": "string",
+      "title": "Банковские реквизиты"
+    },
+    "vehicle_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документы транспортного средства, с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов",
+      "description": "Паспорт транспортного средства или свидетельство о регистрации транспортного средства"
+    },
+    "vehicle_diagram": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Схема транспортного средства (автопоезда), с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов, с изображением размещения такого груза.",
+      "description": "На схеме транспортного средства изображается транспортное средство, планируемое к участию в перевозке, количество осей и колес на нем, взаимное расположение осей и колес, распределение нагрузки по осям и в случае неравномерного распределения нагрузки по длине оси - распределение на отдельные колеса."
+    },
+    "technical_requirements": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о технических требованиях к перевозке заявленного груза в транспортном положении."
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

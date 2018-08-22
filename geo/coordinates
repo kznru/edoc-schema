@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Coordinates",
+  "type": "array",
+  "items": {
+    "oneOf": [
+      { "type": "array" },
+      { "type": "number" }
+    ]
+  }
+}

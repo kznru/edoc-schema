@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/geo/geo_coordinates",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Географическая координата точки",
+  "type": "object",
+  "properties": {
+    "lat": { "type": "number", "title": "Широта" },
+    "lon": { "type": "number", "title": "Долгота" }
+  }
+}

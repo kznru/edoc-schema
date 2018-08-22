@@ -1,8 +1,8 @@
 {
-    "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "description": "Договора аренды",
-    "type": "array",
-    "minItems": 1,
-    "items": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract"}
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Договора аренды",
+  "type": "array",
+  "minItems": 1,
+  "items": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract"}
 }

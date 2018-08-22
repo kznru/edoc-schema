@@ -1,0 +1,52 @@
+{
+  "properties": {
+    "permission_without_provision": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/permission_without_provision",
+      "title": "Заключение о некапитальности объекта",
+      "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "sketch_proposal": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/sketch_proposal",
+      "title": "Эскизное предложение",
+      "description": "Утвержденное заявителем эскизное предложение, подготовленное и оформленное в соответствии с установленными требованиями (приложение №2 к Регламенту муниципальной услуги) в двух экземплярах на бумажном носителе, или их скан-копии (при заполнении электронной формы)"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "cadastre_number",
+    "organization"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

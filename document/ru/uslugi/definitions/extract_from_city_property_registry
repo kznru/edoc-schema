@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extract_from_city_property_registry",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "description": "Выписка из реестра собственности города",
+  "properties": {
+    "document_no": {"type": "string", "title": "Номер документа"},
+    "signed_date": {"type": "string", "format": "date", "title": "Дата подписания"},
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
+  },
+  "required": [
+    "document_no",
+    "signed_date",
+    "content"
+  ]
+}

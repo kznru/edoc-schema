@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Наименование объекта строительства"
+}

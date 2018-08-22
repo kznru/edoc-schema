@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "date_of_entering": {
+      "type": "string",
+      "title": "Дата внесения сведений в единый государственный реестр юридических лиц"
+    },
+    "address": {
+      "type": "string",
+      "title": "Адрес"
+    },
+    "legal_entity_method_of_formation": {
+      "type": "string",
+      "title": "Способ образования юридического лица"
+    },
+    "status_of_legal_entity": {
+      "type": "string",
+      "title": "Статус юридического лица"
+    },
+    "persons_with_granted_access": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "full_name": {
+            "type": "string",
+            "title": "ФИО"
+          },
+          "position": {
+            "type": "string",
+            "title": "Должность"
+          }
+        },
+        "required": [
+          "full_name",
+          "position"
+        ]
+      },
+      "title": "Сведения о лице, имеющем право без доверенности действовать от имени кооператива"
+    },
+    "exclusion_type": {
+      "type": "string",
+      "title": "Способ прекращения юридического лица"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Инофрмация об организации"
+    }
+  },
+  "required": [
+    "date_of_entering",
+    "legal_entity_method_of_formation",
+    "status_of_legal_entity",
+    "persons_with_granted_access",
+    "organization",
+    "address"
+  ]
+}

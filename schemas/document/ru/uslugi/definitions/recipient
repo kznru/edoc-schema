@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/recipient",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Получатель",
+  "properties": {
+    "id": {"type": "integer"},
+    "type": {"type": "string"},
+    "title": {"type": "string"}
+  }
+}

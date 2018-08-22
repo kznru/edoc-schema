@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Вид перевозки",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "международная",
+    "межрегиональная",
+    "местная"
+  ]
+}

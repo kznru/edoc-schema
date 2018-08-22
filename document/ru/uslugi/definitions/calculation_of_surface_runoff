@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "Рассчёт поверхностных стоков",
+  "properties": {
+    "drainage_flow_rate": {
+      "type": "number",
+      "title": "Рассчётный расход водостока, л/с"
+    },
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"}
+  }
+}

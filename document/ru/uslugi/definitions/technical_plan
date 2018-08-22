@@ -1,0 +1,14 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Технический план",
+  "type": "object",
+  "properties": {
+    "organization": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Изготовитель плана"},
+    "appartment_number": {"type": "string", "title": "Номер объекта недвижимости"},
+    "kind": {"type": "number", "title": "Тип", "minItems": 1, "enum": [0, 1], "enumNames": ["здание", "помещение"]},
+    "another_location": {"type": "string", "title": "Иное месторасположение"},
+    "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": " ", "description": ""}
+  }
+}

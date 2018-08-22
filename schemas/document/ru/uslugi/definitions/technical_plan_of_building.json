@@ -1,0 +1,18 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Технический план здания",
+  "type": "object",
+  "properties": {
+    "organization": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Изготовитель плана"},
+    "object_number": {"type": "string", "title": "Номер объекта недвижимости"},
+    "kind_of_building": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kind_of_building",
+      "title": "Тип здания"
+    },
+    "another_location": {"type": "string", "title": "Иное месторасположение"},
+    "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": " ", "description": ""}
+  },
+  "required": ["content", "organization", "issue_date", "kind_of_building"]
+}

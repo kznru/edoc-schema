@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_constructions",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Изображения конструкций",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "contruction_type",
+      "image"
+    ],
+    "properties": {
+      "contruction_type": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
+        "title": "Тип конструкции"
+      },
+      "image": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+        "title": "Изображение конструкции"
+      }
+    }
+  }
+}

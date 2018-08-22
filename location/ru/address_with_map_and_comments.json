@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Описание местоположения с комментариями",
+  "title": "Описание местоположения с комментариями",
+  "type": "object",
+  "properties": {
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    },
+    "geoJSON": {
+      "$ref": "http://edoc-schema.kzn.ru/geo/geojson",
+      "default": {
+        "type": "FeatureCollection",
+        "features": []
+      }
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    }
+  },
+  "required": ["geoJSON"]
+}

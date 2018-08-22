@@ -1,0 +1,21 @@
+{
+  "required": [
+    "street_names"
+  ],
+  "properties": {
+    "street_names": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/street_names",
+      "title": "Названия улиц"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

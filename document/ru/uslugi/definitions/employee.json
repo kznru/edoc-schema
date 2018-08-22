@@ -4,7 +4,7 @@
   "description": "Работник",
   "type": "object",
   "properties": {
-    "fio": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_fio", "title": "ФИО"},
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО"},
     "phone": {"type": "string"}
   }
 }

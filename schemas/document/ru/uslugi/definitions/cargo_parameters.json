@@ -1,0 +1,30 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cargo_parameters",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Характеристики груза",
+  "type": "object",
+  "properties": {
+    "divisible": {
+      "title": "Делимый",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Да",
+        "Нет"
+      ]
+    },
+    "name": {
+      "title": "Наименование",
+      "type": "string",
+      "description": "Указывается полное наименование груза, основные характеристики, марка, модель, описание индивидуальной и транспортной тары (способ крепления)."
+    },
+    "dimensions": {
+      "title": "Габариты",
+      "type": "string"
+    },
+    "weight": {
+      "title": "Масса",
+      "type": "number"
+    }
+  }
+}

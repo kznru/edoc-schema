@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/addressing_object_rights",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Правоустанавливающие документы на объект адресации",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+}

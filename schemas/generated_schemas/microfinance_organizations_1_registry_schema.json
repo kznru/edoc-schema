@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "external_id": {
+      "type": "string",
+      "title": "Регистрационный номер записи"
+    },
+    "date_of_entering": {
+      "type": "string",
+      "title": "Дата внесения сведений в государственный реестр микрофинансовых организаций"
+    },
+    "address": {
+      "type": "string",
+      "title": "Адрес"
+    },
+    "number_of_issued_certificate_form": {
+      "type": "string",
+      "title": "Номер выданного бланка свидетельства"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Инофрмация об организации"
+    }
+  },
+  "required": [
+    "external_id",
+    "date_of_entering",
+    "number_of_issued_certificate_form",
+    "organization",
+    "address"
+  ]
+}

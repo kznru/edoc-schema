@@ -16,7 +16,7 @@
 <meta property="og:url" content="/examples/" />
 <meta property="og:site_name" content="EDOC Schema" />
 <script type="application/ld+json">
-{"description":"Проект единого стандарта электронных документов (EDOC Schema)","@type":"WebPage","url":"/examples/","headline":"Примеры","@context":"http://schema.org"}</script>
+{"url":"/examples/","description":"Проект единого стандарта электронных документов (EDOC Schema)","@type":"WebPage","headline":"Примеры","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -52,6 +52,11 @@
             
             
             <a class="page-link" href="/specification/">Спецификация</a>
+            
+          
+            
+            
+            <a class="page-link" href="/generated_schemas/">Услуги</a>
             
           
             
@@ -107,14 +112,14 @@
 <h1 id="пример-окопф">Пример ОКОПФ</h1>
 <p>Схема:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ОКОПФ"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">},</span><span class="w">
-      </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">}</span><span class="w">
-    </span><span class="p">}</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ОКОПФ"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"number"</span><span class="p">},</span><span class="w">
+    </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
 </span></code></pre></div></div>
@@ -129,15 +134,16 @@
 <h1 id="фио">ФИО</h1>
 <p>Схема:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Фимилия, имя и отчество человека"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"surname"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"patronimic"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">}</span><span class="w">
-    </span><span class="p">}</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Фамилия, имя и отчество человека"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"raw"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"фио"</span><span class="p">},</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Имя"</span><span class="p">},</span><span class="w">
+    </span><span class="s2">"surname"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Фамилия"</span><span class="p">},</span><span class="w">
+    </span><span class="s2">"patronymic"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Отчество"</span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
 </span></code></pre></div></div>
@@ -154,14 +160,14 @@
 <h1 id="фио-и-номер-телефона">ФИО и номер телефона</h1>
 <p>Схема:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio_phone"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Фамилия, имя, отчество и телефон человека"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="s2">"fio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio"</span><span class="p">},</span><span class="w">
-      </span><span class="s2">"phone"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/generic/phone_number"</span><span class="p">}</span><span class="w">
-    </span><span class="p">}</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/fio_phone"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Фамилия, имя, отчество и телефон человека"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"fio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/person/ru/fio"</span><span class="p">},</span><span class="w">
+    </span><span class="s2">"phone"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/generic/phone_number"</span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
 </span></code></pre></div></div>
@@ -184,17 +190,16 @@
 <h1 id="юридическое-лицо">Юридическое лицо</h1>
 <p>Схема:</p>
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/organization/ru/organization"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Информация о российской организации"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"inn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/inn"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"ogrn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"kpp"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/classifier/ru/kpp"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"okopf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/classifier/ru/okopf"</span><span class="w"> </span><span class="p">},</span><span class="w">
-        </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/generic/name"</span><span class="w"> </span><span class="p">}</span><span class="w">
-    </span><span class="p">}</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/organization/ru/organization"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://json-schema.org/draft-06/schema#"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Информация о российской организации"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"inn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/inn"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="s2">"ogrn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/identifier/ru/ogrn"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="s2">"kpp"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"$ref"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://edoc-schema.kzn.ru/classifier/ru/kpp"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="s2">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Название"</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
 </span></code></pre></div></div>

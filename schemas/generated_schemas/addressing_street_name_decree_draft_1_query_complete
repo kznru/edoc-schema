@@ -1,0 +1,22 @@
+{
+  "required": [
+    "document"
+  ],
+  "properties": {
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "title": "Постановление",
+      "description": "Скан постановления с печатью"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

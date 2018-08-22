@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Технический план помещения",
+  "type": "object",
+  "properties": {
+    "organization": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Изготовитель плана"},
+    "purpose_of_room":{"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room", "title": "Назначение помещения"},
+    "object_number": {"type": "string", "title": "Номер помещения"},
+    "additional_info": {"type": "string", "title": "Информация о помещении"},
+    "another_location": {"type": "string", "title": "Иное месторасположение"},
+    "issue_date": {"type": "string", "format": "date", "title": "Дата выдачи"},
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"}
+  },
+  "required": ["content", "organization", "issue_date", "purpose_of_room", "object_number"]
+}

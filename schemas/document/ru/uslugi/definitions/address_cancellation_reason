@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/address_cancellation_reason",
+  "type": "string",
+  "description": "Причина для аннулирования",
+  "minItems": 1,
+  "enum": [
+    "прекращение существования объекта адресации",
+    "отказ в осуществлении кадастрового учета объекта адресации",
+    "присвоение нового адреса объекту адресации"
+  ]
+}

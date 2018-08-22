@@ -1,0 +1,60 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_parameters",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Параметры транспортного средства (автопоезда)",
+  "type": "object",
+  "properties": {
+    "vehicle_weight": {
+      "type": "object",
+      "title": "Масса транспортного средства (автопоезда)",
+      "properties": {
+        "with_cargo": {
+          "type": "number",
+          "title": "с грузом (т)"
+        },
+        "without_cargo": {
+          "type": "number",
+          "title": "без груза (т)"
+        }
+      }
+    },
+    "tractor_weight": {
+      "type": "number",
+      "title": "Масса тягача (т)"
+    },
+    "trailer_weight": {
+      "type": "number",
+      "title": "Масса прицепа (полуприцепа) (т)"
+    },
+    "axes_distance": {
+      "type": "number",
+      "title": "Расстояния между осями"
+    },
+    "axes_load": {
+      "type": "number",
+      "title": "Нагрузки на оси (т)"
+    },
+    "vehicle_dimensions": {
+      "title": "Габариты транспортного средства (автопоезда)",
+      "type": "object",
+      "properties": {
+        "length": {
+          "type": "number",
+          "title": "Длина (м)"
+        },
+        "width": {
+          "type": "number",
+          "title": "Ширина (м)"
+        },
+        "height": {
+          "type": "number",
+          "title": "Высота (м)"
+        },
+        "minimum_rotation_radius": {
+          "type": "number",
+          "title": "Минимальный радиус поворота с грузом (м)"
+        }
+      }
+    }
+  }
+}
