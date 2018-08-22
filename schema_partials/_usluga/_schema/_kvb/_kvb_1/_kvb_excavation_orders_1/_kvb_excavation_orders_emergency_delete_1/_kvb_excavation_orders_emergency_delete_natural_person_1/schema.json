@@ -1,5 +1,6 @@
 {
   "properties": {
+    "registry_field": {},
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"

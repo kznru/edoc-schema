@@ -1,18 +1,18 @@
 {
   "required": [],
   "properties": {
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
-    "registry_item": {
+    "registry_field": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "kvb_orders_emergency"
       },
       "title": "Ордер для закрытия"
+    },
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "photo_from_work_locations": {
       "title": "Фотографии мест работ",

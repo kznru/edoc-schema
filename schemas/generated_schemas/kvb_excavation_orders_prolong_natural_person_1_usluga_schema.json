@@ -1,5 +1,12 @@
 {
   "properties": {
+    "registry_field": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_orders"
+      },
+      "title": "Ордер для продления"
+    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
@@ -11,13 +18,6 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
-    },
-    "registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
-      "config": {
-        "registry_key": "kvb_orders"
-      },
-      "title": "Ордер для продления"
     },
     "end_date": {
       "type": "string",
