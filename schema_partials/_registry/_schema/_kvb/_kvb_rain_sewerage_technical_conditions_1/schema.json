@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Заявитель"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
+      "title": "Описание"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер"
+    },
+    "object_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info"
+    },
+    "calculation_of_surface_runoff": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+    },
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Топографический план",
+      "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
+    },
+    "previous_technical_conditions": {
+      "title": "Ранее выданные тех. условия",
+      "description": "Ранее выданные тех. условия, если они были получены в КВБ",
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        },
+        "number": {
+          "type": "number",
+          "title": "Номер"
+        }
+      }
+    },
+    "result_data": {
+      "response_text": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
+        "title": "Информация для заявителя"
+      },
+      "attachments": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+        "title": "Приложение"
+      },
+      "comments": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+        "title": "Комментарии"
+      }
+    }
+  }
+}
