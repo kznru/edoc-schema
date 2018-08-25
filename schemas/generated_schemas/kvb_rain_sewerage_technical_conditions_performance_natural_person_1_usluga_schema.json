@@ -40,11 +40,23 @@
     },
     "executive_project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Исполнительная документация с исполнительной съемки"
+      "title": "Исполнительно-техническая документация"
+    },
+    "topographic_project": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникаци- ями (в том числе с вновь построенными)"
     },
     "act": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Акт, подтверждающий подключение"
+    },
+    "measurment_protocol": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Протокол измерения проб сточных вод"
+    },
+    "previous_technical_conditions": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ранее выданные технические условия"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
