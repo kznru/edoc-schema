@@ -1,13 +1,20 @@
 {
   "type": "object",
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-      "title": "Адрес"
+    "applicant_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "title": "Заявитель"
     },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
-      "title": "Описание"
+    "applicant_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "confirmations": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
     },
     "begin_date": {
       "type": "string",
@@ -18,6 +25,14 @@
       "type": "string",
       "format": "date",
       "title": "Дата окончания работ"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
+      "title": "Описание"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
