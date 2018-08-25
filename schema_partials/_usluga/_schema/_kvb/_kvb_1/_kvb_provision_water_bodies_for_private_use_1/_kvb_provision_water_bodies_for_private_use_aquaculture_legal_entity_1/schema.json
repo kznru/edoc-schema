@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "usage_calculation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Расчет и обоснование заявленного объема сброса сточных вод и показателей их качества по каждому выпуску"
+    },
+    "discharge_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Поквартальный график сброса сточных вод"
+    },
+    "special_equipment_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объе- мов и контроля (наблюдения) качества сбрасываемых сточных вод"
+    }
+  }
+}
