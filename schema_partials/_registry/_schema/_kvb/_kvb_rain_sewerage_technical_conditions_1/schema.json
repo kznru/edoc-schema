@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "usluga_number": {
+      "type": "string",
+      "title": "Номер муниципальной услуги"
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заявитель"
