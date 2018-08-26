@@ -1,6 +1,6 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Гарантия повторного восстановления",
+  "title": "Гарантия повторного восстановления",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }
