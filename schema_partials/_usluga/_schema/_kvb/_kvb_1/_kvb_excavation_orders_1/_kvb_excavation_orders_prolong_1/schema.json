@@ -37,7 +37,7 @@
     },
     "drawing": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Чертёж"
+      "title": "Чертёж на проводимые работы с указанием выполненных и незавершенных объемов работ"
     }
   }
 }
