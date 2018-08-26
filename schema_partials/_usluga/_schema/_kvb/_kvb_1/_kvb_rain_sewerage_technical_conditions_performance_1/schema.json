@@ -1,7 +1,7 @@
 {
   "required": [],
   "properties": {
-    "registry_field": {
+    "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "kvb_rain_sewerage_technical_conditions_1"
@@ -41,7 +41,7 @@
     },
     "topographic_project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникаци- ями (в том числе с вновь построенными)"
+      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)"
     },
     "act": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

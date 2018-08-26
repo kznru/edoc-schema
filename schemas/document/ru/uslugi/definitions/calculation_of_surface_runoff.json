@@ -6,6 +6,9 @@
       "type": "number",
       "title": "Рассчётный расход водостока, л/с"
     },
-    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"}
+    "content": {
+      "title": "Расчёты",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
   }
 }

@@ -42,7 +42,7 @@
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Ситуационный план план"
+      "title": "Ситуационный план"
     },
     "technical_parameters": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
