@@ -68,6 +68,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
       "title": "Ответственный производитель работ со стороны субподрядчика"
     },
+    "initial_state_photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
+    },
     "topography_of_networks": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
     },

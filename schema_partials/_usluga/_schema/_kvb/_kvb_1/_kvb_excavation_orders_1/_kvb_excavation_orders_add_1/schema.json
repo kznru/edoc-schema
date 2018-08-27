@@ -71,15 +71,16 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
       "title": "Ответственный производитель работ со стороны субподрядчика"
     },
+    "initial_state_photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
+    },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ"
     },
     "topography_of_networks": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
-    },
-    "conclusion_place_of_damage": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
     },
     "topography_of_placements": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -107,6 +108,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном на объекте"
     },
+    "protocol_mvk": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Протокол МВК"
+    },
     "order_of_responsible_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном за благоустройство"
@@ -121,10 +126,6 @@
     "interested_party_list": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Заинтересованные стороны"
-    },
-    "decree_zrik_destroy": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Распоряжение ЗРИК на снос зелёных насаждений"
     }
   }
 }
