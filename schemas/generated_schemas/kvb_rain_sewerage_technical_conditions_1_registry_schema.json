@@ -25,8 +25,13 @@
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер"
     },
-    "object_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info"
+    "object_area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь объекта"
+    },
+    "object_purpose": {
+      "type": "string",
+      "title": "Назначение объекта"
     },
     "calculation_of_surface_runoff": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
@@ -35,6 +40,14 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
       "title": "Топографический план",
       "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
+    },
+    "situational_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ситуационный план"
+    },
+    "technical_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о технических параметрах объекта"
     },
     "previous_technical_conditions": {
       "title": "Ранее выданные тех. условия",
