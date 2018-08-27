@@ -6,6 +6,10 @@
       "type": "number",
       "title": "Рассчётный расход водостока, л/с"
     },
+    "collector diameter": {
+      "type": "number",
+      "title": "Необходимый диаметр коллектора, кв.м."
+    },
     "content": {
       "title": "Расчёты",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"

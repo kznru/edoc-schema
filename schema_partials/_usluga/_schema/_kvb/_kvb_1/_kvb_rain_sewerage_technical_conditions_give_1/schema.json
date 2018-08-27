@@ -12,7 +12,7 @@
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
-      "title": "Описание"
+      "title": "Дополнительное описание адреса"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -27,12 +27,12 @@
       "title": "Назначение объекта"
     },
     "calculation_of_surface_runoff": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
     },
     "image_topographic": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
-      "title": "Топографический план",
-      "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
+      "title": "Топосъёмка",
+      "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
