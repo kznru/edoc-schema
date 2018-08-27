@@ -54,5 +54,15 @@
     "persons_with_granted_access",
     "organization",
     "address"
-  ]
+  ],
+  "map_editor": {
+    "type": "object",
+    "title": "Конфигурация для map editor",
+    "properties": {
+      "layer_id": {
+        "type": "string",
+        "title": "Id слоя"
+      }
+    }
+  }
 }

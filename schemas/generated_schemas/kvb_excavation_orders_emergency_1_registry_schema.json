@@ -190,5 +190,15 @@
         }
       }
     }
+  },
+  "map_editor": {
+    "type": "object",
+    "title": "Конфигурация для map editor",
+    "properties": {
+      "layer_id": {
+        "type": "string",
+        "title": "Id слоя"
+      }
+    }
   }
 }
