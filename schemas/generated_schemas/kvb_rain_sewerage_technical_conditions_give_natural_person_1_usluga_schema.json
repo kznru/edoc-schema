@@ -35,10 +35,14 @@
     "calculation_of_surface_runoff": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
     },
+    "technical_conditions": {
+      "type": "string",
+      "title": "Условия на присоединение к городской водоотводящей системе поверхностных сточных и (или) дренажных вод"
+    },
     "image_topographic": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
       "title": "Топосъёмка",
-      "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
+      "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

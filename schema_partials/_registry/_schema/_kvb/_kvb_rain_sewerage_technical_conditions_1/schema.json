@@ -7,19 +7,23 @@
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Заявитель юридическое лицо"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-      "title": "Заявитель"
+      "title": "Заявитель физическое лицо"
     },
-    "address": {
+    "object_name": {
+      "type": "string",
+      "title": "Наименование объекта"
+    },
+    "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
-      "title": "Описание"
+      "title": "Дополнительное описание адреса"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
