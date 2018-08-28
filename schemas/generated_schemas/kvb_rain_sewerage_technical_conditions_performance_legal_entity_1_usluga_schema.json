@@ -38,6 +38,10 @@
       "type": "string",
       "title": "Назначение объекта"
     },
+    "image_after": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото текущего состояния"
+    },
     "image_project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Проектная документация"
