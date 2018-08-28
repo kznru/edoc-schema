@@ -1,5 +1,10 @@
 {
-  "required": [],
+  "required": [
+    "applicant",
+    "end_date",
+    "operating_schedule",
+    "drawing"
+  ],
   "properties": {
     "registry_field": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",

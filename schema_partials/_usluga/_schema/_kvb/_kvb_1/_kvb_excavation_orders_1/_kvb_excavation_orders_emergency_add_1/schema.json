@@ -1,5 +1,25 @@
 {
-  "required": [],
+  "required": [
+    "applicant",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "objects_of_work_comments",
+    "area_of_damage_to_road",
+    "area_of_damage_to_local_road",
+    "area_of_damage_to_sidewalk",
+    "area_of_damage_to_lawn",
+    "customer_responsible",
+    "contractor",
+    "subcontractor",
+    "initial_state_photo",
+    "topography_of_networks",
+    "conclusion_place_of_damage",
+    "certificate_of_separation",
+    "certificate_sro",
+    "warranty_restore",
+    "emergency_repair_of"
+  ],
   "properties": {
     "applicant": {},
     "agent": {},
@@ -56,21 +76,33 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Подписант заказчика"
     },
-    "contractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Подрядчик"
+    "contractor": {
+      "type": "object",
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика"
+        },
+        "contractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны подрядчика"
+        }
+      }
     },
-    "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны подрядчика"
-    },
-    "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Субподрядчик"
-    },
-    "subcontractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны субподрядчика"
+    "subcontractor": {
+      "type": "object",
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны субподрядчика"
+        }
+      }
     },
     "initial_state_photo": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

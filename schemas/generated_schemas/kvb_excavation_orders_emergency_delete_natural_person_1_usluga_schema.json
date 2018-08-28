@@ -61,7 +61,13 @@
     }
   },
   "required": [
-
+    "applicant",
+    "photo_from_work_locations",
+    "address_with_map",
+    "images_after",
+    "certificate_qa",
+    "certificate_of_acceptance_intermediate",
+    "certificate_of_acceptance"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

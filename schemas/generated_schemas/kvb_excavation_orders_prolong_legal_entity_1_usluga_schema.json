@@ -42,7 +42,10 @@
     }
   },
   "required": [
-
+    "applicant",
+    "end_date",
+    "operating_schedule",
+    "drawing"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
