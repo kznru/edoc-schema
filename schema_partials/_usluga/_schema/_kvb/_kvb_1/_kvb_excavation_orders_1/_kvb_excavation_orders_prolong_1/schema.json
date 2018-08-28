@@ -19,18 +19,6 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "customer_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-      "title": "Подписант заказчика"
-    },
-    "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны подрядчика"
-    },
-    "subcontractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны субподрядчика"
-    },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ"

@@ -7,9 +7,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
-    "confirmations": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
-    },
     "begin_date": {
       "type": "string",
       "format": "date",
@@ -23,6 +20,14 @@
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
@@ -55,21 +60,33 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Подписант заказчика"
     },
-    "contractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Подрядчик"
+    "contractor": {
+      "type": "object",
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика"
+        },
+        "contractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны подрядчика"
+        }
+      }
     },
-    "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны подрядчика"
-    },
-    "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Субподрядчик"
-    },
-    "subcontractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Ответственный производитель работ со стороны субподрядчика"
+    "subcontractor": {
+      "type": "object",
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны субподрядчика"
+        }
+      }
     },
     "initial_state_photo": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -109,8 +126,23 @@
       "title": "Приказ об ответственном на объекте"
     },
     "protocol_mvk": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Протокол МВК"
+      "type": "object",
+      "title": "Протокол МВК",
+      "properties": {
+        "protocol_number": {
+          "type": "string",
+          "title": "Номер протокола"
+        },
+        "protocol_date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата протокола"
+        },
+        "content": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "title": "Файл протокола"
+        }
+      }
     },
     "order_of_responsible_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
