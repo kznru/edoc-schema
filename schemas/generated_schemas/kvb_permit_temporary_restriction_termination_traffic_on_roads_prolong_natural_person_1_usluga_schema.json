@@ -8,6 +8,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Ранее выданное разрешение"
     },
+    "genplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -22,7 +26,8 @@
     },
     "object_purpose": {
       "title": "Назначение объекта",
-      "type": "string"
+      "type": "string",
+      "description": "Жилой дом, административное здание, инженерные сети и т.д."
     },
     "time_limitation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
@@ -35,19 +40,19 @@
     "bank_details": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
-    "vehicle_documents": {
+    "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Документы транспортного средства, с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов",
-      "description": "Паспорт транспортного средства или свидетельство о регистрации транспортного средства"
+      "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
+      "description": "График по нормам продолжительности строительства. В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторного восстановления после просадок в теплое время года."
     },
-    "vehicle_diagram": {
+    "ppr": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Схема транспортного средства (автопоезда), с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов, с изображением размещения такого груза.",
-      "description": "На схеме транспортного средства изображается транспортное средство, планируемое к участию в перевозке, количество осей и колес на нем, взаимное расположение осей и колес, распределение нагрузки по осям и в случае неравномерного распределения нагрузки по длине оси - распределение на отдельные колеса."
+      "title": "Проект производства работ (ППР) на соответствующие этапы",
+      "description": "В случае если производятся земляные и строительные работы, прокладка и переустройство инженерных сетей и коммуникаций и работы, связанные с нарушением элементов наружного благоустройства"
     },
-    "technical_requirements": {
+    "traffic_scheme": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения о технических требованиях к перевозке заявленного груза в транспортном положении."
+      "title": "Схема организации дорожного движения"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

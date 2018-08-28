@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "usluga_number": {
+      "type": "string",
+      "title": "Номер муниципальной услуги"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "title": "Заявитель (юр. лицо)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)"
+    },
+    "time_limitation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+      "title": "Сроки проведения работ"
+    },
+    "result_data": {
+      "response_text": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
+        "title": "Информация для заявителя"
+      },
+      "attachments": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+        "title": "Приложение"
+      },
+      "comments": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+        "title": "Комментарии"
+      }
+    }
+  }
+}
