@@ -78,10 +78,6 @@
     "conclusion_place_of_damage": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
     },
-    "contract_for_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на проверку качества"
-    },
     "certificate_of_separation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
     },
