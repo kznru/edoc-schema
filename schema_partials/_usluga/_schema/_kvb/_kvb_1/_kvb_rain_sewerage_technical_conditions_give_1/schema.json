@@ -13,18 +13,25 @@
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
-      "title": "Дополнительное описание адреса"
+      "title": "Дополнительное описание местоположения объекта"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый номер"
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
     },
-    "object_area": {
+    "land_area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-      "title": "Площадь объекта"
+      "title": "Площадь земельного участка, кв.м",
+      "description": "Указано в эскизном проекте"
+    },
+    "building_area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь застройки, кв.м",
+      "description": "Указано в эскизном проекте"
     },
     "object_purpose": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info",
       "title": "Назначение объекта"
     },
     "calculation_of_surface_runoff": {
@@ -34,22 +41,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото исходной ситуации"
     },
-    "technical_conditions": {
-      "type": "string",
-      "title": "Условия на присоединение к городской водоотводящей системе поверхностных сточных и (или) дренажных вод"
-    },
     "image_topographic": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
       "title": "Топосъёмка",
       "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
-    },
-    "situational_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Ситуационный план"
-    },
-    "technical_parameters": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения о технических параметрах объекта"
     },
     "previous_technical_conditions": {
       "title": "Ранее выданные тех. условия",
