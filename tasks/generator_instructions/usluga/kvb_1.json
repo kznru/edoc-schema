@@ -114,6 +114,12 @@
                 },
                 {
                   "name": "kvb_rain_sewerage_technical_conditions_performance_natural_person_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_portal_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_portal_natural_person_1"
                 }
               ]
             },

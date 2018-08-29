@@ -1,6 +1,20 @@
 {
   "properties": {
-    "registry_field": {},
+    "registry_item": {
+      "type": "object",
+      "title": "Ранее выданные технические условия",
+      "properties": {
+        "number": {
+          "type": "number",
+          "title": "Номер ТУ"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"

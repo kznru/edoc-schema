@@ -1,9 +1,21 @@
 {
-  "required": [],
   "properties": {
-    "registry_item": {},
-    "applicant": {},
-    "agent": {},
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_rain_sewerage_technical_conditions_1"
+      },
+      "title": "Технические условия для выполнения",
+      "description": "Номер технических условий в реестре"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
@@ -39,6 +51,19 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Протокол измерения проб сточных вод",
       "description": "Лабораторный анализ сточных вод (в случае, если предусмотрено техническими условиями"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
     }
-  }
+  },
+  "required": [
+
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
 }

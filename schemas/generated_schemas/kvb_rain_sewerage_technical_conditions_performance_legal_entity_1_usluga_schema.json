@@ -1,18 +1,23 @@
 {
   "properties": {
-    "registry_field": {
+    "registry_item": {
+      "type": "object",
+      "title": "Ранее выданные технические условия",
+      "properties": {
+        "number": {
+          "type": "number",
+          "title": "Номер ТУ"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
-    },
-    "registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
-      "config": {
-        "registry_key": "kvb_rain_sewerage_technical_conditions_1"
-      },
-      "title": "Технические условия для выполнения",
-      "description": "Номер технических условий в реестре"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
