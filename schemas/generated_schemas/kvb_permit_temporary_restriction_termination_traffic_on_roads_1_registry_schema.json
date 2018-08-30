@@ -34,15 +34,15 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
         "title": "Комментарии"
       }
-    }
-  },
-  "map_editor": {
-    "type": "object",
-    "title": "Конфигурация для map editor",
-    "properties": {
-      "layer_id": {
-        "type": "string",
-        "title": "Id слоя"
+    },
+    "map_editor": {
+      "type": "object",
+      "title": "Конфигурация для map editor",
+      "properties": {
+        "layer_id": {
+          "type": "string",
+          "title": "Id слоя"
+        }
       }
     }
   }
