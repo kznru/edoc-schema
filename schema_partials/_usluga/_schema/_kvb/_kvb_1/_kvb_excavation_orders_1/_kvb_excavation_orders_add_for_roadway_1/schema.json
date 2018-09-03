@@ -84,7 +84,7 @@
     },
     "area_of_damage_to_lawn": {
       "type": "string",
-      "title": "Площадь повреждения зелёных насаждений"
+      "title": "Площадь повреждения газона"
     },
     "customer_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
