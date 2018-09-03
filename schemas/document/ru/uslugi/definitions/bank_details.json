@@ -5,15 +5,15 @@
   "type": "object",
   "properties": {
     "inn": {
-      "type": "number",
+      "type": "string",
       "title": "ИНН"
     },
     "kpp": {
-      "type": "number",
+      "type": "string",
       "title": "КПП"
     },
     "account_number": {
-      "type": "number",
+      "type": "string",
       "title": "Двадцатизначный номер банковского счета"
     },
     "name": {
@@ -29,15 +29,15 @@
       "title": "БИК"
     },
     "correspondent_account": {
-      "type": "number",
+      "type": "string",
       "title": "Двадцатизначный номер корреспондентского счета банка в Центральном банке РФ"
     },
     "okpo": {
-      "type": "number",
+      "type": "string",
       "title": "Код по ОКПО"
     },
     "okonh": {
-      "type": "number",
+      "type": "string",
       "title": "Код по ОКОНХ"
     }
   }

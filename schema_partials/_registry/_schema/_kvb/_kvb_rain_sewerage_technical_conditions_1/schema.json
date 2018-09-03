@@ -64,7 +64,7 @@
           "title": "Дата"
         },
         "number": {
-          "type": "number",
+          "type": "string",
           "title": "Номер"
         }
       }
