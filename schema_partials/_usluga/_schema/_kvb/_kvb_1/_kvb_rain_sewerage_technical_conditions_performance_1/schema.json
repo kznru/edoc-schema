@@ -2,6 +2,7 @@
   "required": [],
   "properties": {
     "registry_item": {},
+    "previous_registry_item": {},
     "applicant": {},
     "agent": {},
     "letter_of_attorney": {

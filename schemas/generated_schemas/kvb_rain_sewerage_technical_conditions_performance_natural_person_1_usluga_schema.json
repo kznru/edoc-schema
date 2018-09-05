@@ -1,6 +1,6 @@
 {
   "properties": {
-    "registry_item": {
+    "previous_registry_item": {
       "type": "object",
       "title": "Ранее выданные технические условия",
       "properties": {
@@ -18,6 +18,8 @@
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
+    },
+    "registry_item": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

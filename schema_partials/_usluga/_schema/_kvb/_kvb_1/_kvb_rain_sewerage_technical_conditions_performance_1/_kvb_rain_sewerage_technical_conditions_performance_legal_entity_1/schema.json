@@ -1,6 +1,6 @@
 {
   "properties": {
-    "registry_item": {
+    "previous_registry_item": {
       "type": "object",
       "title": "Ранее выданные технические условия",
       "properties": {
