@@ -15,10 +15,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность"
     },
-    "assignee": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/servant",
-      "title": "Исполнитель"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта"
