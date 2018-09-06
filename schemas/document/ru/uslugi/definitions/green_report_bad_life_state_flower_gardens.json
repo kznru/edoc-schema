@@ -1,0 +1,14 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_flower_gardens",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Жизненное состояние",
+  "uniqueItems": true,
+  "items": {
+    "type": "string",
+    "enum": [
+      "вытоптанный", "неухоженный", "луговой"
+    ]
+  },
+  "default": null
+}
