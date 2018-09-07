@@ -12,6 +12,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
+    "applicant_position": {
+      "type": "string",
+      "title": "Должность заявителя"
+    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта"
@@ -43,10 +47,6 @@
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договор аренды или другие правоустанавливающие документы"
-    },
-    "applicant_position": {
-      "type": "string",
-      "title": "Должность заявителя"
     },
     "networks_agreement": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
