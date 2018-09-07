@@ -1,6 +1,6 @@
 {
   "properties": {
-    "applicant": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
@@ -16,6 +16,8 @@
     "entrenched_documentation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Правоустанавливающий документ на земельный участок, право на который незарегистрировано в Едином государственном реестре прав на недвижимое имущество и сделок с ним"
+    },
+    "applicant": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

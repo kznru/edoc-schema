@@ -4,6 +4,8 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
+    "organization": {
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -175,6 +177,7 @@
   },
   "required": [
     "applicant",
+    "organization",
     "begin_date",
     "end_date",
     "address_with_map",

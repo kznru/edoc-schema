@@ -1,6 +1,6 @@
 {
   "properties": {
-    "applicant": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
@@ -11,6 +11,8 @@
     "genplan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
+    },
+    "applicant": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

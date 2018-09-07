@@ -12,6 +12,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
     },
+    "organization": {
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"

@@ -16,6 +16,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объема водных ресурсов, забираемых (изымаемых) из водного объекта"
     },
+    "organization": {
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"

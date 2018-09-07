@@ -1,6 +1,6 @@
 {
   "properties": {
-    "applicant": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
@@ -19,6 +19,8 @@
     "special_water_body_mapping": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Графические материалы с обозначением места предполгаемого сброса сточных и (или) дренажных вод по каждому выпуску"
+    },
+    "applicant": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

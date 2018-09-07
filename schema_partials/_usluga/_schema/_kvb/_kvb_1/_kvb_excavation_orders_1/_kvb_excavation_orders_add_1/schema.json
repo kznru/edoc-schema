@@ -1,6 +1,7 @@
 {
   "required": [
     "applicant",
+    "organization",
     "begin_date",
     "end_date",
     "address_with_map",
@@ -29,6 +30,7 @@
     "interested_party_list"
   ],
   "properties": {
+    "organization": {},
     "applicant": {},
     "agent": {},
     "letter_of_attorney": {
