@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "trees_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "План зелёных насаждений"
+    },
+    "counting_day": {
+      "type": "string",
+      "format": "data",
+      "title": "День подсчёта деревьев"
+    },
+    "organization_representative": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+      "title": "Представитель заказчика"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
+    },
+    "work_title": {
+      "type": "string",
+      "title": "Наименование выполняемых работ"
+    }
+  }
+}
