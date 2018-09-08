@@ -1,10 +1,11 @@
 {
+  "required": [
+
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
-    },
-    "applicant": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
@@ -67,9 +68,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
