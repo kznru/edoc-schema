@@ -1,5 +1,5 @@
 {
-  "required": ["applicant", "address"],
+  "required": ["address"],
   "properties": {
     "organization": {},
     "applicant": {},

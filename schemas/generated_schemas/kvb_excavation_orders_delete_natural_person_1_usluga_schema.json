@@ -60,7 +60,6 @@
     }
   },
   "required": [
-    "applicant",
     "photo_from_work_locations",
     "address_with_map",
     "images_after",

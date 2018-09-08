@@ -176,8 +176,6 @@
     }
   },
   "required": [
-    "applicant",
-    "organization",
     "begin_date",
     "end_date",
     "address_with_map",
