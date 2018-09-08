@@ -1,13 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
-    },
-    "applicant_position": {
-      "type": "string",
-      "title": "Должность заявителя"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
@@ -20,15 +13,6 @@
     "trees_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "План зелёных насаждений"
-    },
-    "counting_day": {
-      "type": "string",
-      "format": "data",
-      "title": "День подсчёта деревьев"
-    },
-    "organization_representative": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
-      "title": "Представитель заказчика"
     },
     "work_description": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
