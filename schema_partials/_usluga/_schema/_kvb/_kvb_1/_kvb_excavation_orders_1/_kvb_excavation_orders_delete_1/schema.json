@@ -1,0 +1,51 @@
+{
+  "required": [
+    "applicant",
+    "photo_from_work_locations",
+    "address_with_map",
+    "images_after",
+    "certificate_qa",
+    "certificate_of_acceptance_intermediate",
+    "certificate_of_acceptance"
+  ],
+  "properties": {
+    "registry_field": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для закрытия"
+    },
+    "organization": {},
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "photo_from_work_locations": {
+      "title": "Фотографии мест работ",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "address_with_map": {"$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"},
+          "images_after": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images", "title": "Фото после выполнения работ"}
+        }
+      }
+    },
+    "certificate_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключение о контроле качества"
+    },
+    "certificate_of_acceptance_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Акт промежуточной приёмки"
+    },
+    "certificate_of_acceptance": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Акт приёмки"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_rain_sewerage_technical_conditions_1"
+      },
+      "title": "Технические условия для выполнения",
+      "description": "Номер технических условий в реестре"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    }
+  }
+}

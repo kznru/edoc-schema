@@ -1,7 +1,10 @@
 {
   "required": [],
   "properties": {
+    "registry_item": {},
+    "previous_registry_item": {},
     "applicant": {},
+    "organization": {},
     "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
@@ -11,29 +14,33 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта"
     },
-    "object_name": {
-      "type": "string",
-      "title": "Наименование объекта"
-    },
-    "object_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-      "title": "Площадь объекта"
-    },
-    "object_purpose": {
-      "type": "string",
-      "title": "Назначение объекта"
+    "image_after": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото текущего состояния"
     },
     "image_project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Проектная документация"
+      "title": "Проектная документация",
+      "description": "Проектная документация, согласованная с Комитетом внешнего благоустройства"
     },
     "executive_project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Исполнительная документация с исполнительной съемки"
+      "title": "Исполнительно-техническая документация"
+    },
+    "topographic_project": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
+      "description": "Исполнительная съёмка по объекту"
     },
     "act": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Акт, подтверждающий подключение"
+      "title": "Акт, подтверждающий подключение к городским сетям",
+      "description": "Выдаётся эксплуатируемой организацией (в случае, если предусмотрено техническими условиями"
+    },
+    "measurment_protocol": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Протокол измерения проб сточных вод",
+      "description": "Лабораторный анализ сточных вод (в случае, если предусмотрено техническими условиями"
     }
   }
 }

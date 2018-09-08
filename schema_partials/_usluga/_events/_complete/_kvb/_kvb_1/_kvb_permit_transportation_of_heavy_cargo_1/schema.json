@@ -60,7 +60,7 @@
             "title": "Владелец"
           },
           "outgoing_number": {
-            "type": "number",
+            "type": "string",
             "title": "Исходящий номер"
           },
           "date": {

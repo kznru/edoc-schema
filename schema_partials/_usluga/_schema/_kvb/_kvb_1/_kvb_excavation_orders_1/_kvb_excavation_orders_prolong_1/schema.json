@@ -1,0 +1,37 @@
+{
+  "required": [
+    "applicant",
+    "end_date",
+    "operating_schedule",
+    "drawing"
+  ],
+  "properties": {
+    "registry_field": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для продления"
+    },
+    "applicant": {},
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "operating_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "График выполнения работ"
+    },
+    "drawing": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Чертёж на проводимые работы с указанием выполненных и незавершенных объемов работ"
+    }
+  }
+}

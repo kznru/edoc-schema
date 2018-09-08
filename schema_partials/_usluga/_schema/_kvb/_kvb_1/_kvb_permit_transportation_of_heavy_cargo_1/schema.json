@@ -2,6 +2,7 @@
   "required": [],
   "properties": {
     "applicant": {},
+    "organization": {},
     "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
@@ -40,8 +41,7 @@
       "title": "Предполагаемая максимальная скорость движения транспортного средства (автопоезда) (км/час)"
     },
     "bank_details": {
-      "type": "string",
-      "title": "Банковские реквизиты"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
     "vehicle_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

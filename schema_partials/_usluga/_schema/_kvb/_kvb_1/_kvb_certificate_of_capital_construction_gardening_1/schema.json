@@ -1,6 +1,7 @@
 {
   "required": ["applicant", "address"],
   "properties": {
+    "organization": {},
     "applicant": {},
     "agent": {},
     "letter_of_attorney": {

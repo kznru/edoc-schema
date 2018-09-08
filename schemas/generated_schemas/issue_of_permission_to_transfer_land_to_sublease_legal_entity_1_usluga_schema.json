@@ -14,7 +14,7 @@
       "title": "Договор аренды",
       "properties": {
         "number": {
-          "type": "number",
+          "type": "string",
           "title": "Номер"
         },
         "date": {
