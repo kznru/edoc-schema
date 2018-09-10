@@ -7,7 +7,7 @@
       "description": "Если не указан, то будет указан текущий исполнитель услуги",
       "properties": {
         "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО"},
-        "organization": {"$ref": "#/definitions/organization", "title": "Организация"},
+        "organization": {"$ref": "http://edoc-schema.kzn.ru/organization/ru/organization", "title": "Организация"},
         "position": {"type": "string", "title": "Должность"}
       },
       "required": [ "fio", "organization", "position"]
@@ -31,6 +31,11 @@
         "position": {"type": "string", "title": "Должность"}
       },
       "required": ["fio", "position"]
+    },
+    "counting_day": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата подсчёта деревьев"
     }
   }
 }

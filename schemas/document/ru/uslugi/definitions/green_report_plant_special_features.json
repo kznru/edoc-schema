@@ -1,11 +1,16 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "type": "boolean",
-  "title": "Посажено с нарушением СНиП",
-  "description": "Зеленое насаждение посажено с нарушением строительных норм и правил",
-  "minItems": 1,
-  "enum": [false, true],
-  "enumNames": ["нет", "да"],
-  "default": false
+  "type": "object",
+  "title": "Особенности",
+  "properties": {
+    "plant_in_guard_zone": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_in_guard_zone"
+    },
+    "plant_in_violation_of_building_regulations": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_in_violation_of_building_regulations"
+    }
+  },
+  "required": ["plant_in_guard_zone", "plant_in_violation_of_building_regulations"]
 }
+

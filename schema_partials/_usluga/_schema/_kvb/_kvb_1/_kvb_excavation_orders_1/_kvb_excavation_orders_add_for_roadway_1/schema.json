@@ -1,6 +1,5 @@
 {
   "required": [
-    "applicant",
     "begin_date",
     "end_date",
     "address_with_map",

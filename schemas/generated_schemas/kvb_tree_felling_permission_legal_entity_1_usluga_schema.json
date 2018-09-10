@@ -1,22 +1,23 @@
 {
+  "required": [
+
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "applicant_position": {
       "type": "string",
       "title": "Должность заявителя"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
@@ -67,9 +68,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
