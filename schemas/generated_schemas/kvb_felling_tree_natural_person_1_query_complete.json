@@ -1,17 +1,17 @@
 {
   "type": "object",
   "required": [
-    "counting_day",
     "gardening_undertaker",
     "work_description",
     "work_title"
   ],
   "properties": {
     "work_description": {
-      "$ref": "#/definitions/work_description"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
     },
     "work_title": {
-      "$ref": "#/definitions/work_title"
+      "type": "string",
+      "title": "Наименование выполняемых работ"
     },
     "commission": {
       "type": "object",
@@ -24,11 +24,11 @@
             "type": "object",
             "properties": {
               "fio": {
-                "$ref": "#/definitions/person_fio",
+                "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
                 "title": "ФИО"
               },
               "organization": {
-                "$ref": "#/definitions/organization",
+                "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
                 "title": "Организация"
               },
               "position": {
@@ -50,11 +50,11 @@
             "type": "object",
             "properties": {
               "fio": {
-                "$ref": "#/definitions/person_fio",
+                "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
                 "title": "ФИО"
               },
               "organization": {
-                "$ref": "#/definitions/organization",
+                "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
                 "title": "Организация"
               },
               "position": {
@@ -84,11 +84,6 @@
       "required": [
         "range_end"
       ]
-    },
-    "counting_day": {
-      "type": "string",
-      "format": "date",
-      "title": "День подсчёта деревьев"
     },
     "gardening_undertaker": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

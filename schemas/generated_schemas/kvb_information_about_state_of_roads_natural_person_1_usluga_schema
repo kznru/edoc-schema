@@ -28,7 +28,6 @@
     }
   },
   "required": [
-    "applicant",
     "address"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
