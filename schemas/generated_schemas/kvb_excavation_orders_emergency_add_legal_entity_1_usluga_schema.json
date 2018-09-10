@@ -1,0 +1,162 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "applicant": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "emergency_repair_of": {
+      "type": "string",
+      "title": "Ликвидация аварии на:",
+      "enum": [
+        "Водопровод",
+        "Волжский водовод",
+        "Водопровод пожарный",
+        "Хозяйственно-бытовая канализация",
+        "Ливневая канализация",
+        "Кабельная канализация",
+        "Электрокабель",
+        "Газопровод",
+        "ЭХЗ анодного контура газопровода",
+        "Теплотрасса",
+        "Сеть отопления",
+        "Сеть ГВС"
+      ]
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия"
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона"
+    },
+    "customer_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Подписант заказчика"
+    },
+    "contractor": {
+      "type": "object",
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика"
+        },
+        "contractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны подрядчика"
+        }
+      }
+    },
+    "subcontractor": {
+      "type": "object",
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "title": "Ответственный производитель работ со стороны субподрядчика"
+        }
+      }
+    },
+    "initial_state_photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "conclusion_place_of_damage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
+    },
+    "certificate_of_separation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
+    },
+    "certificate_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "objects_of_work_comments",
+    "area_of_damage_to_road",
+    "area_of_damage_to_local_road",
+    "area_of_damage_to_sidewalk",
+    "area_of_damage_to_lawn",
+    "customer_responsible",
+    "contractor",
+    "initial_state_photo",
+    "topography_of_networks",
+    "conclusion_place_of_damage",
+    "certificate_of_separation",
+    "certificate_sro",
+    "warranty_restore",
+    "emergency_repair_of"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

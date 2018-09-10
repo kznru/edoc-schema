@@ -1,6 +1,6 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Свидетельство СРО",
+  "title": "Свидетельство СРО",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

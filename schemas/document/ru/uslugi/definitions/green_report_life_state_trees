@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_life_state_trees",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "number",
+  "title": "Жизненное состояние",
+  "minItems": 1,
+  "enum": [1.0, 0.5, 2.0],
+  "enumNames": [
+    "естественное",
+    "угнетённое/усыхающее",
+    "хорошая крона, полная листва, высокодекоративные, высокоценные"
+  ]
+}

@@ -26,13 +26,41 @@
       "type": "number",
       "title": "Масса прицепа (полуприцепа) (т)"
     },
-    "axes_distance": {
-      "type": "number",
-      "title": "Расстояния между осями"
+    "axes_distances": {
+      "title": "Расстояния между осями",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Название расстояния"
+          },
+          "distance": {
+            "type": "number",
+            "title": "Расстояние"
+          }
+        }
+      }
     },
     "axes_load": {
-      "type": "number",
-      "title": "Нагрузки на оси (т)"
+      "title": "Нагрузки на оси (т)",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Название оси"
+          },
+          "distance": {
+            "type": "number",
+            "title": "Нагрузка"
+          }
+        }
+      }
     },
     "vehicle_dimensions": {
       "title": "Габариты транспортного средства (автопоезда)",

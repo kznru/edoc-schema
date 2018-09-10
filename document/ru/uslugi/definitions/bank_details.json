@@ -1,0 +1,44 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Банковские реквизиты",
+  "type": "object",
+  "properties": {
+    "inn": {
+      "type": "string",
+      "title": "ИНН"
+    },
+    "kpp": {
+      "type": "string",
+      "title": "КПП"
+    },
+    "account_number": {
+      "type": "string",
+      "title": "Двадцатизначный номер банковского счета"
+    },
+    "name": {
+      "type": "string",
+      "title": "Наименование банка"
+    },
+    "location": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
+    },
+    "bik": {
+      "type": "string",
+      "title": "БИК"
+    },
+    "correspondent_account": {
+      "type": "string",
+      "title": "Двадцатизначный номер корреспондентского счета банка в Центральном банке РФ"
+    },
+    "okpo": {
+      "type": "string",
+      "title": "Код по ОКПО"
+    },
+    "okonh": {
+      "type": "string",
+      "title": "Код по ОКОНХ"
+    }
+  }
+}

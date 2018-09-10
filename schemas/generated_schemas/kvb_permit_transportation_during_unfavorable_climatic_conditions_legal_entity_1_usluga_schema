@@ -1,8 +1,10 @@
 {
   "properties": {
-    "applicant": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
+    },
+    "applicant": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
@@ -14,7 +16,11 @@
     },
     "route": {
       "title": "Маршрут движения",
-      "type": "string"
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
     },
     "transportation_type": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"
@@ -45,8 +51,7 @@
       "title": "Предполагаемая максимальная скорость движения транспортного средства (автопоезда) (км/час)"
     },
     "bank_details": {
-      "type": "string",
-      "title": "Банковские реквизиты"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
     "vehicle_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

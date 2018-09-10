@@ -1,4 +1,6 @@
 {
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info",
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "title": "Информация об объекте (в соответствии с эскизным проектом)",
   "properties": {

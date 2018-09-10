@@ -1,0 +1,9 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damaged",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "boolean",
+  "title": "Аварийное состояние",
+  "minItems": 1,
+  "enum": [true, false],
+  "enumNames": ["да", "нет"]
+}

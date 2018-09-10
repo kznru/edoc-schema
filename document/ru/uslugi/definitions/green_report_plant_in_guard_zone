@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_in_guard_zone",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "boolean",
+  "title": "Попадает в охранные зоны",
+  "description": "Зеленое насаждение попадает в охранные зоны инженерных коммуникаций (при проведении капитального или текущего ремонта инженерных коммуникаций)",
+  "minItems": 1,
+  "enum": [false, true],
+  "enumNames": ["нет", "да"],
+  "default": false
+}

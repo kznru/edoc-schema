@@ -2,6 +2,10 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "properties": {
+    "assignee": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/servant",
+      "title": "Исполнитель"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"

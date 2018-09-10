@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_item",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number", "title": "Номер записи реестра"
+    },
+    "registry_id": {
+      "type": "number", "title": "Номер реестра"
+    },
+    "title": {
+      "type": "string", "title": "Наименование записи"
+    },
+    "state": {
+      "type": "string", "title": "Состояние"
+    }
+  }
+}

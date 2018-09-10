@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_bushes",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Аварийность",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "string",
+    "enum": [
+      "сильно наклонены",
+      "сломаны",
+      "сухостойные",
+      "усыхание >70%"
+    ]
+  }
+}

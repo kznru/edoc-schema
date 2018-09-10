@@ -1,6 +1,6 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Заключение о месте аварии",
+  "title": "Заключение о месте аварии",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

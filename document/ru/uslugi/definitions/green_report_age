@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_age",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Возраст",
+  "minItems": 1,
+  "enum": [
+    "до 3 лет",
+    "3-5 лет",
+    "5-10 лет",
+    "более 10 лет"
+  ]
+}

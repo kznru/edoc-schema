@@ -1,0 +1,526 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Видовой состав зелёных насаждений",
+  "items": {
+    "type": "object",
+    "title": "Группа зелёных насаждений",
+    "properties": {
+      "group_title": {
+        "title": "Название группы",
+        "type": "string"
+      },
+      "group_description": {
+        "title": "Описание группы",
+        "type": "string"
+      },
+      "trees": {
+        "type": "array",
+        "title": "Деревья",
+        "items": {
+          "type": "object",
+          "required": ["kind","diameter","conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+
+                "ива", "клён ясенелистный",
+                "тополь (кроме белого, пирамидального, 38 клона)",
+
+                "ольха", "берёза", "вяз",
+                "рябина", "осина", "яблоня",
+                "тополь (белый, пирамидальный, 38 клон)",
+                "декоративные плодовые посадки",
+
+                "дуб",    "липа",    "клён (остролистный, сахарный и др.)",
+                "ясень",  "бук",     "граб",
+                "платан", "кипарис", "орех",
+                "сосна",  "кедр",    "пихта",
+                "каштан", "ель",     "лиственница"
+              ]
+            },
+            "diameter": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter"
+            },
+            "note": {
+              "type": "string",
+              "title": "Примечение"
+            },
+            "amount": {
+              "type": "number",
+              "title": "Количество"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+            }
+          },
+          "dependencies": {
+            "conclusion": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "conclusion": { "enum": [0] },
+                    "damaged": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damaged"
+                    }
+                  },
+                  "required": ["damaged"],
+                  "dependencies": {
+                    "damaged": {
+                      "oneOf": [
+                        {
+                          "properties": {
+                            "damaged": { "enum": [true] },
+                            "damage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter"
+                            }
+                          },
+                          "required": ["damage"]
+                        },
+                        {
+                          "properties": {
+                            "damaged": { "enum": [false] },
+                            "plant_special_features": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                            },
+                            "life_state": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_life_state_trees"
+                            },
+                            "usage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+                            }
+                          },
+                          "required": ["life_state", "usage"]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "conclusion": { "enum": [1,2,3,4,5] }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "bushes": {
+        "type": "array",
+        "title": "Кустарники",
+        "items": {
+          "type": "object",
+          "required": ["kind","age", "conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+                "красиво-цветущие, в т.ч. розы, гортензии, самшит",
+                "декоративные лиственные"
+              ]
+            },
+            "age": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_age"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+            },
+            "denomination": {
+              "type": "string",
+              "title": "Наименование",
+              "minItems": 1,
+              "enum": [
+                "акация",
+                "спирея",
+                "барбарис",
+                "жимолость",
+                "чубушник",
+                "дерен",
+                "сирень",
+                "гортензия",
+                "бузина",
+                "кизильник",
+                "снежноягодник",
+                "шиповник",
+                "пузыреплодник",
+                "жасмин",
+                "калина бульдонеж",
+                "форзиция",
+                "можжевельник",
+                "туя"
+              ]
+            }
+          },
+          "dependencies": {
+            "conclusion": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "conclusion": { "enum": [0] },
+                    "damaged": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damaged"
+                    }
+                  },
+                  "required": ["damaged"],
+                  "dependencies": {
+                    "damaged": {
+                      "oneOf": [
+                        {
+                          "properties": {
+                            "damaged": { "enum": [true] },
+                            "damage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_bushes"
+                            }
+                          },
+                          "required": ["damage"]
+                        },
+                        {
+                          "properties": {
+                            "damaged": { "enum": [false] },
+                            "plant_special_features": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                            },
+                            "life_state": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_life_state_bushes"
+                            },
+                            "usage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+                            }
+                          },
+                          "required": ["life_state", "usage"]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "conclusion": { "enum": [1,2,3,4,5] }                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "hedges": {
+        "type": "array",
+        "title": "Живая изгородь",
+        "items": {
+          "type": "object",
+          "required": ["kind","age","duration","conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Рядность",
+              "enum": [
+                "1 рядная",
+                "2 рядная"
+              ]
+            },
+            "age": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_hedge_age"
+            },
+            "duration": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_duration"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+            }
+          },
+          "dependencies": {
+            "conclusion": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "conclusion": { "enum": [0] },
+                    "damaged": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damaged"
+                    }
+                  },
+                  "required": ["damaged"],
+                  "dependencies": {
+                    "damaged": {
+                      "oneOf": [
+                        {
+                          "properties": {
+                            "damaged": { "enum": [true] },
+                            "damage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_bushes"
+                            }
+                          },
+                          "required": ["damage"]
+                        },
+                        {
+                          "properties": {
+                            "damaged": { "enum": [false] },
+                            "plant_special_features": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                            },
+                            "life_state": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_life_state_bushes"
+                            },
+                            "usage": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+                            }
+                          },
+                          "required": ["life_state", "usage"]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "conclusion": { "enum": [1,2,3,4,5] }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "flower_gardens": {
+        "type": "array",
+        "title": "Цветники",
+        "items": {
+          "type": "object",
+          "required": ["kind","area", "conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+                "цветник из многолетников",
+                "цветник из однолетников"
+              ]
+            },
+            "area": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_lawns"
+            }
+          },
+          "dependencies": {
+            "kind": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "kind": { "enum": ["цветник из однолетников"] },
+                    "planting_density": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_planting_density"
+                    }
+                  },
+                  "required": ["planting_density"]
+                },
+                {
+                  "properties": {
+                    "kind": { "enum": ["цветник из многолетников"] }
+                  }
+                }
+              ]
+            },
+            "conclusion": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "conclusion": { "enum": [0] },
+                    "plant_special_features": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                    },
+                    "bad_life_state": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_flower_gardens"
+                    },
+                    "usage": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+                    }
+                  },
+                  "required": ["usage"]
+                },
+                {
+                  "properties": {
+                    "conclusion": { "enum": [1,2] }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "lawns": {
+        "type": "array",
+        "title": "Газоны",
+        "items": {
+          "type": "object",
+          "required": ["kind","area","conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+                "луговой",
+                "обыкновенный",
+                "партерный"
+              ]
+            },
+            "area": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_lawns"
+            }
+          },
+          "dependencies": {
+            "conclusion": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "conclusion": { "enum": [0] },
+                    "plant_special_features": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                    },
+                    "bad_life_state": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_lawns"
+                    },
+                    "usage": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+                    }
+                  },
+                  "required": ["usage"]
+                },
+                {
+                  "properties": {
+                    "conclusion": { "enum": [1,2] }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "underwoods": {
+        "type": "array",
+        "title": "Поросли",
+        "items": {
+          "type": "object",
+          "required": ["kind","area","usage"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+                "группа 1",
+                "группа 2",
+                "группа 3"
+              ]
+            },
+            "usage": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_usage"
+            },
+            "area": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+            },
+            "damaged": {
+              "type": "boolean",
+              "title": "Не подлежит пересадке, с диаметром ствола до 8 см включительно",
+              "default": false
+            }
+          },
+          "dependencies": {
+            "damaged": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "damaged": { "enum": [false] },
+                    "plant_special_features": {
+                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "damaged": { "enum": [true] }
+                  }
+                }
+              ]
+            },
+            "kind": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "kind": { "enum": ["группа 1"] },
+                    "denomination": {
+                      "type": "array",
+                      "title": "Наименование",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "enum": [
+                          "дуб",    "липа",    "клён (остролистный, сахарный и др.)",
+                          "ясень",  "бук",     "граб",
+                          "платан", "кипарис", "орех",
+                          "сосна",  "кедр",    "пихта",
+                          "каштан", "ель",     "лиственница"
+                        ]
+                      },
+                      "default": null
+                    }
+                  },
+                  "required": ["denomination"]
+                },
+                {
+                  "properties": {
+                    "kind": { "enum": ["группа 2"] },
+                    "denomination": {
+                      "type": "array",
+                      "title": "Наименование",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "enum": [
+                          "ольха", "берёза", "вяз",
+                          "рябина", "осина", "яблоня",
+                          "тополь (белый, пирамидальный, 38 клон)",
+                          "декоративные плодовые посадки"
+                        ]
+                      },
+                      "default": null
+                    }
+                  },
+                  "required": ["denomination"]
+                },
+                {
+                  "properties": {
+                    "kind": { "enum": ["группа 3"] },
+                    "denomination": {
+                      "type": "array",
+                      "title": "Наименование",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "enum": [
+                          "ива", "клён ясенелистный",
+                          "тополь (кроме белого, пирамидального, 38 клона)"
+                        ]
+                      },
+                      "default": null
+                    }
+                  },
+                  "required": ["denomination"]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

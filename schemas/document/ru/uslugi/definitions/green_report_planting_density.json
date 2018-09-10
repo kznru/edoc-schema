@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_planting_density",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "number",
+  "title": "Плотность посадки (шт/кв.м)",
+  "minItems": 1,
+  "enum": [
+    40, 50, 70, 100
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Аварийность",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "string",
+    "enum": [
+      "сильно наклонено", "сломано", "гнилое",
+      "пустотелое", "с трещиной", "отслоение коры",
+      "сухостой", "усыхание >70%", "угнетённое >70%", "наросты",
+      "дереворазрушающие грибки", "дупло",
+      "оголённые корни", "приподнятые корни", "упавшее, валежник"
+    ]
+  },
+  "default": null
+}

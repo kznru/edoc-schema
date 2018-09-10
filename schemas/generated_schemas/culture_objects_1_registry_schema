@@ -37,6 +37,16 @@
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Приложения"
+    },
+    "map_editor": {
+      "type": "object",
+      "title": "Конфигурация для map editor",
+      "properties": {
+        "layer_id": {
+          "type": "string",
+          "title": "Id слоя"
+        }
+      }
     }
   },
   "required": [

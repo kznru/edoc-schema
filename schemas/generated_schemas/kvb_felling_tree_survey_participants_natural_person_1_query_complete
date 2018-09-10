@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "properties": {
+    "chairman": {
+      "type": "object",
+      "title": "Председатель комиссии",
+      "description": "Если не указан, то будет указан текущий исполнитель услуги",
+      "properties": {
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО"
+        },
+        "organization": {
+          "$ref": "#/definitions/organization",
+          "title": "Организация"
+        },
+        "position": {
+          "type": "string",
+          "title": "Должность"
+        }
+      },
+      "required": [
+        "fio",
+        "organization",
+        "position"
+      ]
+    },
+    "representative": {
+      "type": "object",
+      "title": "Присутствующий представитель",
+      "description": "Если не указан, то будет указан текущий агент услуги",
+      "properties": {
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО"
+        },
+        "position": {
+          "type": "string",
+          "title": "Должность"
+        }
+      },
+      "required": [
+        "fio",
+        "position"
+      ]
+    },
+    "customer": {
+      "type": "object",
+      "title": "Заказчик",
+      "description": "Если не указан, то будет указан текущий заявитель услуги услуги",
+      "properties": {
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО"
+        },
+        "position": {
+          "type": "string",
+          "title": "Должность"
+        }
+      },
+      "required": [
+        "fio",
+        "position"
+      ]
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

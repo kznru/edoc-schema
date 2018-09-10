@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_hedge_age",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Возраст",
+  "minItems": 1,
+  "enum": [
+    "3-10 лет",
+    "10-20 лет",
+    "свыше 20 лет"
+  ]
+}

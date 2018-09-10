@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "organization": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "applicant_position": {
+      "type": "string",
+      "title": "Должность заявителя"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
+    },
+    "trees_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "План зелёных насаждений"
+    },
+    "project_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Проектная документация"
+    },
+    "land_documents_copies": {
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      },
+      "title": "Копии документов на земельный участок"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договор аренды или другие правоустанавливающие документы"
+    },
+    "networks_agreement": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Согласование с представителями инженерных сетей"
+    },
+    "land_owners_agreement": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Согласование с владельцами затрагиваемых территорий"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

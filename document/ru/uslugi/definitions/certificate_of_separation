@@ -1,6 +1,6 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Акт о разграничении сетей",
+  "title": "Акт о разграничении сетей",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

@@ -1,7 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Запись реестра",
+  "title": "Запись реестра",
   "type": "number",
   "config": {
     "registry_key": "must_set"
