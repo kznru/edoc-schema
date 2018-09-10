@@ -75,7 +75,7 @@
                           "properties": {
                             "damaged": { "enum": [true] },
                             "damage": {
-                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter"
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_trees"
                             }
                           },
                           "required": ["damage"]
