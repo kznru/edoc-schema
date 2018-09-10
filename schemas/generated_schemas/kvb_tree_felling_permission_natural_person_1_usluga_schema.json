@@ -33,17 +33,17 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
     },
     "trees_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "План зелёных насаждений"
     },
     "project_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"
     },
     "land_documents_copies": {
       "type": "array",
       "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
       },
       "title": "Копии документов на земельный участок"
     },
@@ -52,11 +52,11 @@
       "title": "Договор аренды или другие правоустанавливающие документы"
     },
     "networks_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Согласование с представителями инженерных сетей"
     },
     "land_owners_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Согласование с владельцами затрагиваемых территорий"
     },
     "attachments": {
