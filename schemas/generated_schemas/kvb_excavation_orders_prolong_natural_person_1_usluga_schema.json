@@ -47,7 +47,7 @@
     "customer_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
+      "description": "ФИО руководителя, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на земляные работы по данному объекту "
     },
     "letter_of_attorney_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
