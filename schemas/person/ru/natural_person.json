@@ -4,8 +4,8 @@
   "title": "Физическое лицо",
   "type": "object",
   "properties": {
-    "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта", "description": "Последние 6 цифр номера паспорта представителя Заказчика"},
-    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "ФИО представителя Заказчика, полностью"},
+    "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта", "description": "Последние 6 цифр номера паспорта"},
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "ФИО полностью"},
     "mobile": {"type": "string", "title": "Мобильный телефон"},
     "email": {"type": "string", "format": "email", "title": "E-mail"}
   },
