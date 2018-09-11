@@ -7,10 +7,6 @@
     },
     "applicant": {
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность на подписанта",
@@ -69,6 +65,10 @@
       "type": "string",
       "title": "Площадь повреждения газона",
       "description": "Кв. м"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
     },
     "customer_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
@@ -155,6 +155,23 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
       }
     },
+    "order_of_responsible_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приказ об ответственном за благоустройство"
+    },
+    "contract_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор на благоустройство",
+      "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)."
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
+    },
+    "interested_party_list": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заинтересованные стороны",
+      "description": "Информации о заинтересованных лицах, чьи права и законные интересы могут быть затронуты при производстве земляных работ, выданная Управлением архитектуры и градостроительства Исполнительного комитета г.Казани, и подписанная всеми правообладателями"
+    },
     "zrik": {
       "type": "string",
       "title": "Распоряжение ЗРИК на снос зеленых насаждений",
@@ -179,23 +196,6 @@
           "title": "Файл протокола"
         }
       }
-    },
-    "order_of_responsible_for_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Приказ об ответственном за благоустройство"
-    },
-    "contract_for_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на благоустройство",
-      "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)."
-    },
-    "warranty_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
-    },
-    "interested_party_list": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Заинтересованные стороны",
-      "description": "Информации о заинтересованных лицах, чьи права и законные интересы могут быть затронуты при производстве земляных работ, выданная Управлением архитектуры и градостроительства Исполнительного комитета г.Казани, и подписанная всеми правообладателями"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
