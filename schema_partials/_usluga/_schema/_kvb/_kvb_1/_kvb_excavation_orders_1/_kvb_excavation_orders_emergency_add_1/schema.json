@@ -24,7 +24,8 @@
     "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя"
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "letter_of_attorney_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
@@ -114,7 +115,6 @@
           "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
           "title": "Организация подрядчика",
           "description": "Наименование организации, выполняющей работы по устранению аварии "
-
         },
         "contractor_responsible": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
