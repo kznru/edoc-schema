@@ -453,6 +453,28 @@
               "oneOf": [
                 {
                   "properties": {
+                    "kind": { "enum": ["группа 2"] },
+                    "denomination": {
+                      "type": "array",
+                      "title": "Наименование",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "enum": [
+                          "ольха", "берёза", "вяз",
+                          "рябина", "осина", "яблоня",
+                          "тополь (белый, пирамидальный, 38 клон)",
+                          "декоративные плодовые посадки"
+                        ]
+                      },
+                      "default": null
+                    }
+                  },
+                  "required": ["denomination"]
+                },
+                {
+                  "properties": {
                     "kind": { "enum": ["группа 1"] },
                     "denomination": {
                       "type": "array",
@@ -467,28 +489,6 @@
                           "платан", "кипарис", "орех",
                           "сосна",  "кедр",    "пихта",
                           "каштан", "ель",     "лиственница"
-                        ]
-                      },
-                      "default": null
-                    }
-                  },
-                  "required": ["denomination"]
-                },
-                {
-                  "properties": {
-                    "kind": { "enum": ["группа 2"] },
-                    "denomination": {
-                      "type": "array",
-                      "title": "Наименование",
-                      "minItems": 1,
-                      "uniqueItems": true,
-                      "items": {
-                        "type": "string",
-                        "enum": [
-                          "ольха", "берёза", "вяз",
-                          "рябина", "осина", "яблоня",
-                          "тополь (белый, пирамидальный, 38 клон)",
-                          "декоративные плодовые посадки"
                         ]
                       },
                       "default": null
