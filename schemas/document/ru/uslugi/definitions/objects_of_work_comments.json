@@ -1,7 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Дополнительное описание необходимых работ",
   "title": "Дополнительное описание необходимых работ",
+  "description": "Дополнительное описание необходимых работ",
   "type": "string"
 }
