@@ -28,6 +28,15 @@
               "name": "kvb_felling_tree_survey_participants_natural_person_1"
             }
           ]
+        },
+        {
+          "name": "kvb_accomplishment_mending_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_accomplishment_mending_1"
+            }
+          ]
         }
       ]
     }
