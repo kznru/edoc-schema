@@ -1,8 +1,5 @@
 {
   "required": [
-    "end_date",
-    "operating_schedule",
-    "drawing"
   ],
   "properties": {
     "registry_field": {
