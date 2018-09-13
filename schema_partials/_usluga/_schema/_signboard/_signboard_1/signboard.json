@@ -1,6 +1,7 @@
 {
   "required": [
-    "address_with_map"
+    "address_with_map",
+    "text"
   ],
   "properties": {
     "address_with_map": {

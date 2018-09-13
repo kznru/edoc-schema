@@ -88,7 +88,8 @@
   },
   "required": [
     "organization",
-    "address_with_map"
+    "address_with_map",
+    "text"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

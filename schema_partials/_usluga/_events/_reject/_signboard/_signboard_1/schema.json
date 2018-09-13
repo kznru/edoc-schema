@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "response_text": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    }
+  }
+}
