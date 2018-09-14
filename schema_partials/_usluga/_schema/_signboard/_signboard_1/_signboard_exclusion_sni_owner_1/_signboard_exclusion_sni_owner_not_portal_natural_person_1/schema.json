@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "agent": {
+      "title": "Собственник конструкции"
+    },
+    "text": {},
+    "previous_registry_item": {
+      "type": "object",
+      "title": "Ранее выданные технические условия",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер ТУ"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    }
+  }
+}

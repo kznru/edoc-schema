@@ -52,6 +52,12 @@
                 },
                 {
                   "name": "signboard_exclusion_sni_owner_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_natural_person_1"
                 }
               ]
             },
@@ -64,6 +70,12 @@
                 },
                 {
                   "name": "signboard_exclusion_land_owner_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_natural_person_1"
                 }
               ]
             }
