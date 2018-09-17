@@ -63,6 +63,10 @@
       "type": "string",
       "title": "Площадь повреждения газона"
     },
+    "customer_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "title": "Заказчик"
+    },
     "customer_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Подписант заказчика"

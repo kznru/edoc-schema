@@ -70,6 +70,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
+    "customer_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "title": "Заказчик"
+    },
     "customer_responsible": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Подписант заказчика",
