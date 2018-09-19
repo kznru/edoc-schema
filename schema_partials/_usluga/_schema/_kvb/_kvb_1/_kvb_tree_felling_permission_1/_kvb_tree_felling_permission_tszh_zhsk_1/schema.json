@@ -1,0 +1,36 @@
+{
+  "required": [],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Согласованный ситуационный план трассы"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Описание местоположения",
+      "description": "Место, в котором необходимо провести обследование зелёных насаждений"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "default": "Выдача акта обследования зелёных насаждений"
+    },
+    "land_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
+    }
+  }
+}
