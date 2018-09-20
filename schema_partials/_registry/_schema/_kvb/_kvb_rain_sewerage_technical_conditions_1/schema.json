@@ -5,11 +5,11 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
-    "applicant_organization": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заявитель юридическое лицо"
     },
-    "applicant_person": {
+    "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Заявитель физическое лицо"
     },

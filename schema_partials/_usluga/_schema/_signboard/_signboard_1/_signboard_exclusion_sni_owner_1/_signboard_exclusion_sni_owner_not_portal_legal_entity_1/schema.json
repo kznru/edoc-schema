@@ -1,0 +1,32 @@
+{
+  "required": ["organization"],
+  "properties": {
+    "address_with_map": {},
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник конструкции"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "text": {},
+    "previous_registry_item": {
+      "type": "object",
+      "title": "Ранее выданные технические условия",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер ТУ"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirusluga_complete_servant_notemations",
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_servant_note",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Следующее сделано для полноценного рассмотрения средства наружной информации",
   "type": "array",

@@ -1,6 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "Свидетельство СРО",
+  "title": "Выписка из реестра членов СРО",
+  "description": "срок действия выписки – 1 месяц",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

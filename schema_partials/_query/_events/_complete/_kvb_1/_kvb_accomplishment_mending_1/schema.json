@@ -1,0 +1,12 @@
+{
+  "type":"object",
+  "required":[
+    "result_photos"
+  ],
+  "properties":{
+    "result_photos":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title":"Фото после выполнения работ"
+    }
+  }
+}

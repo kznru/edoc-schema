@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка или помещения"
+    },
+    "agent": {
+      "title": "Заявитель"
+    },
+    "text": {},
+    "previous_registry_item": {
+      "type": "object",
+      "title": "Ранее выданные технические условия",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер ТУ"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Документы технической инвентаризации",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    }
+  }
+}

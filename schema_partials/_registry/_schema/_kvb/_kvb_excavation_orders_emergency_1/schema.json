@@ -5,11 +5,11 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
-    "applicant_organization": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant_person": {
+    "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
@@ -35,7 +35,7 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "organization": {
+    "customer_organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заказчик"
     },

@@ -9,6 +9,9 @@
       "type": "string",
       "format": "date",
       "title": "Дата в MapEditor"
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     }
   }
 }
