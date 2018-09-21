@@ -926,13 +926,9 @@ permalink: /generated_schemas/
   (физ. лицо), версия #1
 ](/schemas/generated_schemas/kvb_rain_sewerage_technical_conditions_performance_natural_person_1_usluga_schema.json)
 
-[Выдача справки о выполнении технических условий на отвод ливневых и талых вод
-  - для выданных на портале (ЮЛ, ИП), версия #1
-](/schemas/generated_schemas/kvb_rain_sewerage_technical_conditions_performance_portal_legal_entity_1_usluga_schema.json)
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод - для выданных на портале (ЮЛ, ИП), версия #1 ](/schemas/generated_schemas/kvb_rain_sewerage_technical_conditions_performance_portal_legal_entity_1_usluga_schema.json)
 
-[Выдача справки о выполнении технических условий на отвод ливневых и талых вод
-  - для выданных на портале (физ. лицо), версия #1
-](/schemas/generated_schemas/kvb_rain_sewerage_technical_conditions_performance_portal_natural_person_1_usluga_schema.json)
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод - для выданных на портале (физ. лицо), версия #1 ](/schemas/generated_schemas/kvb_rain_sewerage_technical_conditions_performance_portal_natural_person_1_usluga_schema.json)
 
 [Выдача технических условий по присоединению объектов дорожного сервиса к автомобильным
   дорогам общего пользования местного значения города Казани (ЮЛ, ИП), версия #1
