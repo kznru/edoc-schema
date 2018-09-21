@@ -1,6 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "Гарантия повторного восстановления",
+  "title": "Гарантийное обязательство (5 лет)",
+  "description": "Гарантийное обязательство на повторное восстановление в течение пяти лет объекта благоустройства в случае просадок и  деформаций в утвержденной форме ",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

@@ -2,5 +2,6 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Акт о разграничении сетей",
+  "description": "Акт разграничения сетей (акт балансодержателя), если Заказчик не является сетевой компанией ",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }

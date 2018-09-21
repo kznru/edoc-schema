@@ -2,5 +2,6 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Заключение о месте аварии",
-  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+  "description": "Заключение специализированной лаборатории об определении места повреждения инженерной коммуникации "
 }

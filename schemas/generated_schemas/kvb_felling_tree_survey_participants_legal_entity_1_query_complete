@@ -7,7 +7,7 @@
       "description": "Если не указан, то будет указан текущий исполнитель услуги",
       "properties": {
         "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
           "title": "ФИО"
         },
         "organization": {
@@ -31,7 +31,7 @@
       "description": "Если не указан, то будет указан текущий агент услуги",
       "properties": {
         "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
           "title": "ФИО"
         },
         "position": {
@@ -50,7 +50,7 @@
       "description": "Если не указан, то будет указан текущий заявитель услуги услуги",
       "properties": {
         "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
           "title": "ФИО"
         },
         "position": {

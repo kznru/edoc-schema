@@ -5,7 +5,7 @@
       "title": "Заявитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя."
     },

@@ -40,6 +40,5 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": ""
     }
-  },
-  "required": ["valid_from"]
+  }
 }

@@ -5,11 +5,11 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
-    "applicant_organization": {
+    "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant_person": {
+    "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
@@ -38,7 +38,7 @@
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
     },
-    "organization": {
+    "customer_organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заказчик"
     },
@@ -190,16 +190,6 @@
         "comments": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
           "title": "Комментарии"
-        }
-      }
-    },
-    "map_editor": {
-      "type": "object",
-      "title": "Конфигурация для map editor",
-      "properties": {
-        "layer_id": {
-          "type": "string",
-          "title": "Id слоя"
         }
       }
     }
