@@ -4,10 +4,20 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
     },
-    "permission_without_provision": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/permission_without_provision",
-      "title": "Заключение о некапитальности объекта",
-      "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
+    "analysis": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Ландшафтно-визуальный анализ"
+    },
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Ландшафтно-визуальный анализ"
+    },
+    "projections": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/projections"
+    },
+    "description": {
+      "type": "string",
+      "title": "Описание"
     }
   }
 }

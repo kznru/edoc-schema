@@ -8,6 +8,9 @@
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
+    },
+    "facades": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades"
     }
   }
 }

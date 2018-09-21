@@ -1,9 +1,12 @@
 {
   "properties": {
-    "permission_without_provision": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/permission_without_provision",
-      "title": "Заключение о некапитальности объекта",
-      "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "facades": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades"
     }
   }
 }
