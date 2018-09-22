@@ -5,14 +5,12 @@
       "title": "Паспорт БТИ",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
     },
-    "non_capitality_conclusion": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/non_capitality_conclusion",
-      "title": "Разрешение на использование земли без предоставления",
-      "description": "Разрешение на использование земельного участка без его предоставления или установления сервитута"
-    },
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
+    },
+    "facades": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades"
     }
   }
 }

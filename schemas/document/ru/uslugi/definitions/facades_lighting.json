@@ -1,0 +1,37 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Фасады",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "facade_type": {
+        "type": "string",
+        "title": "Тип фасада",
+        "enum": [
+          "главный",
+          "левый",
+          "правый",
+          "боковой",
+          "дворовой",
+          "иное"
+        ]
+      },
+      "image_original": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original"
+      },
+      "image_project": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
+      },
+      "image_topographic": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+      },
+      "image_lighting": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+        "title": "Светотехнический рассчёт"
+      }
+    }
+  }
+}

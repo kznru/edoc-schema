@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "facades_lighting": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
+    }
+  }
+}
