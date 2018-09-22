@@ -1,0 +1,52 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_concepts",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Фасады",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "facade_type": {
+        "type": "string",
+        "title": "Тип фасада",
+        "enum": [
+          "главный",
+          "левый",
+          "правый",
+          "боковой",
+          "дворовой",
+          "иное"
+        ]
+      },
+      "image_original": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original"
+      },
+      "image_project": {
+        " $ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
+      },
+      "facade_elements": {
+        "type": "array",
+        "title": "Виды конструкций",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "properties": {
+            "environmental_construction_type": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
+              "title": "Вид конструкций"
+            },
+            "color": {
+              "type": "string",
+              "title": "Укажите наиболее близкий цвет"
+            },
+            "description": {
+              "type": "string",
+              "title": "Описание"
+            }
+          }
+        }
+      }
+    }
+  }
+}
