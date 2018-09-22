@@ -1,12 +1,19 @@
 {
   "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "project": {},
     "analysis": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Ландшафтно-визуальный анализ"
     },
     "image_topographic": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
-      "title": "Ландшафтно-визуальный анализ"
+      "title": "Топографический план"
     },
     "projections": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/projections"

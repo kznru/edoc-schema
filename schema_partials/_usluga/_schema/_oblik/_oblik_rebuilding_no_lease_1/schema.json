@@ -1,5 +1,12 @@
 {
   "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "project": {},
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Паспорт БТИ",
