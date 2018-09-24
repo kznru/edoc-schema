@@ -23,7 +23,7 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original"
       },
       "image_project": {
-        " $ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
       },
       "facade_elements": {
         "type": "array",
