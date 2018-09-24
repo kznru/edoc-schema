@@ -8,6 +8,9 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото после выполнения работ"
     },
+    "kvb_excavation_orders_add_reject_reasons": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_add_reject_reasons"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
