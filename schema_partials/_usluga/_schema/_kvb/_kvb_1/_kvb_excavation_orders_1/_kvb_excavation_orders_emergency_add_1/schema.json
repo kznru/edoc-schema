@@ -24,7 +24,7 @@
           "description": "Наименование организации, выполняющей работы по устранению аварии "
         },
         "contractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
           "title": "Ответственный производитель работ со стороны подрядчика",
           "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом "
         }
@@ -40,7 +40,7 @@
           "description": "Наименование организации, выполняющей работы по устранению аварии (если предусмотрен договором подряда)"
         },
         "subcontractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
           "title": "Ответственный производитель работ со стороны субподрядчика",
           "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом "
         }
