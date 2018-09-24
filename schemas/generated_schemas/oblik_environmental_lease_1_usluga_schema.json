@@ -1,24 +1,5 @@
 {
   "properties": {
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договора аренды"
-    },
-    "analysis": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
-      "title": "Ландшафтно-визуальный анализ"
-    },
-    "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
-      "title": "Ландшафтно-визуальный анализ"
-    },
-    "projections": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/projections"
-    },
-    "description": {
-      "type": "string",
-      "title": "Описание"
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
@@ -46,6 +27,25 @@
     "project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Проект"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    },
+    "analysis": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Ландшафтно-визуальный анализ"
+    },
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Топографический план"
+    },
+    "projections": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/projections"
+    },
+    "description": {
+      "type": "string",
+      "title": "Описание"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

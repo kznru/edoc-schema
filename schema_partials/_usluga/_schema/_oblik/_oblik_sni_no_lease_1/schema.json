@@ -1,8 +1,14 @@
 {
   "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "project": {},
     "facades_concepts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_concepts",
-      "title": "Договора аренды"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_concepts"
     }
   }
 }

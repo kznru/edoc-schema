@@ -1,12 +1,5 @@
 {
   "properties": {
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договора аренды"
-    },
-    "facades_lighting": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
-    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
@@ -34,6 +27,13 @@
     "project": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Проект"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    },
+    "facades_lighting": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

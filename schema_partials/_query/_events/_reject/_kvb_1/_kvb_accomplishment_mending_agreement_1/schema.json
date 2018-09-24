@@ -7,6 +7,9 @@
     "result_photos":{
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title":"Фото с места выполнения работ"
+    },
+    "kvb_excavation_orders_add_reject_reasons": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_add_reject_reasons"
     }
   }
 }
