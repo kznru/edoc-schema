@@ -89,7 +89,7 @@
           "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору подряда"
         },
         "contractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
           "title": "Ответственный производитель работ со стороны подрядчика",
           "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
         }
@@ -110,7 +110,7 @@
           "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом ",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile"
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
           }
         }
       }
