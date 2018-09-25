@@ -1,5 +1,4 @@
 {
-  "required": ["map_editor_number", "map_editor_date"],
   "properties": {
     "map_editor_number": {
       "type": "string",
