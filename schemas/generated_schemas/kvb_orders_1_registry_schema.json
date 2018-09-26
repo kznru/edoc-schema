@@ -20,15 +20,15 @@
       "title": "Дата окончания работ"
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "contractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
     "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
     },
     "result_data": {
