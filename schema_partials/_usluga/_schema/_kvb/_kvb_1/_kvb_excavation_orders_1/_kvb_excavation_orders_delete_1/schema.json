@@ -2,7 +2,7 @@
   "required": [
   ],
   "properties": {
-    "registry_field": {
+    "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "kvb_excavation_orders_1"
