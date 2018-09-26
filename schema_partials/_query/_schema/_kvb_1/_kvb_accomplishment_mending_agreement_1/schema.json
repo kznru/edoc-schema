@@ -10,6 +10,10 @@
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
       "title": "Заявитель"
+    },
+    "agent_mobile": {
+      "type": "string",
+      "title": "Мобильный телефон представителя"
     }
   }
 }
