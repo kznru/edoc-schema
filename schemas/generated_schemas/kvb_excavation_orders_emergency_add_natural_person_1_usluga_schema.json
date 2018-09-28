@@ -57,14 +57,6 @@
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
     },
-    "extra_addresses": {
-      "type": "array",
-      "title": "Дополнительные адреса",
-      "minItems": 0,
-      "items": {
-        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
-      }
-    },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
       "title": "Уточнение адреса или места проведения работ"
