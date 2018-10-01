@@ -7,6 +7,9 @@
       "keys": [
         {
           "name": "consultation_legal_entity"
+        },
+        {
+          "name": "information_provision"
         }
       ]
     }
