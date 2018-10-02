@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/person/applicant",
+  "id": "http://edoc-schema.kzn.ru/person/ru/applicant",
   "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
   "title": "Заявитель"
 }
