@@ -1,14 +1,5 @@
 {
   "properties": {
-    "number": {
-      "type": "string",
-      "title": "Номер ордера"
-    },
-    "issue_date": {
-      "type": "string",
-      "format": "date",
-      "title": "Дата выдачи"
-    },
     "work_directions_road": {
       "title": "Требования к работам на проезжей части",
       "type": "array",

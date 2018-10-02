@@ -6,7 +6,7 @@
       "title": "Номер муниципальной услуги"
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "applicant": {
@@ -39,15 +39,15 @@
       "title": "Описание"
     },
     "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "contractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
     "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
     },
     "result_data": {

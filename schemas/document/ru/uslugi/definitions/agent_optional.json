@@ -2,6 +2,7 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Представитель",
+  "title": "Представитель",
   "type": "object",
   "properties": {
     "passport_number": { "type": "string", "pattern": "^[0-9]{6}$", "title": "Номер паспорта" },

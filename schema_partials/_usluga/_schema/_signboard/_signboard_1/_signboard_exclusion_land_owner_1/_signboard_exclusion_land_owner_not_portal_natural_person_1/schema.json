@@ -6,8 +6,17 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка или помещения"
     },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Собственник земли или помещения"
+    },
     "agent": {
-      "title": "Заявитель"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "text": {},
     "previous_registry_item": {

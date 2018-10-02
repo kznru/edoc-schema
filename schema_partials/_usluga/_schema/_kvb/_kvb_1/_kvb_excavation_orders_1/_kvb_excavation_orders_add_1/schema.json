@@ -64,7 +64,7 @@
     },
     "agent": {},
     "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "customer_responsible": {
