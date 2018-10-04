@@ -113,14 +113,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Договора подряда"
     },
-    "contract_for_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на проверку качества уплотнения дорожного покрытия"
-    },
-    "traffic_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Схема дорожного движения"
-    },
     "certificate_sro": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
     },
@@ -142,29 +134,6 @@
     "interested_party_list": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Заинтересованные стороны"
-    },
-    "protocol_mvk": {
-      "type": "object",
-      "title": "Протокол МВК",
-      "properties": {
-        "protocol_number": {
-          "type": "string",
-          "title": "Номер протокола"
-        },
-        "protocol_date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата протокола"
-        },
-        "content": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "title": "Файл протокола"
-        }
-      }
-    },
-    "contract_lab": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор, заключенный со специализированной лабораторией, на проведение работ по контролю качества уплотнения восстановленного дорожного покрытия"
     }
   }
 }
