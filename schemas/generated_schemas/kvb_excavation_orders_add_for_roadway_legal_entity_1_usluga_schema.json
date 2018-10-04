@@ -116,18 +116,15 @@
     },
     "contract_for_order": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор, для которого ордер"
+      "title": "Договора подряда"
     },
     "contract_for_qa": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на проверку качества"
+      "title": "Договор на проверку качества уплотнения дорожного покрытия"
     },
     "traffic_scheme": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Схема дорожного движения"
-    },
-    "certificate_of_separation": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
     },
     "certificate_sro": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
@@ -142,7 +139,7 @@
     },
     "contract_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на восстановление"
+      "title": "Договор на восстановление благоустройства"
     },
     "warranty_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
@@ -173,10 +170,6 @@
     "contract_lab": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Договор, заключенный со специализированной лабораторией, на проведение работ по контролю качества уплотнения восстановленного дорожного покрытия"
-    },
-    "act_hidden_jobs": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": " Акт скрытых работ"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
