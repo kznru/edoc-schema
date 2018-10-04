@@ -30,30 +30,10 @@
         }
       }
     },
-    "subcontractor": {
-      "type": "object",
-      "title": "Субподрядчик",
-      "properties": {
-        "subcontractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-          "title": "Организация субподрядчика",
-          "description": "Наименование организации, выполняющей работы по устранению аварии (если предусмотрен договором подряда)"
-        },
-        "subcontractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
-          "title": "Ответственный производитель работ со стороны субподрядчика",
-          "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом "
-        }
-      }
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
-      "title": "Уточнение адреса или места проведения работ"
     },
     "begin_date": {
       "type": "string",
