@@ -130,7 +130,7 @@
     "order_of_responsible_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном за благоустройство",
-      "description": "Отсканированный приказа об ответственном за благоустройство"
+      "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "contract_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
