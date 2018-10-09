@@ -1,0 +1,17 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "oblik_natural_person",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "oblik_color_lease_natural_person_1"
+        },
+        {
+          "name": "oblik_color_no_lease_natural_person_1"
+        }
+      ]
+    }
+  ]
+}
