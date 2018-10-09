@@ -36,6 +36,20 @@
       "type": "string",
       "format": "date",
       "title": "Дата подсчёта деревьев"
+    },
+    "gardening_time":{
+      "type":"object",
+      "title":"Время на компенсационное озеленение",
+      "properties":{
+        "range_end":{
+          "type":"string",
+          "format":"date",
+          "title":"До"
+        }
+      },
+      "required":[
+        "range_end"
+      ]
     }
   }
 }
