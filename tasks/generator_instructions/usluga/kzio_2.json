@@ -1,0 +1,19 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "kzio_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "permission_to_use_municipal_land_2",
+          "virtual": true,
+          "keys": [
+            { "name": "permission_to_use_municipal_land_legal_entity_2" },
+            { "name": "permission_to_use_municipal_land_natural_person_2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

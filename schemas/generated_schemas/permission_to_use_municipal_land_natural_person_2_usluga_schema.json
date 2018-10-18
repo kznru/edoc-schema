@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+    },
+    "organization": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "usage": {
+      "title": "Цели использования",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "проведения инженерных изысканий либо капитального или текущего ремонта линейного объекта на срок не более одного года",
+        "строительства временных или вспомогательных сооружений (включая ограждения, бытовки, навесы), складирования строительных и иных материалов, техники для обеспечения строительства, реконструкции линейных объектов федерального, регионального или местного значения на срок их строительства, реконструкции",
+        "осуществления геологического изучения недр на срок действия соответствующей лицензии"
+      ]
+    },
+    "years_number": {
+      "title": "Количество лет",
+      "type": "number"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area"
+    },
+    "borders_scheme": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Схема границ предполагаемых к использованию"
+    },
+    "special_zones": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Зоны с особыми условиями использования земель"
+    },
+    "special_points": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Координаты характерных точек границ территории"
+    },
+    "justification": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Технико - экономическое обоснование"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
