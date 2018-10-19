@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "rights_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"
+    },
+    "buy_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Решение органа некоммерческой организации о приобретении земельного участка, относящегося к имуществу общего пользования"
+    }
+  }
+}

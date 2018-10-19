@@ -12,6 +12,26 @@
             { "name": "permission_to_use_municipal_land_legal_entity_2" },
             { "name": "permission_to_use_municipal_land_natural_person_2" }
           ]
+        },
+        {
+          "name": "sale_municipal_land_without_auction_2",
+          "virtual": true,
+          "keys": [
+            { "name": "sale_municipal_land_without_auction_building_owner_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_building_owner_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_complex_contract_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_complex_contract_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_complex_for_izhs_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_complex_for_izhs_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_gardening_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_gardening_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_noncommerce_complex_for_izhs_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_rent_for_farm_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_rent_for_farm_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_share_by_farm_legal_entity_2" },
+            { "name": "sale_municipal_land_without_auction_share_by_farm_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_unlimited_usage_legal_entity_2" }
+          ]
         }
       ]
     }

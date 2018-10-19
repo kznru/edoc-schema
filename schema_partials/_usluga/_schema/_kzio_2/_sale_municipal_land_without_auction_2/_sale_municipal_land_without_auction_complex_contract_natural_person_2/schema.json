@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор о комплексном освоении территории"
+    }
+  }
+}

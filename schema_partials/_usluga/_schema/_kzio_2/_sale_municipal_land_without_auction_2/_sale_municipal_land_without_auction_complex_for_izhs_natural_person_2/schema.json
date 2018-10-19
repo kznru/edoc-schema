@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "to_buy_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Решение органа некоммерческой организации о приобретении земельного участка"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор о комплексном освоении территории"
+    }
+  }
+}

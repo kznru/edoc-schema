@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "rights_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"
+    },
+    "membership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документ, подтверждающий членство заявителя в некоммерческой организации"
+    },
+    "ditribution_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Решение органа некоммерческой организации о распределении испрашиваемого земельного участка заявителю"
+    }
+  }
+}

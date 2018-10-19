@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "rights_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"
+    }
+  }
+}
