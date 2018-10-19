@@ -32,6 +32,14 @@
             { "name": "sale_municipal_land_without_auction_share_by_farm_natural_person_2" },
             { "name": "sale_municipal_land_without_auction_unlimited_usage_legal_entity_2" }
           ]
+        },
+        {
+          "name": "provision_of_municipal_land_with_auction_2",
+          "virtual": true,
+          "keys": [
+            { "name": "provision_of_municipal_land_with_auction_legal_entity_2" },
+            { "name": "provision_of_municipal_land_with_auction_natural_person_2" }
+          ]
         }
       ]
     }
