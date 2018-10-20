@@ -48,6 +48,14 @@
             { "name": "excerpt_from_property_registry_legal_entity_2" },
             { "name": "excerpt_from_property_registry_natural_person_2" }
           ]
+        },
+        {
+          "name": "additional_agreement_for_changes_of_municipal_management_property_2",
+          "virtual": true,
+          "keys": [
+            { "name": "additional_agreement_for_changes_of_municipal_management_property_legal_entity_2" },
+            { "name": "additional_agreement_for_changes_of_municipal_management_property_natural_person_2" }
+          ]
         }
       ]
     }

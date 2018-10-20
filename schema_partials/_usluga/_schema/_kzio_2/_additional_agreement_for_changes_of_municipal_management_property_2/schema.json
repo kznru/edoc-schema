@@ -1,15 +1,9 @@
 {
+  "type": "object",
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
-    "applicant": {
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
+    "applicant": {},
+    "organization": {},
+    "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
@@ -19,15 +13,6 @@
       "title": "Адрес объекта (или ближайший)",
       "description": "Адрес, по которому находится муниципальное имущество"
     },
-    "property_type": {
-      "type": "string",
-      "title": "Вид имущества",
-      "enum": [
-        "здание",
-        "помещение",
-        "сооружение"
-      ]
-    },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
       "title": "Площадь объекта"
@@ -35,7 +20,7 @@
     "purpose": {
       "title": "Цель",
       "type": "string",
-      "definition": "Цели, для которых запрашивается информация о муниципальном имуществе"
+      "definition": "Цели, для которой будет использоваться объект"
     },
     "property_info": {
       "type": "object",
@@ -67,16 +52,6 @@
           "title": "Иная информация"
         }
       }
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
     }
-  },
-  "type": "object",
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  }
 }
