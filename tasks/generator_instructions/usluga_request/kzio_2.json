@@ -64,6 +64,14 @@
             { "name": "registration_of_municipal_property_legal_entity_2" },
             { "name": "registration_of_municipal_property_natural_person_2" }
           ]
+        },
+        {
+          "name": "termination_of_municipal_property_lease_agreement_2",
+          "virtual": true,
+          "keys": [
+            { "name": "termination_of_municipal_property_lease_agreement_legal_entity_2" },
+            { "name": "termination_of_municipal_property_lease_agreement_natural_person_2" }
+          ]
         }
       ]
     }
