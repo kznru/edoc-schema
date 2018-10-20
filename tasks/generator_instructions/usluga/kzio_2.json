@@ -40,6 +40,14 @@
             { "name": "provision_of_municipal_land_with_auction_legal_entity_2" },
             { "name": "provision_of_municipal_land_with_auction_natural_person_2" }
           ]
+        },
+        {
+          "name": "excerpt_from_property_registry_2",
+          "virtual": true,
+          "keys": [
+            { "name": "excerpt_from_property_registry_legal_entity_2" },
+            { "name": "excerpt_from_property_registry_natural_person_2" }
+          ]
         }
       ]
     }
