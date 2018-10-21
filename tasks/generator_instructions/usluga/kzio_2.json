@@ -80,6 +80,14 @@
             { "name": "transfer_municipal_property_for_free_use_without_auction_legal_entity_2" },
             { "name": "transfer_municipal_property_for_free_use_without_auction_natural_person_2" }
           ]
+        },
+        {
+          "name": "free_use_contract_for_municipal_property_with_auction_2",
+          "virtual": true,
+          "keys": [
+            { "name": "free_use_contract_for_municipal_property_with_auction_legal_entity_2" },
+            { "name": "free_use_contract_for_municipal_property_with_auction_natural_person_2" }
+          ]
         }
       ]
     }
