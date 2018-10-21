@@ -35,15 +35,15 @@
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area"
     },
     "borders_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема границ предполагаемых к использованию"
     },
     "special_zones": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Зоны с особыми условиями использования земель"
     },
     "special_points": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Координаты характерных точек границ территории"
     },
     "justification": {

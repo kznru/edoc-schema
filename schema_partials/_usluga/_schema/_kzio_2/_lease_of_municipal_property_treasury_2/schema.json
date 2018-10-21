@@ -17,9 +17,6 @@
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
       "title": "Площадь объекта"
     },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
     "property_info": {
       "type": "object",
       "title": "Информация, необходимая для идентификации имущества",
@@ -29,12 +26,12 @@
           "title": "Этаж"
         },
         "property_number": {
-          "type": "Номер помещения",
-          "title": "Этаж"
+          "title": "Номер помещения",
+          "type": "string"
         },
         "floors_plan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "type": "Поэтажный план"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Поэтажный план"
         },
         "cadastre_number": {
           "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -42,8 +39,8 @@
           "description": "Кадастровый номер земельного участка или кадастрового квартала"
         },
         "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "type": "Фото"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Фото"
         },
         "other_info": {
           "type": "string",

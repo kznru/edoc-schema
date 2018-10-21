@@ -5,11 +5,11 @@
       "title": "Заявитель"
     },
     "buy_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Решение органа некоммерческой организации о приобретении земельного участка, относящегося к имуществу общего пользования"
     },
     "complex_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Договор о комплексном освоении территории"
     }
   }
