@@ -88,6 +88,14 @@
             { "name": "free_use_contract_for_municipal_property_with_auction_legal_entity_2" },
             { "name": "free_use_contract_for_municipal_property_with_auction_natural_person_2" }
           ]
+        },
+        {
+          "name": "lease_of_municipal_property_treasury_2",
+          "virtual": true,
+          "keys": [
+            { "name": "lease_of_municipal_property_treasury_legal_entity_2" },
+            { "name": "lease_of_municipal_property_treasury_natural_person_2" }
+          ]
         }
       ]
     }
