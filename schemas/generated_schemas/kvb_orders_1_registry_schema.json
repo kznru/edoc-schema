@@ -2,11 +2,11 @@
   "type": "object",
   "properties": {
     "address_with_map": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
     },
     "begin_date": {
@@ -20,15 +20,15 @@
       "title": "Дата окончания работ"
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "contractor_organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
     "subcontractor_organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
     },
     "result_data": {
@@ -157,19 +157,19 @@
           "uniqueItems": true
         },
         "work_directions_comments": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/work_directions_comments",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_comments",
           "title": "Дополнительные требования к работам"
         },
         "response_text": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
           "title": "Информация для заявителя"
         },
         "attachments": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
           "title": "Приложение"
         },
         "comments": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
           "title": "Комментарии"
         }
       }

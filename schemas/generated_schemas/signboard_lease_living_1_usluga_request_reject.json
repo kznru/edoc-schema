@@ -3,46 +3,46 @@
     "documents": {
       "properties": {
         "passport_bti": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Паспорт БТИ",
           "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией (при размещении СНИ на фасадах встроенных нежилых помещений многоквартирных жилых домов), или их скан-копии (при заполнении электронной формы)."
         },
         "lease_contracts": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Договора аренды"
         },
         "image_original": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Фото исходной ситуации",
           "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, или её цифровой оригинал (при заполнении электронной формы), выполненная согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги"
         },
         "image_topographic": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Топографический план",
           "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
         },
         "situational_plan": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Ситуационный план",
           "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги"
         },
         "image_constructions": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Изображения конструкций",
           "description": "Изображения проектируемых конструкций СНИ, выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
         },
         "image_project": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Проект объекта с размещением СНИ",
           "description": "Проект объекта с размещением СНИ (для зданий административно-офисного, торгового, культурно-развлекательного, спортивного назначения, имеющих общую площадь более 400 кв.м), или его цифровой оригинал (при заполнении электронной формы). Допускается представление части проекта такого объекта в виде концепции СНИ."
         },
         "identity_document": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Документ удостоверяющий личность",
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         },
         "letter_of_attorney": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
         }
@@ -51,7 +51,7 @@
       "type": "object"
     },
     "agent": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "reject_reasons": {
@@ -70,7 +70,7 @@
       "uniqueItems": true
     },
     "response_text": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
     "application_missings": {
       "title": "Недостатки в заявлении",
@@ -95,11 +95,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

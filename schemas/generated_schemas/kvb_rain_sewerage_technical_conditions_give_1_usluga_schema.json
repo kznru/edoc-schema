@@ -1,48 +1,48 @@
 {
   "properties": {
     "address": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер"
     },
     "object_info": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/object_info"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info"
     },
     "calculation_of_surface_runoff": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
     },
     "image_topographic": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_topographic",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
       "title": "Топографический план",
       "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, или его скан-копия (при заполнении электронной формы), выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "technical_conditions": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/technical_conditions"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_conditions"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заказчик"
     },
     "agent": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
