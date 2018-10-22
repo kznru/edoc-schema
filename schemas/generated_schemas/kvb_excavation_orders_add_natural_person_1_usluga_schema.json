@@ -112,7 +112,7 @@
         "subcontractor_responsible": {
           "type": "array",
           "title": "Ответственный производитель работ со стороны субподрядчика",
-          "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом ",
+          "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом",
           "minItems": 1,
           "items": {
             "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"

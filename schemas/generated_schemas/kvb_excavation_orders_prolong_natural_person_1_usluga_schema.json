@@ -30,7 +30,7 @@
     },
     "drawing": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Рабочий чертеж на проводимые  работы ",
+      "title": "Рабочий чертеж на проводимые  работы",
       "description": "С указанием выполненных и незавершенных работ"
     },
     "organization": {
