@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {},
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "lease_contract_info": {
+      "type": "object",
+      "title": "Договор аренды",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    }
+  }
+}

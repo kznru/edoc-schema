@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "external_system_request_types": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/external_system_request_types"
+    }
+  }
+}

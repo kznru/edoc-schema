@@ -72,20 +72,6 @@
         }
       }
     },
-    "gardening_time": {
-      "type": "object",
-      "title": "Время на компенсационное озеленение",
-      "properties": {
-        "range_end": {
-          "type": "string",
-          "format": "date",
-          "title": "До"
-        }
-      },
-      "required": [
-        "range_end"
-      ]
-    },
     "gardening_undertaker": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Сторона, принимающая работу по компенсационному озеленению"
