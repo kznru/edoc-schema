@@ -68,6 +68,20 @@
       "format": "date",
       "title": "Дата подсчёта деревьев"
     },
+    "gardening_time": {
+      "type": "object",
+      "title": "Время на компенсационное озеленение",
+      "properties": {
+        "range_end": {
+          "type": "string",
+          "format": "date",
+          "title": "До"
+        }
+      },
+      "required": [
+        "range_end"
+      ]
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"

@@ -68,8 +68,15 @@
       "title": "Заказчик"
     },
     "customer_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-      "title": "Подписант заказчика"
+      "type": "object",
+      "properties": {
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО"
+        }
+      },
+      "title": "Подписант заказчика",
+      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
     },
     "contractor": {
       "type": "object",
@@ -116,18 +123,7 @@
     },
     "contract_for_order": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор, для которого ордер"
-    },
-    "contract_for_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на проверку качества"
-    },
-    "traffic_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Схема дорожного движения"
-    },
-    "certificate_of_separation": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
+      "title": "Договора подряда"
     },
     "certificate_sro": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
@@ -138,11 +134,13 @@
     },
     "order_of_responsible_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Приказ об ответственном за благоустройство"
+      "title": "Приказ об ответственном за благоустройство",
+      "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "contract_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор на восстановление"
+      "title": "Договор на восстановление благоустройства",
+      "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)"
     },
     "warranty_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
@@ -150,33 +148,6 @@
     "interested_party_list": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Заинтересованные стороны"
-    },
-    "protocol_mvk": {
-      "type": "object",
-      "title": "Протокол МВК",
-      "properties": {
-        "protocol_number": {
-          "type": "string",
-          "title": "Номер протокола"
-        },
-        "protocol_date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата протокола"
-        },
-        "content": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "title": "Файл протокола"
-        }
-      }
-    },
-    "contract_lab": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор, заключенный со специализированной лабораторией, на проведение работ по контролю качества уплотнения восстановленного дорожного покрытия"
-    },
-    "act_hidden_jobs": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": " Акт скрытых работ"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

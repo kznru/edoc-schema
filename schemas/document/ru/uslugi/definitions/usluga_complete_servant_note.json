@@ -3,7 +3,7 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Следующее сделано для полноценного рассмотрения средства наружной информации",
   "type": "array",
-  "minItems": 23,
+  "minItems": 0,
   "uniqueItems": true,
   "items": {
     "type": "string",
