@@ -17,7 +17,8 @@
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта с четкими границами обследования территории"
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Согласованный ситуационный план трассы"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",

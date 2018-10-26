@@ -17,15 +17,13 @@
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта с четкими границами обследования территории"
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Согласованный ситуационный план трассы"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
-      "title": "Описание местоположения"
-    },
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договор аренды или другие правоустанавливающие документы"
+      "title": "Описание местоположения",
+      "description": "Место, в котором необходимо провести обследование зелёных насаждений"
     },
     "work_description": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",

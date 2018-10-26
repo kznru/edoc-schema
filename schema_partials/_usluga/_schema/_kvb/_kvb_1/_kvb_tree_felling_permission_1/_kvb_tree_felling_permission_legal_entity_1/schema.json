@@ -10,49 +10,21 @@
       "type": "string",
       "title": "Должность заявителя"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта"
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
-    },
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "address_comments": {},
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
-    "work_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
-    },
-    "trees_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "План зелёных насаждений"
-    },
+    "work_description": {},
     "project_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"
     },
-     "land_documents_copies": {
-        "type": "array",
-        "items": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-      "title": "Копии документов на земельный участок"
-    },
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договор аренды или другие правоустанавливающие документы"
-    },
-    "networks_agreement": {
+    "land_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Согласование с представителями инженерных сетей"
-    },
-    "land_owners_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Согласование с владельцами затрагиваемых территорий"
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
     }
   }
 }
