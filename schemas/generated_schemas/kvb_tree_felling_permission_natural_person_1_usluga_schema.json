@@ -42,8 +42,6 @@
       "description": "Выписка из ЕГРН либо договор аренды"
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

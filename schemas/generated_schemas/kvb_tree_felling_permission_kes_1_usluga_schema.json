@@ -37,6 +37,8 @@
       "title": "Согласование с владельцами затрагиваемых территорий",
       "description": "Справка-согласование с УАиГ"
     },
+    "applicant": {
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения",
