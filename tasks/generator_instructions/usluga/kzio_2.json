@@ -10,7 +10,9 @@
           "virtual": true,
           "keys": [
             { "name": "permission_to_use_municipal_land_legal_entity_2" },
-            { "name": "permission_to_use_municipal_land_natural_person_2" }
+            { "name": "permission_to_use_municipal_land_natural_person_2" },
+            { "name": "permission_to_use_municipal_land_special_zones_legal_entity_2" },
+            { "name": "permission_to_use_municipal_land_special_zones_natural_person_2" }
           ]
         },
         {

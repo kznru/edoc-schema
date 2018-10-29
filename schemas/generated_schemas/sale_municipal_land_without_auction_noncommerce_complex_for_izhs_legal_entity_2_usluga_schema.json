@@ -28,7 +28,7 @@
       "properties": {
         "address_with_map": {
           "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-          "title": "Адрес объекта (или ближайший)"
+          "title": "Адрес земельного участка"
         },
         "cadastre_number": {
           "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
