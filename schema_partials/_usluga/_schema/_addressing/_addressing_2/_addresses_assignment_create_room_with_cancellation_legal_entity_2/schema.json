@@ -5,7 +5,7 @@
       "maxItems": 1,
       "title": "Данные, идентифицирующие здание",
       "description": "Данные здания, в котором находится помещение",
-      "required": ["cadastre_number", "address_with_map"]
+      "required": ["cadastre_number", "address"]
     },
     "cancellation_number": {
       "type": "string",
