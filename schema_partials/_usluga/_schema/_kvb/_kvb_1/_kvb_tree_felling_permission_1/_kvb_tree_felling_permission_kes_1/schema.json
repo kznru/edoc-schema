@@ -6,26 +6,13 @@
       "title": "Заявитель"
     },
     "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта с четкими границами обследования территории"
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
-      "title": "Описание местоположения",
-      "description": "Место, в котором необходимо провести обследование зелёных насаждений"
-    },
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "address_comments": {},
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
-    "work_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
-      "default": "Выдача акта обследования зелёных насаждений"
-    },
+    "work_description": {},
     "land_owners_agreement": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Согласование с владельцами затрагиваемых территорий",

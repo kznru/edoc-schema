@@ -21,43 +21,27 @@
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта"
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Согласованный ситуационный план трассы"
     },
     "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Описание местоположения",
+      "description": "Место, в котором необходимо провести обследование зелёных насаждений"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "work_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "default": "Выдача акта обследования зелёных насаждений"
     },
-    "trees_plan": {
+    "land_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "План зелёных насаждений"
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
     },
-    "project_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Проектная документация"
-    },
-    "land_documents_copies": {
-      "type": "array",
-      "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-      },
-      "title": "Копии документов на земельный участок"
-    },
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договор аренды или другие правоустанавливающие документы"
-    },
-    "networks_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Согласование с представителями инженерных сетей"
-    },
-    "land_owners_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Согласование с владельцами затрагиваемых территорий"
+    "organization": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

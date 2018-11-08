@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "cadastre_number": {},
+    "usage": {},
+    "years_number": {},
+    "area": {},
+    "borders_scheme": {},
+    "justification": {},
+    "special_zones": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Зоны с особыми условиями использования земель"
+    }
+  }
+}
