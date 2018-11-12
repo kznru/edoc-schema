@@ -26,7 +26,7 @@
     "purpose": {
       "title": "Цель",
       "type": "string",
-      "definition": "Цели, для которых будет использоваться объект"
+      "description": "Цели, для которых будет использоваться объект"
     },
     "property_info": {
       "type": "object",

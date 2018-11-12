@@ -7,7 +7,7 @@
       "description": "Данные здания, в котором находится помещение",
       "required": [
         "cadastre_number",
-        "address_with_map"
+        "address"
       ]
     },
     "cancellation_number": {
