@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "registry_item": {},
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    }
+  }
+}
