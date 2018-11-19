@@ -20,19 +20,8 @@
     },
     "text": {},
     "previous_registry_item": {
-      "type": "object",
-      "title": "Ранее выданные технические условия",
-      "properties": {
-        "number": {
-          "type": "string",
-          "title": "Номер ТУ"
-        },
-        "date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата"
-        }
-      }
+      "type": "string",
+      "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
