@@ -63,8 +63,7 @@
           "name": "registration_of_municipal_property_2",
           "virtual": true,
           "keys": [
-            { "name": "registration_of_municipal_property_legal_entity_2" },
-            { "name": "registration_of_municipal_property_natural_person_2", "action": "delete" }
+            { "name": "registration_of_municipal_property_legal_entity_2" }
           ]
         },
         {
