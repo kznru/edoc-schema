@@ -1,8 +1,9 @@
 {
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель",
+      "description": "Представитель заявителя"
     },
     "cancellation_number": {
       "type": "string",
