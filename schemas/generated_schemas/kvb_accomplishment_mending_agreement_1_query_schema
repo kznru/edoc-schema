@@ -1,5 +1,10 @@
 {
   "type": "object",
+  "required": [
+    "district",
+    "organization",
+    "agent_mobile"
+  ],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -14,6 +19,19 @@
     "agent_mobile": {
       "type": "string",
       "title": "Мобильный телефон представителя"
+    },
+    "district": {
+      "type": "string",
+      "title": "Район",
+      "enum": [
+        "Авиастроительный",
+        "Вахитовский",
+        "Московский",
+        "Ново-Савиновский",
+        "Кировский",
+        "Приволжский",
+        "Советский"
+      ]
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"

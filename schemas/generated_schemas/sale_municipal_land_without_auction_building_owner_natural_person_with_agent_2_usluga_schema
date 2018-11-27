@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "building_owner_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документ, удостоверяющий (устанавливающий) права заявителя на здание, сооружение либо помещение, если право на такое здание, сооружение либо помещение не зарегистрировано в ЕГРН"
+    },
+    "land_owner_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"
+    },
+    "building_list_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке"
+    },
+    "organization": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "land": {
+      "type": "object",
+      "title": "Земельный участок",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+          "title": "Адрес земельного участка"
+        },
+        "cadastre_number": {
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+          "title": "Кадастровый номер",
+          "description": "Кадастровый номер земельного участка"
+        },
+        "area": {
+          "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+          "title": "Площадь земельного участка",
+          "description": "Кадастровый номер земельного участка или кадастрового квартала"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "land"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

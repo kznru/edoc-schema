@@ -1,8 +1,7 @@
 {
+  "type": "object",
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
     },
     "organization": {
     },
@@ -57,7 +56,16 @@
     "lease_contract": {
       "title": "Срок аренды",
       "type": "string",
-      "format": "date"
+      "enum": [
+        "30 календарных дней",
+        "11 месяцев",
+        "3 года",
+        "5 лет"
+      ]
+    },
+    "usage_kind": {
+      "title": "Иной вид использования",
+      "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -68,6 +76,5 @@
       "title": "Комментарии"
     }
   },
-  "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

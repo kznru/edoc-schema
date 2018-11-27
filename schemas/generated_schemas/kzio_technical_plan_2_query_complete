@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Техничесикй план"
+    },
+    "result_comment": {
+      "type": "string",
+      "title": "Комментарий к техническому плану"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
