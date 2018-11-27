@@ -11,8 +11,10 @@
           "keys": [
             { "name": "permission_to_use_municipal_land_legal_entity_2" },
             { "name": "permission_to_use_municipal_land_natural_person_2" },
+            { "name": "permission_to_use_municipal_land_natural_person_with_agent_2" },
             { "name": "permission_to_use_municipal_land_special_zones_legal_entity_2" },
-            { "name": "permission_to_use_municipal_land_special_zones_natural_person_2" }
+            { "name": "permission_to_use_municipal_land_special_zones_natural_person_2" },
+            { "name": "permission_to_use_municipal_land_special_zones_natural_person_with_agent_2" }
           ]
         },
         {
@@ -21,17 +23,23 @@
           "keys": [
             { "name": "sale_municipal_land_without_auction_building_owner_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_building_owner_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_building_owner_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_complex_contract_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_complex_contract_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_complex_contract_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_complex_for_izhs_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_complex_for_izhs_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_complex_for_izhs_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_gardening_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_gardening_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_gardening_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_noncommerce_complex_for_izhs_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_rent_for_farm_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_rent_for_farm_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_rent_for_farm_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_share_by_farm_legal_entity_2" },
             { "name": "sale_municipal_land_without_auction_share_by_farm_natural_person_2" },
+            { "name": "sale_municipal_land_without_auction_share_by_farm_natural_person_with_agent_2" },
             { "name": "sale_municipal_land_without_auction_unlimited_usage_legal_entity_2" }
           ]
         },
@@ -40,7 +48,8 @@
           "virtual": true,
           "keys": [
             { "name": "provision_of_municipal_land_with_auction_legal_entity_2" },
-            { "name": "provision_of_municipal_land_with_auction_natural_person_2" }
+            { "name": "provision_of_municipal_land_with_auction_natural_person_2" },
+            { "name": "provision_of_municipal_land_with_auction_natural_person_with_agent_2" }
           ]
         },
         {
@@ -48,7 +57,8 @@
           "virtual": true,
           "keys": [
             { "name": "excerpt_from_property_registry_legal_entity_2" },
-            { "name": "excerpt_from_property_registry_natural_person_2" }
+            { "name": "excerpt_from_property_registry_natural_person_2" },
+            { "name": "excerpt_from_property_registry_natural_person_with_agent_2" }
           ]
         },
         {
@@ -56,15 +66,15 @@
           "virtual": true,
           "keys": [
             { "name": "additional_agreement_for_changes_of_municipal_management_property_legal_entity_2" },
-            { "name": "additional_agreement_for_changes_of_municipal_management_property_natural_person_2" }
+            { "name": "additional_agreement_for_changes_of_municipal_management_property_natural_person_2" },
+            { "name": "additional_agreement_for_changes_of_municipal_management_property_natural_person_with_agent_2" }
           ]
         },
         {
           "name": "registration_of_municipal_property_2",
           "virtual": true,
           "keys": [
-            { "name": "registration_of_municipal_property_legal_entity_2" },
-            { "name": "registration_of_municipal_property_natural_person_2", "action": "delete" }
+            { "name": "registration_of_municipal_property_legal_entity_2" }
           ]
         },
         {
@@ -72,7 +82,8 @@
           "virtual": true,
           "keys": [
             { "name": "termination_of_municipal_property_lease_agreement_legal_entity_2" },
-            { "name": "termination_of_municipal_property_lease_agreement_natural_person_2" }
+            { "name": "termination_of_municipal_property_lease_agreement_natural_person_2" },
+            { "name": "termination_of_municipal_property_lease_agreement_natural_person_with_agent_2" }
           ]
         },
         {
@@ -80,7 +91,8 @@
           "virtual": true,
           "keys": [
             { "name": "transfer_municipal_property_for_free_use_without_auction_legal_entity_2" },
-            { "name": "transfer_municipal_property_for_free_use_without_auction_natural_person_2" }
+            { "name": "transfer_municipal_property_for_free_use_without_auction_natural_person_2" },
+            { "name": "transfer_municipal_property_for_free_use_without_auction_natural_person_with_agent_2" }
           ]
         },
         {
@@ -88,7 +100,8 @@
           "virtual": true,
           "keys": [
             { "name": "free_use_contract_for_municipal_property_with_auction_legal_entity_2" },
-            { "name": "free_use_contract_for_municipal_property_with_auction_natural_person_2" }
+            { "name": "free_use_contract_for_municipal_property_with_auction_natural_person_2" },
+            { "name": "free_use_contract_for_municipal_property_with_auction_natural_person_with_agent_2" }
           ]
         },
         {
@@ -96,7 +109,8 @@
           "virtual": true,
           "keys": [
             { "name": "lease_of_municipal_property_treasury_legal_entity_2" },
-            { "name": "lease_of_municipal_property_treasury_natural_person_2" }
+            { "name": "lease_of_municipal_property_treasury_natural_person_2" },
+            { "name": "lease_of_municipal_property_treasury_natural_person_with_agent_2" }
           ]
         }
       ]

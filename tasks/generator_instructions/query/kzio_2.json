@@ -1,0 +1,14 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "kzio_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kzio_technical_plan_2"
+        }
+      ]
+    }
+  ]
+}

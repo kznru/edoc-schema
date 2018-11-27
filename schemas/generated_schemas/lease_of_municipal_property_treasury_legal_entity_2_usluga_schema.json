@@ -57,7 +57,16 @@
     "lease_contract": {
       "title": "Срок аренды",
       "type": "string",
-      "format": "date"
+      "enum": [
+        "30 календарных дней",
+        "11 месяцев",
+        "3 года",
+        "5 лет"
+      ]
+    },
+    "usage_kind": {
+      "title": "Иной вид использования",
+      "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

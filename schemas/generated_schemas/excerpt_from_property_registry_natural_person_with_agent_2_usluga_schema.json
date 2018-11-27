@@ -1,0 +1,82 @@
+{
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "organization": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "property_type": {
+      "type": "string",
+      "title": "Вид имущества",
+      "enum": [
+        "здание",
+        "помещение",
+        "сооружение"
+      ]
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь объекта"
+    },
+    "purpose": {
+      "title": "Цель",
+      "type": "string",
+      "description": "Цели, для которых запрашивается информация о муниципальном имуществе"
+    },
+    "property_info": {
+      "type": "object",
+      "title": "Информация, необходимая для идентификации имущества",
+      "properties": {
+        "floor_number": {
+          "type": "string",
+          "title": "Этаж"
+        },
+        "property_number": {
+          "title": "Номер помещения",
+          "type": "string"
+        },
+        "floors_plan": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Поэтажный план"
+        },
+        "cadastre_number": {
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+          "title": "Кадастровый номер",
+          "description": "Кадастровый номер земельного участка или кадастрового квартала"
+        },
+        "photo": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Фото"
+        },
+        "other_info": {
+          "type": "string",
+          "title": "Иная информация"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Доп. приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "required":[],
+  "properties":{
+    "technical_plan":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Техничесикй план"
+    },
+    "result_comment":{
+      "type": "string",
+      "title": "Комментарий к техническому плану"
+    }
+  }
+}

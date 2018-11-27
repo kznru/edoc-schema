@@ -1,8 +1,7 @@
 {
+  "type": "object",
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
     },
     "organization": {
     },
@@ -68,6 +67,5 @@
       "title": "Комментарии"
     }
   },
-  "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
