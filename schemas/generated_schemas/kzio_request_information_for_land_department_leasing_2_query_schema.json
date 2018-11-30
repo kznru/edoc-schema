@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "object_is_leased": {
+      "type": "string",
+      "title": "Объект сдается в аренду"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

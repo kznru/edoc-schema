@@ -1,0 +1,10 @@
+{
+  "type":"object",
+  "required":[],
+  "properties":{
+    "encumbrance limitation": {
+      "type": "string",
+      "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+    }
+  }
+}
