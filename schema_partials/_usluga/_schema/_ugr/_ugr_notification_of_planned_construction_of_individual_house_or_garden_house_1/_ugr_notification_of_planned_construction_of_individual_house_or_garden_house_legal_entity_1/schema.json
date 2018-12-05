@@ -1,8 +1,18 @@
 {
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "organization_place": {
+      "type": "string",
+      "title": "Местонахождения"
+    },
+    "agent": {},
+    "agent_position": {
+      "type": "string",
+      "title": "Должность представителя"
     }
   }
 }
+

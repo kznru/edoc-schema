@@ -37,7 +37,6 @@
         "mobile": {"type": "string", "title": "Мобильный телефон"},
         "email": {"type": "string", "format": "email", "title": "E-mail"}
       }
-    },
-    "agent": {}
+    }
   }
 }
