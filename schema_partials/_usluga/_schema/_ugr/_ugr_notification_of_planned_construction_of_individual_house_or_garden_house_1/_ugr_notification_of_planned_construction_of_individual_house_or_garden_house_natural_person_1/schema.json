@@ -103,7 +103,7 @@
         "limiting_height": {
           "type": "number",
           "title": "Предельная высота в метрах",
-          "description": "Рациональное число"
+          "description": "Вещественное число"
         },
         "area": {
           "type": "string",
