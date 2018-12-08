@@ -42,6 +42,10 @@
     "bank_details": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
+    "bank_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
+    },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
