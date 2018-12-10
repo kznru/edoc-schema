@@ -34,7 +34,13 @@
           "virtual": true,
           "keys": [
             {
-              "name": "kvb_accomplishment_mending_1"
+              "name": "kvb_accomplishment_mending_1", "action": "delete"
+            },
+            {
+              "name": "kvb_accomplishment_mending_legal_entity_1"
+            },
+            {
+              "name": "kvb_accomplishment_mending_natural_person_1"
             }
           ]
         },

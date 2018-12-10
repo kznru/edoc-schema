@@ -1,11 +1,16 @@
 {
   "type": "object",
   "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
     }
-  }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "$ref": "#/definitions/person/ru/applicant",
+      "title": "Заявитель"
+    }
+  }
+}

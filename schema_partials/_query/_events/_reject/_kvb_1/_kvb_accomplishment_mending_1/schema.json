@@ -1,15 +1,12 @@
 {
   "type": "object",
-  "required": [
-    "result_photos"
-  ],
+  "required": [],
   "properties": {
-    "result_photos": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Фото после выполнения работ"
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
-    "kvb_excavation_orders_add_reject_reasons": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_add_reject_reasons"
+    "kvb_excavation_orders_accomplishment_mending_reject_reasons": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_accomplishment_mending_reject_reasons"
     }
   }
 }
