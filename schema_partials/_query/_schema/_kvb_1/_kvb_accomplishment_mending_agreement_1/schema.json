@@ -8,10 +8,6 @@
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
     },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
     "agent_mobile": {
       "type": "string",
       "title": "Мобильный телефон представителя"

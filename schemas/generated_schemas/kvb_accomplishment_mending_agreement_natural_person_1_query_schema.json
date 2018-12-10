@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "$ref": "#/definitions/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "agent_mobile": {
+      "type": "string",
+      "title": "Мобильный телефон представителя"
+    },
+    "district": {
+      "type": "string",
+      "title": "Район",
+      "enum": [
+        "Авиастроительный",
+        "Вахитовский",
+        "Московский",
+        "Ново-Савиновский",
+        "Кировский",
+        "Приволжский",
+        "Советский"
+      ]
+    }
+  },
+  "required": [
+    "district",
+    "organization",
+    "agent_mobile"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
