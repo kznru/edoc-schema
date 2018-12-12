@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "type_of_permitted_use_of_capital_construction": {
+      "type": "object",
+      "title": "Сведения о виде разрешенного использования объекта капитального строительства",
+      "properties": {
+        "info": {
+          "type": "string",
+          "minItems": 1,
+          "enum": [
+            "объект индивидуального жилищного строительства",
+            "садовый дом"
+          ]
+        },
+        "all_area": {
+          "type": "integer",
+          "title": "Общая площадь здания"
+        }
+      }
+    }
+  }
+}

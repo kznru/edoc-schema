@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "applicant_info": {
+      "type": "object",
+      "title": "Данные заявителя",
+      "properties": {
+        "registration_address": {
+          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+          "title": "Место жительства"
+        },
+        "passport": {
+          "type": "object",
+          "title": "Реквизиты документа, удостоверяющего личность",
+          "properties": {
+            "seria": {
+              "type": "string",
+              "title": "Серия"
+            },
+            "number": {
+              "type": "string",
+              "title": "Номер"
+            },
+            "issued_by": {
+              "type": "string",
+              "title": "Кем выдан"
+            },
+            "issue_date": {
+              "type": "string",
+              "title": "Дата выдачи"
+            }
+          }
+        },
+        "mobile": {"type": "string", "title": "Мобильный телефон"},
+        "email": {"type": "string", "format": "email", "title": "E-mail"}
+      }
+    }
+  }
+}
