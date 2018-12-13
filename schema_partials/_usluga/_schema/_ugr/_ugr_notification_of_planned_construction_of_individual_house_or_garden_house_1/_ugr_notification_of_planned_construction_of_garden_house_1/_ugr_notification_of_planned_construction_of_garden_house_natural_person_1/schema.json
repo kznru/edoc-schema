@@ -21,10 +21,6 @@
               "type": "string",
               "title": "Серия"
             },
-            "number": {
-              "type": "string",
-              "title": "Номер"
-            },
             "issued_by": {
               "type": "string",
               "title": "Кем выдан"
@@ -34,9 +30,7 @@
               "title": "Дата выдачи"
             }
           }
-        },
-        "mobile": {"type": "string", "title": "Мобильный телефон"},
-        "email": {"type": "string", "format": "email", "title": "E-mail"}
+        }
       }
     }
   }

@@ -29,10 +29,6 @@
               "type": "string",
               "title": "Серия"
             },
-            "number": {
-              "type": "string",
-              "title": "Номер"
-            },
             "issued_by": {
               "type": "string",
               "title": "Кем выдан"
@@ -42,15 +38,6 @@
               "title": "Дата выдачи"
             }
           }
-        },
-        "mobile": {
-          "type": "string",
-          "title": "Мобильный телефон"
-        },
-        "email": {
-          "type": "string",
-          "format": "email",
-          "title": "E-mail"
         }
       }
     },
@@ -77,9 +64,14 @@
       "title": "Кадастровый номер земельного участка",
       "description": "Указание кадастрового номера земельного участка"
     },
+    "cadastre_number_quarter": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер кадастрового квартала",
+      "description": "Указание кадастрового номера кадастрового квартала"
+    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-      "title": "Адрес объекта (или ближайший)",
+      "title": "Адрес или местоположение земельного участка",
       "description": "Адрес, по которому находится муниципальное имущество"
     },
     "developer_rights": {
