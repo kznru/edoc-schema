@@ -9,13 +9,7 @@
 
         { "name": "kzio_request_information_for_land_main_2" },
         { "name": "kzio_request_information_for_land_smev_2" },
-        { "name": "kzio_request_information_for_land_department_control_2" },
         { "name": "kzio_request_information_for_land_department_leasing_2" },
-        { "name": "kzio_request_information_for_land_department_legal_2" },
-        { "name": "kzio_request_information_for_land_department_managment_registration_2" },
-        { "name": "kzio_request_information_for_land_department_privatization_2" },
-        { "name": "kzio_request_information_for_land_department_registration_2" },
-        { "name": "kzio_request_information_for_land_department_treasury_2" },
 
         { "name": "kzio_request_information_for_property_main_2" },
         { "name": "kzio_request_information_for_property_smev_2" },
