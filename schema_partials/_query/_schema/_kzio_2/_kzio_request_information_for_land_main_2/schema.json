@@ -1,8 +1,6 @@
 {
-  "type": "object",
-  "required": [
-
-  ],
+  "type":"object",
+  "required":[],
   "properties": {
     "kzio_request_information_for_land_smev_2": {
       "type": "object",
@@ -104,6 +102,7 @@
           "type": "string",
           "title": "Сведения о наличии земельного спора о местоположении границ земельных участков"
         },
+
         "property_record_status": {
           "type": "string",
           "title": "Статус записи об объекте недвижимости"
@@ -192,6 +191,5 @@
         }
       }
     }
-  },
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  }
 }
