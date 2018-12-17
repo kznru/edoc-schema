@@ -1,9 +1,7 @@
 {
-  "type": "object",
-  "required": [
-
-  ],
-  "properties": {
+  "type":"object",
+  "required":[],
+  "properties":{
     "into_fixed_capital": {
       "type": "string",
       "title": "В устаной капитал"
@@ -12,6 +10,5 @@
       "type": "string",
       "title": "Объект выставлен на аукцион"
     }
-  },
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  }
 }

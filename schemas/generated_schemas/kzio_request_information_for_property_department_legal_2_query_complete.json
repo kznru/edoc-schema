@@ -1,6 +1,13 @@
 {
   "type": "object",
+  "required": [
+
+  ],
   "properties": {
+    "encumbrance_limitation": {
+      "type": "string",
+      "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"

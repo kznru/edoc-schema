@@ -1,8 +1,6 @@
 {
-  "type": "object",
-  "required": [
-
-  ],
+  "type":"object",
+  "required":[],
   "properties": {
     "photo": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -16,6 +14,5 @@
       "type": "string",
       "title": "Проводится проверка"
     }
-  },
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  }
 }

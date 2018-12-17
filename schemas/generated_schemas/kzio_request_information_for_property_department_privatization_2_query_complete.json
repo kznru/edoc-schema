@@ -1,6 +1,17 @@
 {
   "type": "object",
+  "required": [
+
+  ],
   "properties": {
+    "into_fixed_capital": {
+      "type": "string",
+      "title": "В устаной капитал"
+    },
+    "auction_status": {
+      "type": "string",
+      "title": "Объект выставлен на аукцион"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"

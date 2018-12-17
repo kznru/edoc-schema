@@ -1,9 +1,7 @@
 {
-  "type": "object",
-  "required": [
-
-  ],
-  "properties": {
+  "type":"object",
+  "required":[],
+  "properties":{
     "cadastre_number": {
       "type": "string",
       "title": "Кадастровый номер"
@@ -36,17 +34,45 @@
       "type": "string",
       "title": "Год ввода в эксплуатацию по завершении строительства"
     },
-    "inclusion_in_registry_of_cultural_heritage": {
-      "type": "string",
-      "title": "Сведения о включении объекта недвижимости в реестр объектов культурного наследия"
-    },
     "rightholders": {
       "type": "string",
       "title": "Правообладатель (правообладатели)"
     },
+    "location_scheme_of_property_on_land": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
+    },
+    "book_value": {
+      "type": "string",
+      "title": "Балансовая стоимость объекта"
+    },
+    "amortization": {
+      "type": "string",
+      "title": "Аммортизация"
+    },
     "object_location": {
       "type": "string",
       "title": "Район расположения объекта"
+    },
+    "acceptance_to_treasury_data": {
+      "type": "string",
+      "title": "Дата принятия объекта в казну"
+    },
+    "acceptance_to_treasury_basis": {
+      "type": "string",
+      "title": "Основание принятия объекта в казну"
+    },
+    "conteragent": {
+      "type": "string",
+      "title": "Контрагент"
+    },
+    "account": {
+      "type": "string",
+      "title": "Счет учета"
+    },
+    "comments": {
+      "type": "string",
+      "title": "Комментарии"
     },
     "object_is_transferred_to_operational_managment": {
       "type": "string",
@@ -56,6 +82,5 @@
       "type": "string",
       "title": "Безвозмездное пользование"
     }
-  },
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  }
 }
