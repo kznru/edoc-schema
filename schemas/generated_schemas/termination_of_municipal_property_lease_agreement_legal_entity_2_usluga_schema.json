@@ -4,6 +4,10 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
+    "agent_position": {
+      "type": "string",
+      "title": "Должность представителя"
+    },
     "applicant": {
     },
     "agent": {

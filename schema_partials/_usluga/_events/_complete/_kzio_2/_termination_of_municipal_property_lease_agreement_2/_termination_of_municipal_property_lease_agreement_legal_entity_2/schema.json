@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "agent_basis": {
+      "type": "string",
+      "title": "Агент действует на основании"
+    }
+  }
+}

@@ -1,6 +1,32 @@
 {
   "type": "object",
   "properties": {
+    "agent_basis": {
+      "type": "string",
+      "title": "Агент действует на основании"
+    },
+    "first_deputy": {
+      "type": "string",
+      "title": "ФИО первого заместителя председателя Комитета"
+    },
+    "first_deputy_basis": {
+      "type": "string",
+      "title": "Первый заместитель действует на основании"
+    },
+    "property_type": {
+      "type": "string",
+      "title": "Тип помещения",
+      "minItems": 1,
+      "enum": [
+        "жилое",
+        "нежилое"
+      ]
+    },
+    "property_area": {
+      "type": "string",
+      "title": "Площадь помещений",
+      "description": "В квадратных метрах"
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
