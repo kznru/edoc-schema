@@ -4,7 +4,7 @@
   "title": "ФИО",
   "type": "object",
   "properties": {
-    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "ФИО полностью"}
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"}
   },
   "required": ["fio"]
 }
