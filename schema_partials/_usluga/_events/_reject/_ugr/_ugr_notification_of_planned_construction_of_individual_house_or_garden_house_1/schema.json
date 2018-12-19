@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "agent_post_address": {
+      "title": "Почтовый адрес",
+      "type": "string"
+    },
     "reason_parameter_mismatch": {
       "title": "Несоответствии параметров, указанных в Уведомлении",
       "type": "string"
