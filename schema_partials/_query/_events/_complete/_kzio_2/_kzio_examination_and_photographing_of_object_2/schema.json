@@ -1,0 +1,15 @@
+{
+  "type":"object",
+  "required":[],
+  "properties":{
+    "files_with_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "title": "Фото и описание объекта"
+    },
+    "examination_result": {
+      "type": "string",
+      "title": "Информация по результатам обследования"
+    }
+
+  }
+}

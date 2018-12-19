@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "files_with_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "title": "Фото и описание объекта"
+    },
+    "examination_result": {
+      "type": "string",
+      "title": "Информация по результатам обследования"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
