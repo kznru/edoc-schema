@@ -18,10 +18,22 @@
         "нежилое"
       ]
     },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер"
+    },
+    "property_list": {
+      "type": "string",
+      "title": "Перечисление имущества"
+    },
     "property_area": {
       "type": "string",
       "title": "Площадь помещений",
       "description": "В квадратных метрах"
+    },
+    "property_state": {
+      "type": "string",
+      "title": "Состояние помещений"
     }
   }
 }
