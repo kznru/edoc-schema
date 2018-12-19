@@ -3,7 +3,8 @@
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Заявитель"
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
     },
     "applicant_info": {
       "type": "object",
@@ -11,7 +12,8 @@
       "properties": {
         "registration_address": {
           "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-          "title": "Место жительства"
+          "title": "Место жительства",
+          "description": "Адрес проживания"
         },
         "passport": {
           "type": "object",
