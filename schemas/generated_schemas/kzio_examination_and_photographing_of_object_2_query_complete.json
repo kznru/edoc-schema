@@ -5,8 +5,11 @@
   ],
   "properties": {
     "files_with_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
-      "title": "Фото и описание объекта"
+      "type": "array",
+      "title": "Фото и описание объекта",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
+      }
     },
     "examination_result": {
       "type": "string",
