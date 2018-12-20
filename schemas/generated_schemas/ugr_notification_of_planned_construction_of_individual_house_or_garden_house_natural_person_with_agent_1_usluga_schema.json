@@ -2,15 +2,15 @@
   "type": "object",
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "applicant_info": {
@@ -18,7 +18,7 @@
       "title": "Данные заявителя",
       "properties": {
         "registration_address": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+          "$ref": "http://localhost:4000/schemas/location/ru/address_with_map",
           "title": "Место жительства"
         },
         "passport": {
@@ -53,37 +53,37 @@
           "title": "E-mail"
         },
         "passport_scan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Скан паспорта"
         }
       }
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка или кадастрового квартала",
       "description": "Указание кадастрового номера земельного участка (в случае если планируется использование всего земельного участка) или указание  кадастрового квартала (в случае если планируется использование земель или части земельного участка)"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/schemas/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)",
       "description": "Адрес, по которому находится муниципальное имущество"
     },
     "land_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территори"
     },
     "developer_rights": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_with_description",
       "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;",
       "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)"
     },
     "availability_rights_of_other_person": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_with_description",
       "description": "Основные сведения и сканы документов",
       "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)"
     },
     "type_of_permitted_use_of_land": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_with_description",
       "description": "Основные сведения и сканы документов",
       "title": "Сведения о виде разрешенного использования земельного участка"
     },
@@ -132,26 +132,26 @@
       }
     },
     "permission_to_deviate_from_limiting_parameters": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_with_description",
       "description": "Основные сведения и сканы документов",
       "title": "Сведения о решении о предоставлении разрешения на отклонение от предельных параметров разрешенного строительства, реконструкции (при наличии)"
     },
     "typical_architectural_solution": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_with_description",
       "description": "Основные сведения и сканы документов",
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения"
     },
     "schematic_depiction": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схематичное изображение планируемого к строительству или реконструкции объекта капитального строительства на земельном участке",
       "description": "Схема строительства или реконструции объекта"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

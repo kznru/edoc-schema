@@ -9,7 +9,7 @@
       "title": "Описание"
     },
     "files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": " "
     }
   }

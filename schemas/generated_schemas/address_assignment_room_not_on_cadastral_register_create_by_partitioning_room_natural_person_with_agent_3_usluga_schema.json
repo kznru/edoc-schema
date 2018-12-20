@@ -1,22 +1,22 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
       "minItems": 1
     },
     "identification_data_of_rooms": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/identification_data_of_rooms",
       "minItems": 1,
       "maxItems": 1,
       "title": "Данные, идентифицирующие помещение",
@@ -27,7 +27,7 @@
       ]
     },
     "purpose_of_room": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/purpose_of_room",
       "title": "Назначение помещения",
       "description": "Назначение исходного помещения"
     },
@@ -37,19 +37,19 @@
       "description": "Количество образуемых помещений"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://localhost:4000/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Доп. приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
