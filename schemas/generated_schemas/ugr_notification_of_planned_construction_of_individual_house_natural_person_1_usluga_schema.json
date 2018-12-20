@@ -121,7 +121,7 @@
       "description": "Заполняется при наличии такого согласования с УАиГ"
     },
     "typical_architectural_solution": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional",
       "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения"
     },
