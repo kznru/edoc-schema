@@ -1,9 +1,0 @@
-{
-  "type": "object",
-  "properties": {
-    "agent_post_address": {
-      "title": "Почтовый адрес",
-      "type": "string"
-    }
-  }
-}
