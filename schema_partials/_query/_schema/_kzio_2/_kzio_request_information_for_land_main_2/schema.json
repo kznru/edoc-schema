@@ -147,7 +147,7 @@
     },
     "kzio_request_information_for_land_department_leasing_2": {
       "type": "object",
-      "title": "Запрос на сведения о земельном участке (отдел аренды)",
+      "title": "Запрос на сведения о земельном участке (отдел аренды земли)",
       "properties": {
         "cadastre_number": {
           "type": "string",
