@@ -150,7 +150,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
     },
-    "book_value": {
+    "balance_cost": {
       "type": "string",
       "title": "Балансовая стоимость объекта"
     },
@@ -208,11 +208,11 @@
     },
     "inventory_number": {
       "type": "string",
-      "title": "Инвентраный номер"
+      "title": "Инвентарный номер"
     },
     "additional_info": {
       "type": "string",
-      "title": "Дополнитенльная информация"
+      "title": "Дополнительная информация"
     },
     "monument": {
       "type": "string",
@@ -284,7 +284,7 @@
     },
     "into_fixed_capital": {
       "type": "string",
-      "title": "В устаной капитал"
+      "title": "В уставной капитал"
     },
     "encumbrance_limitation": {
       "type": "string",

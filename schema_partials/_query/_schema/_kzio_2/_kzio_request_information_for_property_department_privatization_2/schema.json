@@ -4,7 +4,7 @@
   "properties":{
     "into_fixed_capital": {
       "type": "string",
-      "title": "В устаной капитал"
+      "title": "В уставной капитал"
     },
     "auction_status": {
       "type": "string",

@@ -73,7 +73,7 @@
         "Иное"
       ]
     },
-    "usage_kind": {
+    "other_usage_kind": {
       "title": "Иной вид использования",
       "type": "string"
     }

@@ -44,7 +44,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
     },
-    "book_value": {
+    "balance_cost": {
       "type": "string",
       "title": "Балансовая стоимость объекта"
     },

@@ -28,11 +28,11 @@
     },
     "inventory_number": {
       "type": "string",
-      "title": "Инвентраный номер"
+      "title": "Инвентарный номер"
     },
     "additional_info": {
       "type": "string",
-      "title": "Дополнитенльная информация"
+      "title": "Дополнительная информация"
     },
     "monument": {
       "type": "string",
