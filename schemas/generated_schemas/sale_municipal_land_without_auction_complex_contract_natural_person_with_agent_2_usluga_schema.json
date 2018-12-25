@@ -18,25 +18,19 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
-    "land": {
-      "type": "object",
-      "title": "Земельный участок",
-      "properties": {
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-          "title": "Адрес земельного участка"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка"
-        },
-        "area": {
-          "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-          "title": "Площадь земельного участка",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
-        }
-      }
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь земельного участка",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
