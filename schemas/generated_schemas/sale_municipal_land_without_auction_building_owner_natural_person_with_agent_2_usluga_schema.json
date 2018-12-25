@@ -1,6 +1,6 @@
 {
   "properties": {
-    "applicant": {
+    "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
@@ -16,15 +16,11 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке"
     },
+    "applicant": {
+    },
     "organization": {
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "land": {
       "type": "object",

@@ -5,6 +5,10 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "rights_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"

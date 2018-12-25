@@ -4,14 +4,6 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "applicant": {
-    },
-    "organization": {
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес земельного участка"
@@ -77,6 +69,14 @@
       "title": "Технико - экономическое обоснование"
     },
     "special_zones": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Зоны с особыми условиями использования земель"
+    },
+    "applicant": {
+    },
+    "organization": {
+    },
+    "letter_of_attorney": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
