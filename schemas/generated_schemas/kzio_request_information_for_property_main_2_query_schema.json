@@ -332,16 +332,6 @@
         }
       }
     },
-    "kzio_request_information_for_property_department_leasing_2": {
-      "type": "object",
-      "title": "Запрос на сведения об имуществе (отдел аренды имущества)",
-      "properties": {
-        "gratuitous_use": {
-          "type": "string",
-          "title": "Безвозмездное пользование"
-        }
-      }
-    },
     "kzio_request_information_for_property_department_legal_2": {
       "type": "object",
       "title": "Запрос на сведения об имуществе (юридический отдел)",
