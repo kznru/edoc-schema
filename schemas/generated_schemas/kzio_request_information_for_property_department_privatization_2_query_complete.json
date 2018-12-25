@@ -12,6 +12,10 @@
       "type": "string",
       "title": "Объект выставлен на аукцион"
     },
+    "privatization_forecast_plan": {
+      "type": "string",
+      "title": "Прогнозный план приватизации"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"

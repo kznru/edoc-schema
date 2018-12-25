@@ -445,6 +445,10 @@
         "auction_status": {
           "type": "string",
           "title": "Объект выставлен на аукцион"
+        },
+        "privatization_forecast_plan": {
+          "type": "string",
+          "title": "Прогнозный план приватизации"
         }
       }
     },
