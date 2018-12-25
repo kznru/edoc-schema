@@ -1,4 +1,8 @@
 {
+  "required": [
+    "organization",
+    "land"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -52,8 +56,5 @@
     }
   },
   "type": "object",
-  "required": [
-    "land"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
