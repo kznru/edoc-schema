@@ -1,22 +1,22 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
       "minItems": 1
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер объекта адресации"
     },
@@ -31,19 +31,19 @@
       "description": "Адресный номер объекта адресации, который необходимо аннулировать"
     },
     "address": {
-      "$ref": "http://localhost:4000/location/ru/address",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
