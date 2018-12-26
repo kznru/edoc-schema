@@ -1,5 +1,6 @@
 {
   "type": "object",
+  "required": ["agent", "address_with_map", "purpose", "property_info", "lease_contract", "usage_kind"],
   "properties": {
     "applicant": {},
     "organization": {},

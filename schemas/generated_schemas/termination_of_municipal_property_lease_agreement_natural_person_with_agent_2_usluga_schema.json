@@ -1,4 +1,10 @@
 {
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "address_with_map",
+    "lease_contract_info"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",

@@ -1,6 +1,12 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "agent",
+    "address_with_map",
+    "purpose",
+    "property_info",
+    "name_type",
+    "usage_type"
   ],
   "properties": {
     "organization": {

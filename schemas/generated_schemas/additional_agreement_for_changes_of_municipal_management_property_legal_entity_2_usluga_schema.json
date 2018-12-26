@@ -1,6 +1,11 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "purpose",
+    "property_info"
   ],
   "properties": {
     "organization": {

@@ -1,6 +1,10 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "agent",
+    "address_with_map",
+    "purpose",
+    "property_info"
   ],
   "properties": {
     "organization": {

@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "required": ["land"],
+  "required": ["agent", "address_with_map", "cadastre_number", "area"],
   "properties": {
     "applicant": {},
     "organization": {},

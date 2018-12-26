@@ -51,9 +51,6 @@
       ]
     },
     "years_number": {
-      "title": "Срок использования земельного участка",
-      "description": "Например, «5 лет» или «11 месяцев»",
-      "type": "string"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
@@ -78,6 +75,11 @@
     },
     "letter_of_attorney": {
     },
+    "years": {
+      "title": "Срок использования земельного участка",
+      "description": "Например, «5 лет» или «11 месяцев»",
+      "type": "string"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -88,5 +90,13 @@
     }
   },
   "type": "object",
+  "required": [
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "usage",
+    "years",
+    "area"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

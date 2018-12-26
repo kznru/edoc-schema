@@ -65,5 +65,11 @@
     }
   },
   "type": "object",
+  "required": [
+    "agent",
+    "address_with_map",
+    "purpose",
+    "property_info"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

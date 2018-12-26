@@ -1,6 +1,12 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "area",
+    "land_owner",
+    "allowed_usage_type"
   ],
   "properties": {
     "organization": {

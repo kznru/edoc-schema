@@ -1,6 +1,13 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "usage",
+    "years",
+    "area"
   ],
   "properties": {
     "organization": {
@@ -62,9 +69,6 @@
       ]
     },
     "years_number": {
-      "title": "Срок использования земельного участка",
-      "description": "Например, «5 лет» или «11 месяцев»",
-      "type": "string"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
@@ -84,6 +88,11 @@
       "title": "Зоны с особыми условиями использования земель"
     },
     "applicant": {
+    },
+    "years": {
+      "title": "Срок использования земельного участка",
+      "description": "Например, «5 лет» или «11 месяцев»",
+      "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

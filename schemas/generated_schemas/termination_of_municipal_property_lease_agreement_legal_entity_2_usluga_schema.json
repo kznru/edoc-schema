@@ -1,6 +1,10 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "agent_position",
+    "letter_of_attorney",
+    "address_with_map",
+    "lease_contract_info"
   ],
   "properties": {
     "organization": {

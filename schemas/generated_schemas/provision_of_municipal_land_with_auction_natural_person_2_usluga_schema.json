@@ -47,5 +47,12 @@
     }
   },
   "type": "object",
+  "required": [
+    "agent",
+    "address_with_map",
+    "area",
+    "land_owner",
+    "allowed_usage_type"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

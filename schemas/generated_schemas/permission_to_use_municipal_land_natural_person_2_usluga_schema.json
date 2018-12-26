@@ -56,7 +56,7 @@
         "Зарядные станции (терминалы) для электротранспорта"
       ]
     },
-    "years_number": {
+    "years": {
       "title": "Срок использования земельного участка",
       "description": "Например, «5 лет» или «11 месяцев»",
       "type": "string"
@@ -86,5 +86,13 @@
     }
   },
   "type": "object",
+  "required": [
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "usage",
+    "years",
+    "area"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

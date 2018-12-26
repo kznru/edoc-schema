@@ -1,6 +1,13 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "usage",
+    "years",
+    "area"
   ],
   "properties": {
     "organization": {
@@ -63,7 +70,7 @@
         "Зарядные станции (терминалы) для электротранспорта"
       ]
     },
-    "years_number": {
+    "years": {
       "title": "Срок использования земельного участка",
       "description": "Например, «5 лет» или «11 месяцев»",
       "type": "string"

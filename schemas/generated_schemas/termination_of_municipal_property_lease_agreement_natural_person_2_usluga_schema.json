@@ -40,5 +40,9 @@
     }
   },
   "type": "object",
+  "required": [
+    "address_with_map",
+    "lease_contract_info"
+  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

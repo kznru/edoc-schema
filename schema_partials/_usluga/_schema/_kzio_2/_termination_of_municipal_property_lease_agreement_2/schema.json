@@ -1,5 +1,6 @@
 {
   "type": "object",
+  "required": ["address_with_map", "lease_contract_info"],
   "properties": {
     "applicant": {},
     "organization": {},

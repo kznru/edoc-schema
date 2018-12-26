@@ -1,7 +1,10 @@
 {
   "required": [
     "organization",
-    "land"
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "area"
   ],
   "properties": {
     "organization": {

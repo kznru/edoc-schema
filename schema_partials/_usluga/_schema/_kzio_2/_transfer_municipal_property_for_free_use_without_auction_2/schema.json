@@ -1,5 +1,6 @@
 {
   "type": "object",
+  "required": ["address_with_map", "purpose", "property_info"],
   "properties": {
     "applicant": {},
     "organization": {},
