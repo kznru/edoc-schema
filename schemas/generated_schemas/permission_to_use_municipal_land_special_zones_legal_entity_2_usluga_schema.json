@@ -6,7 +6,7 @@
     "address_with_map",
     "cadastre_number",
     "usage",
-    "years",
+    "usage_period",
     "area"
   ],
   "properties": {
@@ -68,7 +68,10 @@
         "Зарядные станции (терминалы) для электротранспорта"
       ]
     },
-    "years_number": {
+    "usage_period": {
+      "title": "Срок использования земельного участка",
+      "description": "Например, «5 лет» или «11 месяцев»",
+      "type": "string"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
@@ -88,11 +91,6 @@
       "title": "Зоны с особыми условиями использования земель"
     },
     "applicant": {
-    },
-    "years": {
-      "title": "Срок использования земельного участка",
-      "description": "Например, «5 лет» или «11 месяцев»",
-      "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
