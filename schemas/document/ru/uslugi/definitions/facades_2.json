@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades",
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_2",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "array",
   "title": "Фасады",
@@ -23,9 +23,6 @@
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
         "title": "Эскизное предложение",
         "description": ""
-      },
-      "image_project": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
       },
       "facade_elements": {
         "type": "array",
