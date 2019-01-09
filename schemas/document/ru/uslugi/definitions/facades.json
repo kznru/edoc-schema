@@ -24,9 +24,6 @@
         "title": "Эскизное предложение",
         "description": ""
       },
-      "image_project": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
-      },
       "facade_elements": {
         "type": "array",
         "title": "Элементы фасада",
