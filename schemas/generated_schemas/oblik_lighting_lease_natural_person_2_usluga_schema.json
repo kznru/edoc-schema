@@ -1,0 +1,81 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "project": {
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    },
+    "facades_lighting": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
+    },
+    "organization": {
+    },
+    "applicant": {
+    },
+    "letter_of_attorney": {
+    },
+    "object_passport": {
+      "title": "Паспорт объекта",
+      "type": "object",
+      "properties": {
+        "situational_plan": {
+          "title": "Ситуационный план расположения объекта",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "photo": {
+          "title": "Фотофиксация существующего состояния объекта",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "general_plan": {
+          "title": "Генеральный план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "arhitech_construct_drawings": {
+          "title": "Архитектурно-строительные чертежи",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "landscape_visual_analysis": {
+          "title": "Ландшафтно-визуальный анализ",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "arhitechural_lighting_proposal": {
+          "title": "Предложение по архитектурно-художественной подсветке",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        },
+        "rational_funds_allocation_proposal": {
+          "title": "Предложение рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "cadastre_number"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

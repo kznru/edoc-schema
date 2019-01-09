@@ -1,0 +1,20 @@
+{
+  "required": ["passport_bti"],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "project": {},
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "facades": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades"
+    }
+  }
+}

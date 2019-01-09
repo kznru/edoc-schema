@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "project": {},
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    },
+    "facades_lighting": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
+    }
+  }
+}
