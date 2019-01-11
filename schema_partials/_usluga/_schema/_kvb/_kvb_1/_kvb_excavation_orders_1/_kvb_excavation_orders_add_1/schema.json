@@ -174,7 +174,8 @@
       "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)."
     },
     "warranty_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Гарантийное обязательство (5 лет)"
     },
     "interested_party_list": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
