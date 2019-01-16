@@ -101,7 +101,7 @@
         }
       }
     },
-    "initial_state_photo": {
+    "images_before": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотофиксация исходной ситуации"
     },

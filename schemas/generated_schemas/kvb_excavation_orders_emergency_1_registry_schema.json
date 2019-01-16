@@ -25,6 +25,10 @@
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
     },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
     "begin_date": {
       "type": "string",
       "format": "date",

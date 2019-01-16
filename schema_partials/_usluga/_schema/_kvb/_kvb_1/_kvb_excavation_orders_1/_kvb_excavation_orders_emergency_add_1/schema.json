@@ -41,6 +41,10 @@
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
     },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
     "begin_date": {
       "type": "string",
       "format": "date",
@@ -100,10 +104,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность на подписанта",
       "description": "Доверенность подписывать документы от имени Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту "
-    },
-    "initial_state_photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Фотофиксация исходной ситуации"
     },
     "topography_of_networks": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
