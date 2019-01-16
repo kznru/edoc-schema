@@ -8,6 +8,10 @@
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
     },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
     "agent_mobile": {
       "type": "string",
       "title": "Мобильный телефон представителя"
