@@ -173,6 +173,14 @@
       "title": "Договор на благоустройство",
       "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)."
     },
+    "subcontractor_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Выписка из реестра СРО субподрядчика"
+    },
+    "subcontract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор субподряда"
+    },
     "warranty_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Гарантийное обязательство (5 лет)"
