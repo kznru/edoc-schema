@@ -5,12 +5,8 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Заявитель"
     },
     "letter_of_attorney": {
@@ -46,10 +42,6 @@
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
-    },
-    "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Субподрядчик"
     },
     "result_data": {
       "type": "object",

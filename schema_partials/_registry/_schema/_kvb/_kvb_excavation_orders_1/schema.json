@@ -5,30 +5,13 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Заявитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
-    },
-    "confirmations": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
-    },
-    "begin_date": {
-      "type": "string",
-      "format": "date",
-      "title": "Дата начала работ"
-    },
-    "end_date": {
-      "type": "string",
-      "format": "date",
-      "title": "Дата окончания работ"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
@@ -41,6 +24,16 @@
     "images_before": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото до выполнения работ"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
     },
     "customer_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
