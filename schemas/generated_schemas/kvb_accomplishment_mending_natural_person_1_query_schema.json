@@ -1,10 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
