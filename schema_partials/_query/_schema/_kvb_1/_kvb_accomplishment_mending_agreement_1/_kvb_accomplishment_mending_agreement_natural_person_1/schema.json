@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "applicant": {
-      "$ref": "#/definitions/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     }
   }
