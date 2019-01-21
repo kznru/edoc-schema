@@ -34,9 +34,7 @@
     }
   },
   "required": [
-    "district",
-    "organization",
-    "agent_mobile"
+    "district"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
