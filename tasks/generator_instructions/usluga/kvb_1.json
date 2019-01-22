@@ -245,6 +245,14 @@
                   ]
                 },
                 {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_1",
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_1"
+                    }
+                  ]
+                },
+                {
                   "name": "kvb_excavation_orders_delete_1",
                   "virtual": true,
                   "keys": [

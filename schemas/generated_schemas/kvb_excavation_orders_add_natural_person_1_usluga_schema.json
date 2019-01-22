@@ -6,10 +6,18 @@
     },
     "organization": {
     },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту "
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "responsible": {
+    },
+    "letter_of_attorney_responsible": {
     },
     "begin_date": {
       "type": "string",
@@ -26,6 +34,10 @@
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
     },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
     "extra_addresses": {
       "type": "array",
       "title": "Дополнительные адреса",
@@ -33,10 +45,6 @@
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
       }
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
-      "title": "Уточнение адреса или места проведения работ"
     },
     "objects_of_work": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
@@ -64,30 +72,6 @@
       "type": "string",
       "title": "Площадь повреждения газона",
       "description": "Кв. м"
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
-    "customer_responsible": {
-      "type": "object",
-      "properties": {
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО"
-        }
-      },
-      "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
-    },
-    "letter_of_attorney_2": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
-      "title": "Доверенность на подписанта",
-      "description": "Доверенность подписывать документы от имени Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "contractor": {
       "type": "object",
@@ -140,7 +124,7 @@
     "topography_of_placements": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Топосъёмка мест установки",
-      "description": "Топосъемка г.Казани (М 1:500) с обозначением мест установки объектов (временных или постоянных заборов и ограждений, строительных лесов и стационарных вышек, элементов городской инфраструктуры, складирования любых видов материалов, конструкций, оборудования, проект благоустройства территории и т.п.) (с печатью УАиГ) "
+      "description": "Топосъемка г.Казани (М 1:500) с обозначением мест установки объектов (временных или постоянных заборов и ограждений, строительных лесов и стационарных вышек, элементов городской инфраструктуры, складирования любых видов материалов, конструкций, оборудования, проект благоустройства территории и т.п.) (с печатью УАиГ)"
     },
     "contract_for_order": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",

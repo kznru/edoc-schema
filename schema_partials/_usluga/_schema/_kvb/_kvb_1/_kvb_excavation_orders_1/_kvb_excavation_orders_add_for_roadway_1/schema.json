@@ -9,6 +9,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
+    "responsible": {},
+    "letter_of_attorney_responsible": {},
     "begin_date": {
       "type": "string",
       "format": "date",
@@ -23,6 +25,10 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)"
     },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
     "extra_addresses": {
       "type": "array",
       "title": "Дополнительные адреса",
@@ -30,10 +36,6 @@
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
       }
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
-      "title": "Уточнение адреса или места проведения работ"
     },
     "objects_of_work": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
@@ -57,21 +59,6 @@
     "area_of_damage_to_lawn": {
       "type": "string",
       "title": "Площадь повреждения газона"
-    },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
-    "customer_responsible": {
-      "type": "object",
-      "properties": {
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО"
-        }
-      },
-      "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
     },
     "contractor": {
       "type": "object",

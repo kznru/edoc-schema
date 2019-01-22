@@ -8,7 +8,7 @@
         "registry_key": "kvb_excavation_orders_1"
       },
       "title": "Ордер для продления",
-      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается "
+      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
     },
     "end_date": {
       "type": "string",
@@ -19,45 +19,17 @@
     "explanation_reason": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Объяснение причины",
-      "description": "Письмо от Заказчика с объяснением причин продления сроков ордера "
+      "description": "Письмо с объяснением причин продления сроков ордера"
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ",
-      "description": "График невыполненных работ на объекте на новый период "
+      "description": "График невыполненных работ на объекте на новый период"
     },
     "drawing": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Рабочий чертеж на проводимые  работы",
+      "title": "Рабочий чертеж на проводимые работы",
       "description": "С указанием выполненных и незавершенных работ"
-    },
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
-    },
-    "customer_responsible": {
-      "type": "object",
-      "properties": {
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО"
-        }
-      },
-      "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
-    },
-    "letter_of_attorney_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
-      "title": "Доверенность на подписанта",
-      "description": "Доверенность подписывать документы от имени Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту "
     }
   }
 }
