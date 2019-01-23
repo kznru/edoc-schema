@@ -1,7 +1,6 @@
 {
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+    "agent": {
       "title": "Заявитель"
     }
   }

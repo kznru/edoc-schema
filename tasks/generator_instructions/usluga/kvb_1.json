@@ -205,6 +205,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_add_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -217,6 +220,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_add_for_roadway_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -229,6 +235,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_emergency_add_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -241,6 +250,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_prolong_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -261,6 +273,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_delete_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -273,6 +288,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -285,6 +303,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_emergency_delete_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_natural_person_with_agent_1"
                     }
                   ]
                 },
@@ -297,6 +318,9 @@
                     },
                     {
                       "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_with_agent_1"
                     }
                   ]
                 }

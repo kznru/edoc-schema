@@ -1,15 +1,13 @@
 {
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+    "agent": {
       "title": "Заявитель",
-      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
+      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
     "organization": {
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
+    "applicant": {
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
