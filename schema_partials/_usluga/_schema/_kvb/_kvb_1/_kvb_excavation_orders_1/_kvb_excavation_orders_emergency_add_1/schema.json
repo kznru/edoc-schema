@@ -1,5 +1,6 @@
 {
   "required": [
+    "contractor"
   ],
   "properties": {
     "organization": {},
