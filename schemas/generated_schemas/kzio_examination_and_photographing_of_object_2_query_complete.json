@@ -4,16 +4,13 @@
 
   ],
   "properties": {
-    "files_with_description": {
-      "type": "array",
-      "title": "Фото и описание объекта",
-      "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
-      }
-    },
     "examination_result": {
       "type": "string",
       "title": "Информация по результатам обследования"
+    },
+    "photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": "Фотографии"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
