@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта",
+      "description": "Адрес объекта"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "string"
+    },
+    "town_planning_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
+      "title": "Градостроительное заключение"
+    }
+  }
+}
