@@ -17,9 +17,17 @@
       "description": "Укажите новую дату окончания работ"
     },
     "explanation_reason": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Объяснение причины",
-      "description": "Письмо с объяснением причин продления сроков ордера"
+      "type": "object",
+      "properties": {
+        "files": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Письмо с объяснением причин продления сроков ордера"
+        },
+        "reason": {
+          "title": "Объяснение причины",
+          "type": "string"
+        }
+      }
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
