@@ -1,4 +1,8 @@
 {
+  "required": [
+    "responsible",
+    "contractor"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -198,9 +202,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-    "contractor"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
