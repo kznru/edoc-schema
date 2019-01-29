@@ -35,10 +35,6 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
