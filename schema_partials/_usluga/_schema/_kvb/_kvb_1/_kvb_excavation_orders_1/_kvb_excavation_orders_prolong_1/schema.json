@@ -18,6 +18,7 @@
     },
     "explanation_reason": {
       "type": "object",
+      "title": "Причина продления",
       "properties": {
         "files": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
