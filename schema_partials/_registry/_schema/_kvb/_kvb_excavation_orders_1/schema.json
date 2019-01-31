@@ -7,11 +7,11 @@
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Заявитель (ЮЛ, ИП)"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
+      "title": "Заявитель (физ. лицо)"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
