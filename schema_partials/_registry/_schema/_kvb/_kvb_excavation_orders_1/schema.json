@@ -5,9 +5,17 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Заявитель"
+      "title": "Представитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
@@ -35,17 +43,52 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
+    "contractor_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    },
     "subcontractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
+    },
+    "subcontractor_responsible": {
+      "type": "array",
+      "title": "Ответственный производитель работ со стороны субподрядчика",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+      }
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона",
+      "description": "Кв. м"
     },
     "result_data": {
       "type": "object",
@@ -179,14 +222,6 @@
         "response_text": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
           "title": "Информация для заявителя"
-        },
-        "attachments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-          "title": "Приложение"
-        },
-        "comments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-          "title": "Комментарии"
         }
       }
     }
