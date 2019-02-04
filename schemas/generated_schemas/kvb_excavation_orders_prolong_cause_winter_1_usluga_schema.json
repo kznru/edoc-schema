@@ -22,11 +22,11 @@
       "title": "Фотографии места производства работ, подтверждающие частичное восстановление наружного благоустройства"
     },
     "certificate_of_acceptance_intermediate": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт промежуточной приёмки"
     },
     "certificate_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Заключение специализированной лаборатории о контроле качества уплотнения восстановленного дорожного покрытия (в случае производства работ на проезжей части)"
     },
     "attachments": {
