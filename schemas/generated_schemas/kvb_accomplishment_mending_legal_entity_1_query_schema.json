@@ -10,6 +10,10 @@
     "images_before": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото до выполнения работ"
+    },
+    "images_after": {
+      "title": "Фото после выполнения работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"

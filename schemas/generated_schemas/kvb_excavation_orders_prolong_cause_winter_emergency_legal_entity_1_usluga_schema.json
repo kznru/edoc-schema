@@ -5,7 +5,7 @@
     "certificate_of_acceptance_intermediate",
     "registry_item",
     "end_date",
-    "images_intermediate"
+    "images_after"
   ],
   "properties": {
     "registry_item": {
@@ -36,7 +36,7 @@
       "title": "Дата окончания работ",
       "description": "Укажите новую дату окончания работ"
     },
-    "images_intermediate": {
+    "images_after": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фотографии места производства работ, подтверждающие частичное восстановление наружного благоустройства"
     },
