@@ -1,9 +1,17 @@
 {
+  "required": [
+    "organization",
+    "letter_of_attorney"
+  ],
   "properties": {
     "registry_item": {},
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     }
   }
 }

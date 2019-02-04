@@ -1,4 +1,7 @@
 {
+  "required": [
+    "agent"
+  ],
   "properties": {
     "registry_item": {},
     "agent": {

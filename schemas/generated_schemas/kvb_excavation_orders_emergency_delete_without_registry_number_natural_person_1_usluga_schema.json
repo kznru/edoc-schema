@@ -1,4 +1,10 @@
 {
+  "required": [
+    "agent",
+    "registry_item",
+    "address_with_map",
+    "images_after"
+  ],
   "properties": {
     "registry_item": {
       "type": "string",
@@ -13,15 +19,13 @@
     "organization": {
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
     },
-    "photo_from_work_locations": {
+    "images_after": {
       "title": "Фотографии мест работ",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
     },
@@ -48,9 +52,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

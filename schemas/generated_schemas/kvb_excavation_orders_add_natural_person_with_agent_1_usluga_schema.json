@@ -1,19 +1,30 @@
 {
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "contractor",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "address_comments",
+    "objects_of_work",
+    "objects_of_work_comments",
+    "images_before"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "organization": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "begin_date": {
       "type": "string",
@@ -181,9 +192,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-    "contractor"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

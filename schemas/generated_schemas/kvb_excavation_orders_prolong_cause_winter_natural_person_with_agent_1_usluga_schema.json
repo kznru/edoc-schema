@@ -1,0 +1,65 @@
+{
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "registry_item",
+    "certificate_of_acceptance_intermediate",
+    "end_date",
+    "explanation_reason",
+    "images_intermediate"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_emergency_1"
+      },
+      "title": "Ордер для продления",
+      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "organization": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ",
+      "description": "Укажите новую дату окончания работ"
+    },
+    "images_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фотографии места производства работ, подтверждающие частичное восстановление наружного благоустройства"
+    },
+    "certificate_of_acceptance_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Акт промежуточной приёмки"
+    },
+    "certificate_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключение специализированной лаборатории о контроле качества уплотнения восстановленного дорожного покрытия (в случае производства работ на проезжей части)"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

@@ -1,4 +1,16 @@
 {
+  "required": [
+    "agent",
+    "zrik",
+    "contractor",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "address_comments",
+    "objects_of_work",
+    "objects_of_work_comments",
+    "images_before"
+  ],
   "properties": {
     "agent": {
       "title": "Заявитель",
@@ -9,8 +21,6 @@
     "applicant": {
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "begin_date": {
       "type": "string",
@@ -173,10 +183,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-    "zrik",
-    "contractor"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

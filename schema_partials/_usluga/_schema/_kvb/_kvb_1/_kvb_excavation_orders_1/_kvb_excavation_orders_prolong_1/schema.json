@@ -1,5 +1,8 @@
 {
   "required": [
+    "registry_item",
+    "end_date",
+    "explanation_reason"
   ],
   "properties": {
     "registry_item": {
@@ -10,6 +13,10 @@
       "title": "Ордер для продления",
       "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
     },
+    "applicant": {},
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
     "end_date": {
       "type": "string",
       "format": "date",

@@ -1,16 +1,19 @@
 {
   "required": [
-    "contractor"
+    "contractor",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "address_comments",
+    "objects_of_work",
+    "objects_of_work_comments",
+    "images_before"
   ],
   "properties": {
     "organization": {},
     "applicant": {},
     "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
-    },
+    "letter_of_attorney": {},
     "begin_date": {
       "type": "string",
       "format": "date",

@@ -29,6 +29,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото до выполнения работ"
     },
+    "images_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото при продлении работ"
+    },
     "images_after": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото после выполнения работ"

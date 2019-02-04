@@ -1,9 +1,18 @@
 {
+  "required": [
+    "applicant",
+    "letter_of_attorney"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель",
       "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     }
   }
 }

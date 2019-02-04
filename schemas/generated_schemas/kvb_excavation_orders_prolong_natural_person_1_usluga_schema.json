@@ -1,4 +1,10 @@
 {
+  "required": [
+    "agent",
+    "registry_item",
+    "end_date",
+    "explanation_reason"
+  ],
   "properties": {
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
@@ -11,6 +17,12 @@
     "agent": {
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+    },
+    "applicant": {
+    },
+    "organization": {
+    },
+    "letter_of_attorney": {
     },
     "end_date": {
       "type": "string",
@@ -53,9 +65,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

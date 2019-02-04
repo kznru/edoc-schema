@@ -258,9 +258,31 @@
                 },
                 {
                   "name": "kvb_excavation_orders_prolong_cause_winter_1",
+                  "virtual": true,
                   "keys": [
                     {
-                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_1"
+                      "name": "kvb_excavation_orders_prolong_cause_winter_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_emergency_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_1"
                     }
                   ]
                 },
