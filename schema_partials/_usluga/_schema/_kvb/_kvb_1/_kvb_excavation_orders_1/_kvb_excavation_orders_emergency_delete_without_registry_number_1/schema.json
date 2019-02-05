@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "registry_item",
     "address_with_map",
     "images_after"

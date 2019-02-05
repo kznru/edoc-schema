@@ -2,6 +2,7 @@
   "required": [
     "applicant",
     "letter_of_attorney",
+    "agent",
     "zrik",
     "contractor",
     "begin_date",

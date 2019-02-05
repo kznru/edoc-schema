@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "registry_item",
     "certificate_of_acceptance_intermediate",
     "end_date",

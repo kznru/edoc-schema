@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "contractor",
     "organization",
     "address_with_map",

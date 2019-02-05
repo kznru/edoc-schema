@@ -2,6 +2,7 @@
   "required": [
     "applicant",
     "letter_of_attorney",
+    "agent",
     "contractor",
     "organization",
     "address_with_map",

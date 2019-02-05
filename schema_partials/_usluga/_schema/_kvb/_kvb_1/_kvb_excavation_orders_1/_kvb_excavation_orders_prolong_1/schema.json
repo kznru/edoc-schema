@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "registry_item",
     "end_date",
     "explanation_reason"

@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "zrik",
     "contractor",
     "begin_date",

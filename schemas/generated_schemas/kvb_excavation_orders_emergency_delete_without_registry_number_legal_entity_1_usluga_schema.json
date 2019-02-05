@@ -2,6 +2,7 @@
   "required": [
     "organization",
     "letter_of_attorney",
+    "agent",
     "registry_item",
     "address_with_map",
     "images_after"

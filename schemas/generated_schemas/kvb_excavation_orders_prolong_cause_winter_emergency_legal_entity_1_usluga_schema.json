@@ -2,6 +2,7 @@
   "required": [
     "organization",
     "letter_of_attorney",
+    "agent",
     "certificate_of_acceptance_intermediate",
     "registry_item",
     "end_date",

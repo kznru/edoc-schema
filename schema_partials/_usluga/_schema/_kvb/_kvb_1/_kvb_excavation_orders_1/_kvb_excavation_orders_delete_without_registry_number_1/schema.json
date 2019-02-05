@@ -1,5 +1,6 @@
 {
   "required": [
+    "agent",
     "registry_item",
     "images_after"
   ],
