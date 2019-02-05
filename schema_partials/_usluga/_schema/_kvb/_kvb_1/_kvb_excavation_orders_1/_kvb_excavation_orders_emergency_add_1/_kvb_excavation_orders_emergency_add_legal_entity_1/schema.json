@@ -11,6 +11,7 @@
       "title": "Заявитель",
       "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
     },
+    "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность на представителя",
