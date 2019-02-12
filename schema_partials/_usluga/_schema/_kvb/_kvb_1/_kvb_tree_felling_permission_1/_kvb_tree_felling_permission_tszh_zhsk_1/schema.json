@@ -1,5 +1,10 @@
 {
-  "required": [],
+  "required": [
+    "organization",
+    "letter_of_attorney",
+    "cadastre_number",
+    "land_documents"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

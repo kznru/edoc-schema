@@ -1,5 +1,10 @@
 {
-  "required": [],
+  "required": [
+    "letter_of_attorney",
+    "applicant_position",
+    "cadastre_number",
+    "land_documents"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
