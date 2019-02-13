@@ -1,0 +1,20 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "advertising_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "advertising_insertion_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "advertising_insertion_nonresidental_owner_legal_entity_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
