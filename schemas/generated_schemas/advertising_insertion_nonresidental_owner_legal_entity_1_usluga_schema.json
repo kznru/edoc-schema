@@ -11,7 +11,12 @@
     "owner",
     "property_right_document",
     "end_date",
-    "lease_contract_info"
+    "lease_contract_info",
+    "address_with_map",
+    "topographic_plan",
+    "construction_type",
+    "construction_area",
+    "state_duty"
   ],
   "properties": {
     "organization": {
@@ -130,6 +135,37 @@
       "title": "Срок действия разрешения"
     },
     "lease_contract_info": {
+      "type": "object",
+      "title": "Сведения об оплате государственной пошлины",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер документа, подтверждающего оплату государственной пошлины"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата документа, подтверждающего оплату государственной пошлины"
+        }
+      }
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес предполагаемого места установки"
+    },
+    "construction_type": {
+      "type": "string",
+      "title": "Тип рекламной конструкции",
+      "enum": [
+
+      ]
+    },
+    "construction_area": {
+      "type": "string",
+      "title": "Площадь информационного поля",
+      "description": "Указывается площадь информационного поля, кв.м"
+    },
+    "state_duty": {
       "type": "object",
       "title": "Сведения об оплате государственной пошлины",
       "properties": {

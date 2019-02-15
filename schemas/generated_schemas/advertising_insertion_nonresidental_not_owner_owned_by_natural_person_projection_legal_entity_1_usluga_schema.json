@@ -1,0 +1,78 @@
+{
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "address_with_map",
+    "topographic_plan",
+    "construction_type",
+    "construction_area",
+    "construction_graphic_design",
+    "state_duty"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес предполагаемого места установки"
+    },
+    "topographic_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": "Топографический план местности",
+      "description": "Подкрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции на здании, сооружении."
+    },
+    "construction_type": {
+      "type": "string",
+      "title": "Тип рекламной конструкции",
+      "enum": [
+
+      ]
+    },
+    "construction_area": {
+      "type": "string",
+      "title": "Площадь информационного поля",
+      "description": "Указывается площадь информационного поля, кв.м"
+    },
+    "construction_graphic_design": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": "Графическое изображение конструкции",
+      "description": "Подкрепляется скан чертежа фасада здания, сооружения в ортогональной проекции, на котором предполагается размещение рекламной конструкции, выполненной в масштабе, с указанием точного места размещения рекламной конструкции. Рекомендуемые масштабы:   М 1:100, М 1:150, М 1:200, М1:250 (допускается уменьшение масштаба при размещении рекламных конструкций на крупногабаритных зданиях, сооружениях). На чертеже необходимо указать: -высотные отметки здания, сооружения;-высотные отметки, определяющие место размещения рекламной конструкции на фасаде;-габаритные размеры рекламной конструкции, м;-расстояние от рекламной конструкции до границ фасада;-месторасположение маркировки. Чертеж маркировки необходимо выполнить с соблюдением пропорций; указанием ее габаритных размеров, используемых материалов, а также необходимой информации (владелец рекламной конструкции, контактный телефон, номер разрешения на установку и эксплуатацию рекламной конструкции)."
+    },
+    "state_duty": {
+      "type": "object",
+      "title": "Сведения об оплате государственной пошлины",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер документа, подтверждающего оплату государственной пошлины"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата документа, подтверждающего оплату государственной пошлины"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
