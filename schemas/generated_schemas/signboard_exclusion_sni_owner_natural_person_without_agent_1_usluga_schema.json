@@ -1,4 +1,7 @@
 {
+  "required": [
+    "agent"
+  ],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

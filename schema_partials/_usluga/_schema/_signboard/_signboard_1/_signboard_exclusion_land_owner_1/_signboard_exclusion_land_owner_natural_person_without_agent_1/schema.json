@@ -1,4 +1,7 @@
 {
+  "required": [
+    "agent"
+  ],
   "properties": {
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",

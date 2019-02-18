@@ -2,7 +2,8 @@
   "required": [
     "address_with_map",
     "text",
-    "organization"
+    "organization",
+    "agent"
   ],
   "properties": {
     "address_with_map": {

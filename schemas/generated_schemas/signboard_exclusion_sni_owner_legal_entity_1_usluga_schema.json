@@ -1,6 +1,7 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "agent"
   ],
   "properties": {
     "organization": {
