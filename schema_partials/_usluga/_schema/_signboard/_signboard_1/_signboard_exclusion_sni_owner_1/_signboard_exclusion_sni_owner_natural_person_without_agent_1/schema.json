@@ -1,6 +1,5 @@
 {
   "properties": {
-    "address_with_map": {},
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Собственник конструкции"

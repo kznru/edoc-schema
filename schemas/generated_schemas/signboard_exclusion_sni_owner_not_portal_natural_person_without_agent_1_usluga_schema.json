@@ -1,16 +1,12 @@
 {
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Собственник конструкции"
     },
     "text": {
-      "type": "string",
-      "title": "Текст вывески"
     },
     "previous_registry_item": {
       "type": "string",
@@ -25,10 +21,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "text"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

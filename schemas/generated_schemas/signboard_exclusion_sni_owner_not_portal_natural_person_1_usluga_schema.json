@@ -1,8 +1,6 @@
 {
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -18,8 +16,6 @@
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "text": {
-      "type": "string",
-      "title": "Текст вывески"
     },
     "previous_registry_item": {
       "type": "string",
@@ -34,10 +30,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "text"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

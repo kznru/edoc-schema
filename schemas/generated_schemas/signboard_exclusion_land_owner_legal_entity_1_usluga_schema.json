@@ -5,10 +5,6 @@
     "text"
   ],
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
-    },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
@@ -35,6 +31,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
     },
     "text": {
       "type": "string",

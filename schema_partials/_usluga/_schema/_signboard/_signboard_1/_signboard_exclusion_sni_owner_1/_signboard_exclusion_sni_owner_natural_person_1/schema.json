@@ -1,6 +1,5 @@
 {
   "properties": {
-    "address_with_map": {},
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник конструкции"

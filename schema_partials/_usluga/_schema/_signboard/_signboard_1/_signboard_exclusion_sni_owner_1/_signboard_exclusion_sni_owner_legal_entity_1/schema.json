@@ -1,7 +1,6 @@
 {
   "required": ["organization"],
   "properties": {
-    "address_with_map": {},
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник конструкции"

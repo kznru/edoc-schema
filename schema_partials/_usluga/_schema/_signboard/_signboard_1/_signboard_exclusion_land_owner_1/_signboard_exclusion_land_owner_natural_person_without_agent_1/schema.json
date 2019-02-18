@@ -1,6 +1,5 @@
 {
   "properties": {
-    "address_with_map": {},
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",

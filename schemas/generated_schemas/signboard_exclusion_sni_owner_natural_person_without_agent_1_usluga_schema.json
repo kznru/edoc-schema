@@ -1,9 +1,5 @@
 {
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Собственник конструкции"
@@ -11,10 +7,6 @@
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
       "title": "Запись о проекте размещения СНИ для исключения"
-    },
-    "text": {
-      "type": "string",
-      "title": "Текст вывески"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -25,10 +17,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "text"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
