@@ -22,10 +22,6 @@
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
-    "text": {
-      "type": "string",
-      "title": "Текст вывески"
-    },
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
       "title": "Запись о проекте размещения СНИ для исключения"
@@ -34,6 +30,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
