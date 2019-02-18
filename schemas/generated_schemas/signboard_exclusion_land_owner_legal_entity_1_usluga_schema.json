@@ -1,8 +1,6 @@
 {
   "required": [
-    "organization",
-    "address_with_map",
-    "text"
+    "organization"
   ],
   "properties": {
     "cadastre_number": {
@@ -31,14 +29,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
-    },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
-    },
-    "text": {
-      "type": "string",
-      "title": "Текст вывески"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

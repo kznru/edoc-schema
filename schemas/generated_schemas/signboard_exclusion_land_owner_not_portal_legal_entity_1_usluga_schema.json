@@ -1,8 +1,8 @@
 {
   "required": [
-    "organization",
     "address_with_map",
-    "text"
+    "text",
+    "organization"
   ],
   "properties": {
     "address_with_map": {

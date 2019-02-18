@@ -1,4 +1,10 @@
 {
+  "required": [
+    "address_with_map",
+    "text",
+    "applicant",
+    "agent"
+  ],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
@@ -44,10 +50,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "text"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
