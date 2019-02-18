@@ -14,6 +14,10 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
     "image_original": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
       "title": "Фотофиксация исходной ситуации",
