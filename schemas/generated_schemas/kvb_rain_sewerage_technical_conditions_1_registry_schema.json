@@ -25,6 +25,15 @@
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Дополнительное описание адреса"
     },
+    "object_type": {
+      "title": "Тип объекта",
+      "type": "string"
+    },
+    "issue_date": {
+      "title": "Дата выдачи",
+      "type": "string",
+      "format": "date"
+    },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер"
@@ -73,14 +82,6 @@
       "response_text": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
         "title": "Информация для заявителя"
-      },
-      "attachments": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-        "title": "Приложение"
-      },
-      "comments": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-        "title": "Комментарии"
       }
     }
   }

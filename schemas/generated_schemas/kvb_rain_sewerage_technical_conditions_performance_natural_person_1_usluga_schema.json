@@ -15,6 +15,10 @@
         }
       }
     },
+    "object_type": {
+      "title": "Тип объекта",
+      "type": "string"
+    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"

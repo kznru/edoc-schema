@@ -15,6 +15,10 @@
         }
       }
     },
+    "object_type": {
+      "title": "Тип объекта",
+      "type": "string"
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
