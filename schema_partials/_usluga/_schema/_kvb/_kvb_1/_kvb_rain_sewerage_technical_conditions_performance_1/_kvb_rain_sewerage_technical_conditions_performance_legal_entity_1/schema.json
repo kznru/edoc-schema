@@ -15,8 +15,8 @@
         }
       }
     },
-    "object_type": {
-      "title": "Тип объекта",
+    "object_name": {
+      "title": "Наименование объекта",
       "type": "string"
     },
     "organization": {
