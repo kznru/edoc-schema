@@ -78,10 +78,31 @@
         }
       }
     },
-    "result_data": {
-      "response_text": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
-        "title": "Информация для заявителя"
+
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
+      "title": "Информация для заявителя"
+    },
+    "data_of_references": {
+      "title": "Данные о выданных справках",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "issued_at": {
+            "type": "string",
+            "format": "date",
+            "title": "Дата получения"
+          },
+          "usluga_number": {
+            "type": "string",
+            "title": "Номер услуги"
+          },
+          "result_data": {
+            "type": "string",
+            "title": "Результат услуги по выдаче справки"
+          }
+        }
       }
     }
   }
