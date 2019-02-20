@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Выданная справка о выполнении технических условий на отвод ливневых и талых вод",
+  "type": "object",
+  "properties": {
+    "object_name":{"type":"string", "title":"Наименование объекта"},
+    "address_with_map":{"$ref":"#/definitions/location/ru/address_with_map", "title":"Адрес объекта"},
+    "organization":{"$ref":"#/definitions/organization/ru/organization", "title":"Застройщик-заказчик"},
+    "works_done":{"title":"Работы по строительству сетей ливневой канализации объекта выполнены", "type":"boolean"},
+    "notes":{"type":"string", "title":"Заключения и предложения"},
+    "response_text":{"$ref":"#/definitions/document/ru/uslugi/definitions/response_text"},
+    "response_files":{"$ref":"#/definitions/document/ru/uslugi/definitions/attachments", "title":"Файлы для заявителя"},
+    "comments":{"$ref":"#/definitions/document/ru/uslugi/definitions/comments", "title":"Комментарии"},
+    "attachments":{"$ref":"#/definitions/document/ru/uslugi/definitions/attachments", "title":"Дополнительные приложения"}
+  }
+}
