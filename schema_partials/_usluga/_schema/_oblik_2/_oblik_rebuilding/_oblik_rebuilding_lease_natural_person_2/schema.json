@@ -1,0 +1,14 @@
+{
+  "required": [
+    "lease_contracts"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "lease_contracts": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
+      "title": "Договора аренды"
+    }
+  }
+}

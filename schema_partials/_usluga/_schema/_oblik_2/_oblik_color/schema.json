@@ -1,0 +1,12 @@
+{
+  "required": [
+    "passport_bti"
+  ],
+  "properties": {
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": [
+    "arhitechural_lighting_proposal"
+  ],
+  "properties": {
+    "arhitechural_lighting_proposal": {
+      "title": "Предложение по архитектурно-художественной подсветке",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}

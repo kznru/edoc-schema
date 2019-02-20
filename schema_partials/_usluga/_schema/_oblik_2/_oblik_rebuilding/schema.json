@@ -1,0 +1,17 @@
+{
+  "required": [
+    "passport_bti",
+    "non_capital_conclusion"
+  ],
+  "properties": {
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "non_capital_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключение о некапитальности объекта, выданное организацией, имеющей допуск к видам работ, связанным с проведением строительно-технической экспертизы проектов"
+    }
+  }
+}

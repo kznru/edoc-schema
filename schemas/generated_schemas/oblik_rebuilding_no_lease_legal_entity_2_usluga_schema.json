@@ -1,21 +1,40 @@
 {
   "required": [
+    "organization",
+    "letter_of_attorney",
     "passport_bti",
-    "cadastre_number"
+    "non_capital_conclusion",
+    "cadastre_number",
+    "address_with_map",
+    "agent",
+    "planeta_number",
+    "explanatory_note",
+    "sketch_offer"
   ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "non_capital_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключение о некапитальности объекта, выданное организацией, имеющей допуск к видам работ, связанным с проведением строительно-технической экспертизы проектов"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "applicant": {
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -28,49 +47,52 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
-    "project": {
+    "explanatory_note": {
+      "type": "array",
+      "title": "Пояснительная записка",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "title": "Описание проектируемого объекта",
+            "description": "Кратко описываются планируемые работы. Например: покраска, облицовка, замена дверных и оконных блоков ..."
+          },
+          "material": {
+            "type": "string",
+            "title": "Материал"
+          },
+          "color": {
+            "type": "string",
+            "title": "Описание цвета (с указанием системы: RAL, NCS и т.п.)"
+          }
+        }
+      }
     },
-    "passport_bti": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
-      "title": "Паспорт БТИ",
-      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
-    },
-    "facades": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades"
-    },
-    "applicant": {
-    },
-    "object_passport": {
-      "title": "Паспорт объекта",
-      "type": "object",
-      "properties": {
-        "situational_plan": {
-          "title": "Ситуационный план расположения объекта",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "photo": {
-          "title": "Фотофиксация существующего состояния объекта",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "general_plan": {
-          "title": "Генеральный план",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "arhitech_construct_drawings": {
-          "title": "Архитектурно-строительные чертежи",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "landscape_visual_analysis": {
-          "title": "Ландшафтно-визуальный анализ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "arhitechural_lighting_proposal": {
-          "title": "Предложение по архитектурно-художественной подсветке",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        },
-        "rational_funds_allocation_proposal": {
-          "title": "Предложение рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    "sketch_offer": {
+      "type": "array",
+      "title": "Эскизное предложение",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "facades": {
+            "type": "string",
+            "title": "Фасады"
+          },
+          "facade_type": {
+            "type": "string",
+            "title": "Тип фасада",
+            "enum": [
+              "главный",
+              "левый",
+              "правый",
+              "боковой",
+              "дворовой",
+              "иное"
+            ]
+          }
         }
       }
     },

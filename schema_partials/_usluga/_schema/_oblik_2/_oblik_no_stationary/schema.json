@@ -1,0 +1,16 @@
+{
+  "required": [
+    "general_plan",
+    "landscape_visual_analysis"
+  ],
+  "properties": {
+    "general_plan": {
+      "title": "Генеральный план",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "landscape_visual_analysis": {
+      "title": "Ландшафтно-визуальный анализ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}
