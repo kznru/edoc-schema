@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": ["district"],
+  "properties": {
+    "images_after": {
+      "title": "Фото после выполнения работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
+    }
+  }
+}
