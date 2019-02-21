@@ -1,6 +1,6 @@
 {
   "required": [
-    "reason",
+    "admin_document",
     "organization",
     "agent",
     "letter_of_attorney",
@@ -8,18 +8,7 @@
     "purpose"
   ],
   "properties": {
-    "reason": {
-      "title": "Основание для передачи муниципального имущества",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "enum": [
-          "Вновь построенный, реконструированный объект недвижимости",
-          "Служебная необходимость",
-          "Выявленное имущество"
-        ]
-      },
-      "uniqueItems": true
+    "admin_document": {
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -88,7 +77,7 @@
       "type": "string",
       "description": "Конкретная цель использования объекта"
     },
-    "admin_document": {
+    "reason": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
