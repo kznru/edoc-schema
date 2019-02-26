@@ -8,8 +8,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -18,29 +16,23 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
-    "photo_from_work_locations": {
+    "applicant": {
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "images_after": {
       "title": "Фотографии мест работ",
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "properties": {
-          "address_with_map": {
-            "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-          },
-          "images_after": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
-            "title": "Фото после выполнения работ"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
     },
     "certificate_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Заключение о контроле качества"
     },
     "certificate_of_acceptance_intermediate": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт промежуточной приёмки"
     },
     "certificate_of_acceptance": {
@@ -49,7 +41,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
+      "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
@@ -59,7 +51,9 @@
     }
   },
   "required": [
-
+    "agent",
+    "registry_item",
+    "images_after"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

@@ -1,0 +1,15 @@
+{
+  "required": [
+    "rational_funds_allocation_proposal"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "applicant": {},
+    "letter_of_attorney": {},
+    "non_capital_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Предложение рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
+    }
+  }
+}

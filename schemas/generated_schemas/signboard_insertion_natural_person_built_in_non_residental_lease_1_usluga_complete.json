@@ -3,15 +3,6 @@
     "usluga_complete_servant_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usluga_complete_servant_note"
     },
-    "map_editor_number": {
-      "type": "string",
-      "title": "Номер в MapEditor"
-    },
-    "map_editor_date": {
-      "type": "string",
-      "format": "date",
-      "title": "Дата в MapEditor"
-    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -25,7 +16,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     }
   },
   "type": "object"

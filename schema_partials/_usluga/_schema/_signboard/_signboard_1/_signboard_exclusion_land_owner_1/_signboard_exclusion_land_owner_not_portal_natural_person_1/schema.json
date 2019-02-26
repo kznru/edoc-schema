@@ -1,6 +1,15 @@
 {
+  "required": [
+    "address_with_map",
+    "text",
+    "applicant",
+    "agent"
+  ],
   "properties": {
-    "address_with_map": {},
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
+    },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
@@ -18,7 +27,10 @@
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
-    "text": {},
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
     "previous_registry_item": {
       "type": "string",
       "title": "Информация об исключаемом проекте размещения СНИ"

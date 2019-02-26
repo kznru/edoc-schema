@@ -1,8 +1,18 @@
 {
+  "required": ["reason"],
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+    "reason": {
+      "title": "Основание для передачи муниципального имущества",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Вновь построенный, реконструированный объект недвижимости",
+          "Служебная необходимость",
+          "Выявленное имущество"
+        ]
+      },
+      "uniqueItems": true
     }
   }
 }

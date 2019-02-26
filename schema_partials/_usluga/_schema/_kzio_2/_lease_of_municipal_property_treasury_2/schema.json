@@ -1,13 +1,11 @@
 {
   "type": "object",
+  "required": ["agent", "address_with_map", "property_info", "lease_contract", "usage_kind"],
   "properties": {
     "applicant": {},
     "organization": {},
     "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
+    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)",
@@ -73,7 +71,7 @@
         "Иное"
       ]
     },
-    "usage_kind": {
+    "other_usage_kind": {
       "title": "Иной вид использования",
       "type": "string"
     }

@@ -1,16 +1,24 @@
 {
   "type": "object",
-  "required": ["district", "organization", "agent_mobile"],
+  "required": ["district"],
   "properties": {
+    "passport_name": {
+      "type": "string",
+      "title": "Название услуги"
+    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
     },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "images_after": {
+      "title": "Фото после выполнения работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
     },
     "agent_mobile": {
       "type": "string",

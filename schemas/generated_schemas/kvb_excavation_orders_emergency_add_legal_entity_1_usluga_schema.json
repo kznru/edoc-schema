@@ -1,21 +1,32 @@
 {
+  "required": [
+    "responsible",
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "contractor",
+    "address_with_map",
+    "images_before",
+    "begin_date",
+    "end_date",
+    "emergency_repair_of"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель",
       "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
-    "customer_responsible": {
+    "responsible": {
       "type": "object",
       "properties": {
         "fio": {
@@ -23,8 +34,15 @@
           "title": "ФИО"
         }
       },
-      "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
+      "title": "Подписант заявителя",
+      "description": "ФИО заявителя, либо представителя по доверенности на право подписи заявки от имени заявителя на внесение в реестр разрешений на аварийные земляные работы по данному объекту"
+    },
+    "letter_of_attorney_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
+      "title": "Доверенность на подписанта",
+      "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "applicant": {
     },
     "contractor": {
       "type": "object",
@@ -33,12 +51,12 @@
         "contractor_organization": {
           "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
           "title": "Организация подрядчика",
-          "description": "Наименование организации, выполняющей работы по устранению аварии "
+          "description": "Наименование организации, выполняющей работы по устранению аварии"
         },
         "contractor_responsible": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
           "title": "Ответственный производитель работ со стороны подрядчика",
-          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом "
+          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
         }
       }
     },
@@ -46,6 +64,14 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
     },
     "begin_date": {
       "type": "string",
@@ -56,7 +82,7 @@
       "type": "string",
       "format": "date",
       "title": "Дата окончания работ",
-      "description": "Аварии независимо от типа коммуникации (сооружения) с полным восстановлением благоустройства в местах аварийных разрытий должны устраняться в течение пяти суток, а в осенне-зимний период – в течение восьми дней "
+      "description": "Аварии независимо от типа коммуникации (сооружения) с полным восстановлением благоустройства в местах аварийных разрытий должны устраняться в течение пяти суток, а в осенне-зимний период – в течение восьми дней"
     },
     "emergency_repair_of": {
       "type": "string",
@@ -97,20 +123,6 @@
       "title": "Площадь повреждения газона",
       "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
-    },
-    "letter_of_attorney_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
-      "title": "Доверенность на подписанта",
-      "description": "Доверенность подписывать документы от имени Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту "
-    },
-    "initial_state_photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Фотофиксация исходной ситуации"
-    },
     "topography_of_networks": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
     },
@@ -128,7 +140,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
+      "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
@@ -137,9 +149,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

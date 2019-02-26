@@ -41,6 +41,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info",
       "title": "Назначение объекта"
     },
+    "object_name": {
+      "title": "Наименование объекта",
+      "type": "string"
+    },
     "calculation_of_surface_runoff": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
     },
@@ -71,13 +75,11 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
-      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии",
-      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+      "title": "Комментарии"
     }
   },
   "type": "object",

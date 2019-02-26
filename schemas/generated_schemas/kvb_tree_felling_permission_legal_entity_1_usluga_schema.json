@@ -1,6 +1,15 @@
 {
   "required": [
-
+    "organization",
+    "letter_of_attorney",
+    "applicant_position",
+    "cadastre_number",
+    "project_plan",
+    "land_documents",
+    "agent",
+    "address_with_map",
+    "address_comments",
+    "work_description"
   ],
   "properties": {
     "organization": {
@@ -22,12 +31,12 @@
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта с четкими границами обследования территории",
-      "description": "Согласованный ситуационный план трассы"
+      "description": "Адрес с обязательным указанием наименования улицы и номера здания, находящихся ближе всего к месту проведения работ"
     },
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
       "title": "Описание местоположения",
-      "description": "Место, в котором необходимо провести обследование зелёных насаждений"
+      "description": "В свободной форме указать размещение объекта обследования с обязательной привязкой к местности (например, «во дворе дома №... по ул. ...», или «в районе дома №... по ул.А.Кутуя», или «у подъезда №... дома №... по ул....» , или «с торца дома №... по ул....» и т.п.)"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
@@ -49,7 +58,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
+      "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {

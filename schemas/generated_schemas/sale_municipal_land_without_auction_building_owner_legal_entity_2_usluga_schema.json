@@ -1,8 +1,19 @@
 {
+  "required": [
+    "organization",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "area"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "building_owner_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -22,33 +33,23 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
     },
-    "land": {
-      "type": "object",
-      "title": "Земельный участок",
-      "properties": {
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-          "title": "Адрес земельного участка"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка"
-        },
-        "area": {
-          "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-          "title": "Площадь земельного участка",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
-        }
-      }
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь земельного участка",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
@@ -56,8 +57,5 @@
     }
   },
   "type": "object",
-  "required": [
-    "land"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

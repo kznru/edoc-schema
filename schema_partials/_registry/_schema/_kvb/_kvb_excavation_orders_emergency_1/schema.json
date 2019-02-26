@@ -7,15 +7,15 @@
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Заявитель (ЮЛ, ИП)"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
+      "title": "Заявитель (физ. лицо)"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
@@ -24,6 +24,18 @@
     "address_comments": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "images_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото при продлении работ"
+    },
+    "images_after": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото после выполнения работ"
     },
     "begin_date": {
       "type": "string",
@@ -35,17 +47,37 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
+    "emergency_repair_of": {
+      "type": "string",
+      "title": "Ликвидация аварии на:"
     },
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
-    "subcontractor_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Субподрядчик"
+    "contractor_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
     },
     "result_data": {
       "type": "object",
@@ -179,14 +211,6 @@
         "response_text": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
           "title": "Информация для заявителя"
-        },
-        "attachments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-          "title": "Приложение"
-        },
-        "comments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-          "title": "Комментарии"
         }
       }
     }

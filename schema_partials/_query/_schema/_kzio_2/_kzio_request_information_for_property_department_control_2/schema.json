@@ -1,0 +1,18 @@
+{
+  "type":"object",
+  "required":[],
+  "properties": {
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото объекта"
+    },
+    "examination": {
+      "type": "string",
+      "title": "Обследование"
+    },
+    "being_tested": {
+      "type": "string",
+      "title": "Проводится проверка"
+    }
+  }
+}

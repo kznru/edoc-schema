@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "cadastre_number": {},
+    "cadastre_number_quarter": {},
+    "address_with_map": {},
+    "developer_rights": {},
+    "availability_rights_of_other_person": {},
+    "type_of_permitted_use_of_land": {},
+    "planning_parameters": {
+      "type": "object",
+      "title": "Сведения о планируемых параметрах",
+      "properties": {
+        "building_area": {
+          "type": "string",
+          "title": "Общая площадь здания",
+          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж), также прописать общая площадь дома с учетом всех этажей (либо мансарды)"
+        },
+        "above_floors_number": {
+          "type": "string",
+          "title": "Количество надземных этажей",
+          "description": "Должно быть целое число(1,2,3,..), в случае Уведомление о строительстве садового дома, если второй этаж мансарда, обязательно указать -1+мансарда",
+          "minItems": 1,
+          "enum": [
+            "1",
+            "1 + мансарда"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "required":[],
+  "properties":{
+    "examination_result": {
+      "type": "string",
+      "title": "Информация по результатам обследования"
+    },
+    "photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": "Фотографии"
+    }
+  }
+}

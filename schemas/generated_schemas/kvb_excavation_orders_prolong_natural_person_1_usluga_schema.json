@@ -1,4 +1,10 @@
 {
+  "required": [
+    "agent",
+    "registry_item",
+    "end_date",
+    "explanation_reason"
+  ],
   "properties": {
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
@@ -6,11 +12,17 @@
         "registry_key": "kvb_excavation_orders_1"
       },
       "title": "Ордер для продления",
-      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается "
+      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
+    },
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
+    },
+    "organization": {
+    },
+    "letter_of_attorney": {
     },
     "end_date": {
       "type": "string",
@@ -19,50 +31,32 @@
       "description": "Укажите новую дату окончания работ"
     },
     "explanation_reason": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Объяснение причины",
-      "description": "Письмо от Заказчика с объяснением причин продления сроков ордера "
+      "type": "object",
+      "title": "Причина продления",
+      "properties": {
+        "files": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Письмо с объяснением причин продления сроков ордера"
+        },
+        "reason": {
+          "title": "Объяснение причины",
+          "type": "string"
+        }
+      }
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ",
-      "description": "График невыполненных работ на объекте на новый период "
+      "description": "График невыполненных работ на объекте на новый период"
     },
     "drawing": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Рабочий чертеж на проводимые  работы",
+      "title": "Рабочий чертеж на проводимые работы",
       "description": "С указанием выполненных и незавершенных работ"
-    },
-    "organization": {
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность на представителя",
-      "description": "Доверенность представлять интересы Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
-    },
-    "customer_responsible": {
-      "type": "object",
-      "properties": {
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО"
-        }
-      },
-      "title": "Подписант заказчика",
-      "description": "ФИО заказчика, либо представителя по доверенности на право подписи заявки от имени заказчика на внесение в реестр разрешений на аварийные земляные работы по данному объекту "
-    },
-    "letter_of_attorney_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
-      "title": "Доверенность на подписанта",
-      "description": "Доверенность подписывать документы от имени Заказчика в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту "
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
+      "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
@@ -71,9 +65,6 @@
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

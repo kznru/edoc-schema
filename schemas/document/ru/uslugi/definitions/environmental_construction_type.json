@@ -1,6 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
   "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Тип конструкции",
   "description": "Тип конструкции",
   "type": "string",
   "enum": [

@@ -1,18 +1,27 @@
 {
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "property_info",
+    "lease_contract",
+    "usage_kind"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "organization": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
@@ -65,12 +74,27 @@
       ]
     },
     "usage_kind": {
+      "title": "Вид использования",
+      "type": "string",
+      "enum": [
+        "Торговля",
+        "Бытовое обслуживание населения",
+        "Реализация лекартсвенных препаратов и изделий медицинского характера",
+        "Образование",
+        "Здравоохранение",
+        "Банковские услуги",
+        "Офис",
+        "Склад",
+        "Иное"
+      ]
+    },
+    "other_usage_kind": {
       "title": "Иной вид использования",
       "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",

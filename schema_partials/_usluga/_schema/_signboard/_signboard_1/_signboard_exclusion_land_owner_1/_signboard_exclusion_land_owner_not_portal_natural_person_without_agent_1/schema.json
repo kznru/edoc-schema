@@ -1,0 +1,35 @@
+{
+  "required": [
+    "address_with_map",
+    "text",
+    "agent"
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка или помещения"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Собственник земли или помещения"
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
+    "previous_registry_item": {
+      "type": "string",
+      "title": "Информация об исключаемом проекте размещения СНИ"
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Документы технической инвентаризации",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    }
+  }
+}

@@ -7,18 +7,35 @@
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Заявитель (ЮЛ, ИП)"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
+      "title": "Заявитель (физ. лицо)"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
     },
-    "confirmations": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/confirmations"
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
+      "title": "Описание"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "images_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото при продлении работ"
+    },
+    "images_after": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото после выполнения работ"
     },
     "begin_date": {
       "type": "string",
@@ -30,25 +47,52 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-      "title": "Адрес"
-    },
-    "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
-      "title": "Описание"
-    },
-    "customer_organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заказчик"
-    },
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
+    "contractor_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    },
     "subcontractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
+    },
+    "subcontractor_responsible": {
+      "type": "array",
+      "title": "Ответственный производитель работ со стороны субподрядчика",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+      }
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара",
+      "description": "Кв. м"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона",
+      "description": "Кв. м"
     },
     "result_data": {
       "type": "object",
@@ -182,14 +226,6 @@
         "response_text": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
           "title": "Информация для заявителя"
-        },
-        "attachments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-          "title": "Приложение"
-        },
-        "comments": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-          "title": "Комментарии"
         }
       }
     }

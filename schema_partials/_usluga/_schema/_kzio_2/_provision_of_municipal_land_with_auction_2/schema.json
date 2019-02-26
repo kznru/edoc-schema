@@ -1,13 +1,11 @@
 {
   "type": "object",
+  "required": ["agent", "address_with_map", "area", "allowed_usage_type"],
   "properties": {
     "applicant": {},
     "organization": {},
     "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
+    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
       "title": "Адрес земельного участка"
@@ -20,20 +18,13 @@
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area"
     },
-    "land_owner": {
-      "title": "Правообладатель",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "description": "Наименование органа местного самоуправления"
-    },
     "allowed_usage_type": {
       "title": "Виды разрешённого использования",
       "type": "string",
-      "description": "Целевое назначение"
-    },
-    "restriction_usage": {
-      "title": "Ограничения по использованию земельного участка",
-      "type": "string",
-      "description": "Ограничения по использованию земельного участка описание ограничений по использованию з/у, необходимых к исполнению собственником необязательно"
+      "description": "Целевое назначение",
+      "enum": [
+        "Индивидуальное жилищное строительство (ИЖС)"
+      ]
     }
   }
 }

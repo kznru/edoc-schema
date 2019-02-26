@@ -1,0 +1,25 @@
+{
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Собственник конструкции"
+    },
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+      "title": "Запись о проекте размещения СНИ для исключения"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

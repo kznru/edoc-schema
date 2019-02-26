@@ -1,9 +1,11 @@
 {
+  "required": [
+    "agent"
+  ],
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+    "agent": {
       "title": "Заявитель",
-      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью  "
+      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
     }
   }
 }

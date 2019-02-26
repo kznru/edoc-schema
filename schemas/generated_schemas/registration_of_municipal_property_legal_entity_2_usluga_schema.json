@@ -1,37 +1,65 @@
 {
+  "required": [
+    "reason",
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "address_with_map",
+    "purpose"
+  ],
   "properties": {
+    "reason": {
+      "title": "Основание для передачи муниципального имущества",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Вновь построенный, реконструированный объект недвижимости",
+          "Служебная необходимость",
+          "Выявленное имущество"
+        ]
+      },
+      "uniqueItems": true
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
-    "applicant": {
+      "title": "Заявитель",
+      "description": "Сведения о заявителе"
     },
     "agent": {
+      "description": "Представитель юридического лица",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия пердставителя"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-      "title": "Адрес объекта (или ближайший)",
-      "description": "Адрес, по которому находится муниципальное имущество"
+      "description": "Адрес объекта (или ближайший)",
+      "title": "Адрес, по которому находится муниципальное имущество"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-      "title": "Площадь объекта"
-    },
-    "purpose": {
-      "title": "Цель",
-      "type": "string",
-      "description": "Цели, для которой будет использоваться объект"
+      "title": "Площадь",
+      "description": "Кв. м"
     },
     "property_info": {
       "type": "object",
+      "required": [
+        "floors_plan",
+        "floor_number"
+      ],
       "title": "Информация, необходимая для идентификации имущества",
+      "description": "Краткое описание объекта, позволяющее определить его местонахождение (напр., этаж в помещении, или характеристики помещения)",
       "properties": {
+        "floors_plan": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Копия технического паспорта, в случае отсутствия его графический план помещения",
+          "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
+        },
         "floor_number": {
           "type": "string",
           "title": "Этаж"
@@ -40,10 +68,6 @@
           "title": "Номер помещения",
           "type": "string"
         },
-        "floors_plan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Поэтажный план"
-        },
         "cadastre_number": {
           "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
           "title": "Кадастровый номер",
@@ -51,7 +75,7 @@
         },
         "photo": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Фото"
+          "title": "Фото объекта"
         },
         "other_info": {
           "type": "string",
@@ -59,9 +83,16 @@
         }
       }
     },
+    "purpose": {
+      "title": "Цель",
+      "type": "string",
+      "description": "Конкретная цель использования объекта"
+    },
+    "admin_document": {
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",

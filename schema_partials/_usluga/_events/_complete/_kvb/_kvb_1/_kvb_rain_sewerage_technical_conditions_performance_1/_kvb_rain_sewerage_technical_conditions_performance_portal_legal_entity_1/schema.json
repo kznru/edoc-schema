@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "kvb_rain_sewerage_technical_conditions_performance": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance"
+    }
+  }
+}

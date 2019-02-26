@@ -1,0 +1,15 @@
+{
+  "required": [
+    "arhitechural_lighting_proposal"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "applicant": {},
+    "letter_of_attorney": {},
+    "arhitechural_lighting_proposal": {
+      "title": "Предложение по архитектурно-художественной подсветке",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}

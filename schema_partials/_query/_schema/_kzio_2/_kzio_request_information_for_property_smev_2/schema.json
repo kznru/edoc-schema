@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
+  }
+}
