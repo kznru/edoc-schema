@@ -20,10 +20,6 @@
       "type": "string",
       "title": "Наименование банка"
     },
-    "location": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
-    },
     "bik": {
       "type": "string",
       "title": "БИК"

@@ -1,0 +1,132 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Выданная справка о выполнении технических условий на отвод ливневых и талых вод",
+  "description": "Выданная справка о выполнении технических условий на отвод ливневых и талых вод",
+  "required": ["organization", "works_done", "notes", "storm_sewer_elements", "agents"],
+  "type": "object",
+  "properties": {
+    "organization": {
+      "$ref":"http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title":"Застройщик-заказчик"
+    },
+    "works_done": {
+      "type":"string",
+      "title":"Работы по строительству сетей ливневой канализации объекта выполнены",
+      "minItems": 1,
+      "enum": ["Полностью", "Не полностью"]
+    },
+    "notes": {
+      "type":"string",
+      "title":"Заключения и предложения"
+    },
+    "storm_sewer_elements": {
+      "title": "Перечень элементов сетей ливневой канализации",
+      "type": "object",
+      "properties": {
+        "trunk_networks": {
+          "type": "object",
+          "title": "Магистральные сети",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "local_networks": {
+          "type": "object",
+          "title": "Внутриплощадочные сети",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "observation_wells": {
+          "type": "object",
+          "title": "Колодцы смотровые",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "rain_inlet_well": {
+          "type": "object",
+          "title": "Колодцы ливнеприёмные",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "sewage_treatment_plant": {
+          "type": "object",
+          "title": "Очистные сооружения",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "storm_sewer_networks_connection": {
+          "type": "object",
+          "title": "Подключение к городским сетям ливневой канализации",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        }
+      }
+    }
+  }
+}

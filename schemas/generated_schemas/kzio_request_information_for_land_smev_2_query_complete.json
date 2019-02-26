@@ -1,0 +1,153 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "cadastre_number": {
+      "type": "string",
+      "title": "Кадастровый номер"
+    },
+    "cadastre_number_quarter": {
+      "type": "string",
+      "title": "Номер кадастрового квартала"
+    },
+    "cadastre_number_assignment_date": {
+      "type": "string",
+      "title": "Дата присвоения кадастрового номера"
+    },
+    "previously_assigned_account_number": {
+      "type": "string",
+      "title": "Ранее присвоенный государственный учетный номер"
+    },
+    "address": {
+      "type": "string",
+      "title": "Адрес"
+    },
+    "area": {
+      "type": "string",
+      "title": "Площадь,м²"
+    },
+    "cadastre_numbers_of_inside_properties": {
+      "type": "string",
+      "title": "Кадастровые номера расположенных в пределах земельного участка объектов недвижимости"
+    },
+    "cadastre_numbers_of_consisting_properties": {
+      "type": "string",
+      "title": "Кадастровые номера объектов недвижимости, из которых образован объект недвижимости"
+    },
+    "created_properties_cadastre_numbers": {
+      "type": "string",
+      "title": "Кадастровые номера образованных объектов недвижимости"
+    },
+    "inclusion_in_enterprise_as_property_complex": {
+      "type": "string",
+      "title": "Сведения о включении объекта недвижимости в состав предприятия как имущественного комплекса"
+    },
+    "land_category": {
+      "type": "string",
+      "title": "Категория земель"
+    },
+    "permitted_usage": {
+      "type": "string",
+      "title": "Виды разрешенного использования"
+    },
+    "cadastre_engineer": {
+      "type": "string",
+      "title": "Сведения о кадастровом инженере"
+    },
+    "nature_objects_info": {
+      "type": "string",
+      "title": "Сведения о лесах, водных объектах и об иных природных объектах, расположенных в пределах земельного участка"
+    },
+    "territory_special_usage_zone_info": {
+      "type": "string",
+      "title": "Сведения о том, что земельный участок полностью или частично расположен в границах зоны с особыми условиями использования территории или территории объекта культурного наследия"
+    },
+    "economic_special_zone_info": {
+      "type": "string",
+      "title": "Сведения о том, что земельный участок расположен в границах особой экономической зоны, территории опережающего социально-экономического развития, зоны территориального развития в Российской Федерации, игорной зоны"
+    },
+    "nature_special_zone_info": {
+      "type": "string",
+      "title": "Сведения о том, что земельный участок расположен в границах особо охраняемой природной территории, охотничьих угодий, лесничеств, лесопарков"
+    },
+    "land_inspection_result": {
+      "type": "string",
+      "title": "Сведения о результатах проведения государственного земельного надзора"
+    },
+    "land_survey_project_info": {
+      "type": "string",
+      "title": "Сведения о расположении земельного участка в границах территории, в отношении которой утвержден проект межевания территории"
+    },
+    "nominal_number": {
+      "type": "string",
+      "title": "Условный номер земельного участка"
+    },
+    "lease_house_act": {
+      "type": "string",
+      "title": "Сведения о принятии акта и (или) заключении договора, предусматривающих предоставление в соответствии с земельным законодательством исполнительным органом государственной власти или органом местного самоуправления находящегося в государственной или муниципальной собственности земельного участка для строительства наемного дома социального использования или наемного дома коммерческого использования"
+    },
+    "formed_as_result_of_withdrawal": {
+      "type": "string",
+      "title": "Сведения о том, что земельный участок или земельные участки образованы на основании решения об изъятии земельного участка и (или) расположенного на нем объекта недвижимости для государственных или муниципальных нужд"
+    },
+    "formed_from_not_delimited_lands": {
+      "type": "string",
+      "title": "Сведения о том, что земельный участок образован из земель или земельного участка, государственная собственность на которые не разграничена"
+    },
+    "land_borders_dispute_presence": {
+      "type": "string",
+      "title": "Сведения о наличии земельного спора о местоположении границ земельных участков"
+    },
+    "property_record_status": {
+      "type": "string",
+      "title": "Статус записи об объекте недвижимости"
+    },
+    "special_marks": {
+      "type": "string",
+      "title": "Особые отметки"
+    },
+    "statement_recipient": {
+      "type": "string",
+      "title": "Получатель выписки"
+    },
+    "land_plan": {
+      "type": "string",
+      "title": "План (чертеж, схема) земельного участка"
+    },
+    "borders_plan": {
+      "type": "string",
+      "title": "Описание местоположения границ земельного участка"
+    },
+    "characteristic_points": {
+      "type": "string",
+      "title": "Сведения о характерных точках границы земельного участка"
+    },
+    "encumbrance": {
+      "type": "string",
+      "title": "Обременение"
+    },
+    "act_status": {
+      "type": "string",
+      "title": "Статус (действует или нет)"
+    },
+    "regulation": {
+      "type": "string",
+      "title": "Постановление"
+    },
+    "regulation_date": {
+      "type": "string",
+      "title": "Дата постановления"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

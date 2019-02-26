@@ -1,0 +1,23 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_accomplishment_mending_reject_reasons",
+  "type": "array",
+  "title": "Причины отказа",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "photos": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+        "title": "Фотография, подтверждающая наличие дефекта"
+      },
+      "defects": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kvb_excavation_orders_add_reject_reasons",
+        "title": "Выявленные дефекты"
+      },
+      "defect_comment": {
+        "type": "string",
+        "title": "Дополнительное описание дефекта"
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "properties": {
-    "applicant": {
+    "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
@@ -16,39 +16,29 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке"
     },
+    "applicant": {
+    },
     "organization": {
     },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
-    "land": {
-      "type": "object",
-      "title": "Земельный участок",
-      "properties": {
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
-          "title": "Адрес земельного участка"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка"
-        },
-        "area": {
-          "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
-          "title": "Площадь земельного участка",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
-        }
-      }
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "title": "Площадь земельного участка",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
@@ -57,7 +47,10 @@
   },
   "type": "object",
   "required": [
-    "land"
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "area"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

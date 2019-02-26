@@ -3,6 +3,7 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Файлы",
   "type": "array",
+  "minItems": 0,
   "items":{
     "type": "string",
     "format": "data-url"

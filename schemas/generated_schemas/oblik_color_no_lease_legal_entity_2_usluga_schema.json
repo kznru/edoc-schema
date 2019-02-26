@@ -1,0 +1,107 @@
+{
+  "required": [
+    "organization",
+    "letter_of_attorney",
+    "passport_bti",
+    "cadastre_number",
+    "address_with_map",
+    "agent",
+    "planeta_number",
+    "explanatory_note",
+    "sketch_offer"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "applicant": {
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Введите кадастровый номер помещения, здания или территории, на котором размещена вывеска. Например, 12:12:1234567:123 или 12:12:123456:12"
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number",
+      "description": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
+    },
+    "explanatory_note": {
+      "type": "array",
+      "title": "Пояснительная записка",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "title": "Описание проектируемого объекта",
+            "description": "Кратко описываются планируемые работы. Например: покраска, облицовка, замена дверных и оконных блоков ..."
+          },
+          "material": {
+            "type": "string",
+            "title": "Материал"
+          },
+          "color": {
+            "type": "string",
+            "title": "Описание цвета (с указанием системы: RAL, NCS и т.п.)"
+          }
+        }
+      }
+    },
+    "sketch_offer": {
+      "type": "array",
+      "title": "Эскизное предложение",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "facades": {
+            "type": "string",
+            "title": "Фасады"
+          },
+          "facade_type": {
+            "type": "string",
+            "title": "Тип фасада",
+            "enum": [
+              "главный",
+              "левый",
+              "правый",
+              "боковой",
+              "дворовой",
+              "иное"
+            ]
+          }
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

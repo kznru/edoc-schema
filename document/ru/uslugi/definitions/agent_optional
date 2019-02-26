@@ -5,9 +5,24 @@
   "title": "Представитель",
   "type": "object",
   "properties": {
-    "passport_number": { "type": "string", "pattern": "^[0-9]{6}$", "title": "Номер паспорта" },
-    "fio": { "$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО" },
-    "mobile": { "type": "string", "title": "Мобильный телефон" },
-    "email": { "type": "string", "format": "email", "title": "E-mail" }
+    "passport_number": {
+      "type": "string",
+      "pattern": "^[0-9]{6}$",
+      "title": "Номер паспорта"
+    },
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "ФИО"
+    },
+    "mobile": {
+      "type": "string",
+      "title": "Мобильный телефон",
+      "description": "В личный кабинет с этим логином будут приходить уведомления о смене статуса поданного заявления по этой услуге"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "title": "E-mail"
+    }
   }
 }

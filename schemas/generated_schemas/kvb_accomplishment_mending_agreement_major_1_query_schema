@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "required": [
+    "district"
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "images_after": {
+      "title": "Фото после выполнения работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
+    },
+    "agent_mobile": {
+      "type": "string",
+      "title": "Мобильный телефон представителя"
+    },
+    "district": {
+      "type": "string",
+      "title": "Район",
+      "enum": [
+        "Авиастроительный",
+        "Вахитовский",
+        "Московский",
+        "Ново-Савиновский",
+        "Кировский",
+        "Приволжский",
+        "Советский"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

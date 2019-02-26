@@ -1,0 +1,597 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "kzio_request_information_for_property_smev_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (росреестр)",
+      "properties": {
+        "cadastre_number": {
+          "type": "string",
+          "title": "Кадастровый номер"
+        },
+        "cadastre_number_assignment_date": {
+          "type": "string",
+          "title": "Дата присвоения кадастрового номера"
+        },
+        "previously_assigned_account_number": {
+          "type": "string",
+          "title": "Ранее присвоенный государственный учетный номер"
+        },
+        "address": {
+          "type": "string",
+          "title": "Адрес"
+        },
+        "area": {
+          "type": "string",
+          "title": "Площадь,м²"
+        },
+        "purpose": {
+          "type": "string",
+          "title": "Назначение"
+        },
+        "name": {
+          "type": "string",
+          "title": "Наименование"
+        },
+        "floors_count": {
+          "type": "string",
+          "title": "Количество этажей, в том числе подземных этажей"
+        },
+        "exterial_wall_material": {
+          "type": "string",
+          "title": "Материал наружных стен"
+        },
+        "commissioning_year": {
+          "type": "string",
+          "title": "Год ввода в эксплуатацию по завершении строительства"
+        },
+        "completion_year": {
+          "type": "string",
+          "title": "Год завершения строительства"
+        },
+        "cadastre_cost": {
+          "type": "string",
+          "title": "Кадастровая стоимость, руб"
+        },
+        "other_properties_cadastre_numbers": {
+          "type": "string",
+          "title": "Кадастровые номера иных объектов недвижимости, в пределах которых расположен объект недвижимости"
+        },
+        "cadastre_numbers_of_inside_premises": {
+          "type": "string",
+          "title": "Кадастровые номера помещений, машино-мест, расположенных в здании или сооружении"
+        },
+        "cadastre_numbers_of_inside_properties": {
+          "type": "string",
+          "title": "Кадастровые номера расположенных в пределах земельного участка объектов недвижимости"
+        },
+        "cadastre_numbers_of_consisting_properties": {
+          "type": "string",
+          "title": "Кадастровые номера объектов недвижимости, из которых образован объект недвижимости"
+        },
+        "created_properties_cadastre_numbers": {
+          "type": "string",
+          "title": "Кадастровые номера образованных объектов недвижимости"
+        },
+        "inclusion_in_enterprise_as_property_complex": {
+          "type": "string",
+          "title": "Сведения о включении объекта недвижимости в состав предприятия как имущественного комплекса"
+        },
+        "inclusion_in_single_real_estate_complex": {
+          "type": "string",
+          "title": "Сведения о включении объекта недвижимости в состав единого недвижимого комплекса"
+        },
+        "cadastre_number_if_on_one_land": {
+          "type": "string",
+          "title": "Кадастровый номер земельного участка, если входящие в состав единого недвижимого комплекса объекты недвижимости расположены на одном земельном участке"
+        },
+        "permitted_usage": {
+          "type": "string",
+          "title": "Виды разрешенного использования"
+        },
+        "inclusion_in_registry_of_cultural_heritage": {
+          "type": "string",
+          "title": "Сведения о включении объекта недвижимости в реестр объектов культурного наследия"
+        },
+        "cadastre_engineer": {
+          "type": "string",
+          "title": "Сведения о кадастровом инженере"
+        },
+        "property_record_status": {
+          "type": "string",
+          "title": "Статус записи об объекте недвижимости"
+        },
+        "special_marks": {
+          "type": "string",
+          "title": "Особые отметки"
+        },
+        "statement_recipient": {
+          "type": "string",
+          "title": "Получатель выписки"
+        },
+        "rightholders": {
+          "type": "string",
+          "title": "Правообладатель (правообладатели)"
+        },
+        "state_registration_of_the_right": {
+          "type": "string",
+          "title": "Вид, номер и дата государственной регистрации права"
+        },
+        "rights_restriction_and_property_encumbrance": {
+          "type": "string",
+          "title": "Ограничение прав и обременение объекта недвижимости"
+        },
+        "court_claims": {
+          "type": "string",
+          "title": "Заявленные в судебном порядке права требования"
+        },
+        "objection_registred_rights": {
+          "type": "string",
+          "title": "Сведения о возражении в отношении зарегистрированного права"
+        },
+        "withdrawal_for_state_needs": {
+          "type": "string",
+          "title": "Сведения о наличии решения об изъятии объекта недвижимости для государственных и муниципальных нужд"
+        },
+        "impossibility_of_registration_without_participation_of_rightholder": {
+          "type": "string",
+          "title": "Сведения о невозможности государственной регистрации без личного участия правообладателя или его законного представителя"
+        },
+        "legal_claims": {
+          "type": "string",
+          "title": "Правопритязания и сведения о наличии поступивших, но не рассмотренных заявлений о проведении государственной регистрации права (перехода, прекращения права), ограничения права или обременения объекта недвижимости, сделки в отношении объекта недвижимости"
+        },
+        "implementation_of_registration_without_third_party": {
+          "type": "string",
+          "title": "Сведения об осуществлении государственной регистрации сделки, права, ограничения права без необходимого в силу закона согласия третьего лица, органа"
+        },
+        "coordinates_of_characteristic_points_of_contour": {
+          "type": "string",
+          "title": "Сведения о координатах характерных точек контура объекта недвижимости"
+        },
+        "location_scheme_of_property_on_land": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
+        },
+        "balance_cost": {
+          "type": "string",
+          "title": "Балансовая стоимость объекта"
+        },
+        "amortization": {
+          "type": "string",
+          "title": "Аммортизация"
+        },
+        "object_location": {
+          "type": "string",
+          "title": "Район расположения объекта"
+        },
+        "acceptance_to_treasury_data": {
+          "type": "string",
+          "title": "Дата принятия объекта в казну"
+        },
+        "acceptance_to_treasury_basis": {
+          "type": "string",
+          "title": "Основание принятия объекта в казну"
+        },
+        "conteragent": {
+          "type": "string",
+          "title": "Контрагент"
+        },
+        "account": {
+          "type": "string",
+          "title": "Счет учета"
+        },
+        "comments": {
+          "type": "string",
+          "title": "Комментарии"
+        },
+        "registry_number": {
+          "type": "string",
+          "title": "Реестровый номер"
+        },
+        "building_number": {
+          "type": "string",
+          "title": "Строительный номер"
+        },
+        "go_object": {
+          "type": "string",
+          "title": "Объект ГО"
+        },
+        "folder": {
+          "type": "string",
+          "title": "Папка"
+        },
+        "replrofiling_info": {
+          "type": "string",
+          "title": "Информация о перепрофилировании"
+        },
+        "objects_without_state_acts": {
+          "type": "string",
+          "title": "Информация об объектах без гос.актов"
+        },
+        "inventory_number": {
+          "type": "string",
+          "title": "Инвентарный номер"
+        },
+        "additional_info": {
+          "type": "string",
+          "title": "Дополнительная информация"
+        },
+        "monument": {
+          "type": "string",
+          "title": "Памятник"
+        },
+        "living_space": {
+          "type": "string",
+          "title": "Жилая площадь"
+        },
+        "building_type": {
+          "type": "string",
+          "title": "Тип строения"
+        },
+        "building_name": {
+          "type": "string",
+          "title": "Наименование здания"
+        },
+        "improvement": {
+          "type": "string",
+          "title": "Благоустройство"
+        },
+        "object_type": {
+          "type": "string",
+          "title": "Тип объекта"
+        },
+        "subject_of_law": {
+          "type": "string",
+          "title": "Субъект права"
+        },
+        "motion_operation": {
+          "type": "string",
+          "title": "Операция движения"
+        },
+        "tree_structure": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Древовидная структура объекта"
+        },
+        "photo": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Фото объекта"
+        },
+        "connections": {
+          "type": "string",
+          "title": "Связи"
+        },
+        "examination": {
+          "type": "string",
+          "title": "Обследование"
+        },
+        "room_numbers": {
+          "type": "string",
+          "title": "Номера помещений"
+        },
+        "documents": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Документы объекта"
+        },
+        "object_is_transferred_to_operational_managment": {
+          "type": "string",
+          "title": "Объект передается в оперативное управление"
+        },
+        "object_is_leased": {
+          "type": "string",
+          "title": "Объект сдается в аренду"
+        },
+        "gratuitous_use": {
+          "type": "string",
+          "title": "Безвозмездное пользование"
+        },
+        "into_fixed_capital": {
+          "type": "string",
+          "title": "В уставной капитал"
+        },
+        "encumbrance_limitation": {
+          "type": "string",
+          "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+        },
+        "managment": {
+          "type": "string",
+          "title": "Хозведение"
+        },
+        "civil_defense_facility": {
+          "type": "string",
+          "title": "Объект гражданской обороны"
+        },
+        "being_tested": {
+          "type": "string",
+          "title": "Проводится проверка"
+        },
+        "auction_status": {
+          "type": "string",
+          "title": "Объект выставлен на аукцион"
+        }
+      }
+    },
+    "kzio_request_information_for_property_department_control_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (отдел контроля)",
+      "properties": {
+        "photo": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Фото объекта"
+        },
+        "examination": {
+          "type": "string",
+          "title": "Обследование"
+        },
+        "being_tested": {
+          "type": "string",
+          "title": "Проводится проверка"
+        }
+      }
+    },
+    "kzio_request_information_for_property_department_legal_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (юридический отдел)",
+      "properties": {
+        "encumbrance_limitation": {
+          "type": "string",
+          "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+        }
+      }
+    },
+    "kzio_request_information_for_property_department_managment_registration_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (отдел управления и учёта)",
+      "properties": {
+        "cadastre_number": {
+          "type": "string",
+          "title": "Кадастровый номер"
+        },
+        "address": {
+          "type": "string",
+          "title": "Адрес"
+        },
+        "area": {
+          "type": "string",
+          "title": "Площадь,м²"
+        },
+        "purpose": {
+          "type": "string",
+          "title": "Назначение"
+        },
+        "name": {
+          "type": "string",
+          "title": "Наименование"
+        },
+        "floors_count": {
+          "type": "string",
+          "title": "Количество этажей, в том числе подземных этажей"
+        },
+        "exterial_wall_material": {
+          "type": "string",
+          "title": "Материал наружных стен"
+        },
+        "commissioning_year": {
+          "type": "string",
+          "title": "Год ввода в эксплуатацию по завершении строительства"
+        },
+        "inclusion_in_registry_of_cultural_heritage": {
+          "type": "string",
+          "title": "Сведения о включении объекта недвижимости в реестр объектов культурного наследия"
+        },
+        "rightholders": {
+          "type": "string",
+          "title": "Правообладатель (правообладатели)"
+        },
+        "object_location": {
+          "type": "string",
+          "title": "Район расположения объекта"
+        },
+        "object_is_transferred_to_operational_managment": {
+          "type": "string",
+          "title": "Объект передается в оперативное управление"
+        },
+        "gratuitous_use": {
+          "type": "string",
+          "title": "Безвозмездное пользование"
+        },
+        "registry_number": {
+          "type": "string",
+          "title": "Реестровый номер"
+        },
+        "building_number": {
+          "type": "string",
+          "title": "Строительный номер"
+        },
+        "go_object": {
+          "type": "string",
+          "title": "Объект ГО"
+        },
+        "folder": {
+          "type": "string",
+          "title": "Папка"
+        },
+        "replrofiling_info": {
+          "type": "string",
+          "title": "Информация о перепрофилировании"
+        },
+        "objects_without_state_acts": {
+          "type": "string",
+          "title": "Информация об объектах без гос.актов"
+        },
+        "inventory_number": {
+          "type": "string",
+          "title": "Инвентарный номер"
+        },
+        "additional_info": {
+          "type": "string",
+          "title": "Дополнительная информация"
+        },
+        "monument": {
+          "type": "string",
+          "title": "Памятник"
+        },
+        "living_space": {
+          "type": "string",
+          "title": "Жилая площадь"
+        },
+        "building_type": {
+          "type": "string",
+          "title": "Тип строения"
+        },
+        "building_name": {
+          "type": "string",
+          "title": "Наименование здания"
+        },
+        "improvement": {
+          "type": "string",
+          "title": "Благоустройство"
+        },
+        "object_type": {
+          "type": "string",
+          "title": "Тип объекта"
+        },
+        "subject_of_law": {
+          "type": "string",
+          "title": "Субъект права"
+        },
+        "motion_operation": {
+          "type": "string",
+          "title": "Операция движения"
+        },
+        "tree_structure": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Древовидная структура объекта"
+        },
+        "connections": {
+          "type": "string",
+          "title": "Связи"
+        },
+        "room_numbers": {
+          "type": "string",
+          "title": "Номера помещений"
+        },
+        "documents": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Документы объекта"
+        },
+        "managment": {
+          "type": "string",
+          "title": "Хозведение"
+        },
+        "civil_defense_facility": {
+          "type": "string",
+          "title": "Объект гражданской обороны"
+        }
+      }
+    },
+    "kzio_request_information_for_property_department_privatization_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (отдел приватизации)",
+      "properties": {
+        "into_fixed_capital": {
+          "type": "string",
+          "title": "В уставной капитал"
+        },
+        "auction_status": {
+          "type": "string",
+          "title": "Объект выставлен на аукцион"
+        },
+        "privatization_forecast_plan": {
+          "type": "string",
+          "title": "Прогнозный план приватизации"
+        }
+      }
+    },
+    "kzio_request_information_for_property_department_treasury_2": {
+      "type": "object",
+      "title": "Запрос на сведения об имуществе (отдел казны)",
+      "properties": {
+        "cadastre_number": {
+          "type": "string",
+          "title": "Кадастровый номер"
+        },
+        "address": {
+          "type": "string",
+          "title": "Адрес"
+        },
+        "area": {
+          "type": "string",
+          "title": "Площадь,м²"
+        },
+        "purpose": {
+          "type": "string",
+          "title": "Назначение"
+        },
+        "name": {
+          "type": "string",
+          "title": "Наименование"
+        },
+        "floors_count": {
+          "type": "string",
+          "title": "Количество этажей, в том числе подземных этажей"
+        },
+        "exterial_wall_material": {
+          "type": "string",
+          "title": "Материал наружных стен"
+        },
+        "commissioning_year": {
+          "type": "string",
+          "title": "Год ввода в эксплуатацию по завершении строительства"
+        },
+        "rightholders": {
+          "type": "string",
+          "title": "Правообладатель (правообладатели)"
+        },
+        "location_scheme_of_property_on_land": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
+        },
+        "balance_cost": {
+          "type": "string",
+          "title": "Балансовая стоимость объекта"
+        },
+        "amortization": {
+          "type": "string",
+          "title": "Аммортизация"
+        },
+        "object_location": {
+          "type": "string",
+          "title": "Район расположения объекта"
+        },
+        "acceptance_to_treasury_data": {
+          "type": "string",
+          "title": "Дата принятия объекта в казну"
+        },
+        "acceptance_to_treasury_basis": {
+          "type": "string",
+          "title": "Основание принятия объекта в казну"
+        },
+        "conteragent": {
+          "type": "string",
+          "title": "Контрагент"
+        },
+        "account": {
+          "type": "string",
+          "title": "Счет учета"
+        },
+        "comments": {
+          "type": "string",
+          "title": "Комментарии"
+        },
+        "object_is_transferred_to_operational_managment": {
+          "type": "string",
+          "title": "Объект передается в оперативное управление"
+        },
+        "gratuitous_use": {
+          "type": "string",
+          "title": "Безвозмездное пользование"
+        }
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

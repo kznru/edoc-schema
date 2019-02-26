@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "reason_parameter_mismatch": {
+      "title": "Несоответствии параметров, указанных в Уведомлении",
+      "type": "string"
+    },
+    "reason_imposible_placement": {
+      "title": "Недопустимость размещения объекта",
+      "type": "string"
+    },
+    "reason_not_developer": {
+      "title": "Уведомление не от застройщика",
+      "type": "string"
+    },
+    "wrong_external_view": {
+      "title": "Несоответствии описания внешнего облика",
+      "type": "string"
+    },
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Другое (указать)"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "reject_reasons"
+  ]
+}

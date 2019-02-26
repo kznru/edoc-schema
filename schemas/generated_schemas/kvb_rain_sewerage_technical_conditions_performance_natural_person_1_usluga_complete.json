@@ -1,30 +1,6 @@
 {
-  "required": [
-    "object_name",
-    "object_address_with_map",
-    "builder"
-  ],
+  "type": "object",
   "properties": {
-    "object_name": {
-      "type": "string",
-      "title": "Наименование объекта"
-    },
-    "object_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта"
-    },
-    "builder": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Застройщик-заказчик"
-    },
-    "works_done": {
-      "title": "Работы по строительству сетей ливневой канализации объекта выполнены",
-      "type": "boolean"
-    },
-    "notes": {
-      "type": "string",
-      "title": "Заключения и предложения"
-    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -38,8 +14,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     }
-  },
-  "type": "object"
+  }
 }

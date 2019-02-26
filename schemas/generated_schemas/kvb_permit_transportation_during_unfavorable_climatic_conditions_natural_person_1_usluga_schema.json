@@ -53,6 +53,10 @@
     "bank_details": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
+    "bank_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
+    },
     "vehicle_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Документы транспортного средства, с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов",
@@ -69,13 +73,11 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения",
-      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии",
-      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+      "title": "Комментарии"
     }
   },
   "required": [

@@ -1,0 +1,94 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "cadastre_number": {
+      "type": "string",
+      "title": "Кадастровый номер"
+    },
+    "address": {
+      "type": "string",
+      "title": "Адрес"
+    },
+    "area": {
+      "type": "string",
+      "title": "Площадь,м²"
+    },
+    "purpose": {
+      "type": "string",
+      "title": "Назначение"
+    },
+    "name": {
+      "type": "string",
+      "title": "Наименование"
+    },
+    "floors_count": {
+      "type": "string",
+      "title": "Количество этажей, в том числе подземных этажей"
+    },
+    "exterial_wall_material": {
+      "type": "string",
+      "title": "Материал наружных стен"
+    },
+    "commissioning_year": {
+      "type": "string",
+      "title": "Год ввода в эксплуатацию по завершении строительства"
+    },
+    "rightholders": {
+      "type": "string",
+      "title": "Правообладатель (правообладатели)"
+    },
+    "location_scheme_of_property_on_land": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
+    },
+    "balance_cost": {
+      "type": "string",
+      "title": "Балансовая стоимость объекта"
+    },
+    "amortization": {
+      "type": "string",
+      "title": "Аммортизация"
+    },
+    "object_location": {
+      "type": "string",
+      "title": "Район расположения объекта"
+    },
+    "acceptance_to_treasury_data": {
+      "type": "string",
+      "title": "Дата принятия объекта в казну"
+    },
+    "acceptance_to_treasury_basis": {
+      "type": "string",
+      "title": "Основание принятия объекта в казну"
+    },
+    "conteragent": {
+      "type": "string",
+      "title": "Контрагент"
+    },
+    "account": {
+      "type": "string",
+      "title": "Счет учета"
+    },
+    "comments": {
+      "type": "string",
+      "title": "Комментарии",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
+    },
+    "object_is_transferred_to_operational_managment": {
+      "type": "string",
+      "title": "Объект передается в оперативное управление"
+    },
+    "gratuitous_use": {
+      "type": "string",
+      "title": "Безвозмездное пользование"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,7 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/organization/ru/organization",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Информация о российской организации",
+  "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
   "type": "object",
   "properties": {
     "inn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn" },

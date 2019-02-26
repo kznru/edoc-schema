@@ -1,0 +1,138 @@
+{
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "agent",
+    "contractor",
+    "organization",
+    "address_with_map",
+    "images_before",
+    "begin_date",
+    "end_date",
+    "emergency_repair_of"
+  ],
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель",
+      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "organization": {
+    },
+    "contractor": {
+      "type": "object",
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика",
+          "description": "Наименование организации, выполняющей работы по устранению аварии"
+        },
+        "contractor_responsible": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+          "title": "Ответственный производитель работ со стороны подрядчика",
+          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
+        }
+      }
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ",
+      "description": "Аварии независимо от типа коммуникации (сооружения) с полным восстановлением благоустройства в местах аварийных разрытий должны устраняться в течение пяти суток, а в осенне-зимний период – в течение восьми дней"
+    },
+    "emergency_repair_of": {
+      "type": "string",
+      "title": "Ликвидация аварии на:",
+      "description": "Выберите вид коммуникации (сооружения) из списка",
+      "enum": [
+        "Водопровод",
+        "Волжский водовод",
+        "Водопровод пожарный",
+        "Хозяйственно-бытовая канализация",
+        "Ливневая канализация",
+        "Кабельная канализация",
+        "Электрокабель",
+        "Газопровод",
+        "ЭХЗ анодного контура газопровода",
+        "Теплотрасса",
+        "Сеть отопления",
+        "Сеть ГВС"
+      ]
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_local_road": {
+      "type": "string",
+      "title": "Площадь повреждения местных проездов",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "conclusion_place_of_damage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
+    },
+    "certificate_of_separation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
+    },
+    "certificate_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

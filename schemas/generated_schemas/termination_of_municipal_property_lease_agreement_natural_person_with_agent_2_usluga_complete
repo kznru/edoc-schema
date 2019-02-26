@@ -1,6 +1,44 @@
 {
   "type": "object",
   "properties": {
+    "agent_basis": {
+      "type": "string",
+      "title": "Агент действует на основании"
+    },
+    "first_deputy": {
+      "type": "string",
+      "title": "ФИО первого заместителя председателя Комитета"
+    },
+    "first_deputy_basis": {
+      "type": "string",
+      "title": "Первый заместитель действует на основании"
+    },
+    "property_type": {
+      "type": "string",
+      "title": "Тип помещения",
+      "minItems": 1,
+      "enum": [
+        "жилое",
+        "нежилое"
+      ]
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер"
+    },
+    "property_list": {
+      "type": "string",
+      "title": "Перечисление имущества"
+    },
+    "property_area": {
+      "type": "string",
+      "title": "Площадь помещений",
+      "description": "В квадратных метрах"
+    },
+    "property_state": {
+      "type": "string",
+      "title": "Состояние помещений"
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -14,7 +52,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     }
   }
 }

@@ -1,6 +1,29 @@
 {
   "type": "object",
   "properties": {
+    "inclusion_basis": {
+      "type": "string",
+      "title": "Основания для включения"
+    },
+    "inclusion_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата включения"
+    },
+    "property_type": {
+      "type": "string",
+      "title": "Тип помещения",
+      "minItems": 1,
+      "enum": [
+        "жилые",
+        "нежилые"
+      ]
+    },
+    "property_area": {
+      "type": "string",
+      "title": "Площадь помещений",
+      "description": "В квадратных метрах"
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -14,7 +37,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     }
   }
 }

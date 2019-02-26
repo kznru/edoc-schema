@@ -1,4 +1,14 @@
 {
+  "required": [
+    "applicant",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "usage",
+    "usage_period",
+    "area"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -58,7 +68,7 @@
         "Зарядные станции (терминалы) для электротранспорта"
       ]
     },
-    "years_number": {
+    "usage_period": {
       "title": "Срок использования земельного участка",
       "description": "Например, «5 лет» или «11 месяцев»",
       "type": "string"
@@ -84,7 +94,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",

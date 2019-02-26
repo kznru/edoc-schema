@@ -32,8 +32,6 @@
       "type": "string",
       "title": "Текст вывески"
     },
-    "registry_item": {
-    },
     "image_original": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
       "title": "Фотофиксация исходной ситуации",
@@ -77,7 +75,7 @@
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Доп. приложения"
+      "title": "Дополнительные приложения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",

@@ -29,7 +29,7 @@
       },
       "facade_elements": {
         "type": "array",
-        "title": "Элементы фасада",
+        "title": "Пояснительная записка",
         "minItems": 1,
         "items": {
           "type": "object",

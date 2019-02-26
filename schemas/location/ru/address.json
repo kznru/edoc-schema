@@ -1,7 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/location/ru/address",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "description": "Адрес объекта в формате фиас",
+  "description": "Выбор адреса из подгрузившегося списка обязателен",
   "type": "object",
   "properties": {
     "fias_id": { "type": "string", "title": "Код ФИАС" },
