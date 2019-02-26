@@ -29,15 +29,17 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
-      "description": "Кадастровый номер в виде число:число:число..."
+      "description": "Введите кадастровый номер помещения, здания или территории, на котором размещена вывеска. Например, 12:12:1234567:123 или 12:12:123456:12"
     },
     "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number",
+      "description": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
     },
     "explanatory_note": {
       "type": "array",
