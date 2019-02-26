@@ -13,15 +13,15 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "non_capital_conclusion": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Предложение рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
-    },
     "organization": {
     },
     "applicant": {
     },
     "letter_of_attorney": {
+    },
+    "non_capital_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Предложение рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"

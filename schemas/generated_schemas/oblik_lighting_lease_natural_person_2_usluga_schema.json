@@ -18,15 +18,15 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
     },
-    "arhitechural_lighting_proposal": {
-      "title": "Предложение по архитектурно-художественной подсветке",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    },
     "organization": {
     },
     "applicant": {
     },
     "letter_of_attorney": {
+    },
+    "arhitechural_lighting_proposal": {
+      "title": "Предложение по архитектурно-художественной подсветке",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"

@@ -25,16 +25,16 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
     },
-    "passport_bti": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
-      "title": "Паспорт БТИ",
-      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
-    },
     "organization": {
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
+    },
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "title": "Паспорт БТИ",
+      "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"

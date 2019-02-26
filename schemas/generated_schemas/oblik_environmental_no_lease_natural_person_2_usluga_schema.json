@@ -14,6 +14,12 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
+    "organization": {
+    },
+    "applicant": {
+    },
+    "letter_of_attorney": {
+    },
     "general_plan": {
       "title": "Генеральный план",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
@@ -21,12 +27,6 @@
     "landscape_visual_analysis": {
       "title": "Ландшафтно-визуальный анализ",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    },
-    "organization": {
-    },
-    "applicant": {
-    },
-    "letter_of_attorney": {
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
