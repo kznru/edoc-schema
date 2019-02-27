@@ -19,7 +19,7 @@
       "title": "Данные заявителя",
       "properties": {
         "registration_address": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
           "title": "Место жительства",
           "description": "Адрес проживания"
         },
@@ -54,7 +54,7 @@
       "description": "Указание кадастрового номера кадастрового квартала"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес или местоположение земельного участка",
       "description": "Местоположение строящегося дома"
     },

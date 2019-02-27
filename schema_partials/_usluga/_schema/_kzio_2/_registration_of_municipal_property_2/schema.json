@@ -22,7 +22,7 @@
       "description": "Документ, подтверждающий полномочия пердставителя"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Адрес объекта (или ближайший)",
       "title": "Адрес, по которому находится муниципальное имущество"
     },

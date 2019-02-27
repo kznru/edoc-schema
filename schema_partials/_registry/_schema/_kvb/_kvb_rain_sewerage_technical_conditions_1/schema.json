@@ -18,7 +18,7 @@
       "title": "Представитель"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "address_comments": {
