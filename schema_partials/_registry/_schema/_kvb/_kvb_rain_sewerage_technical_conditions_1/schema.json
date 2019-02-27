@@ -104,8 +104,8 @@
             "title": "Номер услуги"
           },
           "result_data": {
-            "type": "string",
-            "title": "Результат услуги по выдаче справки"
+            "title": "Результат услуги по выдаче справки",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance"
           }
         }
       }
