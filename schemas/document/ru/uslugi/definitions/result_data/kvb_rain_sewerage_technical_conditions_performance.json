@@ -3,7 +3,7 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Выданная справка о выполнении технических условий на отвод ливневых и талых вод",
   "description": "Выданная справка о выполнении технических условий на отвод ливневых и талых вод",
-  "required": ["organization", "works_done", "notes", "storm_sewer_elements", "agents"],
+  "required": ["organization", "works_done", "notes", "storm_sewer_elements"],
   "type": "object",
   "properties": {
     "organization": {
