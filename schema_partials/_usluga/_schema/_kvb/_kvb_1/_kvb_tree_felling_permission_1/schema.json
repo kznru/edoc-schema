@@ -5,6 +5,7 @@
     "agent",
     "address_with_map",
     "address_comments",
+    "letter_of_attorney",
     "work_description"
   ],
   "properties": {

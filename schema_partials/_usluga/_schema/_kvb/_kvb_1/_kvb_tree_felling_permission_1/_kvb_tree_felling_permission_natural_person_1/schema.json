@@ -1,6 +1,5 @@
 {
   "required": [
-    "letter_of_attorney",
     "applicant_position",
     "cadastre_number",
     "land_documents"

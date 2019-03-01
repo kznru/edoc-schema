@@ -1,7 +1,6 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "applicant_position",
     "cadastre_number",
     "project_plan",
@@ -9,6 +8,7 @@
     "agent",
     "address_with_map",
     "address_comments",
+    "letter_of_attorney",
     "work_description"
   ],
   "properties": {

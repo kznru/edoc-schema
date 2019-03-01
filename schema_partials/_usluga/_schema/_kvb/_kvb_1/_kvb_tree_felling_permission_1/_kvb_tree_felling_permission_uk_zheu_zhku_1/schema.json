@@ -1,7 +1,6 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "land_survey"
   ],
   "properties": {

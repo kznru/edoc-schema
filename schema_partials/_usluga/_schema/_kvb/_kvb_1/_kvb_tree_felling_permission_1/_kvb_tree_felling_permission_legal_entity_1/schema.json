@@ -1,7 +1,6 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "applicant_position",
     "cadastre_number",
     "project_plan",
