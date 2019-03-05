@@ -82,22 +82,22 @@
     },
     "area_of_damage_to_road": {
       "type": "string",
-      "title": "Площадь повреждения дорожного покрытия",
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
       "description": "Кв. м"
     },
     "area_of_damage_to_local_road": {
       "type": "string",
-      "title": "Площадь повреждения местных проездов",
+      "title": "Площадь повреждения местных проездов (кв. м)",
       "description": "Кв. м"
     },
     "area_of_damage_to_sidewalk": {
       "type": "string",
-      "title": "Площадь повреждения тротуара",
+      "title": "Площадь повреждения тротуара (кв. м)",
       "description": "Кв. м"
     },
     "area_of_damage_to_lawn": {
       "type": "string",
-      "title": "Площадь повреждения газона",
+      "title": "Площадь повреждения газона (кв. м)",
       "description": "Кв. м"
     },
     "contractor": {
