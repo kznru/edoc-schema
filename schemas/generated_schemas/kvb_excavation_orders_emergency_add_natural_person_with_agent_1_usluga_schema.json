@@ -30,6 +30,9 @@
     },
     "contractor": {
       "type": "object",
+      "required": [
+        "contractor_organization"
+      ],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {

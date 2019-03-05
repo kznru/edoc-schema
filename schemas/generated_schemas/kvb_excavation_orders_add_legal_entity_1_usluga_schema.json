@@ -102,6 +102,9 @@
     },
     "contractor": {
       "type": "object",
+      "required": [
+        "contractor_organization"
+      ],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
@@ -122,6 +125,10 @@
     },
     "subcontractor": {
       "type": "object",
+      "required": [
+        "subcontractor_organization",
+        "subcontractor_responsible"
+      ],
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
