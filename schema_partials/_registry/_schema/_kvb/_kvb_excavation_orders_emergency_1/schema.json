@@ -56,8 +56,12 @@
       "title": "Подрядчик"
     },
     "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
-      "title": "Ответственный производитель работ со стороны подрядчика"
+      "type": "array",
+      "title": "Ответственный производитель работ со стороны подрядчика",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+      }
     },
     "area_of_damage_to_road": {
       "type": "string",

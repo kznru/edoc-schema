@@ -52,8 +52,12 @@
       "title": "Подрядчик"
     },
     "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
-      "title": "Ответственный производитель работ со стороны подрядчика"
+      "type": "array",
+      "title": "Ответственный производитель работ со стороны подрядчика",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+      }
     },
     "subcontractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -66,6 +70,15 @@
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
       }
+    },
+    "order_of_responsible_in_place": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приказ об ответственном на объекте"
+    },
+    "order_of_responsible_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Приказ об ответственном за благоустройство",
+      "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "objects_of_work": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",

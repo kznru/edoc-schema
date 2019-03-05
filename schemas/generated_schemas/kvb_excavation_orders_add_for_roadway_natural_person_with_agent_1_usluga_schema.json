@@ -86,7 +86,11 @@
           "title": "Организация подрядчика"
         },
         "contractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+          },
           "title": "Ответственный производитель работ со стороны подрядчика"
         }
       }
@@ -100,7 +104,11 @@
           "title": "Организация субподрядчика"
         },
         "subcontractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+          },
           "title": "Ответственный производитель работ со стороны субподрядчика"
         }
       }
