@@ -148,13 +148,9 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
     },
     "order_of_responsible_in_place": {
-      "type": "array",
       "title": "Приказ об ответственном на объекте",
       "description": "За производство земляных работ с правом представлять юридическое лицо на объекте",
-      "minItems": 1,
-      "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
     "order_of_responsible_for_restore": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
