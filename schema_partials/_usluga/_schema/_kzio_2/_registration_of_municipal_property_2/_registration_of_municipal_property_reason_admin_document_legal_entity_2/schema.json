@@ -1,6 +1,20 @@
 {
   "required": ["admin_document"],
   "properties": {
-    "admin_document": {}
+    "admin_document": {
+      "title": "Реквизиты документа",
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "title": "Дата документа",
+          "format": "date"
+        },
+        "number": {
+          "type": "string",
+          "title": "Номер документа"
+        }
+      }
+    }
   }
 }
