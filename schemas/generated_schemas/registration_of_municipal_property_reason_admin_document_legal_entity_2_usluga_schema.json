@@ -85,11 +85,6 @@
         }
       }
     },
-    "purpose": {
-      "title": "Цель",
-      "type": "string",
-      "description": "Конкретная цель использования объекта"
-    },
     "reason": {
     },
     "attachments": {
