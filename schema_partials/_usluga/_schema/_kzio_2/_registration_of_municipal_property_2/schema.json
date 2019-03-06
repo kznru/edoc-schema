@@ -4,8 +4,7 @@
     "organization",
     "agent",
     "letter_of_attorney",
-    "address_with_map",
-    "purpose"
+    "address_with_map"
   ],
   "properties": {
     "organization": {
