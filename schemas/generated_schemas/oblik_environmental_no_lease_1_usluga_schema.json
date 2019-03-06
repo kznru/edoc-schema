@@ -41,7 +41,8 @@
     },
     "description": {
       "type": "string",
-      "title": "Описание"
+      "title": "Описание",
+      "description": "Подробное описание работ, крепление дополнительных элементов"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

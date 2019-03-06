@@ -13,7 +13,8 @@
       "config": {
         "registry_key": "kvb_excavation_orders_emergency_1"
       },
-      "title": "Ордер для закрытия"
+      "title": "Ордер для закрытия",
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -36,7 +37,8 @@
     },
     "images_after": {
       "title": "Фотографии мест работ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "description": "Требования к фотографиям приведены в Регламенте"
     },
     "certificate_qa": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",

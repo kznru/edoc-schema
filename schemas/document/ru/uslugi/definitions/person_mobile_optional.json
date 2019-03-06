@@ -5,10 +5,13 @@
   "type": "object",
   "properties": {
     "fio": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "ФИО"
     },
     "mobile": {
-      "type": "string", "title": "Мобильный телефон"
+      "type": "string",
+      "title": "Мобильный телефон",
+      "description": "+79xxxxxx"
     }
   }
 }

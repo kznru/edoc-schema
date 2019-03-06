@@ -15,7 +15,7 @@
         "registry_key": "kvb_excavation_orders_emergency_1"
       },
       "title": "Ордер для продления",
-      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",

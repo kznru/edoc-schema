@@ -27,7 +27,8 @@
     },
     "images_after": {
       "title": "Фотографии мест работ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "description": "Требования к фотографиям приведены в Регламенте"
     },
     "certificate_qa": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
