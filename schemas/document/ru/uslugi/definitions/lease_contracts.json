@@ -4,5 +4,7 @@
   "description": "Договора аренды",
   "type": "array",
   "minItems": 1,
-  "items": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract"}
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract"
+  }
 }
