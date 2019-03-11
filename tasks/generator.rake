@@ -12,12 +12,13 @@ end
 namespace :generator do
   desc 'Generate directories'
   task :structure, [:instruction, :partials_dir]  do |t, args|
+    puts 'Generate structure.'
     params = {
       instruction: args[:instruction],
       partials_dir: [Dir.pwd, 'schema_partials'].join('/')
     }
     StructureGeneratorService.new(params).call
-    puts 'Done structure.'
+    puts 'Done.'
   end
 
   desc 'Generate all'
@@ -33,6 +34,7 @@ namespace :generator do
 
   desc 'Generate query'
   task :query do
+    puts 'Generate query.'
     params = {
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_query'].join('/'),
@@ -41,11 +43,12 @@ namespace :generator do
       output_type: 'json'
     }
     SchemaGeneratorService.new(params).make
-    puts 'Done query.'
+    puts 'Done.'
   end
 
   desc 'Generate registry'
   task :registry do
+    puts 'Generate registry.'
     params = {
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_registry'].join('/'),
@@ -54,11 +57,12 @@ namespace :generator do
       output_type: 'json'
     }
     SchemaGeneratorService.new(params).make
-    puts 'Done registry.'
+    puts 'Done.'
   end
 
   desc 'Generate usluga'
   task :usluga do
+    puts 'Generate usluga.'
     params = {
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
@@ -67,11 +71,12 @@ namespace :generator do
       output_type: 'json'
     }
     SchemaGeneratorService.new(params).make
-    puts 'Done usluga.'
+    puts 'Done.'
   end
 
   desc 'Generate usluga_request'
   task :usluga_request do
+    puts 'Generate usluga_request.'
     params = {
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
@@ -80,6 +85,6 @@ namespace :generator do
       output_type: 'json'
     }
     SchemaGeneratorService.new(params).make
-    puts 'Done usluga_request.'
+    puts 'Done.'
   end
 end
