@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {},
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "passport_bti": {},
+    "explanatory_note": {},
+    "graphic_part": {},
+    "documents_of_title": {},
+    "lease_contract": {}
+  }
+}

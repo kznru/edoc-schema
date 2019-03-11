@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "required": [
+    "cadastre_number"
+  ],
+  "properties": {
+    "organization": {},
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "passport_bti": {},
+    "documents_of_title": {},
+    "explanatory_note": {},
+    "graphic_part": {},
+    "lease_contract": {}
+  }
+}

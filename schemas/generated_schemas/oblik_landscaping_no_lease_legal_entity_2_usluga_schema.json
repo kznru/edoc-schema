@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "cadastre_number"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "applicant": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "passport_bti": {
+    },
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [
+        "landscape_visual_analysis"
+      ],
+      "properties": {
+        "general_plan": {
+          "title": "Генеральный план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+        },
+        "landscape_visual_analysis": {
+          "title": "Ландшафтно-визуальный анализ",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
+        },
+        "projections": {
+          "title": "Проекции",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        },
+        "photo": {
+          "title": "Фото исходной ситуации",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        }
+      }
+    },
+    "documents_of_title": {
+    },
+    "lease_contract": {
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

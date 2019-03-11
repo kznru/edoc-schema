@@ -1,0 +1,102 @@
+{
+  "type": "object",
+  "required": [
+    "agent",
+    "cadastre_number"
+  ],
+  "properties": {
+    "organization": {
+    },
+    "applicant": {
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Заявитель"
+    },
+    "letter_of_attorney": {
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "passport_bti": {
+    },
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [
+        "landscape_visual_analysis"
+      ],
+      "properties": {
+        "facades": {
+          "type": "object",
+          "title": "Фасады",
+          "required": [
+
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "title": "Тип фасада",
+              "enum": [
+                "главный",
+                "боковой",
+                "дворовый"
+              ]
+            },
+            "sketch": {
+              "title": "Эскизное предложение",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+              "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+            },
+            "description": {
+              "title": "Описание",
+              "type": "string"
+            },
+            "material": {
+              "title": "Материал",
+              "type": "string"
+            },
+            "color_description": {
+              "title": "Описание цвета (с указанием системы: RAL,NCS и т.п",
+              "type": "string"
+            }
+          }
+        },
+        "general_plan": {
+          "title": "Генеральный план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+        },
+        "landscape_visual_analysis": {
+          "title": "Ландшафтно-визуальный анализ",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
+        }
+      }
+    },
+    "documents_of_title": {
+    },
+    "lease_contract": {
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

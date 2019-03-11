@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "organization": {},
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "cadastre_number": {},
+    "planeta_number": {},
+    "passport_bti": {},
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [],
+      "properties": {
+        "facades": {
+          "type": "object",
+          "title": "Фасады",
+          "required": [],
+          "properties": {
+            "type": {
+              "type": "string",
+              "title": "Тип фасада",
+              "enum": [
+                "главный",
+                "боковой"
+              ]
+            },
+            "photo": {
+              "title": "Фото исходной ситуации",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+            },
+            "sketch": {
+              "title": "Эскизное предложение",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+              "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+            },
+            "topographic_plan": {
+              "title": "Топографический план",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+            },
+            "light_technical_calculation": {
+              "title": "Светотехнический расчет",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+              "description": "Обоснование используемого оборудования"
+            }
+          }
+        }
+      }
+    },
+    "documents_of_title": {},
+    "lease_contract": {}
+  }
+}
