@@ -9,6 +9,7 @@
     "address_with_map": {},
     "cadastre_number": {},
     "planeta_number": {},
+    "lease_contract": {},
     "passport_bti": {},
     "documents_of_title": {},
     "explanatory_note": {
@@ -65,7 +66,6 @@
           "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
         }
       }
-    },
-    "lease_contract": {}
+    }
   }
 }

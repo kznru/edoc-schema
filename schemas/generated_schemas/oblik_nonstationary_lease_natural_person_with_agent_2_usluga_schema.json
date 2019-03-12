@@ -35,6 +35,9 @@
     },
     "passport_bti": {
     },
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
@@ -93,9 +96,6 @@
       }
     },
     "documents_of_title": {
-    },
-    "lease_contract": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

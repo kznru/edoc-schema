@@ -19,10 +19,10 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "lease_contract": {},
     "passport_bti": {},
     "documents_of_title": {},
     "explanatory_note": {},
-    "graphic_part": {},
-    "lease_contract": {}
+    "graphic_part": {}
   }
 }

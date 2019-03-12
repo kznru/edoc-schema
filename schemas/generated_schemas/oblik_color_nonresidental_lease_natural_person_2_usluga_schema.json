@@ -27,6 +27,11 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    },
+    "documents_of_title": {
+    },
     "passport_bti": {
     },
     "explanatory_note": {
@@ -75,11 +80,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
-    },
-    "lease_contract": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

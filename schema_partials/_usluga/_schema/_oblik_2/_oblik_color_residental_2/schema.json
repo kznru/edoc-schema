@@ -9,6 +9,7 @@
     "address_with_map": {},
     "cadastre_number": {},
     "planeta_number": {},
+    "lease_contract": {},
     "passport_bti": {},
     "documents_of_title": {
       "title": "Правоустанавливающие документы",
@@ -56,7 +57,6 @@
           }
         }
       }
-    },
-    "lease_contract": {}
+    }
   }
 }

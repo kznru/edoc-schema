@@ -32,6 +32,10 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "documents_of_title": {
+      "title": "Правоустанавливающие документы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "passport_bti": {
     },
     "explanatory_note": {
@@ -60,27 +64,26 @@
                 "дворовый"
               ]
             },
-            "description": {
+            "sketch": {
               "title": "Эскизное предложение",
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
               "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
             },
+            "description": {
+              "type": "string",
+              "title": "Описание"
+            },
             "material": {
-              "title": "Топографический план",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+              "type": "string",
+              "title": "Материал"
             },
             "color_description": {
-              "title": "Светотехнический расчет",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-              "description": "Обоснование используемого оборудования"
+              "type": "string",
+              "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)"
             }
           }
         }
       }
-    },
-    "documents_of_title": {
-      "title": "Правоустанавливающие документы",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "lease_contract": {
     },

@@ -32,6 +32,12 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "lease_contract": {
+    },
+    "documents_of_title": {
+      "title": "Правоустанавливающие документы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "passport_bti": {
     },
     "explanatory_note": {
@@ -80,12 +86,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
-      "title": "Правоустанавливающие документы",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

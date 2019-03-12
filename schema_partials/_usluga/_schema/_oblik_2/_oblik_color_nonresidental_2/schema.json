@@ -9,6 +9,7 @@
     "address_with_map": {},
     "cadastre_number": {},
     "planeta_number": {},
+    "lease_contract": {},
     "passport_bti": {},
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -52,7 +53,6 @@
           }
         }
       }
-    },
-    "lease_contract": {}
+    }
   }
 }

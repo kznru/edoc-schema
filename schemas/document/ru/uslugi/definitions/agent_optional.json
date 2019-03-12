@@ -8,7 +8,8 @@
     "passport_number": {
       "type": "string",
       "pattern": "^[0-9]{6}$",
-      "title": "Номер паспорта"
+      "title": "Номер паспорта",
+      "description": "Последние 6 цифр номера паспорта"
     },
     "fio": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",

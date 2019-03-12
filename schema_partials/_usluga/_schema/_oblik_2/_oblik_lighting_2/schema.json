@@ -9,6 +9,7 @@
     "address_with_map": {},
     "cadastre_number": {},
     "planeta_number": {},
+    "lease_contract": {},
     "passport_bti": {},
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -30,30 +31,29 @@
                 "главный",
                 "боковой"
               ]
-            },
-            "photo": {
-              "title": "Фото исходной ситуации",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-            },
-            "sketch": {
-              "title": "Эскизное предложение",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-              "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
-            },
-            "topographic_plan": {
-              "title": "Топографический план",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-            },
-            "light_technical_calculation": {
-              "title": "Светотехнический расчет",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-              "description": "Обоснование используемого оборудования"
             }
           }
+        },
+        "photo": {
+          "title": "Фото исходной ситуации",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        },
+        "sketch": {
+          "title": "Эскизное предложение",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+        },
+        "topographic_plan": {
+          "title": "Топографический план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        },
+        "light_technical_calculation": {
+          "title": "Светотехнический расчет",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Обоснование используемого оборудования"
         }
       }
     },
-    "documents_of_title": {},
-    "lease_contract": {}
+    "documents_of_title": {}
   }
 }
