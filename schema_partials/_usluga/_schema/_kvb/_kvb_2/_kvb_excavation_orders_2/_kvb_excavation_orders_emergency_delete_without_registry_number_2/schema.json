@@ -1,0 +1,40 @@
+{
+  "required": [
+    "agent",
+    "registry_item",
+    "address_with_map",
+    "images_after"
+  ],
+  "properties": {
+    "registry_item": {
+      "type": "string",
+      "title": "Номер и дата ордера для закрытия"
+    },
+    "applicant": {},
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "images_after": {
+      "title": "Фотографии мест работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "description": "Требования к фотографиям приведены в Регламенте"
+    },
+    "certificate_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключение о контроле качества"
+    },
+    "certificate_of_acceptance_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Акт промежуточной приёмки"
+    },
+    "certificate_of_acceptance": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Акт приёмки"
+    }
+  }
+}
