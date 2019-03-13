@@ -145,7 +145,8 @@
       "title": "График выполнения работ"
     },
     "topography_of_networks": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "description": "Топосъемка г.Казани (М 1:500) с обозначением инженерных сетей, заключение трасс инженерных коммуникаций (с печатью УАиГ) (если идет строительство, реконструкция, капитальный ремонт или демонтаж инженерных сетей)"
     },
     "topography_of_placements": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
