@@ -4,6 +4,7 @@
     {
       "name": "advertising_1",
       "virtual": true,
+      "action": "delete",
       "keys": [
         {
           "name": "advertising_insertion_1",

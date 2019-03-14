@@ -3,6 +3,7 @@
   "keys": [
     {
       "name": "advertising_1",
+      "action": "delete",
       "virtual": true,
       "keys": [
         {
