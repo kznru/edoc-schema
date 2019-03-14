@@ -2,6 +2,7 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Паспорт БТИ",
+  "title": "Паспорт БТИ",
   "type": "object",
   "properties": {
     "bti": {
