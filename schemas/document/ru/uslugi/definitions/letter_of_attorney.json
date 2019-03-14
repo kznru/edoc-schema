@@ -2,6 +2,6 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Доверенность",
-  "description": "Скан-копия документа, подтверждающего полномочи",
+  "description": "Скан-копия документа, подтверждающего полномочия",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
 }
