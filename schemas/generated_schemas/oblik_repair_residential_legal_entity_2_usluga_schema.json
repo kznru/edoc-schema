@@ -50,37 +50,38 @@
       ],
       "properties": {
         "facades": {
-          "type": "object",
+          "type": "array",
+          "minItems": 1,
           "title": "Фасады",
-          "required": [
-
-          ],
-          "properties": {
-            "type": {
-              "type": "string",
-              "title": "Тип фасада",
-              "enum": [
-                "главный",
-                "боковой",
-                "дворовый"
-              ]
-            },
-            "sketch": {
-              "title": "Эскизное предложение",
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-              "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
-            },
-            "description": {
-              "type": "string",
-              "title": "Описание"
-            },
-            "material": {
-              "type": "string",
-              "title": "Материал"
-            },
-            "color_description": {
-              "type": "string",
-              "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)"
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "title": "Тип фасада",
+                "enum": [
+                  "главный",
+                  "боковой",
+                  "дворовый"
+                ]
+              },
+              "sketch": {
+                "title": "Эскизное предложение",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+              },
+              "description": {
+                "type": "string",
+                "title": "Описание"
+              },
+              "material": {
+                "type": "string",
+                "title": "Материал"
+              },
+              "color_description": {
+                "type": "string",
+                "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)"
+              }
             }
           }
         }

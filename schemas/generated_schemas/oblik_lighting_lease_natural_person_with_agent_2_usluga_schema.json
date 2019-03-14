@@ -49,19 +49,20 @@
       ],
       "properties": {
         "facades": {
-          "type": "object",
+          "type": "array",
+          "minItems": 1,
           "title": "Фасады",
-          "required": [
-
-          ],
-          "properties": {
-            "type": {
-              "type": "string",
-              "title": "Тип фасада",
-              "enum": [
-                "главный",
-                "боковой"
-              ]
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "title": "Тип фасада",
+                "enum": [
+                  "главный",
+                  "боковой"
+                ]
+              }
             }
           }
         },
