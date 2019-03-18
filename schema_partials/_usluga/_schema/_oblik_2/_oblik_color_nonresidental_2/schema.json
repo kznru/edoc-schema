@@ -10,7 +10,9 @@
     "cadastre_number": {},
     "planeta_number": {},
     "lease_contract": {},
-    "passport_bti": {},
+    "passport_bti": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti"
+    },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
@@ -38,7 +40,7 @@
             "sketch": {
               "title": "Эскизное предложение",
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-              "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+              "description": "Эскизное предложение"
             },
             "description": {
               "title": "Описание",

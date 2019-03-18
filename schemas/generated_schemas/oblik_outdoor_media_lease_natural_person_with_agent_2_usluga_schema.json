@@ -63,12 +63,13 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "description": "Файлы"
               },
               "sketch": {
                 "title": "Эскизное предложение",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
               }
             }
           }

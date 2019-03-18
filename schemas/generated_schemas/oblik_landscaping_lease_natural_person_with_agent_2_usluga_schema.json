@@ -32,6 +32,9 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    },
     "passport_bti": {
     },
     "explanatory_note": {
@@ -47,7 +50,7 @@
         "general_plan": {
           "title": "Генеральный план",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+          "description": "Генеральный план. В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
         },
         "landscape_visual_analysis": {
           "title": "Ландшафтно-визуальный анализ",
@@ -65,9 +68,6 @@
       }
     },
     "documents_of_title": {
-    },
-    "lease_contract": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
