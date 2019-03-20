@@ -4,6 +4,9 @@
     "title_document_for_property"
   ],
   "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
     "address_with_map": {
       "title": "Адрес предполагаемого места установки",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",

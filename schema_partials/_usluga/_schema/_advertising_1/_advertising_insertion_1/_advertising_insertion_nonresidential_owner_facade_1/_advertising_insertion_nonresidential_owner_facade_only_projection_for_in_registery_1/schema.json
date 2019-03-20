@@ -5,6 +5,9 @@
     "confirming_ownership_document"
   ],
   "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
     "address_with_map": {
       "title": "Адрес предполагаемого места места размещения проецируемого изображения",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
