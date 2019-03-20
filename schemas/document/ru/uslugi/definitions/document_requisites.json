@@ -1,0 +1,22 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Реквизиты документа",
+  "title": "Реквизиты документа",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер договора"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата договора"
+    },
+    "scanned_documents": {
+      "title": "Сканы договора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    }
+  }
+}
