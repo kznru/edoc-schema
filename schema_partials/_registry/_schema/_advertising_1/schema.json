@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "usluga_number": {
+      "type": "string",
+      "title": "Номер муниципальной услуги"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    }
+  },
+  "required": [
+    "address_with_map"
+  ]
+}

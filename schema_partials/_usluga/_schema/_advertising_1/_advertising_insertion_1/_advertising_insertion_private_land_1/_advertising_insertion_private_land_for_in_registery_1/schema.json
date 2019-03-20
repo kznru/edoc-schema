@@ -1,0 +1,20 @@
+{
+  "required": [
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "type": {},
+    "field_area": {},
+    "number_of_fields": {},
+    "total_area_of_fields": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "description": {},
+    "property_owner": {},
+    "installation_and_operation_document": {},
+    "state_duty_payment": {}
+  }
+}

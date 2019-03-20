@@ -1,0 +1,127 @@
+{
+  "required": [
+    "title_document_for_property",
+    "address_with_map",
+    "type",
+    "property_owner",
+    "installation_and_operation_document",
+    "state_duty_payment",
+    "photo",
+    "photomontage",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "constructive_images",
+    "field_size",
+    "field_area",
+    "notification_confirmation_document",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Подкрепляется отсканированный оригинал  документа, подтверждающего полномочия представителя"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "default": "Проекционная рекламная конструкция",
+      "title": "Тип рекламной конструкции",
+      "type": "string"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "type": "string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "number_of_fields": {
+    },
+    "total_area_of_fields": {
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности",
+      "description": "Подкрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
+    },
+    "graphic_image_of_structure": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции",
+      "description": "Подкрепляется скан чертежа рекламной конструкции, содержащий ортогональные проекции (включая цветовое решение), выполненный в масштабе. Рекомендуемые масштабы для рекламных конструкций малого формата - М 1:50. На чертеже необходимо указать: -габаритные размеры рекламной конструкции; -высоту опоры рекламной конструкции (для пилона); -месторасположение маркировки. Чертеж маркировки необходимо выполнить с соблюдением пропорций, указанием ее габаритных размеров, используемых материалов, а также необходимой информации (владелец рекламной конструкции, контактный телефон, номер разрешения на установку и эксплуатацию рекламной конструкции)."
+    },
+    "description": {
+    },
+    "property_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
+    },
+    "title_document_for_property": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
+      "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Подкрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения об оплате государственной пошлины",
+      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото  ситуации",
+      "description": "Подкрепляется фотография предполагаемого места размещения рекламной конструкции, выполненная не более чем за один месяц до обращения за получением мун.услуги (фотография должна давать полное представление о здании, сооружении, в том числе о месте его расположения в градостроительной ситуации). Фотография должна быть цветная, четкая, выполненная в светлое время суток."
+    },
+    "photomontage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотомонтаж",
+      "description": "Подкрепляется файл фотомонтажа - графическая врисовка рекламной конструкции в месте предполагаемого размещения в существующую ситуацию (выполняется в виде компьютерной врисовки рекламной конструкции на фото с соблюдением пропорций размещаемой рекламной конструкции, с указанием места расположения маркировки)"
+    },
+    "constructive_images": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Конструктивные изображения",
+      "description": "Подкрепляется скан, содержащий чертежи рекламной конструкции в разрезе, выполненные с соблюдением пропорций, изображение конструктивных элементов крепления рекламной конструкции с указанием размеров и описанием использованных материалов, методов монтажа, характера подсветки"
+    },
+    "field_size": {
+      "title": "Размер информационного поля",
+      "type": "string",
+      "description": "Размер информационного поля, м"
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственников",
+      "description": "Подкрепляется скан протокола общего собрания собственников  помещений в многоквартирном доме с приложением решений собственников о заключении договора на установку и эксплуатацию рекламной конструкции и об определении лиц, которые от имени собственников помещений в многоквартирном доме уполномочены на заключение договора на установку и эксплуатацию рекламной конструкции на условиях, определенных решением общего собрания"
+    },
+    "notification_confirmation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Документ, подтверждающий уведомление УК, правление ТСЖ, ЖК, ЖСК, иного СПК,  а при непосредственном способе управления орган государственного жилищного надзора",
+      "description": "Подкрепляется скан документа, подтверждающего уведомление УК, правление ТСЖ, ЖК, ЖСК, иного ПСК, а при непосредственном способе управления орган государственного жилищного надзора"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

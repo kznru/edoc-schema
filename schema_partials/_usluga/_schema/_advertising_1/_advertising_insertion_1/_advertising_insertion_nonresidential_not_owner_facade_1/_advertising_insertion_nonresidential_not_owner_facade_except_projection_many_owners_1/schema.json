@@ -1,0 +1,61 @@
+{
+  "required": [
+    "address_with_map",
+    "type",
+    "property_owners",
+    "installation_and_operation_document",
+    "state_duty_payment"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "default": "Проекционная рекламная конструкция"
+    },
+    "type": {
+      "enum": [
+        "крышная установка",
+        "брандмауэр",
+        "медиафасад",
+        "видеоэкран",
+        "строительная сетка"
+      ]
+    },
+    "photo": {},
+    "photomontage": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "constructive_images": {},
+    "field_size": {},
+    "field_area": {},
+    "property_owners": {
+      "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+      }
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственников",
+      "description": "Подкрепляется скан протокола общего собрания собственников  помещений в многоквартирном доме с приложением решений собственников о заключении договора на установку и эксплуатацию рекламной конструкции и об определении лиц, которые от имени собственников помещений в многоквартирном доме уполномочены на заключение договора на установку и эксплуатацию рекламной конструкции на условиях, определенных решением общего собрания"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Подкрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения об оплате государственной пошлины",
+      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины"
+    }
+  }
+}

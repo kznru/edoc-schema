@@ -1,0 +1,38 @@
+{
+  "required": [
+    "address_with_map",
+    "address_with_map_for_projection_equipment",
+    "confirming_ownership_document"
+  ],
+  "properties": {
+    "address_with_map": {
+      "title": "Адрес предполагаемого места места размещения проецируемого изображения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места размещения проецируемого изображения: 1) район; 2) улица; 3) дом, корпус."
+    },
+    "address_with_map_for_projection_equipment": {
+      "title": "Адрес предполагаемого места установки проекционного оборудования",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки проекционного оборудования: 1) район; 2) улица; 3) дом, корпус."
+    },
+    "type": {
+      "default": "Проекционная рекламная конструкция"
+    },
+    "photo": {},
+    "photomontage": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "constructive_images": {},
+    "field_size": {},
+    "field_area": {},
+    "property_owner": {},
+    "confirming_ownership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
+    },
+    "permission_period": {},
+    "state_duty_payment": {}
+  }
+}
+

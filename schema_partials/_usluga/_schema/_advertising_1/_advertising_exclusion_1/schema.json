@@ -1,0 +1,14 @@
+{
+  "required": [
+    "registry_item"
+  ],
+  "properties": {
+    "registry_item": {
+      "title": "Номер выданного разрешения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "advertising_1"
+      }
+    }
+  }
+}

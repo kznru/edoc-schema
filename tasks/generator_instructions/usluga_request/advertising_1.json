@@ -3,48 +3,116 @@
   "keys": [
     {
       "name": "advertising_1",
-      "action": "delete",
       "virtual": true,
       "keys": [
+        {
+          "name": "advertising_exclusion_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "advertising_exclusion_advertising_owner_legal_entity_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_legal_entity_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_natural_person_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_natural_person_with_agent_1"
+            }
+          ]
+        },
         {
           "name": "advertising_insertion_1",
           "virtual": true,
           "keys": [
             {
-              "name": "advertising_insertion_apartment_house_legal_entity_1"
+              "name": "advertising_insertion_private_land_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_private_land_for_in_registery_1"
+                },
+                {
+                  "name": "advertising_insertion_private_land_for_not_in_registery_1"
+                }
+              ]
             },
             {
-              "name": "advertising_insertion_apartment_house_projection_legal_entity_1"
+              "name": "advertising_insertion_bidding_land_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_bidding_land_with_executive_committee_1"
+                },
+                {
+                  "name": "advertising_insertion_bidding_land_not_with_executive_committee_1"
+                }
+              ]
             },
             {
-              "name": "advertising_insertion_land_bidding_owned_by_legal_entity_legal_entity_1"
+              "name": "advertising_insertion_apartment_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_apartment_facade_only_projection_1"
+                },
+                {
+                  "name": "advertising_insertion_apartment_facade_except_projection_1"
+                }
+              ]
             },
             {
-              "name": "advertising_insertion_land_bidding_owned_by_natural_person_legal_entity_1"
+              "name": "advertising_insertion_nonresidential_not_owner_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_nonresidential_not_owner_facade_only_projection_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "advertising_insertion_nonresidential_not_owner_facade_only_projection_for_in_registery_1"
+                    },
+                    {
+                      "name": "advertising_insertion_nonresidential_not_owner_facade_only_projection_for_not_in_registery_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_not_owner_facade_except_projection_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "advertising_insertion_nonresidential_not_owner_facade_except_projection_for_not_in_registery_1"
+                    },
+                    {
+                      "name": "advertising_insertion_nonresidential_not_owner_facade_except_projection_for_in_registery_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_not_owner_facade_except_projection_many_owners_1"
+                }
+              ]
             },
             {
-              "name": "advertising_insertion_land_private_property_owned_by_legal_entity_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_land_private_property_owned_by_natural_person_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_not_owner_owned_by_legal_entity_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_not_owner_owned_by_legal_entity_projection_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_not_owner_owned_by_natural_person_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_not_owner_owned_by_natural_person_projection_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_owner_legal_entity_1"
-            },
-            {
-              "name": "advertising_insertion_nonresidental_owner_projection_legal_entity_1"
+              "name": "advertising_insertion_nonresidential_owner_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_nonresidential_owner_facade_only_projection_for_not_in_registery_1"
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_owner_facade_except_projection_for_not_in_registery_1"
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_owner_facade_only_projection_for_in_registery_1"
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_owner_facade_except_projection_for_in_registery_1"
+                }
+              ]
             }
           ]
         }

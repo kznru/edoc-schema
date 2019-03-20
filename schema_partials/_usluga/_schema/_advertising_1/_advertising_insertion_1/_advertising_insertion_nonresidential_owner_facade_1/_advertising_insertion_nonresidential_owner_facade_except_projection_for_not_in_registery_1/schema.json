@@ -1,0 +1,38 @@
+{
+  "required": [
+    "address_with_map",
+    "title_document_for_property"
+  ],
+  "properties": {
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "enum": [
+        "крышная установка",
+        "брандмауэр",
+        "медиафасад",
+        "видеоэкран",
+        "строительная сетка"
+      ]
+    },
+    "photo": {},
+    "photomontage": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "constructive_images": {},
+    "field_size": {},
+    "field_area": {},
+    "property_owner": {},
+    "title_document_for_property": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
+      "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
+    },
+    "permission_period": {},
+    "state_duty_payment": {}
+  }
+}
+

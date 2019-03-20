@@ -1,0 +1,30 @@
+{
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney",
+    "termination_of_contract_for_installation_and_operation",
+    "title_document_for_property"
+  ],
+  "properties": {
+    "registry_item": {},
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Собственник или иной законный владелец недвижимого имущества"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "registry_item": {},
+    "termination_of_contract_for_installation_and_operation": {
+      "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",
+      "description": "Подкрепляется скан документа, подтверждающего прекращение договора на установку и эксплуатацию рекламной конструкции, заключенный между собственником или владельцем недвижимого имущества и владельцем рекламной конструкции. Копия документа должна быть заверена путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "title_document_for_property": {
+      "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
+      "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}

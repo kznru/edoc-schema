@@ -1,0 +1,26 @@
+{
+  "required": [
+    "title_document_for_property"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "type": {},
+    "field_area": {},
+    "number_of_fields": {},
+    "total_area_of_fields": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "description": {},
+    "property_owner": {},
+    "title_document_for_property": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
+      "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
+    },
+    "installation_and_operation_document": {},
+    "state_duty_payment": {}
+  }
+}
