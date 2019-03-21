@@ -10,7 +10,6 @@
     "letter_of_attorney": {},
     "address_with_map": {},
     "cadastre_number": {},
-    "planeta_number": {},
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "description": "Документы, технической инвентаризации – план помещения, выданный уполномоченной организацией."

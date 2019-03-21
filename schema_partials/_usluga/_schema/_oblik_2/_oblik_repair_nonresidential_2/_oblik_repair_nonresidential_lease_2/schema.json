@@ -8,7 +8,6 @@
     "letter_of_attorney": {},
     "address_with_map": {},
     "cadastre_number": {},
-    "planeta_number": {},
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },

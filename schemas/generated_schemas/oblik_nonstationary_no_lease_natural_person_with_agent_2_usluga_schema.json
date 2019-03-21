@@ -28,10 +28,11 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
-    "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
-    },
     "passport_bti": {
+    },
+    "documents_of_title": {
+      "title": "Правоустанавливающие документы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -90,8 +91,6 @@
           "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
         }
       }
-    },
-    "documents_of_title": {
     },
     "lease_contract": {
     },

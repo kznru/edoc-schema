@@ -8,7 +8,9 @@
     "letter_of_attorney": {},
     "address_with_map": {},
     "cadastre_number": {},
-    "planeta_number": {},
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
     "lease_contract": {},
     "passport_bti": {},
     "explanatory_note": {},

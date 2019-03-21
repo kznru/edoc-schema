@@ -28,9 +28,6 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
-    "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
-    },
     "passport_bti": {
     },
     "explanatory_note": {
