@@ -1,0 +1,38 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_with_inn",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Представитель",
+  "type": "object",
+  "properties": {
+    "passport_number": {
+      "type": "string",
+      "pattern": "^[0-9]{6}$",
+      "title": "Номер паспорта",
+      "description": "Последние 6 цифр номера паспорта"
+    },
+    "inn": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn",
+      "title": "ИНН"
+    },
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "ФИО"
+    },
+    "mobile": {
+      "type": "string",
+      "title": "Мобильный телефон",
+      "description": "В личный кабинет с этим логином будут приходить уведомления о смене статуса поданного заявления по этой услуге"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "title": "E-mail"
+    }
+  },
+  "required": [
+    "fio",
+    "passport_number",
+    "mobile",
+    "inn"
+  ]
+}
