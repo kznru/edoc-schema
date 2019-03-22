@@ -13,6 +13,7 @@
   ],
   "properties": {
     "type": {
+      "type": "string",
       "title": "Тип рекламной конструкции"
     },
     "photo": {
