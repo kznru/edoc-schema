@@ -14,8 +14,8 @@
       }
     },
     "agent": {
-      "title": "Собственник или иной законный владелец недвижимого имущества",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_with_inn",
+      "title": "Собственник или иной законный владелец недвижимого имущества"
     },
     "termination_of_contract_for_installation_and_operation": {
       "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",
