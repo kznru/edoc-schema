@@ -16,7 +16,7 @@
       }
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_with_inn",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/natural_person_with_inn",
       "title": "Собственник или иной законный владелец недвижимого имущества"
     },
     "agent": {
