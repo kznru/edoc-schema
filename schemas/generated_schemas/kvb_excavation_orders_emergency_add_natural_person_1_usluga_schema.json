@@ -2,7 +2,6 @@
   "required": [
     "agent",
     "contractor",
-    "organization",
     "address_with_map",
     "images_before",
     "begin_date",
