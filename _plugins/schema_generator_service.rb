@@ -1,9 +1,4 @@
-require 'json'
-require 'yaml'
-require 'pathname'
-require 'pp'
-require 'fileutils'
-require 'byebug'
+require_relative 'schema_validation_service'
 
 class SchemaGeneratorService
   def initialize(params)
@@ -13,6 +8,9 @@ class SchemaGeneratorService
     @need_links  = params[:need_links] || false
     @output_type = params[:output_type] || 'yaml'
     @debug       = params[:debug] || false
+
+    validation_schema_path = Pathname.new(params[:validation_schema_path])
+    @schema_validator = SchemaValidationService.new(JSON.parse(File.read(validation_schema_path)))
 
     FileUtils.cd(@result_path) if @need_links
     @future_dirs = params[:build_path].sub(params[:start_path], '').split('/').select{|dir| dir unless dir.empty?}
@@ -62,11 +60,11 @@ class SchemaGeneratorService
     end
   end
 
-  def get_attribute_subdirs(previous_dirs)(previous_dirs)
+  def get_attribute_subdirs(previous_dirs)
     path = @start_path.join(previous_dirs.join('/'))
     subdirs = []
     path.children(false).select do |entry|
-      dir, base = entry.split
+      _, base = entry.split
       subdirs << base.to_s if entry.directory? && base.to_s.start_with?('_')
     end
     subdirs
@@ -76,7 +74,7 @@ class SchemaGeneratorService
     path = @start_path.join(previous_dirs.join('/'))
     subdirs = []
     path.children.each do |entry|
-      dir, base = entry.split
+      _, base = entry.split
       subdirs << base.to_s if entry.directory? && base.to_s.start_with?('_')
     end
     subdirs
@@ -113,6 +111,7 @@ class SchemaGeneratorService
   end
 
   def build_data(data, file)
+    validate_data(data, file)
     case @output_type
     when *['yaml', 'yml']
       result_file = @result_path.join("#{file}.yaml")
@@ -148,6 +147,11 @@ class SchemaGeneratorService
   def create_link(file_name, source_file)
     _, source_name = source_file.split
     FileUtils.ln_sf source_name.to_s, file_name
+  end
+
+  def validate_data(data, file)
+    schema_valid = @schema_validator.valid?(data)
+    puts ["Errors in #{file}", @schema_validator.validate(data).to_a.first.dig('details')] unless schema_valid
   end
 
   def deep_merge(o1, o2)

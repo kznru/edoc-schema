@@ -39,6 +39,7 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_query'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -53,6 +54,7 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_registry'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -67,6 +69,7 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -81,6 +84,7 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
+      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
