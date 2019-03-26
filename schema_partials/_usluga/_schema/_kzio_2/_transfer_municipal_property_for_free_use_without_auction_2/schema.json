@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "required": ["address_with_map", "purpose", "property_info", "type"],
+  "required": ["address_with_map", "kind", "purpose", "property_info", "usage_type"],
   "properties": {
     "applicant": {},
     "organization": {},
@@ -11,7 +11,7 @@
       "title": "Адрес объекта (или ближайший)",
       "description": "Адрес, по которому находится муниципальное имущество"
     },
-    "purpose": {
+    "kind": {
       "title": "Тип объекта",
       "type": "string",
       "minItems": 1,

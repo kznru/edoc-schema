@@ -3,9 +3,10 @@
     "applicant",
     "letter_of_attorney",
     "address_with_map",
+    "kind",
     "purpose",
     "property_info",
-    "type"
+    "usage_type"
   ],
   "properties": {
     "applicant": {
@@ -26,6 +27,17 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)",
       "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "kind": {
+      "title": "Тип объекта",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "здание",
+        "нежилое помещение",
+        "строение",
+        "сооружение"
+      ]
     },
     "purpose": {
       "title": "Цель",
