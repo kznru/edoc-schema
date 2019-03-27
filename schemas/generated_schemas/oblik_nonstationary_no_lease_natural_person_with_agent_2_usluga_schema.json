@@ -7,8 +7,6 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
@@ -27,8 +25,6 @@
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
-    },
-    "passport_bti": {
     },
     "documents_of_title": {
       "title": "Правоустанавливающие документы",
@@ -91,8 +87,6 @@
           "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
         }
       }
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

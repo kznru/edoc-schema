@@ -2,15 +2,6 @@
   "type": "object",
   "required": [],
   "properties": {
-    "organization": {},
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {},
-    "address_with_map": {},
-    "cadastre_number": {},
-    "lease_contract": {},
-    "passport_bti": {},
-    "documents_of_title": {},
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },

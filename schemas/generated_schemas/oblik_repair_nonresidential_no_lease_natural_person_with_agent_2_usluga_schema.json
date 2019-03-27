@@ -8,8 +8,6 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
@@ -80,10 +78,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

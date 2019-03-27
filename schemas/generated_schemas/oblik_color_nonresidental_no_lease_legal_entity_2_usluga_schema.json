@@ -11,8 +11,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -79,10 +77,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

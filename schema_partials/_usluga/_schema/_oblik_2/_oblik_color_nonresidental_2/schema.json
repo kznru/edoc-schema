@@ -2,13 +2,6 @@
   "type": "object",
   "required": [],
   "properties": {
-    "organization": {},
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {},
-    "address_with_map": {},
-    "cadastre_number": {},
-    "lease_contract": {},
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti"
     },

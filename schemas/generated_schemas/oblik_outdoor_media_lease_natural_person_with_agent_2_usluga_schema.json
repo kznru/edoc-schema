@@ -8,8 +8,6 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
@@ -32,12 +30,8 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
-    "passport_bti": {
-    },
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
-    },
-    "explanatory_note": {
     },
     "graphic_part": {
       "type": "object",
@@ -75,8 +69,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

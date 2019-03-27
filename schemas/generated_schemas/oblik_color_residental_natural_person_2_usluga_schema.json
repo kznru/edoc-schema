@@ -5,15 +5,9 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Заявитель"
-    },
-    "letter_of_attorney": {
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -23,13 +17,9 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
-    "lease_contract": {
-    },
     "documents_of_title": {
       "title": "Правоустанавливающие документы",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    },
-    "passport_bti": {
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"

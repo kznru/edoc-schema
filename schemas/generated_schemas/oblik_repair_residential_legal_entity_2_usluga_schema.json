@@ -11,8 +11,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -32,8 +30,6 @@
     "documents_of_title": {
       "title": "Правоустанавливающие документы",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-    },
-    "passport_bti": {
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -82,8 +78,6 @@
           }
         }
       }
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

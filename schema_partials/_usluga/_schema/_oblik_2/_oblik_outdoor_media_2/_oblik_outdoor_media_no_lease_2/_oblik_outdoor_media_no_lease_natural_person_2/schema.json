@@ -4,20 +4,13 @@
     "agent"
   ],
   "properties": {
-    "organization": {},
-    "applicant": {},
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Заявитель"
     },
-    "letter_of_attorney": {},
     "address_with_map": {},
     "cadastre_number": {},
     "planeta_number": {},
-    "passport_bti": {},
-    "explanatory_note": {},
-    "graphic_part": {},
-    "documents_of_title": {},
-    "lease_contract": {}
+    "graphic_part": {}
   }
 }

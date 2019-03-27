@@ -12,8 +12,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -32,8 +30,6 @@
     },
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
-    },
-    "passport_bti": {
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -82,8 +78,6 @@
           "description": "Обоснование используемого оборудования"
         }
       }
-    },
-    "documents_of_title": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

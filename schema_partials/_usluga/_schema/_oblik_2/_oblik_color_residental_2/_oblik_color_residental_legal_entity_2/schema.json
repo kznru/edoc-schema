@@ -10,7 +10,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {},
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -21,9 +20,7 @@
     },
     "address_with_map": {},
     "cadastre_number": {},
-    "lease_contract": {},
     "documents_of_title": {},
-    "passport_bti": {},
     "explanatory_note": {},
     "graphic_part": {}
   }

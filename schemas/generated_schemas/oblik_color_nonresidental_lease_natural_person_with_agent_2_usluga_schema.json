@@ -8,8 +8,6 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
@@ -31,8 +29,6 @@
     },
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
-    },
-    "documents_of_title": {
     },
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti"

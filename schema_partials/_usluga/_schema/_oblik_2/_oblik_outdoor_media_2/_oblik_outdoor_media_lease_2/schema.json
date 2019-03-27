@@ -2,19 +2,8 @@
   "type": "object",
   "required": ["lease_contract"],
   "properties": {
-    "organization": {},
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {},
-    "address_with_map": {},
-    "cadastre_number": {},
-    "planeta_number": {},
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
-    },
-    "passport_bti": {},
-    "explanatory_note": {},
-    "graphic_part": {},
-    "documents_of_title": {}
+    }
   }
 }

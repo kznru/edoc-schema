@@ -6,15 +6,9 @@
     "cadastre_number"
   ],
   "properties": {
-    "organization": {
-    },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Заявитель"
-    },
-    "letter_of_attorney": {
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -26,8 +20,6 @@
     },
     "lease_contract": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
-    },
-    "passport_bti": {
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -58,8 +50,6 @@
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         }
       }
-    },
-    "documents_of_title": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

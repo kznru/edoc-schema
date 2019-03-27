@@ -6,7 +6,6 @@
     "letter_of_attorney"
   ],
   "properties": {
-    "organization": {},
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
@@ -20,10 +19,8 @@
     },
     "address_with_map": {},
     "cadastre_number": {},
-    "passport_bti": {},
     "documents_of_title": {},
     "explanatory_note": {},
-    "graphic_part": {},
-    "lease_contract": {}
+    "graphic_part": {}
   }
 }

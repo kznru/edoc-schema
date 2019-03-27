@@ -11,8 +11,6 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"
@@ -31,10 +29,6 @@
     },
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
-    },
-    "passport_bti": {
-    },
-    "explanatory_note": {
     },
     "graphic_part": {
       "type": "object",
@@ -72,10 +66,6 @@
           }
         }
       }
-    },
-    "documents_of_title": {
-    },
-    "lease_contract": {
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

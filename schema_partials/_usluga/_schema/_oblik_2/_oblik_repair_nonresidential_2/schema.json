@@ -4,17 +4,10 @@
     "passport_bti"
   ],
   "properties": {
-    "organization": {},
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {},
-    "address_with_map": {},
-    "cadastre_number": {},
     "passport_bti": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "description": "Документы, технической инвентаризации – план помещения, выданный уполномоченной организацией."
     },
-    "documents_of_title": {},
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
