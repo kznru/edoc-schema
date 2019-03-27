@@ -10,10 +10,6 @@
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Собственник конструкции"
-    },
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
@@ -22,6 +18,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
       "title": "Документы технической инвентаризации",
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией(при размещении СНИ на фасадах встроенных нежилых помещений многоквартирных жилых домов)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Собственник конструкции"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",

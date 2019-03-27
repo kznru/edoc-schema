@@ -18,8 +18,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
     },
-    "applicant": {
-    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
       "title": "Представитель"

@@ -18,13 +18,9 @@
       "title": "Собственник конструкции",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "letter_of_attorney": {
-    },
     "text": {
       "type": "string",
       "title": "Текст вывески"
-    },
-    "registry_item": {
     },
     "image_original": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",

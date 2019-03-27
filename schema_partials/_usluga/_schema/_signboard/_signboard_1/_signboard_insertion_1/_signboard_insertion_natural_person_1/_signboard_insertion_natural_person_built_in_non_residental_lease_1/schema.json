@@ -2,7 +2,6 @@
   "properties": {
     "address_with_map": {},
     "cadastre_number": {},
-    "applicant": {},
     "lease_contracts": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
       "title": "Договора аренды"
