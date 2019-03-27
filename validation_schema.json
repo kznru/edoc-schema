@@ -50,6 +50,10 @@
     "object",
     "boolean"
   ],
+  "anyOf": [
+    {"required": ["type"]},
+    {"required": ["$ref"]}
+  ],
   "properties":{
     "$id":{
       "type":"string",

@@ -151,7 +151,7 @@ class SchemaGeneratorService
 
   def validate_data(data, file)
     schema_valid = @schema_validator.valid?(data)
-    puts ["Errors in #{file}", @schema_validator.validate(data).to_a.first.dig('details')] unless schema_valid
+    puts ["Errors in #{file}", @schema_validator.validate(data).to_a.map{|dd| dd.dig('details')}] unless schema_valid
   end
 
   def deep_merge(o1, o2)
