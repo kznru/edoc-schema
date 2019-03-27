@@ -2,10 +2,6 @@
   "type": "object",
   "required": ["address_with_map", "lease_contract_info"],
   "properties": {
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)",

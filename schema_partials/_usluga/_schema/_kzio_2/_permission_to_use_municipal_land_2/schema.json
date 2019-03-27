@@ -2,10 +2,6 @@
   "type": "object",
   "required": ["agent", "address_with_map", "cadastre_number", "usage", "usage_period", "area"],
   "properties": {
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес земельного участка"
@@ -69,8 +65,7 @@
     "justification": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Технико - экономическое обоснование"
-    },
-    "special_zones": {}
+    }
   }
 }
 

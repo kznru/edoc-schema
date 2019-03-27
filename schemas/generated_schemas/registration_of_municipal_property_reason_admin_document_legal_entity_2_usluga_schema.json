@@ -84,8 +84,6 @@
         }
       }
     },
-    "reason": {
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"

@@ -16,12 +16,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке"
     },
-    "applicant": {
-    },
-    "organization": {
-    },
-    "letter_of_attorney": {
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес земельного участка"

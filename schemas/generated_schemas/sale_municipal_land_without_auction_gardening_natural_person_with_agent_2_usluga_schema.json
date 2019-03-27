@@ -4,6 +4,10 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "title": "Представитель"
+    },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
@@ -15,12 +19,6 @@
     "buy_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Решение органа некоммерческой организации о приобретении земельного участка, относящегося к имуществу общего пользования"
-    },
-    "organization": {
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",

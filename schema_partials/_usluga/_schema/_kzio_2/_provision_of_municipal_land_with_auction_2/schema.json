@@ -2,10 +2,6 @@
   "type": "object",
   "required": ["agent", "address_with_map", "area", "allowed_usage_type"],
   "properties": {
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес земельного участка"

@@ -72,12 +72,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Зоны с особыми условиями использования земель"
     },
-    "applicant": {
-    },
-    "organization": {
-    },
-    "letter_of_attorney": {
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
