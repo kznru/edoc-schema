@@ -4,10 +4,6 @@
     "district"
   ],
   "properties": {
-    "images_after": {
-      "title": "Фото после выполнения работ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
@@ -17,6 +13,10 @@
     "images_before": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото до выполнения работ"
+    },
+    "images_after": {
+      "title": "Фото после выполнения работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
     },
     "agent_mobile": {
       "type": "string",
