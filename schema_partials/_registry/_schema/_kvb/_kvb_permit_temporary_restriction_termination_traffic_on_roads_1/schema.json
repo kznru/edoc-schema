@@ -22,17 +22,20 @@
       "title": "Сроки проведения работ"
     },
     "result_data": {
-      "response_text": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
-        "title": "Информация для заявителя"
-      },
-      "attachments": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-        "title": "Приложение"
-      },
-      "comments": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-        "title": "Комментарии"
+      "type": "object",
+      "properties": {
+        "response_text": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
+          "title": "Информация для заявителя"
+        },
+        "attachments": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+          "title": "Приложение"
+        },
+        "comments": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+          "title": "Комментарии"
+        }
       }
     }
   }
