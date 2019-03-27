@@ -4,6 +4,7 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
+    "agent": {},
     "volume_calculation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Расчёт и обоснование заявленного объёма сброса сточных и (или) дренажных вод и показателей их качества по каждому выпуску"

@@ -14,10 +14,6 @@
       "title": "Ордер для закрытия",
       "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)",

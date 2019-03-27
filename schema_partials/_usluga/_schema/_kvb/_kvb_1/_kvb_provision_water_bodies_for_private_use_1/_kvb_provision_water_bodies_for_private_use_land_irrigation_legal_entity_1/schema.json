@@ -4,6 +4,7 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
+    "agent": {},
     "usage_calculation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Расчёт и обоснование заявленного объёма забора (изъятия) водных ресурсов из водного объекта"

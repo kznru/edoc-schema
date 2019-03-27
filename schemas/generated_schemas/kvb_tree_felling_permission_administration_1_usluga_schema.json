@@ -34,8 +34,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
       "default": "Выдача акта обследования зелёных насаждений"
     },
-    "applicant": {
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",

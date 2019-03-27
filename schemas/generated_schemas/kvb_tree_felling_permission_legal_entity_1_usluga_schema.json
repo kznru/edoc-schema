@@ -54,8 +54,6 @@
       "title": "Документы на земельный участок",
       "description": "Выписка из ЕГРН либо договор аренды"
     },
-    "applicant": {
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",

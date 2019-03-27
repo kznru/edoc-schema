@@ -18,12 +18,6 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "applicant": {
-    },
-    "organization": {
-    },
-    "letter_of_attorney": {
-    },
     "end_date": {
       "type": "string",
       "format": "date",

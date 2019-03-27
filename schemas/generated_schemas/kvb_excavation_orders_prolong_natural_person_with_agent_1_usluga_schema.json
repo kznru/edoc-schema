@@ -28,8 +28,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
-    "organization": {
-    },
     "end_date": {
       "type": "string",
       "format": "date",

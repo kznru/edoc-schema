@@ -14,10 +14,6 @@
       "title": "Ордер для продления",
       "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "end_date": {
       "type": "string",
       "format": "date",

@@ -9,10 +9,6 @@
     "emergency_repair_of"
   ],
   "properties": {
-    "organization": {},
-    "applicant": {},
-    "agent": {},
-    "letter_of_attorney": {},
     "contractor": {
       "type": "object",
       "required": ["contractor_organization"],

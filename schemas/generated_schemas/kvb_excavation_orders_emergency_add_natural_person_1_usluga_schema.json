@@ -14,12 +14,6 @@
       "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
     },
-    "organization": {
-    },
-    "applicant": {
-    },
-    "letter_of_attorney": {
-    },
     "contractor": {
       "type": "object",
       "required": [
