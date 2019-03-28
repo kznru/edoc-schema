@@ -1,6 +1,7 @@
 root_path = File.expand_path('.')
 
 require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
+require_relative [root_path, '_plugins', 'schemas_list_generator_service'].join('/')
 require_relative [root_path, '_plugins', 'schema_generator_service'].join('/')
 
 desc 'All tasks of "generator"'
@@ -10,6 +11,19 @@ task :generator do
 end
 
 namespace :generator do
+  desc 'Generate directories'
+  task :schemas_list do
+    puts 'Generate schemas list.'
+
+    params = {
+      root_path: root_path,
+      schemas_structure_path: [root_path, 'uslugas_list.json'].join('/'),
+      schemas_list_path: [root_path, 'sorted_generation_schemas.md'].join('/'),
+    }
+    SchemasListGeneratorService.new(params).call
+    puts 'Done.'
+  end
+
   desc 'Generate directories'
   task :structure, [:instruction, :partials_dir]  do |t, args|
     puts 'Generate structure.'
@@ -28,6 +42,7 @@ namespace :generator do
       registry
       usluga
       usluga_request
+      schemas_list
     ) do
     puts 'Done.'
   end
