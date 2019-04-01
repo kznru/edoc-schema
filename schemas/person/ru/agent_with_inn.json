@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_with_inn",
+  "id": "http://edoc-schema.kzn.ru/person/ru/agent_with_inn",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Представитель",
   "type": "object",

@@ -13,7 +13,7 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "begin_date": {
       "type": "string",
@@ -85,7 +85,7 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
           "title": "Ответственный производитель работ со стороны подрядчика",
           "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
@@ -111,7 +111,7 @@
           "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           }
         }
       }

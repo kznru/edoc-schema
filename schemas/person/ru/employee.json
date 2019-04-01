@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/employee",
+  "id": "http://edoc-schema.kzn.ru/person/ru/employee",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Работник",
   "type": "object",

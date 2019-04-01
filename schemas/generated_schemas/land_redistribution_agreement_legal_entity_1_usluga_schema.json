@@ -22,7 +22,7 @@
       "title": "Кадастровый номер земельного участка, находящегося в частной собственности"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {

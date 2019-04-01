@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "assignee": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/servant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/servant",
       "title": "Исполнитель"
     }
   }

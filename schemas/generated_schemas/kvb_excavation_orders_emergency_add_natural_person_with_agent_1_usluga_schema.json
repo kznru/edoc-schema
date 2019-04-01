@@ -17,7 +17,7 @@
       "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -41,7 +41,7 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
           "title": "Ответственный производитель работ со стороны подрядчика",
           "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"

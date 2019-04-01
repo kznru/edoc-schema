@@ -21,7 +21,7 @@
       "title": "Собственник земли или помещения"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
       "title": "Представитель"
     },
     "letter_of_attorney": {

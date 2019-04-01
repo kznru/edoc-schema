@@ -14,7 +14,7 @@
       "title": "Заявитель (физ. лицо)"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "address_with_map": {
@@ -60,7 +60,7 @@
       "title": "Ответственный производитель работ со стороны подрядчика",
       "minItems": 1,
       "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional"
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
       }
     },
     "area_of_damage_to_road": {

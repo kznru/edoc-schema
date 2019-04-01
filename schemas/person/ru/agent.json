@@ -1,8 +1,7 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional",
+  "id": "http://edoc-schema.kzn.ru/person/ru/agent",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Представитель",
-  "title": "Представитель",
   "type": "object",
   "properties": {
     "passport_number": {
@@ -25,5 +24,10 @@
       "format": "email",
       "title": "E-mail"
     }
-  }
+  },
+  "required": [
+    "fio",
+    "passport_number",
+    "mobile"
+  ]
 }

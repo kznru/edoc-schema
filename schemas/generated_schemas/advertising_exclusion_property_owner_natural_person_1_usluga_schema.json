@@ -14,7 +14,7 @@
       }
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_with_inn",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_inn",
       "title": "Собственник или иной законный владелец недвижимого имущества"
     },
     "termination_of_contract_for_installation_and_operation": {

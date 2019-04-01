@@ -20,7 +20,7 @@
       "description": "Документы технической инвентаризации – план помещения, выданный уполномоченной организацией(при размещении СНИ на фасадах встроенных нежилых помещений многоквартирных жилых домов)"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {

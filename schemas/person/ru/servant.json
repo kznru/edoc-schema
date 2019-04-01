@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/servant",
+  "id": "http://edoc-schema.kzn.ru/person/ru/servant",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "title": "Сотрудник",

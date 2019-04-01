@@ -29,7 +29,7 @@
       "title": "Субподрядчик"
     },
     "subcontractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile",
       "title": "Ответственный производитель работ со стороны субподрядчика"
     },
     "address_with_map": {
@@ -88,7 +88,7 @@
       "title": "Площадь повреждения зелёных насаждений"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {

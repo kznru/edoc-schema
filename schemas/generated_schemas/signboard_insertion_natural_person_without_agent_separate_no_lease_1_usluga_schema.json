@@ -12,7 +12,7 @@
     },
     "agent": {
       "title": "Собственник конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "text": {
       "type": "string",

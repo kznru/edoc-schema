@@ -9,7 +9,7 @@
       "description": "Кадастровый номер земельного участка или помещения"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
         "title": "Собственник земли или помещения"
     },
     "registry_item": {

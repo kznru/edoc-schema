@@ -17,7 +17,7 @@
         "registered_at": { "type": "datetime" },
         "organization": { "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization" },
         "department": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/department" },
-        "responsible_employee": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/employee" },
+        "responsible_employee": { "$ref": "http://edoc-schema.kzn.ru/person/ru/employee" },
         "signatures": {
           "type": "array",
           "items": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/signature" }
