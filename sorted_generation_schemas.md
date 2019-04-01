@@ -178,8 +178,6 @@ permalink: /generated_schemas/
 
 ### Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства {#kvb_excavation_orders}
 
-[(не работает) Выдача ордера на производство земляных работ (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_without_registry_number_natural_person_with_agent_1_usluga_schema.json)
-
 [Отметка в ордере о продлении срока производства земляных работ (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_natural_person_with_agent_2_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_legal_entity_1_usluga_schema.json)
@@ -230,8 +228,6 @@ permalink: /generated_schemas/
 
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_1_usluga_schema.json)
 
-[(не работает) Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства - аварийное удаление без номера реестра (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_emergency_delete_without_registry_number_legal_entity_1_usluga_schema.json)
-
 [Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_emergency_add_natural_person_with_agent_2_usluga_schema.json)
 
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_with_agent_1_usluga_schema.json)
@@ -248,10 +244,6 @@ permalink: /generated_schemas/
 
 [Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_natural_person_with_agent_1_usluga_schema.json)
 
-[(не работает) Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства - аварийное удаление без номера реестра (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_1_usluga_schema.json)
-
-[(не работает) Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства - аварийное удаление без номера реестра (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_with_agent_1_usluga_schema.json)
-
 [Выдача ордера на производство земляных работ (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_legal_entity_1_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_natural_person_1_usluga_schema.json)
@@ -259,10 +251,6 @@ permalink: /generated_schemas/
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_legal_entity_1_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_natural_person_with_agent_1_usluga_schema.json)
-
-[(не работает) Выдача ордера на производство земляных работ (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_without_registry_number_natural_person_1_usluga_schema.json)
-
-[(не работает) Выдача ордера на производство земляных работ (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_delete_without_registry_number_legal_entity_1_usluga_schema.json)
 
 [Отметка в ордере о продлении срока производства земляных работ (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_prolong_natural_person_1_usluga_schema.json)
 
