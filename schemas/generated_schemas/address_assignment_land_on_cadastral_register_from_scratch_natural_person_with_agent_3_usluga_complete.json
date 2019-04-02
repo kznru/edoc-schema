@@ -9,6 +9,13 @@
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Файлы для заявителя"
     }
   }
 }

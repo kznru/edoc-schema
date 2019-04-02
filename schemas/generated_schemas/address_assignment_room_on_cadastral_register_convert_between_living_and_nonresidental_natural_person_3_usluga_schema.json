@@ -24,6 +24,10 @@
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
     }
   },
   "require": [

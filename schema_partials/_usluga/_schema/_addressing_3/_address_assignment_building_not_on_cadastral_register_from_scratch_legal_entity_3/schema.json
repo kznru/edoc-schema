@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель",
+      "description": "Представитель заявителя"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "minItems": 1
+    },
+    "cadastre_number_of_land": {
+      "description": "Кадастровый номер земельного участка, на котором расположен объект адресации",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    },
+    "address_with_map": {
+      "description": "Местоположение земельного участка, на котором расположен объект адресации",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местоположение земельного участка"
+    },
+    "building_name": {
+      "type": "string",
+      "title": "Наименование объекта адресации",
+      "description": "При наличии проектной документации указывается в соответствии с ней"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес (местоположение) объекта адресации"
+    },
+    "extracts_from_city_property_registry": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "title": "Выписки из реестра собственности города"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "require": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "required": [
+    "building_name",
+    "cadastre_number_of_land",
+    "address_with_map",
+    "address"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
