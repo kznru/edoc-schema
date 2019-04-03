@@ -897,7 +897,22 @@
       "ugr_notification_of_planned_reconstruction_of_garden_house_natural_person_with_agent_1": "Уведомление о планируемой реконструкции садового дома (физ. лицо с представителем)",
       "ugr_notification_of_planned_reconstruction_of_individual_house_legal_entity_1": "Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (ЮЛ, ИП)",
       "ugr_notification_of_planned_reconstruction_of_individual_house_natural_person_1": "Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (физ. лицо)",
-      "ugr_notification_of_planned_reconstruction_of_individual_house_natural_person_with_agent_1": "Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (физ. лицо с представителем)"
+      "ugr_notification_of_planned_reconstruction_of_individual_house_natural_person_with_agent_1": "Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (физ. лицо с представителем)",
+       "ugr_notification_of_finished_construction_of_garden_house_legal_entity_1": "Уведомление об окончании строительства садового дома (ЮЛ, ИП)",
+       "ugr_notification_of_finished_construction_of_garden_house_natural_person_1": "Уведомление об окончании строительства садового дома (физ. лицо)",
+       "ugr_notification_of_finished_construction_of_garden_house_natural_person_with_agent_1": "Уведомление об окончании строительства садового дома (физ. лицо с представителем)",
+       "ugr_notification_of_finished_construction_of_individual_house_legal_entity_1": "Уведомление об окончании строительства объекта индивидуального жилищного строительства (ЮЛ, ИП)",
+       "ugr_notification_of_finished_construction_of_individual_house_natural_person_1": "Уведомление об окончании строительства объекта индивидуального жилищного строительства (физ. лицо)",
+       "ugr_notification_of_finished_construction_of_individual_house_natural_person_with_agent_1": "Уведомление об окончании строительства объекта индивидуального жилищного строительства (физ. лицо с представителем)",
+       "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_legal_entity_1": "Уведомление об окончании строительства или реконструкции объекта индивидуального жилищного строительства или садового дома (ЮЛ, ИП)",
+       "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_natural_person_1": "Уведомление об окончании строительства или реконструкции объекта индивидуального жилищного строительства или садового дома (физ. лицо)",
+       "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_natural_person_with_agent_1": "Уведомление об окончании строительства или реконструкции объекта индивидуального жилищного строительства или садового дома (физ. лицо с представителем)",
+       "ugr_notification_of_finished_reconstruction_of_garden_house_legal_entity_1": "Уведомление об окончании реконструкции садового дома (ЮЛ, ИП)",
+       "ugr_notification_of_finished_reconstruction_of_garden_house_natural_person_1": "Уведомление об окончании реконструкции садового дома (физ. лицо)",
+       "ugr_notification_of_finished_reconstruction_of_garden_house_natural_person_with_agent_1": "Уведомление об окончании реконструкции садового дома (физ. лицо с представителем)",
+       "ugr_notification_of_finished_reconstruction_of_individual_house_legal_entity_1": "Уведомление об окончании реконструкции объекта индивидуального жилищного строительства (ЮЛ, ИП)",
+       "ugr_notification_of_finished_reconstruction_of_individual_house_natural_person_1": "Уведомление об окончании реконструкции объекта индивидуального жилищного строительства (физ. лицо)",
+       "ugr_notification_of_finished_reconstruction_of_individual_house_natural_person_with_agent_1": "Уведомление об окончании реконструкции объекта индивидуального жилищного строительства (физ. лицо с представителем)"
     }
   },
   {

@@ -1,0 +1,141 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "applicant_info": {
+      "type": "object",
+      "title": "Данные заявителя",
+      "properties": {
+        "registration_address": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+          "title": "Место жительства",
+          "description": "Адрес проживания"
+        },
+        "passport": {
+          "type": "object",
+          "title": "Реквизиты документа, удостоверяющего личность",
+          "properties": {
+            "seria": {
+              "type": "string",
+              "title": "Серия"
+            },
+            "issued_by": {
+              "type": "string",
+              "title": "Кем выдан"
+            },
+            "issue_date": {
+              "type": "string",
+              "title": "Дата выдачи"
+            }
+          }
+        }
+      }
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес или местоположение земельного участка",
+      "description": "Местоположение строящегося дома"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка",
+      "description": "Из выписки ЕГРН или свидетельства на право собственности "
+    },
+    "developer_rights": {
+      "type": "string",
+      "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
+      "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
+    },
+    "availability_rights_of_other_person": {
+      "type": "string",
+      "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
+      "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
+    },
+    "type_of_permitted_use_of_land": {
+      "type": "string",
+      "title": "Сведения о виде разрешенного использования земельного участка",
+      "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
+    },
+    "planning_parameters": {
+      "properties": {
+        "above_floors_number": {
+          "minItems": 1,
+          "enum": [
+            "1",
+            "2",
+            "3"
+          ],
+          "type": "string",
+          "title": "Количество надземных этажей",
+          "description": "Должно быть целое число (1,2,3…), в случае Уведомление о строительстве садового дома, если второй этаж мансарда, обязательно указать 1+мансарда"
+        },
+        "limiting_height": {
+          "type": "number",
+          "title": "Высота",
+          "description": "Высота от поверхности земли до конька крыши"
+        },
+        "area": {
+          "type": "string",
+          "title": "Площадь застройки",
+          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж), также прописать общая площадь дома с учетом всех этажей (либо мансарды)"
+        },
+        "distance_from_boundaries_of_land": {
+          "type": "object",
+          "title": "Сведения об отступах от границ земельного участка",
+          "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра (с противопожарной стеной): отступ от правой границы 2 метра (с противопожарной стеной); отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
+          "properties": {
+            "front": {
+              "type": "string",
+              "title": "передняя граница"
+            },
+            "back": {
+              "type": "string",
+              "title": "задняя граница"
+            },
+            "left": {
+              "type": "string",
+              "title": "боковая левая граница"
+            },
+            "right": {
+              "type": "string",
+              "title": "боковая правая граница"
+            }
+          }
+        }
+      },
+      "type": "object",
+      "title": "Сведения о параметрах"
+    },
+    "schematic_depiction": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схематичное изображение реконструированного объекта капитального строительства на земельном участке",
+      "description": "Черчеж объекта капитального строительства, с указанием отступов от всех границ земельного участка до объекта капитального строительства"
+    },
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Технический план объекта капитально строительства",
+      "description": "В соответствии с Федеральным законом №218-ФЗ"
+    },
+    "rights_determination_agreement": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключенное соглашение об определении долей в праве общей долевой собственности",
+      "description": "Если земельный участок, на котором построен или реконструирован объект ИЖС или СД, принадлежит двум и более гражданам на праве общей долевой собственности или на праве аренды со множественностью лиц на стороне арендатора"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "required": [
+
+  ]
+}
