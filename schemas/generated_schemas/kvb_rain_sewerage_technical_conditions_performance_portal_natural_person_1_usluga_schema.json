@@ -1,4 +1,7 @@
 {
+  "required": [
+    "registry_item"
+  ],
   "properties": {
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
@@ -61,9 +64,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

@@ -1,6 +1,7 @@
 {
   "required": [
     "agent",
+    "registry_item",
     "address_with_map"
   ],
   "properties": {
