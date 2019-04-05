@@ -1,6 +1,19 @@
 {
   "type": "object",
   "properties": {
+    "required": ["reject_reasons"],
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": []
+      }
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
     "reason_parameter_mismatch": {
       "title": "Несоответствии параметров, указанных в Уведомлении",
       "type": "string"
