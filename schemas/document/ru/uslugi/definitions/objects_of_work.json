@@ -7,6 +7,10 @@
   "items": {
     "type": "object",
     "properties": {
+      "required": [
+        "object",
+        "types_of_work"
+      ],
       "object": {
         "type": "string",
         "title": "Объект",
