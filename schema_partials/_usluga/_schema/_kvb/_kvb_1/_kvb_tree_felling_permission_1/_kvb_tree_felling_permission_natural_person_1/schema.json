@@ -1,6 +1,5 @@
 {
   "required": [
-    "applicant_position",
     "cadastre_number",
     "land_documents"
   ],
@@ -10,10 +9,6 @@
       "title": "Заявитель"
     },
     "agent": {},
-    "applicant_position": {
-      "type": "string",
-      "title": "Должность заявителя"
-    },
     "letter_of_attorney": {},
     "address_with_map": {},
     "address_comments": {},
