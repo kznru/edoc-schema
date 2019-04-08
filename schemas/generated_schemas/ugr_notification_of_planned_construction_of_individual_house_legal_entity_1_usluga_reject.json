@@ -11,6 +11,10 @@
       "items": {
         "type": "string",
         "enum": [
+          "Несоответствии параметров, указанных в Уведомлении",
+          "Недопустимость размещения объекта",
+          "Уведомление не от застройщика",
+          "Несоответствии описания внешнего облика",
           "Другое (указать)"
         ]
       },
@@ -18,22 +22,6 @@
     },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
-    },
-    "reason_parameter_mismatch": {
-      "title": "Несоответствии параметров, указанных в Уведомлении",
-      "type": "string"
-    },
-    "reason_imposible_placement": {
-      "title": "Недопустимость размещения объекта",
-      "type": "string"
-    },
-    "reason_not_developer": {
-      "title": "Уведомление не от застройщика",
-      "type": "string"
-    },
-    "wrong_external_view": {
-      "title": "Несоответствии описания внешнего облика",
-      "type": "string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
