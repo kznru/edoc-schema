@@ -8,6 +8,16 @@ class GeneratorTasks
     require_relative [root_path, 'lib', 'services', 'schema_validator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'schemas_list_generator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'structure_generator_service'].join('/')
+    require_relative [root_path, 'lib', 'services', 'schema_from_xls_generator'].join('/')
+
+    namespace :xls do
+      task :generate, [:path] do |t, args|
+        params = {
+          path: Pathname.new([root_path, args[:path] || 'test.xls'].join('/'))
+        }
+        SchemaFromXlsGenerator.call(params)
+      end
+    end
 
     namespace :generator do
       desc 'Validate all schemas'
