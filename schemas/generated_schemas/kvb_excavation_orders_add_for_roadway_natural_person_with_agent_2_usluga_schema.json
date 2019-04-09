@@ -104,7 +104,7 @@
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
           "title": "Организация субподрядчика"
         },
         "subcontractor_responsible": {
