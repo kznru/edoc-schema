@@ -1,5 +1,3 @@
-require_relative 'schema_validation_service'
-
 class SchemaGeneratorService
   def initialize(params)
     @start_path  = Pathname.new(params[:start_path])

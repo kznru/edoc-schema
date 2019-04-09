@@ -1,5 +1,3 @@
-require_relative 'schema_validation_service'
-
 class SchemasListGeneratorService
   def initialize(params)
     @root_path = Pathname.new(params[:root_path])
@@ -8,18 +6,21 @@ class SchemasListGeneratorService
   end
 
   def call
-    file = File.open(@schemas_list_path, 'w+')
-    schemas_structure = JSON.parse(File.read(@schemas_structure_path))
+    file = File.open(schemas_list_path, 'w+')
+    schemas_structure = JSON.parse(File.read(schemas_structure_path))
 
     @generated_schemas_list = prepare_generated_schemas_list - except_keys
     write_header(file)
     write_table_of_contents(file, schemas_structure)
     write_content(file, schemas_structure)
-    puts "\nFollowing schemas not present in uslugas table:\n" unless @generated_schemas_list.empty?
-    puts @generated_schemas_list.sort
+    puts "\nFollowing schemas not present in uslugas table:\n" unless generated_schemas_list.empty?
+    puts generated_schemas_list.sort
   end
 
   private
+
+  attr_reader :root_path, :schemas_structure_path, :schemas_list_path
+  attr_accessor :generated_schemas_list
 
   def write_header(file)
     file.tap do |out|
@@ -63,7 +64,7 @@ class SchemasListGeneratorService
   end
 
   def schema_present?(key)
-    @generated_schemas_list.delete(key)
+    generated_schemas_list.delete(key)
   end
 
   def prepare_title_for_table(schema)

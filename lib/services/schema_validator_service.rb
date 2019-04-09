@@ -2,7 +2,7 @@ require 'json_schemer'
 
 class SchemaValidatorService
   def self.call
-    new().call
+    new.call
   end
 
   def call
@@ -11,10 +11,10 @@ class SchemaValidatorService
 
   private
 
-  attr_reader :schemas_path
+  attr_reader :schemas_path, :json_schemer, :temporary_except_files, :root_path
 
   def initialize
-    root_path = File.absolute_path(File.dirname(__FILE__) + '/../../')
+    @root_path = File.absolute_path(File.dirname(__FILE__) + '/../../')
     validation_schema_path = Pathname.new([root_path, 'validation_schema.json'].join('/'))
     @schemas_path = Pathname.new([root_path, 'schemas'].join('/'))
     @json_schemer = JSONSchemer.schema(validation_schema_path)
@@ -31,6 +31,7 @@ class SchemaValidatorService
   end
 
   def validate_file(file)
+    return if temporary_except_files.include?(file)
     data = JSON.parse(File.read(file))
     unless @json_schemer.valid?(data)
       puts "\nErrors in #{file}"
@@ -46,13 +47,17 @@ class SchemaValidatorService
       }
     end
   end
+
+  def temporary_except_files
+    @temporary_except_files ||= [
+      "schemas/document/ru/uslugi/definitions/green_report.json",
+      "schemas/geo/coordinates.json",
+      "schemas/geo/feature.json",
+      "schemas/geo/geojson.json",
+      "schemas/geo/geometry.json",
+      "schemas/geo/linearRingCoordinates.json",
+      "schemas/geo/lineStringCoordinates.json",
+      "schemas/geo/polygonCoordinates.json",
+    ].map{|file| Pathname.new([root_path, file].join('/'))}
+  end
 end
-
-
-# puts @schema_validator.validate(data).map{|dd|
-#   [
-#     "pointer = #{dd.dig('data_pointer')}",
-#     "type = #{dd.dig('type')}",
-#     "details = #{dd.dig('details')}"
-#   ].compact.join(', ')
-# }
