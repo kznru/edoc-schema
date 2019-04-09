@@ -1,16 +1,16 @@
 root_path = File.expand_path('.')
 
-require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
-require_relative [root_path, '_plugins', 'schemas_list_generator_service'].join('/')
 require_relative [root_path, '_plugins', 'schema_generator_service'].join('/')
-
-desc 'All tasks of "generator"'
-task :generator do
-  puts 'All tasks of "generator":'
-  Rake.application.in_namespace(:generator){|task|puts task.tasks}
-end
+require_relative [root_path, '_plugins', 'schema_validator_service'].join('/')
+require_relative [root_path, '_plugins', 'schemas_list_generator_service'].join('/')
+require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
 
 namespace :generator do
+  desc 'Validate all schemas'
+  task :validate do
+    SchemaValidatorService.call
+  end
+
   desc 'Generate sorted generation schemas'
   task :schemas_list do
     puts 'Generate schemas list.'
@@ -29,7 +29,7 @@ namespace :generator do
     puts 'Generate structure.'
     params = {
       instruction: args[:instruction],
-      partials_dir: [Dir.pwd, 'schema_partials'].join('/')
+      partials_dir: [root_path, 'schema_partials'].join('/')
     }
     StructureGeneratorService.new(params).call
     puts 'Done.'
@@ -43,6 +43,7 @@ namespace :generator do
       usluga
       usluga_request
       schemas_list
+      validate
     ) do
     puts 'Done.'
   end
@@ -54,7 +55,6 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_query'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -69,7 +69,6 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_registry'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -84,7 +83,6 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }
@@ -99,7 +97,6 @@ namespace :generator do
       start_path:  [root_path, 'schema_partials'].join('/'),
       build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
       result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-      validation_schema_path: [root_path, 'validation_schema.json'].join('/'),
       need_links:  true,
       output_type: 'json'
     }

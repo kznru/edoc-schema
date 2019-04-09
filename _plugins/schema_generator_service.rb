@@ -9,9 +9,6 @@ class SchemaGeneratorService
     @output_type = params[:output_type] || 'yaml'
     @debug       = params[:debug] || false
 
-    validation_schema_path = Pathname.new(params[:validation_schema_path])
-    @schema_validator = SchemaValidationService.new(JSON.parse(File.read(validation_schema_path)))
-
     FileUtils.cd(@result_path) if @need_links
     @future_dirs = params[:build_path].sub(params[:start_path], '').split('/').select{|dir| dir unless dir.empty?}
   end
@@ -111,7 +108,6 @@ class SchemaGeneratorService
   end
 
   def build_data(data, file)
-    validate_data(data, file)
     case @output_type
     when *['yaml', 'yml']
       result_file = @result_path.join("#{file}.yaml")
@@ -147,20 +143,6 @@ class SchemaGeneratorService
   def create_link(file_name, source_file)
     _, source_name = source_file.split
     FileUtils.ln_sf source_name.to_s, file_name
-  end
-
-  def validate_data(data, file)
-    schema_valid = @schema_validator.valid?(data)
-    unless schema_valid
-      puts "\nErrors in #{file}"
-      puts @schema_validator.validate(data).map{|dd|
-        [
-          "pointer = #{dd.dig('data_pointer')}",
-          "type = #{dd.dig('type')}",
-          "details = #{dd.dig('details')}"
-        ].compact.join(', ')
-      }
-    end
   end
 
   def deep_merge(o1, o2)
