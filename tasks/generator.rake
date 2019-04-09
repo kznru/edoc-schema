@@ -11,7 +11,7 @@ task :generator do
 end
 
 namespace :generator do
-  desc 'Generate directories'
+  desc 'Generate sorted generation schemas'
   task :schemas_list do
     puts 'Generate schemas list.'
 
