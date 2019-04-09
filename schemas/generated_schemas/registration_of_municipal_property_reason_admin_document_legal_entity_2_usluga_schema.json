@@ -43,7 +43,7 @@
       "title": "Адрес, по которому находится муниципальное имущество"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь",
       "description": "Кв. м"
     },

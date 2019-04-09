@@ -30,6 +30,9 @@ permalink: /specification/
 ### Location
 {% specification_list directory_name:location %}
 
+### Magnitude
+{% specification_list directory_name:magnitude %}
+
 ### Organization
 {% specification_list directory_name:organization %}
 

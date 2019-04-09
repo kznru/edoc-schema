@@ -10,7 +10,7 @@
       "description": "Кадастровый номер земельного участка"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь"
     },
     "building_object": {

@@ -56,7 +56,7 @@
       "type": "string"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь земельного участка, кв.м",
       "description": "Число с округлением до целого"
     },

@@ -31,12 +31,12 @@
       "description": "Кадастровый номер земельного участка"
     },
     "land_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь земельного участка, кв.м",
       "description": "Указано в эскизном проекте"
     },
     "building_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь застройки, кв.м",
       "description": "Указано в эскизном проекте"
     },

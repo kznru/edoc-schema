@@ -30,7 +30,7 @@
       "description": "Кадастровый номер земельного участка или кадастрового квартала"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area"
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
     },
     "allowed_usage_type": {
       "title": "Виды разрешённого использования",

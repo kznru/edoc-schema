@@ -14,7 +14,7 @@
       "title": "Наименование объекта"
     },
     "object_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь объекта"
     },
     "object_type": {
