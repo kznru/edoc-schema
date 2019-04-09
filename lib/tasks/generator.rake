@@ -8,7 +8,10 @@ require_relative [root_path, 'lib', 'services', 'structure_generator_service'].j
 namespace :generator do
   desc 'Validate all schemas'
   task :validate do
+    puts 'Validate schemas.'
+
     SchemaValidatorService.call
+    puts 'Done.'
   end
 
   desc 'Generate sorted generation schemas'
