@@ -14,7 +14,7 @@ class SchemaValidatorService
   attr_reader :schemas_path
 
   def initialize
-    root_path = File.absolute_path(File.dirname(__FILE__) + '/../')
+    root_path = File.absolute_path(File.dirname(__FILE__) + '/../../')
     validation_schema_path = Pathname.new([root_path, 'validation_schema.json'].join('/'))
     @schemas_path = Pathname.new([root_path, 'schemas'].join('/'))
     @json_schemer = JSONSchemer.schema(validation_schema_path)

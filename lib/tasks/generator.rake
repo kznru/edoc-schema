@@ -1,9 +1,9 @@
 root_path = File.expand_path('.')
 
-require_relative [root_path, '_plugins', 'schema_generator_service'].join('/')
-require_relative [root_path, '_plugins', 'schema_validator_service'].join('/')
-require_relative [root_path, '_plugins', 'schemas_list_generator_service'].join('/')
-require_relative [root_path, '_plugins', 'structure_generator_service'].join('/')
+require_relative [root_path, 'lib', 'services', 'schema_generator_service'].join('/')
+require_relative [root_path, 'lib', 'services', 'schema_validator_service'].join('/')
+require_relative [root_path, 'lib', 'services', 'schemas_list_generator_service'].join('/')
+require_relative [root_path, 'lib', 'services', 'structure_generator_service'].join('/')
 
 namespace :generator do
   desc 'Validate all schemas'
