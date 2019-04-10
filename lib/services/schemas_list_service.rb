@@ -1,4 +1,4 @@
-class SchemasListGeneratorService
+class SchemasListService
   def initialize(params)
     @root_path = Pathname.new(params[:root_path])
     @schemas_structure_path = Pathname.new(params[:schemas_structure_path])

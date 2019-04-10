@@ -1,4 +1,4 @@
-class DefinitionsListGenerator
+class DefinitionsListService
   def self.call
     new.call
   end

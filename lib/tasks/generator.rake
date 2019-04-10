@@ -6,10 +6,10 @@ class GeneratorTasks
 
     require_relative [root_path, 'lib', 'services', 'schema_generator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'schema_validator_service'].join('/')
-    require_relative [root_path, 'lib', 'services', 'schemas_list_generator_service'].join('/')
+    require_relative [root_path, 'lib', 'services', 'schemas_list_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'structure_generator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'schema_from_xls_generator'].join('/')
-    require_relative [root_path, 'lib', 'services', 'definitions_list_generator'].join('/')
+    require_relative [root_path, 'lib', 'services', 'definitions_list_service'].join('/')
 
     namespace :xls do
       task :generate, [:path] do |t, args|
@@ -22,7 +22,7 @@ class GeneratorTasks
       end
 
       task :definitions_list do
-        DefinitionsListGenerator.call
+        DefinitionsListService.call
 
         puts 'Done.'
       end
@@ -46,7 +46,7 @@ class GeneratorTasks
           schemas_structure_path: [root_path, 'uslugas_list.json'].join('/'),
           schemas_list_path: [root_path, 'sorted_generation_schemas.md'].join('/'),
         }
-        SchemasListGeneratorService.new(params).call
+        SchemasListService.new(params).call
         puts 'Done.'
       end
 
@@ -68,8 +68,7 @@ class GeneratorTasks
           registry
           usluga
           usluga_request
-          schemas_list
-          validate
+          schemas_list validate
         ) do
         puts 'Done.'
       end
