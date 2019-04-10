@@ -9,6 +9,7 @@ class GeneratorTasks
     require_relative [root_path, 'lib', 'services', 'schemas_list_generator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'structure_generator_service'].join('/')
     require_relative [root_path, 'lib', 'services', 'schema_from_xls_generator'].join('/')
+    require_relative [root_path, 'lib', 'services', 'definitions_list_generator'].join('/')
 
     namespace :xls do
       task :generate, [:path] do |t, args|
@@ -16,6 +17,14 @@ class GeneratorTasks
           path: Pathname.new([root_path, args[:path] || 'test.xls'].join('/'))
         }
         SchemaFromXlsGenerator.call(params)
+
+        puts 'Done.'
+      end
+
+      task :definitions_list do
+        DefinitionsListGenerator.call
+
+        puts 'Done.'
       end
     end
 
