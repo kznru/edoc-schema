@@ -6,7 +6,7 @@ permalink: /uslugi/signboard_no_lease_no_living
 
 ## Схема
 ```json
-{% include schemas/document/ru/uslugi/43_signboard_no_lease_no_living.json %}
+{% include examples/document/ru/43_signboard_no_lease_no_living.json %}
 ```
 
 ## Пример данных
