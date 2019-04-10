@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/geo/geojson",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "GeoJSON Object",
   "type": "object",

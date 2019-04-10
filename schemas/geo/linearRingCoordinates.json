@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/geo/linearRingCoordinates",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Linear Ring Coordinates",
   "description": "A LinearRing is closed LineString with 4 or more positions. The first and last positions are equivalent (they represent equivalent points). Though a LinearRing is not explicitly represented as a GeoJSON geometry type, it is referred to in the Polygon geometry type definition.",

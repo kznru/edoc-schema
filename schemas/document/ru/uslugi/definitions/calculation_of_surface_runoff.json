@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff",
   "type": "object",
   "title": "Расчёт поверхностных стоков",
   "properties": {

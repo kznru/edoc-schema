@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/geo/polygonCoordinates",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Polygon Coordinates",
   "description": "For type `Polygon`, the `coordinates` member must be an array of LinearRing coordinate arrays. For Polygons with multiple rings, the first must be the exterior ring and any others must be interior rings or holes.",
