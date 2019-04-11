@@ -17,14 +17,31 @@
           "items": {
             "type": "object",
             "properties": {
-              "type": {
-                "type": "string",
-                "title": "Тип фасада",
-                "enum": [
-                  "главный",
-                  "боковой"
-                ]
-              }
+            "type": {
+              "type": "string",
+              "title": "Тип фасада",
+              "enum": [
+                "главный",
+                "боковой"
+              ]
+            },
+            "sketch": {
+              "title": "Эскизное предложение",
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+              "description": "Эскизное предложение"
+            },
+            "description": {
+              "title": "Описание",
+              "type": "string"
+            },
+            "material": {
+              "title": "Материал",
+              "type": "string"
+            },
+            "color_description": {
+              "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)",
+              "type": "string"
+            }
             }
           }
         },

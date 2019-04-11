@@ -74,7 +74,7 @@
                 "type": "string"
               },
               "color_description": {
-                "title": "Описание цвета (с указанием системы: RAL,NCS и т.п",
+                "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)",
                 "type": "string"
               }
             }
