@@ -182,6 +182,8 @@ permalink: /generated_schemas/
 
 [Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_legal_entity_1_usluga_schema.json)
 
+[Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП), версия #3](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_legal_entity_3_usluga_schema.json)
+
 [Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_emergency_add_natural_person_with_agent_1_usluga_schema.json)
 
 [Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) - для аварийных ордеров (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_1_usluga_schema.json)
@@ -216,7 +218,11 @@ permalink: /generated_schemas/
 
 [Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_natural_person_with_agent_2_usluga_schema.json)
 
+[Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем), версия #3](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_natural_person_with_agent_3_usluga_schema.json)
+
 [Выдача ордера на производство земляных работ - для проезжей части (физ. лицо), версия #2](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_natural_person_2_usluga_schema.json)
+
+[Выдача ордера на производство земляных работ - для проезжей части (физ. лицо), версия #3](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_natural_person_3_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_legal_entity_2_usluga_schema.json)
 

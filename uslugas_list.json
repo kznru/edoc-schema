@@ -18,6 +18,7 @@
       "registry_kvb_orders_emergency_add": "Внесение в реестр разрешений на аварийные земляные работы",
       "kvb_excavation_orders_prolong_natural_person_with_agent_2": "Отметка в ордере о продлении срока производства земляных работ (физ. лицо с представителем)",
       "kvb_excavation_orders_add_for_roadway_legal_entity_1": "Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП)",
+      "kvb_excavation_orders_add_for_roadway_legal_entity_3": "Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП)",
       "kvb_excavation_orders_emergency_add_natural_person_with_agent_1": "Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо с представителем)",
       "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_1": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) - для аварийных ордеров (физ. лицо с представителем)",
       "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_1": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) - для аварийных ордеров (физ. лицо)",
@@ -35,8 +36,11 @@
       "kvb_excavation_orders_emergency_add_natural_person_1": "Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо)",
       "kvb_excavation_orders_emergency_add_legal_entity_1": "Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (ЮЛ, ИП)",
       "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_2": "Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем)",
+      "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_3": "Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем)",
       "kvb_excavation_orders_add_for_roadway_natural_person_2": "Выдача ордера на производство земляных работ - для проезжей части (физ. лицо)",
+      "kvb_excavation_orders_add_for_roadway_natural_person_3": "Выдача ордера на производство земляных работ - для проезжей части (физ. лицо)",
       "kvb_excavation_orders_add_for_roadway_legal_entity_2": "Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП)",
+      "kvb_excavation_orders_add_for_roadway_legal_entity_3": "Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП)",
       "kvb_excavation_orders_add_natural_person_2": "Выдача ордера на производство земляных работ (физ. лицо)",
       "kvb_excavation_orders_add_legal_entity_2": "Выдача ордера на производство земляных работ (ЮЛ, ИП)",
       "kvb_excavation_orders_emergency_delete_natural_person_with_agent_2": "Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству - для аварийных ордеров (физ. лицо с представителем)",
@@ -62,6 +66,7 @@
       "kvb_excavation_orders_prolong_legal_entity_2": "Отметка в ордере о продлении срока производства земляных работ (ЮЛ, ИП)",
       "kvb_excavation_orders_prolong_natural_person_2": "Отметка в ордере о продлении срока производства земляных работ (физ. лицо)",
       "kvb_excavation_orders_add_for_roadway_natural_person_1": "Выдача ордера на производство земляных работ - для проезжей части (физ. лицо)",
+      "kvb_excavation_orders_add_for_roadway_natural_person_3": "Выдача ордера на производство земляных работ - для проезжей части (физ. лицо)",
       "kvb_excavation_orders_prolong_legal_entity_1": "Отметка в ордере о продлении срока производства земляных работ (ЮЛ, ИП)",
       "kvb_excavation_orders_prolong_cause_winter_legal_entity_1": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (ЮЛ, ИП)"
     }

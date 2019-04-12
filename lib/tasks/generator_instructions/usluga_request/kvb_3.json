@@ -1,0 +1,38 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_excavation_orders_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_excavation_orders_add_for_roadway_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

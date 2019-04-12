@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "protocol_mvk": {
+      "type": "string",
+      "title": "Номер протокола МВК",
+      "description": "Укажите номер протокола заседания Межведомственной комиссии по вопросам временного ограничения или прекращения движения по автомобильным дорогам муниципального образования города Казани (если работы ведутся на проезжей части и тротуаре)"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
