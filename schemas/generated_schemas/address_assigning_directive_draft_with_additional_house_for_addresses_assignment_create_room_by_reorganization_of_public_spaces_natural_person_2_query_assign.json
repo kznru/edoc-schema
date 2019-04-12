@@ -3,6 +3,10 @@
     "address_numbers": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_numbers"
     },
+    "assignee": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/servant",
+      "title": "Исполнитель"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"

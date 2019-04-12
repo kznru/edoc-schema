@@ -7,6 +7,10 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/street_names",
       "title": "Названия улиц"
     },
+    "assignee": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/servant",
+      "title": "Исполнитель"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
