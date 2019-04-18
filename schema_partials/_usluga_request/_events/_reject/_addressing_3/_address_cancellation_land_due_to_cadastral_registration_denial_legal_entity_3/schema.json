@@ -18,6 +18,7 @@
       }
     },
     "documents": {
+      "type": "object",
       "properties": {
         "letter_of_attorney": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",

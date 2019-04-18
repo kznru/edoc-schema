@@ -23,6 +23,7 @@
       }
     },
     "documents": {
+      "type": "object",
       "properties": {
         "letter_of_attorney": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
@@ -35,8 +36,7 @@
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         }
       },
-      "title": "Документы",
-      "type": "object"
+      "title": "Документы"
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
