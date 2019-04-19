@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "field_1": {
+      "type": "string",
+      "title": "Название поля"
+    }
+  }
+}

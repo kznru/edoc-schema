@@ -82,6 +82,7 @@ class SchemasListService
 
   def except_keys
     @except_keys ||= %w(
+      test_1
       termination_of_municipal_property_lease_agreement_legal_entity_2
       termination_of_municipal_property_lease_agreement_natural_person_2
       termination_of_municipal_property_lease_agreement_natural_person_with_agent_2
