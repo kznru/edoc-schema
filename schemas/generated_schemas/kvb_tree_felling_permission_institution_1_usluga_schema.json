@@ -3,6 +3,7 @@
     "organization",
     "cadastre_number",
     "land_documents",
+    "land_survey",
     "agent",
     "address_with_map",
     "address_comments",
@@ -43,6 +44,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Документы на земельный участок",
       "description": "Выписка из ЕГРН либо договор аренды"
+    },
+    "land_survey": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Межевание земельного участка"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
