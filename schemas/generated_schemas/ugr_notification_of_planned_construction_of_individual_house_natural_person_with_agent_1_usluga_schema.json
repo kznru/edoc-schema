@@ -102,6 +102,12 @@
           "type": "object",
           "title": "Сведения об отступах от границ земельного участка",
           "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра (с противопожарной стеной): отступ от правой границы 2 метра (с противопожарной стеной); отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
+          "required": [
+            "front",
+            "back",
+            "left",
+            "right"
+          ],
           "properties": {
             "front": {
               "type": "string",
@@ -121,7 +127,13 @@
             }
           }
         }
-      }
+      },
+      "required": [
+        "above_floors_number",
+        "limiting_height",
+        "area",
+        "distance_from_boundaries_of_land"
+      ]
     },
     "permission_to_deviate_from_limiting_parameters": {
       "type": "string",

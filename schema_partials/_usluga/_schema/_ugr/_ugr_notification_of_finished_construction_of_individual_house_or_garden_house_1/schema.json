@@ -31,6 +31,12 @@
     "planning_parameters": {
       "type": "object",
       "title": "Сведения о параметрах",
+      "required": [
+        "above_floors_number",
+        "limiting_height",
+        "area",
+        "distance_from_boundaries_of_land"
+      ],
       "properties": {
         "above_floors_number": {
           "type": "string",
@@ -50,6 +56,12 @@
         "distance_from_boundaries_of_land": {
           "type": "object",
           "title": "Сведения об отступах от границ земельного участка",
+          "required": [
+            "front",
+            "back",
+            "left",
+            "right"
+          ],
           "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра (с противопожарной стеной): отступ от правой границы 2 метра (с противопожарной стеной); отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
           "properties": {
             "front": {
