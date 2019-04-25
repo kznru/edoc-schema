@@ -3,7 +3,8 @@
     "agent",
     "registry_item",
     "address_with_map",
-    "images_after"
+    "images_after",
+    "certificate_of_acceptance"
   ],
   "properties": {
     "registry_item": {
