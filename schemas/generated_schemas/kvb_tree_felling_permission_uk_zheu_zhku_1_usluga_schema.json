@@ -37,7 +37,7 @@
     },
     "land_survey": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Межевание земельного участка"
+      "title": "Межевание земельного участка (договор управления, проект межевания)"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
