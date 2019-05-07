@@ -32,7 +32,7 @@
       "kvb_excavation_orders_emergency_delete_natural_person_2": "Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству - для аварийных ордеров (физ. лицо)",
       "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_2": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) - для аварийных ордеров (физ. лицо с представителем)",
       "kvb_excavation_orders_prolong_cause_winter_natural_person_2": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо)",
-      "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_2": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо с предствителем)",
+      "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_2": "Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо с представителем)",
       "kvb_excavation_orders_emergency_add_natural_person_1": "Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо)",
       "kvb_excavation_orders_emergency_add_legal_entity_1": "Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (ЮЛ, ИП)",
       "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_2": "Выдача ордера на производство земляных работ  - для проезжей части (физ. лицо с представителем)",
@@ -158,7 +158,8 @@
     "passports": {
       "kvb_tree_felling_permission_uk_zheu_zhku_1": "Разрешение на вырубку/кронирование/посадку (УК, ЖЭУ, ЖКУ)",
       "kvb_tree_felling_permission_institution_1": "Разрешение на вырубку/кронирование/посадку (Дошкольные и учебные заведения)",
-      "kvb_tree_felling_permission_natural_person_1": "Разрешение на вырубку/кронирование/посадку (физ. лицо)",
+      "kvb_tree_felling_permission_natural_person_1": "Разрешение на вырубку/кронирование/посадку (физ. лицо с представителем)",
+      "kvb_tree_felling_permission_natural_person_without_applicant_1": "Разрешение на вырубку/кронирование/посадку (физ. лицо)",
       "kvb_tree_felling_permission_tszh_zhsk_1": "Разрешение на вырубку/кронирование/посадку (ТСЖ, ЖСК, СНТ)",
       "kvb_tree_felling_permission_legal_entity_1": "Разрешение на вырубку/кронирование/посадку (ЮЛ, ИП)",
       "kvb_tree_felling_permission_administration_1": "Разрешение на вырубку/кронирование/посадку (Администрации районов, Префектура «Старый город»)",

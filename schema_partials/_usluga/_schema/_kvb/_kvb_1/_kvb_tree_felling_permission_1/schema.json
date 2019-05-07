@@ -5,14 +5,9 @@
     "agent",
     "address_with_map",
     "address_comments",
-    "letter_of_attorney",
     "work_description"
   ],
   "properties": {
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта с четкими границами обследования территории",

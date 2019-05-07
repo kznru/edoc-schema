@@ -17,6 +17,9 @@
             },
             {
               "name": "kvb_felling_tree_natural_person_1"
+            },
+            {
+              "name": "kvb_felling_tree_natural_person_without_applicant_1"
             }
           ]
         },
@@ -29,6 +32,9 @@
             },
             {
               "name": "kvb_felling_tree_survey_participants_natural_person_1"
+            },
+            {
+              "name": "kvb_felling_tree_survey_participants_natural_person_without_applicant_1"
             }
           ]
         },

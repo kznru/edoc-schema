@@ -210,7 +210,7 @@ permalink: /generated_schemas/
 
 [Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_cause_winter_natural_person_2_usluga_schema.json)
 
-[Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо с предствителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_2_usluga_schema.json)
+[Отметка в ордере о выполнении работ по частичному восстановлению наружнего благоустройства (в зимний период) (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_2_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (физ. лицо), версия #1](/schemas/generated_schemas/kvb_excavation_orders_emergency_add_natural_person_1_usluga_schema.json)
 
@@ -384,7 +384,9 @@ permalink: /generated_schemas/
 
 [Разрешение на вырубку/кронирование/посадку (Дошкольные и учебные заведения), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_institution_1_usluga_schema.json)
 
-[Разрешение на вырубку/кронирование/посадку (физ. лицо), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_natural_person_1_usluga_schema.json)
+[Разрешение на вырубку/кронирование/посадку (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_natural_person_1_usluga_schema.json)
+
+[Разрешение на вырубку/кронирование/посадку (физ. лицо), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_natural_person_without_applicant_1_usluga_schema.json)
 
 [Разрешение на вырубку/кронирование/посадку (ТСЖ, ЖСК, СНТ), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_tszh_zhsk_1_usluga_schema.json)
 

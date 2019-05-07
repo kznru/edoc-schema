@@ -1,0 +1,50 @@
+{
+  "required": [
+    "cadastre_number",
+    "land_documents",
+    "agent",
+    "address_with_map",
+    "address_comments",
+    "work_description"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Адрес с обязательным указанием наименования улицы и номера здания, находящихся ближе всего к месту проведения работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Описание местоположения",
+      "description": "В свободной форме указать размещение объекта обследования с обязательной привязкой к местности (например, «во дворе дома №... по ул. ...», или «в районе дома №... по ул.А.Кутуя», или «у подъезда №... дома №... по ул....» , или «с торца дома №... по ул....» и т.п.)"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "default": "Выдача акта обследования зелёных насаждений"
+    },
+    "land_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}
