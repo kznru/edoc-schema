@@ -15,7 +15,7 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
-      "description": "Подкрепляется отсканированный оригинал  документа, подтверждающего полномочия представителя"
+      "description": "Прикрепляется отсканированный оригинал  документа, подтверждающего полномочия представителя"
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -44,7 +44,7 @@
         "payment_document": {
           "title": "Платежный документ",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Подкрепляется скан платежного документа"
+          "description": "Прикрепляется скан платежного документа"
         }
       }
     }
