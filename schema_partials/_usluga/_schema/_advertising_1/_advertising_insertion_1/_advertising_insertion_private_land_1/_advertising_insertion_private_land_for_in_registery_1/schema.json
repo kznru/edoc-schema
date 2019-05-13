@@ -10,10 +10,14 @@
     "field_area": {},
     "number_of_fields": {},
     "total_area_of_fields": {},
+    "situational_plan": {
+      "description": "Подкрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции"
+    },
     "topography_of_networks": {},
     "graphic_image_of_structure": {},
     "description": {},
     "property_owner": {},
+    "ownership_confirming_document": {},
     "installation_and_operation_document": {},
     "state_duty_payment": {}
   }

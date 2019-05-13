@@ -60,10 +60,6 @@
       "title": "Срок действия разрешения",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
     },
-    "state_duty_payment": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения об оплате государственной пошлины",
-      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины"
-    }
+    "state_duty_payment": {}
   }
 }

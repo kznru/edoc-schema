@@ -43,6 +43,9 @@
       "title": "Общая площадь информационного поля (информационных полей), кв.м",
       "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
     },
+    "situational_plan": {
+      "description": "Подкрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции"
+    },
     "topography_of_networks": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
       "title": "Топографический план местности",
@@ -62,15 +65,16 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
     },
+    "ownership_confirming_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Подкрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
-    "state_duty_payment": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения об оплате государственной пошлины",
-      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины"
-    }
+    "state_duty_payment": {}
   }
 }
