@@ -1,0 +1,51 @@
+{
+  "required": [
+    "agent",
+    "organization",
+    "letter_of_attorney",
+    "address_with_map"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель",
+      "description": "Полное наименование организации - заказчика работ по договору"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    }
+  }
+}

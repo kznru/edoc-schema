@@ -178,6 +178,8 @@ permalink: /generated_schemas/
 
 ### Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства {#kvb_excavation_orders}
 
+[Выдача ордера на производство земляных работ с предоставлением на бумажном носителе (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kvb_excavation_orders_add_on_paper_carrier_legal_entity_2_usluga_schema.json)
+
 [Отметка в ордере о продлении срока производства земляных работ (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_natural_person_with_agent_2_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ - для проезжей части (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_excavation_orders_add_for_roadway_legal_entity_1_usluga_schema.json)

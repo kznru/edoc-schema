@@ -29,6 +29,9 @@
                   ]
                 },
                 {
+                  "name": "kvb_excavation_orders_add_on_paper_carrier_legal_entity_2"
+                },
+                {
                   "name": "kvb_excavation_orders_add_for_roadway_2",
                   "virtual": true,
                   "keys": [
