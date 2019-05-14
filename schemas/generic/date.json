@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/generic/date",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Дата",
+  "description": "Дата",
+  "type": "string",
+  "format": "date"
+}

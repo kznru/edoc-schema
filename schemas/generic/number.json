@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/generic/number",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Число",
+  "description": "Число",
+  "type": "number"
+}
