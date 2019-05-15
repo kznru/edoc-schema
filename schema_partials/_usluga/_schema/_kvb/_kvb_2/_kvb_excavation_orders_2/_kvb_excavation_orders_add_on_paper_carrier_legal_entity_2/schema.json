@@ -22,6 +22,25 @@
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
     },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
     "begin_date": {
       "type": "string",
       "format": "date",
@@ -46,6 +65,52 @@
       "type": "string",
       "title": "Площадь повреждения газона (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "contractor": {
+      "type": "object",
+      "required": ["contractor_organization"],
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика",
+          "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору подряда"
+        },
+        "contractor_responsible": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
+          "title": "Ответственный производитель работ со стороны подрядчика",
+          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
+        }
+      }
+    },
+    "subcontractor": {
+      "type": "object",
+      "required": ["subcontractor_organization", "subcontractor_responsible"],
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+          "title": "Организация субподрядчика",
+          "description": "Наименование организации, выполняющей работы по устранению аварии (если предусмотрен договором подряда)"
+        },
+        "subcontractor_responsible": {
+          "type": "array",
+          "title": "Ответственный производитель работ со стороны субподрядчика",
+          "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          }
+        }
+      }
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
     }
   }
 }
