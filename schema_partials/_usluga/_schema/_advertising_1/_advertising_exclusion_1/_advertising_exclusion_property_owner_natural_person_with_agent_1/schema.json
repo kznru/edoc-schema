@@ -9,7 +9,7 @@
   "properties": {
     "registry_item": {},
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/natural_person_with_inn",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_with_inn_and_address",
       "title": "Собственник или иной законный владелец недвижимого имущества"
     },
     "agent": {},
