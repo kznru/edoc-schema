@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "smev_response_file": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "Данные СМЕВ"
+    }
+  }
+}
