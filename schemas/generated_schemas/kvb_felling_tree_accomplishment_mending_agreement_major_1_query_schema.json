@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "required": [
+    "district"
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "$ref": "http://localhost:4000/location/ru/address_comments"
+    },
+    "agent_mobile": {
+      "type": "string",
+      "title": "Мобильный телефон представителя"
+    },
+    "district": {
+      "type": "string",
+      "title": "Район",
+      "enum": [
+        "Авиастроительный",
+        "Вахитовский",
+        "Московский",
+        "Ново-Савиновский",
+        "Кировский",
+        "Приволжский",
+        "Советский"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
