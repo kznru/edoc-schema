@@ -200,7 +200,11 @@ permalink: /generated_schemas/
 
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо), версия #2](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_2_usluga_schema.json)
 
+[Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо), версия #3](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_3_usluga_schema.json)
+
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_with_agent_2_usluga_schema.json)
+
+[Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (физ. лицо с представителем), версия #3](/schemas/generated_schemas/kvb_excavation_orders_delete_natural_person_with_agent_3_usluga_schema.json)
 
 [Выдача ордера на производство земляных работ в связи с аварийно-восстановительными работами на инженерных коммуникациях (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kvb_excavation_orders_emergency_add_legal_entity_2_usluga_schema.json)
 
@@ -271,6 +275,8 @@ permalink: /generated_schemas/
 [Выдача ордера на производство земляных работ (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kvb_excavation_orders_add_natural_person_with_agent_2_usluga_schema.json)
 
 [Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kvb_excavation_orders_delete_legal_entity_2_usluga_schema.json)
+
+[Отметка в ордере о завершении земляных работ и выполнении работ по благоустройству (ЮЛ, ИП), версия #3](/schemas/generated_schemas/kvb_excavation_orders_delete_legal_entity_3_usluga_schema.json)
 
 [Отметка в ордере о продлении срока производства земляных работ (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kvb_excavation_orders_prolong_legal_entity_2_usluga_schema.json)
 
