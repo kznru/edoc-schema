@@ -6,7 +6,7 @@
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка",
-      "description": "Информация находится в выписке из ЕГРН или свидетельстве на право собственности"
+      "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
     "cadastre_number_quarter": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -16,7 +16,7 @@
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес или местоположение земельного участка",
-      "description": "Местоположение строящегося дома"
+      "description": "Местоположение строящегося дома, согласно выписке на земельный участок"
     },
     "developer_rights": {
       "type": "string",
@@ -48,7 +48,7 @@
         "above_floors_number": {},
         "limiting_height": {
           "type": "number",
-          "title": "Предельная высота в метрах",
+          "title": "Предельная высота (в метрах)",
           "description": "Высота строящегося дома от поверхности земли до конька крыши"
         },
         "land_area": {
@@ -59,7 +59,7 @@
         "common_area": {
           "type": "number",
           "title": "Общая площадь (кв.м)",
-          "description": "Общая площадь по внешнему контуру участка, рассчитывается как длина х ширину (1 этаж), а также общая площадь дома с учетом всех этажей (либо мансарды)"
+          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
         },
         "building_area": {
           "type": "number",
@@ -115,7 +115,7 @@
     "schematic_depiction": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схематичное изображение планируемого к строительству или реконструкции объекта капитального строительства на земельном участке",
-      "description": "Здесь должен быть чертеж объекта капитального строительства с указанием отступов от всех границ земельного участка до объекта капитального строительства"
+      "description": "Отсканированное в цвете схематичное изображение планируемого к реконструкции объекта капитального строительства на земельном участке"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
