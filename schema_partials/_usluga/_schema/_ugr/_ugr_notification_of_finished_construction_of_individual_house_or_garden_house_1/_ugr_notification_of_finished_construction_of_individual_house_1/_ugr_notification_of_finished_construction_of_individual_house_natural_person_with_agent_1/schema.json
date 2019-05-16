@@ -18,7 +18,7 @@
         "registration_address": {
           "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
           "title": "Место жительства",
-          "description": "Адрес проживания"
+          "description": "Адрес проживания, указывается адрес по регистрации"
         },
         "passport": {
           "type": "object",

@@ -18,7 +18,12 @@
     },
     "schematic_depiction": {},
     "technical_plan": {},
-    "rights_determination_agreement": {}
+    "rights_determination_agreement": {},
+    "payment_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Чек, квитанция об оплате государственной пошлины",
+      "description": "Квитанция оплачивается на имя каждого собственника в соответствии с долями"
+    }
   }
 }
 
