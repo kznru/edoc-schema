@@ -1,0 +1,29 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/applicant_with_snils",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Заявитель",
+  "type": "object",
+  "properties": {
+    "natural_person": {
+      "title": "Данные заявителя",
+      "type": "object",
+      "properties": {
+        "passport_number": {
+          "type": "string",
+          "pattern": "^[0-9]{6}$","title": "Номер паспорта",
+          "description": "Последние 6 цифр номера паспорта"
+        },
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО",
+          "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+        }
+      }
+    },
+    "snils": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/snils",
+      "title": "СНИЛС"
+    }
+  },
+  "required": ["natural_person","snils"]
+}

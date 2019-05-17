@@ -10,7 +10,7 @@
       "title": "Доверенность"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_with_snils",
       "title": "Заявитель",
       "description": "ФИО Застройщика и Правообладателя земельного участка"
     },
