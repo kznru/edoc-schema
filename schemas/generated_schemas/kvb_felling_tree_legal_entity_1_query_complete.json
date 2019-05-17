@@ -1,7 +1,6 @@
 {
   "type": "object",
   "required": [
-    "gardening_undertaker",
     "work_description",
     "work_title"
   ],
@@ -73,7 +72,7 @@
       }
     },
     "gardening_undertaker": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
       "title": "Сторона, принимающая работу по компенсационному озеленению"
     },
     "green_report": {
