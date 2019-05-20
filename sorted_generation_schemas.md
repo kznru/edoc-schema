@@ -1290,6 +1290,18 @@ permalink: /generated_schemas/
 
 [Уведомление о планируемых строительстве или реконструкции объекта индивидуального жилищного строительства или садового дома (физ. лицо с представителем), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_construction_of_individual_house_or_garden_house_natural_person_with_agent_1_usluga_schema.json)
 
+[Уведомление о планируемой реконструкции садового дома (ЮЛ, ИП), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_garden_house_legal_entity_1_usluga_schema.json)
+
+[Уведомление о планируемой реконструкции садового дома (физ. лицо), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_garden_house_natural_person_1_usluga_schema.json)
+
+[Уведомление о планируемой реконструкции садового дома (физ. лицо с представителем), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_garden_house_natural_person_with_agent_1_usluga_schema.json)
+
+[Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (ЮЛ, ИП), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_individual_house_legal_entity_1_usluga_schema.json)
+
+[Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (физ. лицо), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_individual_house_natural_person_1_usluga_schema.json)
+
+[Уведомление о планируемой реконструкции объекта индивидуального жилищного строительства (физ. лицо с представителем), версия #1](/schemas/generated_schemas/ugr_notification_of_planned_reconstruction_of_individual_house_natural_person_with_agent_1_usluga_schema.json)
+
 [Уведомление об окончании строительства садового дома (ЮЛ, ИП), версия #1](/schemas/generated_schemas/ugr_notification_of_finished_construction_of_garden_house_legal_entity_1_usluga_schema.json)
 
 [Уведомление об окончании строительства садового дома (физ. лицо), версия #1](/schemas/generated_schemas/ugr_notification_of_finished_construction_of_garden_house_natural_person_1_usluga_schema.json)

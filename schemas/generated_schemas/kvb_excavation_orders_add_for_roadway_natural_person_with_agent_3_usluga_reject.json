@@ -17,6 +17,11 @@
       "minItems": 1,
       "uniqueItems": true
     },
+    "protocol_mvk": {
+      "type": "string",
+      "title": "Номер протокола МВК",
+      "description": "Укажите номер протокола заседания Межведомственной комиссии по вопросам временного ограничения или прекращения движения по автомобильным дорогам муниципального образования города Казани (если работы ведутся на проезжей части и тротуаре)"
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
