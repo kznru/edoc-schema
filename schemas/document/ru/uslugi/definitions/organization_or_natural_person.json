@@ -2,30 +2,16 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Организация или физическое лицо",
-  "title": "Организация или физическое лицо",
+  "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
   "type": "object",
-  "anyOf": [
-    {
-      "title": "Организация",
-      "type": "object",
-      "required": ["organization"],
-      "properties": {
-        "organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-          "title": "Организация"
-        }
-      }
+  "properties": {
+    "natural_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - физ.лицо"
     },
-    {
-      "title": "Физическое лицо",
-      "type": "object",
-      "required": ["natural_person"],
-      "properties": {
-        "natural_person": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
-          "title": "Физическое лицо"
-        }
-      }
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
     }
-  ]
+  }
 }
