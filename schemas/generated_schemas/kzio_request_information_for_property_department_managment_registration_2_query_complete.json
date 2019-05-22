@@ -144,6 +144,18 @@
       "type": "string",
       "title": "Объект гражданской обороны"
     },
+    "ownership_registered": {
+      "type": "string",
+      "title": "Право собственности за МО г.Казань зарегистрировано"
+    },
+    "information_about_other_use_of_property": {
+      "type": "string",
+      "title": "Сведения об ином использовании имущества (передано в оперативное управление/ хозяйственное ведение)"
+    },
+    "extract_from_egrn": {
+      "type": "string",
+      "title": "Выписка из ЕГРН"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"

@@ -83,6 +83,14 @@
     "gratuitous_use": {
       "type": "string",
       "title": "Безвозмездное пользование"
+    },
+    "room_belongs_to_municipal_treasury": {
+      "type": "string",
+      "title": "Запрашиваемое помещение находится в составе муниципальной казны"
+    },
+    "information_about_other_use_of_property": {
+      "type": "string",
+      "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"

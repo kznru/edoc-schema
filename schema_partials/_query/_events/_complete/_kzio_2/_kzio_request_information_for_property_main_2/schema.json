@@ -333,6 +333,26 @@
     "result_of_checking": {
       "type": "string",
       "title": "Результат проверки"
+    },
+    "room_belongs_to_municipal_treasury": {
+      "type": "string",
+      "title": "Запрашиваемое помещение находится в составе муниципальной казны"
+    },
+    "information_about_other_use_of_property": {
+      "type": "string",
+      "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
+    },
+    "ownership_registered": {
+      "type": "string",
+      "title": "Право собственности за МО г.Казань зарегистрировано"
+    },
+    "information_about_other_use_of_property": {
+      "type": "string",
+      "title": "Сведения об ином использовании имущества (передано в оперативное управление/ хозяйственное ведение)"
+    },
+    "extract_from_egrn": {
+      "type": "string",
+      "title": "Выписка из ЕГРН"
     }
   }
 }

@@ -85,6 +85,14 @@
       "type": "string",
       "title": "Безвозмездное пользование"
     },
+    "room_belongs_to_municipal_treasury": {
+      "type": "string",
+      "title": "Запрашиваемое помещение находится в составе муниципальной казны"
+    },
+    "information_about_other_use_of_property": {
+      "type": "string",
+      "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
