@@ -314,7 +314,7 @@
     },
     "kzio_request_information_for_property_department_control_2": {
       "type": "object",
-      "title": "Запрос на сведения об имуществе (отдел контроля)",
+      "title": "Запрос на сведения об имуществе (фото и сведения об объекте, отдел контроля)",
       "properties": {
         "photo": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -368,7 +368,7 @@
     },
     "kzio_request_information_for_property_department_control_tech_doc_2": {
       "type": "object",
-      "title": "Запрос на сведения об имуществе (отдел контроля)",
+      "title": "Запрос на сведения об имуществе (тех. док. (ТП и КП), отдел контроля)",
       "properties": {
         "photo": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
