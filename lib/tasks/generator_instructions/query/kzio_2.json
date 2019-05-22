@@ -16,6 +16,7 @@
         { "name": "kzio_request_information_for_property_main_2" },
         { "name": "kzio_request_information_for_property_smev_2" },
         { "name": "kzio_request_information_for_property_department_control_2" },
+        { "name": "kzio_request_information_for_property_department_control_tech_doc_2" },
         { "name": "kzio_request_information_for_property_department_legal_2" },
         { "name": "kzio_request_information_for_property_department_managment_registration_2" },
         { "name": "kzio_request_information_for_property_department_privatization_2" },

@@ -44,6 +44,14 @@
       "type": "string",
       "title": "Результат проверки"
     },
+    "info_about_current_state": {
+      "type": "string",
+      "title": "Информация о текущем состоянии имущества, наличии отдельного входа, коммуникации, узлов учета, использовании третьих лиц"
+    },
+    "photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Актуальные фотографии снаружи и внутри"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
