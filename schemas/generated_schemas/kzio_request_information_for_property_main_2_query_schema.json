@@ -329,6 +329,34 @@
         "being_tested": {
           "type": "string",
           "title": "Проводится проверка"
+        },
+        "location_and_area_of_premises": {
+          "type": "string",
+          "title": "Расположение и площадь нежилых помещений"
+        },
+        "property": {
+          "type": "string",
+          "title": "Собственность"
+        },
+        "engineering_support": {
+          "type": "string",
+          "title": "Инженерно-техническое обеспечение"
+        },
+        "technical_condition": {
+          "type": "string",
+          "title": "Техническое состояние"
+        },
+        "availability_of_technical_doc": {
+          "type": "string",
+          "title": "Наличие технической документации и регистрация права собственности"
+        },
+        "contractual_relations_presence": {
+          "type": "string",
+          "title": "Наличие договорных отношений"
+        },
+        "result_of_checking": {
+          "type": "string",
+          "title": "Результат проверки"
         }
       }
     },
