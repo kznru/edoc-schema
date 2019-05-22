@@ -71,11 +71,6 @@
           "title": "Предельная высота (в метрах)",
           "description": "Высота строящегося дома от поверхности земли до конька крыши"
         },
-        "land_area": {
-          "type": "number",
-          "title": "Площадь участка (кв.м)",
-          "description": "Площадь участка по внешнему контуру, рассчитывается как длина х ширину"
-        },
         "common_area": {
           "type": "number",
           "title": "Общая площадь (кв.м)",
@@ -119,7 +114,6 @@
       "required": [
         "above_floors_number",
         "limiting_height",
-        "land_area",
         "common_area",
         "building_area",
         "distance_from_boundaries_of_land"
