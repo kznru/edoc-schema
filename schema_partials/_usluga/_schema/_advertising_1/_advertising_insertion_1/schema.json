@@ -15,7 +15,7 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
-      "description": "Прикрепляется отсканированный оригинал  документа, подтверждающего полномочия представителя"
+      "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -37,9 +37,9 @@
           "description": "Юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС"
         },
         "document": {
-          "title": "Номер  и дата документа",
+          "title": "Номер и дата документа",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
-          "description": " Номер  и дата документа, подтверждающего оплату государственной пошлины"
+          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         },
         "payment_document": {
           "title": "Платежный документ",
