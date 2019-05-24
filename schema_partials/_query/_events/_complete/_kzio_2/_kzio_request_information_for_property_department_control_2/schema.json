@@ -42,13 +42,13 @@
       "type": "string",
       "title": "Результат проверки"
     },
-    "info_about_current_state": {
-      "type": "string",
-      "title": "Информация о текущем состоянии имущества, наличии отдельного входа, коммуникации, узлов учета, использовании третьих лиц"
-    },
-    "photos": {
+    "tech_doc": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Актуальные фотографии снаружи и внутри"
+      "title": "Копии технической документации в электронном виде"
+    },
+    "is_planned_to_produce_tech_doc": {
+      "type": "string",
+      "title": "Планируется ли изготовление тех.документации"
     }
   }
 }

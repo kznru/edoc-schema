@@ -12,6 +12,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
       "title": "Фотографии"
     },
+    "info_about_current_state": {
+      "type": "string",
+      "title": "Информация о текущем состоянии имущества, наличии отдельного входа, коммуникации, узлов учета, использовании третьих лиц"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
