@@ -19,7 +19,8 @@
     },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Ситуационный план"
+      "title": "Ситуационный план",
+      "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции."
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",

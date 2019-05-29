@@ -1,6 +1,7 @@
 {
   "required": [
     "agent",
+    "address_with_map",
     "termination_of_contract_for_installation_and_operation",
     "title_document_for_property",
     "registry_item"
@@ -14,8 +15,12 @@
       }
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_inn",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Собственник или иной законный владелец недвижимого имущества"
+    },
+    "address_with_map": {
+      "title": "Адрес места жительства заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "termination_of_contract_for_installation_and_operation": {
       "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",

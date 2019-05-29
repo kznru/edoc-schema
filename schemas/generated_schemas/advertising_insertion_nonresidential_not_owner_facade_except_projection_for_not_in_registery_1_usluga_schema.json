@@ -13,7 +13,6 @@
     "constructive_images",
     "field_size",
     "field_area",
-    "notification_confirmation_document",
     "organization",
     "agent",
     "letter_of_attorney"
@@ -133,17 +132,12 @@
     "constructive_images": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Конструктивные изображения",
-      "description": "Прикрепляется скан, содержащий чертежи рекламной конструкции в разрезе, выполненные с соблюдением пропорций, изображение конструктивных элементов крепления рекламной конструкции с указанием размеров и описанием использованных материалов, методов монтажа, характера подсветки"
+      "description": "Прикрепляется скан, содержащий чертежи проекционного оборудования, его краткое описание"
     },
     "field_size": {
       "title": "Размер информационного поля",
       "type": "string",
       "description": "Размер информационного поля, м"
-    },
-    "notification_confirmation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Документ, подтверждающий уведомление УК, правление ТСЖ, ЖК, ЖСК, иного СПК,  а при непосредственном способе управления орган государственного жилищного надзора",
-      "description": "Прикрепляется скан документа, подтверждающего уведомление УК, правление ТСЖ, ЖК, ЖСК, иного ПСК, а при непосредственном способе управления орган государственного жилищного надзора"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
