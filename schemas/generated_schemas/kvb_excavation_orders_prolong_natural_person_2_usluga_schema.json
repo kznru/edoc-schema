@@ -41,7 +41,7 @@
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ",
-      "description": "График невыполненных работ на объекте на новый период"
+      "description": "График выполнения незаконченных работ на объекте в этом периоде"
     },
     "drawing": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
