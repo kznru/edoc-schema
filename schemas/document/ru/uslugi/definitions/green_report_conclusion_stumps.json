@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_stumps",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "number",
+  "title": "Заключение",
+  "minItems": 1,
+  "enum": [
+    0
+  ],
+  "enumNames": [
+    "снос"
+  ]
+}
