@@ -2,6 +2,14 @@
   "type":"object",
   "required":[],
   "properties":{
+    "request_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (обязательно обведите область на карте) (из услуги)"
+    },
+    "request_cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер (из услуги)"
+    },
     "cadastre_number": {
       "type": "string",
       "title": "Кадастровый номер"

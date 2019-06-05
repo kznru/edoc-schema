@@ -2,6 +2,12 @@
   "type":"object",
   "required":[],
   "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
     "kzio_request_information_for_property_smev_2": {
       "type": "object",
       "title": "Запрос на сведения об имуществе (росреестр)",
