@@ -1,0 +1,17 @@
+{
+  "required": [
+    "organization",
+    "registry_item"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+      "title": "Запись о проекте размещения СНИ для исключения"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Собственник конструкции"
+    },
+    "agent": {}
+  }
+}
