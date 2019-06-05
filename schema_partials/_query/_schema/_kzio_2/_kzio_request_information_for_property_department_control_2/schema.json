@@ -2,57 +2,72 @@
   "type":"object",
   "required":[],
   "properties": {
-    "photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Фото объекта"
+    "request_data": {
+      "type": "object",
+      "title": "Данные из услуги",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        }
+      }
     },
-    "examination": {
-      "type": "string",
-      "title": "Обследование"
-    },
-    "being_tested": {
-      "type": "string",
-      "title": "Проводится проверка"
-    },
-    "location_and_area_of_premises": {
-      "type": "string",
-      "title": "Расположение и площадь нежилых помещений"
-    },
-    "property": {
-      "type": "string",
-      "title": "Собственность"
-    },
-    "engineering_support": {
-      "type": "string",
-      "title": "Инженерно-техническое обеспечение"
-    },
-    "technical_condition": {
-      "type": "string",
-      "title": "Техническое состояние"
-    },
-    "availability_of_technical_doc": {
-      "type": "string",
-      "title": "Наличие технической документации и регистрация права собственности"
-    },
-    "contractual_relations_presence": {
-      "type": "string",
-      "title": "Наличие договорных отношений"
-    },
-    "result_of_checking": {
-      "type": "string",
-      "title": "Результат проверки"
-    },
-    "result_of_checking": {
-      "type": "string",
-      "title": "Результат проверки"
-    },
-    "tech_doc": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Копии технической документации в электронном виде"
-    },
-    "is_planned_to_produce_tech_doc": {
-      "type": "string",
-      "title": "Планируется ли изготовление тех.документации"
+    "query_data": {
+      "type": "object",
+      "title": "Данные из запроса",
+      "properties": {
+        "photo": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Фото объекта"
+        },
+        "examination": {
+          "type": "string",
+          "title": "Обследование"
+        },
+        "being_tested": {
+          "type": "string",
+          "title": "Проводится проверка"
+        },
+        "location_and_area_of_premises": {
+          "type": "string",
+          "title": "Расположение и площадь нежилых помещений"
+        },
+        "property": {
+          "type": "string",
+          "title": "Собственность"
+        },
+        "engineering_support": {
+          "type": "string",
+          "title": "Инженерно-техническое обеспечение"
+        },
+        "technical_condition": {
+          "type": "string",
+          "title": "Техническое состояние"
+        },
+        "availability_of_technical_doc": {
+          "type": "string",
+          "title": "Наличие технической документации и регистрация права собственности"
+        },
+        "contractual_relations_presence": {
+          "type": "string",
+          "title": "Наличие договорных отношений"
+        },
+        "result_of_checking": {
+          "type": "string",
+          "title": "Результат проверки"
+        },
+        "result_of_checking": {
+          "type": "string",
+          "title": "Результат проверки"
+        },
+        "tech_doc": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Копии технической документации в электронном виде"
+        },
+        "is_planned_to_produce_tech_doc": {
+          "type": "string",
+          "title": "Планируется ли изготовление тех.документации"
+        }
+      }
     }
   }
 }

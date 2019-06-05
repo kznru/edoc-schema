@@ -4,11 +4,14 @@
 
   ],
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-    },
-    "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    "request_data": {
+      "type": "object",
+      "title": "Данные из услуги",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        }
+      }
     },
     "kzio_request_information_for_land_smev_2": {
       "type": "object",

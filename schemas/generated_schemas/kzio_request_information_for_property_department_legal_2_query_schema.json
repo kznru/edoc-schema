@@ -4,9 +4,24 @@
 
   ],
   "properties": {
-    "encumbrance_limitation": {
-      "type": "string",
-      "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+    "request_data": {
+      "type": "object",
+      "title": "Данные из услуги",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        }
+      }
+    },
+    "query_data": {
+      "type": "object",
+      "title": "Данные из запроса",
+      "properties": {
+        "encumbrance_limitation": {
+          "type": "string",
+          "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+        }
+      }
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"
