@@ -103,22 +103,6 @@
     },
     "work_directions_comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_comments"
-    },
-    "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
-    },
-    "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Файлы для заявителя"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения"
     }
-  },
-  "type": "object"
+  }
 }
