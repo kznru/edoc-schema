@@ -1,42 +1,42 @@
 {
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
     "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/planeta_number"
     },
     "project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Проект"
     },
     "facades_lighting": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_lighting"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/facades_lighting"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -23,7 +23,7 @@
       ]
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер"
     },
     "property_list": {
@@ -40,18 +40,18 @@
       "title": "Состояние помещений"
     },
     "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
     },
     "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Файлы для заявителя"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
   }

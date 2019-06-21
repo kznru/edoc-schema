@@ -1,19 +1,19 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "object_name": {
@@ -21,11 +21,11 @@
       "title": "Наименование объекта"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

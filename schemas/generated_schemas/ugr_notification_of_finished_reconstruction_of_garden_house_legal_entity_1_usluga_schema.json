@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "agent_position": {
@@ -10,24 +10,24 @@
       "title": "Должность представителя"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "organization": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+      "$ref": "http://localhost:4000/organization/ru/organization"
     },
     "organization_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Место нахождения компании"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Адрес или местоположение земельного участка",
       "description": "Местоположение строящегося дома"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка",
       "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
@@ -114,17 +114,17 @@
       ]
     },
     "schematic_depiction": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схематичное изображение реконструированного объекта капитального строительства на земельном участке",
       "description": "Отсканированное в цвете схематичное изображение реконструированного объекта капитального строительства на земельном участке"
     },
     "technical_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Технический план объекта капитально строительства",
       "description": "Подготовленный кадастровым инженером, в соответствии с Федеральным законом №218-ФЗ"
     },
     "rights_determination_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Заключенное соглашение об определении долей в праве общей долевой собственности",
       "description": "Если земельный участок, на котором построен или реконструирован объект ИЖС или СД, принадлежит двум и более гражданам на праве общей долевой собственности или на праве аренды со множественностью лиц на стороне арендатора"
     },
@@ -137,11 +137,11 @@
       "title": "Подтверждаю, что объект индивидуального жилищного строительства соответствует Градостроительному уставу г.Казани, утвержденному решением Казанского Совета народных депутатов от 26.06.1998 №2-12; местным нормативам градостроительного проектирования городского округа Казань, утвержденным решением Казанской городской Думы от 14.12.2016 №8-12, требованиям технических регламентов (норм и правил)"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

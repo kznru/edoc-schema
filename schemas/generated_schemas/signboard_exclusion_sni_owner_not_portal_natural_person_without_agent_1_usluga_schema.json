@@ -6,12 +6,12 @@
   ],
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "$ref": "http://localhost:4000/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения",
       "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Собственник конструкции"
     },
     "text": {
@@ -23,11 +23,11 @@
       "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -2,19 +2,19 @@
   "type": "object",
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Адрес объекта"
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заказчик"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   }

@@ -4,16 +4,16 @@
   ],
   "properties": {
     "document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/regulatory_legal_act",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/regulatory_legal_act",
       "title": "Распоряжение",
       "description": "Скан распоряжения с печатью"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -7,26 +7,26 @@
   ],
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель",
       "description": "Полное наименование организации - заказчика работ по договору"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность на представителя",
       "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)",
       "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
     },
     "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "$ref": "http://localhost:4000/location/ru/address_comments",
       "title": "Уточнение адреса или места проведения работ"
     },
     "extra_addresses": {
@@ -34,15 +34,15 @@
       "title": "Дополнительные адреса",
       "minItems": 0,
       "items": {
-        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+        "$ref": "http://localhost:4000/location/ru/address"
       }
     },
     "objects_of_work": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work",
       "title": "Разрешённые работы"
     },
     "objects_of_work_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "begin_date": {
       "type": "string",
@@ -77,7 +77,7 @@
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "$ref": "http://localhost:4000/organization/ru/organization",
           "title": "Организация подрядчика",
           "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору подряда"
         },
@@ -85,7 +85,7 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+            "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
           },
           "title": "Ответственный производитель работ со стороны подрядчика",
           "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
@@ -101,7 +101,7 @@
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+          "$ref": "http://localhost:4000/organization/ru/organization_optional",
           "title": "Организация субподрядчика",
           "description": "Наименование организации, выполняющей работы по устранению аварии (если предусмотрен договором подряда)"
         },
@@ -111,22 +111,22 @@
           "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом",
           "minItems": 1,
           "items": {
-            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+            "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
           }
         }
       }
     },
     "images_before": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотофиксация исходной ситуации"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }

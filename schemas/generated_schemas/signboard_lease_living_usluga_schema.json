@@ -2,16 +2,16 @@
   "title": "Согласование проекта размещения средства наружной информации (паспорт) - аренда, жилой дом",
   "properties": {
     "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/lease_contracts"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number"
     },
     "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/planeta_number"
     },
     "passport": {
       "type": "object",
@@ -28,13 +28,13 @@
           "title": "Текст вывески"
         },
         "image_original": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original"
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_original"
         },
         "image_project": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_project"
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_project"
         },
         "image_topographic": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_topographic"
         },
         "image_constructions": {
           "type": "array",
@@ -48,10 +48,10 @@
             ],
             "properties": {
               "contruction_type": {
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type"
+                "$ref": "http://localhost:4000/document/ru/uslugi/definitions/environmental_construction_type"
               },
               "image": {
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+                "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_with_description",
                 "title": "Изображение конструкции"
               }
             }
@@ -60,37 +60,37 @@
       }
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель"
     },
     "application": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/application"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/application"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney_optional"
     },
     "passport_a": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/images",
       "title": "Паспорт, сторона А"
     },
     "passport_b": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/images",
       "title": "Паспорт, сторона Б"
     },
     "passport_bti": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/passport_bti",
       "title": "Паспорт БТИ"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

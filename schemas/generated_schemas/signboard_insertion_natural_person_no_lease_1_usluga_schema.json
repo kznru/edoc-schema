@@ -6,25 +6,25 @@
   ],
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "$ref": "http://localhost:4000/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения (ситуационный план)",
       "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Собственник конструкции"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
@@ -33,17 +33,17 @@
       "title": "Текст вывески"
     },
     "image_original": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_original",
       "title": "Фотофиксация исходной ситуации",
       "description": "Фотофиксация исходной ситуации, дающая полное представление об объекте в целом, выполненная согласно требованиям, изложенным в приложении №2 к Регламенту муниципальной услуги."
     },
     "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_topographic",
       "title": "Топографический план",
       "description": "Топографический план проектируемого места размещения СНИ в масштабе 1:500, выполненные согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/planeta_number"
     },
     "image_constructions": {
       "type": "array",
@@ -57,16 +57,16 @@
         ],
         "properties": {
           "contruction_type": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
+            "$ref": "http://localhost:4000/document/ru/uslugi/definitions/environmental_construction_type",
             "title": "Тип конструкции"
           },
           "image": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+            "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_with_description",
             "title": "Изображение конструкции",
             "description": "Изображение проектируемого СНИ осуществляется на чертеже фасада (-ов) и отдельно, выполняется в ортогональной проекции."
           },
           "blueprints": {
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description",
+            "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_with_description",
             "title": "Чертежи фасадов объекта с конструкцией или фотомонтаж для отдельностоящих СНИ",
             "description": "Чертежи всех фасадов объекта, на которых предполагается размещение СНИ, отражают перспективное (согласованное в установленном порядке проектное решение) или существующее состояние в соответствии с пропорциями, пластикой, цветовым решением, элементами фасадов в масштабе с обозначением габаритов частей фасада, конструкций СНИ и их габаритов. Изображение  проектируемого  СНИ  выполняется  в  виде  компьютерной графики и врисовки (фотомонтажа) на фото исходной ситуации. Фотомонтаж  осуществляется  с  соблюдением  места  расположения  на топографическом  плане,  габаритов  размещаемого  СНИ,  с  учетом  техники изображения пространственных объектов (перспективы)"
           }
@@ -74,11 +74,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

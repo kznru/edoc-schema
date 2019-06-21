@@ -6,16 +6,16 @@
   ],
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "$ref": "http://localhost:4000/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка или помещения"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Собственник земли или помещения"
     },
     "text": {
@@ -27,7 +27,7 @@
       "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

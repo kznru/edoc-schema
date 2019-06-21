@@ -1,28 +1,28 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
       "minItems": 1
     },
     "cadastre_number_of_land": {
       "description": "Кадастровый номер земельного участка, на котором осуществляется строительство (реконструкция)",
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка"
     },
     "address_with_map": {
       "description": "Местоположение земельного участка, на котором осуществляется строительство (реконструкция)",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Местоположение земельного участка"
     },
     "building_name": {
@@ -31,19 +31,19 @@
       "description": "При наличии проектной документации указывается в соответствии с ней"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://localhost:4000/location/ru/address",
       "title": "Адрес (местоположение) объекта адресации"
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

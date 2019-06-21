@@ -18,27 +18,27 @@
   ],
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
       "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
     },
     "address_with_map": {
       "title": "Адрес предполагаемого места размещения проецируемого изображения",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "address_with_map_1": {
       "title": "Адрес предполагаемого места установки проекционного оборудования",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "type": {
@@ -48,26 +48,26 @@
     },
     "photo": {
       "description": "Прикрепляются фотографии предполагаемого места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, выполненные не более чем за один месяц до обращения за получением мун.услуги (фотографии должны давать полное представление о зданиях, сооружениях, в том числе о месте их расположений в градостроительной ситуации). Фотографии должны быть цветные, четкие, выполненные в светлое время суток",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото  ситуации"
     },
     "photomontage": {
       "description": "Прикрепляется файл фотомонтажа - графическая врисовка проецируемого изображения в месте предполагаемого размещения в существующую ситуацию (выполняется в виде компьютерной врисовки проецируемого изображения на фото с соблюдением пропорций размещаемого проецируемого изображения)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотомонтаж"
     },
     "topography_of_networks": {
       "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, на зданиях, сооружениях",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/topography_of_networks",
       "title": "Топографический план местности"
     },
     "graphic_image_of_structure": {
       "description": "Прикрепляется скан чертежа фасада здания, сооружения в ортогональной проекции, на котором предполагается размещение рекламной конструкции (проецируемого изображения), выполненной в масштабе, с указанием точного места размещения рекламной конструкции. Рекомендуемые масштабы: М 1:100, М 1:150, М 1:200, М1:250 (допускается уменьшение масштаба при размещении рекламных конструкций на крупногабаритных зданиях, сооружениях). На чертеже необходимо указать:-высотные отметки здания, сооружения;-высотные отметки, определяющие место размещения рекламной конструкции (проецируемого изображения) на фасаде;-габаритные размеры рекламной конструкции (проецируемого изображения), м;-расстояние от рекламной конструкции (проецируемого изображения) до границ фасада.",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Графическое изображение конструкции"
     },
     "constructive_images": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Конструктивные изображения",
       "description": "Прикрепляется скан, содержащий чертежи проекционного оборудования, его краткое описание"
     },
@@ -82,11 +82,11 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/organization_or_natural_person",
       "title": "Данные о собственнике  имущества, к которому присоединяется рекламная конструкция (проецируемое изображение)"
     },
     "written_consent_of_owners": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное согласие собственников",
       "description": "Прикрепляется скан протокола общего собрания собственников помещений в многоквартирном доме с приложением решений собственников о заключении договора на установку и эксплуатацию рекламной конструкции и об определении лиц, которые от имени собственников помещений в многоквартирном доме уполномочены на заключение договора на установку и эксплуатацию рекламной конструкции на условиях, определенных решением общего собрания"
     },
@@ -107,56 +107,56 @@
         },
         "document": {
           "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         },
         "payment_document": {
           "title": "Платежный документ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
           "description": "Прикрепляется скан платежного документа"
         }
       }
     },
     "situational_plan": {
       "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Ситуационный план"
     },
     "property_owner_1": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/organization_or_natural_person",
       "title": "Данные о собственнике  имущества, к которому присоединяется рекламная конструкция (проекционное оборудование)"
     },
     "owners_consent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное согласие собственника (проецируемое изображение)",
       "description": "Прикрепляется скан подтверждения в письменной форме согласия собственника или иного законного владельца  соответствующего недвижимого имущества на присоединение к этому имуществу рекламной конструкции (проецируемого изображения). В письменном согласии должны быть указаны сведения о документе, подтверждающем право собственности на недвижимое имущество (сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер)."
     },
     "owners_consent_1": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное согласие собственника (проекционного оборудования)",
       "description": "Прикрепляется скан подтверждения в письменной форме согласия собственника или иного законного владельца  соответствующего недвижимого имущества на присоединение к этому имуществу рекламной конструкции (проекционного оборудования). В письменном согласии должны быть указаны сведения о документе, подтверждающем право собственности на недвижимое имущество (сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер)."
     },
     "installation_and_operation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)",
       "description": "Прикрепляется отсканированный оригинал договора на установку и эксплуатацию рекламной конструкции (проецируемого изображения) или копия, заверенная собственником или иным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
     "installation_and_operation_document_1": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции (проекционного оборудования)",
       "description": "Прикрепляется отсканированный оригинал договора на установку и эксплуатацию рекламной конструкции  (проекционного оборудования) или копия, заверенная собственником или иным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
     "trust_management_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Договор доверительного управления",
       "description": "Прикрепляется отсканированная копия договора доверительного управления. Копия указанного договора должна быть заверена собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

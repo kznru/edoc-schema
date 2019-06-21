@@ -1,19 +1,19 @@
 {
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "culture_object_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/culture_object_name"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://localhost:4000/location/ru/address",
       "title": "Адрес объекта культурного наследия"
     },
     "project_documentation_info": {
@@ -61,15 +61,15 @@
       }
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

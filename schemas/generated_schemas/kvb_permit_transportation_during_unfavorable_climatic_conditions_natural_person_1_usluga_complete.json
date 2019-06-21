@@ -12,7 +12,7 @@
   ],
   "properties": {
     "transportation_type": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/transportation_type"
     },
     "year": {
       "type": "number",
@@ -31,23 +31,23 @@
           "type": "string"
         },
         "transportation_time": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/time_limitation",
           "title": "Сроки перевозки"
         }
       }
     },
     "vehicle_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_info"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/vehicle_info"
     },
     "cargo_parameters": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cargo_parameters"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/cargo_parameters"
     },
     "vehicle_parameters": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_parameters"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/vehicle_parameters"
     },
     "allowed_by": {
       "title": "Разрешение выдано (наименование уполномоченного органа)",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+      "$ref": "http://localhost:4000/organization/ru/organization"
     },
     "escort_types": {
       "title": "Вид сопровождения",
@@ -66,7 +66,7 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "$ref": "http://localhost:4000/organization/ru/organization",
             "title": "Владелец"
           },
           "outgoing_number": {
@@ -97,7 +97,7 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "$ref": "http://localhost:4000/organization/ru/organization",
             "title": "Владелец"
           },
           "date": {
@@ -116,7 +116,7 @@
         "type": "object",
         "properties": {
           "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+            "$ref": "http://localhost:4000/organization/ru/organization",
             "title": "Грузоотправитель"
           },
           "date": {
@@ -132,18 +132,18 @@
       "title": "Особые отметки контролирующих органов"
     },
     "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
     },
     "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Файлы для заявителя"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
   },

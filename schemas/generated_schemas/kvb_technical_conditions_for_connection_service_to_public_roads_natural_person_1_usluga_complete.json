@@ -12,36 +12,36 @@
       "description": "Наименование объекта, планируемого присоединить объект дорожного сервиса к автомобильным дорогам общего пользования местного значения города Казани"
     },
     "object_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "title": "Адрес объекта"
     },
     "object_area": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
       "title": "Площадь объекта"
     },
     "conditions": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
       "title": "Условия присоединения",
       "description": "Условия на присоединение объекта дорожного сервиса к автомобильным дорогам общего пользования местного значения города Казани"
     },
     "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Съемка в масштабе 1:500",
       "description": "Съемка в масштабе 1:500 с указанием предполагаемого места присоединения (при необходимости)"
     },
     "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
     },
     "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Файлы для заявителя"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
   },

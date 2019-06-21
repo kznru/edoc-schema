@@ -10,7 +10,7 @@
   ],
   "properties": {
     "registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "kvb_excavation_orders_emergency_1"
       },
@@ -18,15 +18,15 @@
       "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "end_date": {
@@ -36,24 +36,24 @@
       "description": "Укажите новую дату окончания работ"
     },
     "images_after": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фотографии места производства работ, подтверждающие частичное восстановление наружного благоустройства"
     },
     "certificate_of_acceptance_intermediate": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт промежуточной приёмки"
     },
     "certificate_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Заключение специализированной лаборатории о контроле качества уплотнения восстановленного дорожного покрытия (в случае производства работ на проезжей части)"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }

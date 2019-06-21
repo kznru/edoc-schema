@@ -19,22 +19,22 @@
   ],
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
       "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
     },
     "address_with_map": {
       "title": "Адрес предполагаемого места установки",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "type": {
@@ -49,32 +49,32 @@
       "title": "Тип рекламной конструкции"
     },
     "photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото  ситуации",
       "description": "Прикрепляется фотография предполагаемого места размещения рекламной конструкции, выполненная не более чем за один месяц до обращения за получением мун.услуги (фотография должна давать полное представление о здании, сооружении, в том числе о месте его расположения в градостроительной ситуации). Фотография должна быть цветная, четкая, выполненная в светлое время суток."
     },
     "photomontage": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотомонтаж",
       "description": "Прикрепляется файл фотомонтажа - графическая врисовка рекламной конструкции в месте предполагаемого размещения в существующую ситуацию (выполняется в виде компьютерной врисовки рекламной конструкции на фото с соблюдением пропорций размещаемой рекламной конструкции, с указанием места расположения маркировки)"
     },
     "situational_plan": {
       "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
       "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции на здании, сооружении",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/topography_of_networks",
       "title": "Топографический план местности"
     },
     "graphic_image_of_structure": {
       "description": "Прикрепляется скан чертежа фасада здания, сооружения в ортогональной проекции, на котором предполагается размещение рекламной конструкции, выполненной в масштабе, с указанием точного места размещения рекламной конструкции. Рекомендуемые масштабы: М 1:100, М 1:150, М 1:200, М1:250 (допускается уменьшение масштаба при размещении рекламных конструкций на крупногабаритных зданиях, сооружениях). На чертеже необходимо указать: -высотные отметки здания, сооружения; -высотные отметки, определяющие место размещения рекламной конструкции на фасаде; -габаритные размеры рекламной конструкции, м; -расстояние от рекламной конструкции до границ фасада; -месторасположение маркировки. Чертеж маркировки необходимо выполнить с соблюдением пропорций; указанием ее габаритных размеров, используемых материалов, а также необходимой информации (владелец рекламной конструкции, контактный телефон, номер разрешения на установку и эксплуатацию рекламной конструкции). Для крышной установки маркировка не требуется",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Графическое изображение конструкции"
     },
     "constructive_images": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Конструктивные изображения",
       "description": "Прикрепляется скан, содержащий чертежи рекламной конструкции в разрезе, выполненные с соблюдением пропорций, изображение конструктивных элементов крепления рекламной конструкции с указанием размеров и описанием использованных материалов, методов монтажа, характера подсветки"
     },
@@ -89,17 +89,17 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "written_consent_of_owners": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное согласие собственников",
       "description": "Прикрепляется скан протокола общего собрания собственников помещений в многоквартирном доме с приложением решений собственников о заключении договора на установку и эксплуатацию рекламной конструкции и об определении лиц, которые от имени собственников помещений в многоквартирном доме уполномочены на заключение договора на установку и эксплуатацию рекламной конструкции на условиях, определенных решением общего собрания"
     },
     "notification_confirmation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Документ, подтверждающий уведомление УК, правление ТСЖ, ЖК, ЖСК, иного СПК,  а при непосредственном способе управления орган государственного жилищного надзора",
       "description": "Прикрепляется скан документа, подтверждающего уведомление УК, правление ТСЖ, ЖК, ЖСК, иного ПСК, а при непосредственном способе управления орган государственного жилищного надзора"
     },
     "installation_and_operation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора на установку и экусплуатацию рекламной конструкции или копия, заверенная собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
@@ -120,22 +120,22 @@
         },
         "document": {
           "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         },
         "payment_document": {
           "title": "Платежный документ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
           "description": "Прикрепляется скан платежного документа"
         }
       }
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

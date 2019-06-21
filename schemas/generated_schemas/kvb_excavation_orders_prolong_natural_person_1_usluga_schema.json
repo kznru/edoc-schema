@@ -7,7 +7,7 @@
   ],
   "properties": {
     "registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "kvb_excavation_orders_1"
       },
@@ -16,7 +16,7 @@
     },
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+      "$ref": "http://localhost:4000/person/ru/agent"
     },
     "end_date": {
       "type": "string",
@@ -29,7 +29,7 @@
       "title": "Причина продления",
       "properties": {
         "files": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Письмо с объяснением причин продления сроков ордера"
         },
         "reason": {
@@ -39,22 +39,22 @@
       }
     },
     "operating_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ",
       "description": "График невыполненных работ на объекте на новый период"
     },
     "drawing": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Рабочий чертеж на проводимые работы",
       "description": "С указанием выполненных и незавершенных работ"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
     }

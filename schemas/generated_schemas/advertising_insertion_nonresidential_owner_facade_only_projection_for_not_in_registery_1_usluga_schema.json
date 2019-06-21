@@ -20,27 +20,27 @@
   ],
   "properties": {
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://localhost:4000/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
       "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
     },
     "address_with_map": {
       "title": "Адрес предполагаемого места места размещения проецируемого изображения",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места размещения проецируемого изображения: 1) район; 2) улица; 3) дом, корпус."
     },
     "address_with_map_for_projection_equipment": {
       "title": "Адрес предполагаемого места установки проекционного оборудования",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://localhost:4000/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки проекционного оборудования: 1) район; 2) улица; 3) дом, корпус."
     },
     "type": {
@@ -50,32 +50,32 @@
     },
     "photo": {
       "description": "Прикрепляются фотографии предполагаемого места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, выполненные не более чем за один месяц до обращения за получением мун.услуги (фотографии должны давать полное представление о зданиях, сооружениях, в том числе о месте их расположений в градостроительной ситуации). Фотографии должны быть цветные, четкие, выполненные в светлое время суток",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото  ситуации"
     },
     "photomontage": {
       "description": "Прикрепляется файл фотомонтажа - графическая врисовка проецируемого изображения в месте предполагаемого размещения в существующую ситуацию (выполняется в виде компьютерной врисовки проецируемого изображения на фото с соблюдением пропорций размещаемого проецируемого изображения)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотомонтаж"
     },
     "situational_plan": {
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
       "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, на зданиях, сооружениях.",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/topography_of_networks",
       "title": "Топографический план местности"
     },
     "graphic_image_of_structure": {
       "description": "Прикрепляется скан чертежа фасада здания, сооружения в ортогональной проекции, на котором предполагается размещение рекламной конструкции (проецируемого изображения), выполненной в масштабе, с указанием точного места размещения рекламной конструкции. Рекомендуемые масштабы: М 1:100, М 1:150, М 1:200, М1:250 (допускается уменьшение масштаба при размещении рекламных конструкций на крупногабаритных зданиях, сооружениях). На чертеже необходимо указать:-высотные отметки здания, сооружения;-высотные отметки, определяющие место размещения рекламной конструкции (проецируемого изображения) на фасаде;-габаритные размеры рекламной конструкции (проецируемого изображения), м;-расстояние от рекламной конструкции (проецируемого изображения) до границ фасада.",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Графическое изображение конструкции"
     },
     "constructive_images": {
       "description": "Прикрепляется скан, содержащий чертежи проекционного оборудования, его краткое описание",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Конструктивные изображения"
     },
     "field_size": {
@@ -90,16 +90,16 @@
     },
     "property_owner": {
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/organization_or_natural_person"
     },
     "title_document_for_property": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
     },
     "permission_period": {
       "title": "Срок действия разрешения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/time_limitation"
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",
@@ -118,22 +118,22 @@
         },
         "document": {
           "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         },
         "payment_document": {
           "title": "Платежный документ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
           "description": "Прикрепляется скан платежного документа"
         }
       }
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -19,7 +19,7 @@
       "title": "Наименование"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://localhost:4000/location/ru/address",
       "title": "Адрес"
     },
     "protection_document": {
@@ -31,11 +31,11 @@
       "title": "Документ о границах"
     },
     "photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотография"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Приложения"
     }
   },

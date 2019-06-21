@@ -2,15 +2,15 @@
   "properties": {
     "agent": {
       "title": "Собственник",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+      "$ref": "http://localhost:4000/person/ru/agent"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
       "title": "Площадь"
     },
     "building_object": {
@@ -19,14 +19,14 @@
       "description": "В случае строительства объектов жилищного строительства указывать этажность"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

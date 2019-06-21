@@ -9,7 +9,7 @@
       "title": "Данные из услуги",
       "properties": {
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://localhost:4000/location/ru/address_with_map"
         }
       }
     },
@@ -162,7 +162,7 @@
           "title": "Сведения о координатах характерных точек контура объекта недвижимости"
         },
         "location_scheme_of_property_on_land": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
         },
         "balance_cost": {
@@ -262,11 +262,11 @@
           "title": "Операция движения"
         },
         "tree_structure": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Древовидная структура объекта"
         },
         "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Фото объекта"
         },
         "connections": {
@@ -282,7 +282,7 @@
           "title": "Номера помещений"
         },
         "documents": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Документы объекта"
         },
         "object_is_transferred_to_operational_managment": {
@@ -328,7 +328,7 @@
       "title": "Запрос на сведения об имуществе (фото и сведения об объекте, отдел контроля)",
       "properties": {
         "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Фото объекта"
         },
         "examination": {
@@ -368,7 +368,7 @@
           "title": "Результат проверки"
         },
         "tech_doc": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Копии технической документации в электронном виде"
         },
         "is_planned_to_produce_tech_doc": {
@@ -508,7 +508,7 @@
           "title": "Операция движения"
         },
         "tree_structure": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Древовидная структура объекта"
         },
         "connections": {
@@ -520,7 +520,7 @@
           "title": "Номера помещений"
         },
         "documents": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Документы объекта"
         },
         "managment": {
@@ -604,7 +604,7 @@
           "title": "Правообладатель (правообладатели)"
         },
         "location_scheme_of_property_on_land": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
         },
         "balance_cost": {

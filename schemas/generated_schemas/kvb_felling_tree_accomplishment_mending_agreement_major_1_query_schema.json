@@ -5,10 +5,10 @@
   ],
   "properties": {
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
     },
     "address_comments": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+      "$ref": "http://localhost:4000/location/ru/address_comments"
     },
     "agent_mobile": {
       "type": "string",

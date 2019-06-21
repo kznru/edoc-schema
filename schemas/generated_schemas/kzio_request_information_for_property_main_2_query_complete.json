@@ -149,7 +149,7 @@
       "title": "Сведения о координатах характерных точек контура объекта недвижимости"
     },
     "location_scheme_of_property_on_land": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
     },
     "balance_cost": {
@@ -183,7 +183,7 @@
     "comments": {
       "type": "string",
       "title": "Комментарии",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments"
     },
     "registry_number": {
       "type": "string",
@@ -250,11 +250,11 @@
       "title": "Операция движения"
     },
     "tree_structure": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Древовидная структура объекта"
     },
     "photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фото объекта"
     },
     "connections": {
@@ -270,7 +270,7 @@
       "title": "Номера помещений"
     },
     "documents": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Документы объекта"
     },
     "object_is_transferred_to_operational_managment": {
@@ -354,7 +354,7 @@
       "title": "Выписка из ЕГРН"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
   },

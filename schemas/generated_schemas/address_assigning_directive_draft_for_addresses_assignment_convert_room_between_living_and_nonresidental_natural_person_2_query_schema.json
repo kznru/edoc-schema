@@ -1,18 +1,18 @@
 {
   "properties": {
     "identification_data_of_rooms": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/identification_data_of_rooms",
       "title": "Данные, идентифицирующие помещение"
     },
     "technical_plans": {
       "title": "Технический план помещения",
       "type": "array",
       "items": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
+        "$ref": "http://localhost:4000/document/ru/uslugi/definitions/technical_plan_of_room"
       }
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     }
   },

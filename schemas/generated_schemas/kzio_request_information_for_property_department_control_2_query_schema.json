@@ -9,7 +9,7 @@
       "title": "Данные из услуги",
       "properties": {
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://localhost:4000/location/ru/address_with_map"
         }
       }
     },
@@ -18,7 +18,7 @@
       "title": "Данные из запроса",
       "properties": {
         "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Фото объекта"
         },
         "examination": {
@@ -58,7 +58,7 @@
           "title": "Результат проверки"
         },
         "tech_doc": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Копии технической документации в электронном виде"
         },
         "is_planned_to_produce_tech_doc": {

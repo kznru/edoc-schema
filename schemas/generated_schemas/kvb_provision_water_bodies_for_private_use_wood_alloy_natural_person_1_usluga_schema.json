@@ -1,19 +1,19 @@
 {
   "properties": {
     "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "$ref": "http://localhost:4000/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "organization_license": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное решение организации, которая владеет на праве собственности или ином законном основании гидроэнергетическим оборудованием (гидротурбиной) эксплуатируемого (строящегося) гидроэнергетического объекта либо имеет проектную документацию на проектируемый гидроэнергетический объект, о согласовании осуществления водопользования в охранной зоне гидроэнергетического объекта"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "water_body_name": {
@@ -21,18 +21,18 @@
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://localhost:4000/location/ru/address_with_map"
     },
     "usage_time": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/time_limitation",
       "title": "Сроки водопользования"
     },
     "events_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Информация о намечаемых заявителем водохозяйственных мероприятиях и мероприятиях по охране водного объекта с указанием размера и источника средств, необходимых для их реализации"
     },
     "equipment_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
     },
     "water_body_mapping": {
@@ -40,20 +40,20 @@
       "type": "object",
       "properties": {
         "note": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
           "title": "Пояснительная записка"
         },
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://localhost:4000/location/ru/address_with_map"
         }
       }
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

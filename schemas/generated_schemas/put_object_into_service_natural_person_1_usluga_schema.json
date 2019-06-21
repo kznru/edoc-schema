@@ -4,31 +4,31 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+      "$ref": "http://localhost:4000/person/ru/agent"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address",
+      "$ref": "http://localhost:4000/schemas/location/ru/address",
       "title": "Адрес объекта"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка"
     },
     "building_object_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/building_object_name",
       "title": "Наименование объекта капитального строительства",
       "description": "Наименование объекта капитального строительства в соответствии с проектной документацией"
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   }

@@ -3,17 +3,17 @@
     "documents": {
       "properties": {
         "sketch_proposal": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Эскизное предложение",
           "description": "Утвержденное заявителем эскизное предложение, подготовленное и оформленное в соответствии с установленными требованиями (приложение №2 к Регламенту муниципальной услуги) в двух экземплярах на бумажном носителе, или их скан-копии (при заполнении электронной формы)"
         },
         "identity_document": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Документ удостоверяющий личность",
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         },
         "letter_of_attorney": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
         }
@@ -38,7 +38,7 @@
       "minItems": 1
     },
     "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
     },
     "application_missings": {
       "title": "Недостатки в заявлении",
@@ -63,11 +63,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
