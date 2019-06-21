@@ -5,23 +5,23 @@
   ],
   "properties": {
     "registry_item": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/registry_signboards",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
       "title": "Запись о проекте размещения СНИ для исключения"
     },
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник конструкции"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent_optional",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
       "title": "Представитель"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

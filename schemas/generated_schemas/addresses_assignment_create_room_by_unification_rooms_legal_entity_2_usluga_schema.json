@@ -1,7 +1,7 @@
 {
   "properties": {
     "identification_data_of_rooms": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
       "title": "Исходные помещения"
     },
     "technical_plans": {
@@ -12,32 +12,32 @@
 
       ],
       "items": {
-        "$ref": "http://localhost:4000/document/ru/uslugi/definitions/technical_plan_of_room"
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_room"
       }
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

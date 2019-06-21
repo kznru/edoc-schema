@@ -6,35 +6,35 @@
       "title": "Номер муниципальной услуги"
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель (ЮЛ, ИП)"
     },
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель (физ. лицо)"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Описание"
     },
     "images_before": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/images",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото до выполнения работ"
     },
     "images_intermediate": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/images",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото при продлении работ"
     },
     "images_after": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/images",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
       "title": "Фото после выполнения работ"
     },
     "begin_date": {
@@ -48,7 +48,7 @@
       "title": "Дата окончания работ"
     },
     "contractor_organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
     "contractor_responsible": {
@@ -56,11 +56,11 @@
       "title": "Ответственный производитель работ со стороны подрядчика",
       "minItems": 1,
       "items": {
-        "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
       }
     },
     "subcontractor_organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Субподрядчик"
     },
     "subcontractor_responsible": {
@@ -68,24 +68,24 @@
       "title": "Ответственный производитель работ со стороны субподрядчика",
       "minItems": 1,
       "items": {
-        "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
       }
     },
     "order_of_responsible_in_place": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном на объекте"
     },
     "order_of_responsible_for_restore": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном за благоустройство",
       "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "objects_of_work": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
       "title": "Разрешённые работы"
     },
     "objects_of_work_comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work_comments"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "area_of_damage_to_road": {
       "type": "string",
@@ -238,11 +238,11 @@
           "uniqueItems": true
         },
         "work_directions_comments": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/work_directions_comments",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_comments",
           "title": "Дополнительные требования к работам"
         },
         "response_text": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
           "title": "Информация для заявителя"
         }
       }

@@ -1,18 +1,18 @@
 {
   "properties": {
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Адрес объекта"
     },
     "technical_plans": {
       "title": "Технический план здания",
       "type": "array",
       "items": {
-        "$ref": "http://localhost:4000/document/ru/uslugi/definitions/technical_plan_of_building"
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_building"
       }
     },
     "extracts_from_city_property_registry": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/extracts_from_city_property_registry",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extracts_from_city_property_registry",
       "title": "Выписки из реестра собственности города"
     }
   },

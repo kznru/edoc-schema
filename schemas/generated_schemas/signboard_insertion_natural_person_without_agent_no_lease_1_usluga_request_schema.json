@@ -6,25 +6,25 @@
   ],
   "properties": {
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map_and_comments",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
       "title": "Адрес размещения (ситуационный план)",
       "description": "Ситуационный план проектируемого места размещения СНИ, выполненный согласно требованиям, изложенным в Приложении №2 к Регламенту муниципальной услуги."
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер"
     },
     "agent": {
       "title": "Собственник конструкции",
-      "$ref": "http://localhost:4000/person/ru/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "text": {
       "type": "string",
       "title": "Текст вывески"
     },
     "planeta_number": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
     "image_constructions": {
       "type": "array",
@@ -37,14 +37,14 @@
         ],
         "properties": {
           "contruction_type": {
-            "$ref": "http://localhost:4000/document/ru/uslugi/definitions/environmental_construction_type",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/environmental_construction_type",
             "title": "Тип конструкции"
           }
         }
       }
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

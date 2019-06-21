@@ -2,18 +2,18 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://localhost:4000/person/ru/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "real_estate_infos": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/real_estate_infos_without_technical_plan",
       "title": "Данные, идентифицирующие объекты недвижимости (земельные участки)"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

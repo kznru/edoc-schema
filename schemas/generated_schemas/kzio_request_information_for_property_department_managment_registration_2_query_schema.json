@@ -9,7 +9,7 @@
       "title": "Данные из услуги",
       "properties": {
         "address_with_map": {
-          "$ref": "http://localhost:4000/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         }
       }
     },
@@ -134,7 +134,7 @@
           "title": "Операция движения"
         },
         "tree_structure": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Древовидная структура объекта"
         },
         "connections": {
@@ -146,7 +146,7 @@
           "title": "Номера помещений"
         },
         "documents": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Документы объекта"
         },
         "managment": {

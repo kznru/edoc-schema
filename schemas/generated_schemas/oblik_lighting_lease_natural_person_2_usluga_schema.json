@@ -7,22 +7,22 @@
   ],
   "properties": {
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Заявитель"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
     "lease_contract": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/lease_contracts"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },
     "explanatory_note": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/explanatory_note"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
     "graphic_part": {
       "type": "object",
@@ -48,7 +48,7 @@
               },
               "sketch": {
                 "title": "Эскизное предложение",
-                "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
                 "description": "Эскизное предложение"
               },
               "description": {
@@ -68,30 +68,30 @@
         },
         "photo": {
           "title": "Фото исходной ситуации",
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         },
         "sketch": {
           "title": "Эскизное предложение",
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
           "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
         },
         "topographic_plan": {
           "title": "Топографический план",
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         },
         "light_technical_calculation": {
           "title": "Светотехнический расчет",
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
           "description": "Обоснование используемого оборудования"
         }
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

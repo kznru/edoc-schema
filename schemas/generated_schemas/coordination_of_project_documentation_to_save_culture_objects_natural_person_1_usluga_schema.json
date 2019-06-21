@@ -2,13 +2,13 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://localhost:4000/person/ru/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "culture_object_name": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/culture_object_name"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
     },
     "address": {
-      "$ref": "http://localhost:4000/location/ru/address",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес объекта культурного наследия"
     },
     "project_documentation_info": {
@@ -56,11 +56,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

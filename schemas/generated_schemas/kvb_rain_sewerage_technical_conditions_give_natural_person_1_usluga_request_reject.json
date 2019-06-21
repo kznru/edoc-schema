@@ -3,36 +3,36 @@
     "documents": {
       "properties": {
         "calculation_of_surface_runoff": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Рассчёт поверхностных стоков"
         },
         "image_topographic": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Топосъёмка (съёмка текущих изменений)"
         },
         "situational_plan": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Cитуационный план"
         },
         "technical_parameters": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Информация об объекте (в соответствии с эскизным проектом)"
         },
         "letter_of_attorney": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
         },
         "technical_conditions": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Ранее выданные технические условия (при наличии)"
         },
         "application": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Заявление"
         },
         "identity_document": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Документ удостоверяющий личность",
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         }
@@ -57,7 +57,7 @@
       "minItems": 1
     },
     "response_text": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
     "application_missings": {
       "title": "Недостатки в заявлении",
@@ -82,11 +82,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

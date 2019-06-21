@@ -8,26 +8,26 @@
   ],
   "properties": {
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер в виде число:число:число..."
     },
     "planeta_number": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/planeta_number"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
     "graphic_part": {
       "type": "object",
@@ -53,12 +53,12 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации",
-                "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
                 "description": "Файлы"
               },
               "sketch": {
                 "title": "Эскизное предложение",
-                "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
                 "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
               }
             }
@@ -67,11 +67,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -11,46 +11,46 @@
   ],
   "properties": {
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта с четкими границами обследования территории",
       "description": "Адрес с обязательным указанием наименования улицы и номера здания, находящихся ближе всего к месту проведения работ"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
       "title": "Описание местоположения",
       "description": "В свободной форме указать размещение объекта обследования с обязательной привязкой к местности (например, «во дворе дома №... по ул. ...», или «в районе дома №... по ул.А.Кутуя», или «у подъезда №... дома №... по ул....» , или «с торца дома №... по ул....» и т.п.)"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number"
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "work_description": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/work_description",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
       "default": "Выдача акта обследования зелёных насаждений"
     },
     "land_owners_agreement": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Согласование с владельцами затрагиваемых территорий",
       "description": "Справка-согласование с УАиГ"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
       "description": "Здесь вы можете оставить комментарий, касающийся выполнения работ, в рамках оказания данной муниципальной услуги"
     }

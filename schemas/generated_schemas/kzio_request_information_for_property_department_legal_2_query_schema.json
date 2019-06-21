@@ -9,7 +9,7 @@
       "title": "Данные из услуги",
       "properties": {
         "address_with_map": {
-          "$ref": "http://localhost:4000/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         }
       }
     },

@@ -17,7 +17,7 @@
       "uniqueItems": true
     },
     "response_text": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
     "application_missings": {
       "title": "Недостатки в заявлении",
@@ -46,23 +46,23 @@
       "type": "object",
       "properties": {
         "identity_document": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Документ удостоверяющий личность",
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         },
         "letter_of_attorney": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
         }
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

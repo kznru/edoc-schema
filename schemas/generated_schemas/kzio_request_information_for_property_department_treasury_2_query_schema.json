@@ -9,7 +9,7 @@
       "title": "Данные из услуги",
       "properties": {
         "address_with_map": {
-          "$ref": "http://localhost:4000/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         }
       }
     },
@@ -54,7 +54,7 @@
           "title": "Правообладатель (правообладатели)"
         },
         "location_scheme_of_property_on_land": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
         },
         "balance_cost": {

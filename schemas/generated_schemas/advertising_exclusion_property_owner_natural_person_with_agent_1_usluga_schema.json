@@ -11,42 +11,42 @@
   "properties": {
     "registry_item": {
       "title": "Номер выданного разрешения",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/registry_field",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
       "config": {
         "registry_key": "advertising_1"
       }
     },
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник или иной законный владелец недвижимого имущества"
     },
     "address_with_map": {
       "title": "Адрес места жительства заявителя",
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "termination_of_contract_for_installation_and_operation": {
       "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется скан документа, подтверждающего прекращение договора на установку и эксплуатацию рекламной конструкции, заключенный между собственником или владельцем недвижимого имущества и владельцем рекламной конструкции. Копия документа должна быть заверена путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения.",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "title_document_for_property": {
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

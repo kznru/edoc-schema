@@ -1,15 +1,15 @@
 {
   "properties": {
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "object_name": {
@@ -22,44 +22,44 @@
       "description": "Жилой дом, административное здание, инженерные сети и т.д."
     },
     "time_limitation": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/time_limitation",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
       "title": "Сроки проведения работ"
     },
     "address_with_map": {
       "title": "Адрес (ближайший к месту работ)",
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "bank_details": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/bank_details"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
     "bank_address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Местонахождение банка"
     },
     "operating_schedule": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
       "description": "График по нормам продолжительности строительства. В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторного восстановления после просадок в теплое время года."
     },
     "genplan": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с обозначением участка закрытия объекта"
     },
     "ppr": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Проект производства работ (ППР) на соответствующие этапы",
       "description": "В случае если производятся земляные и строительные работы, прокладка и переустройство инженерных сетей и коммуникаций и работы, связанные с нарушением элементов наружного благоустройства"
     },
     "traffic_scheme": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Схема организации дорожного движения"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

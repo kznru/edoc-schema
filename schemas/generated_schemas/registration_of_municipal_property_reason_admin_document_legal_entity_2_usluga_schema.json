@@ -23,27 +23,27 @@
       }
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель",
       "description": "Сведения о заявителе"
     },
     "agent": {
       "description": "Представитель юридического лица",
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия пердставителя"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Адрес объекта (или ближайший)",
       "title": "Адрес, по которому находится муниципальное имущество"
     },
     "area": {
-      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь",
       "description": "Кв. м"
     },
@@ -57,7 +57,7 @@
       "description": "Краткое описание объекта, позволяющее определить его местонахождение (напр., этаж в помещении, или характеристики помещения)",
       "properties": {
         "floors_plan": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Копия технического паспорта, в случае отсутствия его графический план помещения",
           "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
         },
@@ -70,12 +70,12 @@
           "type": "string"
         },
         "cadastre_number": {
-          "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
           "title": "Кадастровый номер",
           "description": "Кадастровый номер земельного участка или кадастрового квартала"
         },
         "photo": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Фото объекта"
         },
         "other_info": {
@@ -85,11 +85,11 @@
       }
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -6,42 +6,42 @@
       "title": "Номер муниципальной услуги"
     },
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель юридическое лицо"
     },
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/natural_person",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
       "title": "Заявитель физическое лицо"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/schemas/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_comments",
       "title": "Дополнительное описание местоположения объекта"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
       "description": "Кадастровый номер земельного участка"
     },
     "land_area": {
-      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь земельного участка, кв.м",
       "description": "Указано в эскизном проекте"
     },
     "building_area": {
-      "$ref": "http://localhost:4000/schemas/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь застройки, кв.м",
       "description": "Указано в эскизном проекте"
     },
     "object_purpose": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/object_info",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_info",
       "title": "Назначение объекта"
     },
     "object_type": {
@@ -53,14 +53,14 @@
       "type": "string"
     },
     "calculation_of_surface_runoff": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
     },
     "image_before": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото исходной ситуации"
     },
     "image_topographic": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/image_topographic",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
       "title": "Топосъёмка",
       "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
     },
@@ -81,11 +81,11 @@
       }
     },
     "issue_date": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/timestamp",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/timestamp",
       "title": "Дата выдачи"
     },
     "response_text": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
       "title": "Информация для заявителя"
     },
     "data_of_references": {
@@ -105,7 +105,7 @@
           },
           "result_data": {
             "title": "Результат услуги по выдаче справки",
-            "$ref": "http://localhost:4000/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance"
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_data/kvb_rain_sewerage_technical_conditions_performance"
           }
         }
       }

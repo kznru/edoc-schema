@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "agent_position": {
@@ -10,29 +10,29 @@
       "title": "Должность представителя"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "organization": {
       "title": "Заявитель",
-      "$ref": "http://localhost:4000/organization/ru/organization"
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     },
     "organization_address": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Место нахождения компании"
     },
     "cadastre_number": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер земельного участка",
       "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
     "cadastre_number_quarter": {
-      "$ref": "http://localhost:4000/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер кадастрового квартала",
       "description": "Указание кадастрового номера кадастрового квартала"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес или местоположение земельного участка",
       "description": "Местоположение строящегося дома, согласно выписке на земельный участок"
     },
@@ -129,22 +129,22 @@
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (описание)"
     },
     "typical_architectural_solution_files": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (файлы)"
     },
     "schematic_depiction": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схематичное изображение планируемого к строительству или реконструкции объекта капитального строительства на земельном участке",
       "description": "Отсканированное в цвете схематичное изображение планируемого к реконструкции объекта капитального строительства на земельном участке"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Согласование с КАПО им.Горбунова, КВЗ, Средволгаводхоз, Электросетевая организация и т.д."
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

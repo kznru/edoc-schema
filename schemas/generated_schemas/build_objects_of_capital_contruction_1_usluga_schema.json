@@ -1,20 +1,20 @@
 {
   "properties": {
     "organization": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "building_object_name": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/building_object_name",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name",
       "description": "Наименование объекта строительства"
     },
     "address": {
-      "$ref": "http://localhost:4000/location/ru/address",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "description": "Адрес объекта",
       "title": "Адрес объекта"
     },
@@ -24,39 +24,39 @@
       "description": "Сроком на количество месяцев"
     },
     "contruction_base_document": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_with_name",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
       "title": "Строительство (реконструкция) будет осуществляться на основании документа"
     },
     "design_document_creator": {
-      "$ref": "http://localhost:4000/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Организация, разработавшая проектную документацию на строительство объекта"
     },
     "project_work_right_document": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_with_name",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name",
       "title": "Документ, предоставляющий право на выполнение проектных работ"
     },
     "positive_opinion_of_state_examination_document": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Положительное заключение государственной экспертизы"
     },
     "scheme_planning_organization_of_land_document": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_with_organization",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
       "title": "Схема планировочной организации земельного участка"
     },
     "design_and_estimate_document": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document_with_organization",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization",
       "title": "Проектно-сметная документация"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -5,11 +5,11 @@
   ],
   "properties": {
     "person_mobile": {
-      "$ref": "http://localhost:4000/person/ru/person_mobile",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile",
       "title": "Представитель"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта",
       "description": "Адрес объекта"
     },

@@ -1,10 +1,10 @@
 {
   "properties": {
     "address_number": {
-      "$ref": "http://localhost:4000/location/ru/address_number"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_number"
     },
     "previous_directive_requisites": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Реквизиты решения о присвоении адреса",
       "description": "Реквизиты решения о предыдущем присвоении адреса данному объекту адресации",
       "required": [
@@ -13,15 +13,15 @@
       ]
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     },
     "assignee": {
-      "$ref": "http://localhost:4000/person/ru/servant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/servant",
       "title": "Исполнитель"
     }
   },

@@ -57,57 +57,57 @@
     "documents": {
       "properties": {
         "addressing_object_rights": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Правоустанавливающие документы на объект адресации",
           "description": "Правоустанавливающие и (или) правоудостоверяющие документы на объект (объекты) адресации (если право на него (них) не зарегистрировано в Едином государственном реестре прав на недвижимое имущество и сделок с ним)"
         },
         "cadastral_passport_real_estate": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Кадастровые паспорта объектов недвижимости",
           "description": "Кадастровые паспорта объектов недвижимости, следствием преобразования которых является образование одного и более объектов адресации (в случае преобразования объектов недвижимости с образованием одного и более новых объектов адресации)"
         },
         "building_permit": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Разрешение на строительство объекта адресации",
           "description": "Разрешение на строительство объекта адресации (при присвоении адреса строящимся объектам адресации) и (или) разрешение на ввод объекта адресации в эксплуатацию (в соответствии со сроком его действия, указанным в разрешении на строительство, выданном МКУ \"Управление градостроительных разрешений Исполнительного комитета муниципального образования города Казани\")"
         },
         "layout_diagram": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Схема расположения объекта адресации на кадастровом плане",
           "description": "Схема расположения объекта адресации на кадастровом плане или кадастровой карте соответствующей территории (в случае присвоения земельному участку адреса), которую заказывают у кадастрового инженера, имеющего лицензию на соответствующий вид деятельности"
         },
         "cadastral_passport_addressing_object": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Кадастровый паспорт объекта адресации",
           "description": "Кадастровые паспорта объектов недвижимости, следствием преобразования которых является образование одного и более объектов адресации (в случае преобразования объектов недвижимости с образованием одного и более новых объектов адресации)"
         },
         "local_government_decision": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Решение о переводе жилого помещения в нежилое или нежилого в жилое",
           "description": "Решение органа местного самоуправления о переводе жилого помещения в нежилое помещение или нежилого помещения в жилое помещение (в случае присвоения помещению адреса, изменения или аннулирования такого адреса вследствие его перевода из жилого помещения в нежилое помещение или нежилого помещения в жилое помещение), которое выдается органами местного самоуправления, а именно постановление администрации района, где расположен объект присвоения"
         },
         "acceptance_commission_act": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Акт приемочной комиссии при изменении помещения с образованием новых объектов адресации",
           "description": "Акт приемочной комиссии при переустройстве и (или) перепланировке помещения, приводящих к образованию одного и более новых объектов адресации (в случае преобразования объектов недвижимости (помещений) с образованием одного и более новых объектов адресации), который находится в составе решения органа местного самоуправления, указанного в пункте 7"
         },
         "cadastral_statement_registry_withdrawing": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Кадастровая выписка об объекте недвижимости, который снят с учета",
           "description": "Кадастровая выписка об объекте недвижимости, который снят с учета (в случае аннулирования адреса объекта адресации по основаниям, указанным в подпункте 'а' пункта 14 Правил присвоения), запрашиваемая в Управлении Федеральной службы государственной регистрации, кадастра и картографии по Республике Татарстан"
         },
         "gkn_no_information_notification": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Уведомление об отсутствии запрашиваемых сведений по объекту адресации в ГКН",
           "description": "Уведомление об отсутствии в государственном кадастре недвижимости запрашиваемых сведений по объекту адресации (в случае аннулирования адреса объекта адресации по основаниям, указанным в подпункте 'б' пункта 14 Правил присвоения), предусмотренное в пункте 1.4 Регламента муниципальной услуги"
         },
         "identity_document": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Документ удостоверяющий личность",
           "description": "Копия документа, удостоверяющего личность заявителя, или его представителя, в случае если с заявлением обращается представитель заявителя"
         },
         "letter_of_attorney": {
-          "$ref": "http://localhost:4000/document/ru/uslugi/definitions/rejected_scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/rejected_scanned_document",
           "title": "Доверенность",
           "description": "Документ, подтверждающий полномочия представителя заявителя, в случае если с заявлением обращается представитель заявителя"
         }
@@ -132,14 +132,14 @@
       "minItems": 1
     },
     "response_text": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/response_text"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

@@ -15,15 +15,15 @@
   ],
   "properties": {
     "applicant": {
-      "$ref": "http://localhost:4000/person/ru/applicant",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://localhost:4000/person/ru/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
     "begin_date": {
@@ -37,11 +37,11 @@
       "title": "Дата окончания работ"
     },
     "address_with_map": {
-      "$ref": "http://localhost:4000/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (ближайший к месту работ)"
     },
     "address_comments": {
-      "$ref": "http://localhost:4000/location/ru/address_comments",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
       "title": "Уточнение адреса или места проведения работ"
     },
     "extra_addresses": {
@@ -49,15 +49,15 @@
       "title": "Дополнительные адреса",
       "minItems": 0,
       "items": {
-        "$ref": "http://localhost:4000/location/ru/address"
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
       }
     },
     "objects_of_work": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
       "title": "Разрешённые работы"
     },
     "objects_of_work_comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/objects_of_work_comments"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "area_of_damage_to_road": {
       "type": "string",
@@ -82,14 +82,14 @@
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
-          "$ref": "http://localhost:4000/organization/ru/organization",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
           "title": "Организация подрядчика"
         },
         "contractor_responsible": {
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
           "title": "Ответственный производитель работ со стороны подрядчика"
         }
@@ -104,70 +104,70 @@
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
-          "$ref": "http://localhost:4000/organization/ru/organization_optional",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
           "title": "Организация субподрядчика"
         },
         "subcontractor_responsible": {
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "http://localhost:4000/person/ru/person_mobile_optional"
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
           "title": "Ответственный производитель работ со стороны субподрядчика"
         }
       }
     },
     "images_before": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фотофиксация исходной ситуации"
     },
     "operating_schedule": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "График выполнения работ"
     },
     "topography_of_networks": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/topography_of_networks",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
       "description": "Топосъемка г.Казани (М 1:500) с обозначением инженерных сетей, заключение трасс инженерных коммуникаций (с печатью УАиГ) (если идет строительство, реконструкция, капитальный ремонт или демонтаж инженерных сетей)"
     },
     "topography_of_placements": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Топосъёмка мест установки"
     },
     "contract_for_order": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Договора подряда"
     },
     "certificate_sro": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/certificate_sro"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
     },
     "order_of_responsible_in_place": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном на объекте"
     },
     "order_of_responsible_for_restore": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Приказ об ответственном за благоустройство",
       "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "contract_for_restore": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Договор на восстановление благоустройства",
       "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)"
     },
     "warranty_restore": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/warranty_restore"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
     },
     "interested_party_list": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Заинтересованные стороны"
     },
     "traffic_scheme": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема дорожного движения",
       "description": "Схема организации дорожного движения транспортных средств и пешеходов на период производства работ,разработанная специализированной (проектной) организацией и согласованная с органом Исполнительного комитета г.Казани, уполномоченным на обеспечение содержания светофорных объектов автомобильных дорог общего пользования местного значения и на участие в разработке, утверждении и внедрении схемы организации дорожного движения г.Казани и уведомление с отметкой ОГИБДД Управления МВД России по г.Казани и схемой организации дорожного движения транспортных средств и пешеходов» (если работы ведутся на проезжей части итротуаре)"
     },
     "contract_for_qa": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Договор на проверку качества уплотнения дорожного покрытия",
       "description": "Договор, заключенный со специализированной лабораторией на проведение работ по контролю качества уплотнения восстановления дорожного покрытия и копия акта скрытых работ (если работы ведутся на проезжей части)"
     },
@@ -177,11 +177,11 @@
       "description": "Укажите номер распоряжения ЗРИК в случае, если проектом предусмотрено производство земляных работ со сносом зеленых насаждений"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },
