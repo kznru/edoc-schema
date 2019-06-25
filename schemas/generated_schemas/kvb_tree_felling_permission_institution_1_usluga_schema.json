@@ -5,6 +5,7 @@
     "letter_of_attorney",
     "land_documents",
     "land_survey",
+    "land_topographic_photography",
     "agent",
     "address_with_map",
     "address_comments",
@@ -49,10 +50,20 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Межевание земельного участка"
     },
+    "land_topographic_photography": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Топосъёмка участка",
+      "description": "Топосъёмка обследуемого участка с указанием зелёных насаждений, предназначенных на снос/обрезку"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
+    },
+    "emergency_plantations_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото аварийных насаждений",
+      "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
