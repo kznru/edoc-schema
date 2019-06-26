@@ -1,10 +1,6 @@
 {
-  "required": [],
+  "required": ["time_limitation"],
   "properties": {
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "object_name": {
       "title": "Наименование объекта",
       "type": "string"
