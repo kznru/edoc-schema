@@ -34,7 +34,8 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis"
+        "landscape_visual_analysis",
+        "photo"
       ],
       "properties": {
         "general_plan": {
@@ -53,7 +54,8 @@
         },
         "photo": {
           "title": "Фото исходной ситуации",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Фотофиксация существующего состояния объекта и его окружения"
         }
       }
     },

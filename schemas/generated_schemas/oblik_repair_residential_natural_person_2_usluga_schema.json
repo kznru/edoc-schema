@@ -37,6 +37,9 @@
           "title": "Фасады",
           "items": {
             "type": "object",
+            "required": [
+              "photo"
+            ],
             "properties": {
               "type": {
                 "type": "string",
@@ -63,6 +66,11 @@
               "color_description": {
                 "type": "string",
                 "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)"
+              },
+              "photo": {
+                "title": "Фото исходной ситуации",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "description": "Фотофиксация существующего состояния объекта и его окружения"
               }
             }
           }
