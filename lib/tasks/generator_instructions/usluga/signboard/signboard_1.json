@@ -97,6 +97,64 @@
                       "name": "signboard_insertion_natural_person_without_agent_separate_no_lease_1"
                     }
                   ]
+                },
+                {
+                  "name": "signboard_insertion_self_employed_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_self_employed_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_separate_no_lease_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "signboard_insertion_self_employed_without_agent_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_separate_no_lease_1"
+                    }
+                  ]
                 }
               ]
             },
@@ -115,6 +173,12 @@
                   "name": "signboard_exclusion_sni_owner_natural_person_without_agent_1"
                 },
                 {
+                  "name": "signboard_exclusion_sni_owner_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_self_employed_without_agent_1"
+                },
+                {
                   "name": "signboard_exclusion_sni_owner_not_portal_legal_entity_1"
                 },
                 {
@@ -122,6 +186,12 @@
                 },
                 {
                   "name": "signboard_exclusion_sni_owner_not_portal_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_self_employed_without_agent_1"
                 }
               ]
             },
@@ -139,6 +209,12 @@
                   "name": "signboard_exclusion_land_owner_natural_person_without_agent_1"
                 },
                 {
+                  "name": "signboard_exclusion_land_owner_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_self_employed_without_agent_1"
+                },
+                {
                   "name": "signboard_exclusion_land_owner_not_portal_legal_entity_1"
                 },
                 {
@@ -146,6 +222,12 @@
                 },
                 {
                   "name": "signboard_exclusion_land_owner_not_portal_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_self_employed_without_agent_1"
                 }
               ]
             }

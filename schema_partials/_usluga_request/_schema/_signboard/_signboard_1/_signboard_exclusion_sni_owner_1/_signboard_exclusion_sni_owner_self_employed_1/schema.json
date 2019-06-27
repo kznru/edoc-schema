@@ -1,0 +1,28 @@
+{
+  "required": [
+    "applicant",
+    "text",
+    "address_with_map"
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Собственник конструкции"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
+    "previous_registry_item": {
+      "type": "string",
+      "title": "Информация об исключаемом проекте размещения СНИ"
+    }
+  }
+}
