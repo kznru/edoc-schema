@@ -43,15 +43,15 @@
       "title": "Документы на земельный участок",
       "description": "Выписка из ЕГРН либо договор аренды"
     },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения",
-      "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
-    },
     "emergency_plantations_photos": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фото аварийных насаждений",
       "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
