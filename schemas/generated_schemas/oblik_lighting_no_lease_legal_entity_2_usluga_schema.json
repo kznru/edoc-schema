@@ -43,9 +43,6 @@
           "title": "Фасады",
           "items": {
             "type": "object",
-            "required": [
-              "photo"
-            ],
             "properties": {
               "type": {
                 "type": "string",
@@ -77,8 +74,7 @@
         },
         "photo": {
           "title": "Фото исходной ситуации",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Фотофиксация существующего состояния объекта и его окружения"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         },
         "sketch": {
           "title": "Эскизное предложение",
