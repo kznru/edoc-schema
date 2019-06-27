@@ -1,10 +1,6 @@
 {
-  "required": [],
+  "required": ["time_limitation"],
   "properties": {
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "object_name": {
       "title": "Наименование объекта",
       "type": "string"
@@ -21,13 +17,6 @@
     "address_with_map": {
       "title": "Адрес (ближайший к месту работ)",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-    },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
-    "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

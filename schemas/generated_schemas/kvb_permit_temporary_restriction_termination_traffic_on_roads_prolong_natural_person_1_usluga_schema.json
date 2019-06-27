@@ -16,8 +16,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+    "letter_of_attorney_optional": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность"
     },
     "object_name": {
@@ -36,13 +36,6 @@
     "address_with_map": {
       "title": "Адрес (ближайший к месту работ)",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-    },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
-    "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -68,7 +61,7 @@
     }
   },
   "required": [
-
+    "time_limitation"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

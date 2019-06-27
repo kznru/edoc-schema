@@ -4,7 +4,8 @@
     "cadastre_number",
     "letter_of_attorney",
     "land_documents",
-    "land_survey"
+    "land_survey",
+    "land_topographic_photography"
   ],
   "properties": {
     "organization": {
@@ -30,6 +31,11 @@
     "land_survey": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Межевание земельного участка"
+    },
+    "land_topographic_photography": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Топосъёмка участка",
+      "description": "Топосъёмка обследуемого участка с указанием зелёных насаждений, предназначенных на снос/обрезку"
     }
   }
 }

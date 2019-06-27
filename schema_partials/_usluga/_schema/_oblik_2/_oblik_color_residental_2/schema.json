@@ -12,7 +12,7 @@
     "graphic_part": {
       "type": "object",
       "title": "Графическая часть",
-      "required": [],
+      "required": ["photo"],
       "properties": {
         "facades": {
           "type": "array",
@@ -49,6 +49,11 @@
               }
             }
           }
+        },
+        "photo": {
+          "title": "Фото исходной ситуации",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Фотофиксация существующего состояния объекта и его окружения"
         }
       }
     }

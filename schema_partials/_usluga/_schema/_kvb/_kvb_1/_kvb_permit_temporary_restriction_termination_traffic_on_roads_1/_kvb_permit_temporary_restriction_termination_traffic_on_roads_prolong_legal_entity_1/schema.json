@@ -13,5 +13,16 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
     }
-  }
+  },
+  "letter_of_attorney": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+    "title": "Доверенность"
+  },
+    "bank_details": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
+    },
+    "bank_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
+    }
 }

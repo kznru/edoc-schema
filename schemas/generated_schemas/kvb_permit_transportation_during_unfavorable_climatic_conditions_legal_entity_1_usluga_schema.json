@@ -8,12 +8,20 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+    "bank_details": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
+    },
+    "bank_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
+    },
+    "letter_of_attorney_optional": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность"
     },
     "route": {
       "title": "Маршрут движения",
+      "description": "Необходимо указать адреса, через которые будет проходить маршрут движения транспортного средства",
       "type": "array",
       "minItems": 1,
       "items": {
@@ -48,13 +56,6 @@
       "type": "number",
       "title": "Предполагаемая максимальная скорость движения транспортного средства (автопоезда) (км/час)"
     },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
-    "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
-    },
     "vehicle_documents": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Документы транспортного средства, с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов",
@@ -79,7 +80,13 @@
     }
   },
   "required": [
-
+    "route",
+    "transportation_time",
+    "transportation_count",
+    "cargo_parameters",
+    "vehicle_info",
+    "vehicle_parameters",
+    "estimated_maximum_speed"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

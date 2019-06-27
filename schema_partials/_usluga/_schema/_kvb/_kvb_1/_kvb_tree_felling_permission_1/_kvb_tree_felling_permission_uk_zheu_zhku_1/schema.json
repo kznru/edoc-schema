@@ -2,7 +2,7 @@
   "required": [
     "organization",
     "letter_of_attorney",
-    "land_survey"
+    "contract_of_management_or_land_survey"
   ],
   "properties": {
     "organization": {
@@ -17,9 +17,9 @@
     "address_with_map": {},
     "address_comments": {},
     "work_description": {},
-    "land_survey": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Межевание земельного участка (договор управления, проект межевания)"
+    "contract_of_management_or_land_survey": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор управления или договор межевания территории многоквартирного дома"
     }
   }
 }
