@@ -21,6 +21,12 @@
                 },
                 {
                   "name": "oblik_lighting_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_lighting_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_lighting_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -36,6 +42,12 @@
                 },
                 {
                   "name": "oblik_lighting_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
@@ -53,6 +65,12 @@
             },
             {
               "name": "oblik_repair_residential_natural_person_with_agent_2"
+            },
+            {
+              "name": "oblik_repair_residential_self_employed_2"
+            },
+            {
+              "name": "oblik_repair_residential_self_employed_with_agent_2"
             }
           ]
         },
@@ -72,6 +90,12 @@
                 },
                 {
                   "name": "oblik_repair_nonresidential_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -87,6 +111,12 @@
                 },
                 {
                   "name": "oblik_repair_nonresidential_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
@@ -108,6 +138,12 @@
                 },
                 {
                   "name": "oblik_outdoor_media_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -123,6 +159,12 @@
                 },
                 {
                   "name": "oblik_outdoor_media_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
@@ -144,6 +186,12 @@
                 },
                 {
                   "name": "oblik_nonstationary_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -159,6 +207,12 @@
                 },
                 {
                   "name": "oblik_nonstationary_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
@@ -176,6 +230,12 @@
             },
             {
               "name": "oblik_color_residental_natural_person_with_agent_2"
+            },
+            {
+              "name": "oblik_color_residental_self_employed_2"
+            },
+            {
+              "name": "oblik_color_residental_self_employed_with_agent_2"
             }
           ]
         },
@@ -195,6 +255,12 @@
                 },
                 {
                   "name": "oblik_color_nonresidental_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -210,6 +276,12 @@
                 },
                 {
                   "name": "oblik_color_nonresidental_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
@@ -231,6 +303,12 @@
                 },
                 {
                   "name": "oblik_landscaping_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_landscaping_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_landscaping_lease_self_employed_with_agent_2"
                 }
               ]
             },
@@ -246,6 +324,12 @@
                 },
                 {
                   "name": "oblik_landscaping_no_lease_natural_person_with_agent_2"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_self_employed_2"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_self_employed_with_agent_2"
                 }
               ]
             }
