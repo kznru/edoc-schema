@@ -6,6 +6,8 @@ permalink: /generated_schemas/
 
 ### Оглавление
 
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани](#permission_to_transfer_residential_premises_and_back)
+
 [Выдача справки о выполнении работ по благоустройству и озеленению территории строящихся или вводимых в эксплуатацию объектов капитального строительства (реконструкции) в г.Казани](#kvb_certificate_of_capital_construction_gardening)
 
 [Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства](#kvb_excavation_orders)
@@ -171,6 +173,20 @@ permalink: /generated_schemas/
 [Выдача задания на проведение работ по сохранению объекта культурного наследия местного (муниципального) значения](#task_to_save_culture_objects_customer)
 
 [](#)
+
+### Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани {#permission_to_transfer_residential_premises_and_back}
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (ЮЛ, ИП), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
+
+-------------------------
 
 ### Выдача справки о выполнении работ по благоустройству и озеленению территории строящихся или вводимых в эксплуатацию объектов капитального строительства (реконструкции) в г.Казани {#kvb_certificate_of_capital_construction_gardening}
 

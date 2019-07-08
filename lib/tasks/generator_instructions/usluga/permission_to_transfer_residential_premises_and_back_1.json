@@ -1,0 +1,16 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "permission_to_transfer_residential_premises_and_back_1",
+      "virtual": true,
+      "keys": [
+        { "name": "permission_to_transfer_residential_premises_and_back_house_natural_person_1" },
+        { "name": "permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1" },
+        { "name": "permission_to_transfer_residential_premises_and_back_legal_entity_1" },
+        { "name": "permission_to_transfer_residential_premises_and_back_natural_person_1" },
+        { "name": "permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1" }
+      ]
+    }
+  ]
+}
