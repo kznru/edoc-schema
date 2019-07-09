@@ -3,54 +3,54 @@
   "properties": {
     "applicant": {
       "title": "Заявитель",
-      "$ref": "http://localhost:4000/person/ru/applicant"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
     "agent": {
       "title": "Представитель",
-      "$ref": "http://localhost:4000/person/ru/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "adres_prozhiwaniq": {
       "title": "Адрес проживания",
       "description": "Адрес местожительства",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/text"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
     },
     "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie": {
       "title": "Адрес, по которому находится переводимое помещение",
       "description": "Адрес с указанием города, улицы, номера дома, квартиры",
-      "$ref": "http://localhost:4000/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie": {
       "title": "Правоустанавливающие документы на переводимое помещение",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "vypiska_iz_domowoj_knigi_ob_otsutstwii_registracii_w_perewodimom_pomeschenii": {
       "title": "Выписка из домовой книги об отсутствии регистрации в переводимом помещении",
       "description": "Срок действия выписки действителен 30 дней с даты выдачи",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "tehnicheskij_pasport_perewodimogo_pomescheniq": {
       "title": "Технический паспорт переводимого помещения",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie": {
       "title": "Поэтажный план дома, в котором находится переводимое помещение",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq": {
       "title": "Проект переустройства и (или) перепланировки переводимого помещения",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome": {
       "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
       "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/files_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "attachments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     },
     "comments": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
   },

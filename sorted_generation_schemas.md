@@ -176,15 +176,19 @@ permalink: /generated_schemas/
 
 ### Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани {#permission_to_transfer_residential_premises_and_back}
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_1_usluga_schema.json)
+[Выдача разрешения на перевод нежилого помещения в жилое помещение (физ. лицо) (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_nonresidential_premises_and_back_natural_person_1_usluga_schema.json)
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1_usluga_schema.json)
+[Выдача разрешения на перевод нежилого помещения в жилое помещение (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_nonresidential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (ЮЛ, ИП), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_legal_entity_1_usluga_schema.json)
+[Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_1_usluga_schema.json)
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_1_usluga_schema.json)
+[Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1_usluga_schema.json)
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
+[Выдача разрешения на перевод жилого помещения в нежилое помещение (ЮЛ, ИП), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
 
 -------------------------
 

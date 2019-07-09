@@ -3,11 +3,13 @@
     "key": "permission_to_transfer_residential_premises_and_back",
     "name": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани",
     "passports": {
-      "permission_to_transfer_residential_premises_and_back_house_natural_person_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо)",
-      "permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в частном доме (физ. лицо с представителем)",
-      "permission_to_transfer_residential_premises_and_back_legal_entity_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (ЮЛ, ИП)",
-      "permission_to_transfer_residential_premises_and_back_natural_person_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо)",
-      "permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани (физ. лицо с представителем)"
+      "permission_to_transfer_nonresidential_premises_and_back_natural_person_1": "Выдача разрешения на перевод нежилого помещения в жилое помещение (физ. лицо) (физ. лицо)",
+      "permission_to_transfer_nonresidential_premises_and_back_natural_person_with_agent_1": "Выдача разрешения на перевод нежилого помещения в жилое помещение (физ. лицо с представителем)",
+      "permission_to_transfer_residential_premises_and_back_house_natural_person_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо)",
+      "permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо с представителем)",
+      "permission_to_transfer_residential_premises_and_back_legal_entity_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение (ЮЛ, ИП)",
+      "permission_to_transfer_residential_premises_and_back_natural_person_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо)",
+      "permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1": "Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо с представителем)"
     }
   },
   {
