@@ -2,32 +2,17 @@
   "type":"object",
   "required":[],
   "properties":{
-    "request_data": {
-      "type": "object",
-      "title": "Данные из услуги",
-      "properties": {
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-        }
-      }
+    "into_fixed_capital": {
+      "type": "string",
+      "title": "В уставной капитал"
     },
-    "query_data": {
-      "type": "object",
-      "title": "Данные из запроса",
-      "properties": {
-        "into_fixed_capital": {
-          "type": "string",
-          "title": "В уставной капитал"
-        },
-        "auction_status": {
-          "type": "string",
-          "title": "Объект выставлен на аукцион"
-        },
-        "privatization_forecast_plan": {
-          "type": "string",
-          "title": "Прогнозный план приватизации"
-        }
-      }
+    "auction_status": {
+      "type": "string",
+      "title": "Объект выставлен на аукцион"
+    },
+    "privatization_forecast_plan": {
+      "type": "string",
+      "title": "Прогнозный план приватизации"
     }
   }
 }

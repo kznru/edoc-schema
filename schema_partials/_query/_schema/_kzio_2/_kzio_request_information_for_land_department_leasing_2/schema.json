@@ -2,81 +2,66 @@
   "type":"object",
   "required":[],
   "properties":{
-    "request_data": {
-      "type": "object",
-      "title": "Данные из услуги",
-      "properties": {
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
-        }
-      }
+    "cadastre_number": {
+      "type": "string",
+      "title": "Кадастровый номер"
     },
-    "query_data": {
-      "type": "object",
-      "title": "Данные из запроса",
-      "properties": {
-        "cadastre_number": {
-          "type": "string",
-          "title": "Кадастровый номер"
-        },
-        "cadastre_number_quarter": {
-          "type": "string",
-          "title": "Номер кадастрового квартала"
-        },
-        "cadastre_number_assignment_date": {
-          "type": "string",
-          "title": "Дата присвоения кадастрового номера"
-        },
-        "address": {
-          "type": "string",
-          "title": "Адрес"
-        },
-        "area": {
-          "type": "string",
-          "title": "Площадь,м²"
-        },
-        "permitted_usage": {
-          "type": "string",
-          "title": "Виды разрешенного использования"
-        },
-        "encumbrance": {
-          "type": "string",
-          "title": "Обременение"
-        },
-        "act_status": {
-          "type": "string",
-          "title": "Статус (действует или нет)"
-        },
-        "regulation": {
-          "type": "string",
-          "title": "Постановление"
-        },
-        "regulation_date": {
-          "type": "string",
-          "title": "Дата постановления"
-        },
-        "contract_number": {
-          "type": "string",
-          "title": "Номер договора"
-        },
-        "contract_date": {
-          "type": "string",
-          "title": "Дата договора",
-          "format": "date"
-        },
-        "contract_state": {
-          "type": "string",
-          "title": "Расторгнут или действует договор"
-        },
-        "litigation_presence": {
-          "type": "string",
-          "title": "Наличие судебного спора"
-        },
-        "extra_comment": {
-          "type": "string",
-          "title": "Дополнительное поле (комментарии)"
-        }
-      }
+    "cadastre_number_quarter": {
+      "type": "string",
+      "title": "Номер кадастрового квартала"
+    },
+    "cadastre_number_assignment_date": {
+      "type": "string",
+      "title": "Дата присвоения кадастрового номера"
+    },
+    "address": {
+      "type": "string",
+      "title": "Адрес"
+    },
+    "area": {
+      "type": "string",
+      "title": "Площадь,м²"
+    },
+    "permitted_usage": {
+      "type": "string",
+      "title": "Виды разрешенного использования"
+    },
+    "encumbrance": {
+      "type": "string",
+      "title": "Обременение"
+    },
+    "act_status": {
+      "type": "string",
+      "title": "Статус (действует или нет)"
+    },
+    "regulation": {
+      "type": "string",
+      "title": "Постановление"
+    },
+    "regulation_date": {
+      "type": "string",
+      "title": "Дата постановления"
+    },
+    "contract_number": {
+      "type": "string",
+      "title": "Номер договора"
+    },
+    "contract_date": {
+      "type": "string",
+      "title": "Дата договора",
+      "format": "date"
+    },
+    "contract_state": {
+      "type": "string",
+      "title": "Расторгнут или действует договор"
+    },
+    "litigation_presence": {
+      "type": "string",
+      "title": "Наличие судебного спора"
+    },
+    "extra_comment": {
+      "type": "string",
+      "title": "Дополнительное поле (комментарии)"
     }
   }
 }
