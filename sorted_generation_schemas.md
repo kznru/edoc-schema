@@ -28,6 +28,10 @@ permalink: /generated_schemas/
 
 [Выдача разрешения на вырубку, кронирование, посадку и пересадку деревьев, кустарников, снос газона](#kvb_tree_felling_permission)
 
+[Выдача технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к](#kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service)
+
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к](#kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service)
+
 [Выдача разрешений на строительство, реконструкцию объектов капитального строительства](#build_objects_of_capital_contruction)
 
 [Выдача документа, подтверждающего проведение основных работ по строительству (реконструкции) объекта ИЖС, осуществляемому с привлечением средств материнского (семейного) капитала](#confirming_construction_work_of_individual_object_with_parent_capital)
@@ -427,6 +431,26 @@ permalink: /generated_schemas/
 [Разрешение на вырубку/кронирование/посадку (Администрации районов, Префектура «Старый город»), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_administration_1_usluga_schema.json)
 
 [Разрешение на вырубку/кронирование/посадку (Сетевые компании), версия #1](/schemas/generated_schemas/kvb_tree_felling_permission_kes_1_usluga_schema.json)
+
+-------------------------
+
+### Выдача технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к {#kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service}
+
+[Выдача технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_legal_entity_1_usluga_schema.json)
+
+[Выдача технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (физ. лицо), версия #1](/schemas/generated_schemas/kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_1_usluga_schema.json)
+
+[Выдача технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_with_agent_1_usluga_schema.json)
+
+-------------------------
+
+### Выдача справки о выполнении технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к {#kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service}
+
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service_legal_entity_1_usluga_schema.json)
+
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (физ. лицо), версия #1](/schemas/generated_schemas/kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_1_usluga_schema.json)
+
+[Выдача справки о выполнении технических условий на отвод ливневых и талых вод, выполнение работ по благоустройству территории строящихся объектов капитального строительства (реконструкции) и присоединение объектов дорожного сервиса к (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_with_agent_1_usluga_schema.json)
 
 -------------------------
 
