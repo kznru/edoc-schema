@@ -8,6 +8,37 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес (обязательно обведите область на карте) (из услуги)"
     },
+    "request_area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "title": "Площадь объекта (из услуги)"
+    },
+    "request_usage_kind": {
+      "title": "Вид использования (из услуги)",
+      "type": "string",
+      "enum": [
+        "Торговля",
+        "Бытовое обслуживание населения",
+        "Реализация лекартсвенных препаратов и изделий медицинского характера",
+        "Образование",
+        "Здравоохранение",
+        "Банковские услуги",
+        "Офис",
+        "Склад",
+        "Иное"
+      ]
+    },
+    "request_other_usage_kind": {
+      "title": "Иной вид использования (из услуги)",
+      "type": "string"
+    },
+    "request_floor_number": {
+      "type": "string",
+      "title": "Этаж (из услуги)"
+    },
+    "request_property_number": {
+      "title": "Номер помещения (из услуги)",
+      "type": "string"
+    },
     "request_cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер (из услуги)"
