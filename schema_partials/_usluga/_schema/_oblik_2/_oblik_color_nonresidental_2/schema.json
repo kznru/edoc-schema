@@ -30,7 +30,7 @@
               ]
             },
             "sketch": {
-              "title": "Эскизное предложение",
+              "title": "Эскизное предложение (Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей)",
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
               "description": "Эскизное предложение"
             },
@@ -50,7 +50,7 @@
           }
         },
         "photo": {
-          "title": "Фото исходной ситуации",
+          "title": "Фото исходной ситуации (файл)",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
           "description": "Фотофиксация существующего состояния объекта и его окружения"
         }

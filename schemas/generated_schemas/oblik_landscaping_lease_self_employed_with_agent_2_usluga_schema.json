@@ -56,7 +56,7 @@
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         },
         "photo": {
-          "title": "Фото исходной ситуации",
+          "title": "Фото исходной ситуации (файл)",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
           "description": "Фотофиксация существующего состояния объекта и его окружения"
         }
