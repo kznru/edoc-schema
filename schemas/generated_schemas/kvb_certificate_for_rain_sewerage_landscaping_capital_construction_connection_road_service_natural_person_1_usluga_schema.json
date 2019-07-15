@@ -24,7 +24,7 @@
     },
     "nomer_razresheniq_na_stroitel_stwo_rekonstrukci": {
       "title": "Номер разрешения на строительство (реконструкцию)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field_for_rain_sewerage_landscaping_capital_construction_connection_road_service"
     },
     "data_wydachi_razresheniq": {
       "title": "Дата выдачи разрешения",
