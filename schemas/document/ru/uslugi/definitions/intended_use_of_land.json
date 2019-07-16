@@ -2,7 +2,7 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "string",
-  "title": "Справочник предполагаемых целей использования земельных участков",
+  "title": "Предполагаемый вид цели",
   "description": "Предполагаемый вид цели в соответствии с пунктом 1 статьи 39.34 Земельного кодекса Российской Федерации",
   "minItems": 1,
   "enum": [
