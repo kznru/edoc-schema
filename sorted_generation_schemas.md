@@ -300,13 +300,17 @@ permalink: /generated_schemas/
 
 ### Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани {#kvb_permit_temporary_restriction_termination_traffic_on_roads}
 
-[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани - продление (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_natural_person_1_usluga_schema.json)
+[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани - продление (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_natural_person_1_usluga_schema.json)
+
+[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани - продление (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_natural_person_without_agent_1_usluga_schema.json)
 
 [Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани - продление (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_legal_entity_1_usluga_schema.json)
 
 [Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_legal_entity_1_usluga_schema.json)
 
-[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_natural_person_1_usluga_schema.json)
+[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_natural_person_1_usluga_schema.json)
+
+[Выдача распоряжения (разрешения) на временное ограничение или прекращение движения по автомобильным дорогам муниципального образования города Казани (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_temporary_restriction_termination_traffic_on_roads_natural_person_without_agent_1_usluga_schema.json)
 
 -------------------------
 
