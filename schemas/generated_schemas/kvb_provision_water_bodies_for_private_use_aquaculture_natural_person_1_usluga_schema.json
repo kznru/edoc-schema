@@ -8,6 +8,10 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "usage_calculation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Расчет и обоснование заявленного объема сброса сточных вод и показателей их качества по каждому выпуску"
@@ -19,10 +23,6 @@
     "special_equipment_info": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объе- мов и контроля (наблюдения) качества сбрасываемых сточных вод"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "water_body_name": {
       "type": "string",

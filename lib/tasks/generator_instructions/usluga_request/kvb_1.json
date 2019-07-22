@@ -56,7 +56,13 @@
                   "name": "kvb_provision_water_bodies_for_private_use_common_natural_person_1"
                 },
                 {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_natural_person_without_agent_1"
+                },
+                {
                   "name": "kvb_provision_water_bodies_for_private_use_water_discharge_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_natural_person_without_agent_1"
                 },
                 {
                   "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_legal_entity_1"
@@ -65,16 +71,25 @@
                   "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_natural_person_1"
                 },
                 {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_natural_person_without_agent_1"
+                },
+                {
                   "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_legal_entity_1"
                 },
                 {
                   "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_natural_person_1"
                 },
                 {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_natural_person_without_agent_1"
+                },
+                {
                   "name": "kvb_provision_water_bodies_for_private_use_water_building_legal_entity_1"
                 },
                 {
                   "name": "kvb_provision_water_bodies_for_private_use_water_building_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_natural_person_without_agent_1"
                 },
                 {
                   "name": "kvb_provision_water_bodies_for_private_use_water_discharge_legal_entity_1"
@@ -86,10 +101,16 @@
                   "name": "kvb_provision_water_bodies_for_private_use_wood_alloy_natural_person_1"
                 },
                 {
+                  "name": "kvb_provision_water_bodies_for_private_use_wood_alloy_natural_person_without_agent_1"
+                },
+                {
                   "name": "kvb_provision_water_bodies_for_private_use_aquaculture_legal_entity_1"
                 },
                 {
                   "name": "kvb_provision_water_bodies_for_private_use_aquaculture_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_aquaculture_natural_person_without_agent_1"
                 }
               ]
             },

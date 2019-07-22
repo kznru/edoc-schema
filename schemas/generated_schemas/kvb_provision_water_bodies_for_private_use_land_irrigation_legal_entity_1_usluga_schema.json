@@ -8,6 +8,10 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "usage_calculation": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Расчёт и обоснование заявленного объёма забора (изъятия) водных ресурсов из водного объекта"
@@ -19,10 +23,6 @@
     "extra_equipment_info": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объема водных ресурсов, забираемых (изымаемых) из водного объекта"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
     },
     "water_body_name": {
       "type": "string",
