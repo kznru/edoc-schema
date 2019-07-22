@@ -30,6 +30,9 @@
                 },
                 {
                   "name": "kvb_permit_transportation_of_heavy_cargo_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_natural_person_without_agent_1"
                 }
               ]
             },
