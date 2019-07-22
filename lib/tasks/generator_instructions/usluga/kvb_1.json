@@ -305,21 +305,6 @@
                   ]
                 },
                 {
-                  "name": "kvb_excavation_orders_delete_without_registry_number_1",
-                  "virtual": true,
-                  "keys": [
-                    {
-                      "name": "kvb_excavation_orders_delete_without_registry_number_legal_entity_1"
-                    },
-                    {
-                      "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_1"
-                    },
-                    {
-                      "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_with_agent_1"
-                    }
-                  ]
-                },
-                {
                   "name": "kvb_excavation_orders_emergency_delete_1",
                   "virtual": true,
                   "keys": [
@@ -331,21 +316,6 @@
                     },
                     {
                       "name": "kvb_excavation_orders_emergency_delete_natural_person_with_agent_1"
-                    }
-                  ]
-                },
-                {
-                  "name": "kvb_excavation_orders_emergency_delete_without_registry_number_1",
-                  "virtual": true,
-                  "keys": [
-                    {
-                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_legal_entity_1"
-                    },
-                    {
-                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_1"
-                    },
-                    {
-                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_with_agent_1"
                     }
                   ]
                 }
