@@ -1,23 +1,8 @@
 {
   "properties": {
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
-      "title": "Представитель"
-    },
-    "letter_of_attorney_optional": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
-      "title": "Доверенность"
-    },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
-    "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "route": {
       "title": "Маршрут движения",

@@ -48,6 +48,9 @@
                 },
                 {
                   "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_without_agent_1"
                 }
               ]
             },

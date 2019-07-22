@@ -320,7 +320,9 @@ permalink: /generated_schemas/
 
 [Выдача разрешения на автомобильные перевозки по автомобильным дорогам г.Казани в период возникновения неблагоприятных природно-климатических условий (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_permit_transportation_during_unfavorable_climatic_conditions_legal_entity_1_usluga_schema.json)
 
-[Выдача разрешения на автомобильные перевозки по автомобильным дорогам г.Казани в период возникновения неблагоприятных природно-климатических условий (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_1_usluga_schema.json)
+[Выдача разрешения на автомобильные перевозки по автомобильным дорогам г.Казани в период возникновения неблагоприятных природно-климатических условий (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на автомобильные перевозки по автомобильным дорогам г.Казани в период возникновения неблагоприятных природно-климатических условий (физ. лицо), версия #1](/schemas/generated_schemas/kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_without_agent_1_usluga_schema.json)
 
 -------------------------
 
