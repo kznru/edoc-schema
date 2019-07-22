@@ -294,7 +294,9 @@ permalink: /generated_schemas/
 
 [Предоставление пользователям автомобильных дорог местного значения информации о состоянии автомобильных дорог (ЮЛ, ИП), версия #1](/schemas/generated_schemas/kvb_information_about_state_of_roads_legal_entity_1_usluga_schema.json)
 
-[Предоставление пользователям автомобильных дорог местного значения информации о состоянии автомобильных дорог (физ. лицо), версия #1](/schemas/generated_schemas/kvb_information_about_state_of_roads_natural_person_1_usluga_schema.json)
+[Предоставление пользователям автомобильных дорог местного значения информации о состоянии автомобильных дорог (физ. лицо с представителем), версия #1](/schemas/generated_schemas/kvb_information_about_state_of_roads_natural_person_1_usluga_schema.json)
+
+[Предоставление пользователям автомобильных дорог местного значения информации о состоянии автомобильных дорог (физ. лицо), версия #1](/schemas/generated_schemas/kvb_information_about_state_of_roads_natural_person_without_agent_1_usluga_schema.json)
 
 -------------------------
 
