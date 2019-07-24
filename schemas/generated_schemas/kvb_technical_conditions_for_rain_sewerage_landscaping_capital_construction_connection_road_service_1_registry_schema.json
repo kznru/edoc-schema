@@ -17,10 +17,6 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес"
-    },
     "naimenowanie_ob_ekta": {
       "title": "Наименование объекта",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
@@ -53,7 +49,7 @@
       "description": "Социальный объект (школа, дет.сад,больница и т.п.), торгово-коммерческий объект (магазин,ТЦ,КБО и т.п.), административно-офисный объект, склады и т.п., объект транспортно-сервисной инфраструктуры(автомойка, автосервис, АЗС, парковка и т.п.), жилой объект(ЖК, жилой дом и т.п.), иное(укажите)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kind_of_building"
     },
-    "adres_ob_ekta_ili_blizhajshij": {
+    "address_with_map": {
       "title": "Адрес объекта (или ближайший)",
       "description": "Описание местоположения",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
