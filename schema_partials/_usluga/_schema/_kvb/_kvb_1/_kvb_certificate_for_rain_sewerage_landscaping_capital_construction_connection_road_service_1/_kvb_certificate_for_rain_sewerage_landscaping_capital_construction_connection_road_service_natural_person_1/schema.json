@@ -77,7 +77,7 @@
   }
 },
   "required": [
-    "applicant",
+    "agent",
     "ploschad_ob_ekta",
     "nomer_razresheniq_na_stroitel_stwo_rekonstrukci",
     "data_wydachi_razresheniq",
