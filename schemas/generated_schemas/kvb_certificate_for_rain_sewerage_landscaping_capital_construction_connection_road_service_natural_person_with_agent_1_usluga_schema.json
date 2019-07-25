@@ -6,8 +6,8 @@
       "config": {
         "registry_key": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_1"
       },
-      "title": "Ордер для закрытия",
-      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
+      "title": "Технические условия для выполнения",
+      "description": "Номер технических условий в реестре"
     },
     "applicant": {
       "title": "Заявитель",
