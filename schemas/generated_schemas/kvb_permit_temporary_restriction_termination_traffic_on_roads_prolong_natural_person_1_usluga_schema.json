@@ -1,4 +1,12 @@
 {
+  "required": [
+    "letter_of_attorney",
+    "time_limitation",
+    "operating_schedule",
+    "genplan",
+    "ppr",
+    "traffic_scheme"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -38,17 +46,17 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "operating_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
       "description": "График по нормам продолжительности строительства. В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторного восстановления после просадок в теплое время года."
     },
     "ppr": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проект производства работ (ППР) на соответствующие этапы",
       "description": "В случае если производятся земляные и строительные работы, прокладка и переустройство инженерных сетей и коммуникаций и работы, связанные с нарушением элементов наружного благоустройства"
     },
     "traffic_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема организации дорожного движения"
     },
     "attachments": {
@@ -60,9 +68,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "time_limitation"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
