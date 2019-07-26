@@ -1,4 +1,7 @@
 {
+  "required": [
+    "letter_of_attorney_optional"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",

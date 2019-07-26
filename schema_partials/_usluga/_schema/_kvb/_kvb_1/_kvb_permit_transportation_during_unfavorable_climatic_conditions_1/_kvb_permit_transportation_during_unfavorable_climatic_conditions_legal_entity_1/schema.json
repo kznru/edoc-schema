@@ -1,4 +1,7 @@
 {
+  "required": [
+    "letter_of_attorney_optional"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
