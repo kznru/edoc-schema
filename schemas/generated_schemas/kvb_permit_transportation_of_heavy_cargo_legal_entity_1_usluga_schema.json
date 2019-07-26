@@ -1,4 +1,10 @@
 {
+  "required": [
+    "letter_of_attorney",
+    "vehicle_documents",
+    "vehicle_diagram",
+    "technical_requirements"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -52,17 +58,17 @@
       "title": "Местонахождение банка"
     },
     "vehicle_documents": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Документы транспортного средства, с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов",
       "description": "Паспорт транспортного средства или свидетельство о регистрации транспортного средства"
     },
     "vehicle_diagram": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема транспортного средства (автопоезда), с использованием которого планируется перевозка тяжеловесных и (или) крупногабаритных грузов, с изображением размещения такого груза.",
       "description": "На схеме транспортного средства изображается транспортное средство, планируемое к участию в перевозке, количество осей и колес на нем, взаимное расположение осей и колес, распределение нагрузки по осям и в случае неравномерного распределения нагрузки по длине оси - распределение на отдельные колеса."
     },
     "technical_requirements": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о технических требованиях к перевозке заявленного груза в транспортном положении."
     },
     "attachments": {
@@ -74,9 +80,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
