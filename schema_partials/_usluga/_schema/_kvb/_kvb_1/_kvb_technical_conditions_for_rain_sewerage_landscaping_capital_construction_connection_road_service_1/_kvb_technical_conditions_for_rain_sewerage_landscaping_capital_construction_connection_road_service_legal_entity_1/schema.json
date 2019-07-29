@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-  "applicant": {
+  "organization": {
     "title": "Заявитель",
     "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
     "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
@@ -99,25 +99,10 @@
     "title": "Фото исходной ситуации",
     "description": "Файл",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
-  },
-  "dopolnitel_nye_prilozheniq": {
-    "title": "Дополнительные приложения",
-    "description": "Приложение",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
-  },
-  "opisanie": {
-    "title": "Описание ",
-    "description": "Файлы с описанием",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional"
-  },
-  "kommentarii": {
-    "title": "Комментарии",
-    "description": "Комментарии",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
   }
 },
   "required": [
-    "applicant",
+    "organization",
     "agent",
     "dowerennost",
     "ploschad_ob_ekta",

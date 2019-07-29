@@ -1,7 +1,7 @@
 {
   "type": "object",
   "properties": {
-  "applicant": {
+  "agent": {
     "title": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
@@ -88,25 +88,10 @@
     "title": "Фото исходной ситуации",
     "description": "Файл",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
-  },
-  "dopolnitel_nye_prilozheniq": {
-    "title": "Дополнительные приложения",
-    "description": "Приложение",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
-  },
-  "opisanie": {
-    "title": "Описание ",
-    "description": "Файлы с описанием",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional"
-  },
-  "kommentarii": {
-    "title": "Комментарии",
-    "description": "Комментарии",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
   }
 },
   "required": [
-    "applicant",
+    "agent",
     "ploschad_ob_ekta",
     "ploschad_zastrojki_kw_m",
     "predpolagaemoe_kolichestwo_parkowochnyh_mest",

@@ -98,21 +98,6 @@
     "title": "Фото исходной ситуации",
     "description": "Файл",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
-  },
-  "dopolnitel_nye_prilozheniq": {
-    "title": "Дополнительные приложения",
-    "description": "Приложение",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
-  },
-  "opisanie": {
-    "title": "Описание ",
-    "description": "Файлы с описанием",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional"
-  },
-  "kommentarii": {
-    "title": "Комментарии",
-    "description": "Комментарии",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
   }
 },
   "required": [

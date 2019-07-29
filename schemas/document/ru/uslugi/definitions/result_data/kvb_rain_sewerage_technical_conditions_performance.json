@@ -20,13 +20,462 @@
       "type":"string",
       "title":"Заключения и предложения"
     },
+    "covering_elements": {
+      "title": "Покрытие улиц, дорог, проездов, тротуаров, дорожек",
+      "type": "object",
+      "properties": {
+        "access_road_to_object": {
+          "type": "object",
+          "title": "подъездная дорога к объекту",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "transition_speed_bands": {
+          "type": "object",
+          "title": "переходно-скоростные полосы",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "driveways": {
+          "type": "object",
+          "title": "проезды",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "parking": {
+          "type": "object",
+          "title": "стоянки индивидуального транспорта",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "sidewalks": {
+          "type": "object",
+          "title": "тротуары, пешеходные дорожки",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "ramps": {
+          "type": "object",
+          "title": "пандусы",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "road_marking": {
+          "type": "object",
+          "title": "дорожная разметка",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        }
+      }
+    },
+    "landscaping_elements": {
+      "title": "Озеленение",
+      "type": "object",
+      "properties": {
+        "grounds_and_lawns": {
+          "type": "object",
+          "title": "площадки и газоны с подсыпкой растительного грунта и посевы трав",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "tree_planting": {
+          "type": "object",
+          "title": "посадка деревьев",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "bush_planting": {
+          "type": "object",
+          "title": "посадка кустарников",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        }
+      }
+    },
+    "site_elements": {
+      "title": "Площадки",
+      "type": "object",
+      "properties": {
+        "business": {
+          "type": "object",
+          "title": "хозяйственные",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "for_rest": {
+          "type": "object",
+          "title": "для отдыха",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "children": {
+          "type": "object",
+          "title": "детские",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "sports": {
+          "type": "object",
+          "title": "спортивные",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        }
+      }
+    },
+    "equipment_elements": {
+      "title": "Оборудование",
+      "type": "object",
+      "properties": {
+        "shadow_canopies": {
+          "type": "object",
+          "title": "теневые навесы",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "stationary_sports_equipment": {
+          "type": "object",
+          "title": "стационарное спортивное оборудование",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "equipment_of_household_sites": {
+          "type": "object",
+          "title": "оборудование хозяйственных площадок",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "playground_equipment": {
+          "type": "object",
+          "title": "оборудование детских площадок",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "benches": {
+          "type": "object",
+          "title": "скамьи",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "urns": {
+          "type": "object",
+          "title": "урны",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "gazebos": {
+          "type": "object",
+          "title": "беседки",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "flowerpots": {
+          "type": "object",
+          "title": "вазоны, цветочницы",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "fencing": {
+          "type": "object",
+          "title": "ограждение",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "outdoor_lighting": {
+          "type": "object",
+          "title": "наружное освещение",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        },
+        "traffic_signs_and_lights": {
+          "type": "object",
+          "title": "дорожные знаки и светофоры",
+          "properties": {
+            "progress": {
+              "type": "string",
+              "title": "Выполнение",
+              "description": "В зависимости от вашего выбора текст для ввода в таблицу будет записан в колонку 'Выполнено' или 'Не выполнено'",
+              "minItems": 1,
+              "enum": ["Да", "Нет"]
+            },
+            "text": {
+              "type": "string",
+              "title": "Текст для ввода в таблицу"
+            }
+          }
+        }
+      }
+    },
     "storm_sewer_elements": {
       "title": "Перечень элементов сетей ливневой канализации",
       "type": "object",
       "properties": {
         "trunk_networks": {
           "type": "object",
-          "title": "Магистральные сети",
+          "title": "магистральные сети",
           "properties": {
             "progress": {
               "type": "string",
@@ -43,7 +492,7 @@
         },
         "local_networks": {
           "type": "object",
-          "title": "Внутриплощадочные сети",
+          "title": "внутриплощадочные сети",
           "properties": {
             "progress": {
               "type": "string",
@@ -60,7 +509,7 @@
         },
         "observation_wells": {
           "type": "object",
-          "title": "Колодцы смотровые",
+          "title": "колодцы смотровые",
           "properties": {
             "progress": {
               "type": "string",
@@ -77,7 +526,7 @@
         },
         "rain_inlet_well": {
           "type": "object",
-          "title": "Колодцы ливнеприёмные",
+          "title": "колодцы ливнеприёмные",
           "properties": {
             "progress": {
               "type": "string",
@@ -94,7 +543,7 @@
         },
         "sewage_treatment_plant": {
           "type": "object",
-          "title": "Очистные сооружения",
+          "title": "очистные сооружения",
           "properties": {
             "progress": {
               "type": "string",
@@ -111,7 +560,7 @@
         },
         "storm_sewer_networks_connection": {
           "type": "object",
-          "title": "Подключение к городским сетям ливневой канализации",
+          "title": "подключение к городским сетям ливневой канализации",
           "properties": {
             "progress": {
               "type": "string",

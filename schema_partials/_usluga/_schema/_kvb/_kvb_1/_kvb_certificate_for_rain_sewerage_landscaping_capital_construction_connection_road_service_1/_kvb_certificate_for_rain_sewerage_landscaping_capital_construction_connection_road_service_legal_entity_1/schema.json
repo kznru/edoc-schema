@@ -86,21 +86,6 @@
     "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
     "description": "Файл",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
-  },
-  "dopolnitel_nye_prilozheniq": {
-    "title": "Дополнительные приложения",
-    "description": "Приложение",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
-  },
-  "opisanie": {
-    "title": "Описание ",
-    "description": "Файлы с описанием",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional"
-  },
-  "kommentarii": {
-    "title": "Комментарии",
-    "description": "Комментарии",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
   }
 },
   "required": [
