@@ -362,49 +362,13 @@
               "virtual": true,
               "keys": [
                 {
-                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_legal_entity_1",
-                  "virtual": true,
-                  "keys": [
-                    {
-                      "name": "kvb_technical_conditions_for_rain_sewerage_legal_entity_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_landscaping_capital_construction_legal_entity_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_connection_road_service_legal_entity_1"
-                    }
-                  ]
+                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_legal_entity_1"
                 },
                 {
-                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_1",
-                  "virtual": true,
-                  "keys": [
-                    {
-                      "name": "kvb_technical_conditions_for_rain_sewerage_natural_person_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_landscaping_capital_construction_natural_person_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_connection_road_service_natural_person_1"
-                    }
-                  ]
+                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_1"
                 },
                 {
-                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_with_agent_1",
-                  "virtual": true,
-                  "keys": [
-                    {
-                      "name": "kvb_technical_conditions_for_rain_sewerage_natural_person_with_agent_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_landscaping_capital_construction_natural_person_with_agent_1"
-                    },
-                    {
-                      "name": "kvb_technical_conditions_for_connection_road_service_natural_person_with_agent_1"
-                    }
-                  ]
+                  "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_natural_person_with_agent_1"
                 }
               ]
             },
