@@ -490,11 +490,11 @@ permalink: /generated_schemas/
 
 ### Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора {#kzio_free_use_contract_for_municipal_property_with_auction}
 
-[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (физ. лицо с представителем), версия #2](/schemas/generated_schemas/free_use_contract_for_municipal_property_with_auction_natural_person_with_agent_2_usluga_schema.json)
+[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_free_use_contract_for_municipal_property_with_auction_natural_person_with_agent_2_usluga_schema.json)
 
-[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (ЮЛ, ИП), версия #2](/schemas/generated_schemas/free_use_contract_for_municipal_property_with_auction_legal_entity_2_usluga_schema.json)
+[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_free_use_contract_for_municipal_property_with_auction_legal_entity_2_usluga_schema.json)
 
-[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (физ. лицо), версия #2](/schemas/generated_schemas/free_use_contract_for_municipal_property_with_auction_natural_person_2_usluga_schema.json)
+[Заключение договора безвозмездного пользования муниципальным имуществом г.Казани по результатам торгов на право заключения такого договора (физ. лицо), версия #2](/schemas/generated_schemas/kzio_free_use_contract_for_municipal_property_with_auction_natural_person_2_usluga_schema.json)
 
 -------------------------
 
