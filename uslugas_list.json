@@ -310,13 +310,13 @@
     "key": "kzio_termination_of_municipal_property_lease_agreement",
     "name": "Расторжение действующего договора аренды муниципального имущества",
     "passports": {
-      "termination_of_municipal_property_lease_agreement_movable_legal_entity_2": "Расторжение действующего договора аренды муниципального имущества - движимое (ЮЛ, ИП)",
-     "termination_of_municipal_property_lease_agreement_immovable_natural_person_2": "Расторжение действующего договора аренды муниципального имущества - недвижимое (физ. лицо)",
-     "termination_of_municipal_property_lease_agreement_immovable_legal_entity_2": "Расторжение действующего договора аренды муниципального имущества - недвижимое (ЮЛ, ИП)",
-     "termination_of_municipal_property_lease_agreement_immovable_natural_person_with_agent_2":
+      "kzio_termination_of_municipal_property_lease_agreement_movable_legal_entity_2": "Расторжение действующего договора аренды муниципального имущества - движимое (ЮЛ, ИП)",
+     "kzio_termination_of_municipal_property_lease_agreement_immovable_natural_person_2": "Расторжение действующего договора аренды муниципального имущества - недвижимое (физ. лицо)",
+     "kzio_termination_of_municipal_property_lease_agreement_immovable_legal_entity_2": "Расторжение действующего договора аренды муниципального имущества - недвижимое (ЮЛ, ИП)",
+     "kzio_termination_of_municipal_property_lease_agreement_immovable_natural_person_with_agent_2":
        "Расторжение действующего договора аренды муниципального имущества - недвижимое (физ. лицо с представителем)",
-     "termination_of_municipal_property_lease_agreement_movable_natural_person_2": "Расторжение действующего договора аренды муниципального имущества - движимое (физ. лицо)",
-     "termination_of_municipal_property_lease_agreement_movable_natural_person_with_agent_2": "Расторжение действующего договора аренды муниципального имущества - движимое (физ. лицо с представителем)"
+     "kzio_termination_of_municipal_property_lease_agreement_movable_natural_person_2": "Расторжение действующего договора аренды муниципального имущества - движимое (физ. лицо)",
+     "kzio_termination_of_municipal_property_lease_agreement_movable_natural_person_with_agent_2": "Расторжение действующего договора аренды муниципального имущества - движимое (физ. лицо с представителем)"
    }
   },
   {
