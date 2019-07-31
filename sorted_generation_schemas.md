@@ -526,11 +526,11 @@ permalink: /generated_schemas/
 
 ### Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона {#kzio_provision_of_municipal_land_with_auction}
 
-[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (ЮЛ, ИП), версия #2](/schemas/generated_schemas/provision_of_municipal_land_with_auction_legal_entity_2_usluga_schema.json)
+[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_provision_of_municipal_land_with_auction_legal_entity_2_usluga_schema.json)
 
-[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (физ. лицо с представителем), версия #2](/schemas/generated_schemas/provision_of_municipal_land_with_auction_natural_person_with_agent_2_usluga_schema.json)
+[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_provision_of_municipal_land_with_auction_natural_person_with_agent_2_usluga_schema.json)
 
-[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (физ. лицо), версия #2](/schemas/generated_schemas/provision_of_municipal_land_with_auction_natural_person_2_usluga_schema.json)
+[Предоставление земельного участка, находящегося в муниципальной собственности, в собственность путем продажи земельного участка на торгах, проводимых в форме аукциона (физ. лицо), версия #2](/schemas/generated_schemas/kzio_provision_of_municipal_land_with_auction_natural_person_2_usluga_schema.json)
 
 -------------------------
 
