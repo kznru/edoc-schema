@@ -246,9 +246,9 @@
     "key": "kzio_lease_of_municipal_property_treasury",
     "name": "Передача в аренду муниципального имущества казны",
     "passports": {
-      "lease_of_municipal_property_treasury_natural_person_2": "Передача в аренду муниципального имущества казны (физ. лицо)",
-      "lease_of_municipal_property_treasury_legal_entity_2": "Передача в аренду муниципального имущества казны (ЮЛ, ИП)",
-      "lease_of_municipal_property_treasury_natural_person_with_agent_2": "Передача в аренду муниципального имущества казны (физ. лицо с представителем)"
+      "kzio_lease_of_municipal_property_treasury_natural_person_2": "Передача в аренду муниципального имущества казны (физ. лицо)",
+      "kzio_lease_of_municipal_property_treasury_legal_entity_2": "Передача в аренду муниципального имущества казны (ЮЛ, ИП)",
+      "kzio_lease_of_municipal_property_treasury_natural_person_with_agent_2": "Передача в аренду муниципального имущества казны (физ. лицо с представителем)"
     }
   },
   {

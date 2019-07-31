@@ -500,11 +500,11 @@ permalink: /generated_schemas/
 
 ### Передача в аренду муниципального имущества казны {#kzio_lease_of_municipal_property_treasury}
 
-[Передача в аренду муниципального имущества казны (физ. лицо), версия #2](/schemas/generated_schemas/lease_of_municipal_property_treasury_natural_person_2_usluga_schema.json)
+[Передача в аренду муниципального имущества казны (физ. лицо), версия #2](/schemas/generated_schemas/kzio_lease_of_municipal_property_treasury_natural_person_2_usluga_schema.json)
 
-[Передача в аренду муниципального имущества казны (ЮЛ, ИП), версия #2](/schemas/generated_schemas/lease_of_municipal_property_treasury_legal_entity_2_usluga_schema.json)
+[Передача в аренду муниципального имущества казны (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_lease_of_municipal_property_treasury_legal_entity_2_usluga_schema.json)
 
-[Передача в аренду муниципального имущества казны (физ. лицо с представителем), версия #2](/schemas/generated_schemas/lease_of_municipal_property_treasury_natural_person_with_agent_2_usluga_schema.json)
+[Передача в аренду муниципального имущества казны (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_lease_of_municipal_property_treasury_natural_person_with_agent_2_usluga_schema.json)
 
 -------------------------
 
