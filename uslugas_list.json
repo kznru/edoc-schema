@@ -228,9 +228,9 @@
     "key": "kzio_excerpt_from_property_registry",
     "name": "Выдача выписки из реестра собственности г.Казани",
     "passports": {
-      "excerpt_from_property_registry_legal_entity_2": "Выдача выписки из реестра собственности г.Казани (ЮЛ, ИП)",
-      "excerpt_from_property_registry_natural_person_with_agent_2": "Выдача выписки из реестра собственности г.Казани (физ. лицо с представителем)",
-      "excerpt_from_property_registry_natural_person_2": "Выдача выписки из реестра собственности г.Казани (физ. лицо)"
+      "kzio_excerpt_from_property_registry_legal_entity_2": "Выдача выписки из реестра собственности г.Казани (ЮЛ, ИП)",
+      "kzio_excerpt_from_property_registry_natural_person_with_agent_2": "Выдача выписки из реестра собственности г.Казани (физ. лицо с представителем)",
+      "kzio_excerpt_from_property_registry_natural_person_2": "Выдача выписки из реестра собственности г.Казани (физ. лицо)"
     }
   },
   {

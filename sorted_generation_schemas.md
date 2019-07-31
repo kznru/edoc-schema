@@ -480,11 +480,11 @@ permalink: /generated_schemas/
 
 ### Выдача выписки из реестра собственности г.Казани {#kzio_excerpt_from_property_registry}
 
-[Выдача выписки из реестра собственности г.Казани (ЮЛ, ИП), версия #2](/schemas/generated_schemas/excerpt_from_property_registry_legal_entity_2_usluga_schema.json)
+[Выдача выписки из реестра собственности г.Казани (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_excerpt_from_property_registry_legal_entity_2_usluga_schema.json)
 
-[Выдача выписки из реестра собственности г.Казани (физ. лицо с представителем), версия #2](/schemas/generated_schemas/excerpt_from_property_registry_natural_person_with_agent_2_usluga_schema.json)
+[Выдача выписки из реестра собственности г.Казани (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_excerpt_from_property_registry_natural_person_with_agent_2_usluga_schema.json)
 
-[Выдача выписки из реестра собственности г.Казани (физ. лицо), версия #2](/schemas/generated_schemas/excerpt_from_property_registry_natural_person_2_usluga_schema.json)
+[Выдача выписки из реестра собственности г.Казани (физ. лицо), версия #2](/schemas/generated_schemas/kzio_excerpt_from_property_registry_natural_person_2_usluga_schema.json)
 
 -------------------------
 
