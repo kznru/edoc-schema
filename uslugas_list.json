@@ -219,9 +219,9 @@
     "key": "kzio_additional_agreement_for_changes_of_municipal_management_property",
     "name": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества",
     "passports": {
-      "additional_agreement_for_changes_of_municipal_management_property_natural_person_with_agent_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо с представителем)",
-      "additional_agreement_for_changes_of_municipal_management_property_legal_entity_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (ЮЛ, ИП)",
-      "additional_agreement_for_changes_of_municipal_management_property_natural_person_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо)"
+      "kzio_additional_agreement_for_changes_of_municipal_management_property_natural_person_with_agent_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо с представителем)",
+      "kzio_additional_agreement_for_changes_of_municipal_management_property_legal_entity_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (ЮЛ, ИП)",
+      "kzio_additional_agreement_for_changes_of_municipal_management_property_natural_person_2": "Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо)"
     }
   },
   {

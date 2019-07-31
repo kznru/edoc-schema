@@ -470,11 +470,11 @@ permalink: /generated_schemas/
 
 ### Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества {#kzio_additional_agreement_for_changes_of_municipal_management_property}
 
-[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо с представителем), версия #2](/schemas/generated_schemas/additional_agreement_for_changes_of_municipal_management_property_natural_person_with_agent_2_usluga_schema.json)
+[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_additional_agreement_for_changes_of_municipal_management_property_natural_person_with_agent_2_usluga_schema.json)
 
-[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (ЮЛ, ИП), версия #2](/schemas/generated_schemas/additional_agreement_for_changes_of_municipal_management_property_legal_entity_2_usluga_schema.json)
+[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_additional_agreement_for_changes_of_municipal_management_property_legal_entity_2_usluga_schema.json)
 
-[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо), версия #2](/schemas/generated_schemas/additional_agreement_for_changes_of_municipal_management_property_natural_person_2_usluga_schema.json)
+[Заключение дополнительного соглашения о внесении изменений в договоры оперативного управления, хозяйственного ведения муниципального имущества (физ. лицо), версия #2](/schemas/generated_schemas/kzio_additional_agreement_for_changes_of_municipal_management_property_natural_person_2_usluga_schema.json)
 
 -------------------------
 
