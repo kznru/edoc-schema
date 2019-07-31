@@ -323,9 +323,9 @@
     "key": "kzio_transfer_municipal_property_for_free_use_without_auction",
     "name": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов",
     "passports": {
-      "transfer_municipal_property_for_free_use_without_auction_natural_person_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо)",
-      "transfer_municipal_property_for_free_use_without_auction_legal_entity_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (ЮЛ, ИП)",
-      "transfer_municipal_property_for_free_use_without_auction_natural_person_with_agent_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо с представителем)"
+      "kzio_transfer_municipal_property_for_free_use_without_auction_natural_person_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо)",
+      "kzio_transfer_municipal_property_for_free_use_without_auction_legal_entity_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (ЮЛ, ИП)",
+      "kzio_transfer_municipal_property_for_free_use_without_auction_natural_person_with_agent_2": "Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо с представителем)"
     }
   },
   {

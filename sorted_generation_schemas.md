@@ -592,11 +592,11 @@ permalink: /generated_schemas/
 
 ### Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов {#kzio_transfer_municipal_property_for_free_use_without_auction}
 
-[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо), версия #2](/schemas/generated_schemas/transfer_municipal_property_for_free_use_without_auction_natural_person_2_usluga_schema.json)
+[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо), версия #2](/schemas/generated_schemas/kzio_transfer_municipal_property_for_free_use_without_auction_natural_person_2_usluga_schema.json)
 
-[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (ЮЛ, ИП), версия #2](/schemas/generated_schemas/transfer_municipal_property_for_free_use_without_auction_legal_entity_2_usluga_schema.json)
+[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (ЮЛ, ИП), версия #2](/schemas/generated_schemas/kzio_transfer_municipal_property_for_free_use_without_auction_legal_entity_2_usluga_schema.json)
 
-[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо с представителем), версия #2](/schemas/generated_schemas/transfer_municipal_property_for_free_use_without_auction_natural_person_with_agent_2_usluga_schema.json)
+[Передача в безвозмездное пользование муниципального имущества муниципального образования г.Казани без проведения торгов (физ. лицо с представителем), версия #2](/schemas/generated_schemas/kzio_transfer_municipal_property_for_free_use_without_auction_natural_person_with_agent_2_usluga_schema.json)
 
 -------------------------
 
