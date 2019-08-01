@@ -9,16 +9,12 @@
       "title": "Представитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
-    "dowerennost": {
+    "letter_of_attorney": {
       "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
     },
-    "adres_prozhiwaniq": {
-      "title": "Адрес проживания",
-      "description": "Адрес местожительства",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-    },
-    "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie": {
+    "address_with_map": {
       "title": "Адрес, по которому находится переводимое помещение",
       "description": "Адрес с указанием города, улицы, номера дома, квартиры",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -27,9 +23,8 @@
       "title": "Правоустанавливающие документы на переводимое помещение",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
-    "vypiska_iz_domowoj_knigi_ob_otsutstwii_registracii_w_perewodimom_pomeschenii": {
-      "title": "Выписка из домовой книги об отсутствии регистрации в переводимом помещении",
-      "description": "Срок действия выписки действителен 30 дней с даты выдачи",
+    "document_podtverjdaushii_otsutstvie_zaregistrirovannih_lic_v_perevodimom_pomeschenii": {
+      "title": "Документ подтверждающий отсутствие зарегистрированных лиц в переводимом помещении",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "tehnicheskij_pasport_perewodimogo_pomescheniq": {
@@ -56,11 +51,10 @@
   "required": [
     "applicant",
     "agent",
-    "dowerennost",
-    "adres_prozhiwaniq",
-    "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie",
+    "address_with_map",
+    "letter_of_attorney",
     "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",
-    "vypiska_iz_domowoj_knigi_ob_otsutstwii_registracii_w_perewodimom_pomeschenii",
+    "document_podtverjdaushii_otsutstvie_zaregistrirovannih_lic_v_perevodimom_pomeschenii",
     "tehnicheskij_pasport_perewodimogo_pomescheniq",
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
     "vypiska_kadastra_na_zemel_nyj_uchastok"

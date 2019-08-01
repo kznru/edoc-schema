@@ -5,12 +5,7 @@
     "title": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
-  "adres_prozhiwaniq": {
-    "title": "Адрес проживания",
-    "description": "Адрес местожительства",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-  },
-  "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie": {
+  "address_with_map": {
     "title": "Адрес, по которому находится переводимое помещение",
     "description": "Адрес с указанием города, улицы, номера дома, квартиры",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -38,9 +33,8 @@
   }
 },
   "required": [
-    "applicant",
-    "adres_prozhiwaniq",
-    "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie",
+    "agent",
+    "address_with_map",
     "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",
     "plan_perewodimogo_pomescheniq_s_ego_tehnicheskim_opisaniem",
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",

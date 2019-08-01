@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+  "organization": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "agent": {
+    "title": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "letter_of_attorney": {
+    "title": "Доверенность",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "address_with_map": {
+    "title": "Адрес, по которому находится переводимое помещение",
+    "description": "Адрес с указанием города, улицы, номера дома, квартиры",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie": {
+    "title": "Правоустанавливающие документы на переводимое помещение",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "document_podtverjdaushii_otsutstvie_zaregistrirovannih_lic_v_perevodimom_pomeschenii": {
+    "title": "Документ подтверждающий отсутствие зарегистрированных лиц в переводимом помещении",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "tehnicheskij_pasport_perewodimogo_pomescheniq": {
+    "title": "Технический паспорт переводимого помещения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq": {
+    "title": "Проект переустройства и (или) перепланировки переводимого помещения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "vypiska_kadastra_na_zemel_nyj_uchastok": {
+    "title": "Выписка кадастра на земельный участок",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "organization",
+    "agent",
+    "address_with_map",
+    "letter_of_attorney",
+    "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",
+    "document_podtverjdaushii_otsutstvie_zaregistrirovannih_lic_v_perevodimom_pomeschenii",
+    "tehnicheskij_pasport_perewodimogo_pomescheniq",
+    "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
+    "vypiska_kadastra_na_zemel_nyj_uchastok"
+  ]
+}
