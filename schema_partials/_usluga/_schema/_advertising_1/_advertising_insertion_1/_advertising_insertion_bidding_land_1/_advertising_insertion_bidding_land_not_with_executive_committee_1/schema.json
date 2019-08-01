@@ -14,7 +14,10 @@
     "topography_of_networks": {},
     "graphic_image_of_structure": {},
     "description": {},
-    "property_owner": {},
+    "property_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
+    },
     "installation_and_operation_document": {},
     "state_duty_payment": {}
   }

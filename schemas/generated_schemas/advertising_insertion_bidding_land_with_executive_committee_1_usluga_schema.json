@@ -66,10 +66,6 @@
       "title": "Краткое описание",
       "description": "Прикрепляется скан пояснительной записки, в которой необходимо указать: -типы информационных полей: сторона А, сторона Б, сторона В; -цвет элементов рекламной конструкции (по таблице цветов RAL); -характер подсветки рекламной конструкции: внутренний; -используемые материалы."
     },
-    "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
-    },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
