@@ -9,7 +9,8 @@
     "agent",
     "address_with_map",
     "address_comments",
-    "work_description"
+    "work_description",
+    "emergency_plantations_photos"
   ],
   "properties": {
     "organization": {
