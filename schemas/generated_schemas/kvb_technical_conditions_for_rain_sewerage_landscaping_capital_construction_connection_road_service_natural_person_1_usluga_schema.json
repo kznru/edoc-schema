@@ -28,10 +28,6 @@
       "title": "Предполагаемое количество парковочных мест",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
     },
-    "naznachenie_ob_ekta": {
-      "title": "Назначение объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-    },
     "tip_ob_ekta": {
       "title": "Тип объекта",
       "description": "Социальный объект (школа, дет.сад,больница и т.п.), торгово-коммерческий объект (магазин,ТЦ,КБО и т.п.), административно-офисный объект, склады и т.п., объект транспортно-сервисной инфраструктуры(автомойка, автосервис, АЗС, парковка и т.п.), жилой объект(ЖК, жилой дом и т.п.), иное(укажите)",
@@ -59,20 +55,6 @@
     "raschet_kolichestwa_powerhnostnyh_stokow": {
       "title": "Расчет количества поверхностных стоков",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
-    },
-    "raschetnyj_rashod_wodostoka_l_s": {
-      "title": "Расчетный расход водостока, л/с",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/float"
-    },
-    "diametr_kollektora_neobhodimyj_dlq_priema_dannogo_kolichestwa_stokow_mm": {
-      "title": "Диаметр коллектора, необходимый для приема данного количества стоков, мм",
-      "description": "Укажите 0, если коллектор не предусмотрен проектом",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter"
-    },
-    "fajl_s_raschetami": {
-      "title": "Файл с расчетами",
-      "description": "Файлы",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "s_emka_tekuschih_izmenenij_w_masshtabe_1_500": {
       "title": "Съемка текущих изменений в масштабе 1:500",

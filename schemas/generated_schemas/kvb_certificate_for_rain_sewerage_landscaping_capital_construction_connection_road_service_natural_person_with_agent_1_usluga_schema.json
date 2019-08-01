@@ -40,11 +40,6 @@
       "title": "Дата выдачи разрешения",
       "$ref": "http://edoc-schema.kzn.ru/generic/date"
     },
-    "tehnicheskie_uslowiq_dlq_wypolneniq": {
-      "title": "Технические условия для выполнения",
-      "description": "Номер технических условий в реестре",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_conditions"
-    },
     "ispolnitel_no_tehnicheskaq_dokumentaciq": {
       "title": "Исполнительно-техническая документация",
       "description": "Файл с исполнительной съемкой",
@@ -53,12 +48,12 @@
     "akt_podtwerzhda_schij_podkl_chenie_k_gorodskim_setqm_liwnewoj_kanalizacii": {
       "title": "Акт, подтверждающий подключение к городским сетям ливневой канализации",
       "description": "Файл (в случае, если предусмотрено техническими условиями)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "protokol_izmereniq_prob_stochnyh_wod": {
       "title": "Протокол измерения проб сточных вод",
       "description": "Файл (в случае, если техническими\nусловиями предусмотрена очистка отводимых стоков до норм СаНПиН 2.1.5.980-00",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
     "proekt_organizacii_dorozhnogo_dwizheniq": {
       "title": "Проект организации дорожного движения",
