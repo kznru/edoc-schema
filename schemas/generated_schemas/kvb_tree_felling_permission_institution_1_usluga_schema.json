@@ -61,6 +61,10 @@
       "title": "Фото аварийных насаждений",
       "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
     },
+    "trees_in_good_condition_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото деревьев в удовлетворительном состоянии"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
