@@ -20,6 +20,15 @@
             },
             {
               "name": "advertising_exclusion_property_owner_natural_person_with_agent_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_egrn_legal_entity_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_egrn_natural_person_1"
+            },
+            {
+              "name": "advertising_exclusion_property_owner_egrn_natural_person_with_agent_1"
             }
           ]
         },
