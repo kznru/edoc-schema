@@ -1,5 +1,5 @@
 {
-  "required": ["transportation_type", "year", "allowed", "vehicle_info", "cargo_parameters", "vehicle_parameters", "allowed_by", "acquainted", "vehicle_corresponding"],
+  "required": ["transportation_type", "year", "allowed", "vehicle_info", "cargo_parameters", "vehicle_parameters", "allowed_by", "acquainted"],
   "properties": {
     "transportation_type": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"

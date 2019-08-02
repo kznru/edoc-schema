@@ -7,8 +7,7 @@
     "cargo_parameters",
     "vehicle_parameters",
     "allowed_by",
-    "acquainted",
-    "vehicle_corresponding"
+    "acquainted"
   ],
   "properties": {
     "transportation_type": {
