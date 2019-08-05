@@ -16,11 +16,6 @@
     },
     "work_description": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
-    },
-    "work_title": {
-      "type": "string",
-      "title": "Наименование выполняемых работ (в винительном падеже)",
-      "description": "Должно отвечать на вопрос кого, что"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"

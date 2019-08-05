@@ -10,7 +10,8 @@
     "address_with_map",
     "address_comments",
     "work_description",
-    "emergency_plantations_photos"
+    "emergency_plantations_photos",
+    "compliance_of_design_materials"
   ],
   "properties": {
     "organization": {
@@ -56,8 +57,17 @@
       "title": "Топосъёмка участка",
       "description": "Топосъёмка обследуемого участка с указанием зелёных насаждений, предназначенных на снос/обрезку"
     },
-    "emergency_plantations_photos": {
+    "permission_to_build": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Разрешение на строительство"
+    },
+    "compliance_of_design_materials": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключения на соответствие проектных материалов экологическим требованиям",
+      "description": "Положительная государственная (негосударственная) экспертиза"
+    },
+    "emergency_plantations_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото аварийных насаждений",
       "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
     },
