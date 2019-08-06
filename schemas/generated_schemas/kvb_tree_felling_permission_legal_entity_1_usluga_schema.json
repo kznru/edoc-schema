@@ -47,15 +47,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
       "default": "Выдача акта обследования зелёных насаждений"
     },
-    "project_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Проектная документация"
-    },
-    "land_documents": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Документы на земельный участок",
-      "description": "Выписка из ЕГРН либо договор аренды"
-    },
     "permission_to_build": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Разрешение на строительство"
@@ -64,6 +55,15 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Заключения на соответствие проектных материалов экологическим требованиям",
       "description": "Положительная государственная (негосударственная) экспертиза"
+    },
+    "project_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Проектная документация"
+    },
+    "land_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
     },
     "emergency_plantations_photos": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

@@ -27,6 +27,15 @@
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "work_description": {},
+    "permission_to_build": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Разрешение на строительство"
+    },
+    "compliance_of_design_materials": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключения на соответствие проектных материалов экологическим требованиям",
+      "description": "Положительная государственная (негосударственная) экспертиза"
+    },
     "project_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"

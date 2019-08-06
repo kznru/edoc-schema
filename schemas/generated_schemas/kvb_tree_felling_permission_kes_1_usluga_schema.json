@@ -46,15 +46,6 @@
       "title": "Согласование с владельцами затрагиваемых территорий",
       "description": "Справка-согласование с УАиГ"
     },
-    "permission_to_build": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Разрешение на строительство"
-    },
-    "compliance_of_design_materials": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Заключения на соответствие проектных материалов экологическим требованиям",
-      "description": "Положительная государственная (негосударственная) экспертиза"
-    },
     "emergency_plantations_photos": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Фото аварийных насаждений",
