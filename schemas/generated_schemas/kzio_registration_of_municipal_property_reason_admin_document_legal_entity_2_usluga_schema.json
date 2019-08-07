@@ -4,7 +4,9 @@
     "organization",
     "agent",
     "letter_of_attorney",
-    "address_with_map"
+    "address_with_map",
+    "floors_plan",
+    "floor_number"
   ],
   "properties": {
     "admin_document": {
@@ -47,42 +49,31 @@
       "title": "Площадь",
       "description": "Кв. м"
     },
-    "property_info": {
-      "type": "object",
-      "required": [
-        "floors_plan",
-        "floor_number"
-      ],
-      "title": "Информация, необходимая для идентификации имущества",
-      "description": "Краткое описание объекта, позволяющее определить его местонахождение (напр., этаж в помещении, или характеристики помещения)",
-      "properties": {
-        "floors_plan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Копия технического паспорта, в случае отсутствия его графический план помещения",
-          "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
-        },
-        "floor_number": {
-          "type": "string",
-          "title": "Этаж"
-        },
-        "property_number": {
-          "title": "Номер помещения",
-          "type": "string"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
-        },
-        "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Фото объекта"
-        },
-        "other_info": {
-          "type": "string",
-          "title": "Иная информация"
-        }
-      }
+    "floors_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: копия технического паспорта, в случае отсутствия его графический план помещения",
+      "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
+    },
+    "floor_number": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: этаж"
+    },
+    "property_number": {
+      "title": "Информация, необходимая для идентификации имущества: номер помещения",
+      "type": "string"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: фото объекта"
+    },
+    "other_info": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

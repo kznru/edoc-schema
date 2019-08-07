@@ -5,7 +5,6 @@
     "address_with_map",
     "kind",
     "purpose",
-    "property_info",
     "usage_type"
   ],
   "properties": {
@@ -100,50 +99,44 @@
       "title": "Иной вид использования",
       "type": "string"
     },
-    "property_info": {
-      "type": "object",
-      "title": "Информация, необходимая для идентификации имущества",
-      "properties": {
-        "floor_number": {
-          "type": "string",
-          "title": "Этаж",
-          "minItems": 1,
-          "enum": [
-            "подвал",
-            "антресоль",
-            "1 этаж",
-            "2 этаж",
-            "межэтажное помещение",
-            "этаж №-указать"
-          ]
-        },
-        "other_floor_number": {
-          "title": "Иной номер этажа",
-          "type": "string"
-        },
-        "property_number": {
-          "title": "Номер помещения",
-          "type": "string",
-          "description": "Согласно поэтажному плану объекта или техническому паспорту"
-        },
-        "floors_plan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Поэтажный план"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер запрашиваемого объекта"
-        },
-        "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Фото"
-        },
-        "other_info": {
-          "type": "string",
-          "title": "Иная информация"
-        }
-      }
+    "floor_number": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: этаж",
+      "minItems": 1,
+      "enum": [
+        "подвал",
+        "антресоль",
+        "1 этаж",
+        "2 этаж",
+        "межэтажное помещение",
+        "этаж №-указать"
+      ]
+    },
+    "other_floor_number": {
+      "title": "Информация, необходимая для идентификации имущества: иной номер этажа",
+      "type": "string"
+    },
+    "property_number": {
+      "title": "Информация, необходимая для идентификации имущества: номер помещения",
+      "type": "string",
+      "description": "Согласно поэтажному плану объекта или техническому паспорту"
+    },
+    "floors_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: поэтажный план"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: фото"
+    },
+    "other_info": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

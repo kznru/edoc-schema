@@ -4,8 +4,7 @@
     "letter_of_attorney",
     "agent",
     "address_with_map",
-    "purpose",
-    "property_info"
+    "purpose"
   ],
   "properties": {
     "organization": {
@@ -43,36 +42,30 @@
       "type": "string",
       "description": "Цели, для которых запрашивается информация о муниципальном имуществе"
     },
-    "property_info": {
-      "type": "object",
-      "title": "Информация, необходимая для идентификации имущества",
-      "properties": {
-        "floor_number": {
-          "type": "string",
-          "title": "Этаж"
-        },
-        "property_number": {
-          "title": "Номер помещения",
-          "type": "string"
-        },
-        "floors_plan": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Поэтажный план"
-        },
-        "cadastre_number": {
-          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-          "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
-        },
-        "photo": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Фото"
-        },
-        "other_info": {
-          "type": "string",
-          "title": "Иная информация"
-        }
-      }
+    "floor_number": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: этаж"
+    },
+    "property_number": {
+      "title": "Информация, необходимая для идентификации имущества: номер помещения",
+      "type": "string"
+    },
+    "floors_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: поэтажный план"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: фото"
+    },
+    "other_info": {
+      "type": "string",
+      "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

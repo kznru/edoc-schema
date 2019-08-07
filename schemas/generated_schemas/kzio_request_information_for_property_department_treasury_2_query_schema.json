@@ -4,93 +4,125 @@
 
   ],
   "properties": {
-    "cadastre_number": {
-      "type": "string",
-      "title": "Кадастровый номер"
+    "request_data": {
+      "type": "object",
+      "title": "Данные из услуги",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+          "title": "Адрес (обязательно обведите область на карте) (из услуги)"
+        },
+        "cadastre_number": {
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+          "title": "Кадастровый номер (из услуги)"
+        },
+        "area": {
+          "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+          "title": "Площадь объекта (из услуги)"
+        },
+        "floor_number": {
+          "type": "string",
+          "title": "Этаж (из услуги)"
+        },
+        "property_number": {
+          "title": "Номер помещения (из услуги)",
+          "type": "string"
+        }
+      }
     },
-    "address": {
-      "type": "string",
-      "title": "Адрес"
-    },
-    "area": {
-      "type": "string",
-      "title": "Площадь,м²"
-    },
-    "purpose": {
-      "type": "string",
-      "title": "Назначение"
-    },
-    "name": {
-      "type": "string",
-      "title": "Наименование"
-    },
-    "floors_count": {
-      "type": "string",
-      "title": "Количество этажей, в том числе подземных этажей"
-    },
-    "exterial_wall_material": {
-      "type": "string",
-      "title": "Материал наружных стен"
-    },
-    "commissioning_year": {
-      "type": "string",
-      "title": "Год ввода в эксплуатацию по завершении строительства"
-    },
-    "rightholders": {
-      "type": "string",
-      "title": "Правообладатель (правообладатели)"
-    },
-    "location_scheme_of_property_on_land": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
-    },
-    "balance_cost": {
-      "type": "string",
-      "title": "Балансовая стоимость объекта"
-    },
-    "amortization": {
-      "type": "string",
-      "title": "Аммортизация"
-    },
-    "object_location": {
-      "type": "string",
-      "title": "Район расположения объекта"
-    },
-    "acceptance_to_treasury_data": {
-      "type": "string",
-      "title": "Дата принятия объекта в казну"
-    },
-    "acceptance_to_treasury_basis": {
-      "type": "string",
-      "title": "Основание принятия объекта в казну"
-    },
-    "conteragent": {
-      "type": "string",
-      "title": "Контрагент"
-    },
-    "account": {
-      "type": "string",
-      "title": "Счет учета"
-    },
-    "comments": {
-      "type": "string",
-      "title": "Комментарии"
-    },
-    "object_is_transferred_to_operational_managment": {
-      "type": "string",
-      "title": "Объект передается в оперативное управление"
-    },
-    "gratuitous_use": {
-      "type": "string",
-      "title": "Безвозмездное пользование"
-    },
-    "room_belongs_to_municipal_treasury": {
-      "type": "string",
-      "title": "Запрашиваемое помещение находится в составе муниципальной казны"
-    },
-    "information_about_other_use_of_property": {
-      "type": "string",
-      "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
+    "query_data": {
+      "type": "object",
+      "title": "Данные из запроса",
+      "properties": {
+        "cadastre_number": {
+          "type": "string",
+          "title": "Кадастровый номер"
+        },
+        "address": {
+          "type": "string",
+          "title": "Адрес"
+        },
+        "area": {
+          "type": "string",
+          "title": "Площадь,м²"
+        },
+        "purpose": {
+          "type": "string",
+          "title": "Назначение"
+        },
+        "name": {
+          "type": "string",
+          "title": "Наименование"
+        },
+        "floors_count": {
+          "type": "string",
+          "title": "Количество этажей, в том числе подземных этажей"
+        },
+        "exterial_wall_material": {
+          "type": "string",
+          "title": "Материал наружных стен"
+        },
+        "commissioning_year": {
+          "type": "string",
+          "title": "Год ввода в эксплуатацию по завершении строительства"
+        },
+        "rightholders": {
+          "type": "string",
+          "title": "Правообладатель (правообладатели)"
+        },
+        "location_scheme_of_property_on_land": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Схема расположения объекта недвижимости (части объекта недвижимости) на земельном участке(ах)"
+        },
+        "balance_cost": {
+          "type": "string",
+          "title": "Балансовая стоимость объекта"
+        },
+        "amortization": {
+          "type": "string",
+          "title": "Аммортизация"
+        },
+        "object_location": {
+          "type": "string",
+          "title": "Район расположения объекта"
+        },
+        "acceptance_to_treasury_data": {
+          "type": "string",
+          "title": "Дата принятия объекта в казну"
+        },
+        "acceptance_to_treasury_basis": {
+          "type": "string",
+          "title": "Основание принятия объекта в казну"
+        },
+        "conteragent": {
+          "type": "string",
+          "title": "Контрагент"
+        },
+        "account": {
+          "type": "string",
+          "title": "Счет учета"
+        },
+        "comments": {
+          "type": "string",
+          "title": "Комментарии"
+        },
+        "object_is_transferred_to_operational_managment": {
+          "type": "string",
+          "title": "Объект передается в оперативное управление"
+        },
+        "gratuitous_use": {
+          "type": "string",
+          "title": "Безвозмездное пользование"
+        },
+        "room_belongs_to_municipal_treasury": {
+          "type": "string",
+          "title": "Запрашиваемое помещение находится в составе муниципальной казны"
+        },
+        "information_about_other_use_of_property": {
+          "type": "string",
+          "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
+        }
+      }
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"

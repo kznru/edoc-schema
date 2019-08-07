@@ -2,9 +2,41 @@
   "type":"object",
   "required":[],
   "properties":{
-    "encumbrance_limitation": {
-      "type": "string",
-      "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+    "request_data": {
+      "type": "object",
+      "title": "Данные из услуги",
+      "properties": {
+        "address_with_map": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+          "title": "Адрес (обязательно обведите область на карте) (из услуги)"
+        },
+        "cadastre_number": {
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+          "title": "Кадастровый номер (из услуги)"
+        },
+        "area": {
+          "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+          "title": "Площадь объекта (из услуги)"
+        },
+        "floor_number": {
+          "type": "string",
+          "title": "Этаж (из услуги)"
+        },
+        "property_number": {
+          "title": "Номер помещения (из услуги)",
+          "type": "string"
+        }
+      }
+    },
+    "query_data": {
+      "type": "object",
+      "title": "Данные из запроса",
+      "properties": {
+        "encumbrance_limitation": {
+          "type": "string",
+          "title": "Ограничение в виде обременения в совершении сделки на основании решения суда"
+        }
+      }
     }
   }
 }
