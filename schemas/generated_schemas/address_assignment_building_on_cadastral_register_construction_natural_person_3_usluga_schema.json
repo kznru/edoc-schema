@@ -42,10 +42,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "applicant",
     "cadastre_number",
     "building_name",
     "cadastre_number_of_land",

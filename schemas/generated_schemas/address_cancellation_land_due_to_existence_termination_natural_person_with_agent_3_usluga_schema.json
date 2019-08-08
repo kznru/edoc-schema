@@ -47,12 +47,10 @@
       "title": "Комментарии"
     }
   },
-  "require": [
+  "required": [
     "applicant",
     "agent",
-    "letter_of_attorney"
-  ],
-  "required": [
+    "letter_of_attorney",
     "cadastre_number",
     "cadastre_registration_removal_date",
     "cancellation_number",

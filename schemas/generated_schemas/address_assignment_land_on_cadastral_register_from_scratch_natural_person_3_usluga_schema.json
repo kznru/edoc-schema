@@ -27,10 +27,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "applicant",
     "cadastre_number",
     "address"
   ],

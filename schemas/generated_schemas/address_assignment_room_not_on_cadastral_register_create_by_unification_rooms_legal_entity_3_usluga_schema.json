@@ -47,12 +47,10 @@
       "title": "Комментарии"
     }
   },
-  "require": [
+  "required": [
     "organization",
     "agent",
-    "letter_of_attorney"
-  ],
-  "required": [
+    "letter_of_attorney",
     "identification_data_of_rooms",
     "purpose_of_room",
     "address"

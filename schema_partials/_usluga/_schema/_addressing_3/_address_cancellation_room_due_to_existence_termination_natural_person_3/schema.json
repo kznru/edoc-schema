@@ -37,10 +37,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "applicant",
     "cadastre_number",
     "cadastre_registration_removal_date",
     "cancellation_number",
