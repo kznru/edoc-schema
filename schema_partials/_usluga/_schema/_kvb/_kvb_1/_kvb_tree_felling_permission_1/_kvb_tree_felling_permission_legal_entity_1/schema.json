@@ -5,7 +5,8 @@
     "cadastre_number",
     "project_plan",
     "letter_of_attorney",
-    "land_documents"
+    "land_documents",
+    "compliance_of_design_materials"
   ],
   "properties": {
     "organization": {

@@ -8,8 +8,7 @@
     "address_with_map",
     "address_comments",
     "work_description",
-    "emergency_plantations_photos",
-    "compliance_of_design_materials"
+    "emergency_plantations_photos"
   ],
   "properties": {
     "organization": {
