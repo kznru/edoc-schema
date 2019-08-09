@@ -133,7 +133,7 @@
         "cadastre_number": {
           "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
           "title": "Кадастровый номер",
-          "description": "Кадастровый номер земельного участка или кадастрового квартала"
+          "description": "Кадастровый номер запрашиваемого объекта"
         },
         "photo": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
