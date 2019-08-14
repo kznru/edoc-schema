@@ -19,8 +19,12 @@
       "title": "Арендодатель - юр.лицо(а)"
     },
     "tenant": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Арендатор"
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Арендатор - юр.лицо"
+    },
+    "tenant_self_employed": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "Арендатор - самозанятый"
     },
     "valid_from": {
       "type": "string",
@@ -38,7 +42,7 @@
     },
     "content": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": ""
+      "title": "Скан договора аренды"
     }
   }
 }
