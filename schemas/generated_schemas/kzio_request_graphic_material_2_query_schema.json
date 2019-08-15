@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "address_with_map",
+    "area"
+  ],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "title": "Площадь земельного участка, кв.м",
+      "description": "Число с округлением до целого"
+    },
+    "borders_scheme": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
