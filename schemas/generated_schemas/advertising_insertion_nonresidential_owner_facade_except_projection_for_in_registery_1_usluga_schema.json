@@ -107,8 +107,7 @@
       "type": "object",
       "required": [
         "payer",
-        "document",
-        "payment_document"
+        "document"
       ],
       "properties": {
         "payer": {
@@ -120,11 +119,6 @@
           "title": "Номер и дата документа",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
-        },
-        "payment_document": {
-          "title": "Платежный документ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Прикрепляется скан платежного документа"
         }
       }
     },
