@@ -59,7 +59,7 @@
     "description": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Краткое описание",
-      "description": "Прикрепляется скан пояснительной записки, в которой необходимо указать: -типы информационных полей: сторона А, сторона Б, сторона В; -цвет элементов рекламной конструкции (по таблице цветов RAL); -характер подсветки рекламной конструкции: внутренний; -используемые материалы."
+      "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
     "property_owner": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
