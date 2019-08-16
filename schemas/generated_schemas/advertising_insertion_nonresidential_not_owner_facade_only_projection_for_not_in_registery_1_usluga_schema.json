@@ -129,7 +129,7 @@
     "constructive_images": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Конструктивные изображения",
-      "description": "Прикрепляется скан, содержащий чертежи проекционного оборудования, его краткое описание"
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
     },
     "field_size": {
       "title": "Размер информационного поля",
