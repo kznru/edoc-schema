@@ -127,6 +127,10 @@
         }
       }
     },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "type": "string"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"

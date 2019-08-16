@@ -17,6 +17,10 @@
       "title": "Доверенность",
       "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
     },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "type": "string"
+    },
     "situational_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Ситуационный план",
