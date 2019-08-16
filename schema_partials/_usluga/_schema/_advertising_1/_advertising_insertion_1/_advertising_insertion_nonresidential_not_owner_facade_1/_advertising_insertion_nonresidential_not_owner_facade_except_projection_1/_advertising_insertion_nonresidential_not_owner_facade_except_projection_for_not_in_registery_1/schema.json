@@ -34,7 +34,7 @@
     },
     "installation_and_operation_document": {},
     "trust_management_agreement": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Договор доверительного управления",
       "description": "Прикрепляется отсканированная копия договора доверительного управления. Копия указанного договора должна быть заверена собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом"
     },
