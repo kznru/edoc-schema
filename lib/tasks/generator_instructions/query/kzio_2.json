@@ -12,6 +12,14 @@
         { "name": "kzio_examination_and_photographing_of_object_2" },
         { "name": "kzio_request_graphic_material_2" },
 
+        { "name": "kzio_request_for_urban_planning_conclusion_2" },
+        { "name": "kzio_request_for_land_inspection_certificate_2" },
+        { "name": "kzio_request_for_land_topographic_image_2" },
+        { "name": "kzio_request_for_land_restrictions_from_eco_ministry_2" },
+        { "name": "kzio_request_for_land_restrictions_from_culture_ministry_2" },
+        { "name": "kzio_request_for_land_restrictions_from_federal_agency_for_water_resources_2" },
+        { "name": "kzio_request_for_land_restrictions_from_sredvolgavodhoz_2" },
+
         { "name": "kzio_request_information_for_land_main_2" },
         { "name": "kzio_request_information_for_land_smev_2" },
         { "name": "kzio_request_information_for_land_department_leasing_2" },
