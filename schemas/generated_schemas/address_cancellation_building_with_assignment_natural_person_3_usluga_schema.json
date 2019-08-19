@@ -36,7 +36,8 @@
     "applicant",
     "cadastre_number",
     "cancellation_number",
-    "address"
+    "address",
+    "agent"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

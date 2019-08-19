@@ -42,7 +42,8 @@
     "building_name",
     "cadastre_number_of_land",
     "address_with_map",
-    "address"
+    "address",
+    "agent"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

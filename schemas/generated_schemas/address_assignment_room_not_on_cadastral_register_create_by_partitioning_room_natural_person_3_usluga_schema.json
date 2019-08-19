@@ -48,7 +48,8 @@
     "identification_data_of_rooms",
     "purpose_of_room",
     "result_rooms_count",
-    "address"
+    "address",
+    "agent"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
