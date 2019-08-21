@@ -28,7 +28,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cancellation_number",
     "address"
   ],

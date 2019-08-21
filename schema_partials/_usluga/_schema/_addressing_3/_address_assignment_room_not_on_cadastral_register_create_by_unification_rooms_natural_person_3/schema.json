@@ -38,7 +38,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "identification_data_of_rooms",
     "purpose_of_room",
     "address"

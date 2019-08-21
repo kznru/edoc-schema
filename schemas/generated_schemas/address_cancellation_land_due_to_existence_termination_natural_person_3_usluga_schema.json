@@ -38,12 +38,11 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cadastre_number",
     "cadastre_registration_removal_date",
     "cancellation_number",
-    "address",
-    "agent"
+    "address"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

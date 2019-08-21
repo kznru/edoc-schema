@@ -38,11 +38,10 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "identification_data_of_rooms",
     "purpose_of_room",
-    "address",
-    "agent"
+    "address"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"

@@ -33,7 +33,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cadastre_number",
     "cancellation_number",
     "address"

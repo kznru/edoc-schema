@@ -28,7 +28,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cadastre_number",
     "address"
   ],
