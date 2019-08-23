@@ -1,6 +1,6 @@
 {
   "required": [
-    "letter_of_attorney_optional"
+    "letter_of_attorney"
   ],
   "properties": {
     "applicant": {
@@ -8,8 +8,8 @@
       "title": "Заявитель"
     },
     "agent": {},
-    "letter_of_attorney_optional": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     }
   }
