@@ -40,7 +40,7 @@
       "description": "ФИО заявителя, либо представителя по доверенности на право подписи заявки от имени заявителя на внесение в реестр разрешений на аварийные земляные работы по данному объекту"
     },
     "letter_of_attorney_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность на подписанта",
       "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
