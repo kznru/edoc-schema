@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "is_approved"
+  ],
+  "properties": {
+    "is_approved": {
+      "type": "string",
+      "title": "Соответствует требованиям",
+      "enum": [
+        "Соответствует требованиям",
+        "Не соответствует требованиям"
+      ]
+    },
+    "approval_reject_reason": {
+      "type": "string",
+      "title": "Не соответствует требованиям",
+      "enum": [
+        "Замечания по оформлению проектных документов с комментариями",
+        "Невозможность установки рекламной конструкции с комментариями"
+      ]
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  }
+}

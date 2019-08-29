@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "required": [
+    "organization",
+    "address_with_map",
+    "type",
+    "situational_plan",
+    "topography_of_networks",
+    "graphic_image_of_structure"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "title": "Тип рекламной конструкции",
+      "description": "Выбирается один из типов рекламных конструкций: пилларс, пилон,  коммуникационный указатель.",
+      "type": "string"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "type": "string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "number_of_fields": {
+      "title": "Количество информационных полей",
+      "type": "string",
+      "description": "Указывается количество информационных полей"
+    },
+    "total_area_of_fields": {
+      "type": "string",
+      "title": "Общая площадь информационного поля (информационных полей), кв.м",
+      "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности",
+      "description": "Прикрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
+    },
+    "graphic_image_of_structure": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции",
+      "description": "Требования приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Краткое описание",
+      "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "situational_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ситуационный план",
+      "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции."
+    }
+  }
+}
