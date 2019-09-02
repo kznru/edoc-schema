@@ -8,6 +8,8 @@ permalink: /generated_schemas/
 
 [Выдача разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение в г.Казани](#permission_to_transfer_residential_premises_and_back)
 
+[](#adm_permission_for_conversion_or_redevelopment_of_residential_building_1)
+
 [Выдача справки о выполнении работ по благоустройству и озеленению территории строящихся или вводимых в эксплуатацию объектов капитального строительства (реконструкции) в г.Казани](#kvb_certificate_of_capital_construction_gardening)
 
 [Регистрация, оформление, выдача и продление разрешений (ордеров) на производство земляных работ, связанных с нарушением элементов наружного благоустройства](#kvb_excavation_orders)
@@ -189,6 +191,34 @@ permalink: /generated_schemas/
 [Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_1_usluga_schema.json)
 
 [Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
+
+-------------------------
+
+###  {#adm_permission_for_conversion_or_redevelopment_of_residential_building_1}
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (ЮЛ, ИП), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (физ. лицо), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (физ. лицо с представителем), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_natural_person_with_agent_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (ЮЛ, ИП), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (физ. лицо), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (физ. лицо с представителем), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_natural_person_with_agent_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (ЮЛ, ИП), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (физ. лицо), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (физ. лицо с представителем), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_natural_person_with_agent_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (ЮЛ, ИП), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_legal_entity_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (физ. лицо), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_natural_person_1_usluga_schema.json)
+
+[Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (физ. лицо с представителем), версия #1](/schemas/generated_schemas/adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_natural_person_with_agent_1_usluga_schema.json)
 
 -------------------------
 

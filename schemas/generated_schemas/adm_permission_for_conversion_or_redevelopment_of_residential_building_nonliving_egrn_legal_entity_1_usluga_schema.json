@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель ",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность ",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address": {
+      "title": "Адрес, по которому находится переводимое помещение ",
+      "description": "Адрес с указанием города, улицы, номера дома, квартиры",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "proekt_pereustrojstwa_i_ili_pereplanirowki": {
+      "title": "Проект переустройства и (или) перепланировки",
+      "description": "Подготовленный и оформленный в установленном порядке проект переустройства и (или) перепланировки переустраиваемого и (или) перепланируемого помещения в многоквартирном доме, соответствующий требованиям постановления Правительства Российской Федерации от 16.02.2008 N 87 \"О составе разделов проектной документации и требованиях к их содержанию\", включающий обоснование проектных решений и мероприятий, соблюдение санитарно-гигиенических условий( проект должен быть согласован с органами санитарно-эпидемиологического надзора) ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq": {
+      "title": "Технический паспорт переустраиваемого и (или) перепланируемого помещения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "jeskiznyj_proekt": {
+      "title": "Эскизный проект",
+      "description": "В случае изменения архитектурного облика объекта нежилого помещения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "protokol_obschego_sobraniq": {
+      "title": "Протокол общего собрания",
+      "description": "Ссылка на протокол общего собрания в ГИС ЖКХ если переустройство и (или) перепланировка помещения в многоквартирном доме невозможны без присоединения к данному помещению части общего имущества в многоквартирном доме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "dowerennost",
+    "address",
+    "proekt_pereustrojstwa_i_ili_pereplanirowki",
+    "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
+    "jeskiznyj_proekt",
+    "protokol_obschego_sobraniq"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

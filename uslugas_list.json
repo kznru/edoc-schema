@@ -13,6 +13,24 @@
     }
   },
   {
+    "key": "adm_permission_for_conversion_or_redevelopment_of_residential_building_1",
+    "name": "",
+    "passports": {
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_legal_entity_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (ЮЛ, ИП)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_natural_person_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (физ. лицо)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_egrn_natural_person_with_agent_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, ЕГРН (физ. лицо с представителем)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_legal_entity_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (ЮЛ, ИП)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_natural_person_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (физ. лицо)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_living_not_egrn_natural_person_with_agent_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - жилое, не ЕГРН (физ. лицо с представителем)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_legal_entity_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (ЮЛ, ИП)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_natural_person_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (физ. лицо)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_egrn_natural_person_with_agent_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, ЕГРН (физ. лицо с представителем)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_legal_entity_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (ЮЛ, ИП)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_natural_person_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (физ. лицо)",
+      "adm_permission_for_conversion_or_redevelopment_of_residential_building_nonliving_not_egrn_natural_person_with_agent_1": "Выдача разрешения на переустройство и (или) перепланировку жилого помещения - нежилое, не ЕГРН (физ. лицо с представителем)"
+    }
+  },
+  {
     "key": "kvb_certificate_of_capital_construction_gardening",
     "name": "Выдача справки о выполнении работ по благоустройству и озеленению территории строящихся или вводимых в эксплуатацию объектов капитального строительства (реконструкции) в г.Казани",
     "passports": {
