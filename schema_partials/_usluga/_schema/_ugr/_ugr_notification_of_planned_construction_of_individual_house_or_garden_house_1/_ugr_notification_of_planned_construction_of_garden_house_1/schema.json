@@ -11,12 +11,17 @@
     "planning_parameters": {
       "type": "object",
       "title": "Сведения о планируемых параметрах",
-      "required": ["building_area"],
+      "required": ["building_area", "common_area"],
       "properties": {
         "building_area": {
           "type": "string",
           "title": "Площадь застройки",
           "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж), также прописать общая площадь дома с учетом всех этажей (либо мансарды)"
+        },
+        "common_area": {
+          "type": "number",
+          "title": "Общая площадь (кв.м)",
+          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
         },
         "above_floors_number": {
           "type": "string",

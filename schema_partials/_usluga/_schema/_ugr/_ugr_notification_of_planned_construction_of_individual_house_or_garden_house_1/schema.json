@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
-  "required": ["cadastre_number", "cadastre_number_quarter", "address_with_map", "developer_rights", "availability_rights_of_other_person", "type_of_permitted_use_of_land", "permission_to_deviate_from_limiting_parameters", "schematic_depiction"],
+  "required": ["cadastre_number", "cadastre_number_quarter", "address_with_map", "developer_rights", "availability_rights_of_other_person", "type_of_permitted_use_of_land", "schematic_depiction"],
   "properties": {
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -39,7 +39,6 @@
       "required": [
         "above_floors_number",
         "limiting_height",
-        "common_area",
         "building_area",
         "distance_from_boundaries_of_land"
       ],
@@ -49,11 +48,6 @@
           "type": "number",
           "title": "Предельная высота (в метрах)",
           "description": "Высота строящегося дома от поверхности земли до конька крыши"
-        },
-        "common_area": {
-          "type": "number",
-          "title": "Общая площадь (кв.м)",
-          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
         },
         "building_area": {
           "type": "number",

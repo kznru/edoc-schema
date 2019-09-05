@@ -78,9 +78,9 @@
       "title": "Сведения о планируемых параметрах",
       "required": [
         "building_area",
+        "common_area",
         "above_floors_number",
         "limiting_height",
-        "common_area",
         "distance_from_boundaries_of_land"
       ],
       "properties": {
@@ -88,6 +88,11 @@
           "type": "string",
           "title": "Площадь застройки",
           "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж), также прописать общая площадь дома с учетом всех этажей (либо мансарды)"
+        },
+        "common_area": {
+          "type": "number",
+          "title": "Общая площадь (кв.м)",
+          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
         },
         "above_floors_number": {
           "type": "string",
@@ -103,11 +108,6 @@
           "type": "number",
           "title": "Предельная высота (в метрах)",
           "description": "Высота строящегося дома от поверхности земли до конька крыши"
-        },
-        "common_area": {
-          "type": "number",
-          "title": "Общая площадь (кв.м)",
-          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
         },
         "distance_from_boundaries_of_land": {
           "type": "object",
@@ -178,7 +178,6 @@
     "developer_rights",
     "availability_rights_of_other_person",
     "type_of_permitted_use_of_land",
-    "permission_to_deviate_from_limiting_parameters",
     "schematic_depiction"
   ]
 }
