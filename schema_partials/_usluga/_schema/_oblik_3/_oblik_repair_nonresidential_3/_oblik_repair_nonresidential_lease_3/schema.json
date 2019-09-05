@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": ["lease_contract"],
+  "properties": {
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    }
+  }
+}

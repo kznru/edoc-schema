@@ -1,0 +1,341 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "oblik_3",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "oblik_lighting_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_lighting_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_lighting_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_lighting_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_lighting_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_lighting_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_lighting_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_lighting_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_lighting_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_lighting_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oblik_repair_residential_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_repair_residential_legal_entity_3"
+            },
+            {
+              "name": "oblik_repair_residential_natural_person_3"
+            },
+            {
+              "name": "oblik_repair_residential_natural_person_with_agent_3"
+            },
+            {
+              "name": "oblik_repair_residential_self_employed_3"
+            },
+            {
+              "name": "oblik_repair_residential_self_employed_with_agent_3"
+            }
+          ]
+        },
+        {
+          "name": "oblik_repair_nonresidential_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_repair_nonresidential_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_repair_nonresidential_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_repair_nonresidential_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_repair_nonresidential_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oblik_outdoor_media_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_outdoor_media_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_outdoor_media_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_outdoor_media_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_outdoor_media_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_outdoor_media_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oblik_nonstationary_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_nonstationary_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_nonstationary_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_nonstationary_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_nonstationary_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_nonstationary_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_nonstationary_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oblik_color_residental_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_color_residental_legal_entity_3"
+            },
+            {
+              "name": "oblik_color_residental_natural_person_3"
+            },
+            {
+              "name": "oblik_color_residental_natural_person_with_agent_3"
+            },
+            {
+              "name": "oblik_color_residental_self_employed_3"
+            },
+            {
+              "name": "oblik_color_residental_self_employed_with_agent_3"
+            }
+          ]
+        },
+        {
+          "name": "oblik_color_nonresidental_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_color_nonresidental_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_color_nonresidental_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_color_nonresidental_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_color_nonresidental_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_color_nonresidental_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oblik_landscaping_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_landscaping_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_landscaping_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_landscaping_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_landscaping_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_landscaping_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_landscaping_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_landscaping_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_landscaping_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_landscaping_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

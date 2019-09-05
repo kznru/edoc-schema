@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "lease_contract": {},
+    "explanatory_note": {},
+    "graphic_part": {}
+  }
+}
