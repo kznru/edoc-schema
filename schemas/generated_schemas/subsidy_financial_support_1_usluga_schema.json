@@ -8,11 +8,20 @@
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
-      "title": "Руководитель",
-      "description": "Лицо, представляющее организацию"
+      "title": "Представитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
+    },
+    "rukovoditel": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "Руководитель",
+      "description": "Лицо, представляющее организацию"
+    },
+    "document_polnomochia_rukovoditelya": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Документ подтверждающий полномочия",
       "description": "Документ подтверждающий полномочия руководителя"
     },
@@ -79,6 +88,8 @@
     "organization",
     "agent",
     "letter_of_attorney",
+    "rukovoditel",
+    "document_polnomochia_rukovoditelya",
     "skan_dokumenta_podtwerzhda_schego_polnomochiq_rukowoditelq",
     "razmer_subsidii",
     "otchetnyj_period",
