@@ -1,0 +1,12 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "termination_of_permanent_use_of_land",
+      "virtual": true,
+      "keys": [
+        { "name": "inspection_of_land_mzk_1" }
+      ]
+    }
+  ]
+}
