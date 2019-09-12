@@ -140,7 +140,7 @@
     },
     "confirm_for_not_intended_division_on_independent_real_estate": {
       "type": "boolean",
-      "title": "Настоящим уведомлением подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
+      "title": "Настоящим уведомлением подтверждаю, что садовый дом не предназначен для раздела на самостоятельные объекты недвижимости"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -154,13 +154,13 @@
   },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "required": [
+    "confirm_for_not_intended_division_on_independent_real_estate",
     "cadastre_number",
     "cadastre_number_quarter",
     "address_with_map",
     "developer_rights",
     "availability_rights_of_other_person",
     "type_of_permitted_use_of_land",
-    "schematic_depiction",
-    "confirm_for_not_intended_division_on_independent_real_estate"
+    "schematic_depiction"
   ]
 }

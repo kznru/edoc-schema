@@ -171,13 +171,13 @@
   },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "required": [
+    "confirm_for_not_intended_division_on_independent_real_estate",
     "cadastre_number",
     "cadastre_number_quarter",
     "address_with_map",
     "developer_rights",
     "availability_rights_of_other_person",
     "type_of_permitted_use_of_land",
-    "schematic_depiction",
-    "confirm_for_not_intended_division_on_independent_real_estate"
+    "schematic_depiction"
   ]
 }

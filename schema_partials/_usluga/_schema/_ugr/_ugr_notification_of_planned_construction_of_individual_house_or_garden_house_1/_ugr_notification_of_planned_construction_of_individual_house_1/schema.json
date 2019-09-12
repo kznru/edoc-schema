@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
+  "required": ["confirm_for_not_intended_division_on_independent_real_estate"],
   "properties": {
     "cadastre_number": {},
     "cadastre_number_quarter": {},
@@ -24,6 +25,15 @@
           ]
         }
       }
-    }
+    },
+    "permission_to_deviate_from_limiting_parameters": {},
+    "typical_architectural_solution_description": {},
+    "typical_architectural_solution_files": {},
+    "schematic_depiction": {},
+    "confirm_for_not_intended_division_on_independent_real_estate": {
+      "type": "boolean",
+      "title": "Настоящим уведомлением подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
+    },
+    "attachments": {}
   }
 }
