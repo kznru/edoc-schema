@@ -6,6 +6,14 @@
     "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
     "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
   },
+  "head_of_organization": {
+    "title": "ФИО руководителя организации заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+  },
+  "address_head_of_organization": {
+    "title": "Адрес руководителя организации заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+  },
   "agent": {
     "title": "Представитель",
     "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
