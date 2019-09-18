@@ -19,7 +19,7 @@
     "work_description": {},
     "contract_of_management_or_land_survey": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Договор управления или договор межевания территории многоквартирного дома"
+      "title": "Договор управления или проект межевания территории многоквартирного дома"
     }
   }
 }
