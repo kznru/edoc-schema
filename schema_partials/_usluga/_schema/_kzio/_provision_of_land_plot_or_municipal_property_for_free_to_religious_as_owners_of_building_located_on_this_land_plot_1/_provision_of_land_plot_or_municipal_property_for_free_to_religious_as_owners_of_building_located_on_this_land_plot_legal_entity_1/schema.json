@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+  "organization": {
+    "title": "Заявитель",
+    "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+    "$ref": "#/definitions/organization/ru/organization"
+  },
+  "agent": {
+    "title": "Представитель",
+    "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+    "$ref": "#/definitions/person/ru/agent"
+  },
+  "dowerennost": {
+    "title": "Доверенность",
+    "description": "Доверенность",
+    "$ref": "#/definitions/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "address": {
+    "title": "Адрес",
+    "description": "Адрес земельного участка",
+    "$ref": "#/definitions/location/ru/address"
+  },
+  "kadastrowyj_nomer": {
+    "title": "Кадастровый номер",
+    "description": "Кадастровый номер земельного участка",
+    "$ref": "#/definitions/identifier/ru/cadastre_number"
+  },
+  "ploschad__kw_m": {
+    "title": "Площадь (кв.м)",
+    "description": "Площадь участка, кв.м.",
+    "$ref": "#/definitions/document/ru/uslugi/definitions/green_report_area"
+  },
+  "vid_razreshennogo_ispol_zowaniq": {
+    "title": "Вид разрешенного использования",
+    "description": "Вид разрешенного использования",
+    "$ref": "#/definitions/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+  },
+  "dannye_identificiru_schie_zdaniq": {
+    "title": "Данные, идентифицирующие здания",
+    "description": "Сообщение заявителя (заявителей), содержащее перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием кадастровых (условных, инвентарных) номеров и адресных ориентиров зданий, сооружений, принадлежащих на соответствующем праве заявителю.",
+    "$ref": "#/definitions/document/ru/uslugi/definitions/identification_data_of_buildings"
+  },
+  "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka_bez_prowedeniq_torgow": {
+    "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
+    "description": "Файлы",
+    "$ref": "#/definitions/document/ru/uslugi/definitions/scanned_document_optional"
+  }
+},
+  "required": [
+    "organization",
+    "agent",
+    "dowerennost",
+    "address",
+    "kadastrowyj_nomer",
+    "dannye_identificiru_schie_zdaniq",
+    "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka_bez_prowedeniq_torgow"
+  ]
+}
