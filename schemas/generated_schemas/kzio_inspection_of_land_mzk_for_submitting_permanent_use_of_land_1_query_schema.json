@@ -13,10 +13,6 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес объекта",
       "description": "Адрес объекта"
-    },
-    "organization": {
-      "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"
