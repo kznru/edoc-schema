@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_freestanding_advertising_structure",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "description": "Тип отдельностоящей рекламной конструкции",
+  "minItems": 1,
+  "enum": [
+    "пилон",
+    "пилларс",
+    "коммуникационный указатель"
+  ]
+}
