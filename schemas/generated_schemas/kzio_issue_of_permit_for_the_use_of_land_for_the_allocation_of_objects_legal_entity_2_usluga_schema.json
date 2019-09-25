@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Доверенность",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Указывается адрес запрашиваемого земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "kadastrowyj_nomer": {
+      "title": "Кадастровый номер",
+      "description": " Кадастровый номер в виде число:число:число...\nв случае если планируется использование всего земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "ploschad__kw_m": {
+      "title": "Площадь (кв.м)",
+      "description": "Указывается площадь запрашиваемого земельного участка (в случае, если кадастровый номер - площадь земельного участка по кадастру, если часть земельного участка, площадь указывается по схеме расположения земельного участка на кадастровом плане территории) ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "predpolagaemaq_cel_ispol_zowaniq": {
+      "title": "Предполагаемая цель использования",
+      "description": "Предполагаемая цель использования земельных участков",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    },
+    "srok": {
+      "title": "Срок",
+      "description": "Месяц (год)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    },
+    "kadastrowyj_kwartal": {
+      "title": "Кадастровый квартал",
+      "description": " Кадастровый номер в виде число:число:число… в случае если планируется использование земель или части земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "shema_raspolozheniq_zaprashiwaemogo_zemel_nogo_uchastka_s_ukazaniem_koordinat_harakternyh_tochek_granic_territorii": {
+      "title": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории",
+      "description": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории (прикрепляется зип файлом в формате WORD и MIF/MID). В случае если планируется использование земель или части земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "address",
+    "kadastrowyj_nomer",
+    "ploschad__kw_m",
+    "predpolagaemaq_cel_ispol_zowaniq",
+    "srok"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
