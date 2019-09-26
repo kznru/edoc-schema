@@ -27,8 +27,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
     },
     "srok": {
-      "title": "Срок",
-      "description": "Месяц(год)",
+      "title": "Срок (месяцы)",
+      "description": "Срок использования земельного участка в зависимости от выбранной цели, в месяцах",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
     },
     "kadastrowyj_kwartal": {
