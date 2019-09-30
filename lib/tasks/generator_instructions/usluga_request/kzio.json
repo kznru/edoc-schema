@@ -188,6 +188,18 @@
           "keys": [
             { "name": "provision_of_land_plot_or_municipal_property_for_free_to_religious_as_owners_of_building_located_on_this_land_plot_legal_entity_1" }
           ]
+        },
+        {
+          "name": "permission_to_terminate_rights_of_minor_ownership_1"
+        },
+        {
+          "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_legal_entity_1" },
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_with_agent_1" },
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_1" }
+          ]
         }
       ]
     }
