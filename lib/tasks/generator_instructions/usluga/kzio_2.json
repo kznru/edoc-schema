@@ -147,6 +147,30 @@
             {"name": "kzio_free_reception_and_granting_ground_areas_natural_person_2"},
             {"name": "kzio_free_reception_and_granting_ground_areas_natural_person_with_agent_2"}
           ]
+        },
+        {
+          "name": "kzio_land_plot_provision_to_buildings_owners_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kzio_land_plot_provision_of_property_to_buildings_owners_2",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_land_plot_provision_of_property_to_buildings_owners_legal_entity_2" },
+                { "name": "kzio_land_plot_provision_of_property_to_buildings_owners_natural_peraon_with_agent_2"},
+                { "name": "kzio_land_plot_provision_of_property_to_buildings_owners_natural_person_2" }
+              ]
+            },
+            {
+              "name": "kzio_land_plot_provision_of_rent_to_buildings_owners_2",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_land_plot_provision_of_rent_to_buildings_owners_legal_entity_2" },
+                { "name": "kzio_land_plot_provision_of_rent_to_buildings_owners_natural_person_2"},
+                { "name": "kzio_land_plot_provision_of_rent_to_buildings_owners_natural_person_with_agent_2" }
+              ]
+            }
+          ]
         }
       ]
     }

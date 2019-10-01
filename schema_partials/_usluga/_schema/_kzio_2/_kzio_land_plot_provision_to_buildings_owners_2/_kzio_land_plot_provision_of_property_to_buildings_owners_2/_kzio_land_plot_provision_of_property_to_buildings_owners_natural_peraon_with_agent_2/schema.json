@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+  "applicant": {
+    "title": "Заявитель",
+    "description": "Данные заявителя (ФИО, паспорт)",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "agent": {
+    "title": "Представитель",
+    "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "letter_of_attorney": {
+    "title": "Доверенность",
+    "description": "Документ, подтверждающий полномочия представителя заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+  },
+  "address": {
+    "title": "Адрес",
+    "description": "Адрес земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+  },
+  "cadastre_number": {
+    "title": "Кадастровый номер",
+    "description": "Кадастровый номер земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "ploschad__kw_m": {
+    "title": "Площадь (кв.м)",
+    "description": "Площадь участка, кв.м.",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+  },
+  "vid_razreshennogo_ispol_zowaniq": {
+    "title": "Вид разрешенного использования",
+    "description": "Вид разрешенного использования",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+  },
+  "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka": {
+    "title": "Документы, подтверждающие право заявителя на приобретение земельного участка",
+    "description": "Скан-копии документов, подтверждающие право заявителя на приобретение в собственность без проведения торгов земельного участка, на котором расположены здания, сооружения, собственникам которых он является.",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "dannye_identificiru_schie_ob_ekty_nedwizhimosti": {
+    "title": "Данные, идентифицирующие объекты недвижимости",
+    "description": "Адресные ориентиры зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием их кадастровых номеров",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
+  }
+},
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney",
+    "address",
+    "cadastre_number",
+    "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka",
+    "dannye_identificiru_schie_ob_ekty_nedwizhimosti"
+  ]
+}
