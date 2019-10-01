@@ -56,8 +56,7 @@
     "address",
     "proekt_pereustrojstwa_i_ili_pereplanirowki",
     "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
-    "soglasie_w_pis_mennoj_forme_wseh_chlenow_sem_i_nanimatelq",
-    "protokol_obschego_sobraniq"
+    "soglasie_w_pis_mennoj_forme_wseh_chlenow_sem_i_nanimatelq"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

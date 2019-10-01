@@ -61,8 +61,7 @@
     "prawoustanawliwa_schie_dokumenty_na_pereustraiwaemoe_i_ili_pereplaniruemoe_pomeschenie",
     "proekt_pereustrojstwa_i_ili_pereplanirowki",
     "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
-    "jeskiznyj_proekt",
-    "protokol_obschego_sobraniq"
+    "jeskiznyj_proekt"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
