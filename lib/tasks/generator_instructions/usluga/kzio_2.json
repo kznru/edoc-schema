@@ -122,6 +122,15 @@
             { "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_2" },
             { "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_with_agent_2" }
           ]
+        },
+        {
+          "name": "kzio_provision_of_land_for_rent_without_auction_2",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_provision_of_land_for_rent_without_auction_legal_entity_2" },
+            { "name": "kzio_provision_of_land_for_rent_without_auction_natural_person_2" },
+            { "name": "kzio_provision_of_land_for_rent_without_auction_natural_person_with_agent_2" }
+          ]
         }
       ]
     }
