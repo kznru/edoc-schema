@@ -2,10 +2,18 @@
   "required": [
     "organization",
     "agent",
-    "letter_of_attorney"
+    "letter_of_attorney",
+    "registry_item"
   ],
   "properties": {
-    "registry_item": {},
+    "registry_item": {
+      "title": "Номер записи в реестре",
+      "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции в реестре",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "advertising_1"
+      }
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Владелец рекламной конструкции"

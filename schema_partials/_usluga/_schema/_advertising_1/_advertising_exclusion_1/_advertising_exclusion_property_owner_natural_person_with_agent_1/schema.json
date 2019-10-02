@@ -5,10 +5,18 @@
     "address_with_map",
     "letter_of_attorney",
     "termination_of_contract_for_installation_and_operation",
-    "title_document_for_property"
+    "title_document_for_property",
+    "registry_item"
   ],
   "properties": {
-    "registry_item": {},
+    "registry_item": {
+      "title": "Номер записи в реестре",
+      "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции в реестре",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "advertising_1"
+      }
+    },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Собственник или иной законный владелец недвижимого имущества"
