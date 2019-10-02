@@ -39,6 +39,11 @@
       "title": "Выписка кадастра на земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
+    "consent_of_all_owners": {
+      "title": "Согласие всех собственников",
+      "description": "В том числе временно отсутствующих собственников, в письменной форме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -57,7 +62,8 @@
     "document_podtverjdaushii_otsutstvie_zaregistrirovannih_lic_v_perevodimom_pomeschenii",
     "tehnicheskij_pasport_perewodimogo_pomescheniq",
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
-    "vypiska_kadastra_na_zemel_nyj_uchastok"
+    "vypiska_kadastra_na_zemel_nyj_uchastok",
+    "consent_of_all_owners"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

@@ -38,7 +38,7 @@
   "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome": {
     "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
     "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_with_require_number_date"
   }
 },
   "required": [
@@ -49,7 +49,6 @@
     "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",
     "plan_perewodimogo_pomescheniq_s_ego_tehnicheskim_opisaniem",
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",
-    "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
-    "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome"
+    "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq"
   ]
 }

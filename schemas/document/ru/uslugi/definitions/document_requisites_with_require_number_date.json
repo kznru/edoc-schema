@@ -1,0 +1,26 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_with_require_number_date",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Реквизиты документа",
+  "title": "Реквизиты документа",
+  "type": "object",
+  "required": [
+    "number",
+    "date"
+  ],
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер документа"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата документа"
+    },
+    "scanned_documents": {
+      "title": "Сканы документов",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    }
+  }
+}
