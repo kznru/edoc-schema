@@ -1,0 +1,13 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects",
+      "virtual": true,
+      "keys": [
+        { "name": "preparation_townplanning_opinion_issuing_requested_permission_use_land" },
+        { "name": "municipal_land_control_to_requested_land" }
+      ]
+    }
+  ]
+}
