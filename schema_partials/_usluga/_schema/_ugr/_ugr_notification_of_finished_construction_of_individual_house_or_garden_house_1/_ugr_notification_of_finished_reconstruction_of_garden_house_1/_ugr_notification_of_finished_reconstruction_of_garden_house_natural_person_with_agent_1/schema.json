@@ -34,6 +34,7 @@
             },
             "issue_date": {
               "type": "string",
+              "format": "date",
               "title": "Дата выдачи"
             }
           }
