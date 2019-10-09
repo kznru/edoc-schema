@@ -26,6 +26,11 @@
     "description": "Кадастровый номер земельного участка",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
   },
+  "lease_contract": {
+    "title": "Срок аренды",
+    "type": "string",
+    "format": "date"
+  },
   "osnowanie_predostawleniq_zemel_nogo_uchastka_w_arendu": {
     "title": "Основание предоставления земельного участка в аренду",
     "description": "Выбрать один из пунктов в соответствии с Земельным кодексом РФ",
@@ -56,6 +61,7 @@
     "organization",
     "agent",
     "letter_of_attorney",
+    "lease_contract",
     "address",
     "cadastre_number",
     "osnowanie_predostawleniq_zemel_nogo_uchastka_w_arendu",
