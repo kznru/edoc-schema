@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": ["conclusion"],
+  "properties": {
+    "conclusion": {
+      "type": "string",
+      "title": "Заключение о возможности предоставления участка в собственность",
+      "minItems": 1,
+      "enum": [
+        "положительное",
+        "отрицательное"
+      ]
+    },
+    "response_text": {
+      "type": "string",
+      "title": "Обоснование"
+    }
+  }
+}
