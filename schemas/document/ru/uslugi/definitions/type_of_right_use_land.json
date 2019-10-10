@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_right_use_land",
+  "type": "string",
+  "description": "Вид права",
+  "minItems": 1,
+  "enum": [
+    "аренда",
+    "безвозмездное пользование",
+    "собственность"
+  ]
+}

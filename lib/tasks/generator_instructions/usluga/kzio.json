@@ -196,9 +196,24 @@
           "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_1",
           "virtual": true,
           "keys": [
-            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_legal_entity_1" },
-            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_with_agent_1" },
-            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_1" }
+            {
+              "name": "with_real_estate",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_legal_entity_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_natural_person_with_agent_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_natural_person_1" }
+              ]
+            },
+            {
+              "name": "without_real_estate",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_legal_entity_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_natural_person_with_agent_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_natural_person_1" }
+              ]
+            }
           ]
         }
       ]
