@@ -130,6 +130,7 @@
     },
     "schematic_depiction": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "image/png, image/jpeg",
       "title": "Схематичное изображение реконструированного объекта капитального строительства на земельном участке",
       "description": "Отсканированное в цвете схематичное изображение реконструированного объекта капитального строительства на земельном участке"
     },
