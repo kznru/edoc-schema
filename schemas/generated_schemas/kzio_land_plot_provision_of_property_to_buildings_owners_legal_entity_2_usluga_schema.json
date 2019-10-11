@@ -56,6 +56,7 @@
     }
   },
   "required": [
+    "vid_razreshennogo_ispol_zowaniq",
     "organization",
     "agent",
     "letter_of_attorney",

@@ -48,6 +48,7 @@
   }
 },
   "required": [
+    "vid_razreshennogo_ispol_zowaniq",
     "applicant",
     "agent",
     "letter_of_attorney",

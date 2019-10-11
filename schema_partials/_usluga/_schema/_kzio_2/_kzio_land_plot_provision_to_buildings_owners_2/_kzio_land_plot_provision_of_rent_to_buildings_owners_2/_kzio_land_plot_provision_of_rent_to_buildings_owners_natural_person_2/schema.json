@@ -38,6 +38,7 @@
   }
 },
   "required": [
+    "vid_razreshennogo_ispol_zowaniq",
     "agent",
     "address",
     "cadastre_number",
