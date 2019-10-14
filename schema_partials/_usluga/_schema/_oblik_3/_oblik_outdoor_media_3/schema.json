@@ -5,6 +5,11 @@
     "planeta_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
+    "documents_for_land": {
+      "title": "Правоустанавливающие документы на земельный участок",
+      "description": "Скан-копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
     "graphic_part": {
       "type": "object",
       "title": "Графическая часть",
@@ -40,6 +45,11 @@
           }
         }
       }
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
     }
   }
 }

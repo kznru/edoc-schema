@@ -38,7 +38,7 @@
               "sketch": {
                 "title": "Эскизное предложение",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
+                "description": "Архитектурно-строительные чертежи: фасады объекта"
               },
               "description": {
                 "type": "string",
@@ -56,6 +56,11 @@
           }
         }
       }
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
     }
   }
 }

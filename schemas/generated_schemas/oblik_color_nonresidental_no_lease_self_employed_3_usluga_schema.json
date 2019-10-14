@@ -51,7 +51,7 @@
               "sketch": {
                 "title": "Эскизное предложение",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
+                "description": "Архитектурно-строительные чертежи: фасады объекта"
               },
               "description": {
                 "title": "Описание",

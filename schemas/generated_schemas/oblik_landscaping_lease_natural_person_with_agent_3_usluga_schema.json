@@ -62,6 +62,11 @@
         }
       }
     },
+    "documents_of_title": {
+      "title": "Правоустанавливающие документы",
+      "description": "Скан-копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
