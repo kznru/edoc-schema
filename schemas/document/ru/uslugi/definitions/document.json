@@ -12,7 +12,7 @@
     "date":{
       "type": "string",
       "format": "date",
-      "title": "Дата"
+      "title": "Дата документа"
     }
   }
 }
