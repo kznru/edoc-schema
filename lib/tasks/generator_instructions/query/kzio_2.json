@@ -14,6 +14,7 @@
 
         { "name": "kzio_request_for_urban_planning_conclusion_2" },
         { "name": "kzio_request_for_land_inspection_certificate_2" },
+        { "name": "kzio_request_for_land_inspection_certificate_five_days_2" },
         { "name": "kzio_request_for_land_topographic_image_2" },
         { "name": "kzio_request_for_land_restrictions_from_eco_ministry_2" },
         { "name": "kzio_request_for_land_restrictions_from_culture_ministry_2" },
