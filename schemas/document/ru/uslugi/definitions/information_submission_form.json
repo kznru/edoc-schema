@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_submission_form",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Форма предоставления сведений",
+  "description": "Форма предоставления сведений",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "Копии документов",
+    "Сообщение"
+  ]
+}

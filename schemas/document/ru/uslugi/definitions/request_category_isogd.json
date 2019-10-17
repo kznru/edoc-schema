@@ -1,0 +1,14 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/request_category_isogd",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Категория запроса сведений ИСОГД",
+  "description": "Категория запроса сведений ИСОГД",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "о развитии территории",
+    "о застройке территории",
+    "о земельном участке ",
+    "об объекте капитального строительства"
+  ]
+}
