@@ -63,6 +63,7 @@
     "tehnicheskij_pasport_perewodimogo_pomescheniq",
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
+    "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome",
     "consent_of_all_owners"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"

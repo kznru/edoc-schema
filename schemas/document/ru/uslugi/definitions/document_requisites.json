@@ -7,15 +7,15 @@
   "properties": {
     "number": {
       "type": "string",
-      "title": "Номер договора"
+      "title": "Номер документа"
     },
     "date": {
       "type": "string",
       "format": "date",
-      "title": "Дата договора"
+      "title": "Дата документа"
     },
     "scanned_documents": {
-      "title": "Сканы договора",
+      "title": "Сканы документа",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
     }
   }
