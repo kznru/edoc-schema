@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "title": "Адрес, по которому находится  запрашиваемый земельный участок",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "ploschad": {
+      "title": "Площадь",
+      "description": "ориентировочная",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka": {
+      "title": "Иная информация, необходимая для идентификации  запрашиваемого земельного участка",
+      "description": "Можно указать ближайший кадастровый номер, для идентификации местоположения запрашиваемого земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "cel": {
+      "title": "Цель ",
+      "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    },
+    "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
+      "title": "Схема с нанесенными границами запрашиваемого земельного участка",
+      "description": "Желательно приложить схематичное изображение границ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "agent",
+    "address_with_map",
+    "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
+    "cel"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
