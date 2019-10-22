@@ -45,7 +45,8 @@
                 "title": "Тип фасада",
                 "enum": [
                   "главный",
-                  "боковой"
+                  "боковой",
+                  "дворовый"
                 ]
               },
               "photo": {
@@ -63,7 +64,8 @@
         },
         "topographic_plan": {
           "title": "Топографический план",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Генплан размещения оборудования в масштабе 1:500 при архитектурной подсветке объекта с отдельно стоящих опор"
         },
         "light_technical_calculation": {
           "title": "Светотехнический расчет",
