@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/generic/usluga_number_field",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Номер муниципальной услуги",
+  "description": "Номер муниципальной услуги",
+  "type": "string"
+}

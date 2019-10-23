@@ -2,8 +2,7 @@
   "type": "object",
   "properties": {
     "usluga_number": {
-      "type": "string",
-      "title": "Номер муниципальной услуги"
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
