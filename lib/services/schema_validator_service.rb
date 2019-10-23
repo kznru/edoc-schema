@@ -1,4 +1,5 @@
 require 'json_schemer'
+require 'byebug'
 
 class SchemaValidatorService
   def self.call
@@ -46,6 +47,7 @@ class SchemaValidatorService
         ].compact.join('')
       }
     end
+    check_required_validity(data, file)
   end
 
   def temporary_except_files
@@ -59,5 +61,12 @@ class SchemaValidatorService
       "schemas/geo/lineStringCoordinates.json",
       "schemas/geo/polygonCoordinates.json",
     ].map{|file| Pathname.new([root_path, file].join('/'))}
+  end
+
+  def check_required_validity(data, file)
+    required = data["required"] || []
+    properties = data["properties"]&.keys || []
+    excess_required = required - properties
+    puts "\nExcess required in #{file}: #{excess_required}" unless excess_required.empty?
   end
 end
