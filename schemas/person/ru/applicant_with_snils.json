@@ -5,20 +5,8 @@
   "type": "object",
   "properties": {
     "natural_person": {
-      "title": "Данные заявителя",
-      "type": "object",
-      "properties": {
-        "passport_number": {
-          "type": "string",
-          "pattern": "^[0-9]{6}$","title": "Номер паспорта",
-          "description": "Последние 6 цифр номера паспорта"
-        },
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО",
-          "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person",
+      "title": "Данные заявителя"
     },
     "snils": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/snils",
