@@ -55,7 +55,6 @@
     }
   },
   "required": [
-    "applicant",
     "adres_prozhiwaniq",
     "adres_po_kotoromu_nahoditsq_perewodimoe_pomeschenie",
     "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",

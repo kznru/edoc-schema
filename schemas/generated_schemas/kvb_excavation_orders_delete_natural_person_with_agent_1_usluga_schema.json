@@ -1,6 +1,6 @@
 {
   "required": [
-    "organization",
+    "applicant",
     "letter_of_attorney",
     "agent",
     "registry_item",

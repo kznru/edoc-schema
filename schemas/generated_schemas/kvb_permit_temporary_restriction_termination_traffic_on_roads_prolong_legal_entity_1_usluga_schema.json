@@ -16,6 +16,10 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "previous_order": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Ранее выданное разрешение"
@@ -23,6 +27,13 @@
     "genplan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
+    },
+    "bank_details": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
+    },
+    "bank_address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Местонахождение банка"
     },
     "object_name": {
       "title": "Наименование объекта",
@@ -63,17 +74,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
     }
-  },
-  "letter_of_attorney": {
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-    "title": "Доверенность"
-  },
-  "bank_details": {
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-  },
-  "bank_address_with_map": {
-    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-    "title": "Местонахождение банка"
   },
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
