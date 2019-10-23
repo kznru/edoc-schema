@@ -4,6 +4,11 @@
   "description": "Реквизиты документа",
   "title": "Реквизиты документа",
   "type": "object",
+  "required": [
+    "number",
+    "date",
+    "scanned_documents"
+  ],
   "properties": {
     "number": {
       "type": "string",
