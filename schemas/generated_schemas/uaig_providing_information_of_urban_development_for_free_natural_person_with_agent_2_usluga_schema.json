@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Ввести данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "ukazat_na_nalichie_osnowanij_predostawleniq_swedenij_isogd_besplatno_prilozhiw_sootwetstwu_schie_dokumenty": {
+      "title": "Указать на наличие оснований предоставления сведений ИСОГД бесплатно, приложив соответствующие документы",
+      "description": "Бесплатно сведения ИСОГД предоставляются по запросам органов государственной власти РФ, РТ, органов местного самоуправления, организаций (органов) по учету объектов недвижимого имущества, учету государственного и муниципального имущества, а в случаях, предусмотренных федеральными законами, - по запросам физических и юридических лиц",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_with_description"
+    },
+    "swedeniq_isogd": {
+      "title": "Сведения ИСОГД",
+      "description": "Уточнить, какие именно сведения необходимо предоставить",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_isogd"
+    },
+    "kategoriq_zaprosa": {
+      "title": "Категория запроса",
+      "description": "Выбрать категорию запроса",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/request_category_isogd"
+    },
+    "kadastrowyj_nomer": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "tochnyj_adres_ili_oboznachenie_mestonahozhdeniq_interesu_schej_territorii": {
+      "title": "Точный адрес или обозначение местонахождения интересующей территории",
+      "description": "Указать адрес или местоположение территории",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "razdel_isogd": {
+      "title": "Раздел ИСОГД",
+      "description": "Выбрать нужные разделы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/section_isogd"
+    },
+    "forma_predostawleniq_swedenij": {
+      "title": "Форма предоставления сведений",
+      "description": "Выбрать одно из значений",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_submission_form"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "swedeniq_isogd",
+    "kategoriq_zaprosa",
+    "kadastrowyj_nomer",
+    "tochnyj_adres_ili_oboznachenie_mestonahozhdeniq_interesu_schej_territorii",
+    "razdel_isogd",
+    "forma_predostawleniq_swedenij"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

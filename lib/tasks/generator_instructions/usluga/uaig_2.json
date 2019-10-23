@@ -1,0 +1,29 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "uaig_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "uaig_providing_information_of_urban_development_for_free_2",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_providing_information_of_urban_development_for_free_legal_entity_2" },
+            { "name": "uaig_providing_information_of_urban_development_for_free_natural_person_2" },
+            { "name": "uaig_providing_information_of_urban_development_for_free_natural_person_with_agent_2"}
+          ]
+        },
+        {
+          "name": "uaig_providing_information_of_urban_development_not_free_2",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_providing_information_of_urban_development_not_free_legal_entity_2" },
+            { "name": "uaig_providing_information_of_urban_development_not_free_natural_person_2" },
+            { "name": "uaig_providing_information_of_urban_development_not_free_natural_person_with_agent_2"}
+          ]
+        }
+      ]
+    }
+  ]
+}
