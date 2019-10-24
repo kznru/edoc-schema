@@ -63,8 +63,7 @@
       "title": "Представитель"
     },
     "usluga_number": {
-      "type": "string",
-      "title": "Номер муниципальной услуги"
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
     }
   },
   "required": [
