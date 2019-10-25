@@ -1,0 +1,89 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель юридеческого лица",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "organization": {
+      "title": "Проектная организация",
+      "description": "разработчик эскизного предложения",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "dokument_podtwerzhda_schij_polnomochiq_predstawitelq_zaqwitelq_dowerennost": {
+      "title": "Документ, подтверждающий полномочия представителя заявителя (доверенность)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address_with_map": {
+      "title": "Адрес объекта проектирования",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "kadastrowyj_nomer_zemel_nogo_uchastka": {
+      "title": "Кадастровый номер земельного участка",
+      "description": "указываются кадастровые номера земельных участков в границах которых ведется проектирование",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "vid_planiruemyh_rabot": {
+      "title": "Вид планируемых работ",
+      "description": "Новое строительство                                 ",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "funkcional_nonoe_naznachenie_ob_ekta_proektirowaniq": {
+      "title": "Функциональноное назначение объекта проектирования",
+      "description": "Должен совпадать с функциональным назначением назначением объекта, указанного в эскизном предложении",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "jeskiznoe_predlozhenie": {
+      "title": "Эскизное предложение",
+      "description": "состав эскизного предложения определен постановлением ИК от 30.07.2008 №4157 (  с учетом изменений от от 28.07.2011 N 4074. Каждый лист должен быть поименован",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal"
+    },
+    "topograficheskaq_s_emka": {
+      "title": "Топографическая съемка",
+      "description": "М 1:500, выполненная не позднее шести месяцев на момент представления, со штампом организации, имеющей допуск к ее выполнению.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "swidetel_stwo_o_dopuske_k_opredelennomu_widu_ili_widam_rabot_ili_dokument_podtwerzhda_schij_wkl_chenie_w_spisok_organizacij_dlq_kotoryh_ne_trebuetsq_chlenstwo_w_samoreguliruemyh_organizaciqh_w_oblasti_arhitekturno_stroitel_nogo_proektirowaniq": {
+      "title": "Свидетельство о допуске к определенному виду или видам работ или документ, подтверждающий включение в список  организаций для которых не требуется членство в саморегулируемых организациях в области архитектурно-строительного проектирования.",
+      "description": "п. 4.1 статьи 48 Градостроительного кодекса Российской Федерации ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "dokumenty_tehnicheskoj_inwentarizacii__plan_pomescheniq_zdaniq": {
+      "title": "Документы технической инвентаризации – план помещения, здания",
+      "description": "Выдается уполномоченной организацией ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "prawoustanawliwa_schie_dokumentow_podtwerzhda_schih_imuschestwennye_prawa_zaqwitelq_na_zanimaemoe_zdanie_pomeschenie_nekapital_nyj_ob_ekt": {
+      "title": "Правоустанавливающие документов, подтверждающих имущественные права заявителя на занимаемое здание, помещение, некапитальный объект ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "organization",
+    "dokument_podtwerzhda_schij_polnomochiq_predstawitelq_zaqwitelq_dowerennost",
+    "address_with_map",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "vid_planiruemyh_rabot",
+    "funkcional_nonoe_naznachenie_ob_ekta_proektirowaniq",
+    "jeskiznoe_predlozhenie",
+    "topograficheskaq_s_emka",
+    "dokumenty_tehnicheskoj_inwentarizacii__plan_pomescheniq_zdaniq",
+    "prawoustanawliwa_schie_dokumentow_podtwerzhda_schih_imuschestwennye_prawa_zaqwitelq_na_zanimaemoe_zdanie_pomeschenie_nekapital_nyj_ob_ekt"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
