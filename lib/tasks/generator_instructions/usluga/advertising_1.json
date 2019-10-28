@@ -124,6 +124,27 @@
               ]
             }
           ]
+        },
+        {
+          "name": "advertising_update_1",
+          "virtual": true,
+          "keys": [
+            { "name": "advertising_update_change_ownership_facades_except_projection_legal_entity_1"},
+            { "name": "advertising_update_change_ownership_private_land_except_projection_natural_person_with_agent_1"},
+            { "name": "advertising_update_change_ownership_facades_except_projection_natural_person_1"},
+            { "name": "advertising_update_changing_information_posted_on_roof_installation_legal_entity_1"},
+            { "name": "advertising_update_change_ownership_facades_except_projection_natural_person_with_agent_1"},
+            { "name": "advertising_update_changing_information_posted_on_roof_installation_natural_person_1"},
+            { "name": "advertising_update_change_ownership_of_projection_legal_entity_1"},
+            { "name": "advertising_update_changing_information_posted_on_roof_installation_natural_person_with_agent_1"},
+            { "name": "advertising_update_change_ownership_of_projection_natural_person_1"},
+            { "name": "advertising_update_redesign_of_stand_alone_legal_entity_1"},
+            { "name": "advertising_update_change_ownership_of_projection_natural_person_with_agent_1"},
+            { "name": "advertising_update_redesign_of_stand_alone_natural_person_1"},
+            { "name": "advertising_update_change_ownership_private_land_except_projection_legal_entity_1"},
+            { "name": "advertising_update_redesign_of_stand_alone_natural_person_with_agent_1"},
+            { "name": "advertising_update_change_ownership_private_land_except_projection_natural_person_1"}
+          ]
         }
       ]
     }

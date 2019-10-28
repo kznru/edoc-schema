@@ -1,0 +1,57 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Введите данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "nomer_zapisi_reestra": {
+      "title": "Номер записи реестра ",
+      "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции из реестра",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards"
+    },
+    "address_with_map": {
+      "title": "Адрес места установки",
+      "description": "Адрес места установки рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "fotofixaciq_ishodnoj_situacii": {
+      "title": "Фотофиксация исходной ситуации ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
+    },
+    "topograficheskij_plan": {
+      "title": "Топографический план",
+      "description": "Требования приведены в п. 2 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+    },
+    "situacionnyj_plan": {
+      "title": "Ситуационный план ",
+      "description": "Требования приведены в п. 3 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "izobrazhenie_reklamnoj_konstrukcii": {
+      "title": "Изображение рекламной конструкции ",
+      "description": "Требования приведены в п. 4.2 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "agent",
+    "nomer_zapisi_reestra",
+    "address_with_map",
+    "fotofixaciq_ishodnoj_situacii",
+    "topograficheskij_plan",
+    "situacionnyj_plan",
+    "izobrazhenie_reklamnoj_konstrukcii"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

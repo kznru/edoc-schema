@@ -1,0 +1,64 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Введите данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность ",
+      "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address": {
+      "title": "Адрес места размещения проецируемого изображения",
+      "description": "Указывается адрес места размещения проецируемого изображения (район, улица, дом, корпус)",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "adres_mesta_razmescheniq_proekcionnogo_oborudowaniq": {
+      "title": "Адрес места размещения проекционного оборудования",
+      "description": "Указывается адрес места размещения проекционного оборудования (район, улица, дом, корпус)",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "nomer_zapisi_reestra": {
+      "title": "Номер записи реестра ",
+      "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции из реестра",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards"
+    },
+    "pis_mennoe_soglasie_lica_zakl_chiwshego_dogowor_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii_s_prezhnim_wladel_cem_reklamnoj_konstrukcii_na_smenu_wladel_ca_reklamnoj_konstrukcii": {
+      "title": "Письменное согласие лица, заключившего договор на установку и эксплуатацию рекламной конструкции с прежним владельцем рекламной конструкции, на смену владельца рекламной конструкции",
+      "description": "Подкрепляется скан письменного согласия лица, заключившего договор на установку и эксплуатацию рекламной конструкции с прежним владельцем рекламной конструкции, на смену владельца рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "dokumenty_podtwerzhda_schie_perehod_prawa_sobstwennosti_ili_drugogo_weschnogo_prawa_na_reklamnu_konstrukci": {
+      "title": "Документы, подтверждающие переход права собственности или другого вещного права на рекламную конструкцию",
+      "description": "\nПодкрепляются сканы документов, подтверждающих переход права собственности или другого вещного права на рекламную конструкцию (договор, акт приема-передачи рекламной конструкции, другое)\n",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "address",
+    "adres_mesta_razmescheniq_proekcionnogo_oborudowaniq",
+    "nomer_zapisi_reestra",
+    "pis_mennoe_soglasie_lica_zakl_chiwshego_dogowor_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii_s_prezhnim_wladel_cem_reklamnoj_konstrukcii_na_smenu_wladel_ca_reklamnoj_konstrukcii",
+    "dokumenty_podtwerzhda_schie_perehod_prawa_sobstwennosti_ili_drugogo_weschnogo_prawa_na_reklamnu_konstrukci"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

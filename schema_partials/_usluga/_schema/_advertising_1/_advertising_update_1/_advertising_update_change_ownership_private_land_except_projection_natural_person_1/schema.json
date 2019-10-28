@@ -1,0 +1,37 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель",
+    "description": "Введите данные заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "tip_reklamnoj_konstrukcii": {
+    "title": "Тип рекламной конструкции",
+    "description": "Выберите тип рекламной конструкции (пилон, пилларс, коммуникационный указатель)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_freestanding_advertising_structure"
+  },
+  "nomer_zapisi_reestra": {
+    "title": "Номер записи реестра ",
+    "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции из реестра",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards"
+  },
+  "pis_mennoe_soglasie_lica_zakl_chiwshego_dogowor_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii_s_prezhnim_wladel_cem_reklamnoj_konstrukcii_na_smenu_wladel_ca_reklamnoj_konstrukcii": {
+    "title": "Письменное согласие лица, заключившего договор на установку и эксплуатацию рекламной конструкции с прежним владельцем рекламной конструкции, на смену владельца рекламной конструкции",
+    "description": "Подкрепляется скан письменного согласия лица, заключившего договор на установку и эксплуатацию рекламной конструкции с прежним владельцем рекламной конструкции, на смену владельца рекламной конструкции",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "dokumenty_podtwerzhda_schie_perehod_prawa_sobstwennosti_ili_drugogo_weschnogo_prawa_na_reklamnu_konstrukci": {
+    "title": "Документы, подтверждающие переход права собственности или другого вещного права на рекламную конструкцию",
+    "description": "\nПодкрепляются сканы документов, подтверждающих переход права собственности или другого вещного права на рекламную конструкцию (договор, акт приема-передачи рекламной конструкции, другое)\n",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  }
+},
+  "required": [
+    "agent",
+    "tip_reklamnoj_konstrukcii",
+    "nomer_zapisi_reestra",
+    "pis_mennoe_soglasie_lica_zakl_chiwshego_dogowor_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii_s_prezhnim_wladel_cem_reklamnoj_konstrukcii_na_smenu_wladel_ca_reklamnoj_konstrukcii",
+    "dokumenty_podtwerzhda_schie_perehod_prawa_sobstwennosti_ili_drugogo_weschnogo_prawa_na_reklamnu_konstrukci"
+  ],
+  "type": "object"
+}
