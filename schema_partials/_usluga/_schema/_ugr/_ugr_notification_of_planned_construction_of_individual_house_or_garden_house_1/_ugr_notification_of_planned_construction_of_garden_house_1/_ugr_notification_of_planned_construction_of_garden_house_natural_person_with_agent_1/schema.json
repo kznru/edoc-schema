@@ -23,6 +23,7 @@
         "passport": {
           "type": "object",
           "title": "Реквизиты документа, удостоверяющего личность",
+          "required": ["seria", "issued_by", "issue_date"],
           "properties": {
             "seria": {
               "type": "string",
