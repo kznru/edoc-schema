@@ -28,6 +28,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "gpzu_give_dublicate_urban_development_plan_2",
+          "virtual": true,
+          "keys": [
+            { "name": "gpzu_give_dublicate_urban_development_plan_legal_entity_2" },
+            { "name": "gpzu_give_dublicate_urban_development_plan_natural_person_with_agent_2" },
+            { "name": "gpzu_give_dublicate_urban_development_plan_natural_person_2" }
+          ]
         }
       ]
     }
