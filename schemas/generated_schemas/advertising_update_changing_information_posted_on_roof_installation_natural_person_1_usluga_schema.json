@@ -5,10 +5,10 @@
       "description": "Введите данные заявителя",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
-    "nomer_zapisi_reestra": {
+    "registry_item": {
       "title": "Номер записи реестра ",
       "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции из реестра",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_advertising"
     },
     "address_with_map": {
       "title": "Адрес места установки",
@@ -46,7 +46,7 @@
   },
   "required": [
     "agent",
-    "nomer_zapisi_reestra",
+    "registry_item",
     "address_with_map",
     "fotofixaciq_ishodnoj_situacii",
     "topograficheskij_plan",
