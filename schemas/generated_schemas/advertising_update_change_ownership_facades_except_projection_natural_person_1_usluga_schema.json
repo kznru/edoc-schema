@@ -11,7 +11,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_advertising_structure_on_facades"
     },
     "registry_item": {
-      "title": "Номер записи реестра ",
+      "title": "Номер записи реестра",
       "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции из реестра",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_advertising"
     },
@@ -22,7 +22,7 @@
     },
     "dokumenty_podtwerzhda_schie_perehod_prawa_sobstwennosti_ili_drugogo_weschnogo_prawa_na_reklamnu_konstrukci": {
       "title": "Документы, подтверждающие переход права собственности или другого вещного права на рекламную конструкцию",
-      "description": "\nПодкрепляются сканы документов, подтверждающих переход права собственности или другого вещного права на рекламную конструкцию (договор, акт приема-передачи рекламной конструкции, другое)\n",
+      "description": "Подкрепляются сканы документов, подтверждающих переход права собственности или другого вещного права на рекламную конструкцию (договор, акт приема-передачи рекламной конструкции, другое)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
     "attachments": {
