@@ -45,8 +45,13 @@
     },
     "prichina": {
       "title": "Причина",
-      "description": "1. Утеря                                                                                                                           2. Порча                                                                                                                         3. Новый собственник",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Утеря",
+        "Порча",
+        "Новый собственник"
+      ]
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
