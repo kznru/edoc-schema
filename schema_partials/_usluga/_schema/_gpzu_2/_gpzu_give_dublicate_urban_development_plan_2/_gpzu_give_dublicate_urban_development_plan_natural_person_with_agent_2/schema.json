@@ -33,15 +33,18 @@
   "nomer_postanowleniq_rasporqzheniq": {
     "title": "Номер постановления (распоряжения)",
     "description": "Номер постановления (распоряжения)",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-  },
-  "data": {
-    "title": "Дата",
-    "$ref": "http://edoc-schema.kzn.ru/generic/date"
-  },
-  "nomer": {
-    "title": "Номер",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    "type": "object",
+    "required": ["date", "nomer"],
+    "properties": {
+      "date": {
+        "title": "Дата",
+        "$ref": "http://edoc-schema.kzn.ru/generic/date"
+      },
+      "nomer": {
+        "title": "Номер",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+      }
+    }
   },
   "prichina": {
     "title": "Причина",
@@ -58,8 +61,6 @@
     "kadastrowyj_nomer_zemel_nogo_uchastka",
     "nomer_gpzu_nomer_ru",
     "nomer_postanowleniq_rasporqzheniq",
-    "data",
-    "nomer",
     "prichina"
   ],
   "type": "object"

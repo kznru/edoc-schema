@@ -35,6 +35,10 @@
     "description": "Указать этажность",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
   },
+  "object_assignment": {
+    "title": "Назначение объекта",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+  },
   "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
     "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
     "description": "Необходимо подтвердить согласие на обработку представленных данных",
@@ -42,6 +46,7 @@
   }
 },
   "required": [
+    "object_assignment",
     "organization",
     "agent",
     "dowerennost",

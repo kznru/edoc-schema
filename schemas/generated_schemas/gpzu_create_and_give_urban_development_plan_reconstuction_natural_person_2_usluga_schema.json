@@ -20,6 +20,10 @@
       "description": "Точный адрес или ориентир местонахождения земельного участка ",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
+    "object_assignment": {
+      "title": "Назначение объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
     "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
       "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
       "description": "Необходимо подтвердить согласие на обработку представленных данных",
@@ -35,6 +39,7 @@
     }
   },
   "required": [
+    "object_assignment",
     "agent",
     "kadastrowyj_nomer_zemel_nogo_uchastka",
     "ploschad_zemel_nogo_uchastka",
