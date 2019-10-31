@@ -2,8 +2,7 @@
   "type": "object",
   "required": [
     "agent",
-    "passport_bti",
-    "cadastre_number"
+    "passport_bti"
   ],
   "properties": {
     "agent": {

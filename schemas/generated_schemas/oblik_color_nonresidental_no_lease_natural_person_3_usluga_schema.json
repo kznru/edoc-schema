@@ -1,8 +1,7 @@
 {
   "type": "object",
   "required": [
-    "agent",
-    "cadastre_number"
+    "agent"
   ],
   "properties": {
     "agent": {

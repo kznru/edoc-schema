@@ -3,8 +3,7 @@
   "required": [
     "organization",
     "agent",
-    "letter_of_attorney",
-    "cadastre_number"
+    "letter_of_attorney"
   ],
   "properties": {
     "organization": {

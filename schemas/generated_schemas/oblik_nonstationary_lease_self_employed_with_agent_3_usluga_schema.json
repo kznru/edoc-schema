@@ -4,8 +4,7 @@
     "applicant",
     "agent",
     "letter_of_attorney",
-    "lease_contract",
-    "cadastre_number"
+    "lease_contract"
   ],
   "properties": {
     "applicant": {
@@ -32,8 +31,7 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis",
-        "photo"
+        "landscape_visual_analysis"
       ],
       "properties": {
         "facades": {

@@ -2,8 +2,7 @@
   "type": "object",
   "required": [
     "agent",
-    "lease_contract",
-    "cadastre_number"
+    "lease_contract"
   ],
   "properties": {
     "agent": {

@@ -4,8 +4,7 @@
     "organization",
     "agent",
     "letter_of_attorney",
-    "passport_bti",
-    "cadastre_number"
+    "passport_bti"
   ],
   "properties": {
     "organization": {

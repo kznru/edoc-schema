@@ -3,8 +3,7 @@
   "required": [
     "applicant",
     "agent",
-    "letter_of_attorney",
-    "cadastre_number"
+    "letter_of_attorney"
   ],
   "properties": {
     "applicant": {
@@ -32,8 +31,7 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis",
-        "photo"
+        "landscape_visual_analysis"
       ],
       "properties": {
         "facades": {

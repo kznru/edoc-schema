@@ -1,8 +1,7 @@
 {
   "type": "object",
   "required": [
-    "agent",
-    "cadastre_number"
+    "agent"
   ],
   "properties": {
     "agent": {
@@ -23,8 +22,7 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis",
-        "photo"
+        "landscape_visual_analysis"
       ],
       "properties": {
         "facades": {

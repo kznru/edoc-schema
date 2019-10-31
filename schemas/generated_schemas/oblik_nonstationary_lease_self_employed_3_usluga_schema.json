@@ -2,8 +2,7 @@
   "type": "object",
   "required": [
     "agent",
-    "lease_contract",
-    "cadastre_number"
+    "lease_contract"
   ],
   "properties": {
     "agent": {
@@ -23,8 +22,7 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis",
-        "photo"
+        "landscape_visual_analysis"
       ],
       "properties": {
         "facades": {

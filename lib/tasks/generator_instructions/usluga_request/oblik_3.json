@@ -219,6 +219,54 @@
           ]
         },
         {
+          "name": "oblik_season_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "oblik_season_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_season_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_season_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_season_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_season_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_season_lease_self_employed_with_agent_3"
+                }
+              ]
+            },
+            {
+              "name": "oblik_season_no_lease_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "oblik_season_no_lease_legal_entity_3"
+                },
+                {
+                  "name": "oblik_season_no_lease_natural_person_3"
+                },
+                {
+                  "name": "oblik_season_no_lease_natural_person_with_agent_3"
+                },
+                {
+                  "name": "oblik_season_no_lease_self_employed_3"
+                },
+                {
+                  "name": "oblik_season_no_lease_self_employed_with_agent_3"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "oblik_color_residental_3",
           "virtual": true,
           "keys": [

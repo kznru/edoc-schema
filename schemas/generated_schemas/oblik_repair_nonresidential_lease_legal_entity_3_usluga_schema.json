@@ -5,8 +5,7 @@
     "agent",
     "letter_of_attorney",
     "lease_contract",
-    "passport_bti",
-    "cadastre_number"
+    "passport_bti"
   ],
   "properties": {
     "organization": {
