@@ -3,16 +3,17 @@ class GeneratorTasks
 
   def initialize
     root_path = File.expand_path('.')
+    services_path = [root_path, 'lib', 'services'].join('/')
 
-    require_relative [root_path, 'lib', 'services', 'schema_generator_service'].join('/')
-    require_relative [root_path, 'lib', 'services', 'schema_validator_service'].join('/')
-    require_relative [root_path, 'lib', 'services', 'schemas_list_service'].join('/')
-    require_relative [root_path, 'lib', 'services', 'structure_generator_service'].join('/')
-    require_relative [root_path, 'lib', 'services', 'schema_from_xls_generator'].join('/')
-    require_relative [root_path, 'lib', 'services', 'definitions_list_service'].join('/')
+    require_relative [services_path, 'schema_generator_service'].join('/')
+    require_relative [services_path, 'schema_validator_service'].join('/')
+    require_relative [services_path, 'schemas_list_service'].join('/')
+    require_relative [services_path, 'structure_generator_service'].join('/')
+    require_relative [services_path, 'schema_from_xls_generator'].join('/')
+    require_relative [services_path, 'definitions_list_service'].join('/')
 
     namespace :xls do
-      task :generate, [:path] do |t, args|
+      task :generate, [:path] do |_, args|
         params = {
           path: Pathname.new([root_path, args[:path] || 'test.xls'].join('/'))
         }
@@ -41,17 +42,19 @@ class GeneratorTasks
       task :schemas_list do
         puts 'Generate schemas list.'
 
+        schemas_filename = 'sorted_generation_schemas.md'
+
         params = {
           root_path: root_path,
           schemas_structure_path: [root_path, 'uslugas_list.json'].join('/'),
-          schemas_list_path: [root_path, 'sorted_generation_schemas.md'].join('/'),
+          schemas_list_path: [root_path, schemas_filename].join('/')
         }
         SchemasListService.new(params).call
         puts 'Done.'
       end
 
       desc 'Generate directories'
-      task :structure, [:instruction, :partials_dir]  do |t, args|
+      task :structure, [:instruction, :partials_dir] do |_, args|
         puts 'Generate structure.'
         params = {
           instruction: args[:instruction],
@@ -68,19 +71,20 @@ class GeneratorTasks
           registry
           usluga
           usluga_request
-          schemas_list validate
+          schemas_list
+          validate
         ) do
         puts 'Done.'
       end
 
       desc 'Generate query'
-      task :query do
+      task query: %i(validate) do
         puts 'Generate query.'
         params = {
-          start_path:  [root_path, 'schema_partials'].join('/'),
-          build_path:  [root_path, 'schema_partials/_query'].join('/'),
+          start_path: [root_path, 'schema_partials'].join('/'),
+          build_path: [root_path, 'schema_partials/_query'].join('/'),
           result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-          need_links:  true,
+          need_links: true,
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
@@ -88,13 +92,13 @@ class GeneratorTasks
       end
 
       desc 'Generate registry'
-      task :registry do
+      task registry: %i(validate) do
         puts 'Generate registry.'
         params = {
-          start_path:  [root_path, 'schema_partials'].join('/'),
-          build_path:  [root_path, 'schema_partials/_registry'].join('/'),
+          start_path: [root_path, 'schema_partials'].join('/'),
+          build_path: [root_path, 'schema_partials/_registry'].join('/'),
           result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-          need_links:  true,
+          need_links: true,
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
@@ -102,13 +106,13 @@ class GeneratorTasks
       end
 
       desc 'Generate usluga'
-      task :usluga do
+      task usluga: %i(validate) do
         puts 'Generate usluga.'
         params = {
-          start_path:  [root_path, 'schema_partials'].join('/'),
-          build_path:  [root_path, 'schema_partials/_usluga'].join('/'),
+          start_path: [root_path, 'schema_partials'].join('/'),
+          build_path: [root_path, 'schema_partials/_usluga'].join('/'),
           result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-          need_links:  true,
+          need_links: true,
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
@@ -116,13 +120,13 @@ class GeneratorTasks
       end
 
       desc 'Generate usluga_request'
-      task :usluga_request do
+      task usluga_request: %i(validate) do
         puts 'Generate usluga_request.'
         params = {
-          start_path:  [root_path, 'schema_partials'].join('/'),
-          build_path:  [root_path, 'schema_partials/_usluga_request'].join('/'),
+          start_path: [root_path, 'schema_partials'].join('/'),
+          build_path: [root_path, 'schema_partials/_usluga_request'].join('/'),
           result_path: [root_path, 'schemas/generated_schemas'].join('/'),
-          need_links:  true,
+          need_links: true,
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
