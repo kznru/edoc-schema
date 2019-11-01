@@ -1,0 +1,19 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "adm",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_2",
+          "virtual": true,
+          "keys": [
+            {"name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_natural_person_2"},
+            {"name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_natural_person_with_agent_2"}
+          ]
+        }
+      ]
+    }
+  ]
+}

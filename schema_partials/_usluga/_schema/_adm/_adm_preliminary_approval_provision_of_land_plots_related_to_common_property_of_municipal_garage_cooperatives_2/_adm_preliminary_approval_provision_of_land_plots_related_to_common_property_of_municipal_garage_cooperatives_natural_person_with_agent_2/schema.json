@@ -1,0 +1,94 @@
+{
+  "properties": {
+  "applicant": {
+    "title": "Председатель ГСК",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "agent": {
+    "title": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "dokument_podtwerzhda_schii_polnomochiq_predstawitelq_esli_ot_imeni_zaqwitelq_dei_stwuet_predstawitel": {
+    "title": "Документ, подтверждающий полномочия представителя (если от имени заявителя действует представитель)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "naimenowanie_gsk": {
+    "title": "Наименование ГСК",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "address_with_map": {
+    "title": "Местоположение",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "cel_ispol_zwaniq_zemel_nogo_uchastka": {
+    "title": "Цель использвания земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "ploschad_zemel_nogo_uchastka": {
+    "title": "Площадь земельного участка",
+    "description": "должно быть указано заявителем точное значение",
+    "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
+  },
+  "zhelaemoe_prawo_na_zemel_nyj_uchastok": {
+    "title": "Желаемое право на земельный участок",
+    "description": "в аренду, собственность",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "kadastrowyj_nomer_zemel_nogo_uchastka": {
+    "title": "Кадастровый номер земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok_sostawlq_schii_territori_gsk_esli_prawo_na_nego_ne_zaregistrirowano_w_edinom_gosudarstwennom_reestre_praw_na_nedwizhimoe_imuschestwo_i_sdelok_s_nim": {
+    "title": "Правоустанавливающие документы на земельный участок, составляющий территорию ГСК, если право на него не зарегистрировано в Едином государственном реестре прав на недвижимое имущество и сделок с ним",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "protokol_ob_izbranii_predsedatelq_gsk_ime_schim_prawo_dei_stwowat_bez_dowerennosti_ot_imeni_gsk_libo_upolnomochennym_obschim_sobraniem_chlenow_togo_kooperatiwa_na_podachu_ukazannogo_zaqwleniq_w_sootwetstwii_s_resheniem_obschego_sobraniq_chlenow_togo_kooperatiwa_o_priobretenii_zemel_nogo_uchastka_w_arendu_sobstwennost": {
+    "title": "Протокол об избрании председателя ГСК имеющим право действовать без доверенности от имени ГСК либо уполномоченным общим собранием членов этого кооператива на подачу указанного заявления в соответствии с решением общего собрания членов этого кооператива о приобретении земельного участка (в аренду, собственность)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "vypiska_iz_resheniq_obschego_sobraniq_chlenow_gsk_o_priobretenii_zemel_nogo_uchastka_otnosqschegosq_k_imuschestwu_obschego_pol_zowaniq_w_arendu_sobstwennost": {
+    "title": "Выписка из решения общего собрания членов ГСК о приобретении земельного участка, относящегося к имуществу общего пользования (в аренду, собственность)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "dokument_podtwerzhda_schii_obstoqtel_stwa_da_schie_prawo_priobreteniq_zemel_nogo_uchastka": {
+    "title": "Документ, подтверждающий обстоятельства, дающие право приобретения земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "dogowor_arendy_zemel_nogo_uchastka_gosudarstwennyi_akt": {
+    "title": "Договор аренды земельного участка, государственный акт",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "shema_raspolozheniq_zemel_nogo_uchastka_w_sluchae_esli_isprashiwaemyi_zemel_nyi_uchastok_predstoit_obrazowat_i_otsutstwuet_proekt_mezhewaniq_territorii_w_granicah_kotoroi_predstoit_obrazowat_takoi_zemel_nyi_uchastok": {
+    "title": "Схема расположения земельного участка, в случае если испрашиваемый земельный участок предстоит образовать и отсутствует проект межевания территории, в границах которой предстоит образовать такой земельный участок",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__stroenii__sooruzhenii__raspolozhennyh_na_zemel_nom_uchastke_w_otnoshenii_kotorogo_podano_zaqwlenie_o_priobretenii_praw_s_ukazaniem_pri_nalichii_u_zaqwitelq_ih_kadastrowyh_inwentarnyh_nomerow_i_adresnyh_orientirow": {
+    "title": "Сообщение заявителя (заявителей), содержащее перечень всех зданий, строений, сооружений, расположенных на земельном участке, в отношении которого подано заявление о приобретении прав, с указанием (при наличии у заявителя) их кадастровых (инвентарных) номеров и адресных ориентиров",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "da_soglasie_na_obrabotku_personal_nyh_dannyh": {
+    "title": "Даю согласие на обработку персональных данных",
+    "$ref": "http://edoc-schema.kzn.ru/generic/boolean"
+  }
+},
+  "required": [
+    "applicant",
+    "agent",
+    "dokument_podtwerzhda_schii_polnomochiq_predstawitelq_esli_ot_imeni_zaqwitelq_dei_stwuet_predstawitel",
+    "naimenowanie_gsk",
+    "address_with_map",
+    "cel_ispol_zwaniq_zemel_nogo_uchastka",
+    "ploschad_zemel_nogo_uchastka",
+    "zhelaemoe_prawo_na_zemel_nyj_uchastok",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok_sostawlq_schii_territori_gsk_esli_prawo_na_nego_ne_zaregistrirowano_w_edinom_gosudarstwennom_reestre_praw_na_nedwizhimoe_imuschestwo_i_sdelok_s_nim",
+    "protokol_ob_izbranii_predsedatelq_gsk_ime_schim_prawo_dei_stwowat_bez_dowerennosti_ot_imeni_gsk_libo_upolnomochennym_obschim_sobraniem_chlenow_togo_kooperatiwa_na_podachu_ukazannogo_zaqwleniq_w_sootwetstwii_s_resheniem_obschego_sobraniq_chlenow_togo_kooperatiwa_o_priobretenii_zemel_nogo_uchastka_w_arendu_sobstwennost",
+    "vypiska_iz_resheniq_obschego_sobraniq_chlenow_gsk_o_priobretenii_zemel_nogo_uchastka_otnosqschegosq_k_imuschestwu_obschego_pol_zowaniq_w_arendu_sobstwennost",
+    "dokument_podtwerzhda_schii_obstoqtel_stwa_da_schie_prawo_priobreteniq_zemel_nogo_uchastka",
+    "dogowor_arendy_zemel_nogo_uchastka_gosudarstwennyi_akt",
+    "shema_raspolozheniq_zemel_nogo_uchastka_w_sluchae_esli_isprashiwaemyi_zemel_nyi_uchastok_predstoit_obrazowat_i_otsutstwuet_proekt_mezhewaniq_territorii_w_granicah_kotoroi_predstoit_obrazowat_takoi_zemel_nyi_uchastok",
+    "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__stroenii__sooruzhenii__raspolozhennyh_na_zemel_nom_uchastke_w_otnoshenii_kotorogo_podano_zaqwlenie_o_priobretenii_praw_s_ukazaniem_pri_nalichii_u_zaqwitelq_ih_kadastrowyh_inwentarnyh_nomerow_i_adresnyh_orientirow",
+    "da_soglasie_na_obrabotku_personal_nyh_dannyh"
+  ],
+  "type": "object"
+}
