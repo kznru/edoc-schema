@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "address_with_map": {
+      "title": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "ploschad": {
+      "title": "Площадь",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
+    },
+    "kadastrowyj_nomer": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер испрашиваемого земельного участка или, в случае если испрашиваемый земельный участок не стоит на кадастровом учете, кадастровый номер кадастрового квартала, в котором находится земельный участок",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "rasporqzhenie": {
+      "title": "Распоряжение",
+      "description": "В названии документа указать орган местного самоуправления",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name"
+    },
+    "opisanie_mestopolozheniq_zemel_nogo_uchastka": {
+      "title": "Описание местоположения земельного участка",
+      "description": "Описание местоположения земельного участка, подготовленное садоводческим, огородническим или дачным некоммерческим объединением",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "vypiska_o_priobretenii_zemel_nogo_uchastka": {
+      "title": "Выписка о приобретении земельного участка",
+      "description": "Выписка из решения общего собрания членов садоводческого, огороднического или дачного некоммерческого объединения (собрания уполномоченных) о приобретении земельного участка, относящегося к имуществу общего пользования, в собственность данного некоммерческого объединения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "uchreditel_nye_dokumenty_ob_edineniq_ili_wypiska_iz_resheniq_obschego_sobraniq_chlenow_dannogo": {
+      "title": "Учредительные документы  объединения или выписка из решения общего собрания членов данного",
+      "description": "Учредительные документы садоводческого, огороднического или дачного некоммерческого объединения (подлинники или засвидетельствованные в нотариальном порядке копии), подтверждающие право заявителя без доверенности действовать от имени данного некоммерческого объединения, или выписка из решения общего собрания членов данного некоммерческого объединения (собрания уполномоченных), в соответствии с которым заявитель был уполномочен на подачу указанного заявления",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok": {
+      "title": "Правоустанавливающие документы на земельный участок",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "address_with_map",
+    "ploschad",
+    "kadastrowyj_nomer",
+    "rasporqzhenie",
+    "opisanie_mestopolozheniq_zemel_nogo_uchastka",
+    "vypiska_o_priobretenii_zemel_nogo_uchastka",
+    "uchreditel_nye_dokumenty_ob_edineniq_ili_wypiska_iz_resheniq_obschego_sobraniq_chlenow_dannogo",
+    "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
