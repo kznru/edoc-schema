@@ -1,0 +1,77 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address_with_map": {
+      "title": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "kadastrowyj_nomer": {
+      "title": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "naimenowanie_ob_ekta_kapital_nogo_stroitel_stwa": {
+      "title": "Наименование объекта капитального строительства",
+      "description": "Наименование объекта капитального строительства в соответствии с проектной документацией",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "shema_otobrazha_schaq_raspolozhenie_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_raspolozhenie_setei_inzhenerno_tehnicheskogo_obespecheniq_w_granicah_zemel_nogo_uchastka_i_planirowochnu_organizaci_zemel_nogo_uchastka_i_podpisannaq_licom_osuschestwlq_schim_stroitel_stwo": {
+      "title": "Схема, отображающая расположение построенного, реконструированного объекта капитального строительства, расположение сетей инженерно-технического обеспечения в границах земельного участка и планировочную организацию земельного участка и подписанная лицом, осуществляющим строительство",
+      "description": "Схема, отображающая расположение построенного, реконструированного объекта капитального строительства, расположение сетей инженерно-технического обеспечения в границах земельного участка и планировочную организацию земельного участка и подписанная лицом, осуществляющим строительство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "dokument_podtwerzhda_schii_sootwetstwie_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_trebowaniqm_tehnicheskih_reglamentow_i_podpisannyi_licom_osuschestwlq_schim_stroitel_stwo": {
+      "title": "Документ, подтверждающий соответствие построенного, реконструированного объекта капитального строительства требованиям технических регламентов и подписанный лицом, осуществляющим строительство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "dokument_podtwerzhda_schii_sootwetstwie_parametrow_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_proektnoi_dokumentacii_i_podpisannyi_licom_osuschestwlq_schim_stroitel_stwo_za_iskl_cheniem_sluchaew_osuschestwleniq_stroitel_stwa_rekonstrukcii_kapital_nogo_remonta_ob_ektow_indiwidual_nogo_zhilischnogo_stroitel_stwa": {
+      "title": "Документ, подтверждающий соответствие параметров построенного, реконструированного объекта капитального строительства проектной документации и подписанный лицом, осуществляющим строительство, за исключением случаев осуществления строительства, реконструкции, капитального ремонта объектов индивидуального жилищного строительства",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "dokumenty_podtwerzhda_schie_sootwetstwie_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_tehnicheskim_uslowiqm_i_podpisannye_predstawitelqmi_organizacii__osuschestwlq_schih_xpluataci_setei_inzhenerno_tehnicheskogo_obespecheniq_pri_ih_nalichii": {
+      "title": "Документы, подтверждающие соответствие построенного, реконструированного объекта капитального строительства техническим условиям и подписанные представителями организаций, осуществляющих эксплуатацию сетей инженерно-технического обеспечения (при их наличии)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "dokument_podtwerzhda_schii_zakl_chenie_dogowora_obqzatel_nogo_strahowaniq_grazhdanskoi_otwetstwennosti_wladel_ca_opasnogo_ob_ekta_za_prichinenie_wreda_w_rezul_tate_awarii_na_opasnom_ob_ekte_w_sootwetstwii_s_zakonodatel_stwom_rossii_skoi_federacii_ob_obqzatel_nom_strahowanii_grazhdanskoi_otwetstwennosti_wladel_ca_opasnogo_ob_ekta_za_prichinenie_wreda_w_rezul_tate_awarii_na_opasnom_ob_ekte": {
+      "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте в соответствии с законодательством Российской Федерации об обязательном страховании гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "tehnicheskii_plan_ob_ekta_nedwizhimosti": {
+      "title": "Технический план объекта недвижимости",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "address_with_map",
+    "kadastrowyj_nomer",
+    "naimenowanie_ob_ekta_kapital_nogo_stroitel_stwa",
+    "shema_otobrazha_schaq_raspolozhenie_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_raspolozhenie_setei_inzhenerno_tehnicheskogo_obespecheniq_w_granicah_zemel_nogo_uchastka_i_planirowochnu_organizaci_zemel_nogo_uchastka_i_podpisannaq_licom_osuschestwlq_schim_stroitel_stwo",
+    "dokument_podtwerzhda_schii_sootwetstwie_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_trebowaniqm_tehnicheskih_reglamentow_i_podpisannyi_licom_osuschestwlq_schim_stroitel_stwo",
+    "dokument_podtwerzhda_schii_sootwetstwie_parametrow_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_proektnoi_dokumentacii_i_podpisannyi_licom_osuschestwlq_schim_stroitel_stwo_za_iskl_cheniem_sluchaew_osuschestwleniq_stroitel_stwa_rekonstrukcii_kapital_nogo_remonta_ob_ektow_indiwidual_nogo_zhilischnogo_stroitel_stwa",
+    "dokument_podtwerzhda_schii_zakl_chenie_dogowora_obqzatel_nogo_strahowaniq_grazhdanskoi_otwetstwennosti_wladel_ca_opasnogo_ob_ekta_za_prichinenie_wreda_w_rezul_tate_awarii_na_opasnom_ob_ekte_w_sootwetstwii_s_zakonodatel_stwom_rossii_skoi_federacii_ob_obqzatel_nom_strahowanii_grazhdanskoi_otwetstwennosti_wladel_ca_opasnogo_ob_ekta_za_prichinenie_wreda_w_rezul_tate_awarii_na_opasnom_ob_ekte",
+    "tehnicheskii_plan_ob_ekta_nedwizhimosti"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
