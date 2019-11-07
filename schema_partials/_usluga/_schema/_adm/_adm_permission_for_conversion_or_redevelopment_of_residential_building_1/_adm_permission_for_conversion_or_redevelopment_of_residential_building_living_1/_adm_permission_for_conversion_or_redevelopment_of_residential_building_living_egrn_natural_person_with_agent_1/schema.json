@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+  "applicant": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "agent": {
+    "title": "Представитель ",
+    "description": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "dowerennost": {
+    "title": "Доверенность ",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "address": {
+    "title": "Адрес, по которому находится переводимое помещение ",
+    "description": "Адрес с указанием города, улицы, номера дома, квартиры",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+  },
+  "proekt_pereustrojstwa_i_ili_pereplanirowki": {
+    "title": "Проект переустройства и (или) перепланировки",
+    "description": "Подготовленный и оформленный в установленном порядке проект переустройства и (или) перепланировки переустраиваемого и (или) перепланируемого помещения в многоквартирном доме, соответствующий требованиям постановления Правительства Российской Федерации от 16.02.2008 N 87 \"О составе разделов проектной документации и требованиях к их содержанию\", включающий обоснование проектных решений и мероприятий, соблюдение санитарно-гигиенических условий (проект должен соответствовать требованиям СанПиН 2.1.2.2645-10 \"Санитарно-эпидемиологические требования к условиям проживания в жилых зданиях и помещениях\")",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq": {
+    "title": "Технический паспорт переустраиваемого и (или) перепланируемого помещения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "soglasie_w_pis_mennoj_forme_wseh_chlenow_sem_i_nanimatelq": {
+    "title": "Согласие в письменной форме всех членов семьи нанимателя",
+    "description": "В том числе временно отсутствующих членов семьи нанимателя, занимающих переустраиваемое и (или) перепланируемое жилое помещение на основании договора социального найма (в случае если заявителем является уполномоченный наймодателем на представление предусмотренных настоящим пунктом документов наниматель переустраиваемого и (или) перепланируемого жилого помещения по договору социального найма)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "protokol_obschego_sobraniq": {
+    "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
+    "description": "Ссылка на протокол общего собрания в ГИС ЖКХ если переустройство и (или) перепланировка помещения в многоквартирном доме невозможны без присоединения к данному помещению части общего имущества в многоквартирном доме",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+  }
+},
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "address",
+    "proekt_pereustrojstwa_i_ili_pereplanirowki",
+    "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
+    "soglasie_w_pis_mennoj_forme_wseh_chlenow_sem_i_nanimatelq"
+  ]
+}
