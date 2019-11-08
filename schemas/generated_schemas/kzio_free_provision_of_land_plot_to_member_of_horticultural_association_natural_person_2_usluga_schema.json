@@ -6,7 +6,7 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "address": {
-      "title": "Адрес, по которому находится земельный участок ",
+      "title": "Адрес, по которому находится земельный участок",
       "description": "Адрес с указанием города",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
@@ -16,7 +16,7 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     },
     "kadastrowyj_nomer_zemel_nogo_uchastka": {
-      "title": "Кадастровый номер земельного участка ",
+      "title": "Кадастровый номер земельного участка",
       "description": "Кадастровый номер",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
@@ -29,6 +29,11 @@
       "title": "Выписка из решения общего собрания садоводческого товарищества",
       "description": "Прикрепляется скан выписки из решения общего собрания с подписью председателя",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "postanowlenie_ob_utwerzhdenii_shemy_raspolozheniq_zemel_nogo_uchastka_na_kadastrowom_plane_territorii": {
+      "title": "Постановление об утверждении схемы расположения земельного участка на кадастровом плане территории",
+      "description": "Указать номер и дату Постановления Исполнительного комитета",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
