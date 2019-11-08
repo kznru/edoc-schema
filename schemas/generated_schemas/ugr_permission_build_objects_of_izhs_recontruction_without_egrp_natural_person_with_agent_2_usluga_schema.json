@@ -35,7 +35,7 @@
     },
     "razreshenie_na_prowedenie_rabot": {
       "title": "Разрешение на проведение работ",
-      "$ref": "http://edoc-schema.kzn.ru/"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
     },
     "polozhitel_noe_zakl_chenie_gosudarstwennoj_xpertizy_polucheno": {
       "title": "Положительное заключение государственной экспертизы получено",
@@ -55,11 +55,11 @@
     },
     "dogowor_podrqda": {
       "title": "Договор подряда",
-      "$ref": "http://edoc-schema.kzn.ru/"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
     },
     "razreshenie_na_prowedenie_stroitel_no_montazhnyh_rabot": {
       "title": "Разрешение на проведение строительно-монтажных работ",
-      "$ref": "http://edoc-schema.kzn.ru/"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
     },
     "prikaz_na_naznachenie_proizwoditelq_rabot": {
       "title": "Приказ на назначение производителя работ",
