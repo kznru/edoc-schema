@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_member",
+  "id": "http://edoc-schema.kzn.ru/person/ru/family_member",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "title": "Член семьи",
