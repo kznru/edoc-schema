@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "preliminary_design": {
+      "title": "Эскизный проект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "required": [
+    "preliminary_design"
+  ]
+}

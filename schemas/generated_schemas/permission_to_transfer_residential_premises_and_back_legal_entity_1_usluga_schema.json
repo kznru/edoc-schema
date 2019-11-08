@@ -46,6 +46,10 @@
       "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_with_require_number_date"
     },
+    "preliminary_design": {
+      "title": "Эскизный проект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "consent_of_all_owners": {
       "title": "Согласие всех собственников",
       "description": "В том числе временно отсутствующих собственников, в письменной форме",
@@ -71,6 +75,7 @@
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
     "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome",
+    "preliminary_design",
     "consent_of_all_owners"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
