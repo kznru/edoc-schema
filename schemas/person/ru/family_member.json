@@ -73,7 +73,7 @@
     },
     "living_place_registration_at": {
       "title": "Дата регистрации по месту жительства",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
     },
     "share_size": {
       "title": "Размер доли",
