@@ -10,7 +10,6 @@
         "url": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_url" },
         "information_system": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_system" },
         "external_id": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/external_id" },
-        "document_type": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type" },
         "document_title": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_title" },
         "document_annotation": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_annotation" },
         "document_description": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_description" },

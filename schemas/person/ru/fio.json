@@ -1,6 +1,7 @@
 {
   "id": "http://edoc-schema.kzn.ru/person/ru/fio",
   "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Фамилия, имя и отчество человека",
   "description": "Фамилия, имя и отчество человека",
   "type": "object",
   "properties": {

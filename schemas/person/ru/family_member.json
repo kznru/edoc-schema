@@ -1,0 +1,83 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_member",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Член семьи",
+  "description": "Член семьи",
+  "required": [
+    "family_relation_type",
+    "fio",
+    "birth_date",
+    "birth_place",
+    "document_type",
+    "document_serial",
+    "document_number",
+    "issued_by",
+    "unit_code",
+    "issued_at",
+    "phone_number",
+    "living_place",
+    "living_place_registration_at"
+  ],
+  "properties": {
+    "family_relation_type": {
+      "title": "Родственные отношения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_relation_type"
+    },
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "birth_date": {
+      "title": "Дата рождения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "birth_place": {
+      "title": "Место рождения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "document_type": {
+      "title": "Тип документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type"
+    },
+    "document_serial": {
+      "title": "Серия документа",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "document_number": {
+      "title": "Номер документа",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "issued_by": {
+      "title": "Кем выдан",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "unit_code": {
+      "title": "Код подразделения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "issued_at": {
+      "title": "Дата выдачи",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "phone_number": {
+      "title": "Телефон",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "email": {
+      "title": "Email",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "living_place": {
+      "title": "Место жительства",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "living_place_registration_at": {
+      "title": "Дата регистрации по месту жительства",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "share_size": {
+      "title": "Размер доли",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    }
+  }
+}

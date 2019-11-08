@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_members",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Члены семьи",
+  "description": "Члены семьи",
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_member"
+  }
+}
