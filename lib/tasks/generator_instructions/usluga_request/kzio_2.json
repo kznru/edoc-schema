@@ -139,6 +139,14 @@
             {"name": "kzio_free_provision_of_land_plot_to_member_of_horticultural_association_natural_person_2"},
             {"name": "kzio_free_provision_of_land_plot_to_member_of_horticultural_association_natural_person_with_agent_2"}
           ]
+        },
+        {
+          "name": "kzio_free_reception_and_granting_ground_areas_2",
+          "virtual": true,
+          "keys": [
+            {"name": "kzio_free_reception_and_granting_ground_areas_natural_person_2"},
+            {"name": "kzio_free_reception_and_granting_ground_areas_natural_person_with_agent_2"}
+          ]
         }
       ]
     }
