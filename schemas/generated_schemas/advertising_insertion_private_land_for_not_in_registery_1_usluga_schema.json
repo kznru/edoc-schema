@@ -121,6 +121,10 @@
         }
       }
     },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
       "type": "string"

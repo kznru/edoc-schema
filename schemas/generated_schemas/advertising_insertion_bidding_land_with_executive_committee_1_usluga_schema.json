@@ -92,6 +92,10 @@
         }
       }
     },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
     "cadastre_number": {
       "title": "Кадастровый номер земельного участка",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
