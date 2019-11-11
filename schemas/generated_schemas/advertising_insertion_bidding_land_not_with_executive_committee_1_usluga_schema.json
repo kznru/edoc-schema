@@ -71,9 +71,13 @@
       "title": "Краткое описание",
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
+    "property_owner_info": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
+    },
     "property_owner": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
+      "title": "Собственник недвижимого имущества"
     },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
@@ -101,12 +105,13 @@
         }
       }
     },
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
       "type": "string"
-    },
-    "written_consent_of_owners": {
-      "description": "Прикрепляется скан подтверждения в письменной форме согласия собственника или иного законного владельца соответствующего недвижимого имущества на присоединение к этому имуществу рекламной конструкции (проецируемого изображения). В письменном согласии должны быть указаны сведения о документе, подтверждающем право собственности на недвижимое имущество (сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер)"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

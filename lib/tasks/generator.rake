@@ -30,14 +30,6 @@ class GeneratorTasks
     end
 
     namespace :generator do
-      desc 'Validate all schemas'
-      task :validate do
-        puts 'Validate schemas.'
-
-        SchemaValidatorService.call
-        puts 'Done.'
-      end
-
       desc 'Generate sorted generation schemas'
       task :schemas_list do
         puts 'Generate schemas list.'
@@ -72,13 +64,12 @@ class GeneratorTasks
           usluga
           usluga_request
           schemas_list
-          validate
         ) do
         puts 'Done.'
       end
 
       desc 'Generate query'
-      task query: %i(validate) do
+      task :query do
         puts 'Generate query.'
         params = {
           start_path: [root_path, 'schema_partials'].join('/'),
@@ -88,11 +79,12 @@ class GeneratorTasks
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
+        SchemaValidatorService.call
         puts 'Done.'
       end
 
       desc 'Generate registry'
-      task registry: %i(validate) do
+      task :registry do
         puts 'Generate registry.'
         params = {
           start_path: [root_path, 'schema_partials'].join('/'),
@@ -102,11 +94,12 @@ class GeneratorTasks
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
+        SchemaValidatorService.call
         puts 'Done.'
       end
 
       desc 'Generate usluga'
-      task usluga: %i(validate) do
+      task :usluga do
         puts 'Generate usluga.'
         params = {
           start_path: [root_path, 'schema_partials'].join('/'),
@@ -116,11 +109,12 @@ class GeneratorTasks
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
+        SchemaValidatorService.call
         puts 'Done.'
       end
 
       desc 'Generate usluga_request'
-      task usluga_request: %i(validate) do
+      task :usluga_request do
         puts 'Generate usluga_request.'
         params = {
           start_path: [root_path, 'schema_partials'].join('/'),
@@ -130,6 +124,7 @@ class GeneratorTasks
           output_type: 'json'
         }
         SchemaGeneratorService.new(params).make
+        SchemaValidatorService.call
         puts 'Done.'
       end
     end
