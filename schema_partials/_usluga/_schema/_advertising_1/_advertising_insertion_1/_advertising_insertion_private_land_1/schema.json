@@ -69,6 +69,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
     },
+    "cadatre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый земельного участка"
+    },
     "ownership_confirming_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
