@@ -38,10 +38,6 @@
       "title": "Номер постановления (распоряжения)",
       "description": "Номер постановления (распоряжения)",
       "type": "object",
-      "required": [
-        "date",
-        "nomer"
-      ],
       "properties": {
         "date": {
           "title": "Дата",
