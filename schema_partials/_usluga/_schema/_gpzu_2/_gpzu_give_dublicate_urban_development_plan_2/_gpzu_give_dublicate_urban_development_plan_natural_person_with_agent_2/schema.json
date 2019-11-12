@@ -30,6 +30,10 @@
     "description": "Номер ГПЗУ Номер RU",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number"
   },
+  "nomer_ot": {
+    "title": "От",
+    "$ref": "http://edoc-schema.kzn.ru/generic/date"
+  },
   "nomer_postanowleniq_rasporqzheniq": {
     "title": "Номер постановления (распоряжения)",
     "description": "Номер постановления (распоряжения)",
@@ -60,7 +64,6 @@
     "address",
     "kadastrowyj_nomer_zemel_nogo_uchastka",
     "nomer_gpzu_nomer_ru",
-    "nomer_postanowleniq_rasporqzheniq",
     "prichina"
   ],
   "type": "object"

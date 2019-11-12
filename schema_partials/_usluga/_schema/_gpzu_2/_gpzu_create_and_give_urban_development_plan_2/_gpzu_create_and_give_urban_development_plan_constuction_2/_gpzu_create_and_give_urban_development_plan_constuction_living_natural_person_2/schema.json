@@ -1,0 +1,48 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель",
+    "description": "Введите данные заявителя",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "kadastrowyj_nomer_zemel_nogo_uchastka": {
+    "title": "Кадастровый номер земельного участка ",
+    "description": "Кадастровый номер",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "ploschad_zemel_nogo_uchastka": {
+    "title": "Площадь земельного участка",
+    "description": "Площадь (кв.м)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+  },
+  "address_with_map": {
+    "title": "Точный адрес или ориентир местонахождения земельного участка ",
+    "description": "Точный адрес или ориентир местонахождения земельного участка ",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "kolichestwo_nadzemnyh_tazhej": {
+    "title": "этажность",
+    "description": "Указать этажность",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+  },
+  "object_assignment": {
+    "title": "Назначение объекта",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+  },
+  "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
+    "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
+    "description": "Необходимо подтвердить согласие на обработку представленных данных",
+    "type": "boolean"
+  }
+},
+  "required": [
+    "object_assignment",
+    "agent",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "ploschad_zemel_nogo_uchastka",
+    "address_with_map",
+    "kolichestwo_nadzemnyh_tazhej",
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah"
+  ],
+  "type": "object"
+}

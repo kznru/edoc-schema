@@ -30,11 +30,6 @@
       "description": "Точный адрес или ориентир местонахождения земельного участка ",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
-    "kolichestwo_nadzemnyh_tazhej": {
-      "title": "Количество надземных этажей",
-      "description": "Указать этажность",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
-    },
     "object_assignment": {
       "title": "Назначение объекта",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
@@ -61,7 +56,6 @@
     "kadastrowyj_nomer_zemel_nogo_uchastka",
     "ploschad_zemel_nogo_uchastka",
     "address_with_map",
-    "kolichestwo_nadzemnyh_tazhej",
     "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah"
   ],
   "type": "object",
