@@ -4,6 +4,10 @@
     "title": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
+  "agent_living_address": {
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "title": "Место жительства заявителя"
+  },
   "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit": {
     "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
     "description": "Адрес с указанием региона, жилого массива, улицы, номера дома (при наличии)",
@@ -13,6 +17,10 @@
     "title": "Реквизиты утвержденного проекта межевания территории, если перераспределение земельных участков планируется осуществить в соответствии с данным проектом",
     "description": "Реквизиты утвержденного проекта межевания территории (с учетом внесенных изменений- при наличии)",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name"
+  },
+  "borders_scheme": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+    "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
   }
 },
   "required": [
