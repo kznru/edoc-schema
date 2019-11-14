@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "lease_contract": {
+      "title": "Срок аренды",
+      "description": "Указать количество лет (от 3 до 49 лет)",
+      "minimum": 3,
+      "maximum": 49,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "lease_contract"
+  ]
+}

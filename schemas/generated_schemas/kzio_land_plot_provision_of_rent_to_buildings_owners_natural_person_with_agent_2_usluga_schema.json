@@ -46,6 +46,13 @@
       "description": "Адресные ориентиры зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием их кадастровых номеров",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
     },
+    "lease_contract": {
+      "title": "Срок аренды",
+      "description": "Указать количество лет (от 3 до 49 лет)",
+      "minimum": 3,
+      "maximum": 49,
+      "type": "integer"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -63,7 +70,8 @@
     "address",
     "cadastre_number",
     "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka",
-    "dannye_identificiru_schie_ob_ekty_nedwizhimosti"
+    "dannye_identificiru_schie_ob_ekty_nedwizhimosti",
+    "lease_contract"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
