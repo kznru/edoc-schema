@@ -18,7 +18,7 @@
     "topography_of_networks": {},
     "graphic_image_of_structure": {},
     "description": {},
-    "property_owner": {},
+    "property_owners": {},
     "title_document_for_property": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",

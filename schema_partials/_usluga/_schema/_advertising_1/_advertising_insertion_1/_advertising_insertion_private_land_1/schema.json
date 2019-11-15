@@ -8,9 +8,10 @@
     "topography_of_networks",
     "graphic_image_of_structure",
     "description",
-    "property_owner",
+    "property_owners",
     "installation_and_operation_document",
-    "state_duty_payment"
+    "state_duty_payment",
+    "written_consent_of_owner"
   ],
   "properties": {
     "address_with_map": {
@@ -65,9 +66,26 @@
       "title": "Краткое описание",
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
-    "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
+    "property_owners": {
+      "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "organization_or_natural_person",
+          "text"
+        ],
+        "properties": {
+          "organization_or_natural_person": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+          },
+          "text": {
+            "title": "Дополнительная информация о собственнике",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+          }
+        }
+      }
     },
     "cadatre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -77,6 +95,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
+    "written_consent_of_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственника недвижимого имущества"
     },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",

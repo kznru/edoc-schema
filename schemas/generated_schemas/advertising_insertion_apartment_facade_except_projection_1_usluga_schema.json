@@ -3,6 +3,7 @@
     "address_with_map",
     "written_consent_of_owners",
     "installation_and_operation_document",
+    "information_about_owner_of_real_estate",
     "type",
     "photo",
     "photomontage",
@@ -87,6 +88,10 @@
       "title": "Площадь информационного поля",
       "type": "string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "information_about_owner_of_real_estate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text",
+      "title": "Данные о собственнике недвижимого имущества, к которому присоединяется рекламная конструкция"
     },
     "written_consent_of_owners": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
