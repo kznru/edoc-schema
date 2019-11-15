@@ -33,7 +33,7 @@
   "kolichestwo_nadzemnyh_tazhej": {
     "title": "Этажность",
     "description": "Указать этажность",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
   },
   "object_assignment": {
     "title": "Назначение объекта",
