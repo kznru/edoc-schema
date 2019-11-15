@@ -9,7 +9,9 @@
     "graphic_image_of_structure",
     "description",
     "property_owners",
-    "state_duty_payment"
+    "installation_and_operation_document",
+    "state_duty_payment",
+    "written_consent_of_owner"
   ],
   "properties": {
     "organization": {},
@@ -96,6 +98,15 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
+    "written_consent_of_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственника недвижимого имущества"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
     "state_duty_payment": {}
   }

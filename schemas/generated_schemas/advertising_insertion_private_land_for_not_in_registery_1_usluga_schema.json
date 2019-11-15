@@ -37,10 +37,6 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
-    "address_description": {
-      "type": "string",
-      "title": "Уточнение местоположения рекламной конструкции"
-    },
     "type": {
       "title": "Тип рекламной конструкции",
       "description": "Выбирается один из типов рекламных конструкций: пилларс, пилон,  коммуникационный указатель.",
@@ -142,10 +138,6 @@
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         }
       }
-    },
-    "cadatre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый земельного участка"
     },
     "written_consent_of_owner": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
