@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_snils",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_inn",
       "title": "Заявитель",
       "description": "ФИО Застройщика и Правообладателя земельного участка"
     },
