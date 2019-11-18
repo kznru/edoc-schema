@@ -37,39 +37,12 @@
               ]
             },
             {
-              "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_natural_person_2",
-              "virtual": true,
-              "keys":[
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_natural_person_legal_entity_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_natural_person_natural_person_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_natural_person_natural_person_with_agent_2"}
-              ]
-            },
-            {
               "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_2",
               "virtual": true,
               "keys":[
                 { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_legal_entity_2" },
                 { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_natural_person_2" },
                 { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_natural_person_with_agent_2"}
-              ]
-            },
-            {
-              "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_natural_person_2",
-              "virtual": true,
-              "keys":[
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_natural_person_legal_entity_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_natural_person_natural_person_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_natural_person_natural_person_with_agent_2"}
-              ]
-            },
-            {
-              "name": "uaig_task_to_save_culture_objects_if_owner_legal_entity_and_project_organization_natural_person_2",
-              "virtual": true,
-              "keys":[
-                { "name": "uaig_task_to_save_culture_objects_if_owner_legal_entity_and_project_organization_natural_person_legal_entity_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_legal_entity_and_project_organization_natural_person_natural_person_2" },
-                { "name": "uaig_task_to_save_culture_objects_if_owner_legal_entity_and_project_organization_natural_person_natural_person_with_agent_2"}
               ]
             },
             {
