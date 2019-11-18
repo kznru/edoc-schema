@@ -122,6 +122,12 @@
                   "name": "advertising_insertion_nonresidential_owner_facade_only_projection_for_in_registery_1"
                 },
                 {
+                  "name": "advertising_insertion_nonresidential_owner_facade_only_projection_for_in_registery_on_nonresidential_building_owned_by_another_owner_1"
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_owner_facade_only_projection_for_in_registery_on_nonresidential_building_owned_by_self_1"
+                },
+                {
                   "name": "advertising_insertion_nonresidential_owner_facade_except_projection_for_in_registery_1"
                 }
               ]

@@ -3,6 +3,8 @@
     "address_with_map",
     "address_with_map_for_projection_equipment",
     "confirming_ownership_document",
+    "written_consent_of_owners",
+    "installation_and_operation_document",
     "type",
     "photo",
     "photomontage",
@@ -91,6 +93,14 @@
     "property_owner": {
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственника (собственников) нежилого здания"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)"
     },
     "confirming_ownership_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

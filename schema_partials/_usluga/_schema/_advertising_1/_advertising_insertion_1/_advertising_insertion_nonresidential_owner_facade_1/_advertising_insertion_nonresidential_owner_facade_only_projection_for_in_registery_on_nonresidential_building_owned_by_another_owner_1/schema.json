@@ -2,7 +2,9 @@
   "required": [
     "address_with_map",
     "address_with_map_for_projection_equipment",
-    "title_document_for_property"
+    "confirming_ownership_document",
+    "written_consent_of_owners",
+    "installation_and_operation_document"
   ],
   "properties": {
     "organization": {},
@@ -42,13 +44,20 @@
     "field_size": {},
     "field_area": {},
     "property_owner": {},
-    "title_document_for_property": {
+    "written_consent_of_owners": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
-      "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
+      "title": "Письменное согласие собственника (собственников) нежилого здания"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)"
+    },
+    "confirming_ownership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
     },
     "permission_period": {},
     "state_duty_payment": {}
   }
 }
-
