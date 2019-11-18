@@ -1,16 +1,8 @@
 {
   "properties": {
-  "applicant": {
-    "title": "Заявитель",
-    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
-  },
   "agent": {
-    "title": "Представитель",
+    "title": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
-  },
-  "dowerennost": {
-    "title": "Доверенность",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
   },
   "celewoe_naznachenie_zemel_nogo_uchastka": {
     "title": "Целевое назначение земельного участка",
@@ -51,9 +43,7 @@
   }
 },
   "required": [
-    "applicant",
     "agent",
-    "dowerennost",
     "celewoe_naznachenie_zemel_nogo_uchastka",
     "chleny_sem_i"
   ],
