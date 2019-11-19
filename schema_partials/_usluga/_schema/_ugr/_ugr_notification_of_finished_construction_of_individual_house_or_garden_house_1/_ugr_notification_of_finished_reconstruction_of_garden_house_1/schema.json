@@ -6,7 +6,13 @@
     "availability_rights_of_other_person": {},
     "type_of_permitted_use_of_land": {},
     "planning_parameters": {
+      "required": ["common_area"],
       "properties": {
+        "common_area": {
+          "type": "number",
+          "title": "Общая площадь (кв.м)",
+          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
+        },
         "above_floors_number": {
           "minItems": 1,
           "enum": [
