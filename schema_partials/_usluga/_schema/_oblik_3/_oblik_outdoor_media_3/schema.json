@@ -6,7 +6,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
     },
     "documents_for_land": {
-      "title": "Правоустанавливающие документы на земельный участок",
+      "title": "Правоустанавливающие документы",
       "description": "Скан-копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
@@ -21,7 +21,6 @@
           "title": "Фасады",
           "items": {
             "type": "object",
-
             "properties": {
               "type": {
                 "type": "string",
