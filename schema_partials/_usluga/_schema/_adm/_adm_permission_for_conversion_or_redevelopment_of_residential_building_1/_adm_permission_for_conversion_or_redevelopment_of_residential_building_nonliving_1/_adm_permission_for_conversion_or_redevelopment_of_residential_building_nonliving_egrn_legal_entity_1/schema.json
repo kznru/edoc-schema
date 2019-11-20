@@ -30,11 +30,6 @@
     "title": "Технический паспорт переустраиваемого и (или) перепланируемого помещения",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
   },
-  "jeskiznyj_proekt": {
-    "title": "Эскизный проект",
-    "description": "В случае изменения архитектурного облика объекта нежилого помещения",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-  },
   "protokol_obschego_sobraniq": {
     "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
     "description": "Ссылка на протокол общего собрания в ГИС ЖКХ если переустройство и (или) перепланировка помещения в многоквартирном доме невозможны без присоединения к данному помещению части общего имущества в многоквартирном доме",
@@ -47,7 +42,6 @@
     "dowerennost",
     "address",
     "proekt_pereustrojstwa_i_ili_pereplanirowki",
-    "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
-    "jeskiznyj_proekt"
+    "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq"
   ]
 }
