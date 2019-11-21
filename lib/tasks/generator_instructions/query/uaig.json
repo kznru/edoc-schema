@@ -1,0 +1,14 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "uaig_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_1"
+        }
+      ]
+    }
+  ]
+}
