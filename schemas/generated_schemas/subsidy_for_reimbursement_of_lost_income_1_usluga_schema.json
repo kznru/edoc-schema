@@ -11,9 +11,9 @@
       "title": "Представитель"
     },
     "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_with_requisites",
       "title": "Доверенность",
-      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, или его скан-копия (при заполнении электронной формы)."
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя."
     },
     "rukovoditel": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
@@ -24,11 +24,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Документ подтверждающий полномочия",
       "description": "Документ подтверждающий полномочия руководителя"
-    },
-    "skan_dokumenta_podtwerzhda_schego_polnomochiq_rukowoditelq": {
-      "title": "Скан документа, подтверждающего полномочия руководителя",
-      "description": "Файл",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
     },
     "razmer_subsidii": {
       "title": "Размер субсидии",
@@ -90,7 +85,6 @@
     "letter_of_attorney",
     "rukovoditel",
     "document_polnomochia_rukovoditelya",
-    "skan_dokumenta_podtwerzhda_schego_polnomochiq_rukowoditelq",
     "razmer_subsidii",
     "otchetnyj_period",
     "address",
