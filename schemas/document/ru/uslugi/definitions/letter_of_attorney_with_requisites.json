@@ -1,0 +1,27 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_with_requisites",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Доверенность",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер документа"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата документа"
+    },
+    "scanned_documents": {
+      "title": "Сканы документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "required": [
+    "number",
+    "date",
+    "scanned_documents"
+  ]
+
+}
