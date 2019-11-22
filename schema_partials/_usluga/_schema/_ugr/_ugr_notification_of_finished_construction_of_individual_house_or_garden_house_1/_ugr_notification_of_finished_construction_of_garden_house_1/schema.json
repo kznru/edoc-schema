@@ -16,9 +16,13 @@
         "above_floors_number": {
           "minItems": 1,
           "enum": [
-            "1",
-            "1 + мансарда"
+            "1"
           ]
+        },
+        "mansarda_presence": {
+          "type": "boolean",
+          "title": "Мансарда",
+          "description": "Наличие мансарды"
         }
       }
     },
