@@ -4,7 +4,8 @@
     "agent",
     "address_with_map",
     "cadastre_number",
-    "area"
+    "area",
+    "types_of_permitted_use_of_land"
   ],
   "properties": {
     "organization": {
@@ -19,10 +20,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
-    "complex_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Договор о комплексном освоении территории"
-    },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес земельного участка"
@@ -36,6 +33,14 @@
       "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь земельного участка",
       "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "types_of_permitted_use_of_land": {
+      "title": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор о комплексном освоении территории"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

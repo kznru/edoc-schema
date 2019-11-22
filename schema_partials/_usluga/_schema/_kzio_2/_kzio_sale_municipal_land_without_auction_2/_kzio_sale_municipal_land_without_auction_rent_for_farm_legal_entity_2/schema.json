@@ -9,6 +9,10 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
-    }
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {}
   }
 }

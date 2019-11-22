@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "required": ["agent", "address_with_map", "cadastre_number", "area"],
+  "required": ["agent", "address_with_map", "cadastre_number", "area", "types_of_permitted_use_of_land"],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
@@ -15,6 +15,10 @@
       "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь земельного участка",
       "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "types_of_permitted_use_of_land": {
+      "title": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
     }
   }
 }

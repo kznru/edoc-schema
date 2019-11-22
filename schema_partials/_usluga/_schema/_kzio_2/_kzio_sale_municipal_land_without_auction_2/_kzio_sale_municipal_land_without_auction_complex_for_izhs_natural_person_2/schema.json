@@ -2,6 +2,22 @@
   "properties": {
     "agent": {
       "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {},
+    "membership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документ, подтверждающий членство заявителя в некоммерческой организации"
+    },
+    "ditribution_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Решение органа некоммерческой организации о распределении испрашиваемого земельного участка заявителю"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор о комплексном освоении территории"
     }
   }
 }

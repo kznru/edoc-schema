@@ -6,11 +6,14 @@
       "title": "Заявитель"
     },
     "agent": {},
-    "agent": {},
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
     },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {},
     "building_owner_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Документ, удостоверяющий (устанавливающий) права заявителя на здание, сооружение либо помещение, если право на такое здание, сооружение либо помещение не зарегистрировано в ЕГРН"
