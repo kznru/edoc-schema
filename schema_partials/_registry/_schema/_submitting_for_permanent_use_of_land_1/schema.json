@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "usluga_number": {
+      "type": "string",
+      "title": "Номер муниципальной услуги"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "area": {
+      "title": "Площадь (кв.м)",
+      "description": "Площадь участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "type_of_permitted_use": {
+      "title": "Вид разрешенного использования",
+      "description": "Вид разрешенного использования земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "property_identification_data": {
+      "title": "Данные, идентифицирующие объекты недвижимости",
+      "description": "Сообщение заявителя (заявителей), содержащее перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием кадастровых (условных, инвентарных) номеров и адресных ориентиров зданий, сооружений, принадлежащих на соответствующем праве заявителю.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
+    },
+    "documents_confirming_applicant_right": {
+      "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
+      "description": "Файлы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}
