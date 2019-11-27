@@ -55,7 +55,6 @@
   "required": [
     "time_limitation",
     "operating_schedule",
-    "genplan",
     "ppr",
     "traffic_scheme"
   ],

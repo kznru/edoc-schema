@@ -2,7 +2,6 @@
   "required": [
     "time_limitation",
     "operating_schedule",
-    "genplan",
     "ppr",
     "traffic_scheme"
   ],
@@ -28,10 +27,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
       "description": "График по нормам продолжительности строительства. В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторного восстановления после просадок в теплое время года."
-    },
-    "genplan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Генеральный план г.Казани с обозначением участка закрытия объекта"
     },
     "ppr": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
