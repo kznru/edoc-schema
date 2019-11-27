@@ -121,8 +121,7 @@
     "address",
     "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq",
     "fizicheskoe_lico",
-    "adres",
-    "swedeniq_o_proektnoj_organizacii"
+    "adres"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
