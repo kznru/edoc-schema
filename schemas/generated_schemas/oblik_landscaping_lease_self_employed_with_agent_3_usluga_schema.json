@@ -36,7 +36,6 @@
       "type": "object",
       "title": "Графическая часть",
       "required": [
-        "landscape_visual_analysis",
         "photo"
       ],
       "properties": {

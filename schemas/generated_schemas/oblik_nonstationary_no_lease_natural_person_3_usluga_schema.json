@@ -21,9 +21,6 @@
     "graphic_part": {
       "type": "object",
       "title": "Графическая часть",
-      "required": [
-        "landscape_visual_analysis"
-      ],
       "properties": {
         "facades": {
           "type": "array",

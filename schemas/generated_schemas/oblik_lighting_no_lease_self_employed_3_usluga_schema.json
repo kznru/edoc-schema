@@ -53,7 +53,7 @@
           }
         },
         "topographic_plan": {
-          "title": "Топографический план",
+          "title": "Генеральный план",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "description": "Генплан размещения оборудования в масштабе 1:500 при архитектурной подсветке объекта с отдельно стоящих опор"
         },
