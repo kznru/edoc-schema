@@ -54,16 +54,20 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации (файл)",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
                 "description": "Фотофиксация существующего состояния объекта и его окружения"
               },
               "sketch": {
                 "title": "Эскизное предложение",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
                 "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
               }
             }
           }
+        },
+        "general_plan": {
+          "title": "Генеральный план участка",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
         }
       }
     },
