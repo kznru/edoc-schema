@@ -69,7 +69,8 @@
         "light_technical_calculation": {
           "title": "Светотехнический расчет",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Обоснование используемого оборудования"
+          "accept": "image/png, image/jpeg",
+          "description": "Обоснование используемого оборудования. В формате jpeg или png"
         }
       }
     },
