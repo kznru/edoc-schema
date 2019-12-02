@@ -1,6 +1,14 @@
 {
   "type": "object",
   "properties": {
+  "registry_item": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+    "config": {
+      "registry_key": "submitting_for_permanent_use_of_land_1"
+    },
+    "title": "Технические условия для выполнения",
+    "description": "Номер технических условий в реестре"
+  },
   "organization": {
     "title": "Заявитель",
     "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
@@ -48,6 +56,7 @@
   }
 },
   "required": [
+    "registry_item",
     "organization",
     "agent",
     "letter_of_attorney_optional",
