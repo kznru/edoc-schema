@@ -76,8 +76,7 @@
       "items": {
         "type": "object",
         "required": [
-          "organization_or_natural_person",
-          "text"
+          "organization_or_natural_person"
         ],
         "properties": {
           "organization_or_natural_person": {
