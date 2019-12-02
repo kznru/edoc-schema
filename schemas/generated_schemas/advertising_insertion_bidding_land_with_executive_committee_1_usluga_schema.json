@@ -96,10 +96,6 @@
         }
       }
     },
-    "cadastre_number": {
-      "title": "Кадастровый номер земельного участка",
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
-    },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
       "type": "string"

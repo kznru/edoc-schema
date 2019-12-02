@@ -77,8 +77,7 @@
       "items": {
         "type": "object",
         "required": [
-          "organization_or_natural_person",
-          "text"
+          "organization_or_natural_person"
         ],
         "properties": {
           "organization_or_natural_person": {
@@ -102,7 +101,7 @@
       "title": "Кадастровый номер земельного участка"
     },
     "ownership_confirming_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
     },

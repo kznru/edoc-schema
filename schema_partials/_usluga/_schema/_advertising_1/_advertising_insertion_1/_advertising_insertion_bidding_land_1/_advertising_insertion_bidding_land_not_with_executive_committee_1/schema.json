@@ -24,7 +24,11 @@
       "title": "Собственник недвижимого имущества"
     },
     "installation_and_operation_document": {},
-    "state_duty_payment": {}
+    "state_duty_payment": {},
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
   }
 }
 
