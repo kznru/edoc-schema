@@ -95,6 +95,7 @@
         ],
         "properties": {
           "organization_or_natural_person": {
+            "title": "",
             "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
           },
           "text": {
@@ -106,7 +107,7 @@
     },
     "cadatre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый земельного участка"
+      "title": "Кадастровый номер земельного участка"
     },
     "ownership_confirming_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
