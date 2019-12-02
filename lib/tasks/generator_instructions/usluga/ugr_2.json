@@ -1,0 +1,59 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "ugr_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "ugr_put_object_into_service_2",
+          "virtual": true,
+          "keys": [
+            { "name": "ugr_put_object_into_service_contract_izhs_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_izhs_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_contract_izhs_natural_person_2" },
+            { "name": "ugr_put_object_into_service_izhs_natural_person_2" },
+            { "name": "ugr_put_object_into_service_contract_izhs_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_izhs_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_contract_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_contract_natural_person_2" },
+            { "name": "ugr_put_object_into_service_natural_person_2" },
+            { "name": "ugr_put_object_into_service_contract_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "ugr_build_objects_of_capital_contruction_2",
+          "virtual": true,
+          "keys": [
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_contruction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_contruction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_recontruction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_recontruction_without_egrp_natural_person_with_agent_2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

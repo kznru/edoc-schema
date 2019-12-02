@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Введите данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель ",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность ",
+      "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "kadastrowyj_nomer_zemel_nogo_uchastka": {
+      "title": "Кадастровый номер земельного участка ",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "ploschad_zemel_nogo_uchastka": {
+      "title": "Площадь земельного участка",
+      "description": "Площадь (кв.м)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "address_with_map": {
+      "title": "Точный адрес или ориентир местонахождения земельного участка ",
+      "description": "Точный адрес или ориентир местонахождения земельного участка ",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "object_assignment": {
+      "title": "Назначение объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
+      "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
+      "description": "Необходимо подтвердить согласие на обработку представленных данных",
+      "type": "boolean"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "object_assignment",
+    "applicant",
+    "agent",
+    "dowerennost",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "ploschad_zemel_nogo_uchastka",
+    "address_with_map",
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

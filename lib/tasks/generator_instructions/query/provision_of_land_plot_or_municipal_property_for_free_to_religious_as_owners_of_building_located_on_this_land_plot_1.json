@@ -1,0 +1,15 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "provision_of_land_plot_or_municipal_property_for_free_to_religious_as_owners_of_building_located_on_this_land_plot_1",
+      "virtual": true,
+      "keys": [
+        { "name": "inspection_of_land_mzk_municipal_property_for_free_to_religious_1" },
+        { "name": "uaig_possibility_of_providing_land_ownership_municipal_property_for_free_to_religious_1"},
+        { "name": "ld_and_crd_possibility_of_providing_land_ownership_municipal_property_for_free_to_religious_1"},
+        { "name": "kzio_request_graphic_material_for_free_to_religious_2"}
+      ]
+    }
+  ]
+}

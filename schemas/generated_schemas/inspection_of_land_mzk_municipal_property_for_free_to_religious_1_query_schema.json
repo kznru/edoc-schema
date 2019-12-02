@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

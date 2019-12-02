@@ -1,0 +1,116 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "naimenowanie_ob_ekta_kul_turnogo_naslediq": {
+      "title": "Наименование объекта культурного наследия",
+      "description": "Наименование объекта культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
+    },
+    "address": {
+      "title": "Адрес объекта культурного наследия",
+      "description": "Адрес местонахождения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq": {
+      "title": "Сведения о собственнике (пользователе) объекта культурного наследия",
+      "description": "Сведения о собственнике (пользователе) объекта культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "fizicheskoe_lico": {
+      "title": "Физическое лицо",
+      "description": "Фамилия, Имя, Отчество",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "adres": {
+      "title": "Адрес",
+      "description": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
+      "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
+      "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "swedeniq_o_dejstwu_schih_ohrannyh_obqzatel_stwah_ohranno_arendnyh_dogoworah_ili_ohrannyh_dogoworah": {
+      "title": "Сведения  о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
+      "description": "Подкрепляется скан документа о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "kratkie_swedeniq_ob_ob_ekte_kul_turnogo_naslediq_i_ego_tehnicheskom_sostoqnii": {
+      "title": "Краткие сведения об объекте культурного наследия и его техническом\nсостоянии",
+      "description": "Краткие сведения об объекте культурного наследия и его техническом\nсостоянии, включая малые архитектурные формы, монументальную живопись и предметы внутреннего убранства, инженерные сооружения и оборудование",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "predmet_ohrany_ob_ekta_kul_turnogo_naslediq": {
+      "title": "Предмет охраны объекта культурного наследия",
+      "description": "Предмет охраны объекта культурного наследия (краткое описание со ссылкой на документ об утверждении)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_url"
+    },
+    "swedeniq_o_proektnoj_organizacii": {
+      "title": "Сведения о проектной организации",
+      "type": "object",
+      "properties": {
+        "project_organization_legal_entity": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Проектная организация – юр.лицо",
+          "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
+        },
+        "project_organization_natural_person": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "Проектная организации – физ.лицо",
+          "description": "Фамилия, Имя, Отчество"
+        },
+        "project_organization_address": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+          "title": "Адрес проектной организации",
+          "description": "Адрес"
+        },
+        "swedeniq_o_licenzii": {
+          "title": "Сведения о лицензии",
+          "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        }
+      }
+    },
+    "swedeniq_o_ranee_wypolnennoj_nauchno_proektnoj_i_ili_proektnoj_dokumentacii_i_wozmozhnosti_ee_ispol_zowaniq": {
+      "title": "Сведения о ранее выполненной научно-проектной и (или) проектной документации и возможности ее использования",
+      "description": "Сведения о ранее выполненной научно-проектной и (или) проектной документации и возможности ее использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "nomer_dokumenta": {
+      "title": "номер документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    },
+    "data_dokumenta": {
+      "title": "дата документа",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "dokumenty_na_prawo_sobstwennosti_pol_zowaniq__plany_bti_ohrannye_obqzatel_stwa_akt_tehnicheskogo_sostoqniq_ob_ekta_kul_turnogo_naslediq": {
+      "title": "Документы на право (собственности, пользования), планы БТИ, охранные обязательства, акт технического состояния объекта культурного наследия",
+      "description": "Прикрепляются сканы имеющихся документов на право (собственности, пользования), планы БТИ, охранные обязательства, акт технического состояния объекта культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "agent",
+    "naimenowanie_ob_ekta_kul_turnogo_naslediq",
+    "address",
+    "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq",
+    "fizicheskoe_lico",
+    "adres"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

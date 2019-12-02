@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": [
+    "scanned_document"
+  ],
+  "properties": {
+    "scanned_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ограничения земельного участка, возможность/невозможность предоставления земельного участка в собственность"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

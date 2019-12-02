@@ -1,0 +1,20 @@
+{
+  "type":"object",
+  "required":["phototable", "inspection_act", "inspection_result"],
+  "properties": {
+    "phototable": {
+      "title": "Фото-таблица",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "Фото существующей ситуации, схема с обозначением мест, с которых осуществлялась фото фиксация"
+    },
+    "inspection_act": {
+      "title": "Акт обследования земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "inspection_result": {
+      "title": "Информация по результатам обследования",
+      "type": "string",
+      "description": "Текстовая информация о результате обследования"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "conclusion_sanitary_and_epidemiological_surveillance":{
+      "title": "Заключение санитарно-эпидемиологического надзора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "preliminary_design": {
+      "title": "Эскизный проект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  },
+  "required": [
+    "conclusion_sanitary_and_epidemiological_surveillance"
+  ]
+}

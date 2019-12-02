@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+
+    "explanatory_note": {},
+    "graphic_part": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Реквизиты документа",
+  "title": "Реквизиты документа",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер документа"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата документа"
+    },
+    "scanned_documents": {
+      "title": "Сканы документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    }
+  }
+}

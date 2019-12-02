@@ -1,0 +1,101 @@
+{
+  "properties": {
+  "applicant": {
+    "title": "Заявитель",
+    "description": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "agent": {
+    "title": "Представитель",
+    "description": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "dowerennost": {
+    "title": "Доверенность",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "naimenowanie_ob_ekta_kul_turnogo_naslediq": {
+    "title": "Наименование объекта культурного наследия",
+    "description": "Наименование объекта культурного наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/culture_object_name"
+  },
+  "address": {
+    "title": "Адрес объекта культурного наследия",
+    "description": "Адрес местонахождения",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+  },
+  "swedeniq_o_proektnoj_organizacii": {
+    "title": "Сведения о проектной организации",
+    "description": "Сведения о проектной организации",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+  },
+  "organization": {
+    "title": "Юридическое лицо",
+    "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "swedeniq_o_licenzii": {
+    "title": "Сведения о лицензии",
+    "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "sostaw_proektnoj_dokumentacii": {
+    "title": "Состав проектной документации",
+    "description": "Перечень",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+  },
+  "proektnaq_dokumentaciq_po_sohraneni_ob_ekta_kul_turnogo_naslediq": {
+    "title": "Проектная документация по сохранению объекта культурного наследия",
+    "description": "Подкрепляется скан проектной документации, разработанной проектной организацией, имеющей лицензию на осуществление деятельности по сохранению объектов культурного наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "swedeniq_o_zadanii_na_prowedenie_rabot_po_sohraneni_ob_ekta_kul_turnogo_naslediq": {
+    "title": "Сведения о задании на проведение работ по сохранению объекта культурного наследия",
+    "description": "Сведения о задании на проведение работ по сохранению объекта культурного наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+  },
+  "nomer_dokumenta": {
+    "title": "номер документа",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+  },
+  "data_dokumenta": {
+    "title": "дата документа",
+    "$ref": "http://edoc-schema.kzn.ru/generic/date"
+  },
+  "soglasie_wseh_sobstwennikow_ob_ekta_kul_turnogo_naslediq_libo_pol_zowatelej_ob_ekta_kul_turnogo_naslediq": {
+    "title": "Согласие всех собственников объекта культурного наследия либо пользователей объекта культурного наследия",
+    "description": "Подкрепляется скан согласия всех собственников объекта культурного наследия либо пользователей объекта культурного наследия, при проведении работ, затрагивающих конструктивные и другие характеристики надежности и безопасности объекта культурного наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "akt_opredeleniq_wliqniq_predpolagaemyh_k_prowedeni_widow_rabot_na_konstruktiwnye_i_drugie_harakteristiki_nadezhnosti_i_bezopasnosti_ob_ekta_kul_turnogo_naslediq": {
+    "title": "Акт определения влияния предполагаемых к проведению видов работ на конструктивные и другие характеристики надежности и безопасности объекта культурного наследия",
+    "description": "Подкрепляется скан акта определения влияния предполагаемых к проведению видов работ на конструктивные и другие характеристики надежности и безопасности объекта культурного наследия (памятника истории и культуры) народов Российской Федерации, составленный проектной организацией, имеющей лицензию по сохранению объектов культурного наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
+  "polozhitel_noe_zakl_chenie_akta_gik_xpertizy_za_iskl_cheniem_sluchaew_kogda_zakazchikom_gik_xpertizy_qwlqetsq_uprawlenie__sostawlennoe_attestowannymi_ministerstwom_kul_tury_rossijskoj_federacii_gosudarstwennymi_istoriko_kul_turnymi_xpertami": {
+    "title": "Положительное заключение акта ГИК-экспертизы (за исключением случаев, когда заказчиком ГИК-экспертизы является Управление), составленное аттестованными Министерством культуры Российской Федерации государственными историко-культурными экспертами",
+    "description": "Государственная историко-культурная экспертиза в электронном виде, подписанная усиленной квалифицированной электронной подписью. К заключению ГИК-экспертизы прилагаются: а) электронно-цифровая подпись экспертов при предоставлении документов посредством электронно-цифровых носителей; б) приложения, указанные в заключении экспертизы; в) копии протоколов заседаний экспертной комиссии (если имеются); г) документы, представленные заказчиком экспертизы",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "naimenowanie_ob_ekta_kul_turnogo_naslediq",
+    "address",
+    "swedeniq_o_proektnoj_organizacii",
+    "organization",
+    "swedeniq_o_licenzii",
+    "sostaw_proektnoj_dokumentacii",
+    "proektnaq_dokumentaciq_po_sohraneni_ob_ekta_kul_turnogo_naslediq",
+    "swedeniq_o_zadanii_na_prowedenie_rabot_po_sohraneni_ob_ekta_kul_turnogo_naslediq",
+    "nomer_dokumenta",
+    "data_dokumenta",
+    "soglasie_wseh_sobstwennikow_ob_ekta_kul_turnogo_naslediq_libo_pol_zowatelej_ob_ekta_kul_turnogo_naslediq",
+    "akt_opredeleniq_wliqniq_predpolagaemyh_k_prowedeni_widow_rabot_na_konstruktiwnye_i_drugie_harakteristiki_nadezhnosti_i_bezopasnosti_ob_ekta_kul_turnogo_naslediq",
+    "polozhitel_noe_zakl_chenie_akta_gik_xpertizy_za_iskl_cheniem_sluchaew_kogda_zakazchikom_gik_xpertizy_qwlqetsq_uprawlenie__sostawlennoe_attestowannymi_ministerstwom_kul_tury_rossijskoj_federacii_gosudarstwennymi_istoriko_kul_turnymi_xpertami"
+  ],
+  "type": "object"
+}

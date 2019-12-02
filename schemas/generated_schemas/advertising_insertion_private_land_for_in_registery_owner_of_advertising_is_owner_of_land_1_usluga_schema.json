@@ -1,0 +1,152 @@
+{
+  "required": [
+    "address_with_map",
+    "type",
+    "field_area",
+    "number_of_fields",
+    "total_area_of_fields",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "description",
+    "property_owners",
+    "state_duty_payment",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
+    "type": {
+      "title": "Тип рекламной конструкции",
+      "description": "Выбирается один из типов рекламных конструкций: пилларс, пилон,  коммуникационный указатель.",
+      "type": "string",
+      "enum": [
+        "пилларс",
+        "пилон",
+        "коммуникационный указатель"
+      ]
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "type": "string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "number_of_fields": {
+      "title": "Количество информационных полей",
+      "type": "string",
+      "description": "Указывается количество информационных полей"
+    },
+    "total_area_of_fields": {
+      "type": "string",
+      "title": "Общая площадь информационного поля (информационных полей), кв.м",
+      "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
+    },
+    "situational_plan": {
+      "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ситуационный план"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности",
+      "description": "Прикрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
+    },
+    "graphic_image_of_structure": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции",
+      "description": "Требования приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Краткое описание",
+      "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "property_owners": {
+      "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "organization_or_natural_person",
+          "text"
+        ],
+        "properties": {
+          "organization_or_natural_person": {
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+          },
+          "text": {
+            "title": "Дополнительная информация о собственнике",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+          }
+        }
+      }
+    },
+    "cadatre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый земельного участка"
+    },
+    "ownership_confirming_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
+    "state_duty_payment": {
+      "title": "Сведения об оплате государственной пошлины",
+      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
+      "type": "object",
+      "required": [
+        "payer",
+        "document"
+      ],
+      "properties": {
+        "payer": {
+          "type": "string",
+          "title": "Наименование плательщика",
+          "description": "Юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС"
+        },
+        "document": {
+          "title": "Номер и дата документа",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
+        }
+      }
+    },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "type": "string"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

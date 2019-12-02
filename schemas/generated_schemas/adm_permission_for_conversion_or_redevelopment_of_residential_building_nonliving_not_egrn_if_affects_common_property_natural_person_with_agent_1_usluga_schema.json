@@ -33,15 +33,18 @@
       "title": "Технический паспорт переустраиваемого и (или) перепланируемого помещения",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
-    "jeskiznyj_proekt": {
-      "title": "Эскизный проект",
-      "description": "В случае изменения архитектурного облика объекта нежилого помещения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-    },
     "protokol_obschego_sobraniq": {
       "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
       "description": "Ссылка на протокол общего собрания в ГИС ЖКХ если переустройство и (или) перепланировка помещения в многоквартирном доме невозможны без присоединения к данному помещению части общего имущества в многоквартирном доме",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+    },
+    "conclusion_sanitary_and_epidemiological_surveillance": {
+      "title": "Заключение санитарно-эпидемиологического надзора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "preliminary_design": {
+      "title": "Эскизный проект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -60,8 +63,8 @@
     "prawoustanawliwa_schie_dokumenty_na_pereustraiwaemoe_i_ili_pereplaniruemoe_pomeschenie",
     "proekt_pereustrojstwa_i_ili_pereplanirowki",
     "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq",
-    "jeskiznyj_proekt",
-    "protokol_obschego_sobraniq"
+    "protokol_obschego_sobraniq",
+    "conclusion_sanitary_and_epidemiological_surveillance"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

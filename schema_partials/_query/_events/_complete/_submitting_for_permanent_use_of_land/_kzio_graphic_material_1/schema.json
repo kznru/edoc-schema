@@ -1,0 +1,11 @@
+{
+  "type":"object",
+  "required":["image_topographic"],
+  "properties":{
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Графический материал на топографической съемке",
+      "description": "Файл топосьемки с границами участка, красными линиями и с указанием площади"
+    }
+  }
+}

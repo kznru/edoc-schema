@@ -42,7 +42,7 @@
   },
   "izobrazhenie_reklamnoj_konstrukcii": {
     "title": "Изображение рекламной конструкции",
-    "description": "Требования приведены в п. 4.2 Приложения №2 к Административному регламенту",
+    "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
   }
 },

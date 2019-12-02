@@ -2,8 +2,8 @@
   "required": [
     "address_with_map",
     "written_consent_of_owners",
-    "installation_and_operation_document"
-
+    "installation_and_operation_document",
+    "information_about_owner_of_real_estate"
   ],
   "properties": {
     "organization": {},
@@ -37,6 +37,10 @@
     "constructive_images": {},
     "field_size": {},
     "field_area": {},
+    "information_about_owner_of_real_estate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text",
+      "title": "Данные о собственнике недвижимого имущества, к которому присоединяется рекламная конструкция"
+    },
     "written_consent_of_owners": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Письменное согласие собственников",

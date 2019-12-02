@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney",
+    "lease_contract"
+  ],
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    },
+    "planeta_number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number"
+    },
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
+    },
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [
+
+      ],
+      "properties": {
+        "facades": {
+          "type": "array",
+          "minItems": 1,
+          "title": "Фасады",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "title": "Тип фасада",
+                "enum": [
+                  "главный",
+                  "боковой",
+                  "дворовый"
+                ]
+              },
+              "photo": {
+                "title": "Фото исходной ситуации (файл)",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+                "description": "Фотофиксация существующего состояния объекта и его окружения"
+              },
+              "sketch": {
+                "title": "Эскизное предложение",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
+              }
+            }
+          }
+        },
+        "general_plan": {
+          "title": "Генеральный план участка",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        }
+      }
+    },
+    "documents_for_land": {
+      "title": "Правоустанавливающие документы",
+      "description": "Скан-копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

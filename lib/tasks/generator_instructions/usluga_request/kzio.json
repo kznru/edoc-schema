@@ -180,19 +180,50 @@
           ]
         },
         {
-          "name": "municipal_property_of_treasury_transfer",
-          "virtual": true,
-          "keys": [
-            { "name": "municipal_property_of_treasury_transfer_legal_entity_1" },
-            { "name": "municipal_property_of_treasury_transfer_natural_person_1" }
-          ]
-        },
-        { "name": "attorney_permission_to_issue_on_behalf_of_minor_1" },
-        {
           "name": "permission_to_transfer_property_on_bail_with_participation_of_minors_1"
         },
         {
+          "name": "provision_of_land_plot_or_municipal_property_for_free_to_religious_as_owners_of_building_located_on_this_land_plot_1",
+          "virtual": true,
+          "keys": [
+            { "name": "provision_of_land_plot_or_municipal_property_for_free_to_religious_as_owners_of_building_located_on_this_land_plot_legal_entity_1" }
+          ]
+        },
+        {
           "name": "permission_to_terminate_rights_of_minor_ownership_1"
+        },
+        {
+          "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "with_real_estate",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_legal_entity_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_natural_person_with_agent_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_with_real_estate_natural_person_1" }
+              ]
+            },
+            {
+              "name": "without_real_estate",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_legal_entity_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_natural_person_with_agent_1" },
+                { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_without_real_estate_natural_person_1" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_legal_entity_1" },
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_natural_person_1" },
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_natural_person_with_agent_1" }
+          ]
         }
       ]
     }

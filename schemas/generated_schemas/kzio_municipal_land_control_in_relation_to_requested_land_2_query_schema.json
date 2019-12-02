@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "shema_raspolozheniq_zaprashiwaemogo_zemel_nogo_uchastka_s_ukazaniem_koordinat_harakternyh_tochek_granic_territorii": {
+      "title": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

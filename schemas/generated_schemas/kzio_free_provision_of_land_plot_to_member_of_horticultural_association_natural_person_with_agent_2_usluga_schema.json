@@ -1,0 +1,69 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Введите данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address": {
+      "title": "Адрес, по которому находится земельный участок",
+      "description": "Адрес с указанием города",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "organization": {
+      "title": "Наименование СНТ",
+      "description": "Указать наименование садоводческого некоммерческого товарищества",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "kadastrowyj_nomer_zemel_nogo_uchastka": {
+      "title": "Кадастровый номер земельного участка",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "ploschad_zemel_nogo_uchastka_kw_m": {
+      "title": "Площадь земельного участка (кв. м)",
+      "description": "Указывается точное значение в соответствии со  схемой расположения земельного участка на кадастровом плане территории и протоколом общего собрания членов садоводческого, огороднического или дачного некоммерческого объединения граждан о распределении земельных участков между членами указанного объединения, иным устанавливающим распределение земельных участков в этом объединении документом или выпиской из указанного протокола или указанного документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "vypiska_iz_resheniq_obschego_sobraniq_sadowodcheskogo_towarischestwa": {
+      "title": "Выписка из решения общего собрания садоводческого товарищества",
+      "description": "Прикрепляется скан выписки из решения общего собрания с подписью председателя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "postanowlenie_ob_utwerzhdenii_shemy_raspolozheniq_zemel_nogo_uchastka_na_kadastrowom_plane_territorii": {
+      "title": "Постановление об утверждении схемы расположения земельного участка на кадастровом плане территории",
+      "description": "Указать номер и дату Постановления Исполнительного комитета",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "address",
+    "organization",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "ploschad_zemel_nogo_uchastka_kw_m",
+    "vypiska_iz_resheniq_obschego_sobraniq_sadowodcheskogo_towarischestwa"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

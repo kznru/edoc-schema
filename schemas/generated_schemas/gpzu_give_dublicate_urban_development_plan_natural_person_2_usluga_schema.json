@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address": {
+      "title": "Адрес земельного участка",
+      "description": "Адрес земельного участка с указанием улицы",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "kadastrowyj_nomer_zemel_nogo_uchastka": {
+      "title": "Кадастровый номер земельного участка ",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "nomer_gpzu_nomer_ru": {
+      "title": "Номер ГПЗУ Номер RU",
+      "description": "Номер ГПЗУ Номер RU",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number"
+    },
+    "nomer_ot": {
+      "title": "От",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "nomer_postanowleniq_rasporqzheniq": {
+      "title": "Номер постановления (распоряжения)",
+      "description": "Номер постановления (распоряжения)",
+      "type": "object",
+      "properties": {
+        "data": {
+          "title": "Дата",
+          "$ref": "http://edoc-schema.kzn.ru/generic/date"
+        },
+        "nomer": {
+          "title": "Номер",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+        }
+      }
+    },
+    "prichina": {
+      "title": "Причина",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Утеря",
+        "Порча",
+        "Новый собственник"
+      ]
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "agent",
+    "address",
+    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "nomer_gpzu_nomer_ru",
+    "prichina"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

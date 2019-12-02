@@ -88,7 +88,20 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "required": [
+        "organization_or_natural_person",
+        "text"
+      ],
+      "type": "object",
+      "properties": {
+        "organization_or_natural_person": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+        },
+        "text": {
+          "title": "Дополнительная информация о собственнике",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+        }
+      },
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
     },
     "written_consent_of_owners": {
