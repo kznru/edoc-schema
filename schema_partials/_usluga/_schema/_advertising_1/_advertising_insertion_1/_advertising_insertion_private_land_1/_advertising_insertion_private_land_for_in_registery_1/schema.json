@@ -11,7 +11,8 @@
     "property_owners",
     "installation_and_operation_document",
     "state_duty_payment",
-    "written_consent_of_owner"
+    "written_consent_of_owner",
+    "cadatre_number"
   ],
   "properties": {
     "organization": {},
@@ -95,7 +96,7 @@
       "title": "Кадастровый номер земельного участка"
     },
     "ownership_confirming_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
     },

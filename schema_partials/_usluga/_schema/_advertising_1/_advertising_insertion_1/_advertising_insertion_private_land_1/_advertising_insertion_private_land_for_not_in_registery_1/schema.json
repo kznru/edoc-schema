@@ -12,7 +12,8 @@
     "property_owners",
     "installation_and_operation_document",
     "state_duty_payment",
-    "written_consent_of_owner"
+    "written_consent_of_owner",
+    "ownership_confirming_document"
   ],
   "properties": {
     "organization": {},
@@ -96,12 +97,8 @@
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
     },
-    "cadatre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
-      "title": "Кадастровый номер земельного участка"
-    },
     "ownership_confirming_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
     },
