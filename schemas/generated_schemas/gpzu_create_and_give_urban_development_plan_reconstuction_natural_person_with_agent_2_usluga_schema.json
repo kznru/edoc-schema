@@ -15,7 +15,7 @@
       "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя ",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
     },
-    "kadastrowyj_nomer_zemel_nogo_uchastka": {
+    "cadastre_number": {
       "title": "Кадастровый номер земельного участка ",
       "description": "Кадастровый номер",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
@@ -30,7 +30,7 @@
       "description": "Точный адрес или ориентир местонахождения земельного участка ",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
-    "object_assignment": {
+    "building_object": {
       "title": "Назначение объекта",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
     },
@@ -49,11 +49,11 @@
     }
   },
   "required": [
-    "object_assignment",
+    "building_object",
     "applicant",
     "agent",
     "dowerennost",
-    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "cadastre_number",
     "ploschad_zemel_nogo_uchastka",
     "address_with_map",
     "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah"

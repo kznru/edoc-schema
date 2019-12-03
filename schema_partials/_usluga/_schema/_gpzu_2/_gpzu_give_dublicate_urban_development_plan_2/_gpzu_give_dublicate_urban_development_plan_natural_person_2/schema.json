@@ -10,7 +10,7 @@
     "description": "Адрес земельного участка с указанием улицы",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
   },
-  "kadastrowyj_nomer_zemel_nogo_uchastka": {
+  "cadastre_number": {
     "title": "Кадастровый номер земельного участка ",
     "description": "Кадастровый номер",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
@@ -49,7 +49,7 @@
   "required": [
     "agent",
     "address",
-    "kadastrowyj_nomer_zemel_nogo_uchastka",
+    "cadastre_number",
     "nomer_gpzu_nomer_ru",
     "prichina"
   ],
