@@ -1,7 +1,8 @@
 {
   "required": [
     "address_with_map",
-    "confirming_ownership_document"
+    "confirming_ownership_document",
+     "property_owner"
   ],
   "properties": {
     "organization": {},
@@ -35,7 +36,10 @@
     "constructive_images": {},
     "field_size": {},
     "field_area": {},
-    "property_owner": {},
+    "property_owner": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
     "confirming_ownership_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",

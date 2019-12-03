@@ -8,7 +8,6 @@
     "constructive_images",
     "field_size",
     "field_area",
-    "property_owner",
     "permission_period",
     "state_duty_payment"
   ],
@@ -56,10 +55,6 @@
       "title": "Площадь информационного поля",
       "type": "string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
-    },
-    "property_owner": {
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
     },
     "permission_period": {
       "title": "Срок действия разрешения",

@@ -2,7 +2,8 @@
   "required": [
     "address_with_map",
     "address_with_map_for_projection_equipment",
-    "title_document_for_property"
+    "title_document_for_property",
+    "property_owner"
   ],
   "properties": {
     "organization": {},
@@ -41,7 +42,10 @@
     },
     "field_size": {},
     "field_area": {},
-    "property_owner": {},
+    "property_owner": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
     "title_document_for_property": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",

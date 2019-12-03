@@ -2,6 +2,7 @@
   "required": [
     "address_with_map",
     "title_document_for_property",
+    "property_owner",
     "type",
     "photo",
     "photomontage",
@@ -10,7 +11,6 @@
     "constructive_images",
     "field_size",
     "field_area",
-    "property_owner",
     "permission_period",
     "state_duty_payment",
     "organization",
@@ -90,7 +90,7 @@
     },
     "property_owner": {
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     },
     "title_document_for_property": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
