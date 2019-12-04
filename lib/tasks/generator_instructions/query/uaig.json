@@ -8,7 +8,21 @@
         {
           "name": "uaig_request_for_urban_planning_conclusion_1"
         },
-        { "name": "uaig_preparation_townplanning_opinion_on_possibility_of_issuing_requested_permission_to_use_land_1" }
+        {
+          "name": "uaig_preparation_townplanning_opinion_on_possibility_of_issuing_requested_permission_to_use_land_1"
+        },
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_resolution_made_to_application_edo_1"
+        },
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_resolution_made_to_application_edo_complete_or_another_place_1"
+        },
+        {
+          "name": "uaig_engineering_networks_passing_within_boundaries_of_formed_land_1"
+        },
+        {
+          "name": "uaig_engineering_networks_passing_within_boundaries_of_formed_land_available_or_not_1"
+        }
       ]
     }
   ]

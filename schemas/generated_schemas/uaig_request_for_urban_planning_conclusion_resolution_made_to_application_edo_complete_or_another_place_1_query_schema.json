@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_optional",
+      "title": "Заявитель (физ. лицо c представителем)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "address_with_map": {
+      "title": "Адрес, по которому находится  запрашиваемый земельный участок",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "intended_use_of_land": {
+      "title": " Вид разрешенного использования земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    },
+    "town_planning_zone": {
+      "title": "Зона по градостроительному уставу",
+      "type": "string"
+    },
+    "town_planning_description": {
+      "title": "Описание градостроительной ситуации",
+      "type": "string"
+    },
+    "town_planning_response": {
+      "type": "string",
+      "title": "Градостроительное заключение (выбор)",
+      "description": "Градостроительное заключение о возможности/невозможности образования земельного участка под запрашиваемые цели",
+      "minItems": 1,
+      "enum": [
+        "положительный",
+        "отрицательный"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

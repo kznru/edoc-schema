@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "town_planning_response"
+  ],
+  "properties": {
+    "town_planning_response": {
+      "type": "string",
+      "title": "Градостроительное заключение (выбор)",
+      "description": "Градостроительное заключение о возможности/невозможности образования земельного участка под запрашиваемые цели",
+      "minItems": 1,
+      "enum": [
+        "положительный",
+        "отрицательный"
+      ]
+    },
+    "information_about_another_place": {
+      "title": "Информация о возможности образования земельного участка в иных границах",
+      "type": "string"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

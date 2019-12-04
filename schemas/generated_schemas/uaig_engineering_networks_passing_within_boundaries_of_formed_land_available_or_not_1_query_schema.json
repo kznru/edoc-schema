@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "who_owns_networks": {
+      "title": "На чьем балансе указанные инженерные сети (коммуникации)",
+      "type": "string"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
