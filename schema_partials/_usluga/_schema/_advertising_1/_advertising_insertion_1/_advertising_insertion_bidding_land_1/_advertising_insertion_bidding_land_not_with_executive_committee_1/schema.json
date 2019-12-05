@@ -20,7 +20,7 @@
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
     },
     "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник недвижимого имущества"
     },
     "installation_and_operation_document": {},
