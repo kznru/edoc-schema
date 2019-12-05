@@ -8,7 +8,7 @@
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель",
-      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью"
+      "description": "Название организации балансодержателя / собственника инженерных коммуникаций, полностью"
     },
     "agent": {},
     "letter_of_attorney": {
