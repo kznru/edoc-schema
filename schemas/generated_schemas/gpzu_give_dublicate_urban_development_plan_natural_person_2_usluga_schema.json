@@ -39,7 +39,7 @@
         }
       }
     },
-    "prichina": {
+    "building_object": {
       "title": "Причина",
       "type": "string",
       "minItems": 1,
@@ -63,7 +63,7 @@
     "address",
     "cadastre_number",
     "nomer_gpzu_nomer_ru",
-    "prichina"
+    "building_object"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
