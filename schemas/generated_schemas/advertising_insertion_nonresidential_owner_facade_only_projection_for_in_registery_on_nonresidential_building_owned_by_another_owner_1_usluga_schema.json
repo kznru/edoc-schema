@@ -91,7 +91,7 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "property_owner": {
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проецируемое изображение)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
     },
     "written_consent_of_owners": {
