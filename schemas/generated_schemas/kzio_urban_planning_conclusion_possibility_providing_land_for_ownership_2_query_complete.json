@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "technical_plan"
+  ],
+  "properties": {
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Градостроительное заключение о возможности предоставлении земельного участка в собственность",
+      "description": "С указанием местонахождения земельного участка, площади, использования земельного участка, градостроительной ситуации, ограничения, обременения земельного участка"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
