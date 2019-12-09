@@ -6,7 +6,12 @@
     "images_before",
     "begin_date",
     "end_date",
-    "emergency_repair_of"
+    "emergency_repair_of",
+    "conclusion_place_of_damage",
+    "topography_of_networks",
+    "warranty_restore",
+    "certificate_sro",
+    "certificate_of_separation"
   ],
   "properties": {
     "agent": {
