@@ -9,7 +9,17 @@
     "address_comments",
     "objects_of_work",
     "objects_of_work_comments",
-    "images_before"
+    "images_before",
+    "interested_party_list",
+    "warranty_restore",
+    "contract_for_restore",
+    "order_of_responsible_for_restore",
+    "order_of_responsible_in_place",
+    "certificate_sro",
+    "contract_for_order",
+    "topography_of_placements",
+    "topography_of_networks",
+    "operating_schedule"
   ],
   "properties": {
     "begin_date": {

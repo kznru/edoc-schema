@@ -3,7 +3,9 @@
     "agent",
     "registry_item",
     "end_date",
-    "explanation_reason"
+    "explanation_reason",
+    "operating_schedule",
+    "drawing"
   ],
   "properties": {
     "registry_item": {

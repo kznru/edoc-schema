@@ -3,7 +3,8 @@
     "agent",
     "organization",
     "letter_of_attorney",
-    "address_with_map"
+    "address_with_map",
+    "images_before"
   ],
   "properties": {
     "organization": {
