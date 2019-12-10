@@ -1,4 +1,20 @@
 {
+  "required": [
+    "installation_and_operation_document",
+    "information_on_results_tenders",
+    "address_with_map",
+    "type",
+    "field_area",
+    "number_of_fields",
+    "total_area_of_fields",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "description",
+    "state_duty_payment",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -88,6 +104,10 @@
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
+    "information_on_results_tenders": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Сведения о результатах проведенных торгов на право заключения договора на установку и эксплуатацию рекламной конструкции"
+    },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",
       "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
@@ -126,21 +146,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "type",
-    "field_area",
-    "number_of_fields",
-    "total_area_of_fields",
-    "topography_of_networks",
-    "graphic_image_of_structure",
-    "description",
-    "installation_and_operation_document",
-    "state_duty_payment",
-    "organization",
-    "agent",
-    "letter_of_attorney"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

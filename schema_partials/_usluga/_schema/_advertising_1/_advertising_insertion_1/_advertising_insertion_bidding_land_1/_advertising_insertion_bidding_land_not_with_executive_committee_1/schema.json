@@ -1,4 +1,8 @@
 {
+  "required": [
+    "installation_and_operation_document",
+    "information_on_results_tenders"
+  ],
   "properties": {
     "organization": {},
     "agent": {},
@@ -23,7 +27,15 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник недвижимого имущества"
     },
-    "installation_and_operation_document": {},
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "information_on_results_tenders": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Сведения о результатах проведенных торгов на право заключения договора на установку и эксплуатацию рекламной конструкции"
+    },
     "state_duty_payment": {},
     "cadastre_number": {
       "title": "Кадастровый номер земельного участка",
