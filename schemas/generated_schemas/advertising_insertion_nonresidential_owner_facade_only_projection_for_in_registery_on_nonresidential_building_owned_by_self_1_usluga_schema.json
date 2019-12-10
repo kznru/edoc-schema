@@ -107,7 +107,7 @@
     },
     "permission_period": {
       "title": "Срок действия разрешения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",
