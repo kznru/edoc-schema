@@ -20,12 +20,12 @@
     "description": "Выбрать категорию запроса",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/request_category_isogd"
   },
-  "kadastrowyj_nomer": {
+  "cadastre_number": {
     "title": "Кадастровый номер",
     "description": "Кадастровый номер",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
   },
-  "tochnyj_adres_ili_oboznachenie_mestonahozhdeniq_interesu_schej_territorii": {
+  "address": {
     "title": "Точный адрес или обозначение местонахождения интересующей территории",
     "description": "Указать адрес или местоположение территории",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
@@ -45,8 +45,8 @@
     "agent",
     "swedeniq_isogd",
     "kategoriq_zaprosa",
-    "kadastrowyj_nomer",
-    "tochnyj_adres_ili_oboznachenie_mestonahozhdeniq_interesu_schej_territorii",
+    "cadastre_number",
+    "address",
     "razdel_isogd",
     "forma_predostawleniq_swedenij"
   ],
