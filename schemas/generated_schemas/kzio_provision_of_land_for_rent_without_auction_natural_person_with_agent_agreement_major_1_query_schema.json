@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "lease_contract": {
+      "title": "Срок аренды",
+      "description": "Указать количество лет и месяцев. В формате: ЧИСЛО лет, ЧИСЛО месяцев",
+      "type": "string"
+    },
+    "basis_for_provision_of_land_for_rent": {
+      "title": "Основание предоставления земельного участка в аренду",
+      "description": "Выбрать один из пунктов в соответствии с Земельным кодексом РФ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_provision_of_land_for_rent"
+    },
+    "green_report_area": {
+      "title": "Площадь (кв.м)",
+      "description": "Указывается площадь запрашиваемого земельного участка (в случае, если кадастровый номер - площадь земельного участка по кадастру, если часть земельного участка, площадь указывается по схеме расположения земельного участка на кадастровом плане территории) ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "types_of_permitted_use_of_land": {
+      "title": "Вид разрешенного использования",
+      "description": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "documents_confirming_for_take_land_plot": {
+      "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
+      "description": "Скан-копия документов, подтверждающих право заявителя на получение земельного участка в аренду без проведения торгов",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "identification_data_of_buildings": {
+      "title": "Данные, идентифицирующие объекты недвижимости",
+      "description": "Адресные ориентиры зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием их кадастровых номеров",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
