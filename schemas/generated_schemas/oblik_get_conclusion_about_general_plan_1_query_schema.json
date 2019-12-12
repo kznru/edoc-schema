@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": [
+    "general_plan"
+  ],
+  "properties": {
+    "general_plan": {
+      "title": "Генеральный план",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
