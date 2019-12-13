@@ -28,17 +28,35 @@
     "swedeniq_o_proektnoj_organizacii": {
       "title": "Сведения о проектной организации",
       "description": "Сведения о проектной организации",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-    },
-    "organization": {
-      "title": "Юридическое лицо",
-      "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
-    },
-    "swedeniq_o_licenzii": {
-      "title": "Сведения о лицензии",
-      "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+      "type": "object",
+      "required": [
+        "juridicheskoe_lico",
+        "fizicheskoe_lico",
+        "address",
+        "swedeniq_o_licenzii"
+      ],
+      "properties": {
+        "juridicheskoe_lico": {
+          "title": "Проектная организация – юридическое лицо",
+          "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+        },
+        "fizicheskoe_lico": {
+          "title": "Физическое лицо",
+          "description": "Фамилия, Имя, Отчество",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+        },
+        "address": {
+          "title": "Адрес проектной организации",
+          "description": "Адрес",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+        },
+        "swedeniq_o_licenzii": {
+          "title": "Сведения о лицензии",
+          "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+        }
+      }
     },
     "sostaw_proektnoj_dokumentacii": {
       "title": "Состав проектной документации",
@@ -89,8 +107,6 @@
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",
     "address",
     "swedeniq_o_proektnoj_organizacii",
-    "organization",
-    "swedeniq_o_licenzii",
     "sostaw_proektnoj_dokumentacii",
     "proektnaq_dokumentaciq_po_sohraneni_ob_ekta_kul_turnogo_naslediq",
     "swedeniq_o_zadanii_na_prowedenie_rabot_po_sohraneni_ob_ekta_kul_turnogo_naslediq",
