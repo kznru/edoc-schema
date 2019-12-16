@@ -10,6 +10,7 @@
     "graphic_part"
   ],
   "properties": {
+    "registry_item_state": {},
     "usluga_number": {
       "type": "string",
       "title": "Номер муниципальной услуги"

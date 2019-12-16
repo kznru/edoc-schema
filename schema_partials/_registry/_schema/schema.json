@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    }
+  }
+}

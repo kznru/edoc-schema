@@ -10,6 +10,10 @@
     "graphic_part"
   ],
   "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
     "usluga_number": {
       "type": "string",
       "title": "Номер муниципальной услуги"

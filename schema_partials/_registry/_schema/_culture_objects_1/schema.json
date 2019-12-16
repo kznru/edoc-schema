@@ -1,6 +1,7 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {},
     "registry_number": { "type": "string", "title": "Номер в реестре мин.культуры" },
     "code": { "type": "string", "enum": ["Ф", "Р", "М"], "title": "Код принадлежности" },
     "title": { "type": "string", "title": "Наименование" },

@@ -1,6 +1,7 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {},
     "usluga_number": {
       "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
     },
