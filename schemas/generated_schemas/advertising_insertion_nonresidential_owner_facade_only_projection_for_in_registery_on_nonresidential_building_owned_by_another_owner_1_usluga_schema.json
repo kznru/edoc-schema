@@ -91,7 +91,7 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "property_owner": {
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проецируемое изображение)",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проекционное оборудование)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
     },
     "written_consent_of_owners": {
@@ -103,7 +103,7 @@
       "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)"
     },
     "confirming_ownership_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
     },
