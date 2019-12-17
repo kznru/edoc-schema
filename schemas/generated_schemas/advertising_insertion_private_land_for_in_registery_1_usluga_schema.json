@@ -68,7 +68,7 @@
     },
     "situational_plan": {
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
@@ -112,7 +112,7 @@
       "title": "Кадастровый номер земельного участка"
     },
     "ownership_confirming_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
     },

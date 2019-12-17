@@ -34,7 +34,7 @@
     "documents_confirming_for_take_land_plot": {
       "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
       "description": "Скан-копия документов, подтверждающих право заявителя на получение земельного участка в аренду без проведения торгов",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
     "identification_data_of_buildings": {
       "title": "Данные, идентифицирующие объекты недвижимости",

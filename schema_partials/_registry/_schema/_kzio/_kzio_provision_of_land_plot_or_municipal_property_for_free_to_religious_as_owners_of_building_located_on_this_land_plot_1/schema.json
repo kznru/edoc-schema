@@ -43,7 +43,7 @@
     "documents_confirming_applicant_right": {
       "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
       "description": "Файлы",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     }
   }
 }

@@ -47,7 +47,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
     },
     "written_consent_of_owners": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Письменное согласие собственника (собственников) нежилого здания"
     },
     "installation_and_operation_document": {

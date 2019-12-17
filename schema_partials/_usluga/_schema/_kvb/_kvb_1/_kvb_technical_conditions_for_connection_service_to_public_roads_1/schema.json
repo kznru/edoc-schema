@@ -33,12 +33,12 @@
       ]
     },
     "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Чертёж градостроительного плана",
       "description": "Чертёжа градостроительного плана земельного участка, линий градостроительного регулирования в масштабе 1:500 с ситуационной схемой, согласованной с Управлением архитектуры и градостроительства Исполнительного комитета г.Казани"
     },
     "image_project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"
     }
   }

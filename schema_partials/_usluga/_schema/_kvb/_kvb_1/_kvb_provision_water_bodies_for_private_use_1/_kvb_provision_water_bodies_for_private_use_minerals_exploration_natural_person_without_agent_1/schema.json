@@ -4,7 +4,7 @@
       "title": "Заявитель"
     },
     "minarals_license": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Лицензия на пользование недрами"
     }
   }

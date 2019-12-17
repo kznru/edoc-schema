@@ -13,7 +13,7 @@
       "title": "Доверенность"
     },
     "minarals_license": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Лицензия на пользование недрами"
     },
     "water_body_name": {
@@ -28,11 +28,11 @@
       "title": "Сроки водопользования"
     },
     "events_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Информация о намечаемых заявителем водохозяйственных мероприятиях и мероприятиях по охране водного объекта с указанием размера и источника средств, необходимых для их реализации"
     },
     "equipment_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
     },
     "water_body_mapping": {
@@ -40,7 +40,7 @@
       "type": "object",
       "properties": {
         "note": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Пояснительная записка"
         },
         "address_with_map": {

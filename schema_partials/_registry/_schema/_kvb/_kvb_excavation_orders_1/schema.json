@@ -72,11 +72,11 @@
       }
     },
     "order_of_responsible_in_place": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Приказ об ответственном на объекте"
     },
     "order_of_responsible_for_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Приказ об ответственном за благоустройство",
       "description": "Отсканированный приказ об ответственном за благоустройство"
     },
