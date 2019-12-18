@@ -12,6 +12,7 @@
     "city": { "type": "string", "title": "Город" },
     "street": { "type": "string", "title": "Улица" },
     "house": { "type": "string", "title": "Дом" },
+    "corp": { "type": "string", "title": "Корпус" },
     "value": { "type": "string", "title": "Адрес одной строкой" },
     "geo_coordinates": { "$ref": "http://edoc-schema.kzn.ru/geo/geo_coordinates" }
   },

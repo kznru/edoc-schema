@@ -1,6 +1,6 @@
 {
   "properties": {
-    "positive_task_number": {
+    "positive_task_number":{
       "title": "Номер задания на проведение работ по сохранению объекта культурного наследия местного (муниципального) значения (памятника истории и культуры) народов Российской Федерации",
       "type": "string"
     },
@@ -8,7 +8,7 @@
       "title": "Адрес собственника (пользователя) объекта культурного наследия",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
-    "information_on_current_protection_obligations": {
+    "information_on_current_protection_obligations":{
       "title": "Сведения о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
       "type": "array",
       "minItems": 1,
@@ -21,38 +21,35 @@
           "characteristic"
         ],
         "properties": {
-          "type": {
+          "type":{
             "title": "Вид",
             "type": "string"
           },
-          "number": {
+          "number":{
             "title": "Номер",
             "type": "string"
           },
-          "date": {
+          "date":{
             "title": "Дата",
             "type": "string",
             "format": "date"
           },
-          "characteristic": {
+          "characteristic":{
             "title": "Характер современного использования",
             "type": "string"
           }
         }
       }
     },
-    "description_of_boundaries_of_property": {
+    "description_of_boundaries_of_property":{
       "title": "Описание границы территории объекта культурного наследия и зон его охраны (краткое описание со ссылкой на документ об утверждении)",
       "type": "string"
     },
-    "cultural_heritage_property": {
+    "cultural_heritage_property":{
       "title": "Предмет охраны объекта культурного наследия",
       "type": "object",
-      "required": [
-        "image",
-        "description"
-      ],
-      "properties": {
+      "required": ["image", "description"],
+      "properties":{
         "description": {
           "title": "Описание",
           "type": "string"
@@ -64,7 +61,7 @@
         }
       }
     },
-    "basis_for_conservation_of_cultural_heritage": {
+    "basis_for_conservation_of_cultural_heritage":{
       "title": "Основание для проведения работ по сохранению объекта культурного наследия",
       "type": "object",
       "required": [
@@ -78,38 +75,38 @@
         "intended_sequence_of_work_on_safety_or_local_work"
       ],
       "properties": {
-        "type_of_approved_document": {
+        "type_of_approved_document":{
           "title": "Вид утвержденного документа",
           "type": "string"
         },
-        "registration_number": {
+        "registration_number":{
           "title": "Регистрационный номер",
           "type": "string"
         },
-        "approval_date": {
+        "approval_date":{
           "title": "Дата утверждения",
           "type": "string",
           "format": "date"
         },
-        "content_of_conservation_of_cultural_heritage": {
+        "content_of_conservation_of_cultural_heritage":{
           "title": "Основное содержание проведения работ по сохранению объекта культурного наследия",
           "type": "string"
         },
-        "start_date": {
+        "start_date":{
           "title": "Срок начала работ",
           "type": "string",
           "format": "date"
         },
-        "end_date": {
+        "end_date":{
           "title": "Срок окончания работ",
           "type": "string",
           "format": "date"
         },
-        "intended_use_of_cultural_property": {
+        "intended_use_of_cultural_property":{
           "title": "Предполагаемое использование объекта культурного наследия",
           "type": "string"
         },
-        "intended_sequence_of_work_on_safety_or_local_work": {
+        "intended_sequence_of_work_on_safety_or_local_work":{
           "title": "Намечаемая очередность проведения работ по сохранности или локальных работ",
           "type": "string"
         }
@@ -118,14 +115,14 @@
     "customer_details": {
       "title": "Сведения о заказчике",
       "type": "object",
-      "required": [
+      "required":[
         "organization_or_natural_person",
         "address",
         "responsible_agent",
         "phone_number"
       ],
       "properties": {
-        "organization_or_natural_person": {
+        "organization_or_natural_person":{
           "title": "",
           "type": "object",
           "properties": {
@@ -143,11 +140,11 @@
           "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
           "title": "Адрес места нахождения"
         },
-        "responsible_agent": {
+        "responsible_agent":{
           "title": "Ответственный представитель",
           "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
         },
-        "phone_number": {
+        "phone_number":{
           "title": "Контактный телефон",
           "description": "Включая код города",
           "type": "string"
@@ -157,13 +154,13 @@
     "project_organization_details": {
       "title": "Сведения о проектной организации",
       "type": "object",
-      "required": [
+      "required":[
         "responsible_agent",
         "phone_number",
         "information_of_license"
       ],
-      "properties": {
-        "information_of_license": {
+      "properties":{
+        "information_of_license":{
           "title": "Сведения о лицензии на осуществление деятельности по сохранению объекта культурного наследия",
           "type": "object",
           "required": [
@@ -171,29 +168,29 @@
             "date"
           ],
           "properties": {
-            "registration_number": {
+            "registration_number":{
               "title": "Регистрационный номер",
               "type": "string"
             },
-            "date": {
+            "date":{
               "title": "Дата выдачи",
               "type": "string",
               "format": "date"
             }
           }
         },
-        "responsible_agent": {
+        "responsible_agent":{
           "title": "Ответственный представитель",
           "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
         },
-        "phone_number": {
+        "phone_number":{
           "title": "Контактный телефон",
           "description": "Включая код города",
           "type": "string"
         }
       }
     },
-    "information_about_additional_project_documentation": {
+    "information_about_additional_project_documentation":{
       "title": "К ранее выполненной проектной документации разработать",
       "type": "object",
       "required": [
@@ -203,12 +200,12 @@
         "working_scientific_project_documentation",
         "reporting_documentation"
       ],
-      "properties": {
+      "properties":{
         "preliminary_work": {
           "title": "Раздел 1. Предварительные работы",
           "type": "array",
           "minItems": 1,
-          "items": {
+          "items":{
             "type": "string"
           }
         },
@@ -296,28 +293,13 @@
         }
       }
     },
-    "need_for_experimental_work": {
+    "need_for_experimental_work":{
       "title": "Необходимость проведения экспериментальных работ по технологии и методам производства работ с указанием видов работ",
       "type": "string"
     },
-    "additional_terms_and_conditions": {
+    "additional_terms_and_conditions":{
       "title": "Дополнительные требования и условия",
       "type": "string"
-    },
-    "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
-    },
-    "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Файлы для заявителя"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения"
     }
   },
   "required": [
@@ -331,6 +313,5 @@
     "information_about_additional_project_documentation",
     "need_for_experimental_work",
     "additional_terms_and_conditions"
-  ],
-  "type": "object"
+  ]
 }
