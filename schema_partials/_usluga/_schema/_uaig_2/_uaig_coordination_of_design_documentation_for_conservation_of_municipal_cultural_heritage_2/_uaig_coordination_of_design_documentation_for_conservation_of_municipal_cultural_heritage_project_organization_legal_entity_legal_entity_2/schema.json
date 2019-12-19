@@ -32,12 +32,12 @@
     "required": ["juridicheskoe_lico", "fizicheskoe_lico", "address", "swedeniq_o_licenzii"],
     "properties": {
       "juridicheskoe_lico": {
-        "title": "Проектная организация – юридическое лицо",
+        "title": "Проектная организация - юр. лицо",
         "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую",
         "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
       },
       "fizicheskoe_lico": {
-        "title": "Физическое лицо",
+        "title": "Проектная организация - физ.лицо",
         "description": "Фамилия, Имя, Отчество",
         "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
       },
