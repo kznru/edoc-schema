@@ -1,0 +1,58 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Способ и данные для получения результата услуги",
+  "description": "Необходимо выбрать способ и указать адрес получения",
+  "type": "object",
+  "required": ["method"],
+  "properties": {
+    "method": {
+      "title": "Способ получения",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "по почте",
+        "по элетронной почте"
+      ]
+    }
+  },
+  "dependencies": {
+    "method": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "по почте"
+              ]
+            },
+            "address": {
+              "title": "Адрес",
+              "type": "string"
+            }
+          },
+          "required": ["address"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "по элетронной почте"
+              ]
+            },
+            "email": {
+              "title": "Email",
+              "type": "string"
+            }
+          },
+          "required": ["email"]
+        }
+      ]
+    }
+  }
+}

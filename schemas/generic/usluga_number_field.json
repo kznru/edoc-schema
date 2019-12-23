@@ -3,5 +3,5 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Номер муниципальной услуги",
   "description": "Номер муниципальной услуги",
-  "type": "string"
+  "type": "number"
 }

@@ -171,6 +171,9 @@
       "title": "Дополнительные приложения",
       "description": "Согласование с КАПО им.Горбунова, КВЗ, Средволгаводхоз, Электросетевая организация и т.д."
     },
+    "result_delivery_method": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
@@ -185,6 +188,7 @@
     "developer_rights",
     "availability_rights_of_other_person",
     "type_of_permitted_use_of_land",
-    "schematic_depiction"
+    "schematic_depiction",
+    "result_delivery_method"
   ]
 }
