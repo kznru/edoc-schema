@@ -30,6 +30,9 @@
     },
     "graphic_part": {
       "type": "object",
+      "required": [
+        "plan"
+      ],
       "title": "Графическая часть",
       "properties": {
         "facades": {
@@ -74,6 +77,18 @@
               }
             }
           }
+        },
+        "fragments_and_details": {
+          "title": "Фрагменты и детали",
+          "accept": "image/png, image/jpeg",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "description": "Файлы в формате jpg или png."
+        },
+        "plan": {
+          "title": "План",
+          "accept": "image/png, image/jpeg",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Файлы в формате jpg или png."
         },
         "general_plan": {
           "title": "Генеральный план",
