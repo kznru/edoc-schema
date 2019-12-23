@@ -54,21 +54,24 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации (файл)",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Фотофиксация существующего состояния объекта и его окружения"
+                "description": "Фотофиксация существующего состояния объекта и его окружения.Файлы в формате jpg или png."
               },
               "sketch": {
                 "title": "Эскизное предложение",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+                "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке. Файлы в формате jpg или png."
               }
             }
           }
         },
         "general_plan": {
           "title": "Генеральный план",
+          "accept": "image/png, image/jpeg",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "description": "Генплан размещения оборудования в масштабе 1:500 при архитектурной подсветке объекта с отдельно стоящих опор"
+          "description": "Генплан размещения оборудования в масштабе 1:500 при архитектурной подсветке объекта с отдельно стоящих опор. Файлы в формате jpg или png."
         },
         "light_technical_calculation": {
           "title": "Светотехнический расчет",

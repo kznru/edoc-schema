@@ -49,13 +49,15 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации (файл)",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Фотофиксация существующего состояния объекта и его окружения"
+                "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
               },
               "sketch": {
                 "title": "Эскизное предложение",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Архитектурно-строительные чертежи: фасады объекта"
+                "description": "Архитектурно-строительные чертежи: фасады объекта. Файлы в формате jpg или png."
               },
               "description": {
                 "title": "Описание",
@@ -73,14 +75,16 @@
           }
         },
         "general_plan": {
+          "accept": "image/png, image/jpeg",
           "title": "Генеральный план",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+          "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка. Файлы в формате jpg или png."
         },
         "landscape_visual_analysis": {
+          "accept": "image/png, image/jpeg",
           "title": "Ландшафтно-визуальный анализ",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
+          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры). Файлы в формате jpg или png."
         }
       }
     },

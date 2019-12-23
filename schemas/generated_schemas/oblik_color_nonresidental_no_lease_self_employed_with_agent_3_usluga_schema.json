@@ -53,13 +53,15 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации (файл)",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Фотофиксация существующего состояния объекта и его окружения"
+                "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
               },
               "sketch": {
                 "title": "Эскизное предложение",
+                "accept": "image/png, image/jpeg",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Архитектурно-строительные чертежи: фасады объекта"
+                "description": "Архитектурно-строительные чертежи: фасады объекта. Файлы в формате jpg или png."
               },
               "description": {
                 "title": "Описание",

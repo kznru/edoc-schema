@@ -43,19 +43,23 @@
                 ]
               },
               "photo": {
+                "accept": "image/png, image/jpeg",
                 "title": "Фото исходной ситуации (файл)",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-                "description": "Фотофиксация существующего состояния объекта и его окружения"
+                "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
               },
               "sketch": {
+                "accept": "image/png, image/jpeg",
                 "title": "Эскизное предложение",
                 "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей"
+                "description": "Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей. Файлы в формате jpg или png."
               }
             }
           }
         },
         "general_plan": {
+          "description": "Файлы в формате jpg или png.",
+          "accept": "image/png, image/jpeg",
           "title": "Генеральный план участка",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
         }

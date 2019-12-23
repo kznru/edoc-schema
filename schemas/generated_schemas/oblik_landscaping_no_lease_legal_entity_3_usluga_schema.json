@@ -39,21 +39,26 @@
         "general_plan": {
           "title": "Генеральный план",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Генеральный план. В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+          "accept": "image/png, image/jpeg",
+          "description": "Генеральный план. В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка. Файлы в формате jpg или png."
         },
         "landscape_visual_analysis": {
           "title": "Ландшафтно-визуальный анализ",
+          "accept": "image/png, image/jpeg",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
+          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры). Файлы в формате jpg или png."
         },
         "projections": {
           "title": "Проекции",
+          "description": "Файлы в формате jpg или png.",
+          "accept": "image/png, image/jpeg",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
         },
         "photo": {
           "title": "Фото исходной ситуации (файл)",
+          "accept": "image/png, image/jpeg",
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Фотофиксация существующего состояния объекта и его окружения"
+          "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
         }
       }
     },
