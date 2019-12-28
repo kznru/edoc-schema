@@ -9,6 +9,21 @@
       "type": "string",
       "title": "Номер муниципальной услуги"
     },
+    "information_about_pik": {
+      "title": "ПИК",
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
