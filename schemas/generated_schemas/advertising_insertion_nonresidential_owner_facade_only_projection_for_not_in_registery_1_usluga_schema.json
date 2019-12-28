@@ -98,7 +98,7 @@
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
     },
     "permission_period": {
-      "title": "Срок действия разрешения",
+      "title": "Срок действия разрешения по",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {

@@ -106,7 +106,7 @@
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
     },
     "permission_period": {
-      "title": "Срок действия разрешения",
+      "title": "Срок действия разрешения по",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {

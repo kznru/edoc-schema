@@ -57,7 +57,7 @@
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "permission_period": {
-      "title": "Срок действия разрешения",
+      "title": "Срок действия разрешения по",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {}
