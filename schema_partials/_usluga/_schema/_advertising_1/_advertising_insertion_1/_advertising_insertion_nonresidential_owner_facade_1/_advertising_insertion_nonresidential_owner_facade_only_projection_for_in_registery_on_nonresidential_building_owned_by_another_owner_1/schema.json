@@ -53,7 +53,7 @@
       "title": "Письменное согласие собственника (собственников) нежилого здания"
     },
     "installation_and_operation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)"
     },
     "confirming_ownership_document": {
