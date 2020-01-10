@@ -90,8 +90,7 @@
       "items": {
         "type": "object",
         "required": [
-          "organization_or_natural_person",
-          "text"
+          "organization_or_natural_person"
         ],
         "properties": {
           "organization_or_natural_person": {
@@ -113,6 +112,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
+    "permission_period": {
+      "title": "Срок действия разрешения по",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",
