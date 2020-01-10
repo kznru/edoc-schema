@@ -176,6 +176,9 @@
       "type": "boolean",
       "title": "Подтверждаю, что объект индивидуального жилищного строительства соответствует Градостроительному уставу г.Казани, утвержденному решением Казанского Совета народных депутатов от 26.06.1998 №2-12; местным нормативам градостроительного проектирования городского округа Казань, утвержденным решением Казанской городской Думы от 14.12.2016 №8-12, требованиям технических регламентов (норм и правил)"
     },
+    "result_delivery_method": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -189,6 +192,7 @@
   "required": [
     "developer_rights",
     "availability_rights_of_other_person",
-    "state_duty_payment"
+    "state_duty_payment",
+    "result_delivery_method"
   ]
 }

@@ -3,6 +3,7 @@
     "address_with_map",
     "address_with_map_for_projection_equipment",
     "title_document_for_property",
+    "property_owner",
     "type",
     "photo",
     "photomontage",
@@ -11,7 +12,6 @@
     "constructive_images",
     "field_size",
     "field_area",
-    "property_owner",
     "permission_period",
     "state_duty_payment",
     "organization",
@@ -60,7 +60,7 @@
     },
     "situational_plan": {
       "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
@@ -98,8 +98,8 @@
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
     },
     "permission_period": {
-      "title": "Срок действия разрешения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
+      "title": "Срок действия разрешения по",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",

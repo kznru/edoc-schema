@@ -1,8 +1,8 @@
 {
   "properties": {
-  "applicant": {
+  "agent": {
     "title": "Заявитель",
-    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
   "address_with_map": {
     "title": "Адрес земельного участка",
@@ -39,7 +39,7 @@
   }
 },
   "required": [
-    "applicant",
+    "agent",
     "address_with_map",
     "ploschad",
     "kadastrowyj_nomer",

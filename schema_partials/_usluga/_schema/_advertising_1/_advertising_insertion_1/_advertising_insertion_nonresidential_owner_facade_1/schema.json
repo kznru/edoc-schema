@@ -8,13 +8,12 @@
     "constructive_images",
     "field_size",
     "field_area",
-    "property_owner",
     "permission_period",
     "state_duty_payment"
   ],
   "properties": {
     "situational_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план",
       "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)"
     },
@@ -57,13 +56,9 @@
       "type": "string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
-    "property_owner": {
-      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
-    },
     "permission_period": {
-      "title": "Срок действия разрешения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
+      "title": "Срок действия разрешения по",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
     },
     "state_duty_payment": {}
   }

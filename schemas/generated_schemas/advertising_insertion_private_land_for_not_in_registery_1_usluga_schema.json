@@ -37,6 +37,10 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
     "type": {
       "title": "Тип рекламной конструкции",
       "description": "Выбирается один из типов рекламных конструкций: пилларс, пилон,  коммуникационный указатель.",
@@ -64,7 +68,7 @@
     },
     "situational_plan": {
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
@@ -89,11 +93,11 @@
       "items": {
         "type": "object",
         "required": [
-          "organization_or_natural_person",
-          "text"
+          "organization_or_natural_person"
         ],
         "properties": {
           "organization_or_natural_person": {
+            "title": "",
             "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
           },
           "text": {
@@ -108,10 +112,9 @@
       "title": "Правоустанавливающий документ на объект недвижимости, права на которые не зарегистрированы в Едином государственном реестре недвижимости",
       "description": "Скан правоустанавливающего документа на объект недвижимости, права на которые не зарегистрированы в Едином гогосударственном реестре недвижимости"
     },
-    "ownership_confirming_document": {
+    "written_consent_of_owner": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
-      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+      "title": "Письменное согласие собственника недвижимого имущества"
     },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
@@ -138,10 +141,6 @@
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         }
       }
-    },
-    "written_consent_of_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Письменное согласие собственника недвижимого имущества"
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",

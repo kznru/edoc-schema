@@ -2,7 +2,10 @@
   "required": [
     "address_with_map",
     "address_with_map_for_projection_equipment",
-    "confirming_ownership_document"
+    "confirming_ownership_document",
+    "property_owner",
+    "property_owner_projection",
+    "confirming_ownership_document_projection"
   ],
   "properties": {
     "organization": {},
@@ -41,10 +44,22 @@
     },
     "field_size": {},
     "field_area": {},
-    "property_owner": {},
+    "property_owner": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проецируемое изображение)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
     "confirming_ownership_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество (проецируемое оборудование)",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
+    },
+    "property_owner_projection": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проекционное оборудование)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
+    "confirming_ownership_document_projection": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество (проекционное изображение)",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
     },
     "permission_period": {},

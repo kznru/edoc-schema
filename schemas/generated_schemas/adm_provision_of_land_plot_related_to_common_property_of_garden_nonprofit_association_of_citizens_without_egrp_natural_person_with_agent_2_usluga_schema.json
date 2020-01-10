@@ -49,6 +49,10 @@
       "title": "Правоустанавливающие документы на земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
+    "agreement_default": {
+      "title": "Согласен на обработку персональных данных с соблюдением требований Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных».",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -69,7 +73,8 @@
     "opisanie_mestopolozheniq_zemel_nogo_uchastka",
     "vypiska_o_priobretenii_zemel_nogo_uchastka",
     "uchreditel_nye_dokumenty_ob_edineniq_ili_wypiska_iz_resheniq_obschego_sobraniq_chlenow_dannogo",
-    "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok"
+    "prawoustanawliwa_schie_dokumenty_na_zemel_nyi_uchastok",
+    "agreement_default"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

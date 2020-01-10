@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Данные заявителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    }
+  }
+}

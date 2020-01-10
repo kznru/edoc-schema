@@ -1,0 +1,18 @@
+{
+  "type":"object",
+  "required":["image_topographic", "schema_land_plot", "area_land_plot"],
+  "properties":{
+    "schema_land_plot": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Схема земельного участка"
+    },
+    "area_land_plot": {
+      "type": "string",
+      "title": "Площадь, м²"
+    },
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Топографическая съемка"
+    }
+  }
+}

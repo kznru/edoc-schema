@@ -5,19 +5,19 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "volume_calculation": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Расчёт и обоснование заявленного объёма сброса сточных и (или) дренажных вод и показателей их качества по каждому выпуску"
     },
     "discharge_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Поквартальный график сброса сточных вод"
     },
     "special_equipment_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учёта объёмов и контроля (наблюдения) качества сбрасываемых сточных и (или) дренажных вод"
     },
     "special_water_body_mapping": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Графические материалы с обозначением места предполгаемого сброса сточных и (или) дренажных вод по каждому выпуску"
     },
     "letter_of_attorney": {
@@ -36,11 +36,11 @@
       "title": "Сроки водопользования"
     },
     "events_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Информация о намечаемых заявителем водохозяйственных мероприятиях и мероприятиях по охране водного объекта с указанием размера и источника средств, необходимых для их реализации"
     },
     "equipment_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
     },
     "water_body_mapping": {
@@ -48,7 +48,7 @@
       "type": "object",
       "properties": {
         "note": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "title": "Пояснительная записка"
         },
         "address_with_map": {

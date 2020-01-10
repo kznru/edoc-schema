@@ -11,7 +11,8 @@
     "property_owners",
     "installation_and_operation_document",
     "state_duty_payment",
-    "written_consent_of_owner"
+    "written_consent_of_owner",
+    "cadatre_number"
   ],
   "properties": {
     "organization": {},
@@ -21,6 +22,10 @@
       "title": "Адрес предполагаемого места установки",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
     },
     "type": {
       "title": "Тип рекламной конструкции",
@@ -72,11 +77,11 @@
       "items": {
         "type": "object",
         "required": [
-          "organization_or_natural_person",
-          "text"
+          "organization_or_natural_person"
         ],
         "properties": {
           "organization_or_natural_person": {
+            "title": "",
             "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
           },
           "text": {
@@ -86,21 +91,25 @@
         }
       }
     },
+    "cadatre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    },
     "ownership_confirming_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество",
       "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости, кадастровый или условный номер."
+    },
+    "written_consent_of_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственника недвижимого имущества"
     },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
-    "state_duty_payment": {},
-    "written_consent_of_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Письменное согласие собственника недвижимого имущества"
-    }
+    "state_duty_payment": {}
   }
 }
 

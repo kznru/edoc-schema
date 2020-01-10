@@ -18,17 +18,20 @@
   "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq": {
     "title": "Сведения о собственнике (пользователе) объекта культурного наследия",
     "description": "Сведения о собственнике (пользователе) объекта культурного наследия",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-  },
-  "organization": {
-    "title": "Юридическое лицо",
-    "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
-    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
-  },
-  "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
-    "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
-    "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    "type": "object",
+    "required": ["organization"],
+    "properties": {
+      "organization": {
+        "title": "Юридическое лицо",
+        "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+      },
+      "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
+        "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
+        "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+      }
+    }
   },
   "swedeniq_o_dejstwu_schih_ohrannyh_obqzatel_stwah_ohranno_arendnyh_dogoworah_ili_ohrannyh_dogoworah": {
     "title": "Сведения  о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
@@ -50,7 +53,7 @@
     "type": "object",
     "properties": {
       "project_organization_legal_entity": {
-        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
         "title": "Проектная организация – юр.лицо",
         "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
       },
@@ -94,8 +97,7 @@
     "agent",
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",
     "address",
-    "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq",
-    "organization"
+    "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq"
   ],
   "type": "object"
 }

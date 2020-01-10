@@ -38,11 +38,28 @@
     "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome": {
       "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
       "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_with_require_number_date"
+      "type": "object",
+      "required": [
+        "scanned_document",
+        "document"
+      ],
+      "properties": {
+        "document": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields"
+        },
+        "scanned_document": {
+          "title": "Скан протокола",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        }
+      }
     },
     "consent_of_all_owners": {
       "title": "Согласие всех собственников",
       "description": "В том числе временно отсутствующих собственников, в письменной форме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "conclusion_sanitary_and_epidemiological_surveillance": {
+      "title": "Заключение санитарно-эпидемиологического надзора",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "attachments": {
@@ -64,7 +81,8 @@
     "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
     "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome",
-    "consent_of_all_owners"
+    "consent_of_all_owners",
+    "conclusion_sanitary_and_epidemiological_surveillance"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

@@ -71,7 +71,7 @@
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
     "installation_and_operation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
@@ -96,16 +96,12 @@
         }
       }
     },
-    "cadastre_number": {
-      "title": "Кадастровый номер земельного участка",
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
-    },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
       "type": "string"
     },
     "situational_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план",
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции."
     },
@@ -127,7 +123,6 @@
     "topography_of_networks",
     "graphic_image_of_structure",
     "description",
-    "installation_and_operation_document",
     "state_duty_payment",
     "organization",
     "agent",

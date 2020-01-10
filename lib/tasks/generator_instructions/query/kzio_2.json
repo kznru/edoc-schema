@@ -34,11 +34,14 @@
         { "name": "kzio_request_information_for_property_department_treasury_2" },
         { "name": "kzio_municipal_land_control_in_relation_to_requested_land_2" },
         { "name": "kzio_urban_planning_conclusion_possibility_providing_land_for_rent_2" },
+        { "name": "kzio_urban_planning_conclusion_possibility_providing_land_for_ownership_2" },
         { "name": "kzio_conclusion_tat_ministry_eipr_on_possibility_providing_land_ownership_2" },
         { "name": "kzio_conclusion_federal_agentcy_vr_nv_bvu_on_possibility_providing_land_ownership_2" },
         { "name": "kzio_conclusion_federal_institution_sredvolgavodhoz_on_possibility_providing_land_ownership_2" },
         { "name": "kzio_conclusion_tat_committee_okn_on_possibility_providing_land_ownership_2" },
-        { "name": "kzio_request_for_land_topographic_image_provision_of_land_for_rent_without_auction_2" }
+        { "name": "kzio_request_for_land_topographic_image_provision_of_land_for_rent_without_auction_2" },
+
+        { "name": "kzio_request_for_prepare_schema_and_graphic_material_2" }
       ]
     }
   ]

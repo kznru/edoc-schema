@@ -24,8 +24,8 @@
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
   },
   "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
-    "title": "Схема с нанесенными границами запрашиваемого земельного участка",
-    "description": "Желательно приложить схематичное изображение границ",
+    "title": "Схематичное изображение границ земельного участка",
+    "description": "Схематичное изображение границ земельного участка с указанием данных, позволяющих идентифицировать местоположение земельного участка или схема расположения земельного участка на кадастровом плане территории",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
   }
 },

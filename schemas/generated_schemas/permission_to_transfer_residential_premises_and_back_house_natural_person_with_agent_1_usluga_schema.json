@@ -48,6 +48,10 @@
       "description": "В том числе временно отсутствующих собственников, в письменной форме",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
+    "conclusion_sanitary_and_epidemiological_surveillance": {
+      "title": "Заключение санитарно-эпидемиологического надзора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -68,7 +72,8 @@
     "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
     "vypiska_kadastra_na_zemel_nyj_uchastok",
     "preliminary_design",
-    "consent_of_all_owners"
+    "consent_of_all_owners",
+    "conclusion_sanitary_and_epidemiological_surveillance"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

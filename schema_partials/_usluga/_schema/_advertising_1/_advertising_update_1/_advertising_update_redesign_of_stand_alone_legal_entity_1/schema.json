@@ -25,6 +25,11 @@
     "description": "Адрес места установки рекламной конструкции",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
   },
+  "address_description": {
+    "title": "Описание местоположения",
+    "description": "Описание местоположения установки рекламной конструкции",
+    "type": "string"
+  },
   "fotofixaciq_ishodnoj_situacii": {
     "title": "Фотофиксация исходной ситуации",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"

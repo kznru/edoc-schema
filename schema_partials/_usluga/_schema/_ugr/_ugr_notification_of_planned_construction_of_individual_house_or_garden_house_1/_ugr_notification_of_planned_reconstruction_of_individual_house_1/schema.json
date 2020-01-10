@@ -31,7 +31,7 @@
     "typical_architectural_solution_files": {},
     "schematic_depiction": {},
     "confirm_for_not_intended_division_on_independent_real_estate": {
-      "type": "boolean",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
       "title": "Настоящим уведомлением подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
     },
     "attachments": {}

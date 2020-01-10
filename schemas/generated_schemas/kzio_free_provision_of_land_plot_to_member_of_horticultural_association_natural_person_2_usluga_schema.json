@@ -35,6 +35,10 @@
       "description": "Указать номер и дату Постановления Исполнительного комитета",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
     },
+    "agreement_default": {
+      "title": "Согласен на обработку персональных данных с соблюдением требований Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных».",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -50,7 +54,8 @@
     "organization",
     "kadastrowyj_nomer_zemel_nogo_uchastka",
     "ploschad_zemel_nogo_uchastka_kw_m",
-    "vypiska_iz_resheniq_obschego_sobraniq_sadowodcheskogo_towarischestwa"
+    "vypiska_iz_resheniq_obschego_sobraniq_sadowodcheskogo_towarischestwa",
+    "agreement_default"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

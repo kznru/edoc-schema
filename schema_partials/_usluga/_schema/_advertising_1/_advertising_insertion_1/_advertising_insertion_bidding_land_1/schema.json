@@ -8,7 +8,6 @@
     "topography_of_networks",
     "graphic_image_of_structure",
     "description",
-    "installation_and_operation_document",
     "state_duty_payment"
   ],
   "properties": {
@@ -72,10 +71,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
-    },
-    "cadastre_number": {
-      "title": "Кадастровый номер земельного участка",
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "state_duty_payment": {}
   }

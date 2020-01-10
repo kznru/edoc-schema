@@ -1,4 +1,20 @@
 {
+  "required": [
+    "installation_and_operation_document",
+    "information_on_results_tenders",
+    "address_with_map",
+    "type",
+    "field_area",
+    "number_of_fields",
+    "total_area_of_fields",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "description",
+    "state_duty_payment",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -57,7 +73,7 @@
     },
     "situational_plan": {
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
@@ -80,13 +96,17 @@
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
     },
     "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Собственник недвижимого имущества"
     },
     "installation_and_operation_document": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции",
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "information_on_results_tenders": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Сведения о результатах проведенных торгов на право заключения договора на установку и эксплуатацию рекламной конструкции"
     },
     "state_duty_payment": {
       "title": "Сведения об оплате государственной пошлины",
@@ -126,21 +146,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "address_with_map",
-    "type",
-    "field_area",
-    "number_of_fields",
-    "total_area_of_fields",
-    "topography_of_networks",
-    "graphic_image_of_structure",
-    "description",
-    "installation_and_operation_document",
-    "state_duty_payment",
-    "organization",
-    "agent",
-    "letter_of_attorney"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

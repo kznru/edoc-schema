@@ -42,7 +42,17 @@
   "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome": {
     "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
     "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_with_require_number_date"
+    "type": "object",
+    "required": ["scanned_document", "document"],
+    "properties": {
+      "document": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields"
+      },
+      "scanned_document": {
+        "title": "Скан протокола",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      }
+    }
   }
 },
   "required": [

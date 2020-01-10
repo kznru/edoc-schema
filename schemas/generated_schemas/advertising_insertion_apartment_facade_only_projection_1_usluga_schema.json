@@ -6,7 +6,6 @@
     "written_consent_of_owners_for_projection_equipment",
     "installation_and_operation_document",
     "installation_and_operation_document_for_projection_equipment",
-    "information_about_owner_of_real_estate",
     "type",
     "photo",
     "photomontage",
@@ -63,7 +62,7 @@
     },
     "situational_plan": {
       "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план"
     },
     "topography_of_networks": {
@@ -91,9 +90,13 @@
       "type": "string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
-    "information_about_owner_of_real_estate": {
+    "information_about_owner_of_real_estate_projection": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text",
-      "title": "Данные о собственнике недвижимого имущества, к которому присоединяется рекламная конструкция"
+      "title": "Данные о собственнике недвижимого имущества (проекционное оборудование)"
+    },
+    "information_about_owner_of_real_estate_projected": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text",
+      "title": "Данные о собственнике недвижимого имущества (проецируемое изображение)"
     },
     "written_consent_of_owners": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -111,7 +114,7 @@
       "description": "Прикрепляется скан документа, подтверждающего уведомление УК, правление ТСЖ, ЖК, ЖСК, иного ПСК, а при непосредственном способе управления орган государственного жилищного надзора"
     },
     "installation_and_operation_document": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
       "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)",
       "description": "Прикрепляется отсканированный оригинал договора на установку и эксплуатацию рекламной конструкции  (проецируемого изображения) или копия, заверенная собственником или иным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },

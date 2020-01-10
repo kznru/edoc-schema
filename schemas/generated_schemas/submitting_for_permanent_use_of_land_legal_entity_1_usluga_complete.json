@@ -1,6 +1,23 @@
 {
-  "type": "object",
+  "required": [
+    "information_about_pik"
+  ],
   "properties": {
+    "information_about_pik": {
+      "title": "ПИК",
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        }
+      }
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -16,5 +33,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
-  }
+  },
+  "type": "object"
 }

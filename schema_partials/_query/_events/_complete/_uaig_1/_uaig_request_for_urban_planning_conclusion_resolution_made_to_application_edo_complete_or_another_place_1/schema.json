@@ -1,0 +1,20 @@
+{
+  "type":"object",
+  "required":["town_planning_response"],
+  "properties":{
+    "town_planning_response": {
+      "type": "string",
+      "title": "Градостроительное заключение (выбор)",
+      "description": "Градостроительное заключение о возможности/невозможности образования земельного участка под запрашиваемые цели",
+      "minItems": 1,
+      "enum": [
+        "положительный",
+        "отрицательный"
+      ]
+    },
+    "information_about_another_place": {
+      "title": "Информация о возможности образования земельного участка в иных границах",
+      "type": "string"
+    }
+  }
+}

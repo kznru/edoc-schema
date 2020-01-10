@@ -1,0 +1,38 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "kzio_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_agreement_major_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_legal_entity_agreement_major_1" },
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_agreement_major_1" },
+            { "name": "kzio_conclusion_of_contracts_of_sale_lease_of_land_gratuitous_use_of_land_natural_person_with_agent_agreement_major_1" }
+          ]
+        },
+        {
+          "name": "kzio_provision_of_land_for_rent_without_auction_agreement_major_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_provision_of_land_for_rent_without_auction_legal_entity_agreement_major_1" },
+            { "name": "kzio_provision_of_land_for_rent_without_auction_natural_person_agreement_major_1" },
+            { "name": "kzio_provision_of_land_for_rent_without_auction_natural_person_with_agent_agreement_major_1" }
+          ]
+        },
+        {
+          "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_agreement_major_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_legal_entity_agreement_major_1" },
+            { "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_agreement_major_1" },
+            { "name": "kzio_issue_of_permit_for_the_use_of_land_for_the_allocation_of_objects_natural_person_with_agent_agreement_major_1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

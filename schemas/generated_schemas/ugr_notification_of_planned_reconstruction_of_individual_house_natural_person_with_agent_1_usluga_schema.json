@@ -163,13 +163,16 @@
       "description": "Отсканированное в цвете в формате JPG схематичное изображение планируемого к строительству (реконструкции) объекта на земельном участке со всеми отступами и желательным ориентиром (к примеру, где располагается дорога)"
     },
     "confirm_for_not_intended_division_on_independent_real_estate": {
-      "type": "boolean",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
       "title": "Настоящим уведомлением подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
       "description": "Согласование с КАПО им.Горбунова, КВЗ, Средволгаводхоз, Электросетевая организация и т.д."
+    },
+    "result_delivery_method": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
@@ -185,6 +188,7 @@
     "developer_rights",
     "availability_rights_of_other_person",
     "type_of_permitted_use_of_land",
-    "schematic_depiction"
+    "schematic_depiction",
+    "result_delivery_method"
   ]
 }

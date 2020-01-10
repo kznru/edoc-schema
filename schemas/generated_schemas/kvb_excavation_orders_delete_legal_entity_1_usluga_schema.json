@@ -47,7 +47,7 @@
       "title": "Акт промежуточной приёмки"
     },
     "certificate_of_acceptance": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт приёмки"
     },
     "attachments": {

@@ -1,13 +1,5 @@
 {
   "type": "object",
-  "required": [
-    "organization",
-    "address_with_map",
-    "type",
-    "situational_plan",
-    "topography_of_networks",
-    "graphic_image_of_structure"
-  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -44,7 +36,7 @@
       "description": "Прикрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
     },
     "graphic_image_of_structure": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Графическое изображение конструкции",
       "description": "Требования приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
@@ -54,7 +46,7 @@
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
     "situational_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Ситуационный план",
       "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции."
     }

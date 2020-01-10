@@ -7,6 +7,6 @@
     "document_no": {"type": "string", "title": "Номер документа"},
     "signed_date": {"type": "string", "format": "date", "title": "Дата подписания"},
     "link": {"type": "string", "format": "uri", "title": "Ссылка на ЭДО"},
-    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document", "title": ""}
+    "content": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional", "title": ""}
   }
 }

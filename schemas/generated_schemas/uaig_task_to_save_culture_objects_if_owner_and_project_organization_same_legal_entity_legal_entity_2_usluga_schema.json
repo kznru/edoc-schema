@@ -50,7 +50,7 @@
       "type": "object",
       "properties": {
         "project_organization_legal_entity": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
           "title": "Проектная организация – юр.лицо",
           "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
         },

@@ -28,7 +28,7 @@
     },
     "documents_of_title": {
       "title": "Правоустанавливающие документы",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     },
     "explanatory_note": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
@@ -58,12 +58,12 @@
               },
               "photo": {
                 "title": "Фото исходной ситуации (файл)",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
                 "description": "Фотофиксация существующего состояния объекта и его окружения"
               },
               "sketch": {
                 "title": "Эскизное предложение",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
                 "description": "Архитектурно-строительные чертежи: фасады объекта"
               },
               "description": {
@@ -83,27 +83,27 @@
         },
         "general_plan": {
           "title": "Генеральный план",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
         },
         "landscape_visual_analysis": {
           "title": "Ландшафтно-визуальный анализ",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
         },
         "light_technical_calculation": {
           "title": "Светотехнический расчет",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "accept": "image/png, image/jpeg",
           "description": "Обоснование используемого оборудования. В формате jpeg или png"
         },
         "projections": {
           "title": "Проекции",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
         },
         "photo": {
           "title": "Фото исходной ситуации (файл)",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
           "description": "Фотофиксация существующего состояния объекта и его окружения"
         }
       }
