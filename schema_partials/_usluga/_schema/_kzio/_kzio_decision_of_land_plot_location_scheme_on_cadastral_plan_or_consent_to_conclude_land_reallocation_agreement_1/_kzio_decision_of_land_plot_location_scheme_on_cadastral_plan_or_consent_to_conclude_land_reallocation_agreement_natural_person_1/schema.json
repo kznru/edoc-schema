@@ -6,7 +6,8 @@
   },
   "agent_living_address": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-    "title": "Место жительства заявителя"
+    "title": "Адрес",
+    "description": "Адрес проживания"
   },
   "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit": {
     "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
@@ -25,6 +26,7 @@
 },
   "required": [
     "agent",
+    "agent_living_address",
     "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit",
     "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom"
   ],
