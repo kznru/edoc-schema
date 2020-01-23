@@ -21,8 +21,12 @@
     "description": "указывается в кв.м согласно схеме",
     "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
   },
-  "kadastrowyj_nomer": {
-    "title": "Кадастровый номер",
+  "cadastre_number": {
+    "title": "Кадастровый номер земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "cadastre_number_of_capital_construction_object": {
+    "title": "Кадастровый номер объекта капитального строительства",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
   },
   "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow": {
@@ -44,7 +48,8 @@
     "dowerennost",
     "address_with_map",
     "ploschad",
-    "kadastrowyj_nomer",
+    "cadastre_number",
+    "cadastre_number_of_capital_construction_object",
     "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow",
     "informaciq_o_drugih_sobstwennikah",
     "soglasen_na_obrabotku_personal_nyh_dannyh_s_sobl_deniem_trebowanii_federal_nogo_zakona_ot_27_07_2006_no152_fz_o_personal_nyh_dannyh"
