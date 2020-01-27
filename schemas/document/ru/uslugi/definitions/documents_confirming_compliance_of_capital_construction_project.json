@@ -1,0 +1,32 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/documents_confirming_compliance_of_capital_construction_project",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Документы, подтверждающие соответствие построенного, реконструированного объекта капитального строительства",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "scanned_documents",
+      "type_engineering_networks",
+      "document"
+    ],
+    "properties": {
+      "scanned_documents": {
+        "title": "Сканы документа",
+        "description": "Отсканированный оригинал документа в формате PDF",
+        "accept": "application/pdf",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      },
+      "type_engineering_networks":{
+        "description": "Инженерные сети: Водоснабжение, Электроснабжение, Теплоснабжение, Газоснабжение и т.д.",
+        "title": "Вид инженерных сетей",
+        "type": "string"
+      },
+      "document": {
+        "title": "Номер и дата документа",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+      }
+    }
+  }
+}
