@@ -1,0 +1,44 @@
+{
+  "type":"object",
+  "required":[
+    "characteristic_land_plot_information",
+    "location_land_plot_information",
+    "correspondence_border_and_area"
+  ],
+  "properties":{
+    "characteristic_land_plot_information": {
+      "type": "string",
+      "title": "Описание информации о характеристиках земельного участка"
+    },
+    "location_land_plot_information": {
+      "type": "string",
+      "title": "Описание информации о нахождении земельного участка в границах СНТ"
+    },
+    "objects_at_land_plot_information": {
+      "type": "array",
+      "title": "Описание информации об объектах на земельном участке",
+      "items": {
+        "type": "object",
+        "required": ["object_name", "object_description"],
+        "properties": {
+          "object_name":{
+            "type": "string",
+            "title": "Название объекта"
+          },
+          "object_description":{
+            "type": "string",
+            "title": "Описание объекта"
+          }
+        }
+      }
+    },
+    "correspondence_border_and_area": {
+      "title": "Cоответствует представленная схема земельного участка фактической площади и границам земельного участка?",
+      "type": "string",
+      "enum": [
+        "соответствует",
+        "не соответствует"
+      ]
+    }
+  }
+}

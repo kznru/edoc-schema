@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": ["cadastre_plan"],
+  "properties": {
+    "cadastre_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Схема расположения земельного участка"
+    }
+  }
+}
