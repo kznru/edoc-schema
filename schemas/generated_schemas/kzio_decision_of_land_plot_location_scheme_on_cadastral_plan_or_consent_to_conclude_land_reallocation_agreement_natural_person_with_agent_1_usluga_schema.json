@@ -22,7 +22,7 @@
     "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit": {
       "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
       "description": "Адрес с указанием региона, жилого массива, улицы, номера дома (при наличии)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands_with_required_cadastre_number"
     },
     "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom": {
       "title": "Реквизиты утвержденного проекта межевания территории, если перераспределение земельных участков планируется осуществить в соответствии с данным проектом",
@@ -31,11 +31,15 @@
     },
     "borders_scheme": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/pdf, application/xml, text/xml, text/html",
       "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
     },
     "copies_of_certification_documents_for_the_land ": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Копии правоустанавливающих или правоудостоверяющих документов на земельный участок, принадлежащий заявителю, в случае, если право собственности не зарегистрировано в Едином государственном реестре недвижимости"
+    },
+    "result_delivery_method_with_email_post_paper": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -52,7 +56,8 @@
     "agent_living_address",
     "dowerennost",
     "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit",
-    "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom"
+    "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom",
+    "result_delivery_method_with_email_post_paper"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

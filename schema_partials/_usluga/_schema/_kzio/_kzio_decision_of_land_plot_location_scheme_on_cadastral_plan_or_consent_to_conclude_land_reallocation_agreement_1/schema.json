@@ -3,7 +3,11 @@
   "copies_of_certification_documents_for_the_land ": {
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
     "title": "Копии правоустанавливающих или правоудостоверяющих документов на земельный участок, принадлежащий заявителю, в случае, если право собственности не зарегистрировано в Едином государственном реестре недвижимости"
+  },
+  "result_delivery_method_with_email_post_paper": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper"
   }
 },
+  "required": ["result_delivery_method_with_email_post_paper"],
   "type": "object"
 }
