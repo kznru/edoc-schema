@@ -1,0 +1,49 @@
+{
+  "properties": {
+  "applicant": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "agent_living_address": {
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "title": "Почтовый адрес для связи",
+    "description": "Почтовый адрес для связи с заявителем"
+  },
+  "agent": {
+    "title": "Представитель ",
+    "description": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "dowerennost": {
+    "title": "Доверенность ",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit": {
+    "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
+    "description": "Адрес с указанием региона, жилого массива, улицы, номера дома (при наличии)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands_with_required_cadastre_number"
+  },
+  "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom": {
+    "title": "Реквизиты утвержденного проекта межевания территории, если перераспределение земельных участков планируется осуществить в соответствии с данным проектом",
+    "description": "Реквизиты утвержденного проекта межевания территории (с учетом внесенных изменений- при наличии)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document_with_name"
+  },
+  "borders_scheme": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+    "accept": "application/pdf, application/xml, text/xml, text/html",
+    "description": "В формате PDF, XML или HTML",
+    "title": "Схема расположения земельного участка на кадастровом плане территории"
+  }
+},
+  "required": [
+    "applicant",
+    "agent",
+    "agent_living_address",
+    "dowerennost",
+    "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit",
+    "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom",
+    "borders_scheme"
+  ],
+  "type": "object"
+}

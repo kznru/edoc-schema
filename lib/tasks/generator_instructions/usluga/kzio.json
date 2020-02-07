@@ -223,7 +223,14 @@
             { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_legal_entity_1" },
             { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_foreign_legal_entity_1" },
             { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_natural_person_1" },
-            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_natural_person_with_agent_1" }
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_natural_person_with_agent_1" },
+
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_for_redistribution_land_natural_person_1" },
+            { "name": "kzio_decision_of_land_plot_location_scheme_on_cadastral_plan_or_consent_to_conclude_land_reallocation_agreement_for_redistribution_land_natural_person_with_agent_1" },
+
+            { "name": "kzio_consent_to_conclude_land_reallocation_agreement_natural_person_1" },
+            { "name": "kzio_consent_to_conclude_land_reallocation_agreement_natural_person_with_agent_1" }
+
           ]
         }
       ]
