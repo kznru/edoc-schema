@@ -96,7 +96,7 @@
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
     },
     "property_owner": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
       "title": "Собственник недвижимого имущества"
     },
     "installation_and_operation_document": {
@@ -132,6 +132,22 @@
     "cadastre_number": {
       "title": "Кадастровый номер земельного участка",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "type_of_information_field_a": {
+      "title": "Тип информационного поля А",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_b": {
+      "title": "Тип информационного поля Б",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_v": {
+      "title": "Тип информационного поля В",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_g": {
+      "title": "Тип информационного поля Г",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",

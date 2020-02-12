@@ -86,6 +86,22 @@
       "title": "Краткое описание",
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
+    "type_of_information_field_a": {
+      "title": "Тип информационного поля А",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_b": {
+      "title": "Тип информационного поля Б",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_v": {
+      "title": "Тип информационного поля В",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_g": {
+      "title": "Тип информационного поля Г",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
     "property_owners": {
       "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
       "type": "array",

@@ -67,6 +67,10 @@
       "title": "Краткое описание",
       "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
     },
+    "type_of_information_field_a": {},
+    "type_of_information_field_b": {},
+    "type_of_information_field_v": {},
+    "type_of_information_field_g": {},
     "property_owners": {
       "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
       "type": "array",
