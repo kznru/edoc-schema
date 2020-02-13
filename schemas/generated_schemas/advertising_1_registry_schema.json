@@ -12,6 +12,10 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес"
     },
+    "address_description": {
+      "type": "string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель (ЮЛ, ИП)"
@@ -19,6 +23,89 @@
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
+    },
+    "type": {
+      "type": "string",
+      "title": "Тип рекламной конструкции"
+    },
+    "type_of_information_field_a": {
+      "title": "Тип информационного поля А",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_b": {
+      "title": "Тип информационного поля Б",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_v": {
+      "title": "Тип информационного поля В",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_g": {
+      "title": "Тип информационного поля Г",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "type": "string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "property_owner_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Собственник недвижимого имущества (ЮЛ)"
+    },
+    "property_owner_organization_or_natural_person": {
+      "title": "Собственник недвижимого имущества (ЮЛ или физ.лицо)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
+    "property_owner_string": {
+      "type": "string",
+      "title": "Собственник недвижимого имущества"
+    },
+    "property_owners_organization_or_natural_person": {
+      "title": "Собственники недвижимого имущества (ЮЛ или физ.лицо)",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization_or_natural_person": {
+            "title": "ЮЛ или физ. лицо",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+          },
+          "text": {
+            "title": "Дополнительная информация о собственнике",
+            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+          }
+        }
+      }
+    },
+    "permission_period": {
+      "title": "Срок действия разрешения по",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
+    },
+    "permission_information": {
+      "title": "Номер и дата разрешения",
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "string",
+          "title": "Номер разрешения"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата выдачи разрешения"
+        }
+      }
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора на установку и экусплуатацию рекламной конструкции или копия, заверенная собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "territorial_number": {
+      "title": "Номер в территориальной схеме",
+      "type": "string"
     }
   },
   "required": [
