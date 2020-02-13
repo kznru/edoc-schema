@@ -1,7 +1,9 @@
 {
   "type": "object",
   "required": [
-    "reject_reasons"
+    "reject_reasons",
+    "reject_reasons_comments",
+    "signatory"
   ],
   "properties": {
     "reject_reasons": {
@@ -27,6 +29,20 @@
         ]
       },
       "uniqueItems": true
+    },
+    "reject_reasons_comments": {
+      "type": "array",
+      "title": "Комментарий к причине отказа",
+      "description": "Количество комментариев должно соответствовать количеству причинам отказа. Очередность комментариев должна совпадать с очередностью причин отказов из списка выше. В противном случае возможны ошибки в печатной формы.",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "default": "Комментарий не требуется"
+      }
+    },
+    "signatory": {
+      "title": "Подписант",
+      "type": "string"
     },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
