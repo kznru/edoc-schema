@@ -246,6 +246,11 @@
           "title": "Информация для заявителя"
         }
       }
+    },
+    "landscaping_end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата завершения благоустройства"
     }
   }
 }
