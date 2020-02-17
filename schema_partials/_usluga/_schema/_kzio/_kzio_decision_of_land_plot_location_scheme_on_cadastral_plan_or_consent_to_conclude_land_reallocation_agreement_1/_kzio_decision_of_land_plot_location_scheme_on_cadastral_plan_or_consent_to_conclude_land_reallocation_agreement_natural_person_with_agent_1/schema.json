@@ -6,7 +6,7 @@
   },
   "agent_living_address": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-    "title": "Почтовый адрес для связи",
+    "title": "Место жительства",
     "description": "Почтовый адрес для связи с заявителем"
   },
   "agent": {
