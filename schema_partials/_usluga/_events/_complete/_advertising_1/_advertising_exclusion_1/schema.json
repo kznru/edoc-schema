@@ -1,8 +1,6 @@
 {
   "type": "object",
-  "required": [
-    "grounds_for_cancellation"
-  ],
+  "required": ["grounds_for_cancellation"],
   "properties": {
     "grounds_for_cancellation": {
       "title": "Основания для аннулирования",
@@ -15,21 +13,6 @@
         "5. в случае, если разрешение выдано лицу, заключившему договор на установку и эксплуатацию рекламной конструкции с нарушением требований, установленных частями 5.1, 5.6, 5.7 статьи 19 Федерального закона от 13 марта 2006г. №38-ФЗ «О рекламе», либо результаты аукциона или конкурса признаны недействительными в соответствии с законодательством Российской Федерации",
         "6. в случае нарушения требований, установленных частью 9.3 статьи 19 Федерального закона от 13 марта 2006г. №38-ФЗ «О рекламе»"
       ]
-    },
-    "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
-    },
-    "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Файлы для заявителя"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения"
     }
   }
 }
