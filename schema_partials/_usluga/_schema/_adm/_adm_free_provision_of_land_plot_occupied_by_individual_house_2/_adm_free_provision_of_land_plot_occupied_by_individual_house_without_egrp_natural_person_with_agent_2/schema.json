@@ -12,13 +12,18 @@
     "title": "Доверенность",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
   },
-  "address_with_map": {
+  "address_with_map_residence": {
     "title": "Адрес",
+    "description": "Указывается адрес проживания",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "address_with_map": {
+    "title": "Местоположение земельного участка",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
   },
   "ploschad": {
-    "title": "Площадь",
-    "description": "указывается в кв.м согласно схеме",
+    "title": "Площадь земельного участка",
+    "description": "Площадь указывается в кв.м согласно сведениям из ЕГРН на земельный участок",
     "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
   },
   "cadastre_number": {
@@ -26,12 +31,13 @@
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
   },
   "cadastre_number_of_capital_construction_object": {
+    "description": "Указываются кадастровые номера всех индивидуальных жилых домов, расположенных на земельном участке",
     "title": "Кадастровый номер объекта капитального строительства",
     "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
   },
   "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_indiwidual_nyi_zhiloi_dom_esli_prawo_na_takoi_indiwidual_nyi_zhiloi_dom_ne_zaregistrirowano_w_egrp": {
     "title": "Копия документа, удостоверяющего (устанавливающего) права заявителя на индивидуальный жилой дом, если право на такой индивидуальный жилой дом не зарегистрировано в ЕГРП;",
-    "description": "1.Для бесплатного предоставления ЗУ право собственности на жилой дом у собственника либо у его наследодателя должно быть зарегистрировано до введения в действие Земельного кодекса РФ, те. До 25.10.2001г. (п.4 ст3 ФЗ от 25.10.2001 №137-ФЗ). 2. Должно быть приложено один из документов на жилой дом: свидетельстьво о гсударственной регистрации права, договор дарения, договор мены, договор купли-продажи, свидетельство о праве на наследство по закону или по завещанию, выписка из ЕГРН",
+    "description": "1.Для бесплатного предоставления ЗУ право собственности на жилой дом у собственника либо у его наследодателя должно быть зарегистрировано до введения в действие Земельного кодекса РФ, те. До 25.10.2001г. (п.4 ст3 ФЗ от 25.10.2001 №137-ФЗ). 2. Документы на индивидуальный жилой дом, подтверждающие право заявителя на приобретение земельного участка без проведения торгов и позволяющие установить право заявителя на приобретение земельного участка в собственность бесплатно (договоры купли-продажи, дарения, мены, свидетельства о праве собственности, о праве собственности по закону, по завещанию и т.д.",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
   },
   "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_isprashiwaemyi_zemel_nyi_uchastok_esli_prawo_na_takoi_zemel_nyi_uchastok_ne_zaregistrirowano_w_egrp": {
@@ -52,6 +58,7 @@
     "agent",
     "dowerennost",
     "address_with_map",
+    "address_with_map_residence",
     "ploschad",
     "cadastre_number",
     "cadastre_number_of_capital_construction_object",

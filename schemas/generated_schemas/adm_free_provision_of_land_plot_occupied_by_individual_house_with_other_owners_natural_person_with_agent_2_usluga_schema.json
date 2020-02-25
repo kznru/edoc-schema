@@ -12,13 +12,18 @@
       "title": "Доверенность",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
     },
-    "address_with_map": {
+    "address_with_map_residence": {
       "title": "Адрес",
+      "description": "Указывается адрес проживания",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_with_map": {
+      "title": "Местоположение земельного участка",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "ploschad": {
-      "title": "Площадь",
-      "description": "указывается в кв.м согласно схеме",
+      "title": "Площадь земельного участка",
+      "description": "Площадь указывается в кв.м согласно сведениям из ЕГРН на земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
     },
     "cadastre_number": {
@@ -27,6 +32,7 @@
     },
     "cadastre_number_of_capital_construction_object": {
       "title": "Кадастровый номер объекта капитального строительства",
+      "description": "Указываются кадастровые номера всех индивидуальных жилых домов, расположенных на земельном участке",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow": {
@@ -55,11 +61,11 @@
     "agent",
     "dowerennost",
     "address_with_map",
+    "address_with_map_residence",
     "ploschad",
     "cadastre_number",
     "cadastre_number_of_capital_construction_object",
     "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow",
-    "informaciq_o_drugih_sobstwennikah",
     "soglasen_na_obrabotku_personal_nyh_dannyh_s_sobl_deniem_trebowanii_federal_nogo_zakona_ot_27_07_2006_no152_fz_o_personal_nyh_dannyh"
   ],
   "type": "object",
