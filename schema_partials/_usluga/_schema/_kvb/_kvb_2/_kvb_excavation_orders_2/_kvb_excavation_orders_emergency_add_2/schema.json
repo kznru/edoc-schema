@@ -14,15 +14,26 @@
     "certificate_of_separation"
   ],
   "properties": {
+    "applicant_address":{
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес заявителя"
+    },
     "contractor": {
       "type": "object",
-      "required": ["contractor_organization"],
+      "required": ["contractor_organization", "contractor_organization_address"],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
           "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-          "title": "Организация подрядчика",
-          "description": "Наименование организации, выполняющей работы по устранению аварии"
+          "title": "Организация подрядчика"
+        },
+        "contractor_organization_phone":{
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "contractor_organization_address":{
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         },
         "contractor_responsible": {
           "type": "array",
@@ -30,8 +41,7 @@
           "items": {
             "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
-          "title": "Ответственный производитель работ со стороны подрядчика",
-          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
+          "title": "Ответственный производитель работ со стороны подрядчика"
         }
       }
     },

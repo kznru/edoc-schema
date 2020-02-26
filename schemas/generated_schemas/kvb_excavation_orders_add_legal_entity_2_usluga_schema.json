@@ -19,6 +19,10 @@
       "title": "Заявитель",
       "description": "Полное наименование организации - заказчика работ по договору"
     },
+    "organization_phone": {
+      "type": "string",
+      "title": "Телефон организации-заявителя"
+    },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
@@ -43,6 +47,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность на подписанта",
       "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "applicant_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес заявителя"
     },
     "begin_date": {
       "type": "string",
@@ -96,14 +104,22 @@
     "contractor": {
       "type": "object",
       "required": [
-        "contractor_organization"
+        "contractor_organization",
+        "contractor_organization_address"
       ],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
           "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-          "title": "Организация подрядчика",
-          "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору подряда"
+          "title": "Организация подрядчика"
+        },
+        "contractor_organization_phone": {
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "contractor_organization_address": {
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         },
         "contractor_responsible": {
           "type": "array",
@@ -111,8 +127,7 @@
           "items": {
             "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
           },
-          "title": "Ответственный производитель работ со стороны подрядчика",
-          "description": "ФИО сотрудника подрядной организации, назначенного ответственным за работы на объекте внутренним приказом"
+          "title": "Ответственный производитель работ со стороны подрядчика"
         }
       }
     },
@@ -120,23 +135,30 @@
       "type": "object",
       "required": [
         "subcontractor_organization",
-        "subcontractor_responsible"
+        "subcontractor_responsible",
+        "subcontractor_organization_address"
       ],
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
           "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
-          "title": "Организация субподрядчика",
-          "description": "Наименование организации, выполняющей работы по устранению аварии (если предусмотрен договором подряда)"
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_organization_phone": {
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "subcontractor_organization_address": {
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         },
         "subcontractor_responsible": {
           "type": "array",
-          "title": "Ответственный производитель работ со стороны субподрядчика",
-          "description": "ФИО сотрудника субподрядной организации, назначенного ответственным за работы на объекте внутренним приказом",
           "minItems": 1,
           "items": {
             "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
-          }
+          },
+          "title": "Ответственный производитель работ со стороны субподрядчика"
         }
       }
     },
