@@ -192,6 +192,14 @@
           "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
         }
       }
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарий при отказе из запроса \"Определение возможности размещения рекламной конструкции\""
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения при отказе из запроса \"Определение возможности размещения рекламной конструкции\""
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"
