@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Инженерные изыскания",
+  "type": "object",
+  "properties": {
+    "scanned_document_optional":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/pdf",
+      "title": "Инженерные изыскания",
+      "description": "Цветной отсканированный отчет об инженерно-геологических изысканиях в формате PDF"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Организация, подготовивший документ",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую"
+    },
+    "year":{
+      "type": "string",
+      "title": "Год создания",
+      "description": "Например, 2019"
+    }
+  }
+}

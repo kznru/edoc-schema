@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/materials_in_approved_project_documentation",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Материалы, содержащиеся в утвержденной проектной документации",
+  "type": "object",
+  "required": ["organization", "year"],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Проектная организация, разработавшая проектную документацию",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую"
+    },
+    "year":{
+      "type": "string",
+      "title": "Год создания проектной документации",
+      "description": "Например, 2019"
+    }
+  }
+}

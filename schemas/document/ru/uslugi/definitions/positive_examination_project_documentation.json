@@ -1,0 +1,29 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/positive_examination_project_documentation",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Положительное заключение экспертизы проектной документации",
+  "type": "object",
+  "properties": {
+    "text_examination_project_documentation":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/pdf",
+      "title": "Текст экспертизы проектной документации",
+      "description": "Файл в формате \"pdf\" (цветной)"
+    },
+    "ecp_authorized_organization_experts":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Электронно-цифровые подписи уполномоченных экспертной организацией экспертов (единым файлом)",
+      "description": "Файл в формате \"sig\""
+    },
+    "scanned_document_optional":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Реквизиты присвоенного номера экспертизы проектной документации",
+      "description": "Файл в формате \"XML\""
+    },
+    "ecp_egrz":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Электронно-цифровая подпись Единого реестра заключений проектной документации (ЕГРЗ)",
+      "description": "Файл в формате \"sig\""
+    }
+  }
+}
