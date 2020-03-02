@@ -2,7 +2,7 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Реквизиты документа",
-  "title": "Реквизиты документа",
+  "title": "Реквизиты документа c необязательными полями",
   "type": "object",
   "properties": {
     "number": {
