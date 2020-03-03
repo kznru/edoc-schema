@@ -1,0 +1,29 @@
+{
+  "required": ["certificate_of_state_registration_ownership"],
+  "properties": {
+    "certificate_of_state_registration_ownership":{
+      "type": "object",
+      "title": "Свидетельство о государственной регистрации права собственности",
+      "required": [
+        "date",
+        "seria",
+        "number"
+      ],
+      "properties":{
+        "date":{
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        },
+        "seria":{
+          "type": "string",
+          "title": "Серия"
+        },
+        "number":{
+          "type": "string",
+          "title": "Номер"
+        }
+      }
+    }
+  }
+}

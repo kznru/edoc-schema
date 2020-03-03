@@ -1,0 +1,51 @@
+{
+  "required": ["area", "project_organization", "person_in_zkh", "person_in_district", "working_group_decision", "head_in_district"],
+  "properties": {
+    "area":{
+      "title": "Площадь помещения",
+      "type": "string"
+    },
+    "working_group_decision":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields",
+      "title": "Решение рабочей группы по рассмотрению документов по выдаче разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение"
+    },
+    "project_organization":{
+      "type": "object",
+      "title": "Компания-разработчик проекта перепланировки",
+      "required": ["organization", "certificate"],
+      "properties":{
+        "organization":{
+          "title": "Наименование организации",
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+        },
+        "certificate":{
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields",
+          "title": "Свидетельство"
+        }
+      }
+    },
+    "person_in_zkh":{
+      "title": "Ответственный отдела жилищно-коммунального хозяйства Администрации района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "person_in_district":{
+      "type": "object",
+      "title": "Контроль за исполнением настоящего распоряжения возложить на:",
+      "required": ["fio", "position"],
+      "properties":{
+        "fio":{
+          "title": "Ф.И.О.",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+        },
+        "position":{
+          "type": "string",
+          "title": "Должность"
+        }
+      }
+    },
+    "head_in_district":{
+      "title": "Глава района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    }
+  }
+}
