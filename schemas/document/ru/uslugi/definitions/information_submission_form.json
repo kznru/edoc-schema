@@ -6,6 +6,10 @@
   "type": "string",
   "minItems": 1,
   "enum": [
+    "copy",
+    "info"
+  ],
+  "enumNames": [
     "Копии документов",
     "Сведения"
   ]

@@ -3,9 +3,12 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Категория запроса сведений ИСОГД",
   "description": "Категория запроса сведений ИСОГД",
-  "type": "string",
+  "type": "integer",
   "minItems": 1,
   "enum": [
+    1, 2, 3, 4
+  ],
+  "enumNames": [
     "о развитии территории",
     "о застройке территории",
     "о земельном участке",

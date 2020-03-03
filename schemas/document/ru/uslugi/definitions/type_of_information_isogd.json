@@ -8,9 +8,12 @@
   "properties": {
     "type_of_information":{
       "title": "Вид сведений",
-      "type": "string",
+      "type": "integer",
       "minItems": 1,
       "enum": [
+        1, 2, 3, 4, 5
+      ],
+      "enumNames": [
         "по генеральному плану",
         "по проекту планировки",
         "по правилам застройки и землепользования",
