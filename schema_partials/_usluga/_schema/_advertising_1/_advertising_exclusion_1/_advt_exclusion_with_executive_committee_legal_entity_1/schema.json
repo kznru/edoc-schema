@@ -1,0 +1,30 @@
+{
+  "properties": {
+  "registry_item": {
+    "title": "Номер записи в реестре",
+      "description": "Номер выданного разрешения на установку и эксплуатацию рекламной конструкции в реестре",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "advertising_1"
+      }
+  },
+  "organization": {
+    "title": "Заявитель",
+    "description": "Указываются сведения о владельце РК",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "agent": {},
+  "dokument_podtwerzhda_schij_prekraschenie_dogowora_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii": {
+    "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",
+    "description": "Прикрепляется скан документа, подтверждающего прекращение договора на установку и эксплуатацию рекламной конструкции, заключенного между Исполнительным комитетом г.Казани и владельцем рекламной конструкции",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  }
+},
+  "required": [
+    "registry_item",
+    "organization",
+    "agent",
+    "dokument_podtwerzhda_schij_prekraschenie_dogowora_na_ustanowku_i_xpluataci_reklamnoj_konstrukcii"
+  ],
+  "type": "object"
+}
