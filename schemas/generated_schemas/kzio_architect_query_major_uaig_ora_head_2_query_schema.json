@@ -11,6 +11,18 @@
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "usage": {
+      "type": "array",
+      "title": "Цели использования",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "borders_scheme": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#"
