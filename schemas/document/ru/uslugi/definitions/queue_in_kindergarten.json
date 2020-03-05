@@ -40,11 +40,7 @@
               "type": "string",
               "default": "13"
             }
-          },
-          "required": [
-            "number",
-            "state_in_queue"
-          ]
+          }
         },
         {
           "type": "object",
@@ -65,11 +61,7 @@
               "type": "string",
               "default": "3"
             }
-          },
-          "required": [
-            "number",
-            "state_in_queue"
-          ]
+          }
         },
         {
           "type": "object",
@@ -90,11 +82,7 @@
               "type": "string",
               "default": "133"
             }
-          },
-          "required": [
-            "number",
-            "state_in_queue"
-          ]
+          }
         },
         {
           "type": "object",
@@ -115,11 +103,7 @@
               "type": "string",
               "default": "143"
             }
-          },
-          "required": [
-            "number",
-            "state_in_queue"
-          ]
+          }
         },
         {
           "type": "object",
@@ -140,11 +124,7 @@
               "type": "string",
               "default": "153"
             }
-          },
-          "required": [
-            "number",
-            "state_in_queue"
-          ]
+          }
         }
       ]
     }

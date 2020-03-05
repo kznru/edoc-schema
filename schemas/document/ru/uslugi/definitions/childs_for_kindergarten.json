@@ -43,12 +43,7 @@
               "type": "string",
               "default": "22.11.2018"
             }
-          },
-          "required": [
-            "fio",
-            "birth_certificate_number",
-            "birthday"
-          ]
+          }
         },
         {
           "type": "object",
@@ -74,12 +69,7 @@
               "type": "string",
               "default": "01.01.2020"
             }
-          },
-          "required": [
-            "fio",
-            "birth_certificate_number",
-            "birthday"
-          ]
+          }
         }
       ]
     }

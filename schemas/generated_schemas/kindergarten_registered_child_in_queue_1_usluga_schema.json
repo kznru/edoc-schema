@@ -5,14 +5,6 @@
       "description": "общее описание",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
-    "test": {
-      "title": "test",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "default": "OlololololoO"
-      }
-    },
     "childs_for_kindergarten": {
       "title": "Дети",
       "description": "выберите ребенка",
@@ -47,7 +39,7 @@
     }
   },
   "required": [
-    "applicant"
+    "agent"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
