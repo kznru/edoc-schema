@@ -5,10 +5,16 @@
       "description": "общее описание",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
-    "childs_for_kindergarten": {
-      "title": "Дети",
-      "description": "выберите ребенка",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
+    "guardianship_confirmation_documents": {
+      "title": "Документы подтверждающие опекунство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+    },
+    "medical_documents": {
+      "title": "Документы подтверждающие медицинские показания",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "queue_in_kindergartens": {
       "type": "object",
@@ -52,7 +58,8 @@
     }
   },
   "required": [
-    "childs_for_kindergarten"
+    "child",
+    "medical_documents"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

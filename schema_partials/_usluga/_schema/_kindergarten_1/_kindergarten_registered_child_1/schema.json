@@ -5,31 +5,24 @@
       "description": "общее описание",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
-    "childs_for_kindergarten": {
-      "title": "Дети",
-      "description": "выберите ребенка",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
-    },
     "queue_in_kindergartens": {
       "type": "object",
       "title": "Выбор детского сада",
       "description": "выберите садик",
-      "required": [
-        "kindergarten_1"
-      ],
-      "properties": {
-        "kindergarten_1": {
+      "required": ["kindergarten_1"],
+      "properties":{
+        "kindergarten_1":{
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
         },
-        "kindergarten_2": {
+        "kindergarten_2":{
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
         },
-        "kindergarten_3": {
+        "kindergarten_3":{
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
         }
       }
     },
-    "group_type": {
+    "group_type":{
       "title": "Тип группы",
       "type": "string",
       "enum": [
@@ -37,23 +30,11 @@
         "Татарская"
       ]
     },
-    "desired_date_enrollment": {
+    "desired_date_enrollment":{
       "title": "Желаемая дата зачисления",
       "type": "string",
       "format": "date"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
     }
   },
-  "required": [
-    "childs_for_kindergarten"
-  ],
-  "type": "object",
-  "$schema": "http://json-schema.org/draft-06/schema#"
+  "type": "object"
 }

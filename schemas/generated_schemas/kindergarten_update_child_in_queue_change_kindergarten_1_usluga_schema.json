@@ -1,9 +1,15 @@
 {
   "properties": {
+    "registry_item": {
+      "title": "Данные записи в очередь (реестровый номер)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kindergarten_registered_child_1"
+      }
+    },
     "agent": {
-      "title": "Заявитель (родитель или опекун)",
-      "description": "общее описание",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+      "title": "Заявитель (родитель)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "childs_for_kindergarten": {
       "title": "Дети",
@@ -29,19 +35,6 @@
         }
       }
     },
-    "group_type": {
-      "title": "Тип группы",
-      "type": "string",
-      "enum": [
-        "Русская",
-        "Татарская"
-      ]
-    },
-    "desired_date_enrollment": {
-      "title": "Желаемая дата зачисления",
-      "type": "string",
-      "format": "date"
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -52,7 +45,10 @@
     }
   },
   "required": [
-    "childs_for_kindergarten"
+    "registry_item",
+    "agent",
+    "childs_for_kindergarten",
+    "queue_in_kindergartens"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

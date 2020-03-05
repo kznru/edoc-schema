@@ -33,10 +33,25 @@
               "type": "string",
               "default": "Иванов Алексей Иванович"
             },
-            "birth_certificate_number": {
-              "title": "Номер свидетельства о рождении",
-              "type": "string",
-              "default": "123123123123123"
+            "birth_certificate": {
+              "title": "Свидетельство о рождении",
+              "type": "object",
+              "required": [
+                "number",
+                "seria"
+              ],
+              "properties":{
+                "number":{
+                  "title": "Номер",
+                  "type": "string",
+                  "default": "123123123123123"
+                },
+                "seria":{
+                  "title": "Серия",
+                  "type": "string",
+                  "default": "IV-КБ"
+                }
+              }
             },
             "birthday":{
               "title": "День рождения",
@@ -59,10 +74,25 @@
               "type": "string",
               "default": "Иванова Ольга Ивановна"
             },
-            "birth_certificate_number": {
-              "title": "Номер свидетельства о рождении",
-              "type": "string",
-              "default": "321321321321"
+            "birth_certificate": {
+              "title": "Свидетельство о рождении",
+              "type": "object",
+              "required": [
+                "number",
+                "seria"
+              ],
+              "properties":{
+                "number":{
+                  "title": "Номер",
+                  "type": "string",
+                  "default": "32132131321321"
+                },
+                "seria":{
+                  "title": "Серия",
+                  "type": "string",
+                  "default": "III-ОА"
+                }
+              }
             },
             "birthday":{
               "title": "День рождения",

@@ -1,9 +1,8 @@
 {
   "properties": {
+  "registry_item": {},
   "agent": {
-    "title": "Заявитель (родитель)",
-    "description": "общее описание",
-    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    "title": "Заявитель (родитель)"
   },
   "childs_for_kindergarten": {
     "title": "Дети",
@@ -29,7 +28,10 @@
   }
 },
   "required": [
-    "agent"
+    "registry_item",
+    "agent",
+    "childs_for_kindergarten",
+    "queue_in_kindergartens"
   ],
   "type": "object"
 }

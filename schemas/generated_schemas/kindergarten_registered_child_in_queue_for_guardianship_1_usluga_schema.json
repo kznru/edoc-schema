@@ -1,14 +1,16 @@
 {
   "properties": {
     "agent": {
-      "title": "Заявитель (родитель или опекун)",
+      "title": "Заявитель (опекун)",
       "description": "общее описание",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
-    "childs_for_kindergarten": {
-      "title": "Дети",
-      "description": "выберите ребенка",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
+    "guardianship_confirmation_documents": {
+      "title": "Документы подтверждающие опекунство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
     },
     "queue_in_kindergartens": {
       "type": "object",
@@ -52,7 +54,8 @@
     }
   },
   "required": [
-    "childs_for_kindergarten"
+    "child",
+    "guardianship_confirmation_documents"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
