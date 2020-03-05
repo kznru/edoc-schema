@@ -1,0 +1,43 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель (родитель)",
+    "description": "общее описание",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "test":{
+    "title": "test",
+    "type": "array",
+    "items":{
+      "type":"string",
+      "default": "OlololololoO"
+    }
+  },
+  "childs_for_kindergarten": {
+    "title": "Дети",
+    "description": "выберите ребенка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
+  },
+  "queue_in_kindergartens": {
+    "type": "object",
+    "title": "Выбор детского сада",
+    "description": "выберите садик",
+    "required": ["kindergarten_1"],
+    "properties":{
+      "kindergarten_1":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      },
+      "kindergarten_2":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      },
+      "kindergarten_3":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      }
+    }
+  }
+},
+  "required": [
+    "applicant"
+  ],
+  "type": "object"
+}

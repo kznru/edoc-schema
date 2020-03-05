@@ -1,0 +1,87 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Дети",
+  "type": "object",
+  "required":["childs"],
+  "properties": {
+    "childs":{
+      "title": "Выбор ребенка",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Иванов Алексей Иванович",
+        "Иванова Ольга Ивановна"
+      ]
+    }
+  },
+  "dependencies": {
+    "childs": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "childs": {
+              "type": "string",
+              "enum": [
+                "Иванов Алексей Иванович"
+              ]
+            },
+            "fio": {
+              "title": "ФИО",
+              "type": "string",
+              "default": "Иванов Алексей Иванович"
+            },
+            "birth_certificate_number": {
+              "title": "Номер свидетельства о рождении",
+              "type": "string",
+              "default": "123123123123123"
+            },
+            "birthday":{
+              "title": "День рождения",
+              "type": "string",
+              "default": "22.11.2018"
+            }
+          },
+          "required": [
+            "fio",
+            "birth_certificate_number",
+            "birthday"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "childs": {
+              "type": "string",
+              "enum": [
+                "Иванова Ольга Ивановна"
+              ]
+            },
+            "fio": {
+              "title": "ФИО",
+              "type": "string",
+              "default": "Иванова Ольга Ивановна"
+            },
+            "birth_certificate_number": {
+              "title": "Номер свидетельства о рождении",
+              "type": "string",
+              "default": "321321321321"
+            },
+            "birthday":{
+              "title": "День рождения",
+              "type": "string",
+              "default": "01.01.2020"
+            }
+          },
+          "required": [
+            "fio",
+            "birth_certificate_number",
+            "birthday"
+          ]
+        }
+      ]
+    }
+  }
+}
