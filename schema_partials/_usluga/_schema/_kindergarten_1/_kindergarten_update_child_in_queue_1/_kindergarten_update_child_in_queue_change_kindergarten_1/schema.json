@@ -4,11 +4,6 @@
   "agent": {
     "title": "Заявитель (родитель)"
   },
-  "childs_for_kindergarten": {
-    "title": "Дети",
-    "description": "выберите ребенка",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
-  },
   "queue_in_kindergartens": {
     "type": "object",
     "title": "Выбор детского сада",
@@ -29,8 +24,6 @@
 },
   "required": [
     "registry_item",
-    "agent",
-    "childs_for_kindergarten",
     "queue_in_kindergartens"
   ],
   "type": "object"

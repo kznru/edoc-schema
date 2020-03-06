@@ -2,15 +2,11 @@
   "properties": {
   "registry_item": {},
   "agent": {
-    "title": "Заявитель (опекун)",
-    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    "title": "Заявитель (опекун)"
   },
   "guardianship_confirmation_documents":{
     "title": "Документы подтверждающие опекунство",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-  },
-  "child": {
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
   },
   "queue_in_kindergarten": {
     "title": "Выбор детского сада",
@@ -18,9 +14,6 @@
   }
 },
   "required": [
-    "registry_item",
-    "agent",
-    "child",
     "queue_in_kindergarten",
     "guardianship_confirmation_documents"
   ],

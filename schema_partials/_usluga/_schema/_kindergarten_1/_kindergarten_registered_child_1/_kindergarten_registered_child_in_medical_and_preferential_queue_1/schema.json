@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель (родитель или опекун)"
+    },
+    "guardianship_confirmation_documents":{
+      "title": "Документы подтверждающие опекунство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+    },
+    "medical_documents":{
+      "title": "Документы подтверждающие медицинские показания",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "preferential_documents":{
+      "title": "Документы подтверждающие льготы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "queue_in_kindergartens": {}
+  },
+  "required":[
+    "child",
+    "medical_documents",
+    "preferential_documents"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,18 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {},
+  "group_type":{
+    "title": "Тип группы",
+    "type": "string",
+    "enum": [
+      "Русская",
+      "Татарская"
+    ]
+  }
+},
+  "required": [
+    "group_type"
+  ],
+  "type": "object"
+}

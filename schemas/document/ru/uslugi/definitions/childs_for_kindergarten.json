@@ -3,7 +3,6 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Дети",
   "type": "object",
-  "required":["childs"],
   "properties": {
     "childs":{
       "title": "Выбор ребенка",

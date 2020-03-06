@@ -15,9 +15,6 @@
       "title": "Документы подтверждающие опекунство",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
-    "child": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
-    },
     "queue_in_kindergarten": {
       "title": "Выбор детского сада",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
@@ -32,11 +29,10 @@
     }
   },
   "required": [
-    "registry_item",
-    "agent",
-    "child",
     "queue_in_kindergarten",
-    "guardianship_confirmation_documents"
+    "guardianship_confirmation_documents",
+    "registry_item",
+    "agent"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

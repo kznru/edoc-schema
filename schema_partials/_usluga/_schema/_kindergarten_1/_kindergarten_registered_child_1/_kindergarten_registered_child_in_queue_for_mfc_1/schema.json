@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "agent": {},
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+    },
+    "queue_in_kindergartens": {}
+  },
+  "required": [
+    "child"
+  ],
+  "type": "object"
+}

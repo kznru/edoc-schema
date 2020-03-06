@@ -18,8 +18,7 @@
     },
     "queue_in_kindergartens": {
       "type": "object",
-      "title": "Выбор детского сада",
-      "description": "выберите садик",
+      "title": "Выбор детских садов",
       "required": [
         "kindergarten_1"
       ],
@@ -59,7 +58,11 @@
   },
   "required": [
     "child",
-    "medical_documents"
+    "medical_documents",
+    "desired_date_enrollment",
+    "group_type",
+    "queue_in_kindergartens",
+    "agent"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

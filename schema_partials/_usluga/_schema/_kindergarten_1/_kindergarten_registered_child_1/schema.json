@@ -7,8 +7,7 @@
     },
     "queue_in_kindergartens": {
       "type": "object",
-      "title": "Выбор детского сада",
-      "description": "выберите садик",
+      "title": "Выбор детских садов",
       "required": ["kindergarten_1"],
       "properties":{
         "kindergarten_1":{
@@ -36,5 +35,11 @@
       "format": "date"
     }
   },
+  "required":[
+    "desired_date_enrollment",
+    "group_type",
+    "queue_in_kindergartens",
+    "agent"
+  ],
   "type": "object"
 }
