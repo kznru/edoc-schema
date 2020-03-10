@@ -19,11 +19,26 @@
       "description": "Реквизиты утвержденного проекта межевания территории (с учетом внесенных изменений- при наличии)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document_with_name"
     },
-    "borders_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "accept": "application/pdf, application/xml, text/xml, text/html",
-      "description": "В формате PDF, XML или HTML",
-      "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
+    "borders_schemas": {
+      "title": "Схема расположения земельного участка на кадастровом плане территории",
+      "type": "object",
+      "properties": {
+        "format_xml ": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "accept": "application/xml, text/xml",
+          "title": "Формат XML"
+        },
+        "format_html ": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "accept": "text/html",
+          "title": "Формат HTML"
+        },
+        "format_pdf ": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "accept": "application/pdf",
+          "title": "Формат PDF"
+        }
+      }
     },
     "copies_of_certification_documents_for_the_land ": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
