@@ -9,7 +9,7 @@
     "properties": {
       "technical_plan":{
         "title": "Технический план объекта капитального строительства",
-        "definitions": "В формате zip файл GKUOKS_000a8916...",
+        "description": "В формате zip файл GKUOKS_000a8916...",
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
       },
       "date":{

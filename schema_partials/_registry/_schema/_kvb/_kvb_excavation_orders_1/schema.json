@@ -55,6 +55,11 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
+    "landscaping_end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ по благоустройству"
+    },
     "contractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"

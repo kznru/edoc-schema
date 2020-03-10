@@ -58,6 +58,11 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
+    "landscaping_end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ по благоустройству"
+    },
     "emergency_repair_of": {
       "type": "string",
       "title": "Ликвидация аварии на:"
