@@ -53,7 +53,7 @@
               }
             },
             "birthday":{
-              "title": "День рождения",
+              "title": "Дата рождения",
               "type": "string",
               "default": "22.11.2018"
             }
@@ -94,7 +94,7 @@
               }
             },
             "birthday":{
-              "title": "День рождения",
+              "title": "Дата рождения",
               "type": "string",
               "default": "01.01.2020"
             }

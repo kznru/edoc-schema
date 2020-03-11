@@ -32,7 +32,7 @@
       }
     },
     "birthday":{
-      "title": "День рождения",
+      "title": "Дата рождения",
       "type": "string",
       "format": "date"
     }

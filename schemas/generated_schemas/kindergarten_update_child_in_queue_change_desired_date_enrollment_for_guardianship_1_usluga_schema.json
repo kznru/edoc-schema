@@ -16,9 +16,18 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "desired_date_enrollment": {
+      "type": "object",
       "title": "Желаемая дата зачисления",
-      "type": "string",
-      "format": "date"
+      "required": [
+        "date"
+      ],
+      "properties": {
+        "date": {
+          "title": "Дата",
+          "type": "string",
+          "format": "date"
+        }
+      }
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
