@@ -1,11 +1,7 @@
 {
   "properties": {
     "agent": {
-      "title": "Заявитель (родитель или опекун)"
-    },
-    "guardianship_confirmation_documents":{
-      "title": "Документы подтверждающие опекунство",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+      "title": "Заявитель (родитель)"
     },
     "child": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"

@@ -2,10 +2,6 @@
   "properties": {
     "registry_item": {},
     "agent": {},
-    "guardianship_confirmation_documents": {
-      "title": "Документы подтверждающие опекунство",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-    },
     "foundation_documents":{
       "title": "Документы основания",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"

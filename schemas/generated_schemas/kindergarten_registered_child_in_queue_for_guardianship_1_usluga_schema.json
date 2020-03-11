@@ -6,7 +6,7 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
     "guardianship_confirmation_documents": {
-      "title": "Документы подтверждающие опекунство",
+      "title": "Документы подтверждающие право представлять интересы ребенка",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
     "child": {
@@ -14,7 +14,8 @@
     },
     "queue_in_kindergartens": {
       "type": "object",
-      "title": "Выбор детских садов",
+      "title": "Выбор детских садов (Точный механизм интеграции после обсуждения с разработчиками ЭДС)",
+      "description": "Точный механизм интеграции после обсуждения с разработчиками ЭДС",
       "required": [
         "kindergarten_1"
       ],

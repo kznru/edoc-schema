@@ -5,7 +5,7 @@
     "title": "Заявитель (опекун)"
   },
   "guardianship_confirmation_documents":{
-    "title": "Документы подтверждающие опекунство",
+    "title": "Документы подтверждающие право представлять интересы ребенка",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
   },
   "queue_in_kindergarten": {

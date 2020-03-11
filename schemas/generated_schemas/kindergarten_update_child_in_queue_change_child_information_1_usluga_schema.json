@@ -11,10 +11,8 @@
       "title": "Заявитель (родитель)",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
-    "childs_for_kindergarten": {
-      "title": "Дети",
-      "description": "выберите ребенка",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -26,7 +24,7 @@
     }
   },
   "required": [
-    "childs_for_kindergarten",
+    "child",
     "registry_item",
     "agent"
   ],
