@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": ["extract_from_egrn"],
+  "properties": {
+    "extract_from_egrn":{
+      "type": "object",
+      "title": "Выписка из ЕГРН",
+      "required": ["date", "number"],
+      "properties":{
+        "date":{
+          "title": "Дата",
+          "type": "string",
+          "format": "date"
+        },
+        "number":{
+          "title": "Номер",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

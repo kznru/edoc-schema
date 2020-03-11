@@ -1,6 +1,107 @@
 {
+  "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
+  "required": [
+    "registry_record_egrn",
+    "project_organization",
+    "head_in_district",
+    "person_in_district",
+    "work_type",
+    "term_work"
+  ],
   "properties": {
+    "registry_record_egrn": {
+      "type": "object",
+      "title": "Регистрационная запись в Едином государственном реестре прав на недвижимое имущество и сделок",
+      "required": [
+        "date",
+        "number"
+      ],
+      "properties": {
+        "date": {
+          "title": "Дата",
+          "type": "string",
+          "format": "date"
+        },
+        "number": {
+          "title": "Номер",
+          "type": "string"
+        }
+      }
+    },
+    "project_organization": {
+      "title": "Наименование проектной организации",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "head_in_district": {
+      "title": "Глава района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "person_in_district": {
+      "type": "object",
+      "title": "Контроль за исполнением настоящего распоряжения возложить на:",
+      "required": [
+        "fio",
+        "position"
+      ],
+      "properties": {
+        "fio": {
+          "title": "Ф.И.О.",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+        },
+        "position": {
+          "type": "string",
+          "title": "Должность"
+        }
+      }
+    },
+    "work_type": {
+      "title": "Разрешение провести:",
+      "type": "string",
+      "enum": [
+        "перепланировку и переустройство",
+        "перепланировку"
+      ]
+    },
+    "term_work": {
+      "type": "object",
+      "title": "Срок производства ремонтно-строительных работ",
+      "required": [
+        "from",
+        "to"
+      ],
+      "properties": {
+        "from": {
+          "title": "С",
+          "type": "string",
+          "format": "date"
+        },
+        "to": {
+          "title": "По",
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "extract_register_members_selfregulatory": {
+      "title": "Выписка из реестра членов саморегулируемой организации",
+      "type": "object",
+      "required": [
+        "date",
+        "number"
+      ],
+      "properties": {
+        "date": {
+          "title": "Дата",
+          "type": "string",
+          "format": "date"
+        },
+        "number": {
+          "title": "Номер",
+          "type": "string"
+        }
+      }
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
