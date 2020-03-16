@@ -7,7 +7,7 @@
   "agent_living_address": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
     "title": "Место жительства",
-    "description": "Почтовый адрес для связи с заявителем"
+    "description": "Укажите адрес проживания"
   },
   "agent": {
     "title": "Представитель ",
@@ -38,17 +38,17 @@
       "format_pdf"
     ],
     "properties":{
-      "format_xml ": {
+      "format_xml": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "application/xml, text/xml",
         "title": "Формат XML"
       },
-      "format_html ": {
+      "format_html": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "text/html",
         "title": "Формат HTML"
       },
-      "format_pdf ": {
+      "format_pdf": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "application/pdf",
         "title": "Формат PDF"

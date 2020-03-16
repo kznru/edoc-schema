@@ -2,12 +2,13 @@
   "properties": {
   "agent": {
     "title": "Заявитель",
+    "description": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
   "agent_living_address": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
     "title": "Место жительства",
-    "description": "Почтовый адрес для связи с заявителем"
+    "description": "Укажите адрес проживания"
   },
   "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit": {
     "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
@@ -28,17 +29,17 @@
       "format_pdf"
     ],
     "properties":{
-      "format_xml ": {
+      "format_xml": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "application/xml, text/xml",
         "title": "Формат XML"
       },
-      "format_html ": {
+      "format_html": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "text/html",
         "title": "Формат HTML"
       },
-      "format_pdf ": {
+      "format_pdf": {
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
         "accept": "application/pdf",
         "title": "Формат PDF"
