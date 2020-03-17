@@ -10,24 +10,24 @@
           "virtual": true,
           "keys": [
             {
-              "name": "gpzu_create_and_give_urban_development_plan_constuction_2",
+              "name": "gpzu_create_and_give_urban_development_plan_construction_2",
               "virtual": true,
               "keys": [
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_legal_entity_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_natural_person_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_natural_person_with_agent_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_living_legal_entity_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_living_natural_person_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_constuction_living_natural_person_with_agent_2"}
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_legal_entity_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_natural_person_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_natural_person_with_agent_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_living_legal_entity_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_living_natural_person_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_construction_living_natural_person_with_agent_2"}
               ]
             },
             {
-              "name": "gpzu_create_and_give_urban_development_plan_reconstuction_2",
+              "name": "gpzu_create_and_give_urban_development_plan_reconstruction_2",
               "virtual": true,
               "keys": [
-                {"name": "gpzu_create_and_give_urban_development_plan_reconstuction_legal_entity_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_reconstuction_natural_person_2"},
-                {"name": "gpzu_create_and_give_urban_development_plan_reconstuction_natural_person_with_agent_2"}
+                {"name": "gpzu_create_and_give_urban_development_plan_reconstruction_legal_entity_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_reconstruction_natural_person_2"},
+                {"name": "gpzu_create_and_give_urban_development_plan_reconstruction_natural_person_with_agent_2"}
               ]
             }
           ]
