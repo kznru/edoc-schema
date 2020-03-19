@@ -13,7 +13,7 @@
     "dowerennost": {
       "title": "Доверенность ",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
     "address": {
       "title": "Адрес, по которому находится переводимое помещение ",

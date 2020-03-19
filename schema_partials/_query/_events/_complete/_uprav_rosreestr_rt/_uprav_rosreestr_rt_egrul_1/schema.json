@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": ["statement_egrul"],
+  "properties": {
+    "statement_egrul": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Выписка из ЕГРЮЛ установленного образца"
+    }
+  }
+}

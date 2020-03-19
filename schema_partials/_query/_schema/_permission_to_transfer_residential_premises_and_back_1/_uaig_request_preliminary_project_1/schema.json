@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "address_with_map": {
+      "title": "Адрес, по которому находится переводимое помещение",
+      "description": "Адрес с указанием города, улицы, номера дома, квартиры",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Cобственика переводимого помещения (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_optional",
+      "title": "Cобственика переводимого помещения (физ. лицо c представителем)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
+      "title": "Cобственика переводимого помещения (физ. лицо)"
+    }
+  }
+}

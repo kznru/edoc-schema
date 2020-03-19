@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "properties":{
+    "scanned_document_optional":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Справка с приложением схемы в случае расположения земельного участка в пределах береговой полосы"
+    }
+  }
+}

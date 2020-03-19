@@ -44,6 +44,15 @@
     "type": "string",
     "minItems": 1,
     "enum": ["Утеря", "Порча", "Новый собственник"]
+  },
+  "form_result_method": {
+    "title": "Форма предоставления результата",
+    "type": "string",
+    "minItems": 1,
+    "enum": [
+      "на бумажном носителе",
+      "в электронном виде"
+    ]
   }
 },
   "required": [
@@ -51,7 +60,8 @@
     "address",
     "cadastre_number",
     "nomer_gpzu_nomer_ru",
-    "building_object"
+    "building_object",
+    "form_result_method"
   ],
   "type": "object"
 }

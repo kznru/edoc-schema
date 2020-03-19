@@ -6,6 +6,10 @@
       "description": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
+    "applicant_scanned_passport": {
+      "title": "Скан паспорта заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "agent": {
       "title": "Представитель",
       "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
@@ -57,6 +61,7 @@
   },
   "required": [
     "applicant",
+    "applicant_scanned_passport",
     "agent",
     "letter_of_attorney",
     "address",

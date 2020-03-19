@@ -24,6 +24,15 @@
     "title": "Назначение объекта",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
   },
+  "form_result_method": {
+    "title": "Форма предоставления результата",
+    "type": "string",
+    "minItems": 1,
+    "enum": [
+      "на бумажном носителе",
+      "в электронном виде"
+    ]
+  },
   "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
     "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
     "description": "Необходимо подтвердить согласие на обработку представленных данных",
@@ -36,7 +45,8 @@
     "cadastre_number",
     "ploschad_zemel_nogo_uchastka",
     "address_with_map",
-    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah"
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah",
+    "form_result_method"
   ],
   "type": "object"
 }

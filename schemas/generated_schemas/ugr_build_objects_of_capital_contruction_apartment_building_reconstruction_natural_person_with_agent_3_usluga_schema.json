@@ -1,0 +1,151 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Цветная отсканированная доверенность в формате PDF (в случае представления интересов собственика по доверенности)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "cadastral_numbers_of_land_for_construction": {
+      "title": "Кадастровый (-е) номер (-а) земельного (-ых) участка (-ов)",
+      "description": "Укажите кадастровый (-е) номер (-а), адрес -(а), правоустанавливающие документы на земельный участок (участки)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cadastral_numbers_of_land_for_construction"
+    },
+    "gradostroitel_nyj_plan_zemel_nogo_uchastka_gpzu": {
+      "title": "Градостроительный план земельного участка (ГПЗУ)",
+      "description": "Градостроительный план земельного участка (ГПЗУ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+    },
+    "document_requisites_optional": {
+      "title": "Согласованное МКУ \"Управление архитектуры и градостроительства г.Казани\" эскизное предложение",
+      "description": "Согласованное МКУ \"Управление архитектуры и градостроительства г.Казани\" эскизное предложение (в случае необходимости согласно ГПЗУ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+    },
+    "proekt_planirowki_territorii_rekwizity_postanowleniq_ispolnitel_nogo_komiteta_g_kazani": {
+      "title": "Проект планировки территории (реквизиты постановления Исполнительного комитета г.Казани)",
+      "description": "Если проект планировки и проект межевания территории утверждены одним постановлением ИКМО г.Казани, реквизиты дублируются",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+    },
+    "proekt_mezhewaniq_territorii_rekwizity_postanowleniq_ispolnitel_nogo_komiteta_g_kazani": {
+      "title": "Проект межевания территории (реквизиты постановления Исполнительного комитета г.Казани)",
+      "description": "Если проект планировки и проект межевания территории утверждены одним постановлением ИКМО г.Казани, реквизиты дублируются",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+    },
+    "naimenowanie_ob_ekta_kapital_nogo_stroitel_stwa__tapa_w_sootwetstwii_s_proektnoj_dokumentaciej": {
+      "title": "Наименование объекта капитального строительства (этапа) в соответствии с проектной документацией",
+      "description": "Указывается точное наименование объекта без кавычек в соответствии с разработанной проектной документацией. Например: Комплекс зданий по ул.Боевая, 36: административной-бытовой корпус, склад хранения продукции, контрольно-пропускной пункт",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "information_about_projected_objects": {
+      "title": "Сведения о проектируемом (-ых) объекте (-ах)",
+      "description": "Сведения о проектируемом (-ых) объекте (-ах)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_about_projected_objects"
+    },
+    "engineering_survey": {
+      "title": "Инженерные изыскания",
+      "description": "Инженерные изыскания",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey"
+    },
+    "dokument_ob_utwerzhdenii_zastrojschikom_proektnoj_dokumentacii": {
+      "title": "Документ об утверждении застройщиком проектной документации",
+      "description": "Документ об утверждении застройщиком проектной документации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+    },
+    "materials_in_approved_project_documentation": {
+      "title": "Материалы, содержащиеся в утвержденной проектной документации",
+      "description": "Материалы, содержащиеся в утвержденной проектной документации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/materials_in_approved_project_documentation"
+    },
+    "project_documentation_section": {
+      "title": "Раздел проектной документации \"Пояснительная записка\"",
+      "description": "Раздел проектной документации \"Пояснительная записка\"",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "razdel_proektnoj_dokumentacii_shema_planirowochnoj_organizacii_zemel_nogo_uchastka__spozu": {
+      "title": "Раздел проектной документации \"Схема планировочной организации земельного участка\" (СПОЗУ)",
+      "description": "Раздел проектной документации \"Схема планировочной организации земельного участка\" (СПОЗУ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "razdel_proektnoj_dokumentacii_arhitekturnye_resheniq": {
+      "title": "Раздел проектной документации \"Архитектурные решения\"",
+      "description": "Раздел проектной документации \"Архитектурные решения\"",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "razdel_proektnoj_dokumentacii_konstruktiwnye_resheniq": {
+      "title": "Раздел проектной документации \"Конструктивные решения\"",
+      "description": "Раздел проектной документации \"Конструктивные решения\"",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "razdel_proektnoj_dokumentacii_meropriqtiq_naprawlennye_na_obespechenie_dostupa_inwalidow_k_ob_ektu_kapital_nogo_stroitel_stwa": {
+      "title": "Раздел проектной документации \"Мероприятия, направленные на обеспечение доступа инвалидов к объекту капитального строительства\"",
+      "description": "Раздел проектной документации \"Мероприятия, направленные на обеспечение доступа инвалидов к объекту капитального строительства\"",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "razdel_proektnoj_dokumentacii_proekt_organizacii_stroitel_stwa": {
+      "title": "Раздел проектной документации \"Проект организации строительства\"",
+      "description": "Раздел проектной документации \"Проект организации строительства\"",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section"
+    },
+    "positive_examination_project_documentation": {
+      "title": "Положительное заключение экспертизы проектной документации",
+      "description": "Положительное заключение экспертизы проектной документации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/positive_examination_project_documentation"
+    },
+    "document": {
+      "title": "Разрешение на отклонение от предельных параметров разрешенного строительства, реконструкции",
+      "description": "Разрешение на отклонение от предельных параметров разрешенного строительства, реконструкции (в случае, если застройщику было предоставлено такое разрешение в соответствии со статьей 40 Градостроительного кодекса РФ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+    },
+    "reshenie_obschego_sobraniq_sobstwennikow_pomeschenij_i_mashino_mest_w_mnogokwartirnom_dome": {
+      "title": "Решение общего собрания собственников помещений и машино-мест в многоквартирном доме",
+      "description": "Решение общего собрания собственников помещений и машино-мест в многоквартирном доме, принятое в соответствии с жилищным законодательством в случае реконструкции многоквартирного дома, или, если в результате такой реконструкции произойдет уменьшение размера общего имущества в многоквартирном доме, согласие всех собственников помещений и машино-мест в многоквартирном доме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+    },
+    "reshenie_ob_ustanowlenii_ili_izmenenii_zony_s_osobymi_uslowiqmi_ispol_zowaniq_territorii": {
+      "title": "Решение об установлении или изменении зоны с особыми условиями использования территории",
+      "description": "Решение об установлении или изменении зоны с особыми условиями использования территории",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+    },
+    "dogowor_o_razwitii_zastroennoj_territorii_ili_dogowor_o_komplexnom_razwitii_territorii": {
+      "title": "Договор о развитии застроенной территории или договор о комплексном развитии территории",
+      "description": "Договор о развитии застроенной территории или договор о комплексном развитии территории в случае, если строительство, реконструкцию объектов капитального строительства планируется осуществлять в границах территории, в отношении которой органом местного самоуправления принято решение о развитии застроенной территории или решение о комплексном развитии территории по инициативе органа местного самоуправления, за исключением случая принятия решения о самостоятельном осуществлении комплексного развития территории",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+    },
+    "neobhodimye_soglasowaniq_pri_nalichii": {
+      "title": "Необходимые согласования (при наличии)",
+      "description": "Вы вправе приложить дополнительные необходимые документы (например, согласования в охранных зонах)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney",
+    "cadastral_numbers_of_land_for_construction",
+    "gradostroitel_nyj_plan_zemel_nogo_uchastka_gpzu",
+    "naimenowanie_ob_ekta_kapital_nogo_stroitel_stwa__tapa_w_sootwetstwii_s_proektnoj_dokumentaciej",
+    "information_about_projected_objects",
+    "dokument_ob_utwerzhdenii_zastrojschikom_proektnoj_dokumentacii",
+    "materials_in_approved_project_documentation",
+    "reshenie_obschego_sobraniq_sobstwennikow_pomeschenij_i_mashino_mest_w_mnogokwartirnom_dome"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

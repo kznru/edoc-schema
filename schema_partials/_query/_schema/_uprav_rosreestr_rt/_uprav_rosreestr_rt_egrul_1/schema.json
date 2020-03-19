@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "inn": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn",
+      "title": "ИНН"
+    },
+    "ogrn":{
+      "title": "ОГРН",
+      "type": "string"
+    }
+  }
+}

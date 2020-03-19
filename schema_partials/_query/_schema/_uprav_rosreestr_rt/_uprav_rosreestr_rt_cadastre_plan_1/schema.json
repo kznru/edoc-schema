@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "cadastre_number":{
+      "title": "Кадастровый номер земельного участка",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "okato": {
+      "title": "ОКАТО",
+      "type": "string"
+    },
+    "address": {
+      "title": "Адрес, по которому находится земельный участок",
+      "description": "Адрес с указанием города",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "uprav_rosreestr_rt",
+      "virtual": true,
+      "keys": [
+        { "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_1" },
+        { "name": "uprav_rosreestr_rt_about_property_1" },
+        { "name": "uprav_rosreestr_rt_egrul_1" },
+        { "name": "uprav_rosreestr_rt_cadastre_plan_1" }
+      ]
+    }
+  ]
+}
