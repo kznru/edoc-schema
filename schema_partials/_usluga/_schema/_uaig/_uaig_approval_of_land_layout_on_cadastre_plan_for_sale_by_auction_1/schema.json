@@ -1,0 +1,15 @@
+{
+  "properties": {
+  "borders_schema": {
+    "title": "Схема расположения земельного участка на кадастровом плане территории",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+    "accept": "application/xml, text/xml",
+    "description": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории) в XML"
+    },
+    "result_delivery_method_with_email_post_paper": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper"
+    }
+  },
+  "required": ["result_delivery_method_with_email_post_paper"],
+  "type": "object"
+}

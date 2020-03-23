@@ -10,13 +10,18 @@
     "description": "Представитель юридического лица",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
+  "letter_of_attorney": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+    "title": "Доверенность"
+  },
   "address_with_map": {
     "title": "Адрес, по которому находится  запрашиваемый земельный участок",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
   },
   "ploschad": {
     "title": "Площадь",
-    "description": "ориентировочная",
+    "description": "Ориентировочная",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
   },
   "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka": {
@@ -26,8 +31,8 @@
   },
   "cel": {
     "title": "Цель ",
-    "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    "description": "Указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land_uaig"
   },
   "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
     "title": "Схематичное изображение границ земельного участка",
@@ -38,6 +43,7 @@
   "required": [
     "organization",
     "agent",
+    "letter_of_attorney",
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
     "cel"

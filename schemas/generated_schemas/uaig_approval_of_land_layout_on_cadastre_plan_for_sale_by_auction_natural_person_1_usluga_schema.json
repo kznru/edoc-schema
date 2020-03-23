@@ -4,6 +4,11 @@
       "title": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
+    "applicant_living_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес местожительства",
+      "description": "Адрес местожительства"
+    },
     "address_with_map": {
       "title": "Адрес, по которому находится  запрашиваемый земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -21,12 +26,21 @@
     "cel": {
       "title": "Цель ",
       "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land_uaig"
     },
     "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
       "title": "Схематичное изображение границ земельного участка",
       "description": "Схематичное изображение границ земельного участка с указанием данных, позволяющих идентифицировать местоположение земельного участка или схема расположения земельного участка на кадастровом плане территории",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "borders_schema": {
+      "title": "Схема расположения земельного участка на кадастровом плане территории",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/xml, text/xml",
+      "description": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории) в XML"
+    },
+    "result_delivery_method_with_email_post_paper": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -39,9 +53,11 @@
   },
   "required": [
     "agent",
+    "applicant_living_address",
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
-    "cel"
+    "cel",
+    "result_delivery_method_with_email_post_paper"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"

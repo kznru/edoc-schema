@@ -4,6 +4,11 @@
     "title": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
+  "applicant_living_address": {
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "title": "Адрес местожительства",
+    "description": "Адрес местожительства"
+  },
   "address_with_map": {
     "title": "Адрес, по которому находится  запрашиваемый земельный участок",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
@@ -21,7 +26,7 @@
   "cel": {
     "title": "Цель ",
     "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land_uaig"
   },
   "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
     "title": "Схематичное изображение границ земельного участка",
@@ -31,6 +36,7 @@
 },
   "required": [
     "agent",
+    "applicant_living_address",
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
     "cel"

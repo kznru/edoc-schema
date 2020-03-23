@@ -10,13 +10,18 @@
       "description": "Представитель юридического лица",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "title": "Доверенность"
+    },
     "address_with_map": {
       "title": "Адрес, по которому находится  запрашиваемый земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "ploschad": {
       "title": "Площадь",
-      "description": "ориентировочная",
+      "description": "Ориентировочная",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
     },
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka": {
@@ -26,13 +31,22 @@
     },
     "cel": {
       "title": "Цель ",
-      "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+      "description": "Указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land_uaig"
     },
     "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
       "title": "Схематичное изображение границ земельного участка",
       "description": "Схематичное изображение границ земельного участка с указанием данных, позволяющих идентифицировать местоположение земельного участка или схема расположения земельного участка на кадастровом плане территории",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "borders_schema": {
+      "title": "Схема расположения земельного участка на кадастровом плане территории",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/xml, text/xml",
+      "description": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории) в XML"
+    },
+    "result_delivery_method_with_email_post_paper": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -46,9 +60,11 @@
   "required": [
     "organization",
     "agent",
+    "letter_of_attorney",
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
-    "cel"
+    "cel",
+    "result_delivery_method_with_email_post_paper"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
