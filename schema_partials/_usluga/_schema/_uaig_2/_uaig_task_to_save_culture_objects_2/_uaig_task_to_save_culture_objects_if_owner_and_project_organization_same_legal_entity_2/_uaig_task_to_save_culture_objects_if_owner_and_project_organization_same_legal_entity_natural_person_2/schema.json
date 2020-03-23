@@ -5,7 +5,7 @@
     "description": "Заявитель",
     "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
   },
-  "agent_living_address": {
+  "applicant_living_address": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
     "title": "Адрес местожительства",
     "description": "Адрес местожительства"
@@ -87,6 +87,7 @@
 },
   "required": [
     "agent",
+    "applicant_living_address",
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",
     "address"
   ],
