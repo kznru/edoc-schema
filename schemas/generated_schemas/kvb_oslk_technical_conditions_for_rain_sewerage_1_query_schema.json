@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель (ЮЛ, ИП)",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "applicant": {
+      "title": "Заявитель (физ. лицо с представилем)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Заявитель (физ. лицо)",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "building_object_name": {
+      "title": "Наименование объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
+    },
+    "object_area": {
+      "title": "Площадь объекта",
+      "description": "Площадь, кв.м",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "green_report_area": {
+      "title": "Площадь земельного участка, кв.м",
+      "description": "Указано в эскизном проекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "building_area": {
+      "title": "Площадь застройки, кв.м",
+      "description": "Указано в эскизном проекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "number_parking_spaces": {
+      "title": "Предполагаемое количество парковочных мест",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    },
+    "kind_of_building": {
+      "title": "Тип объекта",
+      "description": "Социальный объект (школа, дет.сад,больница и т.п.), торгово-коммерческий объект (магазин,ТЦ,КБО и т.п.), административно-офисный объект, склады и т.п., объект транспортно-сервисной инфраструктуры(автомойка, автосервис, АЗС, парковка и т.п.), жилой объект(ЖК, жилой дом и т.п.), иное(укажите)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kind_of_building"
+    },
+    "address_with_map": {
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Описание местоположения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "address_comments": {
+      "title": "Дополнительное описание местоположения объекта",
+      "description": "Описание местоположения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка ",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "object_description": {
+      "title": "Описание объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "calculation_of_surface_runoff": {
+      "title": "Расчет количества поверхностных стоков",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+    },
+    "topography_of_networks": {
+      "title": "Съемка текущих изменений в масштабе 1:500",
+      "description": "Файл со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "general_plan": {
+      "title": "Раздел \"Генплан\" проектной документации",
+      "description": "Разработанный специализированной организацией и согласованный (рассмотренный) Главным архитектором Управления архитектуры и градостроительства Исполнительного комитета г.Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "original_photo": {
+      "title": "Фото исходной ситуации",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
