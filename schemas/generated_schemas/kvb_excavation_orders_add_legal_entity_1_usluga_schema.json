@@ -124,7 +124,8 @@
     "subcontractor": {
       "type": "object",
       "required": [
-        "subcontractor_organization"
+        "subcontractor_organization",
+        "subcontractor_responsible"
       ],
       "title": "Субподрядчик",
       "properties": {

@@ -49,7 +49,7 @@
       "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "applicant_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес заявителя"
     },
     "begin_date": {
@@ -119,7 +119,7 @@
         },
         "contractor_organization_address": {
           "title": "Адрес организации-подрядчика",
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         },
         "contractor_responsible": {
           "type": "array",
@@ -135,6 +135,7 @@
       "type": "object",
       "required": [
         "subcontractor_organization",
+        "subcontractor_responsible",
         "subcontractor_organization_address"
       ],
       "title": "Субподрядчик",
@@ -145,11 +146,11 @@
         },
         "subcontractor_organization_phone": {
           "type": "string",
-          "title": "Телефон организации-субподрядчика"
+          "title": "Телефон организации-подрядчика"
         },
         "subcontractor_organization_address": {
-          "title": "Адрес организации-субподрядчика",
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_optional"
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
         },
         "subcontractor_responsible": {
           "type": "array",
