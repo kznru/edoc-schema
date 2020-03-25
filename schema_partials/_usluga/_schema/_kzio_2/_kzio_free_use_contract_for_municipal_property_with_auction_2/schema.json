@@ -5,7 +5,8 @@
     "address_with_map",
     "purpose",
     "name_type",
-    "usage_type"],
+    "usage_type"
+  ],
   "properties": {
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",

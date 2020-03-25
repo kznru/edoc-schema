@@ -2,6 +2,7 @@
   "required": [
     "organization",
     "agent",
+    "letter_of_attorney",
     "address_with_map",
     "purpose",
     "name_type",

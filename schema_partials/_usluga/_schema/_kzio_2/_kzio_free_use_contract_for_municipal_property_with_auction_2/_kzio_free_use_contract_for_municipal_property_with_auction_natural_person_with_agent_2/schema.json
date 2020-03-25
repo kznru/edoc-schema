@@ -1,5 +1,5 @@
 {
-  "required": ["applicant", "letter_of_attorney"],
+  "required": ["applicant", "letter_of_attorney", "agent"],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
