@@ -41,7 +41,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
     "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional",
       "title": "Местонахождение банка"
     },
     "vehicle_documents": {

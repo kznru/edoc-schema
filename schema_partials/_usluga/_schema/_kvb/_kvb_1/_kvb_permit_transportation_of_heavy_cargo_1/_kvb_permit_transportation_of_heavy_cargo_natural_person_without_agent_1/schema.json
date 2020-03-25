@@ -1,4 +1,5 @@
 {
+  "required": ["agent"],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",

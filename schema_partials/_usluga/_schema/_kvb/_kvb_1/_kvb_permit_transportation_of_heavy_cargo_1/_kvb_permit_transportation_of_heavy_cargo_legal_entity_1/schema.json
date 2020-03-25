@@ -1,5 +1,7 @@
 {
   "required": [
+    "organization",
+    "agent",
     "letter_of_attorney"
   ],
   "properties": {

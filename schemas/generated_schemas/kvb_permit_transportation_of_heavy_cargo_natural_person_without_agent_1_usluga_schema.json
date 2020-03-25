@@ -1,4 +1,10 @@
 {
+  "required": [
+    "agent",
+    "vehicle_documents",
+    "vehicle_diagram",
+    "technical_requirements"
+  ],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -40,7 +46,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
     },
     "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional",
       "title": "Местонахождение банка"
     },
     "vehicle_documents": {
@@ -66,11 +72,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-    "vehicle_documents",
-    "vehicle_diagram",
-    "technical_requirements"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
