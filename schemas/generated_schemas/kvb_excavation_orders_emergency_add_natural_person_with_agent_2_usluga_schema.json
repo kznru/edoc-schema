@@ -31,7 +31,7 @@
       "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
     },
     "applicant_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес заявителя"
     },
     "contractor": {
@@ -52,7 +52,7 @@
         },
         "contractor_organization_address": {
           "title": "Адрес организации-подрядчика",
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
         },
         "contractor_responsible": {
           "type": "array",

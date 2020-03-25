@@ -25,7 +25,7 @@
       "title": "Представитель"
     },
     "applicant_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Адрес заявителя"
     },
     "address_with_map": {
@@ -77,7 +77,7 @@
     },
     "contractor_organization_address": {
       "title": "Адрес организации-подрядчика",
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
     "contractor_responsible": {
       "type": "array",
