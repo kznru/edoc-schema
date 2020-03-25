@@ -1,4 +1,9 @@
 {
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -19,7 +24,7 @@
     },
     "special_equipment_info": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объе- мов и контроля (наблюдения) качества сбрасываемых сточных вод"
+      "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объемов и контроля (наблюдения) качества сбрасываемых сточных вод"
     }
   }
 }

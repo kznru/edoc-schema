@@ -1,4 +1,7 @@
 {
+  "required": [
+    "agent"
+  ],
   "properties": {
     "agent": {
       "title": "Заявитель",
@@ -8,16 +11,12 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Письменное решение организации, которая владеет на праве собственности или ином законном основании гидроэнергетическим оборудованием (гидротурбиной) эксплуатируемого (строящегося) гидроэнергетического объекта либо имеет проектную документацию на проектируемый гидроэнергетический объект, о согласовании осуществления водопользования в охранной зоне гидроэнергетического объекта"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "water_body_name": {
       "type": "string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
     },
     "usage_time": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
@@ -40,7 +39,7 @@
           "title": "Пояснительная записка"
         },
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
         }
       }
     },
@@ -53,9 +52,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

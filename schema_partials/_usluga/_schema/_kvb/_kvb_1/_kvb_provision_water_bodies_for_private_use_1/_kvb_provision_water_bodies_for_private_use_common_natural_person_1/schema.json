@@ -1,4 +1,9 @@
 {
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -8,5 +13,6 @@
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
-    }  }
+    }
+  }
 }

@@ -1,16 +1,11 @@
 {
-  "required": [],
   "properties": {
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "water_body_name": {
       "type": "string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
     },
     "usage_time": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
@@ -33,7 +28,7 @@
           "title": "Пояснительная записка"
         },
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
         }
       }
     }

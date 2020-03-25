@@ -58,8 +58,11 @@ class SchemaValidatorService
       'schemas/document/ru/uslugi/definitions/green_report.json',
       'schemas/geo/coordinates.json',
       'schemas/geo/feature.json',
+      'schemas/geo/feature_optional.json',
       'schemas/geo/geojson.json',
+      'schemas/geo/geojson_optional.json',
       'schemas/geo/geometry.json',
+      'schemas/geo/geometry_optional.json',
       'schemas/geo/linearRingCoordinates.json',
       'schemas/geo/lineStringCoordinates.json',
       'schemas/geo/polygonCoordinates.json'

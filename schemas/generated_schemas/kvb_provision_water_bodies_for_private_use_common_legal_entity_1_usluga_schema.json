@@ -1,4 +1,9 @@
 {
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
@@ -17,7 +22,7 @@
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
     },
     "usage_time": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
@@ -40,7 +45,7 @@
           "title": "Пояснительная записка"
         },
         "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
         }
       }
     },
@@ -53,9 +58,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }
