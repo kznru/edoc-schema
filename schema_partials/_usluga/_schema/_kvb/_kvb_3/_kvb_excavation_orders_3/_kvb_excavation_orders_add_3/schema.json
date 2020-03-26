@@ -1,0 +1,170 @@
+{
+  "required": [
+    "agent",
+    "contractor",
+    "begin_date",
+    "end_date",
+    "address_with_map",
+    "address_comments",
+    "objects_of_work",
+    "objects_of_work_comments",
+    "images_before"
+  ],
+  "properties": {
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "contractor": {
+      "type": "object",
+      "required": ["contractor_organization"],
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика"
+        },
+        "contractor_organization_phone":{
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "contractor_responsible": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
+          "title": "Ответственный производитель работ со стороны подрядчика"
+        }
+      }
+    },
+    "subcontractor": {
+      "type": "object",
+      "required": ["subcontractor_organization"],
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_organization_phone":{
+          "type": "string",
+          "title": "Телефон организации-субподрядчика"
+        },
+        "subcontractor_responsible": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
+          "title": "Ответственный производитель работ со стороны субподрядчика"
+        }
+      }
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
+    },
+    "operating_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "График выполнения работ",
+      "description": "По нормам продолжительности строительства (с указанием сроков полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительных организаций). В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторное восстановление после просадок в теплое время года (с 25.04 по 31.05)"
+    },
+    "topography_of_networks": {
+      "title": "Топосъёмка сетей",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "description": "Топосъемка г.Казани (М 1:500) с обозначением инженерных сетей, заключение трасс инженерных коммуникаций (с печатью УАиГ) (если идет строительство, реконструкция, капитальный ремонт или демонтаж инженерных сетей)"
+    },
+    "topography_of_placements": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Топосъёмка мест установки",
+      "description": "Топосъемка г.Казани (М 1:500) с обозначением мест установки объектов (временных или постоянных заборов и ограждений, строительных лесов и стационарных вышек, элементов городской инфраструктуры, складирования любых видов материалов, конструкций, оборудования, проект благоустройства территории и т.п.) (с печатью УАиГ)"
+    },
+    "contract_for_order": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор подряда",
+      "description": "Договора подряда на выполнение земляных работ, требующих оформления разрешения, и на выполнение работ по восстановлению благоустройства (асфальтового покрытия)."
+    },
+    "certificate_sro": {
+      "title": "Выписка из реестра членов СРО",
+      "description": "срок действия выписки – 1 месяц",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "order_of_responsible_in_place": {
+      "title": "Приказ об ответственном на объекте",
+      "description": "За производство земляных работ с правом представлять юридическое лицо на объекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "order_of_responsible_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Приказ об ответственном за благоустройство"
+    },
+    "contract_for_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор на благоустройство",
+      "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)."
+    },
+    "subcontractor_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Выписка из реестра СРО субподрядчика"
+    },
+    "subcontract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор субподряда"
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Гарантийное обязательство (5 лет)"
+    },
+    "interested_party_list": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заинтересованные стороны",
+      "description": "Информации о заинтересованных лицах, чьи права и законные интересы могут быть затронуты при производстве земляных работ, выданная Управлением архитектуры и градостроительства Исполнительного комитета г.Казани, и подписанная всеми правообладателями"
+    }
+  }
+}
