@@ -1,12 +1,13 @@
 {
   "required": [
     "applicant",
-    "registry_item"
+    "text",
+    "address_with_map"
   ],
   "properties": {
-    "registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
-      "title": "Запись о проекте размещения СНИ для исключения"
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -14,6 +15,14 @@
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
+    },
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
+    "previous_registry_item": {
+      "type": "string",
+      "title": "Информация об исключаемом проекте размещения СНИ"
     }
   }
 }

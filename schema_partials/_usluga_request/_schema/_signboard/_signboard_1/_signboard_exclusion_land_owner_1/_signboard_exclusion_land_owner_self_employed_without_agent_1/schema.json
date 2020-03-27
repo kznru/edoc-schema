@@ -1,13 +1,12 @@
 {
   "required": [
-    "address_with_map",
-    "text",
-    "agent"
+    "agent",
+    "registry_item"
   ],
   "properties": {
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
-      "title": "Адрес размещения"
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_signboards",
+      "title": "Запись о проекте размещения СНИ для исключения"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -16,15 +15,7 @@
     },
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
-      "title": "Собственник земли или помещения"
-    },
-    "text": {
-      "type": "string",
-      "title": "Текст вывески"
-    },
-    "previous_registry_item": {
-      "type": "string",
-      "title": "Информация об исключаемом проекте размещения СНИ"
+        "title": "Собственник земли или помещения"
     }
   }
 }
