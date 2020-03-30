@@ -60,7 +60,8 @@
     "cadastre_number",
     "address",
     "razdel_isogd",
-    "forma_predostawleniq_swedenij"
+    "forma_predostawleniq_swedenij",
+    "ukazat_na_nalichie_osnowanij_predostawleniq_swedenij_isogd_besplatno_prilozhiw_sootwetstwu_schie_dokumenty"
   ],
   "type": "object"
 }

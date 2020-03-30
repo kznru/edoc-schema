@@ -45,7 +45,7 @@
       "description": "Выбрать одно из значений",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_submission_form"
     },
-    "uwedomlen_a_o_tom_chto_swedeniq_isogd_qwlq_tsq_platnymi_i_chto_w_predostawlenii_swedenij_isogd_mozhet_byt_otkazano_po_prichine_ustanowlennogo_w_sootwetstwii_s_zakonodatel_stwom_zapreta_w_predostawlenii_ukazannyh_swedenij_ili_w_sluchae_esli_na_moment_obrascheniq_zaprashiwaemye_mno_swedeniq_w_isogd_ne_razmescheny": {
+    "agreement_default": {
       "title": "Уведомлен (а) о том, что сведения ИСОГД являются платными и что в предоставлении сведений ИСОГД может быть отказано по причине установленного в соответствии с законодательством запрета в предоставлении указанных сведений или в случае, если на момент обращения запрашиваемые мною сведения в ИСОГД не размещены",
       "type": "boolean"
     },
@@ -68,7 +68,7 @@
     "address",
     "razdel_isogd",
     "forma_predostawleniq_swedenij",
-    "uwedomlen_a_o_tom_chto_swedeniq_isogd_qwlq_tsq_platnymi_i_chto_w_predostawlenii_swedenij_isogd_mozhet_byt_otkazano_po_prichine_ustanowlennogo_w_sootwetstwii_s_zakonodatel_stwom_zapreta_w_predostawlenii_ukazannyh_swedenij_ili_w_sluchae_esli_na_moment_obrascheniq_zaprashiwaemye_mno_swedeniq_w_isogd_ne_razmescheny"
+    "agreement_default"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
