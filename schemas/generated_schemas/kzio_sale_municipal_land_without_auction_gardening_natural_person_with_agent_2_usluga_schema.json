@@ -1,4 +1,12 @@
 {
+  "required": [
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "area",
+    "types_of_permitted_use_of_land"
+  ],
   "properties": {
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
@@ -52,12 +60,5 @@
     }
   },
   "type": "object",
-  "required": [
-    "agent",
-    "address_with_map",
-    "cadastre_number",
-    "area",
-    "types_of_permitted_use_of_land"
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }
