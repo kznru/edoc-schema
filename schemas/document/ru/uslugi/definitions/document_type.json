@@ -1,12 +1,97 @@
 {
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type",
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "type": "string",
   "title": "Тип документа",
   "description": "Тип документа",
-  "minItems": 1,
-  "enum": [
-    "паспорт",
-    "свидетельство о рождении"
-  ]
+  "type": "object",
+  "required": ["document_type"],
+  "properties": {
+    "document_type": {
+      "title": "Тип",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "паспорт",
+        "свидетельство о рождении"
+      ]
+    }
+  },
+  "dependencies": {
+    "document_type": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "document_type": {
+              "type": "string",
+              "enum": [
+                "паспорт"
+              ]
+            },
+            "document_serial": {
+              "title": "Серия документа",
+              "type": "string"
+            },
+            "document_number": {
+              "title": "Номер документа",
+              "type": "string"
+            },
+            "issued_by": {
+              "title": "Кем выдан",
+              "type": "string"
+            },
+            "unit_code": {
+              "title": "Код подразделения",
+              "type": "string"
+            },
+            "issued_at": {
+              "title": "Дата выдачи (В формате ГГГГ-ММ-ДД)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "document_serial",
+            "document_number",
+            "issued_by",
+            "unit_code",
+            "issued_at"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "document_type": {
+              "type": "string",
+              "enum": [
+                "свидетельство о рождении"
+              ]
+            },
+            "document_serial": {
+              "title": "Серия документа",
+              "type": "string"
+            },
+            "document_number": {
+              "title": "Номер документа",
+              "type": "string"
+            },
+            "issued_by": {
+              "title": "Кем выдан",
+              "type": "string"
+            },
+            "issued_at": {
+              "title": "Дата выдачи (В формате ГГГГ-ММ-ДД)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "document_serial",
+            "document_number",
+            "issued_by",
+            "issued_at"
+          ]
+        }
+      ]
+    }
+  }
 }

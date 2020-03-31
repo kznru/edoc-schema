@@ -9,12 +9,6 @@
     "fio",
     "birth_date",
     "birth_place",
-    "document_type",
-    "document_serial",
-    "document_number",
-    "issued_by",
-    "unit_code",
-    "issued_at",
     "phone_number",
     "living_place",
     "living_place_registration_at"
@@ -36,28 +30,8 @@
       "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "document_type": {
-      "title": "Тип документа",
+      "title": "Документ, удостоверяющий личность",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type"
-    },
-    "document_serial": {
-      "title": "Серия документа",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
-    },
-    "document_number": {
-      "title": "Номер документа",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
-    },
-    "issued_by": {
-      "title": "Кем выдан",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
-    },
-    "unit_code": {
-      "title": "Код подразделения",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
-    },
-    "issued_at": {
-      "title": "Дата выдачи",
-      "$ref": "http://edoc-schema.kzn.ru/generic/date"
     },
     "phone_number": {
       "title": "Телефон",
@@ -69,7 +43,7 @@
     },
     "living_place": {
       "title": "Место жительства",
-      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
     "living_place_registration_at": {
       "title": "Дата регистрации по месту жительства",
