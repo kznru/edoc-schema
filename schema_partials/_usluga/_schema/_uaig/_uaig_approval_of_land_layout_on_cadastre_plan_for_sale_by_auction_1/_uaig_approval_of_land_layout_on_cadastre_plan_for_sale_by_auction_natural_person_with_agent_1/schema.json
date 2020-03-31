@@ -51,7 +51,8 @@
     "agent",
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
-    "cel"
+    "cel",
+    "letter_of_attorney"
   ],
   "type": "object"
 }

@@ -69,6 +69,7 @@
     "address_with_map",
     "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
     "cel",
+    "letter_of_attorney",
     "result_delivery_method_with_email_post_paper"
   ],
   "type": "object",
