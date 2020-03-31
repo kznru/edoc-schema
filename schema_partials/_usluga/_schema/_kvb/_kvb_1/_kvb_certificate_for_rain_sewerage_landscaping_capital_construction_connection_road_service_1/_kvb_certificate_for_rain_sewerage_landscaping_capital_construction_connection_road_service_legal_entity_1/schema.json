@@ -80,7 +80,7 @@
   "s_emka_tekuschih_izmenenij_w_masshtabe_1_500_so_wsemi_podzemnymi_kommunikaciqmi_w_tom_chisle_s_wnow_postroennymi": {
     "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
     "description": "Файл",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks_optional"
   }
 },
   "required": [
@@ -96,6 +96,7 @@
     "topograficheskij_plan",
     "proektnaq_dokumentaciq",
     "razdel_genplan_proektnoj_dokumentacii",
-    "registry_item"
+    "registry_item",
+    "foto_tekuschego_sostoqniq"
   ]
 }
