@@ -54,7 +54,8 @@
     "contractor": {
       "type": "object",
       "required": [
-        "contractor_organization"
+        "contractor_organization",
+        "contractor_organization_phone"
       ],
       "title": "Подрядчик",
       "properties": {

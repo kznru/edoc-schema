@@ -77,7 +77,7 @@
     },
     "contractor": {
       "type": "object",
-      "required": ["contractor_organization", "contractor_organization_address"],
+      "required": ["contractor_organization", "contractor_organization_address", "contractor_organization_phone"],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {

@@ -114,7 +114,8 @@
       "type": "object",
       "required": [
         "contractor_organization",
-        "contractor_organization_address"
+        "contractor_organization_address",
+        "contractor_organization_phone"
       ],
       "title": "Подрядчик",
       "properties": {
