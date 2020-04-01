@@ -232,11 +232,11 @@
     }
   },
   {
-    "key": "build_objects_of_capital_contruction",
+    "key": "build_objects_of_capital_construction",
     "name": "Выдача разрешений на строительство, реконструкцию объектов капитального строительства",
     "passports": {
-      "build_objects_of_capital_contruction_1": "Выдача разрешений на строительство, реконструкцию объектов капитального строительства (ЮЛ, ИП)",
-      "build_objects_of_capital_contruction_natural_person_1": "Выдача разрешений на строительство, реконструкцию объектов капитального строительства для физ. лиц"
+      "build_objects_of_capital_construction_1": "Выдача разрешений на строительство, реконструкцию объектов капитального строительства (ЮЛ, ИП)",
+      "build_objects_of_capital_construction_natural_person_1": "Выдача разрешений на строительство, реконструкцию объектов капитального строительства для физ. лиц"
     }
   },
   {
