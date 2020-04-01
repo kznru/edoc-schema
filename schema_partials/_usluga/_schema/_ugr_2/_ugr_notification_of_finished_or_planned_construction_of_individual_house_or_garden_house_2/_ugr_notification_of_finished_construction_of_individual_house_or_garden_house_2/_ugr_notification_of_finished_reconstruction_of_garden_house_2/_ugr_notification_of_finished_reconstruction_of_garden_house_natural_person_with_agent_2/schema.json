@@ -1,5 +1,11 @@
 {
   "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "letter_of_attorney",
+    "applicant"
+  ],
   "properties": {
     "agent": {},
     "letter_of_attorney": {
