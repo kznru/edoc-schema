@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": ["confirm_for_not_intended_division_on_independent_real_estate"],
+  "properties": {
+    "cadastre_number": {},
+    "cadastre_number_quarter": {},
+    "address_with_map": {},
+    "developer_rights": {},
+    "availability_rights_of_other_person": {},
+    "type_of_permitted_use_of_land": {},
+    "planning_parameters": {
+      "type": "object",
+      "title": "Сведения о планируемых параметрах",
+      "required": ["building_area", "common_area"],
+      "properties": {
+        "building_area": {
+          "type": "string",
+          "title": "Площадь застройки",
+          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж), также прописать общая площадь дома с учетом всех этажей (либо мансарды)"
+        },
+        "common_area": {
+          "type": "number",
+          "title": "Общая площадь (кв.м)",
+          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
+        },
+        "above_floors_number": {
+          "type": "string",
+          "title": "Количество надземных этажей",
+          "description": "Должно быть целое число(1,2,3,..), в формате выбора только из позиций: 1; 2; 3",
+          "minItems": 1,
+          "enum": [
+            "1"
+          ]
+        },
+        "mansarda_presence": {
+          "type": "boolean",
+          "title": "Мансарда",
+          "description": "Наличие мансарды"
+        }
+      }
+    },
+    "permission_to_deviate_from_limiting_parameters": {},
+    "typical_architectural_solution_description": {},
+    "typical_architectural_solution_files": {},
+    "schematic_depiction": {},
+    "confirm_for_not_intended_division_on_independent_real_estate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Настоящим уведомлением подтверждаю, что садовый дом не предназначен для раздела на самостоятельные объекты недвижимости"
+    },
+    "attachments": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/natural_person_with_passport",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Физическое лицо",
+  "type": "object",
+  "properties": {
+    "passport": {"$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport"},
+    "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"}
+  },
+  "required": ["fio", "passport"]
+}

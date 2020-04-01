@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "cadastre_number": {},
+    "developer_rights": {},
+    "availability_rights_of_other_person": {},
+    "type_of_permitted_use_of_land": {},
+    "planning_parameters": {
+      "properties": {
+        "above_floors_number": {
+          "minItems": 1,
+          "enum": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      }
+    },
+    "schematic_depiction": {},
+    "technical_plan": {},
+    "rights_determination_agreement": {}
+  }
+}
+

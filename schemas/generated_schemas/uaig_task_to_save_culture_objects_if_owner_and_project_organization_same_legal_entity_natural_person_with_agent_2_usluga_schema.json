@@ -5,6 +5,11 @@
       "description": "Заявитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
+    "applicant_living_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес местожительства",
+      "description": "Адрес местожительства"
+    },
     "agent": {
       "title": "Представитель",
       "description": "Представитель",
@@ -14,11 +19,6 @@
       "title": "Доверенность",
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя СКАН",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
-    },
-    "agent_living_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-      "title": "Адрес местожительства",
-      "description": "Адрес местожительства"
     },
     "naimenowanie_ob_ekta_kul_turnogo_naslediq": {
       "title": "Наименование объекта культурного наследия",
@@ -105,6 +105,7 @@
   },
   "required": [
     "applicant",
+    "applicant_living_address",
     "agent",
     "dowerennost",
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",

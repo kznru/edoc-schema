@@ -1,0 +1,35 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Паспорт",
+  "type": "object",
+  "required":[
+    "passport_seria",
+    "passport_number",
+    "passport_issued_by",
+    "passport_issue_date"
+  ],
+  "properties": {
+    "passport_seria": {
+      "type": "string",
+    "pattern": "^[0-9]{4}$",
+      "title": "Серия паспорта",
+      "description": "Первые 4 цифры номера паспорта"
+    },
+    "passport_number": {
+      "type": "string",
+      "pattern": "^[0-9]{6}$",
+      "title": "Номер паспорта",
+      "description": "Последние 6 цифр номера паспорта"
+    },
+    "passport_issued_by":{
+      "type": "string",
+      "title": "Кем выдан"
+    },
+    "passport_issue_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата выдачи"
+    }
+  }
+}

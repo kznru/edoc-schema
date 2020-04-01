@@ -5,11 +5,8 @@
   "title": "Представитель",
   "type": "object",
   "properties": {
-    "passport_number": {
-      "type": "string",
-      "pattern": "^[0-9]{6}$",
-      "title": "Номер паспорта",
-      "description": "Последние 6 цифр номера паспорта"
+    "passport": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_optional"
     },
     "fio": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
