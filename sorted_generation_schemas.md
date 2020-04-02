@@ -506,10 +506,6 @@ permalink: /generated_schemas/
 
 ### Выдача разрешений на строительство, реконструкцию объектов капитального строительства {#build_objects_of_capital_construction}
 
-[Выдача разрешений на строительство, реконструкцию объектов капитального строительства (ЮЛ, ИП), версия #1](/schemas/generated_schemas/build_objects_of_capital_construction_1_usluga_schema.json)
-
-[Выдача разрешений на строительство, реконструкцию объектов капитального строительства для физ. лиц, версия #1](/schemas/generated_schemas/build_objects_of_capital_construction_natural_person_1_usluga_schema.json)
-
 -------------------------
 
 ### Выдача документа, подтверждающего проведение основных работ по строительству (реконструкции) объекта ИЖС, осуществляемому с привлечением средств материнского (семейного) капитала {#confirming_construction_work_of_individual_object_with_parent_capital}

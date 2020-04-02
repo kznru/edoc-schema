@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "employees_list": {
+      "title": "Список сотрудников",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "passport_seria": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$",
+            "title": "Серия паспорта сотрудника",
+            "description": "Первые 4 цифры номера паспорта"
+          },
+          "passport_number": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$",
+            "title": "Номер паспорта сотрудника",
+            "description": "Последние 6 цифр номера паспорта"
+          },
+          "fio": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+            "title": "ФИО сотрудника"
+          },
+          "phone": {
+            "type": "string",
+            "title": "Мобильный телефон"
+          }
+        },
+        "required": [
+          "passport_seria",
+          "passport_number",
+          "fio",
+          "phone"
+        ]
+      },
+      "minItems": 1
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "employees_list"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
