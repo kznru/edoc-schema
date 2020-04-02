@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "employees_list": {
+        "title": "Список сотрудников",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "passport_seria": {
+              "type": "string",
+              "pattern": "^[0-9]{4}$",
+              "title": "Серия паспорта сотрудника",
+              "description": "Первые 4 цифры номера паспорта"
+            },
+            "passport_number": {
+              "type": "string",
+              "pattern": "^[0-9]{6}$",
+              "title": "Номер паспорта сотрудника",
+              "description": "Последние 6 цифр номера паспорта"
+            },
+            "snils": {
+              "$ref": "http://edoc-schema.kzn.ru/identifier/ru/snils",
+              "title": "СНИЛС"
+            },
+            "birth_year": {
+              "title": "Год рождения",
+              "type": "number"
+            },
+            "fio": {
+              "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+              "title": "ФИО сотрудника"
+            },
+            "phone": {
+              "type": "string",
+              "title": "Мобильный телефон"
+            },
+            "work_address": {
+              "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+              "title": "Место работы"
+            },
+            "work_address_comment": {
+              "type": "string",
+              "title": "Описание места работы"
+            },
+            "work_schedule": {
+              "type": "string",
+              "title": "Режим работы"
+            },
+            "allowed_areas": {
+              "title": "Разрешённый район",
+              "type": "string",
+              "enum": [
+                "Весь город",
+                "Авиастроительный",
+                "Вахитовский",
+                "Кировский",
+                "Московский",
+                "Ново-Савиновский",
+                "Приволжский",
+                "Советский"
+              ]
+            }
+          },
+          "required": [
+            "passport_seria",
+            "passport_number",
+            "fio",
+            "phone",
+            "allowed_areas",
+            "snils",
+            "birth_year",
+            "work_address",
+            "work_address_comment",
+            "work_schedule"
+          ]
+        },
+        "minItems": 1
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ]
+}
