@@ -77,6 +77,9 @@
                             "damaged": { "enum": [true] },
                             "damage": {
                               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_trees"
+                            },
+                            "plant_special_features": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
                             }
                           },
                           "required": ["damage"]
@@ -129,7 +132,7 @@
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_age"
             },
             "conclusion": {
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_hedge_and_shrubs"
             },
             "denomination": {
               "type": "string",
@@ -154,8 +157,13 @@
                 "калина бульдонеж",
                 "форзиция",
                 "можжевельник",
-                "туя"
+                "туя",
+                "другое"
               ]
+            },
+            "amount":{
+              "title": "Количество",
+              "type": "number"
             }
           },
           "dependencies": {
@@ -202,7 +210,7 @@
                 },
                 {
                   "properties": {
-                    "conclusion": { "enum": [1,2,3,4,5] }                  }
+                    "conclusion": { "enum": [1,2,3,4,5,6] }                  }
                 }
               ]
             }
@@ -231,7 +239,7 @@
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_duration"
             },
             "conclusion": {
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_hedge_and_shrubs"
             }
           },
           "dependencies": {
@@ -278,7 +286,7 @@
                 },
                 {
                   "properties": {
-                    "conclusion": { "enum": [1,2,3,4,5] }
+                    "conclusion": { "enum": [1,2,3,4,5,6] }
                   }
                 }
               ]
@@ -332,9 +340,6 @@
                 {
                   "properties": {
                     "conclusion": { "enum": [0] },
-                    "plant_special_features": {
-                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
-                    },
                     "bad_life_state": {
                       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_flower_gardens"
                     },
@@ -384,7 +389,14 @@
                   "properties": {
                     "conclusion": { "enum": [0] },
                     "plant_special_features": {
-                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                      "type": "object",
+                      "title": "Особенности",
+                      "properties": {
+                        "plant_in_guard_zone": {
+                          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_in_guard_zone"
+                        }
+                      },
+                      "required": ["plant_in_guard_zone"]
                     },
                     "bad_life_state": {
                       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_lawns"
