@@ -1,0 +1,18 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "quarantine_movement_permission_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "quarantine_movement_permission_legal_entity_1"
+        },
+        {
+          "name": "quarantine_movement_permission_legal_entity_esia_1"
+        }
+      ]
+    }
+  ]
+}
+
