@@ -14,39 +14,29 @@
       "title": "Доверенность",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
     },
-    "employees_list": {
-      "title": "Список сотрудников",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "passport_seria": {
-            "type": "string",
-            "pattern": "^[0-9]{4}$",
-            "title": "Серия паспорта сотрудника"
-          },
-          "passport_number": {
-            "type": "string",
-            "pattern": "^[0-9]{6}$",
-            "title": "Номер паспорта сотрудника"
-          },
-          "fio": {
-            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-            "title": "ФИО сотрудника"
-          },
-          "phone": {
-            "type": "string",
-            "title": "Мобильный телефон"
-          }
+    "employee": {
+      "title": "Сотрудник",
+      "type": "object",
+      "properties": {
+        "passport_seria": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$",
+          "title": "Серия паспорта сотрудника"
         },
-        "required": [
-          "passport_seria",
-          "passport_number",
-          "fio",
-          "phone"
-        ]
-      },
-      "minItems": 1
+        "passport_number": {
+          "type": "string",
+          "pattern": "^[0-9]{6}$",
+          "title": "Номер паспорта сотрудника"
+        },
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО сотрудника"
+        },
+        "phone": {
+          "type": "string",
+          "title": "Мобильный телефон"
+        }
+      }
     }
   }
 }

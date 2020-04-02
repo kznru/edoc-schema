@@ -1,11 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "organization": {
-      "title": "Заявитель",
-      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
-    },
     "employees_list": {
       "title": "Список сотрудников",
       "type": "array",
@@ -31,13 +26,28 @@
           "phone": {
             "type": "string",
             "title": "Мобильный телефон"
+          },
+          "allowed_areas": {
+            "title": "Разрешённый район",
+            "type": "string",
+            "enum": [
+              "Весь город",
+              "Авиастроительный",
+              "Вахитовский",
+              "Кировский",
+              "Московский",
+              "Ново-Савиновский",
+              "Приволжский",
+              "Советский"
+            ]
           }
         },
         "required": [
           "passport_seria",
           "passport_number",
           "fio",
-          "phone"
+          "phone",
+          "allowed_areas"
         ]
       },
       "minItems": 1
@@ -45,7 +55,6 @@
 
   },
   "required": [
-    "organization",
     "employees_list"
   ]
 }
