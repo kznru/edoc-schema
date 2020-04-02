@@ -1,0 +1,40 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Ребенок",
+  "type": "object",
+  "required":[
+    "fio",
+    "birth_certificate",
+    "birthday"
+  ],
+  "properties": {
+    "fio": {
+      "title": "ФИО",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "birth_certificate": {
+      "title": "Свидетельство о рождении",
+      "type": "object",
+      "required": [
+        "number",
+        "seria"
+      ],
+      "properties":{
+        "number":{
+          "title": "Номер",
+          "type": "string"
+        },
+        "seria":{
+          "title": "Серия",
+          "type": "string"
+        }
+      }
+    },
+    "birthday":{
+      "title": "Дата рождения",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

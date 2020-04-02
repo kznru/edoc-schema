@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "agent": {},
+    "childs_for_kindergarten": {
+      "title": "Дети",
+      "description": "выберите ребенка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten"
+    },
+    "queue_in_kindergartens": {}
+  },
+  "required": [
+    "childs_for_kindergarten"
+  ],
+  "type": "object"
+}

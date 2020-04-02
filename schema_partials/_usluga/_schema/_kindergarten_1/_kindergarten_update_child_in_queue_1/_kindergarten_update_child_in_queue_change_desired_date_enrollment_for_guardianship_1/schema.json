@@ -1,0 +1,27 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {},
+  "guardianship_confirmation_documents": {
+    "title": "Документы подтверждающие право представлять интересы ребенка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+  },
+  "desired_date_enrollment":{
+    "type": "object",
+    "title": "Желаемая дата зачисления",
+    "required": ["date"],
+    "properties":{
+      "date":{
+        "title": "Дата",
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+},
+  "required": [
+    "guardianship_confirmation_documents",
+    "desired_date_enrollment"
+  ],
+  "type": "object"
+}

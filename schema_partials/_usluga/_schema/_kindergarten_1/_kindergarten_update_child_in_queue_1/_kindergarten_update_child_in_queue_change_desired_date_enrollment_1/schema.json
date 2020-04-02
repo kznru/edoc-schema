@@ -1,0 +1,22 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {},
+  "desired_date_enrollment":{
+    "type": "object",
+    "title": "Желаемая дата зачисления",
+    "required": ["date"],
+    "properties":{
+      "date":{
+        "title": "Дата",
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+},
+  "required": [
+    "desired_date_enrollment"
+  ],
+  "type": "object"
+}

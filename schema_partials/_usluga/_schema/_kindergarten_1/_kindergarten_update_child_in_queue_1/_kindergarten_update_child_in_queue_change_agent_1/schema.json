@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "registry_item": {},
+    "agent": {},
+    "foundation_documents":{
+      "title": "Документы основания",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "required":["foundation_documents"],
+  "type": "object"
+}
