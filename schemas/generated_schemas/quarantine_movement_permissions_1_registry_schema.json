@@ -45,6 +45,11 @@
           "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
           "title": "Место работы"
         },
+        "route": {
+          "title": "Маршрут движения",
+          "description": "Если работа связана с перевозками",
+          "type": "string"
+        },
         "work_address_comment": {
           "type": "string",
           "title": "Описание места работы"
