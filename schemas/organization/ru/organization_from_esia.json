@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/organization/ru/organization",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+  "type": "object",
+  "required": ["ogrn"],
+  "properties": {
+    "name": { "type": "string", "title": "Название" },
+    "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" }
+  }
+}

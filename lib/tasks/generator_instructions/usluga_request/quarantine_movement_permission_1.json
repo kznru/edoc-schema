@@ -6,13 +6,16 @@
       "virtual": true,
       "keys": [
         {
-          "name": "quarantine_movement_permission_legal_entity_1"
-        },
-        {
-          "name": "quarantine_movement_permission_legal_entity_v2_1"
-        },
-        {
-          "name": "quarantine_movement_permission_legal_entity_esia_1"
+          "name": "without_person_data",
+          "virtual": true,
+          "keys":[
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_1"
+            },
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_1"
+            }
+          ]
         }
       ]
     }
