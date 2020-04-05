@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "employees_list_file":{
+      "title": "Список сотрудников",
+      "accept": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "description": "В формате xlsx",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "covering_letter":{
+      "title": "Сопроводительное письмо",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "required": [
+    "agent",
+    "organization",
+    "employees_list_file",
+    "covering_letter"
+  ]
+}

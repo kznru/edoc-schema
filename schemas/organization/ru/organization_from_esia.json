@@ -6,6 +6,6 @@
   "required": ["ogrn"],
   "properties": {
     "name": { "type": "string", "title": "Название" },
-    "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" }
+    "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn", "title": "ОГРН" }
   }
 }
