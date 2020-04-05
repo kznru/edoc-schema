@@ -19,6 +19,23 @@
               "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_1"
             }
           ]
+        },
+        {
+          "name": "quarantine_movement_permission_legal_entity_v2_1",
+          "keys": [
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_avia_novosav_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_kir_mos_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_sov_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_vahit_privol_1"
+            }
+          ]
         }
       ]
     }
