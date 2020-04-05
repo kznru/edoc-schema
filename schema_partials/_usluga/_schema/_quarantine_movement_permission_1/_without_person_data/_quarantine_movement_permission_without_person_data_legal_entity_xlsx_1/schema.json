@@ -9,7 +9,7 @@
     "agent": {
       "title": "Представитель",
       "description": "Представитель",
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
     },
     "employees_list_file":{
       "title": "Список сотрудников",
@@ -23,7 +23,6 @@
     }
   },
   "required": [
-    "agent",
     "organization",
     "employees_list_file",
     "covering_letter"
