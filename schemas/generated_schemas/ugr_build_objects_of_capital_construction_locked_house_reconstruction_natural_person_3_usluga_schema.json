@@ -43,7 +43,7 @@
     "engineering_survey": {
       "title": "Инженерные изыскания",
       "description": "Инженерные изыскания",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey_optional"
     },
     "dokument_ob_utwerzhdenii_zastrojschikom_proektnoj_dokumentacii": {
       "title": "Документ об утверждении застройщиком проектной документации",

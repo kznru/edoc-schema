@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey",
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/engineering_survey_optional",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Инженерные изыскания",
   "type": "object",
@@ -11,7 +11,7 @@
       "description": "Цветной отсканированный отчет об инженерно-геологических изысканиях в формате PDF"
     },
     "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
       "title": "Организация, подготовивший документ",
       "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую"
     },
