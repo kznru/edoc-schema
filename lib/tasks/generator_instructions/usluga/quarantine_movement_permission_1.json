@@ -59,6 +59,23 @@
                   "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_kzn_admin_vahit_privol_1"
                 }
               ]
+            },
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_1",
+              "keys": [
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_avia_novosav_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_kir_mos_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_sov_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_vahit_privol_1"
+                }
+              ]
             }
           ]
         },
