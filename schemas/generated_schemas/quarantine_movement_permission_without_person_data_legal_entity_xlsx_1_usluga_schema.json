@@ -21,6 +21,10 @@
       "title": "Сопроводительное письмо",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
+    "agreement_default_about_covid_site": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я обязуюсь уведомить всех перечисленных сотрудников, что они должны зарегистрироваться через https://covid19.tatarstan.ru/"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -33,7 +37,8 @@
   "required": [
     "organization",
     "employees_list_file",
-    "covering_letter"
+    "covering_letter",
+    "agreement_default_about_covid_site"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

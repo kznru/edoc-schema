@@ -26,6 +26,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
       "title": "Я предупреждён, что за предоставление в систему данных о лицах, не являющихся работниками предприятия, учреждения, организации, или о лицах, чье нахождение на рабочем месте (передвижение по маршрутам перевозки) не является критически важным в соответствии с законодательством Российской Федерации, в зависимости от тяжести последствий, установлена административная и уголовная ответственность по ст. 6.3. и ст.20.6-1 КоАП РФ и ст.236 УК РФ."
     },
+    "agreement_default_about_covid_site": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я обязуюсь уведомить всех перечисленных сотрудников, что они должны зарегистрироваться через https://covid19.tatarstan.ru/"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -40,7 +44,8 @@
     "agent",
     "employees_list_file",
     "work_reason",
-    "agreement_default"
+    "agreement_default",
+    "agreement_default_about_covid_site"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

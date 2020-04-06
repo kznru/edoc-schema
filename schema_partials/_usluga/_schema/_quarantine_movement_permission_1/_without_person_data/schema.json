@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "agreement_default_about_covid_site": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я обязуюсь уведомить всех перечисленных сотрудников, что они должны зарегистрироваться через https://covid19.tatarstan.ru/"
+    }
+  },
+  "required": [
+    "agreement_default_about_covid_site"
+  ]
+}
