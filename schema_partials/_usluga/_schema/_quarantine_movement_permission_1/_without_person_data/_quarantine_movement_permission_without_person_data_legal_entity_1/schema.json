@@ -42,6 +42,14 @@
       },
       "minItems": 1
     },
+    "work_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес места работы"
+    },
+    "covering_letter":{
+      "title": "Сопроводительное письмо",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
     "work_reason": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
        "description": "Необходимо указать подробный список причин",
@@ -54,10 +62,12 @@
   },
   "required": [
     "organization",
+    "work_address",
     "agent",
     "letter_of_attorney",
     "employees_list",
     "work_reason",
-    "agreement_default"
+    "agreement_default",
+    "covering_letter"
   ]
 }

@@ -37,6 +37,10 @@
       },
       "minItems": 1
     },
+    "work_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес места работы"
+    },
     "work_reason": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
        "description": "Необходимо указать подробный список причин",
@@ -49,6 +53,7 @@
   },
   "required": [
     "organization",
+    "work_address",
     "agent",
     "employees_list",
     "work_reason",

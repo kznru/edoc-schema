@@ -11,15 +11,33 @@
       "description": "Представитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
     },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
     "employees_list_file": {
       "title": "Список сотрудников",
       "accept": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "description": "В формате xlsx",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
+    "work_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес места работы"
+    },
     "covering_letter": {
       "title": "Сопроводительное письмо",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "work_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "description": "Необходимо указать подробный список причин",
+      "title": "Причина, по которой деятельность организации НЕ приостановлена в соответствии с постановлением Кабинета Министров Республики Татарстан от 30.03.2020 №234."
+    },
+    "agreement_default": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я предупреждён, что за предоставление в систему данных о лицах, не являющихся работниками предприятия, учреждения, организации, или о лицах, чье нахождение на рабочем месте (передвижение по маршрутам перевозки) не является критически важным в соответствии с законодательством Российской Федерации, в зависимости от тяжести последствий, установлена административная и уголовная ответственность по ст. 6.3. и ст.20.6-1 КоАП РФ и ст.236 УК РФ."
     },
     "agreement_default_about_covid_site": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
@@ -37,6 +55,7 @@
   "required": [
     "organization",
     "employees_list_file",
+    "work_address",
     "covering_letter",
     "agreement_default_about_covid_site"
   ],
