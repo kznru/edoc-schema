@@ -30,8 +30,8 @@
       "title": "Сопроводительное письмо",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
     },
-    "work_reason": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+    "work_reason_by_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_reason",
       "description": "Необходимо указать подробный список причин",
       "title": "Причина, по которой деятельность организации НЕ приостановлена в соответствии с постановлением Кабинета Министров Республики Татарстан от 30.03.2020 №234."
     },
@@ -55,7 +55,7 @@
   "required": [
     "organization",
     "employees_list_file",
-    "work_address",
+    "work_reason_by_organization",
     "covering_letter",
     "agreement_default_about_covid_site"
   ],
