@@ -44,7 +44,7 @@
     },
     "work_address": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-      "title": "Адрес места работы"
+      "title": "Адрес места работы или ближайший адрес"
     },
     "covering_letter": {
       "title": "Сопроводительное письмо",
