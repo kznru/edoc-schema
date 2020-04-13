@@ -1,22 +1,22 @@
 {
   "type": "object",
   "properties": {
-    "types_of_permitted_use_of_land": {
+    "types_of_permitted_use_of_land":{
       "title": "Вид разрешенного использования",
       "description": "указывается согласно сведениям ЕГРН",
       "type": "string"
     },
-    "address_from_egrn": {
+    "address_from_egrn":{
       "title": "Адрес",
       "description": "указывается согласно сведениям ЕГРН",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
-    "snt": {
+    "snt":{
       "title": "Правообладатель",
       "description": "указывается наименование садоводческого объединения согласно сведениям ЕГРН",
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     },
-    "extract_from_protocol": {
+    "extract_from_protocol":{
       "type": "object",
       "title": "Выписка из протокола",
       "required": [
@@ -27,59 +27,44 @@
         "issued_number",
         "title_document"
       ],
-      "properties": {
-        "meeting_of_members": {
+      "properties":{
+        "meeting_of_members":{
           "title": "Общего собрания членов",
           "type": "string"
         },
-        "from": {
+        "from":{
           "title": "От",
           "type": "string",
           "format": "date"
         },
-        "number": {
+        "number":{
           "title": "Номер",
           "type": "string"
         },
-        "issued_by": {
+        "issued_by":{
           "title": "Выданная",
           "type": "string"
         },
-        "issued_number": {
+        "issued_number":{
           "title": "За номером",
           "type": "string"
         },
-        "title_document": {
+        "title_document":{
           "title": "Правоустанавливающие документы",
           "type": "string"
         }
       }
     },
-    "responsible": {
+    "responsible":{
       "title": "ФИО ответственного",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
     },
-    "head_person": {
+    "head_person":{
       "title": "Руководитель",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
-    },
-    "response_text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
-    },
-    "response_files": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Файлы для заявителя"
-    },
-    "comments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
-      "title": "Комментарии"
-    },
-    "attachments": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
-      "title": "Дополнительные приложения"
     }
   },
-  "required": [
+  "required":[
     "types_of_permitted_use_of_land",
     "address_from_egrn",
     "snt",
