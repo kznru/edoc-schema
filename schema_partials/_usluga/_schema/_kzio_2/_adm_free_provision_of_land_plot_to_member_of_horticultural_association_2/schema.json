@@ -1,5 +1,9 @@
 {
   "properties": {
+  "borders_schema": {
+    "title": "Схема расположения земельного участка на кадастровом плане территории",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+  },
   "agreement_default": {
     "title": "Согласен на обработку персональных данных с соблюдением требований Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных».",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
