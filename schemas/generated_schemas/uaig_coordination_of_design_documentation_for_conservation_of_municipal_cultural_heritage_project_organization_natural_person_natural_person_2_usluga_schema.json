@@ -68,6 +68,10 @@
       "description": "Государственная историко-культурная экспертиза в электронном виде, подписанная усиленной квалифицированной электронной подписью. К заключению ГИК-экспертизы прилагаются: а) электронно-цифровая подпись экспертов при предоставлении документов посредством электронно-цифровых носителей; б) приложения, указанные в заключении экспертизы; в) копии протоколов заседаний экспертной комиссии (если имеются); г) документы, представленные заказчиком экспертизы",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
+    "agreement_default": {
+      "title": "Я уведомлен, что должен представить подлинник проектной документации на проведение работ по сохранению объекта культурного наследия в прошитом и пронумерованном виде в 2 (двух) экземплярах на бумажном носителе в отдел охраны памятников архитектуры и культурного наследия по г.Казани Управления архитектуры и градостроительства Исполнительного комитета г.Казани по адресу: РТ, г.Казань, ул.Груздева, 5, каб.201",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
+    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
@@ -91,7 +95,8 @@
     "nomer_dokumenta",
     "data_dokumenta",
     "akt_opredeleniq_wliqniq_predpolagaemyh_k_prowedeni_widow_rabot_na_konstruktiwnye_i_drugie_harakteristiki_nadezhnosti_i_bezopasnosti_ob_ekta_kul_turnogo_naslediq",
-    "polozhitel_noe_zakl_chenie_akta_gik_xpertizy_za_iskl_cheniem_sluchaew_kogda_zakazchikom_gik_xpertizy_qwlqetsq_uprawlenie__sostawlennoe_attestowannymi_ministerstwom_kul_tury_rossijskoj_federacii_gosudarstwennymi_istoriko_kul_turnymi_xpertami"
+    "polozhitel_noe_zakl_chenie_akta_gik_xpertizy_za_iskl_cheniem_sluchaew_kogda_zakazchikom_gik_xpertizy_qwlqetsq_uprawlenie__sostawlennoe_attestowannymi_ministerstwom_kul_tury_rossijskoj_federacii_gosudarstwennymi_istoriko_kul_turnymi_xpertami",
+    "agreement_default"
   ],
   "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
