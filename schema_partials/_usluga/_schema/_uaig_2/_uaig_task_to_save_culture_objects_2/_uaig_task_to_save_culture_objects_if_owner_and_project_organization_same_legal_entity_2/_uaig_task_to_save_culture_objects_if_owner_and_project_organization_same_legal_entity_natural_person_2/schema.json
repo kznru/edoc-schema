@@ -20,6 +20,10 @@
     "description": "Адрес местонахождения",
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
   },
+  "work_description": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+    "title": "Наименование работ"
+  },
   "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
     "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
     "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
@@ -89,7 +93,8 @@
     "agent",
     "applicant_living_address",
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",
-    "address"
+    "address",
+    "work_description"
   ],
   "type": "object"
 }

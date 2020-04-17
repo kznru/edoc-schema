@@ -30,6 +30,10 @@
       "description": "Адрес местонахождения",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
     },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "title": "Наименование работ"
+    },
     "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq": {
       "title": "Сведения о собственнике (пользователе) объекта культурного наследия",
       "description": "Сведения о собственнике (пользователе) объекта культурного наследия",
@@ -131,6 +135,7 @@
     "dowerennost",
     "naimenowanie_ob_ekta_kul_turnogo_naslediq",
     "address",
+    "work_description",
     "swedeniq_o_sobstwennike_pol_zowatele_ob_ekta_kul_turnogo_naslediq"
   ],
   "type": "object",
