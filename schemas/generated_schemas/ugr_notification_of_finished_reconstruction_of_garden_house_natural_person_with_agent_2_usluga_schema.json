@@ -5,6 +5,7 @@
     "registration_address",
     "letter_of_attorney",
     "applicant",
+    "contact_mailing_address",
     "developer_rights",
     "availability_rights_of_other_person",
     "state_duty_payment",
@@ -34,6 +35,15 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Место жительства",
       "description": "Адрес проживания, указывается адрес по регистрации"
+    },
+    "contact_mailing_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Почтовый адрес для связи"
+    },
+    "contact_email": {
+      "type": "string",
+      "format": "email",
+      "title": "Адрес электронной почты для связи"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",

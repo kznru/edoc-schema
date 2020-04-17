@@ -2,7 +2,8 @@
   "type": "object",
   "required": [
     "agent",
-    "registration_address"
+    "registration_address",
+    "contact_mailing_address"
   ],
   "properties": {
     "agent": {
@@ -14,6 +15,15 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Место жительства",
       "description": "Адрес проживания"
+    },
+    "contact_mailing_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Почтовый адрес для связи"
+    },
+    "contact_email": {
+      "type": "string",
+      "format": "email",
+      "title": "Адрес электронной почты для связи"
     }
   }
 }
