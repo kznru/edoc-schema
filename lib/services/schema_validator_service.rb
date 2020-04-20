@@ -10,16 +10,18 @@ class SchemaValidatorService
 
   def call
     validate_dir(schemas_path)
+    validate_dir(schema_partials_path)
   end
 
   private
 
-  attr_reader :schemas_path, :json_schemer, :temporary_except_files, :root_path
+  attr_reader :schemas_path, :json_schemer, :temporary_except_files, :root_path, :schema_partials_path
 
   def initialize
     @root_path = File.absolute_path(File.dirname(__FILE__) + '/../../')
     validation_schema_path = Pathname.new([root_path, 'validation_schema.json'].join('/'))
     @schemas_path = Pathname.new([root_path, 'schemas'].join('/'))
+    @schema_partials_path = Pathname.new([root_path, 'schema_partials'].join('/'))
     @json_schemer = JSONSchemer.schema(validation_schema_path)
   end
 
@@ -36,21 +38,27 @@ class SchemaValidatorService
   def validate_file(file)
     return if temporary_except_files.include?(file)
     data = JSON.parse(File.read(file))
-    unless @json_schemer.valid?(data)
-      puts "\nErrors in #{file}"
-      puts @json_schemer.validate(data).map{|dd|
-        [
-          "\t",
+
+    if file.to_s.include?("schema_partials")
+      check_object_fields(data, file)
+    else
+      unless @json_schemer.valid?(data)
+        puts "\nErrors in #{file}"
+        puts @json_schemer.validate(data).map{|dd|
           [
-            "pointer = #{dd.dig('data_pointer')}",
-            "type = #{dd.dig('type')}",
-            "details = #{dd.dig('details')}"
-          ].compact.join(', ')
-        ].compact.join('')
-      }
+            "\t",
+            [
+              "pointer = #{dd.dig('data_pointer')}",
+              "type = #{dd.dig('type')}",
+              "details = #{dd.dig('details')}"
+            ].compact.join(', ')
+          ].compact.join('')
+        }
+      end
+
+      check_required_validity(data, file)
+      check_required_for_scanned_document(data, file)
     end
-    check_required_validity(data, file)
-    check_required_for_scanned_document(data, file)
   end
 
   def temporary_except_files
@@ -85,5 +93,13 @@ class SchemaValidatorService
     need_required = should_require - required
 
     puts "\nNot required scanned_document in #{file}: #{need_required}" unless need_required.empty?
+  end
+
+  def check_object_fields(data, file)
+    required = data['required'] || []
+    properties = data['properties'] || []
+    properties.each do |field_key, value|
+      puts "\nField #{field_key} with type object (need fo definitions) in file #{file}" if value['type'] == "object"
+    end
   end
 end
