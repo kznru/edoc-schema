@@ -4,6 +4,7 @@
   "required": ["result_delivery_method"],
   "properties": {
     "result_delivery_method": {
+      "title": "Способ и данные для получения результата услуги (желательно использовать электронную почту)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
     }
   }

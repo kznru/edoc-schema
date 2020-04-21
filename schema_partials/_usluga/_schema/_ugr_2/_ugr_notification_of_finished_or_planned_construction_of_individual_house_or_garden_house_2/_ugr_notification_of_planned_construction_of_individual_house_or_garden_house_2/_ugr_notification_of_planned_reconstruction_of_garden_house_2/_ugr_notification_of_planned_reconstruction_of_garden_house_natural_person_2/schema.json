@@ -1,5 +1,9 @@
 {
   "type": "object",
+  "required": [
+    "agent",
+    "registration_address"
+  ],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",

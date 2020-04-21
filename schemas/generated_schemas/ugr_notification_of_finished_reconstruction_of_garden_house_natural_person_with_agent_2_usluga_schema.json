@@ -1,5 +1,22 @@
 {
   "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "letter_of_attorney",
+    "applicant",
+    "contact_mailing_address",
+    "developer_rights",
+    "availability_rights_of_other_person",
+    "state_duty_payment",
+    "address_with_map",
+    "cadastre_number",
+    "type_of_permitted_use_of_land",
+    "schematic_depiction",
+    "technical_plan",
+    "rights_determination_agreement",
+    "result_delivery_method"
+  ],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
@@ -18,6 +35,15 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
       "title": "Место жительства",
       "description": "Адрес проживания, указывается адрес по регистрации"
+    },
+    "contact_mailing_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Почтовый адрес для связи"
+    },
+    "contact_email": {
+      "type": "string",
+      "format": "email",
+      "title": "Адрес электронной почты для связи"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
@@ -153,14 +179,15 @@
       }
     },
     "confirm_that_will_not_separate": {
-      "type": "boolean",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
       "title": "Подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
     },
     "confirm_that_conforms_city_rules": {
-      "type": "boolean",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
       "title": "Подтверждаю, что объект индивидуального жилищного строительства соответствует Градостроительному уставу г.Казани, утвержденному решением Казанского Совета народных депутатов от 26.06.1998 №2-12; местным нормативам градостроительного проектирования городского округа Казань, утвержденным решением Казанской городской Думы от 14.12.2016 №8-12, требованиям технических регламентов (норм и правил)"
     },
     "result_delivery_method": {
+      "title": "Способ и данные для получения результата услуги (желательно использовать электронную почту)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
     },
     "attachments": {
@@ -172,11 +199,5 @@
       "title": "Комментарии"
     }
   },
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "required": [
-    "developer_rights",
-    "availability_rights_of_other_person",
-    "state_duty_payment",
-    "result_delivery_method"
-  ]
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }

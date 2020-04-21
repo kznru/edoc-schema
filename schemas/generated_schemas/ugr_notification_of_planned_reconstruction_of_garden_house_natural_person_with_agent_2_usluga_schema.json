@@ -1,5 +1,20 @@
 {
   "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "letter_of_attorney",
+    "applicant",
+    "confirm_for_not_intended_division_on_independent_real_estate",
+    "cadastre_number",
+    "cadastre_number_quarter",
+    "address_with_map",
+    "developer_rights",
+    "availability_rights_of_other_person",
+    "type_of_permitted_use_of_land",
+    "schematic_depiction",
+    "result_delivery_method"
+  ],
   "properties": {
     "agent": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
@@ -151,6 +166,7 @@
       "description": "Согласование с КАПО им.Горбунова, КВЗ, Средволгаводхоз, Электросетевая организация и т.д."
     },
     "result_delivery_method": {
+      "title": "Способ и данные для получения результата услуги (желательно использовать электронную почту)",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
     },
     "comments": {
@@ -158,16 +174,5 @@
       "title": "Комментарии"
     }
   },
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "required": [
-    "confirm_for_not_intended_division_on_independent_real_estate",
-    "cadastre_number",
-    "cadastre_number_quarter",
-    "address_with_map",
-    "developer_rights",
-    "availability_rights_of_other_person",
-    "type_of_permitted_use_of_land",
-    "schematic_depiction",
-    "result_delivery_method"
-  ]
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }
