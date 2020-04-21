@@ -49,6 +49,51 @@
         ]
       }
     },
+    "documents_incorrect": {
+      "title": "Некорректные документы",
+      "type": "object",
+      "properties": {
+        "agreement": {
+          "title": "Соглашение",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "неверно указана площадь",
+              "не прописаны доли",
+              "отсутствует подписи сторон"
+            ]
+          }
+        },
+        "technical_plan": {
+          "title": "Технический план",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "в исходных данных неверно указано уведомление о начале",
+              "в характеристиках здания неверно указан кад.номер земельного участка",
+              "в характеристиках здания неверно указано количество этажей здания",
+              "ошибки в Заключение кадастрового инженера (не верно указан  кад.номер, номер уведомления, адрес и т.п.)"
+            ]
+          }
+        },
+        "letter_of_attorney": {
+          "title": "Доверенность",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "просрочена доверенность",
+              "доверенность выдана не тому лицу"
+            ]
+          }
+        }
+      }
+    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },

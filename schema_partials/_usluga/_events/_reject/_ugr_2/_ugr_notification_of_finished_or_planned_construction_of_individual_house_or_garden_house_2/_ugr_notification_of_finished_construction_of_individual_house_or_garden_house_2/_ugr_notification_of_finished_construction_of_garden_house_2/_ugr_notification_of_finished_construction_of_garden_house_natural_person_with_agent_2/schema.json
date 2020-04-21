@@ -1,6 +1,7 @@
 {
   "type": "object",
   "properties": {
+    "reject_reasons": {},
     "documents_missed": {
       "title": "Отсутствие документов",
       "type": "array",
