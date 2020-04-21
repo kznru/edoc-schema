@@ -40,7 +40,7 @@ class SchemaValidatorService
     data = JSON.parse(File.read(file))
 
     if file.to_s.include?("schema_partials")
-      check_object_fields(data, file)
+      check_refs_in_fields(data, file)
     else
       unless @json_schemer.valid?(data)
         puts "\nErrors in #{file}"
@@ -95,11 +95,19 @@ class SchemaValidatorService
     puts "\nNot required scanned_document in #{file}: #{need_required}" unless need_required.empty?
   end
 
-  def check_object_fields(data, file)
+  def check_refs_in_fields(data, file)
     required = data['required'] || []
     properties = data['properties'] || []
-    properties.each do |field_key, value|
-      puts "\nField #{field_key} with type object (need fo definitions) in file #{file}" if value['type'] == "object"
+    errors = properties.map do |field_key, value|
+      keys = value.keys
+      field_key if keys.any? && !keys.include?("$ref")
+    end
+
+    if errors.compact.any?
+      puts "\nWARNING in file #{file}"
+      errors.compact.each do |field_key|
+        puts "Field #{field_key} without refs (need use definitions)"
+      end
     end
   end
 end
