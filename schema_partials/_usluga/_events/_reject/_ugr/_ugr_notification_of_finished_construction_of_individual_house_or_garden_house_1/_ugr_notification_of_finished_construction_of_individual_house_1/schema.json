@@ -1,6 +1,7 @@
 {
   "type": "object",
   "properties": {
+    "reject_reasons": {},
     "information_missed": {
       "title": "Отсутствие сведений",
       "type": "array",

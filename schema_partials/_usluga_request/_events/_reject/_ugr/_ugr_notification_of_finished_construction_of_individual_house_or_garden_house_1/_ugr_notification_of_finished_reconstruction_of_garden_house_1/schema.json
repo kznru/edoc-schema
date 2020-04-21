@@ -4,7 +4,6 @@
     "information_missed": {
       "title": "Отсутствие сведений",
       "type": "array",
-      "minItems": 1,
       "items": {
         "type": "string",
         "enum": [
