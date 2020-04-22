@@ -52,7 +52,7 @@
       "description": "с указанием материалов, типов, размеров"
     },
     "visualization_project_proposal": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Визуализация (или фотомонтаж) проектного предложения",
       "accept": "image/jpeg",
       "description": "трехмерное изображение или развертки по улице (садов, парков, скверов, бульваров)"
