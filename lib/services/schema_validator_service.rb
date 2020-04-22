@@ -26,11 +26,13 @@ class SchemaValidatorService
   end
 
   def validate_dir(dir)
-    dir.children.select do |child|
-      if child.file?
-        validate_file(child) if child.extname == '.json'
-      else
-        validate_dir(child)
+    unless notbuild_folder?(dir)
+      dir.children.select do |child|
+        if child.file?
+          validate_file(child) if child.extname == '.json'
+        else
+          validate_dir(child)
+        end
       end
     end
   end
@@ -109,5 +111,10 @@ class SchemaValidatorService
         puts "Field #{field_key} without refs (need use definitions)"
       end
     end
+  end
+
+  def notbuild_folder?(dir)
+    build_file = Pathname.new([dir,'.notbuild'].join('/'))
+    build_file.exist?
   end
 end
