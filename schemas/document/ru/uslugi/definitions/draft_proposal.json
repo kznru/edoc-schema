@@ -1,0 +1,82 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/draft_proposal",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Эскизное предложение для архитектурно-градостроительного облика",
+  "description": "Состав эскизного предложения определен постановлением ИК от 30.07.2008 №4157 (  с учетом изменений от от 28.07.2011 N 4074. Каждый лист должен быть поименован",
+  "properties": {
+    "content": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Содержание эскизного предложения"
+    },
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Пояснительная записка",
+      "description": "технико-экономические показатели, описание существующей градостроительной ситуации, существующего баланса территории, вида использования территории, итогов проведенного ландшафтно-архитектурного анализа, инвентаризации средств озеленения, краткое описание объемно-планировочных решений, используемых материалов, технологий, средств благоустройства и элементов озеленения, соответствие МНГП, план мероприятий по обеспечению доступа МГН и т.д."
+    },
+    "situational_plan":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Ситуационный план",
+      "description": "Схема размещения объекта в городе"
+    },
+    "photofixation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация существующего состояния территории и ее окружения"
+    },
+    "territory_analysis": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Анализ территории",
+      "description": "описание существующей градостроительной ситуации, существующего баланса территории, вида использования территории, итогов проведенного ландшафтно-архитектурного анализа, инвентаризации средств озеленения"
+    },
+    "genplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Генплан",
+      "description": "в М 1:500 (в цвете), с отображением границ земельного участка (предоставленного и/или проектируемого), красных линий с обозначением: существующих и проектируемых насаждений, типа посадок (деревья, кустарники, цветочные и травянистые), типа открытых пространств (газон, дорожно-тропиночная сеть с площадками, водоем), объектов благоустройства, входов, с указанием экспликации, условных обозначений, баланса территории (к чертежу может быть приложена схема функционального зонирования территории, поперечные профили характерных участков, проектируемые перспективы). Для эскизных предложений благоустройства дворовой территории необходимо указывать размещение социально - бытовых площадок, парковок, ограждающих элементов. Выполняется на территорию в радиусе не менее 50 метров от границ земельного участка"
+    },
+    "dendroplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "Дендроплан",
+      "accept": "image/jpeg",
+      "description": "(в цвете) в М 1:200, включая инвентаризацию зеленых насаждений, организацию парковок с обозначением используемых материалов и изделий, ассортимента средств озеленения и применяемых элементов благоустройства, малых архитектурных форм"
+    },
+    "solid_plan_small_architectural_forms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "План твердых и малых архитектурных форм",
+      "accept": "image/jpeg",
+      "description": "отображаются здания, строения, сооружения, дорожно-тропиночная сеть (с учетом мероприятий по обеспечению доступа маломобильных групп населения), площадки, объекты благоустройства (в т.ч. световое оборудование), указываются размеры и типы дорожных покрытий с иллюстративным материалом и объектов благоустройства"
+    },
+    "graphic_materials_of_beautification_elements": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "Графические материалы элементов благоустройства",
+      "accept": "image/jpeg",
+      "description": "с указанием материалов, типов, размеров"
+    },
+    "visualization_project_proposal": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "Визуализация (или фотомонтаж) проектного предложения",
+      "accept": "image/jpeg",
+      "description": "трехмерное изображение или развертки по улице (садов, парков, скверов, бульваров)"
+    },
+    "night_lightning_concept": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Концепция ночного освещения",
+      "description": "с описанием технических характеристик (для парков, скверов, бульваров)"
+    },
+    "advertising_placement_concept": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Концепция рационального и эффективного размещения средств наружной рекламы и информации",
+      "description": "при необходимости"
+    }
+  },
+  "required": [
+    "content",
+    "explanatory_note",
+    "situational_plan",
+    "photofixation",
+    "territory_analysis",
+    "genplan",
+    "dendroplan",
+    "solid_plan_small_architectural_forms",
+    "graphic_materials_of_beautification_elements"
+  ]
+}
