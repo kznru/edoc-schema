@@ -101,7 +101,7 @@ class SchemaValidatorService
     required = data['required'] || []
     properties = data['properties'] || []
     errors = properties.map do |field_key, value|
-      keys = value.keys
+      keys = value.keys - ['title', 'description']
       field_key if keys.any? && !keys.include?("$ref")
     end
 
