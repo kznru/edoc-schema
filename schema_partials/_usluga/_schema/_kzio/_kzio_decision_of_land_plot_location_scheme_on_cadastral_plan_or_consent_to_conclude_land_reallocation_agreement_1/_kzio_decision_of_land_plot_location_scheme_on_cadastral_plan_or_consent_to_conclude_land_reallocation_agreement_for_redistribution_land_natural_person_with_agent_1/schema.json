@@ -31,29 +31,7 @@
   },
   "borders_schemas": {
     "title": "Схема расположения земельного участка на кадастровом плане территории",
-    "type": "object",
-    "required":[
-      "format_xml",
-      "format_html",
-      "format_pdf"
-    ],
-    "properties":{
-      "format_xml": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-        "accept": "application/xml, text/xml",
-        "title": "Формат XML"
-      },
-      "format_html": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-        "accept": "text/html",
-        "title": "Формат HTML"
-      },
-      "format_pdf": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-        "accept": "application/pdf",
-        "title": "Формат PDF"
-      }
-    }
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/borders_schemas"
   }
 },
   "required": [
