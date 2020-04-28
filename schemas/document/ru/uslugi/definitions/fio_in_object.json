@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_in_object",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "ФИО"
+    }
+  }
+}

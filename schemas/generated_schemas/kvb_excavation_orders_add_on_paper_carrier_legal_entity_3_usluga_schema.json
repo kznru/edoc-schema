@@ -13,7 +13,7 @@
       "description": "Полное наименование организации - заказчика работ по договору"
     },
     "organization_phone": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Телефон организации-заявителя"
     },
     "agent": {
@@ -35,12 +35,8 @@
       "title": "Уточнение адреса или места проведения работ"
     },
     "extra_addresses": {
-      "type": "array",
       "title": "Дополнительные адреса",
-      "minItems": 0,
-      "items": {
-        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
-      }
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/addresses"
     },
     "objects_of_work": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
@@ -50,80 +46,33 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "begin_date": {
-      "type": "string",
-      "format": "date",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
       "title": "Дата начала работ"
     },
     "end_date": {
-      "type": "string",
-      "format": "date",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
       "title": "Дата окончания работ"
     },
     "area_of_damage_to_road": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Площадь повреждения дорожного покрытия (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_sidewalk": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Площадь повреждения тротуара (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_lawn": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Площадь повреждения газона (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "contractor": {
-      "type": "object",
-      "required": [
-        "contractor_organization",
-        "contractor_organization_phone"
-      ],
-      "title": "Подрядчик",
-      "properties": {
-        "contractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-          "title": "Организация подрядчика"
-        },
-        "contractor_organization_phone": {
-          "type": "string",
-          "title": "Телефон организации-подрядчика"
-        },
-        "contractor_responsible": {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
-          },
-          "title": "Ответственный производитель работ со стороны подрядчика"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/contractor"
     },
     "subcontractor": {
-      "type": "object",
-      "required": [
-        "subcontractor_organization"
-      ],
-      "title": "Субподрядчик",
-      "properties": {
-        "subcontractor_organization": {
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
-          "title": "Организация субподрядчика"
-        },
-        "subcontractor_organization_phone": {
-          "type": "string",
-          "title": "Телефон организации-субподрядчика"
-        },
-        "subcontractor_responsible": {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
-          },
-          "title": "Ответственный производитель работ со стороны субподрядчика"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/subcontractor"
     },
     "images_before": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",

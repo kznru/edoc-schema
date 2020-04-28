@@ -17,24 +17,12 @@
       "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "end_date": {
-      "type": "string",
-      "format": "date",
       "title": "Дата окончания работ",
-      "description": "Укажите новую дату окончания работ"
+      "description": "Укажите новую дату окончания работ",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
     },
     "explanation_reason": {
-      "type": "object",
-      "title": "Причина продления",
-      "properties": {
-        "files": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Письмо с объяснением причин продления сроков ордера"
-        },
-        "reason": {
-          "title": "Объяснение причины",
-          "type": "string"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanation_reason"
     },
     "operating_schedule": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
