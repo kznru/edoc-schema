@@ -6,7 +6,7 @@
     },
     "agent": {
       "title": "Представитель",
-      "description": "Представитель юридеческого лица",
+      "description": "Представитель юридического лица",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "organization": {

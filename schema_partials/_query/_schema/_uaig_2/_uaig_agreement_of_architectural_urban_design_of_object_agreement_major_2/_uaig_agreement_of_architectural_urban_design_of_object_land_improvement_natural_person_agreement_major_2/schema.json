@@ -1,15 +1,15 @@
 {
   "properties": {
-    "organization": {
+    "applicant": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
     },
     "agent": {
       "title": "Представитель",
-      "description": "Представитель юридеческого лица",
+      "description": "Представитель юридического лица",
       "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
-    "proektnaq_organizaciq": {
+    "organization": {
       "title": "Проектная организация",
       "description": "разработчик эскизного предложения",
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
@@ -26,12 +26,7 @@
     "vid_planiruemyh_rabot": {
       "title": "Вид планируемых работ",
       "description": "Информация о строительных намерениях",
-      "type": "string",
-      "enum": [
-        "Благоустройство территории",
-        "Благоустройство территории с установкой ограждения"
-      ],
-      "minItems": 1
+      "type": "string"
     },
     "jeskiznoe_predlozhenie": {
       "title": "Эскизное предложение",
@@ -50,9 +45,9 @@
     }
   },
   "required": [
-    "organization",
+    "applicant",
     "agent",
-    "proektnaq_organizaciq",
+    "organization",
     "dokument_podtwerzhda_schij_polnomochiq_predstawitelq_zaqwitelq_dowerennost",
     "address_with_map",
     "vid_planiruemyh_rabot",
