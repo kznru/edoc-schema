@@ -12,7 +12,7 @@
       "title": "Письменное решение организации, которая владеет на праве собственности или ином законном основании гидроэнергетическим оборудованием (гидротурбиной) эксплуатируемого (строящегося) гидроэнергетического объекта либо имеет проектную документацию на проектируемый гидроэнергетический объект, о согласовании осуществления водопользования в охранной зоне гидроэнергетического объекта"
     },
     "water_body_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {
@@ -32,16 +32,7 @@
     },
     "water_body_mapping": {
       "title": "Материалы в графической форме с отображением водного объекта, указанного в заявлении о предоставлении в водного объекта в пользование, и размещения средств и объектов водопользования, а также пояснительная записка к ним",
-      "type": "object",
-      "properties": {
-        "note": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "title": "Пояснительная записка"
-        },
-        "address_with_map": {
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/water_body_mapping"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

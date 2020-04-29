@@ -1,10 +1,10 @@
 {
-  "id": "http://edoc-schema.kzn.ru/location/ru/addresses",
+  "id": "http://edoc-schema.kzn.ru/location/ru/addresses_required",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Адреса",
-  "descriprion": "Минимальное количество 0",
+  "descriprion": "Минимальное количество 1",
   "type": "array",
-  "minItems": 0,
+  "minItems": 1,
   "items": {
     "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
   }

@@ -41,7 +41,7 @@
     },
     "object_name": {
       "title": "Наименование объекта",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
     },
     "calculation_of_surface_runoff": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
@@ -56,20 +56,9 @@
       "description": "Топосъемки текущих изменений в масштабе 1:500 со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации."
     },
     "previous_technical_conditions": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/date_and_number",
       "title": "Ранее выданные тех. условия",
-      "description": "Ранее выданные тех. условия, если они были получены в КВБ",
-      "type": "object",
-      "properties": {
-        "date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата"
-        },
-        "number": {
-          "type": "string",
-          "title": "Номер"
-        }
-      }
+      "description": "Ранее выданные тех. условия, если они были получены в КВБ"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

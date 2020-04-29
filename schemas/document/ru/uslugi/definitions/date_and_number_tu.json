@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/date_and_number_tu",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Дата и Номер ТУ",
+  "properties": {
+    "date": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
+      "title": "Дата"
+    },
+    "number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "title": "Номер ТУ"
+    }
+  }
+}
