@@ -17,38 +17,26 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "address_description": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Уточнение местоположения рекламной конструкции"
     },
     "type": {
       "title": "Тип рекламной конструкции",
       "description": "Выбирается один из типов рекламных конструкций: суперсайт, суперборд, еврощит, ситиборд, пилларс, пилон, пилон в составе ПООТ, афишная щитовая конструкция; афишная тумба, коммуникационный указатель.",
-      "type": "string",
-      "enum": [
-        "суперсайт",
-        "суперборд",
-        "еврощит",
-        "ситиборд",
-        "пилларс",
-        "пилон",
-        "пилон в составе ПООТ",
-        "афишная щитовая конструкция",
-        "афишная тумба",
-        "коммуникационный указатель"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type_2"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "number_of_fields": {
       "title": "Количество информационных полей",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Указывается количество информационных полей"
     },
     "total_area_of_fields": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Общая площадь информационного поля (информационных полей), кв.м",
       "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
     },

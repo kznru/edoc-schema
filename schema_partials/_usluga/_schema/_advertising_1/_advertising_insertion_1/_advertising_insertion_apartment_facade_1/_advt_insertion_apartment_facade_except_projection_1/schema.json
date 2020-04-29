@@ -15,13 +15,7 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "type": {
-      "enum": [
-        "крышная установка",
-        "брандмауэр",
-        "медиафасад",
-        "видеоэкран",
-        "строительная сетка"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type"
     },
     "photo": {},
     "photomontage": {},

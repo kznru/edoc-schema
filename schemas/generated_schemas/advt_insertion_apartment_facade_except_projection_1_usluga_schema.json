@@ -39,14 +39,7 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "type": {
-      "enum": [
-        "крышная установка",
-        "брандмауэр",
-        "медиафасад",
-        "видеоэкран",
-        "строительная сетка"
-      ],
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type",
       "title": "Тип рекламной конструкции"
     },
     "photo": {
@@ -81,12 +74,12 @@
     },
     "field_size": {
       "title": "Размер информационного поля",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Размер информационного поля, м"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "information_about_owner_of_real_estate": {
@@ -109,29 +102,11 @@
       "description": "Прикрепляется отсканированный оригинал договора на установку и экусплуатацию рекламной конструкции или копия, заверенная собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
     "state_duty_payment": {
-      "title": "Сведения об оплате государственной пошлины",
-      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
-      "type": "object",
-      "required": [
-        "payer",
-        "document"
-      ],
-      "properties": {
-        "payer": {
-          "type": "string",
-          "title": "Наименование плательщика",
-          "description": "Юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС"
-        },
-        "document": {
-          "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
-          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment_with_payer"
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

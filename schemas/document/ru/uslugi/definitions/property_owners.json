@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_owners",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_owner"
+  }
+}
