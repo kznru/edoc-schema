@@ -42,7 +42,9 @@ class SchemaValidatorService
     data = JSON.parse(File.read(file))
 
     if file.to_s.include?("schema_partials")
-      check_refs_in_fields(data, file)
+      if file.to_s.include?("/_usluga/")
+        check_refs_in_fields(data, file)
+      end
     else
       unless @json_schemer.valid?(data)
         puts "\nErrors in #{file}"
