@@ -1,0 +1,64 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_planned_parameters",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Сведения о планируемых параметрах",
+  "required": [
+    "above_floors_number",
+    "limiting_height",
+    "building_area",
+    "distance_from_boundaries_of_land"
+  ],
+  "properties": {
+    "above_floors_number": {
+      "title": "Количество надземных этажей",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "description": "Должно быть целое число(1,2,3,..)",
+      "minItems": 1,
+      "enum": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "limiting_height": {
+      "type": "number",
+      "title": "Предельная высота (в метрах)",
+      "description": "Высота строящегося дома от поверхности земли до конька крыши"
+    },
+    "building_area": {
+      "type": "number",
+      "title": "Площадь застройки (кв.м)",
+      "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж)"
+    },
+    "distance_from_boundaries_of_land": {
+      "type": "object",
+      "title": "Сведения об отступах от границ земельного участка",
+      "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра (с противопожарной стеной): отступ от правой границы 2 метра (с противопожарной стеной); отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
+      "required": [
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "properties": {
+        "front": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "title": "передняя граница"
+        },
+        "back": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "title": "задняя граница"
+        },
+        "left": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "title": "боковая левая граница"
+        },
+        "right": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "title": "боковая правая граница"
+        }
+      }
+    }
+  }
+}

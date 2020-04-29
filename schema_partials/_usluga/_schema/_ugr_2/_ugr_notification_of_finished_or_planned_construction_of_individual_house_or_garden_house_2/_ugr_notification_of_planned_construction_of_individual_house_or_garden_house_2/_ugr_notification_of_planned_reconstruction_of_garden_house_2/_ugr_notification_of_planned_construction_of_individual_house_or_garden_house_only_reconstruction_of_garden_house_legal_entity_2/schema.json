@@ -8,7 +8,7 @@
   "properties": {
     "agent": {},
     "agent_position": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Должность представителя"
     },
     "letter_of_attorney": {

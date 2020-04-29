@@ -19,79 +19,30 @@
       "description": "Местоположение строящегося дома, согласно выписке на земельный участок"
     },
     "developer_rights": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
       "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
     },
     "availability_rights_of_other_person": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
       "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
     },
     "type_of_permitted_use_of_land": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о виде разрешенного использования земельного участка",
       "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
     },
     "planning_parameters": {
-      "type": "object",
-      "title": "Сведения о планируемых параметрах",
-      "required": [
-        "above_floors_number",
-        "limiting_height",
-        "building_area",
-        "distance_from_boundaries_of_land"
-      ],
-      "properties": {
-        "above_floors_number": {},
-        "limiting_height": {
-          "type": "number",
-          "title": "Предельная высота (в метрах)",
-          "description": "Высота строящегося дома от поверхности земли до конька крыши"
-        },
-        "building_area": {
-          "type": "number",
-          "title": "Площадь застройки (кв.м)",
-          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж)"
-        },
-        "distance_from_boundaries_of_land": {
-          "type": "object",
-          "title": "Сведения об отступах от границ земельного участка",
-          "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра (с противопожарной стеной): отступ от правой границы 2 метра (с противопожарной стеной); отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
-          "required": [
-            "front",
-            "back",
-            "left",
-            "right"
-          ],
-          "properties": {
-            "front": {
-              "type": "string",
-              "title": "передняя граница"
-            },
-            "back": {
-              "type": "string",
-              "title": "задняя граница"
-            },
-            "left": {
-              "type": "string",
-              "title": "боковая левая граница"
-            },
-            "right": {
-              "type": "string",
-              "title": "боковая правая граница"
-            }
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_planned_parameters"
     },
     "permission_to_deviate_from_limiting_parameters": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о решении о предоставлении разрешения на отклонение от предельных параметров разрешенного строительства, реконструкции (при наличии)",
       "description": "Заполняется при наличии такого согласования с УАиГ"
     },
     "typical_architectural_solution_description": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (описание)"
     },

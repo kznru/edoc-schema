@@ -41,7 +41,7 @@
       "title": "Почтовый адрес для связи"
     },
     "contact_email": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "format": "email",
       "title": "Адрес электронной почты для связи"
     },
@@ -56,90 +56,22 @@
       "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
     "developer_rights": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
       "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
     },
     "availability_rights_of_other_person": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
       "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
     },
     "type_of_permitted_use_of_land": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Сведения о виде разрешенного использования земельного участка",
       "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
     },
     "planning_parameters": {
-      "required": [
-        "common_area",
-        "above_floors_number",
-        "limiting_height",
-        "building_area",
-        "distance_from_boundaries_of_land"
-      ],
-      "properties": {
-        "common_area": {
-          "type": "number",
-          "title": "Общая площадь (кв.м)",
-          "description": "Прописать общую площадь дома с учетом всех этажей (в том числе мансарды)"
-        },
-        "above_floors_number": {
-          "minItems": 1,
-          "enum": [
-            "1"
-          ],
-          "type": "string",
-          "title": "Количество надземных этажей",
-          "description": "Должно быть целое число (1,2,3…), в формате выбора только из позиций: 1; 2; 3"
-        },
-        "mansarda_presence": {
-          "type": "boolean",
-          "title": "Мансарда",
-          "description": "Наличие мансарды"
-        },
-        "limiting_height": {
-          "type": "number",
-          "title": "Высота",
-          "description": "Высота от поверхности земли до конька крыши"
-        },
-        "building_area": {
-          "type": "number",
-          "title": "Площадь застройки (кв.м)",
-          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж)"
-        },
-        "distance_from_boundaries_of_land": {
-          "type": "object",
-          "title": "Сведения об отступах от границ земельного участка (м)",
-          "required": [
-            "front",
-            "back",
-            "left",
-            "right"
-          ],
-          "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра; отступ от правой границы 2 метра; отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
-          "properties": {
-            "front": {
-              "type": "string",
-              "title": "передняя граница"
-            },
-            "back": {
-              "type": "string",
-              "title": "задняя граница"
-            },
-            "left": {
-              "type": "string",
-              "title": "боковая левая граница"
-            },
-            "right": {
-              "type": "string",
-              "title": "боковая правая граница"
-            }
-          }
-        }
-      },
-      "type": "object",
-      "title": "Сведения о параметрах"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_parameters_with_mansarda"
     },
     "schematic_depiction": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -158,25 +90,7 @@
       "description": "Если земельный участок, на котором построен или реконструирован объект ИЖС или СД, принадлежит двум и более гражданам на праве общей долевой собственности или на праве аренды со множественностью лиц на стороне арендатора"
     },
     "state_duty_payment": {
-      "title": "Сведения об оплате государственной пошлины",
-      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
-      "type": "object",
-      "required": [
-        "document",
-        "scanned_document"
-      ],
-      "properties": {
-        "document": {
-          "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
-          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
-        },
-        "scanned_document": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "title": "Чек, квитанция об оплате государственной пошлины",
-          "description": "Квитанция оплачивается на имя каждого собственника в соответствии с долями"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment"
     },
     "confirm_that_will_not_separate": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
