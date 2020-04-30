@@ -1,0 +1,20 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cultural_heritage_owner_organization",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о собственнике (пользователе) объекта культурного наследия - юр. лицо",
+  "description": "Сведения о собственнике (пользователе) объекта культурного наследия",
+  "type": "object",
+  "required": ["organization"],
+  "properties": {
+    "organization": {
+      "title": "Юридическое лицо",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
+      "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
+      "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  }
+}
