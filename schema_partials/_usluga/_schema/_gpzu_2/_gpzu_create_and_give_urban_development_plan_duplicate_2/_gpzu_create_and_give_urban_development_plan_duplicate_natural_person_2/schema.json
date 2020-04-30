@@ -27,32 +27,14 @@
   "nomer_postanowleniq_rasporqzheniq": {
     "title": "Номер постановления (распоряжения)",
     "description": "Номер постановления (распоряжения)",
-    "type": "object",
-    "properties": {
-      "data": {
-        "title": "Дата",
-        "$ref": "http://edoc-schema.kzn.ru/generic/date"
-      },
-      "nomer": {
-        "title": "Номер",
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
-      }
-    }
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/date_and_integer"
   },
   "building_object": {
     "title": "Причина",
-    "type": "string",
-    "minItems": 1,
-    "enum": ["Утеря", "Порча", "Новый собственник"]
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/duplicate_reasons"
   },
   "form_result_method": {
-    "title": "Форма предоставления результата",
-    "type": "string",
-    "minItems": 1,
-    "enum": [
-      "на бумажном носителе",
-      "в электронном виде"
-    ]
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/form_result_method"
   }
 },
   "required": [
