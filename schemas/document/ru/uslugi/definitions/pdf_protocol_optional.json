@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/pdf_protocol_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Протокол",
+  "type": "object",
+  "properties": {
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+    },
+    "scanned_document": {
+      "title": "Скан протокола",
+      "accept": "application/pdf",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  }
+}
