@@ -42,7 +42,8 @@ class SchemaValidatorService
     data = JSON.parse(File.read(file))
 
     if file.to_s.include?("schema_partials")
-      if file.to_s.include?("/_usluga/")
+      # TODO: after remove next if
+      if file.to_s.include?("/_usluga/_schema/")
         check_refs_in_fields(data, file)
       end
     else
