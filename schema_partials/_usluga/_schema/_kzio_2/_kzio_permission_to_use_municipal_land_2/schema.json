@@ -64,11 +64,13 @@
     },
     "borders_scheme": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)"
+      "title": "Схема расположения земельного участка на кадастровом плане территории (координаты характерных точек границ территории)",
+      "description": "Файлы в формате word, mid/mif"
     },
     "justification": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Технико - экономическое обоснование"
+      "title": "Технико - экономическое обоснование",
+      "description": "Файлы в формате word, mid/mif"
     }
   }
 }

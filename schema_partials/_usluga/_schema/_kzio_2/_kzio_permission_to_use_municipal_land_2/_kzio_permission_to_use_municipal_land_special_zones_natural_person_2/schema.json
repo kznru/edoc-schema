@@ -12,7 +12,8 @@
     "justification": {},
     "special_zones": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Зоны с особыми условиями использования земель"
+      "title": "Зоны с особыми условиями использования земель",
+      "description": "Файлы в формате word, mid/mif"
     }
   }
 }
