@@ -2,7 +2,6 @@
   "required": [
     "agent",
     "registry_item",
-    "address_with_map",
     "images_after",
     "certificate_of_acceptance"
   ],
@@ -14,11 +13,6 @@
       },
       "title": "Ордер для закрытия",
       "description": "Введите реестровый номер ордера, который нужно закрыть. Номер был присвоен при открытии ордера"
-    },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес (ближайший к месту работ)",
-      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
     },
     "images_after": {
       "title": "Фотографии мест работ",
