@@ -26,12 +26,7 @@
     "vid_planiruemyh_rabot": {
       "title": "Вид планируемых работ",
       "description": "Информация о строительных намерениях",
-      "type": "string",
-      "enum": [
-        "Благоустройство территории",
-        "Благоустройство территории с установкой ограждения"
-      ],
-      "minItems": 1
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/landscaping_with_or_without_installation_fencing"
     },
     "jeskiznoe_predlozhenie": {
       "title": "Эскизное предложение",
