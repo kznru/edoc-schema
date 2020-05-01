@@ -25,13 +25,8 @@
       "description": "Адрес, по которому находится муниципальное имущество"
     },
     "property_type": {
-      "type": "string",
-      "title": "Вид имущества",
-      "enum": [
-        "здание",
-        "помещение",
-        "сооружение"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_type",
+      "title": "Вид имущества"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
@@ -39,16 +34,16 @@
     },
     "purpose": {
       "title": "Цель",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "description": "Цели, для которых запрашивается информация о муниципальном имуществе"
     },
     "floor_number": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
     },
     "floors_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -64,7 +59,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото"
     },
     "other_info": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {

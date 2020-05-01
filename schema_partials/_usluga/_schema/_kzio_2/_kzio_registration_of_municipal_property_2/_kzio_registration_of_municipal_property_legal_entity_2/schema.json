@@ -8,13 +8,7 @@
     "area": {},
     "reason": {
       "title": "Основание для передачи муниципального имущества",
-      "type": "string",
-      "minItems": 1,
-      "enum": [
-        "Вновь построенный, реконструированный объект недвижимости",
-        "Служебная необходимость",
-        "Выявленное имущество"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_transfer_municipal_property"
     }
   }
 }

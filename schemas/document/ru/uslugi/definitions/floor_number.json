@@ -1,0 +1,15 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/floor_number",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Информация, необходимая для идентификации имущества: этаж",
+  "minItems": 1,
+  "enum": [
+    "подвал",
+    "антресоль",
+    "1 этаж",
+    "2 этаж",
+    "межэтажное помещение",
+    "этаж №-указать"
+  ]
+}
