@@ -1,0 +1,14 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "ugr_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "ugr_verification_compliance_urban_law_1"
+        }
+      ]
+    }
+  ]
+}
