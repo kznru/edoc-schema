@@ -161,6 +161,10 @@
                 "другое"
               ]
             },
+            "other_denomination":{
+              "title": "Название (при выборе другое)",
+              "type": "string"
+            },
             "amount":{
               "title": "Количество",
               "type": "number"
