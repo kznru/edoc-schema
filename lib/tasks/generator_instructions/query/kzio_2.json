@@ -43,10 +43,30 @@
 
         { "name": "kzio_request_for_prepare_schema_and_graphic_material_2" },
 
-        { "name": "kzio_conclusion_federal_institution_sredvolgavodhoz_location_of_relative_to_water_2" },
-        { "name": "kzio_conclusion_tat_ministry_eipr_coordination_of_provision_land_2" },
-        { "name": "kzio_conclusion_kzn_electric_network_coordination_of_provision_land_2" },
-        { "name": "kzio_conclusion_municipal_land_control_2" }
+        {
+          "name": "kzio_conclusion_federal_institution_sredvolgavodhoz_location_of_relative_to_water_2",
+          "keys": [
+            { "name": "kzio_conclusion_federal_institution_sredvolgavodhoz_location_of_relative_to_water_for_adm_provision_of_land_plot_related_to_common_property_2" }
+          ]
+        },
+        {
+          "name": "kzio_conclusion_tat_ministry_eipr_coordination_of_provision_land_2",
+          "keys": [
+            { "name": "kzio_conclusion_tat_ministry_eipr_coordination_of_provision_land_for_adm_provision_of_land_plot_related_to_common_property_2" }
+          ]
+        },
+        {
+          "name": "kzio_conclusion_kzn_electric_network_coordination_of_provision_land_2",
+          "keys": [
+            { "name": "kzio_conclusion_kzn_electric_network_coordination_of_provision_land_for_adm_provision_of_land_plot_related_to_common_property_2" }
+          ]
+        },
+        {
+          "name": "kzio_conclusion_municipal_land_control_2",
+          "keys": [
+            { "name": "kzio_conclusion_municipal_land_control_for_adm_provision_of_land_plot_related_to_common_property_2" }
+          ]
+        }
       ]
     }
   ]
