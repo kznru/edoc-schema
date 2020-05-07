@@ -6,7 +6,12 @@
       "virtual": true,
       "keys": [
         {
-          "name": "ugr_verification_compliance_urban_law_1"
+          "name": "ugr_verification_compliance_urban_law_1",
+          "keys": [
+            {
+              "name": "ugr_verification_compliance_urban_law_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1"
+            }
+          ]
         }
       ]
     }

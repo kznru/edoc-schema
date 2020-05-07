@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "note_from_fbgu": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Справка из ФГБУ по водному хозяйству"
+    },
+    "schema_land_plot": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения земельного участка"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}
