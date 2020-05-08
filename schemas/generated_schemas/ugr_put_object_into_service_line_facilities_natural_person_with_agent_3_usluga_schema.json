@@ -58,7 +58,7 @@
     "conclusion_of_state_building_authority": {
       "title": "Заключение органа государственного строительного надзора о соответствии построенного, реконструированного объекта капитального строительства требованиям проектной документации",
       "description": "В случае, если предусмотрено осуществление государственного строительного надзора в соответствии с частью 1 статьи 54 настоящего Градостроительно кодекса РФ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_of_state_building_authority"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_of_state_building_authority_optional"
     },
     "insurance_for_owner_hazardous_facility": {
       "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта",
@@ -73,7 +73,7 @@
     "soglasowanie_razmescheniq_ob_ekta_kapital_nogo_stroitel_stwa_w_zone_s_osobymi_uslowiqmi_ispol_zowaniq_territorii_pri_neobhodimosti_soglasowaniq": {
       "title": "Согласование размещения объекта капитального строительства в зоне с особыми условиями использования территории (при необходимости согласования)",
       "description": "Если объект расположен в зоне с особыми условиями использования территории (электрических сетей, газовых сетей, охранной зоны КАПО и т.д.)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
     },
     "additional_documentation_for_permission_to_enter_capital_construction": {
       "title": "Дополнительная документация для получения разрешения на ввод объекта капитального строительства",
