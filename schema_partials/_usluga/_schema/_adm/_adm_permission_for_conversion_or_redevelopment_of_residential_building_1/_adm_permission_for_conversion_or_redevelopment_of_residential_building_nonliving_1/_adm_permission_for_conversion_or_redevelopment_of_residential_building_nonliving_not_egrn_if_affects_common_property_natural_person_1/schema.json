@@ -12,15 +12,18 @@
   },
   "prawoustanawliwa_schie_dokumenty_na_pereustraiwaemoe_i_ili_pereplaniruemoe_pomeschenie": {
     "title": "Правоустанавливающие документы на переустраиваемое и (или) перепланируемое помещение ",
+    "accept": "application/pdf",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
   },
   "proekt_pereustrojstwa_i_ili_pereplanirowki": {
     "title": "Проект переустройства и (или) перепланировки",
     "description": "Подготовленный и оформленный в установленном порядке проект переустройства и (или) перепланировки переустраиваемого и (или) перепланируемого помещения в многоквартирном доме, соответствующий требованиям постановления Правительства Российской Федерации от 16.02.2008 N 87 \"О составе разделов проектной документации и требованиях к их содержанию\", включающий обоснование проектных решений и мероприятий, соблюдение санитарно-гигиенических условий( проект должен быть согласован с органами санитарно-эпидемиологического надзора) ",
+    "accept": "application/pdf",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
   },
   "tehnicheskij_pasport_pereustraiwaemogo_i_ili_pereplaniruemogo_pomescheniq": {
     "title": "Технический паспорт переустраиваемого и (или) перепланируемого помещения",
+    "accept": "application/pdf",
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
   },
   "protokol_obschego_sobraniq": {
@@ -34,6 +37,7 @@
       },
       "scanned_document": {
         "title": "Скан протокола",
+        "accept": "application/pdf",
         "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
       }
     }
