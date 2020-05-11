@@ -24,7 +24,7 @@
       "title": "Информация, необходимая для идентификации имущества: поэтажный план"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
       "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
       "description": "Кадастровый номер земельного участка или кадастрового квартала"
     },

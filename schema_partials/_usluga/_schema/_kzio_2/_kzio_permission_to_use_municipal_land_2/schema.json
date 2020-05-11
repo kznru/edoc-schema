@@ -7,7 +7,7 @@
       "title": "Адрес земельного участка"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
       "title": "Кадастровый номер земельного участка или кадастрового квартала"
     },
     "usage": {

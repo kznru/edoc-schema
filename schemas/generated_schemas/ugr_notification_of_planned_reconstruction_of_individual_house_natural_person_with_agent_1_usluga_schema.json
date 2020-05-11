@@ -55,7 +55,7 @@
       "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
     "cadastre_number_quarter": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_quarter",
       "title": "Кадастровый номер кадастрового квартала",
       "description": "Указание кадастрового номера кадастрового квартала"
     },

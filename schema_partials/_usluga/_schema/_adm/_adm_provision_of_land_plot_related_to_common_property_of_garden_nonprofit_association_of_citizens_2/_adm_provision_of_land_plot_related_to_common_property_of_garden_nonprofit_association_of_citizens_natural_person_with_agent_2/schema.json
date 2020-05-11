@@ -23,7 +23,7 @@
   "kadastrowyj_nomer": {
     "title": "Кадастровый номер",
     "description": "Кадастровый номер испрашиваемого земельного участка или, в случае если испрашиваемый земельный участок не стоит на кадастровом учете, кадастровый номер кадастрового квартала, в котором находится земельный участок",
-    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter"
   },
   "rasporqzhenie": {
     "title": "Распоряжение",

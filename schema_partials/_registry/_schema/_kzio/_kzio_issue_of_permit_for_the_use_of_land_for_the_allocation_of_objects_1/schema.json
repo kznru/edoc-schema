@@ -47,7 +47,7 @@
     "cadastre_quarter": {
       "title": "Кадастровый квартал",
       "description": "Кадастровый номер в виде число:число:число… в случае если планируется использование земель или части земельного участка",
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_quarter"
     },
     "layout_of_land": {
       "title": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории",

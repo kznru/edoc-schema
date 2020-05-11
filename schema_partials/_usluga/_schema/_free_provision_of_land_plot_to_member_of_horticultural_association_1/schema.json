@@ -18,7 +18,7 @@
       "title": "Распоряжение органа местного самоуправлне"
     },
     "cadastre_number": {
-      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
       "title": "Кадастровый номер земельного участка или кадастрового квартала"
     }
   }
