@@ -27,7 +27,7 @@
     "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom": {
       "title": "Реквизиты утвержденного проекта межевания территории, если перераспределение земельных участков планируется осуществить в соответствии с данным проектом",
       "description": "Реквизиты утвержденного проекта межевания территории (с учетом внесенных изменений- при наличии)",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document_with_name"
     },
     "borders_schemas": {
       "title": "Схема расположения земельного участка на кадастровом плане территории",
@@ -78,6 +78,7 @@
     "dowerennost",
     "adres_zemel_nogo_uchastka_ili_zemel_nyh_uchastkow_pereraspredelenie_kotoryh_planiruetsq_osuschestwit",
     "borders_schemas",
+    "rekwizity_utwerzhdennogo_proekta_mezhewaniq_territorii_esli_pereraspredelenie_zemel_nyh_uchastkow_planiruetsq_osuschestwit_w_sootwetstwii_s_dannym_proektom",
     "result_delivery_method_with_email_post_paper"
   ],
   "type": "object",

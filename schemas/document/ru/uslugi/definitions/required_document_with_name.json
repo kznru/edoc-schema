@@ -7,7 +7,7 @@
   "properties": {
     "document": {
       "title": "Номер и дата документа",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document"
     },
     "name": {
       "type": "string",
