@@ -19,7 +19,7 @@
     },
     "type": {
       "title": "Тип рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "photo": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
@@ -48,12 +48,12 @@
     },
     "field_size": {
       "title": "Размер информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Размер информационного поля, м"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "permission_period": {

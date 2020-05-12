@@ -34,7 +34,7 @@
     },
     "object_name": {
       "title": "Наименование объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "calculation_of_surface_runoff": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"

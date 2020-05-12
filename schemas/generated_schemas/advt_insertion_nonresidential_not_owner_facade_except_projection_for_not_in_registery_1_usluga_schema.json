@@ -53,12 +53,12 @@
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "field_size": {
       "title": "Размер информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Размер информационного поля, м"
     },
     "situational_plan": {
@@ -110,7 +110,7 @@
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

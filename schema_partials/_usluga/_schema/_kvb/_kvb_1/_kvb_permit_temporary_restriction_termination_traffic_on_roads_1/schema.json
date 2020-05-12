@@ -8,11 +8,11 @@
   "properties": {
     "object_name": {
       "title": "Наименование объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "object_purpose": {
       "title": "Назначение объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Жилой дом, административное здание, инженерные сети и т.д."
     },
     "time_limitation": {

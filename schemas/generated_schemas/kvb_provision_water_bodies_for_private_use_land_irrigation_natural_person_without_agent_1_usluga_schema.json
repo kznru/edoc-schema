@@ -20,7 +20,7 @@
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объема водных ресурсов, забираемых (изымаемых) из водного объекта"
     },
     "water_body_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {

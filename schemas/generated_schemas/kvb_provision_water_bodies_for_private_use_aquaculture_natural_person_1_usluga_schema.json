@@ -30,7 +30,7 @@
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объе- мов и контроля (наблюдения) качества сбрасываемых сточных вод"
     },
     "water_body_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {

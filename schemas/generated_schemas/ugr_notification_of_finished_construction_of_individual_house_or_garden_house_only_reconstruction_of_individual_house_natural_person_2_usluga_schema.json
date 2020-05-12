@@ -31,7 +31,7 @@
       "title": "Почтовый адрес для связи"
     },
     "contact_email": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "format": "email",
       "title": "Адрес электронной почты для связи"
     },
@@ -46,17 +46,17 @@
       "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
     },
     "developer_rights": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
       "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
     },
     "availability_rights_of_other_person": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
       "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
     },
     "type_of_permitted_use_of_land": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о виде разрешенного использования земельного участка",
       "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
     },

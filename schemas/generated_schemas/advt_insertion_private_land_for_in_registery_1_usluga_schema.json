@@ -38,7 +38,7 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "address_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Уточнение местоположения рекламной конструкции"
     },
     "type": {
@@ -48,16 +48,16 @@
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "number_of_fields": {
       "title": "Количество информационных полей",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается количество информационных полей"
     },
     "total_area_of_fields": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Общая площадь информационного поля (информационных полей), кв.м",
       "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
     },
@@ -123,7 +123,7 @@
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

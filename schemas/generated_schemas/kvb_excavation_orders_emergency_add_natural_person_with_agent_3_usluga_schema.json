@@ -61,7 +61,7 @@
       "description": "Аварии независимо от типа коммуникации (сооружения) с полным восстановлением благоустройства в местах аварийных разрытий должны устраняться в течение пяти суток, а в осенне-зимний период – в течение восьми дней"
     },
     "emergency_repair_of": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Ликвидация аварии на:",
       "description": "Выберите вид коммуникации (сооружения) из списка",
       "enum": [
@@ -82,17 +82,17 @@
       ]
     },
     "area_of_damage_to_road": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения дорожного покрытия (кв. м)",
       "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
     },
     "area_of_damage_to_sidewalk": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения тротуара (кв. м)",
       "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
     },
     "area_of_damage_to_lawn": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения газона (кв. м)",
       "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
     },

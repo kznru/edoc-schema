@@ -28,7 +28,7 @@
   "address_description": {
     "title": "Описание местоположения",
     "description": "Описание местоположения установки рекламной конструкции",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
   },
   "type_of_information_field_a":{
     "title": "Тип информационного поля А",

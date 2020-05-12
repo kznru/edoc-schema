@@ -23,7 +23,7 @@
       "title": "Представитель"
     },
     "applicant_position": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Должность заявителя"
     },
     "letter_of_attorney": {

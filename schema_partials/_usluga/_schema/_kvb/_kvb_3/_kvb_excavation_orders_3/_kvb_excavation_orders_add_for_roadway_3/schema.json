@@ -59,17 +59,17 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "area_of_damage_to_road": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения дорожного покрытия (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_sidewalk": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения тротуара (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_lawn": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения газона (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
@@ -83,7 +83,7 @@
           "title": "Организация подрядчика"
         },
         "contractor_organization_phone":{
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "$ref": "http://edoc-schema.kzn.ru/generic/string",
           "title": "Телефон организации-подрядчика"
         },
         "contractor_organization_address":{
@@ -110,7 +110,7 @@
           "title": "Организация субподрядчика"
         },
         "subcontractor_organization_phone":{
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+          "$ref": "http://edoc-schema.kzn.ru/generic/string",
           "title": "Телефон организации-подрядчика"
         },
         "subcontractor_organization_address":{
@@ -182,7 +182,7 @@
       "description": "Договор, заключенный со специализированной лабораторией на проведение работ по контролю качества уплотнения восстановления дорожного покрытия и копия акта скрытых работ (если работы ведутся на проезжей части)"
     },
     "zrik": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Распоряжение ЗРИК на снос зеленых насаждений",
       "description": "Укажите номер распоряжения ЗРИК в случае, если проектом предусмотрено производство земляных работ со сносом зеленых насаждений"
     }

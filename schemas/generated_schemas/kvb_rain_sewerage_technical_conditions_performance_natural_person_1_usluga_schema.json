@@ -7,7 +7,7 @@
     },
     "object_name": {
       "title": "Наименование объекта",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",

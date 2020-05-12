@@ -17,7 +17,7 @@
     "usage_period": {
       "title": "Срок использования земельного участка",
       "description": "Например, «5 лет» или «11 месяцев»",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "area": {
       "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",

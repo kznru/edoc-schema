@@ -38,12 +38,12 @@
       "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
     },
     "floor_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
@@ -55,7 +55,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото объекта"
     },
     "other_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     }
   }

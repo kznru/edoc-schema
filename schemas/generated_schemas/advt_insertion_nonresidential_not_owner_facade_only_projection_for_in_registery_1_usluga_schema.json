@@ -44,7 +44,7 @@
     "type": {
       "default": "Проекционная рекламная конструкция",
       "title": "Тип рекламной конструкции",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "photo": {
       "description": "Прикрепляются фотографии предполагаемого места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, выполненные не более чем за один месяц до обращения за получением мун.услуги (фотографии должны давать полное представление о зданиях, сооружениях, в том числе о месте их расположений в градостроительной ситуации). Фотографии должны быть цветные, четкие, выполненные в светлое время суток",
@@ -73,12 +73,12 @@
     },
     "field_size": {
       "title": "Размер информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Размер информационного поля, м"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "property_owner": {
@@ -119,7 +119,7 @@
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

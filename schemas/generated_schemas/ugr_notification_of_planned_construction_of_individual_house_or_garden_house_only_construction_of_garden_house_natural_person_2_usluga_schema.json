@@ -40,17 +40,17 @@
       "description": "Местоположение строящегося дома, согласно выписке на земельный участок"
     },
     "developer_rights": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
       "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
     },
     "availability_rights_of_other_person": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
       "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
     },
     "type_of_permitted_use_of_land": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о виде разрешенного использования земельного участка",
       "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
     },
@@ -58,12 +58,12 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_planned_parameters_with_mansarda"
     },
     "permission_to_deviate_from_limiting_parameters": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Сведения о решении о предоставлении разрешения на отклонение от предельных параметров разрешенного строительства, реконструкции (при наличии)",
       "description": "Заполняется при наличии такого согласования с УАиГ"
     },
     "typical_architectural_solution_description": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
       "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (описание)"
     },

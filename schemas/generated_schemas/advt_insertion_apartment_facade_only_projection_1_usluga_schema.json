@@ -47,7 +47,7 @@
     },
     "type": {
       "default": "Проекционная рекламная конструкция",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Тип рекламной конструкции"
     },
     "photo": {
@@ -82,12 +82,12 @@
     },
     "field_size": {
       "title": "Размер информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Размер информационного поля, м"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "information_about_owner_of_real_estate_projection": {
@@ -133,7 +133,7 @@
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

@@ -21,7 +21,7 @@
     },
     "other_purpose": {
       "title": "Иная цель",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "usage_type": {
       "title": "Вид использования",
@@ -29,7 +29,7 @@
     },
     "other_usage_type": {
       "title": "Иной вид использования",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "floor_number": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/floor_number",
@@ -37,11 +37,11 @@
     },
     "other_floor_number": {
       "title": "Информация, необходимая для идентификации имущества: иной номер этажа",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Согласно поэтажному плану объекта или техническому паспорту"
     },
     "floors_plan": {
@@ -58,7 +58,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото"
     },
     "other_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {

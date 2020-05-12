@@ -10,7 +10,7 @@
       "description": "Кадастровый номер"
     },
     "text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Текст вывески"
     },
     "image_original": {

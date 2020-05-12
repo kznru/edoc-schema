@@ -11,7 +11,7 @@
       "description": "Название организации балансодержателя / собственника инженерных коммуникаций, полностью"
     },
     "organization_phone":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Телефон организации-заявителя"
     },
     "agent": {},

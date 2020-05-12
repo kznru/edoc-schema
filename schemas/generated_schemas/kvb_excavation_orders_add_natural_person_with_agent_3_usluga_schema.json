@@ -64,17 +64,17 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
     },
     "area_of_damage_to_road": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения дорожного покрытия (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_sidewalk": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения тротуара (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_lawn": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Площадь повреждения газона (кв. м)",
       "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },

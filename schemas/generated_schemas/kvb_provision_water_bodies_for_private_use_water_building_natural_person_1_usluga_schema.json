@@ -31,7 +31,7 @@
       "title": "Правоустанавливающий документ на земельный участок, право на который незарегистрировано в Едином государственном реестре прав на недвижимое имущество и сделок с ним"
     },
     "water_body_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {

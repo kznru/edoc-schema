@@ -15,11 +15,11 @@
       "title": "Собственник конструкции"
     },
     "text": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Текст вывески"
     },
     "previous_registry_item": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "attachments": {

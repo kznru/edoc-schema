@@ -26,7 +26,7 @@
       "title": "Местоположение земельного участка"
     },
     "building_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта адресации",
       "description": "При наличии проектной документации указывается в соответствии с ней"
     },

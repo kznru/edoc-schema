@@ -12,12 +12,12 @@
       "title": "Площадь объекта"
     },
     "floor_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "floors_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -33,7 +33,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото"
     },
     "other_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "lease_contract": {
@@ -46,7 +46,7 @@
     },
     "other_usage_kind": {
       "title": "Иной вид использования",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     }
   }
 }

@@ -22,7 +22,7 @@
     },
     "route": {
       "title": "Маршрут движения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "transportation_type": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"

@@ -12,7 +12,7 @@
       "title": "Лицензия на пользование недрами"
     },
     "water_body_name": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование водного объекта"
     },
     "water_body_location": {

@@ -33,7 +33,7 @@
   "lease_contract": {
     "title": "Срок аренды",
     "description": "Указать количество лет и месяцев. В формате: ЧИСЛО лет, ЧИСЛО месяцев",
-    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
   },
   "osnowanie_predostawleniq_zemel_nogo_uchastka_w_arendu": {
     "title": "Основание предоставления земельного участка в аренду",

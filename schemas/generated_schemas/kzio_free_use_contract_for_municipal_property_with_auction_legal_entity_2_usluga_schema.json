@@ -35,12 +35,12 @@
       "title": "Площадь объекта"
     },
     "floor_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Согласно поэтажному плану объекта или техническому паспорту"
     },
     "floors_plan": {
@@ -57,7 +57,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото"
     },
     "other_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "purpose": {
@@ -65,7 +65,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_use_object"
     },
     "other_purpose": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Иная цель"
     },
     "usage_type": {
@@ -74,7 +74,7 @@
     },
     "other_usage_type": {
       "title": "Иной вид использования",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "lease_contract": {
       "title": "Срок заключения договора",
