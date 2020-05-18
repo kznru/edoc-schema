@@ -6,6 +6,30 @@
       "virtual": true,
       "keys": [
         {
+          "name": "kzio_land_plot_provision_to_buildings_owners_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kzio_land_plot_provision_to_buildings_owners_of_property_2",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_property_legal_entity_2" },
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_property_natural_peraon_with_agent_2" },
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_property_natural_person_2" }
+              ]
+            },
+            {
+              "name": "kzio_land_plot_provision_to_buildings_owners_of_rent_2",
+              "virtual": true,
+              "keys": [
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_rent_legal_entity_2" },
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_rent_natural_person_2" },
+                { "name": "kzio_land_plot_provision_to_buildings_owners_of_rent_natural_person_with_agent_2" }
+              ]
+            }
+          ]
+        },
+        {
           "name": "permission_to_use_municipal_land_2",
           "virtual": true,
           "keys": [

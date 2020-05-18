@@ -182,16 +182,6 @@ permalink: /generated_schemas/
 
 [Выдача разрешения на перевод нежилого помещения в жилое помещение (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_nonresidential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
 
-[Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_1_usluga_schema.json)
-
-[Выдача разрешения на перевод жилого помещения в нежилое помещение в частном доме (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_house_natural_person_with_agent_1_usluga_schema.json)
-
-[Выдача разрешения на перевод жилого помещения в нежилое помещение (ЮЛ, ИП), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_legal_entity_1_usluga_schema.json)
-
-[Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_1_usluga_schema.json)
-
-[Выдача разрешения на перевод жилого помещения в нежилое помещение (физ. лицо с представителем), версия #1](/schemas/generated_schemas/permission_to_transfer_residential_premises_and_back_natural_person_with_agent_1_usluga_schema.json)
-
 -------------------------
 
 ###  {#adm_permission_for_conversion_or_redevelopment_of_residential_building_1}
