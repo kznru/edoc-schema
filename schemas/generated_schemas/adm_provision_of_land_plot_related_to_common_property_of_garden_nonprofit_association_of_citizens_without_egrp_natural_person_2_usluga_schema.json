@@ -41,6 +41,11 @@
       "title": "Правоустанавливающие документы на земельный участок",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
     },
+    "skhema_raspolozheniya_zemel_nogo_uchastka_na_kadastrovom_plane_territorii": {
+      "title": "Схема расположения земельного участка на кадастровом плане территории",
+      "description": "Представление данной схемы не требуется при наличии утвержденного проекта межевания территории, в границах которой расположен земельный участок, проекта организации и застройки территории этого объединения либо при наличии описания местоположения границ такого земельного участка в государственном кадастре недвижимости",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
     "agreement_default": {
       "title": "Согласен на обработку персональных данных с соблюдением требований Федерального закона от 27.07.2006 №152-ФЗ «О персональных данных».",
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
