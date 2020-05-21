@@ -36,13 +36,7 @@
     },
     "reason": {
       "title": "Основание для передачи муниципального имущества",
-      "type": "string",
-      "minItems": 1,
-      "enum": [
-        "Вновь построенный, реконструированный объект недвижимости",
-        "Служебная необходимость",
-        "Выявленное имущество"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_transfer_municipal_property"
     },
     "floors_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -50,12 +44,12 @@
       "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
     },
     "floor_number": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
@@ -67,7 +61,7 @@
       "title": "Информация, необходимая для идентификации имущества: фото объекта"
     },
     "other_info": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "attachments": {

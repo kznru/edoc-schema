@@ -38,31 +38,26 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "address_description": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Уточнение местоположения рекламной конструкции"
     },
     "type": {
       "title": "Тип рекламной конструкции",
       "description": "Выбирается один из типов рекламных конструкций: пилларс, пилон,  коммуникационный указатель.",
-      "type": "string",
-      "enum": [
-        "пилларс",
-        "пилон",
-        "коммуникационный указатель"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type_3"
     },
     "field_area": {
       "title": "Площадь информационного поля",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается площадь информационного поля (одной стороны), кв.м"
     },
     "number_of_fields": {
       "title": "Количество информационных полей",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Указывается количество информационных полей"
     },
     "total_area_of_fields": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Общая площадь информационного поля (информационных полей), кв.м",
       "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
     },
@@ -103,25 +98,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
     },
     "property_owners": {
-      "title": "Данные о собственниках имущества, к которому присоединяется рекламная конструкция",
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "required": [
-          "organization_or_natural_person"
-        ],
-        "properties": {
-          "organization_or_natural_person": {
-            "title": "",
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
-          },
-          "text": {
-            "title": "Дополнительная информация о собственнике",
-            "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_owners_with_optional_text"
     },
     "cadatre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
@@ -142,29 +119,11 @@
       "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
     },
     "state_duty_payment": {
-      "title": "Сведения об оплате государственной пошлины",
-      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
-      "type": "object",
-      "required": [
-        "payer",
-        "document"
-      ],
-      "properties": {
-        "payer": {
-          "type": "string",
-          "title": "Наименование плательщика",
-          "description": "Юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС"
-        },
-        "document": {
-          "title": "Номер и дата документа",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
-          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment_with_payer"
     },
     "legal_entity_address": {
       "title": "Адрес места жительства ИП",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

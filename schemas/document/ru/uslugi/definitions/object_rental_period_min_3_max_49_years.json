@@ -1,0 +1,9 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_rental_period_min_3_max_49_years",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Срок аренды",
+  "description": "Указать количество лет (от 3 до 49 лет)",
+  "minimum": 3,
+  "maximum": 49,
+  "type": "integer"
+}

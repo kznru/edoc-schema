@@ -18,11 +18,8 @@
     },
     "allowed_usage_type": {
       "title": "Виды разрешённого использования",
-      "type": "string",
       "description": "Целевое назначение",
-      "enum": [
-        "Индивидуальное жилищное строительство (ИЖС)"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/allowed_usage_type_only_ijs"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

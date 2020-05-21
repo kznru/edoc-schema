@@ -19,11 +19,11 @@
       "title": "Собственник земли или помещения"
     },
     "text": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Текст вывески"
     },
     "previous_registry_item": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "passport_bti": {

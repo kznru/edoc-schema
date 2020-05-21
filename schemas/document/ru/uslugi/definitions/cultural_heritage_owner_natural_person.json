@@ -1,0 +1,28 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cultural_heritage_owner_natural_person",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о собственнике (пользователе) объекта культурного наследия - физ. лицо",
+  "description": "Сведения о собственнике (пользователе) объекта культурного наследия",
+  "type": "object",
+  "required": [
+    "fizicheskoe_lico",
+    "adres"
+  ],
+  "properties": {
+    "fizicheskoe_lico": {
+      "title": "Физическое лицо",
+      "description": "Фамилия, Имя, Отчество",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "adres": {
+      "title": "Адрес",
+      "description": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "swedeniq_o_dokumentah_osnowaniqh_wozniknoweniq_prawa_sobstwennosti_pol_zowaniq_na_ob_ekt_kul_turnogo_naslediq": {
+      "title": "Сведения о документах-основаниях  возникновения права собственности\n(пользования) на объект культурного наследия",
+      "description": "Подкрепляется скан документа, подтверждающий право собственности (пользования) на объект культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  }
+}

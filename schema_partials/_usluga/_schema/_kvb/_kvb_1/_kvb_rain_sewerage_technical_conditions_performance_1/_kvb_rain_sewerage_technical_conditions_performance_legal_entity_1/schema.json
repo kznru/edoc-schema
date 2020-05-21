@@ -3,21 +3,11 @@
     "previous_registry_item": {
       "type": "object",
       "title": "Ранее выданные технические условия",
-      "properties": {
-        "number": {
-          "type": "string",
-          "title": "Номер ТУ"
-        },
-        "date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/date_and_number_tu"
     },
     "object_name": {
       "title": "Наименование объекта",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",

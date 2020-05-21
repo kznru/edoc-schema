@@ -21,7 +21,7 @@
       "title": "Почтовый адрес для связи"
     },
     "contact_email": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "format": "email",
       "title": "Адрес электронной почты для связи"
     }

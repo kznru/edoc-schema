@@ -17,7 +17,7 @@
       "title": "Адрес объекта (или ближайший)"
     },
     "object_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта"
     },
     "attachments": {

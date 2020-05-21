@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "minItems": 1,
+  "title": "Фасады",
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facade_with_type_photo_sketch_description_material_color_description"
+  }
+}

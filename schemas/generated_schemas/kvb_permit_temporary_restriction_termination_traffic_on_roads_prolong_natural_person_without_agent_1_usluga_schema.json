@@ -14,11 +14,11 @@
     },
     "object_name": {
       "title": "Наименование объекта",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "object_purpose": {
       "title": "Назначение объекта",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Жилой дом, административное здание, инженерные сети и т.д."
     },
     "time_limitation": {

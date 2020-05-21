@@ -50,30 +50,7 @@
     "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_url"
   },
   "swedeniq_o_proektnoj_organizacii": {
-    "title": "Сведения о проектной организации",
-    "type": "object",
-    "properties": {
-      "project_organization_legal_entity": {
-        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
-        "title": "Проектная организация – юр.лицо",
-        "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
-      },
-      "project_organization_natural_person": {
-        "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-        "title": "Проектная организации – физ.лицо",
-        "description": "Фамилия, Имя, Отчество"
-      },
-      "project_organization_address": {
-        "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
-        "title": "Адрес проектной организации",
-        "description": "Адрес"
-      },
-      "swedeniq_o_licenzii": {
-        "title": "Сведения о лицензии",
-        "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-      }
-    }
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_organizaton_information"
   },
   "swedeniq_o_ranee_wypolnennoj_nauchno_proektnoj_i_ili_proektnoj_dokumentacii_i_wozmozhnosti_ee_ispol_zowaniq": {
     "title": "Сведения о ранее выполненной научно-проектной и (или) проектной документации и возможности ее использования",

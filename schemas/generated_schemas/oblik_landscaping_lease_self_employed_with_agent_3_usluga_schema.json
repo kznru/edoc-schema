@@ -33,37 +33,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
     "graphic_part": {
-      "type": "object",
       "title": "Графическая часть",
-      "required": [
-        "photo"
-      ],
-      "properties": {
-        "general_plan": {
-          "title": "Генеральный план",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "accept": "image/png, image/jpeg",
-          "description": "Генеральный план. В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка. Файлы в формате jpg или png."
-        },
-        "landscape_visual_analysis": {
-          "title": "Ландшафтно-визуальный анализ",
-          "accept": "image/png, image/jpeg",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры). Файлы в формате jpg или png."
-        },
-        "projections": {
-          "title": "Проекции",
-          "description": "Файлы в формате jpg или png.",
-          "accept": "image/png, image/jpeg",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-        },
-        "photo": {
-          "title": "Фото исходной ситуации (файл)",
-          "accept": "image/png, image/jpeg",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/general_plan_and_landscape_visual_analysis_and_projections_and_photo"
     },
     "documents_of_title": {
       "title": "Правоустанавливающие документы",

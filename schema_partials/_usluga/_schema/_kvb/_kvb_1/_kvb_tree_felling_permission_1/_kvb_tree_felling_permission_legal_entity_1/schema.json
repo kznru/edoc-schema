@@ -15,7 +15,7 @@
     },
     "agent": {},
     "applicant_position": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Должность заявителя"
     },
     "letter_of_attorney": {

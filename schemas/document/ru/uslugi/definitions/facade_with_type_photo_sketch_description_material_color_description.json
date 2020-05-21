@@ -1,0 +1,40 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facade_with_type_photo_sketch_description_material_color_description",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Фасад",
+  "type": "object",
+  "required": [
+    "photo",
+    "sketch"
+  ],
+  "properties": {
+    "type": {
+      "title": "Тип фасада",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facade_type"
+    },
+    "photo": {
+      "title": "Фото исходной ситуации (файл)",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "Фотофиксация существующего состояния объекта и его окружения. Файлы в формате jpg или png."
+    },
+    "sketch": {
+      "title": "Эскизное предложение",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "Архитектурно-строительные чертежи: фасады объекта. Файлы в формате jpg или png."
+    },
+    "description": {
+      "title": "Описание",
+      "type": "string"
+    },
+    "material": {
+      "title": "Материал",
+      "type": "string"
+    },
+    "color_description": {
+      "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)",
+      "type": "string"
+    }
+  }
+}

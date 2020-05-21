@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_type",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Тип объекта",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "здание",
+    "нежилое помещение",
+    "строение",
+    "сооружение"
+  ]
+}

@@ -35,22 +35,24 @@ class SchemaGeneratorService
   def generate_schemas(data = {}, previous_dirs = [], future_dirs = [], name_postfix = '')
     next_subdir = future_dirs.shift
 
-    unless next_subdir.nil?
-      name_postfix = get_name_postfix(previous_dirs, name_postfix)
-      new_previous_dirs = previous_dirs + [next_subdir]
+    unless notbuild_folder?(previous_dirs)
+      unless next_subdir.nil?
+        name_postfix = get_name_postfix(previous_dirs, name_postfix)
+        new_previous_dirs = previous_dirs + [next_subdir]
 
-      dir_data = prepare_data(data, new_previous_dirs)
-      data = replace_folder?(new_previous_dirs) ? dir_data : deep_merge(data, dir_data)
-      data = deep_merge({debug: previous_dirs}, data) if @debug
+        dir_data = prepare_data(data, new_previous_dirs)
+        data = replace_folder?(new_previous_dirs) ? dir_data : deep_merge(data, dir_data)
+        data = deep_merge({debug: previous_dirs}, data) if @debug
 
-      generate_schemas(data, previous_dirs + [next_subdir], future_dirs, name_postfix)
-    else
-      build_data(data, strip_key_dir(previous_dirs) + name_postfix) if build_folder?(previous_dirs)
+        generate_schemas(data, previous_dirs + [next_subdir], future_dirs, name_postfix)
+      else
+        build_data(data, strip_key_dir(previous_dirs) + name_postfix) if build_folder?(previous_dirs)
 
-      subdirs = get_key_subdirs(previous_dirs)
-      subdirs.each do |subdir|
-        data_copy = data.clone
-        data_copy = generate_schemas(data_copy, previous_dirs, [subdir], name_postfix)
+        subdirs = get_key_subdirs(previous_dirs)
+        subdirs.each do |subdir|
+          data_copy = data.clone
+          data_copy = generate_schemas(data_copy, previous_dirs, [subdir], name_postfix)
+        end
       end
     end
   end
@@ -130,6 +132,11 @@ class SchemaGeneratorService
 
   def build_folder?(previous_dirs)
     build_file = @start_path.join(previous_dirs.join('/')).join('.build')
+    build_file.exist?
+  end
+
+  def notbuild_folder?(previous_dirs)
+    build_file = @start_path.join(previous_dirs.join('/')).join('.notbuild')
     build_file.exist?
   end
 

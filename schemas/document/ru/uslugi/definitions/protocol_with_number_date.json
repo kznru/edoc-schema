@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/protocol_with_number_date",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Протокол",
+  "type": "object",
+  "required": ["scanned_document", "document"],
+  "properties": {
+    "document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields"
+    },
+    "scanned_document": {
+      "title": "Скан протокола",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}

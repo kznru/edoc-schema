@@ -46,18 +46,7 @@
   "protokol_obschego_sobraniq": {
     "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
     "description": "Ссылка на протокол общего собрания в ГИС ЖКХ если переустройство и (или) перепланировка помещения в многоквартирном доме невозможны без присоединения к данному помещению части общего имущества в многоквартирном доме",
-    "type": "object",
-    "required": ["scanned_document"],
-    "properties": {
-      "document": {
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields"
-      },
-      "scanned_document": {
-        "title": "Скан протокола",
-        "accept": "application/pdf",
-        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
-      }
-    }
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/pdf_protocol_with_number_date"
   }
 },
   "required": [

@@ -48,7 +48,7 @@
     },
     "information_about_termination": {
       "title": "Информация о прекращаемом праве пользования земельным участком",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_info",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Договор аренды",
+  "properties": {
+    "number": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/string",
+      "title": "Номер"
+    },
+    "date": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
+      "title": "Дата"
+    }
+  }
+}

@@ -6,7 +6,7 @@
       "description": "Представитель заявителя"
     },
     "cancellation_number": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Адресный номер для аннулирования",
       "description": "Адресный номер объекта адресации, который необходимо аннулировать"
     },

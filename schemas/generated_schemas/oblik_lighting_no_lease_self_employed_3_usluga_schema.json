@@ -20,59 +20,8 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
     "graphic_part": {
-      "type": "object",
       "title": "Графическая часть",
-      "properties": {
-        "facades": {
-          "type": "array",
-          "minItems": 1,
-          "title": "Фасады",
-          "items": {
-            "type": "object",
-            "properties": {
-              "type": {
-                "type": "string",
-                "title": "Тип фасада",
-                "enum": [
-                  "главный",
-                  "боковой",
-                  "дворовый"
-                ]
-              },
-              "photo": {
-                "title": "Фото исходной ситуации (файл)",
-                "accept": "image/png, image/jpeg",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Фотофиксация существующего состояния объекта и его окружения.Файлы в формате jpg или png."
-              },
-              "sketch": {
-                "title": "Эскизное предложение",
-                "accept": "image/png, image/jpeg",
-                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-                "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке. Файлы в формате jpg или png."
-              }
-            }
-          }
-        },
-        "fragments_and_details": {
-          "title": "Фрагменты и детали",
-          "accept": "image/png, image/jpeg",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "description": "Файлы в формате jpg или png."
-        },
-        "general_plan": {
-          "title": "Генеральный план",
-          "accept": "image/png, image/jpeg",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-          "description": "Генплан размещения оборудования в масштабе 1:500 при архитектурной подсветке объекта с отдельно стоящих опор. Файлы в формате jpg или png."
-        },
-        "light_technical_calculation": {
-          "title": "Светотехнический расчет",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-          "accept": "image/png, image/jpeg",
-          "description": "Обоснование используемого оборудования. В формате jpeg или png"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_and_fragments_and_details_optional_and_general_plan_optional_and_light_technical_calculation"
     },
     "documents_for_land": {
       "title": "Правоустанавливающие документы на земельный участок",

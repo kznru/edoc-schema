@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_transfer_municipal_property",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Основание для передачи муниципального имущества",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "Вновь построенный, реконструированный объект недвижимости",
+    "Служебная необходимость",
+    "Выявленное имущество"
+  ]
+}

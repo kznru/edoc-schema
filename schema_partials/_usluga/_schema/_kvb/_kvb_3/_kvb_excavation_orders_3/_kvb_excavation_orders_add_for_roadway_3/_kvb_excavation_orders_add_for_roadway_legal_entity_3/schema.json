@@ -10,7 +10,7 @@
       "title": "Заявитель"
     },
     "organization_phone":{
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Телефон организации-заявителя"
     },
     "agent": {},
@@ -19,13 +19,7 @@
       "title": "Доверенность"
     },
     "responsible": {
-      "type": "object",
-      "properties": {
-        "fio": {
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
-          "title": "ФИО"
-        }
-      },
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_in_object",
       "title": "Подписант заявителя",
       "description": "ФИО заявителя, либо представителя по доверенности на право подписи заявки от имени заявителя на внесение в реестр разрешений на аварийные земляные работы по данному объекту"
     },

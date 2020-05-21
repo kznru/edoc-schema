@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanation_reason",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Причина продления",
+  "properties": {
+    "files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Письмо с объяснением причин продления сроков ордера"
+    },
+    "reason": {
+      "title": "Объяснение причины",
+      "type": "string"
+    }
+  }
+}

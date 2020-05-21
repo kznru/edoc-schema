@@ -13,29 +13,10 @@
       "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
     },
     "type": {
-      "enum": [
-        "крышная установка",
-        "брандмауэр",
-        "медиафасад",
-        "видеоэкран",
-        "строительная сетка"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type"
     },
     "property_owner": {
-      "required": [
-        "organization_or_natural_person",
-        "text"
-      ],
-      "type": "object",
-      "properties":{
-        "organization_or_natural_person": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
-        },
-        "text": {
-          "title": "Дополнительная информация о собственнике",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
-        }
-      },
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_owner",
       "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция"
     },
     "installation_and_operation_document": {

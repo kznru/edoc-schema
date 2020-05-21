@@ -1,0 +1,23 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description_and_fragments_and_details_optional_and_plan_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "facades": {
+      "title": "Фасады",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description"
+    },
+    "fragments_and_details":{
+      "title": "Фрагменты и детали",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "description": "Файлы в формате jpg или png."
+    },
+    "plan":{
+      "title": "План",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "description": "Файлы в формате jpg или png."
+    }
+  }
+}

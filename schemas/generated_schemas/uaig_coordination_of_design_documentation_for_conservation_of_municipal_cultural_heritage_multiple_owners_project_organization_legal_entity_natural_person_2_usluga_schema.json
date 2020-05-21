@@ -18,35 +18,7 @@
     "swedeniq_o_proektnoj_organizacii": {
       "title": "Сведения о проектной организации",
       "description": "Сведения о проектной организации",
-      "type": "object",
-      "required": [
-        "juridicheskoe_lico",
-        "fizicheskoe_lico",
-        "address",
-        "swedeniq_o_licenzii"
-      ],
-      "properties": {
-        "juridicheskoe_lico": {
-          "title": "Проектная организация - юр. лицо",
-          "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую",
-          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
-        },
-        "fizicheskoe_lico": {
-          "title": "Проектная организация - физ.лицо",
-          "description": "Фамилия, Имя, Отчество",
-          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
-        },
-        "address": {
-          "title": "Адрес проектной организации",
-          "description": "Адрес",
-          "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
-        },
-        "swedeniq_o_licenzii": {
-          "title": "Сведения о лицензии",
-          "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_organizaton_information_with_required_fields_2"
     },
     "sostaw_proektnoj_dokumentacii": {
       "title": "Состав проектной документации",

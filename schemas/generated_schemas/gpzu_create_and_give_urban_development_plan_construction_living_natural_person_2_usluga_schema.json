@@ -30,18 +30,12 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
     },
     "form_result_method": {
-      "title": "Форма предоставления результата",
-      "type": "string",
-      "minItems": 1,
-      "enum": [
-        "на бумажном носителе",
-        "в электронном виде"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/form_result_method"
     },
     "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
       "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
       "description": "Необходимо подтвердить согласие на обработку представленных данных",
-      "type": "boolean"
+      "$ref": "http://edoc-schema.kzn.ru/generic/boolean"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

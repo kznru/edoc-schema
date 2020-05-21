@@ -1,19 +1,7 @@
 {
   "properties": {
     "lease_contract_info": {
-      "type": "object",
-      "title": "Договор аренды",
-      "properties": {
-        "number": {
-          "type": "string",
-          "title": "Номер"
-        },
-        "date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_info"
     }
   }
 }

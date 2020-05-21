@@ -7,7 +7,7 @@
   "properties": {
     "route": {
       "title": "Маршрут движения",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "transportation_type": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/transportation_type"
@@ -18,7 +18,7 @@
     },
     "transportation_count": {
       "title": "Количество перевозок",
-      "type": "number"
+      "$ref": "http://edoc-schema.kzn.ru/generic/number"
     },
     "cargo_parameters": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cargo_parameters"
@@ -30,11 +30,11 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_parameters"
     },
     "escort_necessity": {
-      "type": "boolean",
+      "$ref": "http://edoc-schema.kzn.ru/generic/boolean",
       "title": "Необходимость автомобиля сопровождения (прикрытия)"
     },
     "estimated_maximum_speed": {
-      "type": "number",
+      "$ref": "http://edoc-schema.kzn.ru/generic/number",
       "title": "Предполагаемая максимальная скорость движения транспортного средства (автопоезда) (км/час)"
     },
     "bank_details": {

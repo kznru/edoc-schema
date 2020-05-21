@@ -12,12 +12,12 @@
       "title": "Площадь объекта"
     },
     "floor_number": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: этаж"
     },
     "property_number": {
       "title": "Информация, необходимая для идентификации имущества: номер помещения",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "floors_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -33,37 +33,20 @@
       "title": "Информация, необходимая для идентификации имущества: фото"
     },
     "other_info": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Информация, необходимая для идентификации имущества: иная информация"
     },
     "lease_contract": {
       "title": "Срок аренды",
-      "type": "string",
-      "enum": [
-        "30 календарных дней",
-        "11 месяцев",
-        "3 года",
-        "5 лет"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_rental_period"
     },
     "usage_kind": {
       "title": "Вид использования",
-      "type": "string",
-      "enum": [
-        "Торговля",
-        "Бытовое обслуживание населения",
-        "Реализация лекартсвенных препаратов и изделий медицинского характера",
-        "Образование",
-        "Здравоохранение",
-        "Банковские услуги",
-        "Офис",
-        "Склад",
-        "Иное"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usage_kind_object"
     },
     "other_usage_kind": {
       "title": "Иной вид использования",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     }
   }
 }
