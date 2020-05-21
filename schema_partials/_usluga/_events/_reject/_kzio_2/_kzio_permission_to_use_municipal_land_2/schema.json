@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "reject_reasons": {
+
+    },
+    "attachments_to_applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения для заявителей"
+    }
+  }
+}
