@@ -9,7 +9,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_optional"
     },
     "fio": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
       "title": "ФИО"
     },
     "mobile": {

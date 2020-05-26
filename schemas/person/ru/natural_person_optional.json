@@ -10,7 +10,7 @@
       "description": "Последние 6 цифр номера паспорта"
     },
     "fio": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
       "title": "ФИО",
       "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
     }

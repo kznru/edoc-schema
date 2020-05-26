@@ -1,10 +1,9 @@
 {
-  "id": "http://edoc-schema.kzn.ru/person/ru/fio",
+  "id": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Фамилия, имя и отчество человека",
   "description": "Фамилия, имя и отчество человека",
   "type": "object",
-  "required": ["name", "surname"],
   "properties": {
     "raw": {"type": "string", "title": "фио"},
     "name": {"type": "string", "title": "Имя"},
