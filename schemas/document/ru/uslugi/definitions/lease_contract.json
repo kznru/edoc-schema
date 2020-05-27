@@ -23,7 +23,7 @@
       "title": "Арендатор - юр.лицо"
     },
     "tenant_self_employed": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
       "title": "Арендатор - самозанятый"
     },
     "valid_from": {
