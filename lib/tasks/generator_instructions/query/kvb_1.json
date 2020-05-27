@@ -85,6 +85,13 @@
               "name": "kvb_accomplishment_mending_agreement_major_delete_prolong_1"
             }
           ]
+        },
+        {
+          "name": "kvb_provision_of_land_1",
+          "virtual": true,
+          "keys": [
+            { "name": "kvb_provision_of_land_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1" }
+          ]
         }
       ]
     }

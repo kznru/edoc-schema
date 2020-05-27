@@ -9,6 +9,12 @@
           "name": "uaig_request_for_urban_planning_conclusion_1"
         },
         {
+          "name": "uaig_request_for_urban_planning_conclusion_with_schema_land_plot_1",
+          "keys": [
+            { "name": "uaig_request_for_urban_planning_conclusion_with_schema_land_plot_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1"}
+          ]
+        },
+        {
           "name": "uaig_preparation_townplanning_opinion_on_possibility_of_issuing_requested_permission_to_use_land_1"
         },
         {

@@ -6,13 +6,10 @@
       "description": "Кадастровый номер",
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
-    "type_object": {
-      "title": "Тип объекта недвижимости",
-      "type": "string"
-    },
-    "okato": {
-      "title": "ОКАТО",
-      "type": "string"
+    "green_report_area": {
+      "title": "Площадь земельного участка (кв. м)",
+      "description": "Указывается точное значение в соответствии со  схемой расположения земельного участка на кадастровом плане территории и протоколом общего собрания членов садоводческого, огороднического или дачного некоммерческого объединения граждан о распределении земельных участков между членами указанного объединения, иным устанавливающим распределение земельных участков в этом объединении документом или выпиской из указанного протокола или указанного документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
     },
     "address": {
       "title": "Адрес, по которому находится земельный участок",
@@ -22,8 +19,7 @@
   },
   "required": [
     "cadastre_number",
-    "type_object",
-    "okato",
+    "green_report_area",
     "address"
   ],
   "$schema": "http://json-schema.org/draft-06/schema#"

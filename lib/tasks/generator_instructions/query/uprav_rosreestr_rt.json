@@ -5,10 +5,38 @@
       "name": "uprav_rosreestr_rt",
       "virtual": true,
       "keys": [
-        { "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_1" },
-        { "name": "uprav_rosreestr_rt_about_property_1" },
-        { "name": "uprav_rosreestr_rt_egrul_1" },
-        { "name": "uprav_rosreestr_rt_cadastre_plan_1" }
+        {
+          "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_1",
+          "keys": [
+            { "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_for_adm_provision_of_land_plot_related_to_common_property_1" },
+            { "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_for_adm_preliminary_approval_provision_of_land_plots_1" },
+            { "name": "uprav_rosreestr_rt_about_characteristics_and_rights_to_property_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1" }
+          ]
+        },
+        {
+          "name": "uprav_rosreestr_rt_about_property_1",
+          "keys": [
+            { "name": "uprav_rosreestr_rt_about_property_for_adm_provision_of_land_plot_related_to_common_property_1" },
+            { "name": "uprav_rosreestr_rt_about_property_for_adm_preliminary_approval_provision_of_land_plots_1" },
+            { "name": "uprav_rosreestr_rt_about_property_for_adm_free_provision_of_land_plot_occupied_by_individual_house_zu_1" },
+            { "name": "uprav_rosreestr_rt_about_property_for_adm_free_provision_of_land_plot_occupied_by_individual_house_oks_1" }
+          ]
+        },
+        {
+          "name": "uprav_rosreestr_rt_egrul_1",
+          "keys": [
+            { "name": "uprav_rosreestr_rt_egrul_for_adm_provision_of_land_plot_related_to_common_property_1" },
+            { "name": "uprav_rosreestr_rt_egrul_for_adm_preliminary_approval_provision_of_land_plots_1" }
+          ]
+        },
+        {
+          "name": "uprav_rosreestr_rt_cadastre_plan_1",
+          "keys": [
+            { "name": "uprav_rosreestr_rt_cadastre_plan_for_adm_provision_of_land_plot_related_to_common_property_1" },
+            { "name": "uprav_rosreestr_rt_cadastre_plan_for_adm_preliminary_approval_provision_of_land_plots_1" },
+            { "name": "uprav_rosreestr_rt_cadastre_plan_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1" }
+          ]
+        }
       ]
     }
   ]

@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "green_report_area": {
+      "title": "Площадь земельного участка (кв. м)",
+      "description": "Указывается точное значение в соответствии со  схемой расположения земельного участка на кадастровом плане территории и протоколом общего собрания членов садоводческого, огороднического или дачного некоммерческого объединения граждан о распределении земельных участков между членами указанного объединения, иным устанавливающим распределение земельных участков в этом объединении документом или выпиской из указанного протокола или указанного документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес, по которому находится земельный участок"
+    },
+    "restrictions_on_land": {
+      "type": "string",
+      "title": "Ограничения и обременения в отношении земельного участка"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "cadastre_number",
+    "green_report_area",
+    "address_with_map",
+    "restrictions_on_land"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

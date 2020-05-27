@@ -1,0 +1,75 @@
+{
+  "type": "object",
+  "properties": {
+    "types_of_permitted_use_of_land":{
+      "title": "Вид разрешенного использования",
+      "description": "указывается согласно сведениям ЕГРН",
+      "type": "string"
+    },
+    "address_from_egrn":{
+      "title": "Адрес",
+      "description": "указывается согласно сведениям ЕГРН",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "snt":{
+      "title": "Правообладатель",
+      "description": "указывается наименование садоводческого объединения согласно сведениям ЕГРН",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "extract_from_protocol":{
+      "type": "object",
+      "title": "Выписка из протокола",
+      "required": [
+        "meeting_of_members",
+        "from",
+        "number",
+        "issued_by",
+        "issued_number",
+        "title_document"
+      ],
+      "properties":{
+        "meeting_of_members":{
+          "title": "Общего собрания членов",
+          "type": "string"
+        },
+        "from":{
+          "title": "От",
+          "type": "string",
+          "format": "date"
+        },
+        "number":{
+          "title": "Номер",
+          "type": "string"
+        },
+        "issued_by":{
+          "title": "Выданная",
+          "type": "string"
+        },
+        "issued_number":{
+          "title": "За номером",
+          "type": "string"
+        },
+        "title_document":{
+          "title": "Правоустанавливающие документы",
+          "type": "string"
+        }
+      }
+    },
+    "responsible":{
+      "title": "ФИО ответственного",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "head_person":{
+      "title": "Руководитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    }
+  },
+  "required":[
+    "types_of_permitted_use_of_land",
+    "address_from_egrn",
+    "snt",
+    "extract_from_protocol",
+    "responsible",
+    "head_person"
+  ]
+}
