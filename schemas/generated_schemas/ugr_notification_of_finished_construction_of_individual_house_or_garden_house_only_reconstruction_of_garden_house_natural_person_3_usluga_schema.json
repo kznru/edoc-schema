@@ -1,0 +1,107 @@
+{
+  "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "contact_mailing_address",
+    "developer_rights",
+    "availability_rights_of_other_person",
+    "state_duty_payment",
+    "address_with_map",
+    "cadastre_number",
+    "type_of_permitted_use_of_land",
+    "schematic_depiction",
+    "technical_plan",
+    "rights_determination_agreement",
+    "result_delivery_method"
+  ],
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_snils",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "registration_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Место жительства",
+      "description": "Адрес проживания"
+    },
+    "contact_mailing_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Почтовый адрес для связи"
+    },
+    "contact_email": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "format": "email",
+      "title": "Адрес электронной почты для связи"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес или местоположение земельного участка",
+      "description": "Местоположение строящегося дома"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка",
+      "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
+    },
+    "developer_rights": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
+      "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
+    },
+    "availability_rights_of_other_person": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
+      "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
+    },
+    "type_of_permitted_use_of_land": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о виде разрешенного использования земельного участка",
+      "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
+    },
+    "planning_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_parameters_with_mansarda"
+    },
+    "schematic_depiction": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "image/png, image/jpeg",
+      "title": "Схематичное изображение реконструированного объекта капитального строительства на земельном участке",
+      "description": "Отсканированное в цвете схематичное изображение реконструированного объекта капитального строительства на земельном участке"
+    },
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Технический план объекта капитально строительства",
+      "description": "Подготовленный кадастровым инженером, в соответствии с Федеральным законом №218-ФЗ"
+    },
+    "rights_determination_agreement": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключенное соглашение об определении долей в праве общей долевой собственности",
+      "description": "Если земельный участок, на котором построен или реконструирован объект ИЖС или СД, принадлежит двум и более гражданам на праве общей долевой собственности или на праве аренды со множественностью лиц на стороне арендатора"
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment"
+    },
+    "confirm_that_will_not_separate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
+    },
+    "confirm_that_conforms_city_rules": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Подтверждаю, что объект индивидуального жилищного строительства соответствует Градостроительному уставу г.Казани, утвержденному решением Казанского Совета народных депутатов от 26.06.1998 №2-12; местным нормативам градостроительного проектирования городского округа Казань, утвержденным решением Казанской городской Думы от 14.12.2016 №8-12, требованиям технических регламентов (норм и правил)"
+    },
+    "result_delivery_method": {
+      "title": "Способ и данные для получения результата услуги (желательно использовать электронную почту)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "contact_mailing_address"
+  ],
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_snils",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "registration_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Место жительства",
+      "description": "Адрес проживания, указывается адрес по регистрации"
+    },
+    "contact_mailing_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Почтовый адрес для связи"
+    },
+    "contact_email": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "format": "email",
+      "title": "Адрес электронной почты для связи"
+    }
+  }
+}

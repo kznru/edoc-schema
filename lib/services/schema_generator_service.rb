@@ -97,6 +97,7 @@ class SchemaGeneratorService
   end
 
   def get_file_data(file_with_ext)
+    p file_with_ext
     case file_with_ext[:ext]
     when *['.yaml', '.yml']
       YAML.load_file(file_with_ext[:file])

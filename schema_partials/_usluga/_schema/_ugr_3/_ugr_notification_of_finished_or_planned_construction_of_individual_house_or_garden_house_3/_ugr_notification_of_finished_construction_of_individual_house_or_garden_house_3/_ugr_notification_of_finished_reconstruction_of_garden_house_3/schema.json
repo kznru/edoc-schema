@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "address_with_map": {},
+    "cadastre_number": {},
+    "developer_rights": {},
+    "availability_rights_of_other_person": {},
+    "type_of_permitted_use_of_land": {},
+    "planning_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_parameters_with_mansarda"
+    },
+    "schematic_depiction": {},
+    "technical_plan": {},
+    "rights_determination_agreement": {}
+  }
+}
+
