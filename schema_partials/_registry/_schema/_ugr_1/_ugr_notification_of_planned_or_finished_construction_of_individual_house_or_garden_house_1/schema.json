@@ -27,6 +27,10 @@
       "title": "Адрес или местоположение земельного участка",
       "description": "Местоположение строящегося дома"
     },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер"
+    },
     "result_delivery_method": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
     },
