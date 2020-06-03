@@ -122,7 +122,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cadastral_numbers_of_land_for_construction",
     "proekt_planirowki_territorii_rekwizity_postanowleniq_ispolnitel_nogo_komiteta_g_kazani",
     "proekt_mezhewaniq_territorii_rekwizity_postanowleniq_ispolnitel_nogo_komiteta_g_kazani",

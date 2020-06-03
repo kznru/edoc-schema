@@ -117,7 +117,7 @@
     }
   },
   "required": [
-    "applicant",
+    "agent",
     "cadastral_numbers_of_land_for_construction",
     "gradostroitel_nyj_plan_zemel_nogo_uchastka_gpzu",
     "naimenowanie_ob_ekta_kapital_nogo_stroitel_stwa__tapa_w_sootwetstwii_s_proektnoj_dokumentaciej",
