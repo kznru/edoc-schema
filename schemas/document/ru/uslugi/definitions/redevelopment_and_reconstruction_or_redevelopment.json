@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/redevelopment_and_reconstruction_or_redevelopment",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "перепланировку и переустройство или перепланировку",
+  "title": "Разрешение провести:",
+  "type": "string",
+  "enum": [
+    "перепланировку и переустройство",
+    "перепланировку"
+  ]
+}
