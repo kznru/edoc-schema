@@ -4,7 +4,7 @@
     "types_of_permitted_use_of_land":{
       "title": "Вид разрешенного использования",
       "description": "указывается согласно сведениям ЕГРН",
-      "type": "string"
+       "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "address_from_egrn":{
       "title": "Адрес",
@@ -17,43 +17,8 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
     },
     "extract_from_protocol":{
-      "type": "object",
       "title": "Выписка из протокола",
-      "required": [
-        "meeting_of_members",
-        "from",
-        "number",
-        "issued_by",
-        "issued_number",
-        "title_document"
-      ],
-      "properties":{
-        "meeting_of_members":{
-          "title": "Общего собрания членов",
-          "type": "string"
-        },
-        "from":{
-          "title": "От",
-          "type": "string",
-          "format": "date"
-        },
-        "number":{
-          "title": "Номер",
-          "type": "string"
-        },
-        "issued_by":{
-          "title": "Выданная",
-          "type": "string"
-        },
-        "issued_number":{
-          "title": "За номером",
-          "type": "string"
-        },
-        "title_document":{
-          "title": "Правоустанавливающие документы",
-          "type": "string"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extract_from_protocol"
     },
     "responsible":{
       "title": "ФИО ответственного",
