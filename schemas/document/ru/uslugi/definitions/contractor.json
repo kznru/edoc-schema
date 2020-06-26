@@ -15,7 +15,6 @@
     },
     "contractor_responsible": {
       "type": "array",
-      "minItems": 1,
       "items": {
         "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
       },
