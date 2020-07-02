@@ -1,0 +1,25 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/road_owners",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Владельцы автомобильных дорог, сооружений, инженерных коммуникаций, органы управления Госавтоинспекции и другие организации, согласовывавшие перевозку",
+  "description": "Указывается наименование согласующей организации, исходящий номер и дата согласования",
+  "items": {
+    "type": "object",
+    "properties": {
+      "owner": {
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+        "title": "Владелец"
+      },
+      "outgoing_number": {
+        "type": "string",
+        "title": "Исходящий номер"
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "title": "Дата согласования"
+      }
+    }
+  }
+}

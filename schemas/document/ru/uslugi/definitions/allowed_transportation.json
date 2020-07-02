@@ -1,0 +1,20 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/allowed_transportation",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Разрешено выполнить",
+  "properties": {
+    "transportation_count": {
+      "title": "Количество перевозок",
+      "type": "number"
+    },
+    "route": {
+      "title": "Маршрут движения",
+      "type": "string"
+    },
+    "transportation_time": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+      "title": "Сроки перевозки"
+    }
+  }
+}

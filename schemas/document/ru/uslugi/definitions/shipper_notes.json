@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/shipper_notes",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Отметки грузоотправителя об отгрузке  груза при межрегиональных и местных перевозках",
+  "description": "Указывается дата отгрузки, реквизиты грузоотправителя",
+  "items": {
+    "type": "object",
+    "properties": {
+      "owner": {
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+        "title": "Грузоотправитель"
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "title": "Дата начала поездки"
+      }
+    }
+  }
+}
