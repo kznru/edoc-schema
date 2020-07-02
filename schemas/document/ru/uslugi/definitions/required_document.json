@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Документ",
   "title": " ",

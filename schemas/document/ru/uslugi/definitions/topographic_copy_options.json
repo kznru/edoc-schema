@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topographic_copy_options",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Укажите необходимые параметры копии топографического плана участка:",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "выдача красных линий",
+      "топоплан в бумажном варианте",
+      "топоплан в электронном варианте (растровый вид)",
+      "картографическое вычерчивание топоплана (электронный вариант векторный вид)"
+    ]
+  },
+  "uniqueItems": true,
+  "minItems": 1
+}
