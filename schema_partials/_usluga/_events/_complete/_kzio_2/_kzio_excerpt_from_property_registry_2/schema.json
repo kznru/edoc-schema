@@ -11,13 +11,8 @@
       "title": "Дата включения"
     },
     "property_type": {
-      "type": "string",
       "title": "Тип помещения",
-      "minItems": 1,
-      "enum": [
-        "жилые",
-        "нежилые"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/residential_nonresidential_property"
     },
     "property_area": {
       "type": "string",
