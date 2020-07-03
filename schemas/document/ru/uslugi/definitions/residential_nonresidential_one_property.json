@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/residential_nonresidential_one_property",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Тип помещения",
+  "minItems": 1,
+  "enum": [
+    "жилое",
+    "нежилое"
+  ]
+}
