@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_owner_notes",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Отметки владельца транспортного средства о поездке (поездках) транспортного средства",
+  "description": "Указывается дата начала каждой поездки, заверяется подписью ответственного лица и печатью организации",
+  "items": {
+    "type": "object",
+    "properties": {
+      "owner": {
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+        "title": "Владелец"
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "title": "Дата начала поездки"
+      }
+    }
+  }
+}

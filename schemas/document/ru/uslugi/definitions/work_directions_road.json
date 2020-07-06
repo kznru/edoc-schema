@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_road",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Требования к работам на проезжей части",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "работы вести с обеспечением безопасного проезда автотранспорта и безопасного движения пешеходов, согласно технических средств регулирования дорожного движения"
+    ]
+  },
+  "uniqueItems": true
+}

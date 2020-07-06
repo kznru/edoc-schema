@@ -9,22 +9,7 @@
       "title": "Год"
     },
     "allowed": {
-      "type": "object",
-      "title": "Разрешено выполнить",
-      "properties": {
-        "transportation_count": {
-          "title": "Количество перевозок",
-          "type": "number"
-        },
-        "route": {
-          "title": "Маршрут движения",
-          "type": "string"
-        },
-        "transportation_time": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
-          "title": "Сроки перевозки"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/allowed_transportation"
     },
     "vehicle_info": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_info"
@@ -49,27 +34,7 @@
       "type": "string"
     },
     "road_owners": {
-      "type": "array",
-      "title": "Владельцы автомобильных дорог, сооружений, инженерных коммуникаций, органы управления Госавтоинспекции и другие организации, согласовывавшие перевозку",
-      "description": "Указывается наименование согласующей организации, исходящий номер и дата согласования",
-      "items": {
-        "type": "object",
-        "properties": {
-          "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-            "title": "Владелец"
-          },
-          "outgoing_number": {
-            "type": "string",
-            "title": "Исходящий номер"
-          },
-          "date": {
-            "type": "string",
-            "format": "date",
-            "title": "Дата согласования"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/road_owners"
     },
     "acquainted": {
       "type": "boolean",
@@ -80,42 +45,10 @@
       "title": "Транспортное средство с грузом/без груза соответствует требованиям законодательства Российской Федерации в области перевозки тяжеловесных и (или) крупногабаритных грузов и параметрам, указанным в настоящем специальном разрешении"
     },
     "vehicle_owner_notes": {
-      "type": "array",
-      "title": "Отметки владельца транспортного средства о поездке (поездках) транспортного средства",
-      "description": "Указывается дата начала каждой поездки, заверяется подписью ответственного лица и печатью организации",
-      "items": {
-        "type": "object",
-        "properties": {
-          "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-            "title": "Владелец"
-          },
-          "date": {
-            "type": "string",
-            "format": "date",
-            "title": "Дата начала поездки"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/vehicle_owner_notes"
     },
     "shipper_notes": {
-      "type": "array",
-      "title": "Отметки грузоотправителя об отгрузке  груза при межрегиональных и местных перевозках",
-      "description": "Указывается дата отгрузки, реквизиты грузоотправителя",
-      "items": {
-        "type": "object",
-        "properties": {
-          "owner": {
-            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-            "title": "Грузоотправитель"
-          },
-          "date": {
-            "type": "string",
-            "format": "date",
-            "title": "Дата начала поездки"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/shipper_notes"
     },
     "special_notes": {
       "type": "string",
