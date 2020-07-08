@@ -10,12 +10,12 @@
       "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
     },
     "project_organization_natural_person": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
       "title": "Проектная организации – физ.лицо",
       "description": "Фамилия, Имя, Отчество"
     },
     "project_organization_address": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_optional",
       "title": "Адрес проектной организации",
       "description": "Адрес"
     },

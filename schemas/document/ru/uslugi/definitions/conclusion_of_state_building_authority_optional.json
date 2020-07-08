@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_of_state_building_authority_optional",
+"id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_of_state_building_authority_optional",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Заключение органа государственного строительного надзора",
   "type": "object",
@@ -12,7 +12,7 @@
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
-      "title": "Огран выдавший заключение",
+      "title": "Орган выдавший заключение",
       "description": "Начните вводить наименование российской организации и выберите из одгрузившегося справочника соответствующую"
     },
     "number": {

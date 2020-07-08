@@ -35,10 +35,12 @@
     },
     "phone_number": {
       "title": "Телефон",
+      "description": "Телефон члена семьи",
       "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "email": {
       "title": "Email",
+      "description": "Электронная почта члена семьи",
       "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "living_place": {
@@ -51,6 +53,7 @@
     },
     "share_size": {
       "title": "Размер доли",
+      "description": "Размер доли члена семьи",
       "$ref": "http://edoc-schema.kzn.ru/generic/string"
     }
   }
