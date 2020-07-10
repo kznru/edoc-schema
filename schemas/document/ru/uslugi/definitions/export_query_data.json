@@ -1,0 +1,32 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/export_query_data",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Данные для экспорта",
+  "properties": {
+    "agent": {
+      "title": "Заявитель (физ. лицо)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
+    },
+    "applicant": {
+      "title": "Заявитель (физ. лицо с представителем)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_optional"
+    },
+    "organization": {
+      "title": "Заявитель (юр. лицо или ИП)",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional"
+    },
+    "address_with_map": {
+      "title": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
+    },
+    "address": {
+      "title": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_optional"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
+  }
+}
