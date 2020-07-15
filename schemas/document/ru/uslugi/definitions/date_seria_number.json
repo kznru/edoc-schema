@@ -1,0 +1,26 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/date_seria_number",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Дата, серия, номер",
+  "required": [
+    "date",
+    "seria",
+    "number"
+  ],
+  "properties":{
+    "date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата"
+    },
+    "seria":{
+      "type": "string",
+      "title": "Серия"
+    },
+    "number":{
+      "type": "string",
+      "title": "Номер"
+    }
+  }
+}

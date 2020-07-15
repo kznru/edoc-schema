@@ -1,0 +1,20 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/initial_addresses",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Исходные земельные участки",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "address": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+        "title": "Местоположение земельного участка"
+      },
+      "cadastre_number": {
+        "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+        "title": "Кадастровый номер земельного участка"
+      }
+    }
+  }
+}
