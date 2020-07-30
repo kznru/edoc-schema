@@ -6,7 +6,8 @@
   "properties": {
     "subcontractor_organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
-      "title": "Организация субподрядчика"
+      "title": "Организация субподрядчика",
+      "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору субподряда (если предусмотрен договором)"
     },
     "subcontractor_organization_phone":{
       "type": "string",

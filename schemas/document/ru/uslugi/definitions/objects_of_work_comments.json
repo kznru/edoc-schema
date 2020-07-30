@@ -2,6 +2,6 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Дополнительное описание необходимых работ",
-  "description": "Укажите подробное описание предстоящих земляных работ, на которые оформляется разрешение",
+  "description": "Здесь Вы можете указать подробное описание предстоящих земляных работ, на которые оформляется разрешение",
   "type": "string"
 }
