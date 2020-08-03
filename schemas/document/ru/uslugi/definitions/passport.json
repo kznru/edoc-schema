@@ -14,13 +14,13 @@
       "type": "string",
     "pattern": "^[0-9]{4}$",
       "title": "Серия паспорта",
-      "description": "Первые 4 цифры номера паспорта"
+      "description": "Cерия паспорта - 4 цифры"
     },
     "passport_number": {
       "type": "string",
       "pattern": "^[0-9]{6}$",
       "title": "Номер паспорта",
-      "description": "Последние 6 цифр номера паспорта"
+      "description": "Номер паспорта - 6 цифр"
     },
     "passport_issued_by":{
       "type": "string",

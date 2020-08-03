@@ -4,7 +4,7 @@
   "title": "Физическое лицо",
   "type": "object",
   "properties": {
-    "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта", "description": "Последние 6 цифр номера паспорта"},
+    "passport_number": {"type": "string", "pattern": "^[0-9]{6}$","title": "Номер паспорта", "description": "Номер паспорта - 6 цифр"},
     "fio": {"$ref": "http://edoc-schema.kzn.ru/person/ru/fio", "title": "ФИО", "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"}
   },
   "required": ["fio", "passport_number"]
