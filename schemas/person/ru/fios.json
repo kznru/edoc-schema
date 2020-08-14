@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/fios",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Фамилия, имя и отчество нескольких человек",
+  "description": "Фамилия, имя и отчество нескольких человек",
+   "type": "array",
+  "items": {
+    "$ref":"http://edoc-schema.kzn.ru/person/ru/fio"
+  },
+  "minItems": 1
+}

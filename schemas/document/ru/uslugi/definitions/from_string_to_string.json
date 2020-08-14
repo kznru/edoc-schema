@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/from_string_to_string",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Срок",
+  "type": "object",
+  "properties": {
+    "from": {
+      "type": "string",
+      "title": "С"
+    },
+    "to": {
+      "type": "string",
+      "title": "До"
+    }
+  }
+}

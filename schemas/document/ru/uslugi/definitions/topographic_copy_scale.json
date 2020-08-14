@@ -1,0 +1,16 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topographic_copy_scale",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Масштаб топоплана",
+  "description": "Укажите необходимые параметры копии топографического плана участка",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "1:500",
+      "1:2000"
+    ]
+  },
+  "uniqueItems": true,
+  "minItems": 1
+}

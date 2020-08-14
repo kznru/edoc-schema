@@ -1,5 +1,5 @@
 {
-  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper",
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_paper",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Способ и данные для предоставления результата услуги",
   "description": "Необходимо выбрать один из способов",

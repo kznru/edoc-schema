@@ -1,0 +1,52 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/sed_dc_list_data",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Лист согласования СЭД",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["c_type", "users"],
+    "properties": {
+      "c_type": {
+        "title": "Тип согласования",
+        "type": "number"
+      },
+      "users":{
+        "type": "array",
+        "title": "Согласующие",
+        "minItems": 1,
+        "items": {
+          "required": ["user_id"],
+          "type": "object",
+          "properties": {
+            "user_id": {
+              "title": "ID согласуещего",
+              "type": "number"
+            },
+            "status": {
+              "title": "Статус",
+              "type": "number"
+            },
+            "start_date": {
+              "title": "Дата начала",
+              "type": "string"
+            },
+            "csdr_date": {
+              "title": "Дата согласования",
+              "type": "string"
+            },
+            "deadline": {
+              "title": "Последний срок согласования",
+              "type": "string"
+            },
+            "note": {
+              "title": "Комментарий",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
