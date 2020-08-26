@@ -4,6 +4,7 @@
   "description": "Паспорт БТИ",
   "title": "Паспорт БТИ",
   "type": "object",
+  "required": ["bti"],
   "properties": {
     "bti": {
       "type": "string",
