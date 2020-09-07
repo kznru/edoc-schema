@@ -1,0 +1,35 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_on_current_protection_obligations",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Сведения о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "type",
+      "number",
+      "date",
+      "characteristic"
+    ],
+    "properties": {
+      "type": {
+        "title": "Вид",
+        "type": "string"
+      },
+      "number": {
+        "title": "Номер",
+        "type": "string"
+      },
+      "date": {
+        "title": "Дата",
+        "type": "string",
+        "format": "date"
+      },
+      "characteristic": {
+        "title": "Характер современного использования",
+        "type": "string"
+      }
+    }
+  }
+}

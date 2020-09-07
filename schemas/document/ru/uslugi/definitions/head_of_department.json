@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/head_of_department",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Должность и ФИО утверждающего из УАИГ Исполнительного коммитета г. Казани",
+  "type": "object",
+  "required": [
+    "position",
+    "fio"
+  ],
+  "properties": {
+    "position": {
+      "type": "string",
+      "title": "Должность"
+    },
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "ФИО",
+      "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+    }
+  }
+}

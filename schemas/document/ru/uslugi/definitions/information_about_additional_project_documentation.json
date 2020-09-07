@@ -1,0 +1,105 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_about_additional_project_documentation",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "К ранее выполненной проектной документации разработать",
+  "type": "object",
+  "required": [
+    "preliminary_work",
+    "scientific_research",
+    "project_of_restoration",
+    "working_scientific_project_documentation",
+    "reporting_documentation"
+  ],
+  "properties": {
+    "preliminary_work": {
+      "title": "Раздел 1. Предварительные работы",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "scientific_research": {
+      "title": "Раздел 2. Комплексные научные исследования",
+      "type": "object",
+      "required": [
+        "stage_before_start_work",
+        "stage_in_work"
+      ],
+      "properties": {
+        "stage_before_start_work": {
+          "title": "Этап до начала производства работ",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "stage_in_work": {
+          "title": "Этап в процессе производства работ",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "project_of_restoration": {
+      "title": "Раздел 3. Проект реставрации и приспособления",
+      "type": "object",
+      "required": [
+        "preliminary_project",
+        "project"
+      ],
+      "properties": {
+        "preliminary_project": {
+          "title": "Эскизный проект",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "project": {
+          "title": "Проект",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "working_scientific_project_documentation": {
+      "title": "Раздел 4. Рабочая научно-проектная документация",
+      "type": "object",
+      "required": [
+        "stage_before_start_work",
+        "stage_in_work"
+      ],
+      "properties": {
+        "stage_before_start_work": {
+          "title": "Этап до начала производства работ",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "stage_in_work": {
+          "title": "Этап в процессе производства работ",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "reporting_documentation": {
+      "title": "Раздел 5. Отчетная документация",
+      "type": "string"
+    }
+  }
+}

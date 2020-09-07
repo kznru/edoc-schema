@@ -1,0 +1,53 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_conservation_of_cultural_heritage",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Основание для проведения работ по сохранению объекта культурного наследия",
+  "type": "object",
+  "required": [
+    "type_of_approved_document",
+    "registration_number",
+    "approval_date",
+    "content_of_conservation_of_cultural_heritage",
+    "start_date",
+    "end_date",
+    "intended_use_of_cultural_property",
+    "intended_sequence_of_work_on_safety_or_local_work"
+  ],
+  "properties": {
+    "type_of_approved_document": {
+      "title": "Вид утвержденного документа",
+      "type": "string"
+    },
+    "registration_number": {
+      "title": "Регистрационный номер",
+      "type": "string"
+    },
+    "approval_date": {
+      "title": "Дата утверждения",
+      "type": "string",
+      "format": "date"
+    },
+    "content_of_conservation_of_cultural_heritage": {
+      "title": "Основное содержание проведения работ по сохранению объекта культурного наследия",
+      "type": "string"
+    },
+    "start_date": {
+      "title": "Срок начала работ",
+      "type": "string",
+      "format": "date"
+    },
+    "end_date": {
+      "title": "Срок окончания работ",
+      "type": "string",
+      "format": "date"
+    },
+    "intended_use_of_cultural_property": {
+      "title": "Предполагаемое использование объекта культурного наследия",
+      "type": "string"
+    },
+    "intended_sequence_of_work_on_safety_or_local_work": {
+      "title": "Намечаемая очередность проведения работ по сохранности или локальных работ",
+      "type": "string"
+    }
+  }
+}

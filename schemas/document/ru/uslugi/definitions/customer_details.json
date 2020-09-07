@@ -1,0 +1,41 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/customer_details",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о заказчике",
+  "type": "object",
+  "required": [
+    "organization_or_natural_person",
+    "address",
+    "responsible_agent",
+    "phone_number"
+  ],
+  "properties": {
+    "organization_or_natural_person": {
+      "title": "",
+      "type": "object",
+      "properties": {
+        "natural_person": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional",
+          "title": "Физическое лицо"
+        },
+        "organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+          "title": "Полное наименование, организационно-правовая форма юридического лица в соответствии с учредительными документами - юр.лицо"
+        }
+      }
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес места нахождения"
+    },
+    "responsible_agent": {
+      "title": "Ответственный представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
+    },
+    "phone_number": {
+      "title": "Контактный телефон",
+      "description": "Включая код города",
+      "type": "string"
+    }
+  }
+}

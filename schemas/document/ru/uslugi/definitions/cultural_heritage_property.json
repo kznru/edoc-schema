@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cultural_heritage_property",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Предмет охраны объекта культурного наследия",
+  "type": "object",
+  "required": [
+    "image",
+    "description"
+  ],
+  "properties": {
+    "description": {
+      "title": "Описание",
+      "type": "string"
+    },
+    "image": {
+      "title": "Изображение",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}
