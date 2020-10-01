@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments_5mb",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Приложение",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_5mb"
+  }
+}

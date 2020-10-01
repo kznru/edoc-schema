@@ -38,7 +38,7 @@
       "title": "Дата выдачи"
     },
     "content": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/passport_bti_content_optional",
       "title": "Отсканированная копия паспорта БТИ",
       "description": ""
     }
