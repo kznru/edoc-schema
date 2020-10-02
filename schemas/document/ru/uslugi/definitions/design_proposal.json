@@ -6,82 +6,82 @@
   "description": "Состав эскизного предложения определен постановлением ИК от 30.07.2008 №4157 (  с учетом изменений от от 28.07.2011 N 4074. Каждый лист должен быть поименован",
   "properties": {
     "content": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_content_optional",
       "title": "Содержание эскизного предложения"
     },
     "explanatory_note": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_explanatory_note_optional",
       "title": "Пояснительная записка",
       "description": "Технико-экономические показатели, краткое описание проектируемого объекта и принятых решений, соблюдение требований пожарной безопсности, соответствие МНГП, утвержденным проектам планировок, план мероприятий по обеспечению доступа МГН и т.д."
     },
     "situational_plan":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_situational_plan_optional",
       "title": "Ситуационный план",
       "description": "Схема размещения объекта в городе"
     },
     "photofixation": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_photofixation_optional",
       "title": "Фотофиксация существующего состояния территории и ее окружения"
     },
     "territory_analysis": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_territory_analysis_optional",
       "title": "Анализ территории",
       "description": "Расположение земельного участка с учетом указания функционального назначения смежных участков и объектов на них, санитарно-защитных зон и санитарных разрывов от них, достаточность обеспечения объектами социального и культурно-бытового обслуживания населения, объектами спорта и здравоохранения, общеобразовательными детскими дошкольными и школьными учреждениями, поликлиниками и т.д. в виде схемы с указанием радиусов доступности (применяется для жилищного строительства)"
     },
     "genplan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_genplan_optional",
       "title": "Генплан",
       "description": "(в цвете) радиусом не менее 50 метров от границ земельного участка на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с даты представления, с указанием границ предоставляемого участка, красных линий, элементов ландшафтного дизайна и комплексного благоустройства, включая организацию парковок, границ подземного паркинга (при наличии), отступов от границ земельного участка (для жилищного строительства) в соответствии с Градостроительным уставом г.Казани"
     },
     "construction_order": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_construction_order_optional",
       "title": "Очередность строительства"
     },
     "land_improvement_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_land_improvement_plan_optional",
       "title": "План комплексного благоустройства территории",
       "description": "(в цвете) в М 1:200, включая инвентаризацию зеленых насаждений, организацию парковок с обозначением   используемых материалов и изделий, ассортимента средств озеленения и применяемых элементов благоустройства, малых архитектурных форм)"
     },
     "analysis_of_pedestrian_and_transport_links": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_analysis_of_pedestrian_and_transport_links_optional",
       "title": "Анализ пешеходных и транспортных связей",
       "description": "(схема организации пешеходного и транспортного движения на рассматриваемой территории с графическим указанием пешеходных и транспортных связей, радиусов поворота машин, заездов-выездов на парковки, заездов с основных транспортных магистралей)"
     },
     "facades": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_facades_optional",
       "title": "Фасады проектируемого объекта",
       "description": "(главные, боковые, дворовые) с указанием высотных параметров объекта, цветовое решение с  экспликацией отделочных фасадных материалов по наружной отделке (в читабельном масштабе);"
     },
     "plans_by_floor": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_plans_by_floor_optional",
       "title": "Поэтажные планы",
       "description": "С экспликацией,площадями помещений в кв.м."
     },
     "sections": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_sections_optional",
       "title": "Разрезы"
     },
     "street_scan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_street_scan_optional",
       "title": "Развертки по улицам"
     },
     "landscape_visual_analisys": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_landscape_visual_analisys_optional",
       "title": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта",
       "description": "Видовые кадры"
     },
     "night_lightning_concept": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_night_lightning_concept_optional",
       "title": "Концепция ночного освещения",
       "description": "С описанием технических характеристик"
     },
     "advertising_placement_concept": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_advertising_placement_concept_optional",
       "title": "Концепция рационального и эффективного размещения средств наружной рекламы и информации",
       "description": "Выполненную с учетом потребностей (административно-офисного, торгово-развлекательного назначения)"
     },
     "air_conditioning_and_engineering_equipment_concept": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_air_conditioning_and_engineering_equipment_concept_optional",
       "title": "Схема размещения кондиционерного и инженерного оборудования"
     }
   }
