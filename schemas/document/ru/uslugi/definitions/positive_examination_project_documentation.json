@@ -5,23 +5,23 @@
   "type": "object",
   "properties": {
     "text_examination_project_documentation":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_examination",
       "accept": "application/pdf",
       "title": "Текст экспертизы проектной документации",
       "description": "Файл в формате \"pdf\" (цветной)"
     },
     "ecp_authorized_organization_experts":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/electronic_digital_signatures_optional",
       "title": "Электронно-цифровые подписи уполномоченных экспертной организацией экспертов (единым файлом)",
       "description": "Файл в формате \"sig\""
     },
     "scanned_document_optional":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_2mb",
       "title": "Реквизиты присвоенного номера экспертизы проектной документации",
       "description": "Файл в формате \"XML\""
     },
     "ecp_egrz":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/electronic_digital_signatures_optional",
       "title": "Электронно-цифровая подпись Единого реестра заключений проектной документации (ЕГРЗ)",
       "description": "Файл в формате \"sig\""
     }

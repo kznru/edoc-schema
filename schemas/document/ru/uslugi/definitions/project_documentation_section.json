@@ -11,7 +11,7 @@
       "description": "Файл в формате \"pdf\" (цветной)"
     },
     "ecp_chief_project_engineer":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/electronic_digital_signatures_optional",
       "title": "Электронно-цифровая подпись Главного инженера проекта, ответственного за разработку проектной документации",
       "description": "Файл в формате \"sig\""
     }

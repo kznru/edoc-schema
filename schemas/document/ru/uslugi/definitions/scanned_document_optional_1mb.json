@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_1mb",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Отсканированные документы",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
+  "config": {
+    "max_size_in_bytes": 1048576,
+    "title_suffix": "1МБ (1048576 байт)"
+  }
+}

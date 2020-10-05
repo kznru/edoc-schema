@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_landscape_visual_analisys_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_20mb",
+  "title": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта",
+  "description": "Видовые кадры"
+}

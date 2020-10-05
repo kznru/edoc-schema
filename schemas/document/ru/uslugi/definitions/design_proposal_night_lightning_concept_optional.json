@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_night_lightning_concept_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_20mb",
+  "title": "Концепция ночного освещения",
+  "description": "С описанием технических характеристик"
+}

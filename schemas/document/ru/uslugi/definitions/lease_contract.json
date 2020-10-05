@@ -41,7 +41,7 @@
       "title": "Бессрочный"
     },
     "content": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_content_optional",
       "title": "Скан договора аренды"
     }
   }

@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_land_improvement_plan_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_25mb",
+  "title": "План комплексного благоустройства территории",
+  "description": "(в цвете) в М 1:200, включая инвентаризацию зеленых насаждений, организацию парковок с обозначением   используемых материалов и изделий, ассортимента средств озеленения и применяемых элементов благоустройства, малых архитектурных форм)"
+}

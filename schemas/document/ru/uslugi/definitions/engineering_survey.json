@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "scanned_document_optional":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_2mb",
       "accept": "application/pdf",
       "title": "Инженерные изыскания",
       "description": "Цветной отсканированный отчет об инженерно-геологических изысканиях в формате PDF"
