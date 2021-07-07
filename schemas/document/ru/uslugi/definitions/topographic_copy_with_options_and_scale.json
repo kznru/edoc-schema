@@ -1,0 +1,22 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topographic_copy_with_options_and_scale",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Параметры копий топографического плана участка:",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "topographic_copy_options",
+      "topographic_copy_scale"
+    ],
+    "properties": {
+      "topographic_copy_options": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topographic_copy_options"
+      },
+      "topographic_copy_scale": {
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topographic_copy_scale"
+      }
+    }
+  },
+  "minItems": 1
+}

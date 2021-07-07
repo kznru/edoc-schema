@@ -1,0 +1,55 @@
+{
+  "required": [
+    "type",
+    "photo",
+    "photomontage",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "constructive_images",
+    "field_size",
+    "field_area",
+    "state_duty_payment"
+  ],
+  "properties": {
+    "type": {
+      "title": "Тип рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото  ситуации",
+      "description": "Прикрепляется фотография предполагаемого места размещения рекламной конструкции, выполненная не более чем за один месяц до обращения за получением мун.услуги (фотография должна давать полное представление о здании, сооружении, в том числе о месте его расположения в градостроительной ситуации). Фотография должна быть цветная, четкая, выполненная в светлое время суток."
+    },
+    "photomontage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотомонтаж",
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности",
+      "description": "Прикрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
+    },
+    "graphic_image_of_structure": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции",
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "constructive_images": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Конструктивные изображения",
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "field_size": {
+      "title": "Размер информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Размер информационного поля, м"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "state_duty_payment": {}
+  }
+}

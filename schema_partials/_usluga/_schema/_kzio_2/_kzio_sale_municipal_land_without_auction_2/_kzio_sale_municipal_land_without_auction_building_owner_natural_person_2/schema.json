@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {},
+    "building_owner_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документ, удостоверяющий (устанавливающий) права заявителя на здание, сооружение либо помещение, если право на такое здание, сооружение либо помещение не зарегистрировано в ЕГРН"
+    },
+    "rights_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы, удостоверяющие (устанавливающие) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРН"
+    },
+    "building_list_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке"
+    }
+  }
+}

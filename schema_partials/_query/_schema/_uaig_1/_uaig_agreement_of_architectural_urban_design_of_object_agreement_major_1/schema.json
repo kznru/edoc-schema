@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    },
+    "result_response_text": {
+      "title": "Информация для заявителя (при положительном результате)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "result_response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Файлы для заявителя (при положительном результате)"
+    },
+    "result_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии для заявителя (при положительном результате)"
+    },
+    "result_attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения для заявителя (при положительном результате)"
+    },
+    "reject_reasons": {
+      "title": "Причина отказа (при отрицательном результате)",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reject_response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text",
+      "title": "Информация для заявителя (при отрицательном результате)"
+    },
+    "reject_attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения (при отрицательном результате)"
+    },
+    "reject_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии (при отрицательном результате)"
+    }
+  }
+}

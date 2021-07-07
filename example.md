@@ -55,7 +55,7 @@ permalink: /examples/
 # ФИО и номер телефона
 Схема:
 ```json
-{% include schemas/person/ru/fio_phone.json %}
+{% include schemas/person/ru/person_mobile.json %}
 ```
 
 Данные:

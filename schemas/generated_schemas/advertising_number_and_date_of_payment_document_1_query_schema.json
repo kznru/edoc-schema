@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "document": {
+      "title": "Сведения об оплате государственной пошлины. Номер и дата документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
+    }
+  }
+}

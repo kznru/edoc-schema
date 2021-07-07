@@ -1,13 +1,18 @@
 {
-  "type": "object",
   "properties": {
     "reject_reasons": {
       "title": "Причина отказа",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Выявление недостоверной информации, содержащейся в документах"
+        ]
+      },
+      "uniqueItems": true
     },
-    "town_planning_conclusion": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
-      "title": "Градостроительное заключение"
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
@@ -18,5 +23,6 @@
       "title": "Комментарии"
     }
   },
+  "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

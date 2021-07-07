@@ -1,0 +1,54 @@
+{
+  "required": [
+    "agent",
+    "registry_item",
+    "end_date",
+    "explanation_reason",
+    "operating_schedule",
+    "drawing"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для продления",
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
+    },
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "end_date": {
+      "title": "Дата окончания работ",
+      "description": "Укажите новую дату окончания работ",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "explanation_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanation_reason"
+    },
+    "operating_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "График выполнения работ",
+      "description": "График выполнения незаконченных работ на объекте в этом периоде"
+    },
+    "drawing": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Рабочий чертеж на проводимые работы",
+      "description": "С указанием выполненных и незавершенных работ"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

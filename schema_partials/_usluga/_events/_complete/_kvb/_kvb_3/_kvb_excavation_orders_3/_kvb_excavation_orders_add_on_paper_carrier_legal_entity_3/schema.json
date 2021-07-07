@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "work_directions_road": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_road"
+    },
+    "work_directions_road_sidewalk": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_road_sidewalk"
+    },
+    "work_directions_road_green": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_road_green"
+    },
+    "work_directions_local_road": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_local_road"
+    },
+    "work_directions_green": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_green"
+    },
+    "work_directions_sidewalk": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_sidewalk"
+    },
+    "work_directions_sidewalk_green": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_sidewalk_green"
+    },
+    "work_directions_gnb": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_gnb"
+    },
+    "work_directions_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_directions_comments"
+    }
+  }
+}

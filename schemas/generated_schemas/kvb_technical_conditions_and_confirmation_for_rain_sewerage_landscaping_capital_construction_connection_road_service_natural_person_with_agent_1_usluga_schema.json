@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "naimenowanie_ob_ekta": {
+      "title": "Наименование объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
+    },
+    "ploschad_ob_ekta": {
+      "title": "Площадь объекта",
+      "description": "Площадь, кв.м",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "ploschad_zemel_nogo_uchastka_kw_m": {
+      "title": "Площадь земельного участка, кв.м",
+      "description": "Указано в эскизном проекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "ploschad_zastrojki_kw_m": {
+      "title": "Площадь застройки, кв.м",
+      "description": "Указано в эскизном проекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "predpolagaemoe_kolichestwo_parkowochnyh_mest": {
+      "title": "Предполагаемое количество парковочных мест",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    },
+    "naznachenie_ob_ekta": {
+      "title": "Назначение объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "tip_ob_ekta": {
+      "title": "Тип объекта",
+      "description": "Социальный объект (школа, дет.сад,больница и т.п.), торгово-коммерческий объект (магазин,ТЦ,КБО и т.п.), административно-офисный объект, склады и т.п., объект транспортно-сервисной инфраструктуры(автомойка, автосервис, АЗС, парковка и т.п.), жилой объект(ЖК, жилой дом и т.п.), иное(укажите)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/kind_of_building"
+    },
+    "address_with_map": {
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Описание местоположения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "dopolnitel_noe_opisanie_mestopolozheniq_ob_ekta": {
+      "title": "Дополнительное описание местоположения объекта",
+      "description": "Описание местоположения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "kadastrowyj_nomer": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка ",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "opisanie_ob_ekta": {
+      "title": "Описание объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "raschet_kolichestwa_powerhnostnyh_stokow": {
+      "title": "Расчет количества поверхностных стоков",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff"
+    },
+    "raschetnyj_rashod_wodostoka_l_s": {
+      "title": "Расчетный расход водостока, л/с",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/float"
+    },
+    "diametr_kollektora_neobhodimyj_dlq_priema_dannogo_kolichestwa_stokow_mm": {
+      "title": "Диаметр коллектора, необходимый для приема данного количества стоков, мм",
+      "description": "Укажите 0, если коллектор не предусмотрен проектом",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_diameter"
+    },
+    "fajl_s_raschetami": {
+      "title": "Файл с расчетами",
+      "description": "Файлы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "s_emka_tekuschih_izmenenij_w_masshtabe_1_500": {
+      "title": "Съемка текущих изменений в масштабе 1:500",
+      "description": "Файл со всеми подземными коммуникациями с указанием места размещения проектируемого объекта, подлежащего строительству, реконструкции либо капитальному ремонту, и предполагаемого места присоединения к сетям ливневой канализации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "razdel_genplan_proektnoj_dokumentacii": {
+      "title": "Раздел \"Генплан\" проектной документации",
+      "description": "Разработанный специализированной организацией и согласованный (рассмотренный) Главным архитектором Управления архитектуры и градостроительства Исполнительного комитета г.Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "foto_ishodnoj_situacii": {
+      "title": "Фото исходной ситуации",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
+    },
+    "dopolnitel_nye_prilozheniq": {
+      "title": "Дополнительные приложения",
+      "description": "Приложение",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments"
+    },
+    "opisanie": {
+      "title": "Описание ",
+      "description": "Файлы с описанием",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_optional"
+    },
+    "kommentarii": {
+      "title": "Комментарии",
+      "description": "Комментарии",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "ploschad_ob_ekta",
+    "ploschad_zastrojki_kw_m",
+    "predpolagaemoe_kolichestwo_parkowochnyh_mest",
+    "naznachenie_ob_ekta",
+    "address_with_map",
+    "raschet_kolichestwa_powerhnostnyh_stokow",
+    "diametr_kollektora_neobhodimyj_dlq_priema_dannogo_kolichestwa_stokow_mm",
+    "fajl_s_raschetami",
+    "s_emka_tekuschih_izmenenij_w_masshtabe_1_500",
+    "razdel_genplan_proektnoj_dokumentacii"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

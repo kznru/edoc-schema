@@ -4,10 +4,8 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
-    "organization": {
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -15,11 +13,11 @@
       "title": "Доверенность"
     },
     "address": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес объекта (или ближайший)"
     },
     "object_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта"
     },
     "attachments": {

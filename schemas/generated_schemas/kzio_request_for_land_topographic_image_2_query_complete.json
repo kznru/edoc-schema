@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": [
+    "image_topographic"
+  ],
+  "properties": {
+    "image_topographic": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic",
+      "title": "Топосъемка с границами земельного участка"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

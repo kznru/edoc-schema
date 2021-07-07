@@ -1,0 +1,13 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_land",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Целевое назначение земельного участка",
+  "description": "Целевое назначение земельного участка",
+  "minItems": 1,
+  "enum": [
+    "индивидуальное жилищное строительство",
+    "ведение личного подсобного хозяйства",
+    "садоводство или огородничество"
+  ]
+}

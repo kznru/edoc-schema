@@ -11,16 +11,11 @@
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "trees_plan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "План зелёных насаждений"
     },
     "work_description": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description"
-    },
-    "work_title": {
-      "type": "string",
-      "title": "Наименование выполняемых работ (в винительном падеже)",
-      "description": "Должно отвечать на вопрос кого, что"
     }
   }
 }

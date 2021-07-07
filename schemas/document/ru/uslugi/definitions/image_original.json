@@ -2,5 +2,5 @@
   "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_original",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Фото исходной ситуации",
-  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_5mb"
 }

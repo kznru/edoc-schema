@@ -15,7 +15,7 @@
       "description": "Кадастровый номер земельного участка"
     },
     "area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь"
     },
     "building_object": {
@@ -27,7 +27,7 @@
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "attachments": {

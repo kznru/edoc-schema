@@ -5,7 +5,7 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
@@ -21,12 +21,11 @@
       "description": "Кадастровый номер объекта адресации"
     },
     "cadastre_registration_removal_date": {
-      "type": "string",
-      "format": "date",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
       "title": "Дата снятия с кадастрового учёта"
     },
     "cancellation_number": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Адресный номер для аннулирования",
       "description": "Адресный номер объекта адресации, который необходимо аннулировать"
     },
@@ -47,12 +46,10 @@
       "title": "Комментарии"
     }
   },
-  "require": [
+  "required": [
     "organization",
     "agent",
-    "letter_of_attorney"
-  ],
-  "required": [
+    "letter_of_attorney",
     "cadastre_number",
     "cadastre_registration_removal_date",
     "cancellation_number",

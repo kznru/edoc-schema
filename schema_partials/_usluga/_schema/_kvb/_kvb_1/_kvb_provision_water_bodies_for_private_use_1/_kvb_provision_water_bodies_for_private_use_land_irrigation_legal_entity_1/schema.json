@@ -1,19 +1,29 @@
 {
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "usage_calculation": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Расчёт и обоснование заявленного объёма забора (изъятия) водных ресурсов из водного объекта"
     },
     "buildings_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о технических параметрах водозаборных сооружений и мерах по предотвращению попадания рыб и других водных биологических ресурсов в эти сооружения или документ об утверждении проектно-сметной документации с указанием таких сведений для намечаемых к строительству водозаборных сооружений"
     },
     "extra_equipment_info": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Сведения о наличии контрольно-измерительной аппаратуры для учета объема водных ресурсов, забираемых (изымаемых) из водного объекта"
     }
   }

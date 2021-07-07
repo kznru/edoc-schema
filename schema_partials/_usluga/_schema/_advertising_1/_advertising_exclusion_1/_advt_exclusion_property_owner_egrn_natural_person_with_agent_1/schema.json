@@ -1,0 +1,32 @@
+{
+  "required": [
+    "applicant",
+    "agent",
+    "address_with_map",
+    "letter_of_attorney",
+    "termination_of_contract_for_installation_and_operation"
+  ],
+  "properties": {
+    "registry_item": {},
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Собственник или иной законный владелец недвижимого имущества"
+    },
+    "address_with_map": {
+      "title": "Обратный адрес для связи (место регистрации либо адрес фактического проживания)",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "termination_of_contract_for_installation_and_operation": {
+      "title": "Документ, подтверждающий прекращение договора на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется скан документа, подтверждающего прекращение договора на установку и эксплуатацию рекламной конструкции, заключенный между собственником или владельцем недвижимого имущества и владельцем рекламной конструкции. Копия документа должна быть заверена путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "title": "Заявитель (физ. лицо)",
+      "description": "Данные заявителя (ФИО, паспорт)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель ",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка ",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "area": {
+      "title": "Площадь земельного участка",
+      "description": "Площадь (кв.м)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "address_with_map": {
+      "title": "Точный адрес или ориентир местонахождения земельного участка ",
+      "description": "Точный адрес или ориентир местонахождения земельного участка ",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "object_assignment": {
+      "title": "Назначение объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    }
+  },
+  "type": "object"
+}

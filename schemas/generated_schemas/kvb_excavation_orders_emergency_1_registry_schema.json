@@ -1,24 +1,35 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
     "usluga_number": {
-      "type": "string",
-      "title": "Номер муниципальной услуги"
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "organization_phone": {
+      "type": "string",
+      "title": "Телефон организации-заявителя"
     },
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель (физ. лицо)"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
+    "applicant_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес заявителя (для физ. лиц)"
+    },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
       "title": "Адрес"
     },
     "address_comments": {
@@ -47,6 +58,11 @@
       "format": "date",
       "title": "Дата окончания работ"
     },
+    "landscaping_end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ по благоустройству"
+    },
     "emergency_repair_of": {
       "type": "string",
       "title": "Ликвидация аварии на:"
@@ -55,9 +71,17 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Подрядчик"
     },
+    "contractor_organization_phone": {
+      "type": "string",
+      "title": "Телефон организации-подрядчика"
+    },
     "contractor_responsible": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
-      "title": "Ответственный производитель работ со стороны подрядчика"
+      "type": "array",
+      "title": "Ответственный производитель работ со стороны подрядчика",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+      }
     },
     "area_of_damage_to_road": {
       "type": "string",

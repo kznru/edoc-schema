@@ -10,14 +10,13 @@
         "url": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_url" },
         "information_system": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_system" },
         "external_id": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/external_id" },
-        "document_type": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type" },
         "document_title": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_title" },
         "document_annotation": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_annotation" },
         "document_description": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_description" },
-        "registered_at": { "type": "datetime" },
+        "registered_at": { "type": "string", "format": "date" },
         "organization": { "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization" },
         "department": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/department" },
-        "responsible_employee": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/employee" },
+        "responsible_employee": { "$ref": "http://edoc-schema.kzn.ru/person/ru/employee" },
         "signatures": {
           "type": "array",
           "items": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/signature" }
@@ -28,8 +27,8 @@
         }
       }
     },
-    "id": { "type": "guid"},
-    "imported_at": { "type": "datetime" },
+    "id": { "type": "string", "format": "guid"},
+    "imported_at": { "type": "string", "format": "date" },
     "import_signature": {
       "type": "array",
       "items": { "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/signature" }

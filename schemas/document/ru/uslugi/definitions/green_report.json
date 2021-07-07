@@ -31,7 +31,7 @@
                 "тополь (кроме белого, пирамидального, 38 клона)",
                 "туя",
 
-                "ольха", "берёза", "вяз",
+                "ольха", "берёза", "вяз мелколистный (карагач)", "вяз шершавый",
                 "рябина", "осина", "яблоня", "черёмуха",
                 "тополь (белый, пирамидальный, 38 клон)",
                 "декоративные плодовые посадки",
@@ -77,6 +77,9 @@
                             "damaged": { "enum": [true] },
                             "damage": {
                               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_damage_trees"
+                            },
+                            "plant_special_features": {
+                              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
                             }
                           },
                           "required": ["damage"]
@@ -129,7 +132,7 @@
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_age"
             },
             "conclusion": {
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_hedge_and_shrubs"
             },
             "denomination": {
               "type": "string",
@@ -154,8 +157,17 @@
                 "калина бульдонеж",
                 "форзиция",
                 "можжевельник",
-                "туя"
+                "туя",
+                "другое"
               ]
+            },
+            "other_denomination":{
+              "title": "Название (при выборе другое)",
+              "type": "string"
+            },
+            "amount":{
+              "title": "Количество",
+              "type": "number"
             }
           },
           "dependencies": {
@@ -202,7 +214,7 @@
                 },
                 {
                   "properties": {
-                    "conclusion": { "enum": [1,2,3,4,5] }                  }
+                    "conclusion": { "enum": [1,2,3,4,5,6] }                  }
                 }
               ]
             }
@@ -231,7 +243,7 @@
               "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_duration"
             },
             "conclusion": {
-              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_trees"
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_hedge_and_shrubs"
             }
           },
           "dependencies": {
@@ -278,7 +290,7 @@
                 },
                 {
                   "properties": {
-                    "conclusion": { "enum": [1,2,3,4,5] }
+                    "conclusion": { "enum": [1,2,3,4,5,6] }
                   }
                 }
               ]
@@ -332,9 +344,6 @@
                 {
                   "properties": {
                     "conclusion": { "enum": [0] },
-                    "plant_special_features": {
-                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
-                    },
                     "bad_life_state": {
                       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_flower_gardens"
                     },
@@ -384,7 +393,14 @@
                   "properties": {
                     "conclusion": { "enum": [0] },
                     "plant_special_features": {
-                      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_special_features"
+                      "type": "object",
+                      "title": "Особенности",
+                      "properties": {
+                        "plant_in_guard_zone": {
+                          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_plant_in_guard_zone"
+                        }
+                      },
+                      "required": ["plant_in_guard_zone"]
                     },
                     "bad_life_state": {
                       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_bad_life_state_lawns"
@@ -464,7 +480,7 @@
                       "items": {
                         "type": "string",
                         "enum": [
-                          "ольха", "берёза", "вяз",
+                          "ольха", "берёза", "вяз мелколистный (карагач)", "вяз шершавый",
                           "рябина", "осина", "яблоня", "рябина черноплодная",
                           "тополь (белый, пирамидальный, 38 клон)",
                           "декоративные плодовые посадки"
@@ -519,6 +535,35 @@
                   "required": ["denomination"]
                 }
               ]
+            }
+          }
+        }
+      },
+      "stumps": {
+        "type": "array",
+        "title": "Пни",
+        "items": {
+          "type": "object",
+          "required": ["kind","quantity","conclusion"],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "title": "Вид",
+              "enum": [
+                "свежеспиленный",
+                "старый"
+              ]
+            },
+            "quantity": {
+              "title": "Количество",
+              "type": "number"
+            },
+            "conclusion": {
+              "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_stumps"
+            },
+            "note": {
+              "type": "string",
+              "title": "Комментарий"
             }
           }
         }

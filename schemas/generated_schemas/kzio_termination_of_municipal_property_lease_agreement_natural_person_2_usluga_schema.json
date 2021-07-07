@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "lease_contract_info": {
+      "title": "Договор аренды",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_info"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "address_with_map",
+    "lease_contract_info"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

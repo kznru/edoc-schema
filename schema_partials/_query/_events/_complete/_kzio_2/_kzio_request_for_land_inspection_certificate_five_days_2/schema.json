@@ -1,0 +1,10 @@
+{
+  "type":"object",
+  "required":["phototable"],
+  "properties":{
+    "phototable": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фототаблица"
+    }
+  }
+}

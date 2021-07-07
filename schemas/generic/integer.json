@@ -1,0 +1,6 @@
+{
+  "id": "http://edoc-schema.kzn.ru/generic/integer",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Целое число",
+  "type": "integer"
+}

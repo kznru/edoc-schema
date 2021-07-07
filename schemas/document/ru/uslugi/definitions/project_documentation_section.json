@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_documentation_section",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Раздел проектной документации",
+  "type": "object",
+  "properties": {
+    "scanned_document_optional":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/pdf",
+      "title": "Файл в формате \"pdf\" (цветной)",
+      "description": "Файл в формате \"pdf\" (цветной)"
+    },
+    "ecp_chief_project_engineer":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/electronic_digital_signatures_optional",
+      "title": "Электронно-цифровая подпись Главного инженера проекта, ответственного за разработку проектной документации",
+      "description": "Файл в формате \"sig\""
+    }
+  }
+}

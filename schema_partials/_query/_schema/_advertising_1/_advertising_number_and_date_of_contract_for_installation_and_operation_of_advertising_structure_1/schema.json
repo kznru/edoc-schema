@@ -1,0 +1,9 @@
+{
+  "properties":{
+    "document_for_installation_and_operation_advertising": {
+      "title": "Номер и дата документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "description": "Номер и дата договора на установку и эксплуатацию рекламной конструкции"
+    }
+  }
+}

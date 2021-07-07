@@ -1,19 +1,15 @@
 {
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
     "identification_data_of_rooms": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms_with_required_fields",
       "minItems": 2,
       "title": "Данные, идентифицирующие помещения",
-      "description": "Кадастровые номера и адреса помещений, объединение которых осуществляется",
-      "required": [
-        "cadastre_number",
-        "address"
-      ]
+      "description": "Кадастровые номера и адреса помещений, объединение которых осуществляется"
     },
     "purpose_of_room": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
@@ -37,10 +33,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "agent",
     "identification_data_of_rooms",
     "purpose_of_room",
     "address"

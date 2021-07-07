@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
     "date_of_entering": {
       "type": "string",
       "title": "Дата внесения сведений в единый государственный реестр юридических лиц"

@@ -1,0 +1,52 @@
+{
+  "required": [
+    "address_with_map",
+    "written_consent_of_owners",
+    "installation_and_operation_document",
+    "information_about_owner_of_real_estate"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type"
+    },
+    "photo": {},
+    "photomontage": {},
+    "situational_plan": {
+      "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)"
+    },
+    "topography_of_networks": {
+      "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции на здании, сооружении"
+    },
+    "graphic_image_of_structure": {
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "constructive_images": {},
+    "field_size": {},
+    "field_area": {},
+    "information_about_owner_of_real_estate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text",
+      "title": "Данные о собственнике недвижимого имущества, к которому присоединяется рекламная конструкция"
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственников",
+      "description": "Прикрепляется скан протокола общего собрания собственников помещений в многоквартирном доме с приложением решений собственников о заключении договора на установку и эксплуатацию рекламной конструкции и об определении лиц, которые от имени собственников помещений в многоквартирном доме уполномочены на заключение договора на установку и эксплуатацию рекламной конструкции на условиях, определенных решением общего собрания"
+    },
+    "notification_confirmation_document": {},
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора на установку и экусплуатацию рекламной конструкции или копия, заверенная собственником или иным законным владельцем недвижимого имущества, к которому присоединяется рекламная конструкция, либо уполномоченным ими лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "state_duty_payment": {}
+  }
+}
+

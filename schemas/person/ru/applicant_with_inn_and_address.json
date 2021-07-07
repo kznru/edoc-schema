@@ -1,0 +1,33 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/applicant_with_inn_and_address",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Заявитель",
+  "type": "object",
+  "properties": {
+    "natural_person": {
+      "title": "Данные заявителя",
+      "type": "object",
+      "properties": {
+        "passport_number": {
+          "type": "string",
+          "pattern": "^[0-9]{6}$","title": "Номер паспорта",
+          "description": "Последние 6 цифр номера паспорта"
+        },
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО",
+          "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+        }
+      }
+    },
+    "inn": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn",
+      "title": "ИНН"
+    },
+    "address": {
+      "title": "Адрес заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    }
+  },
+  "required": ["natural_person","address","inn"]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extract_from_protocol_without_title_document",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Выписка из протокола",
+  "required": [
+    "meeting_of_members",
+    "from",
+    "number",
+    "issued_by",
+    "issued_number"
+  ],
+  "properties":{
+    "meeting_of_members":{
+      "title": "Общего собрания членов",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "from":{
+      "title": "От",
+      "type": "string",
+      "format": "date"
+    },
+    "number":{
+      "title": "Номер",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "issued_by":{
+      "title": "Выданная",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "issued_number":{
+      "title": "За номером",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    }
+  }
+}

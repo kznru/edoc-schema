@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "response": {
+      "type": "string",
+      "title": "Данные ЕГРЮЛ"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

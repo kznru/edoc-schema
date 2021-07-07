@@ -1,0 +1,41 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_organization_details",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о проектной организации",
+  "type": "object",
+  "required": [
+    "responsible_agent",
+    "phone_number",
+    "information_of_license"
+  ],
+  "properties": {
+    "information_of_license": {
+      "title": "Сведения о лицензии на осуществление деятельности по сохранению объекта культурного наследия",
+      "type": "object",
+      "required": [
+        "registration_number",
+        "date"
+      ],
+      "properties": {
+        "registration_number": {
+          "title": "Регистрационный номер",
+          "type": "string"
+        },
+        "date": {
+          "title": "Дата выдачи",
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "responsible_agent": {
+      "title": "Ответственный представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
+    },
+    "phone_number": {
+      "title": "Контактный телефон",
+      "description": "Включая код города",
+      "type": "string"
+    }
+  }
+}

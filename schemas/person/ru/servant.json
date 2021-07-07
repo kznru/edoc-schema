@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/servant",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Сотрудник",
+  "properties": {
+    "servant_id": {
+      "type": "integer",
+      "title": "Номер сотрудника в системе"
+    },
+    "department_id": {
+      "type": "integer",
+      "title": "Номер подразделения в системе"
+    },
+    "organization_id": {
+      "type": "integer",
+      "title": "Номер организации в системе"
+    },
+    "value": {
+      "type": "string",
+      "title": "ФИО сотрудника"
+    }
+  }
+}

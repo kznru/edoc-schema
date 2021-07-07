@@ -1,0 +1,395 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_information_about_state_of_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_information_about_state_of_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_information_about_state_of_roads_natural_person_1"
+                },
+                {
+                  "name": "kvb_information_about_state_of_roads_natural_person_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_permit_transportation_of_heavy_cargo_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_of_heavy_cargo_natural_person_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_transportation_during_unfavorable_climatic_conditions_natural_person_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_provision_water_bodies_for_private_use_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_common_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_land_irrigation_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_minerals_exploration_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_building_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_water_discharge_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_wood_alloy_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_wood_alloy_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_wood_alloy_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_aquaculture_legal_entity_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_aquaculture_natural_person_1"
+                },
+                {
+                  "name": "kvb_provision_water_bodies_for_private_use_aquaculture_natural_person_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_technical_conditions_for_connection_service_to_public_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_technical_conditions_for_connection_service_to_public_roads_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_rain_sewerage_technical_conditions_performance_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_natural_person_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_portal_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_performance_portal_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_rain_sewerage_technical_conditions_give_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_give_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_technical_conditions_give_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_certificate_of_capital_construction_gardening_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_certificate_of_capital_construction_gardening_legal_entity_1"
+                },
+                {
+                  "name": "kvb_certificate_of_capital_construction_gardening_natural_person_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_natural_person_without_agent_1"
+                },
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_legal_entity_1"
+                },
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_natural_person_1"
+                },
+                {
+                  "name": "kvb_permit_temporary_restriction_termination_traffic_on_roads_prolong_natural_person_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_tree_felling_permission_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_tree_felling_permission_legal_entity_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_natural_person_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_natural_person_without_applicant_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_administration_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_uk_zheu_zhku_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_institution_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_tszh_zhsk_1"
+                },
+                {
+                  "name": "kvb_tree_felling_permission_kes_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_excavation_orders_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_excavation_orders_add_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_add_for_roadway_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_add_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_emergency_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_delete_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_delete_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_with_agent_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_delete_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_legal_entity_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_natural_person_1"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_natural_person_with_agent_1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_technical_conditions_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_technical_conditions_natural_person_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_technical_conditions_natural_person_with_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "kvb_certificate_for_rain_sewerage_landscaping_capital_construction_connection_road_service_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_certificate_legal_entity_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_certificate_natural_person_1"
+                },
+                {
+                  "name": "kvb_rain_sewerage_landscaping_capital_construction_connection_road_service_certificate_natural_person_with_agent_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

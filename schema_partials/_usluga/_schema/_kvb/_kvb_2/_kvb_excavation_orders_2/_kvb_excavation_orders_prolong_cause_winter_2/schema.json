@@ -1,0 +1,38 @@
+{
+  "required": [
+    "agent",
+    "registry_item",
+    "certificate_of_acceptance_intermediate",
+    "end_date",
+    "images_after"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для продления",
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "default": "2019-05-31T23:59:59.999+03:00",
+      "title": "Дата окончания работ",
+      "description": "Укажите новую дату окончания работ"
+    },
+    "images_after": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фотографии места производства работ, подтверждающие частичное восстановление наружного благоустройства"
+    },
+    "certificate_of_acceptance_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Акт промежуточной приёмки"
+    },
+    "certificate_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключение специализированной лаборатории о контроле качества уплотнения восстановленного дорожного покрытия (в случае производства работ на проезжей части)"
+    }
+  }
+}

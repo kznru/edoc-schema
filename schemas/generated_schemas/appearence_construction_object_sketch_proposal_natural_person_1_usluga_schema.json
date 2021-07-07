@@ -2,7 +2,7 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "address": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address"

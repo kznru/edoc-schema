@@ -1,0 +1,25 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_conclusion_hedge_and_shrubs",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "number",
+  "title": "Заключение",
+  "minItems": 1,
+  "enum": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "enumNames": [
+    "снос",
+    "сохранение",
+    "пересадка",
+    "обрезка формовочная",
+    "обрезка санитарная",
+    "обрезка омолаживающая",
+    "посадка на пень"
+  ]
+}

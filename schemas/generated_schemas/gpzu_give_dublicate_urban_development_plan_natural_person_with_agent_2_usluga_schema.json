@@ -1,0 +1,92 @@
+{
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель ",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность ",
+      "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address": {
+      "title": "Адрес земельного участка",
+      "description": "Адрес земельного участка с указанием улицы",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка ",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "nomer_gpzu_nomer_ru": {
+      "title": "Номер ГПЗУ Номер RU",
+      "description": "Номер ГПЗУ Номер RU",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/site_development_plan_number"
+    },
+    "nomer_ot": {
+      "title": "От",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "nomer_postanowleniq_rasporqzheniq": {
+      "title": "Номер постановления (распоряжения)",
+      "description": "Номер постановления (распоряжения)",
+      "type": "object",
+      "properties": {
+        "date": {
+          "title": "Дата",
+          "$ref": "http://edoc-schema.kzn.ru/generic/date"
+        },
+        "nomer": {
+          "title": "Номер",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+        }
+      }
+    },
+    "building_object": {
+      "title": "Причина",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Утеря",
+        "Порча",
+        "Новый собственник"
+      ]
+    },
+    "form_result_method": {
+      "title": "Форма предоставления результата",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "на бумажном носителе",
+        "в электронном виде"
+      ]
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "address",
+    "cadastre_number",
+    "nomer_gpzu_nomer_ru",
+    "building_object",
+    "form_result_method"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

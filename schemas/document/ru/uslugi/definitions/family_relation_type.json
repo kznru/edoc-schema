@@ -1,0 +1,21 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_relation_type",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "title": "Родственные отношения",
+  "description": "Родственные отношения",
+  "minItems": 1,
+  "enum": [
+    "отец",
+    "мать",
+    "попечитель",
+    "опекун",
+    "сын",
+    "дочь",
+    "пасынок",
+    "падчерица",
+    "удочеренная",
+    "усыновленнный",
+    "подопечный"
+  ]
+}

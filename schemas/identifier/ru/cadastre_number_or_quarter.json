@@ -1,0 +1,8 @@
+{
+    "id": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "description": "Кадастровый номер или квартал",
+    "title": "Кадастровый номер или квартал",
+    "type": "string",
+    "pattern": "^\\d+([:/-]\\d+){2,}$"
+}

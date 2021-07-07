@@ -1,0 +1,78 @@
+{
+  "required": [
+    "reason",
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "address_with_map",
+    "floors_plan",
+    "floor_number"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель",
+      "description": "Сведения о заявителе"
+    },
+    "agent": {
+      "description": "Представитель юридического лица",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия пердставителя"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Адрес объекта (или ближайший)",
+      "title": "Адрес, по которому находится муниципальное имущество"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "title": "Площадь",
+      "description": "Кв. м"
+    },
+    "reason": {
+      "title": "Основание для передачи муниципального имущества",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_transfer_municipal_property"
+    },
+    "floors_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: копия технического паспорта, в случае отсутствия его графический план помещения",
+      "description": "Копия технического паспорта или графический план помещения (нарисованный заявителем)"
+    },
+    "floor_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Информация, необходимая для идентификации имущества: этаж"
+    },
+    "property_number": {
+      "title": "Информация, необходимая для идентификации имущества: номер помещения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
+      "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: фото объекта"
+    },
+    "other_info": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Информация, необходимая для идентификации имущества: иная информация"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

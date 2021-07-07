@@ -4,10 +4,8 @@
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "applicant": {
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -19,35 +17,24 @@
       "title": "Адрес объекта"
     },
     "object_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта"
     },
     "object_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь объекта"
     },
     "object_type": {
       "title": "Тип объекта",
-      "type": "string",
-      "enum": [
-        "Магазин, кафе, ресторан, пункты связи (почта, телеграф, телефон)",
-        "Пункт обслуживания автомобилей – шиномонтаж",
-        "Пункт обслуживания автомобилей – ремонт, мойка",
-        "Рынок, автоцентр, автосалон и т.п.",
-        "Автозаправочные станции",
-        "Гостиницы, мотели",
-        "Торговый комплекс",
-        "Комплекс дорожного сервиса",
-        "Иные объекты, предназначенные для обслуживания участников дорожного движения по пути следования (офисные, производственные и административные здания, платные клиники, жилые дома с нежилыми помещениями на 1 этаже)"
-      ]
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/road_object_type"
     },
     "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Чертёж градостроительного плана",
       "description": "Чертёжа градостроительного плана земельного участка, линий градостроительного регулирования в масштабе 1:500 с ситуационной схемой, согласованной с Управлением архитектуры и градостроительства Исполнительного комитета г.Казани"
     },
     "image_project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"
     },
     "attachments": {

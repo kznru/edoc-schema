@@ -12,7 +12,7 @@
     "to": {
       "type": "string",
       "format": "date",
-      "title": "До"
+      "title": "По"
     }
   }
 }

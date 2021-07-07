@@ -1,0 +1,34 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "oblik_1",
+      "virtual": true,
+      "keys": [
+        { "name": "oblik_get_conclusion_about_general_plan_1" },
+        {
+          "name": "oblik_get_conclusion_from_committee_okn_1",
+          "virtual": true,
+          "keys": [
+            { "name": "oblik_get_conclusion_from_committee_okn_legal_entity_1" },
+            { "name": "oblik_get_conclusion_from_committee_okn_natural_person_1" },
+            { "name": "oblik_get_conclusion_from_committee_okn_natural_person_with_agent_1" },
+            { "name": "oblik_get_conclusion_from_committee_okn_self_employed_1" },
+            { "name": "oblik_get_conclusion_from_committee_okn_self_employed_with_agent_1" }
+          ]
+        },
+        {
+          "name": "oblik_get_conclusion_from_uaig_oopakn_1",
+          "virtual": true,
+          "keys": [
+            { "name": "oblik_get_conclusion_from_uaig_oopakn_legal_entity_1" },
+            { "name": "oblik_get_conclusion_from_uaig_oopakn_natural_person_1" },
+            { "name": "oblik_get_conclusion_from_uaig_oopakn_natural_person_with_agent_1" },
+            { "name": "oblik_get_conclusion_from_uaig_oopakn_self_employed_1" },
+            { "name": "oblik_get_conclusion_from_uaig_oopakn_self_employed_with_agent_1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

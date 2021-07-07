@@ -5,6 +5,10 @@ permalink: /specification/
 ---
 Соответствует стандарту [JSON Schema draft-06](http://json-schema.org/)
 
+Схема для валидации
+-------------------------------
+[Core schema meta-schema](/validation_schema.json)
+
 Стандартные схемы данных
 ------------------------
 
@@ -25,6 +29,9 @@ permalink: /specification/
 
 ### Location
 {% specification_list directory_name:location %}
+
+### Magnitude
+{% specification_list directory_name:magnitude %}
 
 ### Organization
 {% specification_list directory_name:organization %}

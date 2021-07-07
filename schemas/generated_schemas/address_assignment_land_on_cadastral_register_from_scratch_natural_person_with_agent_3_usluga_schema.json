@@ -5,7 +5,7 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
@@ -37,12 +37,10 @@
       "title": "Комментарии"
     }
   },
-  "require": [
+  "required": [
     "applicant",
     "agent",
-    "letter_of_attorney"
-  ],
-  "required": [
+    "letter_of_attorney",
     "cadastre_number",
     "address"
   ],

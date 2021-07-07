@@ -1,0 +1,60 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "adm",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_2",
+          "virtual": true,
+          "keys": [
+            {"name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_natural_person_2"},
+            {"name": "adm_preliminary_approval_provision_of_land_plots_related_to_common_property_of_municipal_garage_cooperatives_natural_person_with_agent_2"}
+          ]
+        },
+        {
+          "name": "adm_free_provision_of_land_plot_to_member_of_horticultural_association_2",
+          "virtual": true,
+          "keys": [
+            {"name": "adm_free_provision_of_land_plot_to_member_of_horticultural_association_natural_person_2"},
+            {"name": "adm_free_provision_of_land_plot_to_member_of_horticultural_association_natural_person_with_agent_2"}
+          ]
+        },
+        {
+          "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_2",
+          "virtual": true,
+          "keys": [
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_natural_person_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_natural_person_with_agent_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_with_other_owners_natural_person_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_with_other_owners_natural_person_with_agent_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_with_other_owners_without_egrp_natural_person_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_with_other_owners_without_egrp_natural_person_with_agent_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_without_egrp_natural_person_2" },
+            { "name": "adm_free_provision_of_land_plot_occupied_by_individual_house_without_egrp_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "adm_provision_of_land_plot_related_to_common_property_of_garden_nonprofit_association_of_citizens_2",
+          "virtual": true,
+          "keys": [
+            { "name": "adm_provision_of_land_plot_related_to_common_property_of_garden_nonprofit_association_of_citizens_natural_person_2" },
+            { "name": "adm_provision_of_land_plot_related_to_common_property_of_garden_nonprofit_association_of_citizens_natural_person_with_agent_2" },
+            { "name": "adm_provision_of_land_plot_related_to_common_property_of_garden_nonprofit_association_of_citizens_without_egrp_natural_person_2" },
+            { "name": "adm_provision_of_land_plot_related_to_common_property_of_garden_nonprofit_association_of_citizens_without_egrp_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "adm_agreement_of_installation_of_individual_design_information_signs_on_road_signs_installed_on_public_roads_2",
+          "virtual": true,
+          "keys": [
+            { "name": "adm_agreement_of_installation_of_individual_design_information_signs_on_road_signs_installed_on_public_roads_legal_entity_2" },
+            { "name": "adm_agreement_of_installation_of_individual_design_information_signs_on_road_signs_installed_on_public_roads_natural_person_2" },
+            { "name": "adm_agreement_of_installation_of_individual_design_information_signs_on_road_signs_installed_on_public_roads_natural_person_with_agent_2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

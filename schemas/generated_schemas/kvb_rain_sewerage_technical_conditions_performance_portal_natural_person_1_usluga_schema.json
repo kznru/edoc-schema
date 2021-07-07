@@ -1,4 +1,7 @@
 {
+  "required": [
+    "registry_item"
+  ],
   "properties": {
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
@@ -12,12 +15,8 @@
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
     },
-    "previous_registry_item": {
-    },
-    "organization": {
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -29,30 +28,30 @@
       "title": "Адрес объекта"
     },
     "image_after": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фото текущего состояния"
     },
     "image_project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация",
       "description": "Проектная документация, согласованная с Комитетом внешнего благоустройства"
     },
     "executive_project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Исполнительно-техническая документация"
     },
     "topographic_project": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
       "description": "Исполнительная съёмка по объекту"
     },
     "act": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт, подтверждающий подключение к городским сетям",
       "description": "Выдаётся эксплуатируемой организацией (в случае, если предусмотрено техническими условиями"
     },
     "measurment_protocol": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Протокол измерения проб сточных вод",
       "description": "Лабораторный анализ сточных вод (в случае, если предусмотрено техническими условиями"
     },
@@ -65,9 +64,6 @@
       "title": "Комментарии"
     }
   },
-  "required": [
-
-  ],
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object"
 }

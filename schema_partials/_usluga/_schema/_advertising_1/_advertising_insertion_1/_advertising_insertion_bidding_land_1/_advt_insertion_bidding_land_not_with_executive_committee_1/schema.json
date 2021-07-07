@@ -1,0 +1,46 @@
+{
+  "required": [
+    "installation_and_operation_document",
+    "information_on_results_tenders"
+  ],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "address_description": {},
+    "type": {},
+    "field_area": {},
+    "number_of_fields": {},
+    "total_area_of_fields": {},
+    "situational_plan": {
+      "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции"
+    },
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "description": {},
+    "property_owner_info": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
+    },
+    "property_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Собственник недвижимого имущества"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "information_on_results_tenders": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Сведения о результатах проведенных торгов на право заключения договора на установку и эксплуатацию рекламной конструкции"
+    },
+    "state_duty_payment": {},
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    }
+  }
+}
+

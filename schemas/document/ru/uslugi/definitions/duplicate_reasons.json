@@ -1,0 +1,8 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/duplicate_reasons",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Причина выдачи дубликата",
+  "type": "string",
+  "minItems": 1,
+  "enum": ["Утеря", "Порча", "Новый собственник"]
+}

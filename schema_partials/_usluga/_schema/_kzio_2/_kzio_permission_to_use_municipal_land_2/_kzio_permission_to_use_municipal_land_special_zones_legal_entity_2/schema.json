@@ -1,0 +1,26 @@
+{
+  "required": ["organization", "letter_of_attorney"],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "usage": {},
+    "usage_period": {},
+    "area": {},
+    "borders_scheme": {},
+    "justification": {},
+    "special_zones": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Зоны с особыми условиями использования земель",
+      "description": "Файлы в формате word, mid/mif"
+    }
+  }
+}

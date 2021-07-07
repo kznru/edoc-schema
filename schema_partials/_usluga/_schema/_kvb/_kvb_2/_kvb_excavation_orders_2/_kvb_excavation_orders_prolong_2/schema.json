@@ -1,0 +1,38 @@
+{
+  "required": [
+    "agent",
+    "registry_item",
+    "end_date",
+    "explanation_reason",
+    "operating_schedule",
+    "drawing"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для продления",
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
+    },
+    "end_date": {
+      "title": "Дата окончания работ",
+      "description": "Укажите новую дату окончания работ",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "explanation_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanation_reason"
+    },
+    "operating_schedule": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "График выполнения работ",
+      "description": "График выполнения незаконченных работ на объекте в этом периоде"
+    },
+    "drawing": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Рабочий чертеж на проводимые работы",
+      "description": "С указанием выполненных и незавершенных работ"
+    }
+  }
+}

@@ -47,7 +47,7 @@ permalink: /uslugi/
 
 Схема:
 ```json
-{% include schemas/document/ru/uslugi/40_kvb_orders_emergency.json %}
+{% include examples/document/ru/40_kvb_orders_emergency.json %}
 ```
 
 Данные:

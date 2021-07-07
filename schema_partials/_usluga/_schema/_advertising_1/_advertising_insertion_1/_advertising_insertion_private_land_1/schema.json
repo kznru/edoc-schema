@@ -1,0 +1,20 @@
+{
+  "properties":{
+    "type_of_information_field_a":{
+      "title": "Тип информационного поля А",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_b":{
+      "title": "Тип информационного поля Б",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_v":{
+      "title": "Тип информационного поля В",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_g":{
+      "title": "Тип информационного поля Г",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    }
+  }
+}

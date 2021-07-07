@@ -1,0 +1,10 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/const_reconst",
+  "type": "string",
+  "title": "Вид работ",
+  "minItems": 1,
+  "enum": [
+    "Строительство",
+    "Реконструкция"
+  ]
+}

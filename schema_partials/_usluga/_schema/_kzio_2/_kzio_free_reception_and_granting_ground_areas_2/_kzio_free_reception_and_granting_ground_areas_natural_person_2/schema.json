@@ -1,0 +1,51 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "celewoe_naznachenie_zemel_nogo_uchastka": {
+    "title": "Целевое назначение земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_land"
+  },
+  "chleny_sem_i": {
+    "title": "Члены семьи",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/family_members"
+  },
+  "pasport_drugogo_roditelq": {
+    "title": "Паспорт другого родителя",
+    "description": "В случае, если родители состоят в браке либо не состоят в браке, но проживают совместно",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "swidetel_stwa_o_rozhdenii_detej_a_takzhe_pasporta_detej_dostigshih_chetyrnadcatiletnego_wozrasta": {
+    "title": "Свидетельства о рождении детей, а также паспорта детей, достигших четырнадцатилетнего возраста",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "reshenie_suda_ob_ustanowlenii_usynowleniq_rebenka": {
+    "title": "Решение суда об установлении усыновления ребенка",
+    "description": "За исключением случаев, когда в свидетельстве о рождении ребенка усыновители записаны в качестве родителей",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "akt_organa_opeki_i_popechitel_stwa_o_naznachenii_opekuna_ili_popechitelq": {
+    "title": "Акт органа опеки и попечительства о назначении опекуна или попечителя",
+    "description": "В случае назначения опеки или попечительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "dogowor_ob_osuschestwlenii_opeki_ili_popechitel_stwa": {
+    "title": "Договор об осуществлении опеки или попечительства",
+    "description": "В случае осуществления опеки или попечительства по договору",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "swidetel_stwo_o_zakl_chenii_braka": {
+    "title": "Свидетельство о заключении брака",
+    "description": "В случае, если родители состоят в браке",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "agent",
+    "celewoe_naznachenie_zemel_nogo_uchastka",
+    "chleny_sem_i"
+  ],
+  "type": "object"
+}

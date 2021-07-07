@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "submitting_for_permanent_use_of_land_1"
+      },
+      "title": "Номер реестровой записи",
+      "description": "Номер реестровой записи из реестра предоставленных земельных участков в постоянное (бессрочное) пользование"
+    },
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney_optional": {
+      "title": "Доверенность",
+      "description": "Доверенность",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "registry_item",
+    "organization",
+    "agent",
+    "letter_of_attorney_optional",
+    "address"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

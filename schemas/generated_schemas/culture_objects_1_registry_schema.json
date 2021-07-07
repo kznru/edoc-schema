@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
     "registry_number": {
       "type": "string",
       "title": "Номер в реестре мин.культуры"
@@ -31,7 +35,7 @@
       "title": "Документ о границах"
     },
     "photo": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Фотография"
     },
     "attachments": {

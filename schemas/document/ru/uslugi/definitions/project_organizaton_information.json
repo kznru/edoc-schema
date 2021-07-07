@@ -1,0 +1,28 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/project_organizaton_information",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о проектной организации",
+  "type": "object",
+  "properties": {
+    "project_organization_legal_entity": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Проектная организация – юр.лицо",
+      "description": "Начните вводить наименование проектной организации и выберите из подгрузившегося справочника соответствующую"
+    },
+    "project_organization_natural_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio_optional",
+      "title": "Проектная организации – физ.лицо",
+      "description": "Фамилия, Имя, Отчество"
+    },
+    "project_organization_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_optional",
+      "title": "Адрес проектной организации",
+      "description": "Адрес"
+    },
+    "swedeniq_o_licenzii": {
+      "title": "Сведения о лицензии",
+      "description": "Подкрепляется скан лицензии на осуществление деятельности по сохранению объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  }
+}

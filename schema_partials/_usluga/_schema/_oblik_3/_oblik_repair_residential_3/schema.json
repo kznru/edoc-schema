@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "title": "Графическая часть",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description_and_fragments_and_details_optional_and_plan_optional"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    }
+  }
+}

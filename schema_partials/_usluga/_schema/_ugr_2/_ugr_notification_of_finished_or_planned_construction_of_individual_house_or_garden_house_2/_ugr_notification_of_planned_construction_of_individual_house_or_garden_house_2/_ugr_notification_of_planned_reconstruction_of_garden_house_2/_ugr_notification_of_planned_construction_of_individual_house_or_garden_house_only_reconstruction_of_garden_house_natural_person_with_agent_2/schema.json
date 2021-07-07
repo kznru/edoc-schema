@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "letter_of_attorney",
+    "applicant"
+  ],
+  "properties": {
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_with_passport",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "registration_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Место жительства",
+      "description": "Адрес проживания"
+    }
+  }
+}

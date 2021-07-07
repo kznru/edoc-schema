@@ -1,0 +1,79 @@
+{
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель ",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность ",
+      "description": "Подкрепляется скан оригинала  документа, подтверждающего полномочия представителя ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка ",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "ploschad_zemel_nogo_uchastka": {
+      "title": "Площадь земельного участка",
+      "description": "Площадь (кв.м)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "address_with_map": {
+      "title": "Точный адрес или ориентир местонахождения земельного участка ",
+      "description": "Точный адрес или ориентир местонахождения земельного участка ",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "kolichestwo_nadzemnyh_tazhej": {
+      "title": "Этажность",
+      "description": "Указать этажность",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "building_object": {
+      "title": "Назначение объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/text"
+    },
+    "form_result_method": {
+      "title": "Форма предоставления результата",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "на бумажном носителе",
+        "в электронном виде"
+      ]
+    },
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah": {
+      "title": "Согласен на обработку представленных данных, содержащихся в заявлении и документах",
+      "description": "Необходимо подтвердить согласие на обработку представленных данных",
+      "type": "boolean"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "building_object",
+    "organization",
+    "agent",
+    "dowerennost",
+    "cadastre_number",
+    "ploschad_zemel_nogo_uchastka",
+    "address_with_map",
+    "kolichestwo_nadzemnyh_tazhej",
+    "soglasen_na_obrabotku_predstawlennyh_dannyh_soderzhaschihsq_w_zaqwlenii_i_dokumentah",
+    "form_result_method"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

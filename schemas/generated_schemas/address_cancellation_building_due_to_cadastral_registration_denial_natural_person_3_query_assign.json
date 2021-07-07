@@ -9,6 +9,10 @@
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии"
+    },
+    "assignee": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/servant",
+      "title": "Исполнитель"
     }
   }
 }

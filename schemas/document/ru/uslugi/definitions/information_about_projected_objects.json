@@ -1,0 +1,54 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_about_projected_objects",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Сведения о проектируемом (-ых) объекте (-ах)",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "name_object",
+      "count_floor",
+      "area",
+      "building_area"
+    ],
+    "properties": {
+      "name_object":{
+        "description": "Например: Склад хранения продукции",
+        "title": "Наименование объекта капитального строительства, входящего в состав имущественного комплекса, в соответствии с проектной документацией",
+        "type": "string"
+      },
+      "count_floor":{
+        "description": "В случае, если объект не переменной этажности показатели дублируются",
+        "title": "Количество этажей",
+        "type": "object",
+        "required": [
+          "from",
+          "to"
+        ],
+        "properties": {
+          "from": {
+            "type": "number",
+            "title": "От",
+            "description": "Целое число"
+          },
+          "to": {
+            "type": "number",
+            "title": "До",
+            "description": "Целое число"
+          }
+        }
+      },
+      "area": {
+        "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+        "title": "Общая площадь здания",
+        "description": "Десятичное число с округлением до сотых (указывается согласно проектной документации) "
+      },
+      "building_area": {
+        "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+        "title": "Площадь застройки",
+        "description": "Десятичное число с округлением до сотых (указывается согласно проектной документации) "
+      }
+    }
+  }
+}

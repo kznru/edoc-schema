@@ -1,0 +1,239 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "signboard",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "signboard_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "signboard_insertion_1",
+              "partials": true,
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "signboard_insertion_legal_entity_no_lease_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_legal_entity_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_legal_entity_separate_no_lease_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "signboard_insertion_natural_person_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_natural_person_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_separate_no_lease_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "signboard_insertion_natural_person_without_agent_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_natural_person_without_agent_separate_no_lease_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "signboard_insertion_self_employed_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_self_employed_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_separate_no_lease_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "signboard_insertion_self_employed_without_agent_1",
+                  "keys": [
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_built_in_non_residental_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_with_big_area_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_built_in_non_residental_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_with_big_area_no_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_separate_lease_1"
+                    },
+                    {
+                      "name": "signboard_insertion_self_employed_without_agent_separate_no_lease_1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "signboard_exclusion_sni_owner_1",
+              "virtual": true,
+              "partials": true,
+              "keys": [
+                {
+                  "name": "signboard_exclusion_sni_owner_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_self_employed_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_sni_owner_not_portal_self_employed_without_agent_1"
+                }
+              ]
+            },
+            {
+              "name": "signboard_exclusion_land_owner_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "signboard_exclusion_land_owner_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_self_employed_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_legal_entity_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_natural_person_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_natural_person_without_agent_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_self_employed_1"
+                },
+                {
+                  "name": "signboard_exclusion_land_owner_not_portal_self_employed_without_agent_1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

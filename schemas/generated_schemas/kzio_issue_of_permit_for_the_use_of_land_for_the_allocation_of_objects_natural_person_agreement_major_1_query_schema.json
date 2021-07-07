@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Данные заявителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Указывается адрес запрашиваемого земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": " Кадастровый номер в виде число:число:число...\nв случае если планируется использование всего земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "green_report_area": {
+      "title": "Площадь (кв.м)",
+      "description": "Указывается площадь запрашиваемого земельного участка (в случае, если кадастровый номер - площадь земельного участка по кадастру, если часть земельного участка, площадь указывается по схеме расположения земельного участка на кадастровом плане территории) ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "intended_use_of_land": {
+      "title": "Предполагаемая цель использования",
+      "description": "Предполагаемая цель использования земельных участков",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    },
+    "limitation": {
+      "title": "Срок (месяцы)",
+      "description": "Срок использования земельного участка в зависимости от выбранной цели, в месяцах",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/integer"
+    },
+    "cadastre_quarter": {
+      "title": "Кадастровый квартал",
+      "description": " Кадастровый номер в виде число:число:число… в случае если планируется использование земель или части земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_quarter"
+    },
+    "layout_land_plot": {
+      "title": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории",
+      "description": "Схема расположения запрашиваемого земельного участка с указанием координат характерных точек границ территории (прикрепляется зип файлом в формате WORD и MIF/MID). В случае если планируется использование земель или части земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

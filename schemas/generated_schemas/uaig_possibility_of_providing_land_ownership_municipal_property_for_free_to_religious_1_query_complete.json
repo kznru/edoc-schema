@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "required": [
+    "conclusion"
+  ],
+  "properties": {
+    "conclusion": {
+      "type": "string",
+      "title": "Заключение о возможности предоставления участка в собственность",
+      "minItems": 1,
+      "enum": [
+        "положительное",
+        "отрицательное"
+      ]
+    },
+    "response_text": {
+      "type": "string",
+      "title": "Обоснование"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

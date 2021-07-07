@@ -1,0 +1,22 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/esia_agent",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Представитель через ЕСИА",
+  "title": "Представитель через ЕСИА",
+  "type": "object",
+  "properties": {
+    "esia_id": {
+      "type": "string",
+      "pattern": "^[0-9]+$",
+      "title": "Идентификатор в ЕСИА"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    }
+  },
+  "required": [
+    "esia_id",
+    "agent"
+  ]
+}

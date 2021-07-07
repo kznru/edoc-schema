@@ -11,16 +11,16 @@
       "title": "Адрес объекта"
     },
     "object_area": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Площадь объекта"
     },
     "conditions": {
-      "$ref": "http://edoc-schema.kzn.ru/magnitude/ru/area",
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
       "title": "Условия присоединения",
       "description": "Условия на присоединение объекта дорожного сервиса к автомобильным дорогам общего пользования местного значения города Казани"
     },
     "image_topographic": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Съемка в масштабе 1:500",
       "description": "Съемка в масштабе 1:500 с указанием предполагаемого места присоединения (при необходимости)"
     }

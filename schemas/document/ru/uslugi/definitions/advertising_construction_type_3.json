@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type_3",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Тип рекламной конструкции",
+  "type": "string",
+  "enum": [
+    "пилларс",
+    "пилон",
+    "коммуникационный указатель"
+  ]
+}

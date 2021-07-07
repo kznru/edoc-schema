@@ -1,0 +1,150 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "ugr_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "ugr_put_object_into_service_2",
+          "virtual": true,
+          "keys": [
+            { "name": "ugr_put_object_into_service_contract_izhs_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_izhs_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_contract_izhs_natural_person_2" },
+            { "name": "ugr_put_object_into_service_izhs_natural_person_2" },
+            { "name": "ugr_put_object_into_service_contract_izhs_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_izhs_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_contract_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_legal_entity_2" },
+            { "name": "ugr_put_object_into_service_contract_natural_person_2" },
+            { "name": "ugr_put_object_into_service_natural_person_2" },
+            { "name": "ugr_put_object_into_service_contract_natural_person_with_agent_2" },
+            { "name": "ugr_put_object_into_service_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "ugr_build_objects_of_capital_construction_2",
+          "virtual": true,
+          "keys": [
+            { "name" : "ugr_permission_build_objects_of_capital_construction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_construction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_construction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_construction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_construction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_construction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_construction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_without_egrp_legal_entity_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_without_egrp_natural_person_2" },
+            { "name" : "ugr_permission_build_objects_of_capital_reconstruction_without_egrp_natural_person_with_agent_2" },
+            { "name" : "ugr_permission_build_objects_of_izhs_reconstruction_without_egrp_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "ugr_notification_of_finished_or_planned_construction_of_individual_house_or_garden_house_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_2",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "ugr_notification_of_finished_construction_of_garden_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_construction_of_individual_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_reconstruction_of_garden_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_reconstruction_of_individual_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_2" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_with_agent_2" }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_2",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "ugr_notification_of_planned_construction_of_garden_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_planned_construction_of_individual_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_planned_reconstruction_of_garden_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_with_agent_2" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_planned_reconstruction_of_individual_house_2",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_legal_entity_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_2" },
+                    { "name": "ugr_notification_of_planned_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_with_agent_2" }
+                  ]
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

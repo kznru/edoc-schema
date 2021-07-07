@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/form_result_method",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Форма предоставления результата",
+  "type": "string",
+  "minItems": 1,
+  "enum": [
+    "на бумажном носителе",
+    "в электронном виде"
+  ]
+}

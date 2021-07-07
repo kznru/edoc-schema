@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/reject_reasons_comments",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "title": "Комментарий к причине отказа",
+  "description": "Количество комментариев должно соответствовать количеству причин отказов. Очередность комментариев должна совпадать с очередностью причин отказов из списка выше. В противном случае возможны ошибки в печатной форме.",
+  "minItems": 1,
+  "items": {
+    "type": "string",
+    "default": "Комментарий не требуется"
+  }
+}

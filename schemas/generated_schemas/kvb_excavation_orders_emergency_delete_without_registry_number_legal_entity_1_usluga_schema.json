@@ -1,52 +1,7 @@
 {
-  "required": [
-    "organization",
-    "letter_of_attorney",
-    "agent",
-    "registry_item",
-    "address_with_map",
-    "images_after"
-  ],
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
   "properties": {
-    "registry_item": {
-      "type": "string",
-      "title": "Номер и дата ордера для закрытия"
-    },
-    "organization": {
-      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
-    },
-    "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
-      "title": "Представитель"
-    },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
-    "applicant": {
-    },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес (ближайший к месту работ)",
-      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
-    },
-    "images_after": {
-      "title": "Фотографии мест работ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
-    },
-    "certificate_qa": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Заключение о контроле качества"
-    },
-    "certificate_of_acceptance_intermediate": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
-      "title": "Акт промежуточной приёмки"
-    },
-    "certificate_of_acceptance": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Акт приёмки"
-    },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
@@ -56,8 +11,10 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
       "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
     }
-  },
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "type": "object"
+  }
 }

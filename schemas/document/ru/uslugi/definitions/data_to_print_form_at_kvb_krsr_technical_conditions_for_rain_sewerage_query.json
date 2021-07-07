@@ -1,0 +1,31 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/data_to_print_form_at_kvb_krsr_technical_conditions_for_rain_sewerage_query",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Данные для итоговой печатной формы услуги",
+  "type": "object",
+  "required": ["where_connection_sidewalk", "make_safe_sidewalk"],
+  "properties": {
+    "where_connection_sidewalk":{
+      "title": "Выполнить работы по присоединению проектируемых тротуаров с существующими пешеходными тротуарами",
+      "description": "Текст должен отвечать на вопрос - Где?",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "make_safe_sidewalk":{
+      "title": "Обеспечить безопасный доступ пешеходов от существующего пешеходного тротуара",
+      "type": "object",
+      "required": ["at", "to"],
+      "properties": {
+        "at": {
+          "title": "Где?",
+          "description": "Например - по ул.Х.Такташ",
+          "$ref": "http://edoc-schema.kzn.ru/generic/string"
+        },
+        "to": {
+          "title": "До",
+          "description": "Например - до жилого дома",
+          "$ref": "http://edoc-schema.kzn.ru/generic/string"
+        }
+      }
+    }
+  }
+}

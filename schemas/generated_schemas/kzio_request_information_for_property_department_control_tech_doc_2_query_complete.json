@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "required": [
+
+  ],
+  "properties": {
+    "photo": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото объекта"
+    },
+    "examination": {
+      "type": "string",
+      "title": "Обследование"
+    },
+    "being_tested": {
+      "type": "string",
+      "title": "Проводится проверка"
+    },
+    "location_and_area_of_premises": {
+      "type": "string",
+      "title": "Расположение и площадь нежилых помещений"
+    },
+    "property": {
+      "type": "string",
+      "title": "Собственность"
+    },
+    "engineering_support": {
+      "type": "string",
+      "title": "Инженерно-техническое обеспечение"
+    },
+    "technical_condition": {
+      "type": "string",
+      "title": "Техническое состояние"
+    },
+    "availability_of_technical_doc": {
+      "type": "string",
+      "title": "Наличие технической документации и регистрация права собственности"
+    },
+    "contractual_relations_presence": {
+      "type": "string",
+      "title": "Наличие договорных отношений"
+    },
+    "result_of_checking": {
+      "type": "string",
+      "title": "Результат проверки"
+    },
+    "tech_doc": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Копии технической документации в электронном виде"
+    },
+    "is_planned_to_produce_tech_doc": {
+      "type": "string",
+      "title": "Планируется ли изготовление тех.документации"
+    },
+    "attachments": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

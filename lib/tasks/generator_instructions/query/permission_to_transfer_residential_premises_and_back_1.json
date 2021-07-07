@@ -1,0 +1,12 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "permission_to_transfer_residential_premises_and_back_1",
+      "virtual": true,
+      "keys": [
+        { "name": "uaig_request_preliminary_project_1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "preliminary_project"
+  ],
+  "properties": {
+    "preliminary_project": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Эскизный проект",
+      "description": "В формате pdf",
+      "accept": "application/pdf"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

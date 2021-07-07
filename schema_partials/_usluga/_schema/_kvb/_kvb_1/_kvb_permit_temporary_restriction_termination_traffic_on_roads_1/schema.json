@@ -1,20 +1,18 @@
 {
-  "required": [],
+  "required": [
+    "time_limitation",
+    "operating_schedule",
+    "ppr",
+    "traffic_scheme"
+  ],
   "properties": {
-    "applicant": {},
-    "organization": {},
-    "agent": {},
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность"
-    },
     "object_name": {
       "title": "Наименование объекта",
-      "type": "string"
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
     },
     "object_purpose": {
       "title": "Назначение объекта",
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "description": "Жилой дом, административное здание, инженерные сети и т.д."
     },
     "time_limitation": {
@@ -25,29 +23,18 @@
       "title": "Адрес (ближайший к месту работ)",
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
-    "bank_details": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
-    },
-    "bank_address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Местонахождение банка"
-    },
     "operating_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "График производства работ и полного восстановления нарушенного дорожного покрытия, зеленых насаждений и других элементов благоустройства, утвержденный заказчиком и руководством строительной организации.",
       "description": "График по нормам продолжительности строительства. В графике работ, осуществляемых в зимнее время, указываются сроки восстановления дорожного покрытия и повторного восстановления после просадок в теплое время года."
     },
-    "genplan": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
-      "title": "Генеральный план г.Казани с обозначением участка закрытия объекта"
-    },
     "ppr": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проект производства работ (ППР) на соответствующие этапы",
       "description": "В случае если производятся земляные и строительные работы, прокладка и переустройство инженерных сетей и коммуникаций и работы, связанные с нарушением элементов наружного благоустройства"
     },
     "traffic_scheme": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Схема организации дорожного движения"
     }
   }

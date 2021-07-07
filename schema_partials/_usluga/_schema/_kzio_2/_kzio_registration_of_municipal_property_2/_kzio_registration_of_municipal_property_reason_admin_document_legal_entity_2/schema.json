@@ -1,0 +1,9 @@
+{
+  "required": ["admin_document"],
+  "properties": {
+    "admin_document": {
+      "title": "Реквизиты документа",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+    }
+  }
+}

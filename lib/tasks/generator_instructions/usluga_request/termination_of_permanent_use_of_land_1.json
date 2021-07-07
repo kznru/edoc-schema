@@ -1,0 +1,13 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "termination_of_permanent_use_of_land_1",
+      "virtual": true,
+      "keys": [
+        { "name": "termination_of_permanent_use_of_land_legal_entity_1" },
+        { "name": "termination_of_permanent_use_of_land_not_portal_legal_entity_1" }
+      ]
+    }
+  ]
+}

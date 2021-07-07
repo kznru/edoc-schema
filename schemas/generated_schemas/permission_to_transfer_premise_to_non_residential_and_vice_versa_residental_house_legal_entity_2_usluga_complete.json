@@ -1,0 +1,94 @@
+{
+  "required": [
+    "egrn_data",
+    "protocol_date",
+    "person_in_pru",
+    "area",
+    "project_organization",
+    "person_in_zkh",
+    "person_in_district",
+    "working_group_decision",
+    "head_in_district"
+  ],
+  "properties": {
+    "egrn_data": {
+      "type": "object",
+      "title": "Выписка из Единого государственного реестра недвижимости об основных характеристиках и зарегистрированных правах на объект недвижимости",
+      "required": [
+        "date",
+        "number",
+        "type",
+        "registration_date"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        },
+        "type": {
+          "type": "string",
+          "title": "Вид государственной регистрации права"
+        },
+        "number": {
+          "type": "string",
+          "title": "Номер государственной регистрации права"
+        },
+        "registration_date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата государственной регистрации права"
+        }
+      }
+    },
+    "person_in_pru": {
+      "title": "Ответственный отдела потребительского рынка и услуг Администрации района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "protocol_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата протоколa общего собрания собственников помещений в многоквартирном доме"
+    },
+    "area": {
+      "title": "Площадь помещения",
+      "type": "string"
+    },
+    "working_group_decision": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields",
+      "title": "Решение рабочей группы по рассмотрению документов по выдаче разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение"
+    },
+    "project_organization": {
+      "title": "Компания-разработчик проекта перепланировки",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_with_certificate"
+    },
+    "person_in_zkh": {
+      "title": "Ответственный отдела жилищно-коммунального хозяйства Администрации района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "person_in_district": {
+      "title": "Контроль за исполнением настоящего распоряжения возложить на:",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_with_position"
+    },
+    "head_in_district": {
+      "title": "Глава района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Файлы для заявителя"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    }
+  },
+  "type": "object"
+}

@@ -1,6 +1,0 @@
-{
-  "required": ["admin_document"],
-  "properties": {
-    "admin_document": {}
-  }
-}

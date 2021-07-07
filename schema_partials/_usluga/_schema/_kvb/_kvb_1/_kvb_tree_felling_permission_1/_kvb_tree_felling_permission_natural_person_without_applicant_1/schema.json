@@ -1,0 +1,22 @@
+{
+  "required": [
+    "cadastre_number",
+    "land_documents"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "address_with_map": {},
+    "address_comments": {},
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "work_description": {},
+    "land_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
+    }
+  }
+}

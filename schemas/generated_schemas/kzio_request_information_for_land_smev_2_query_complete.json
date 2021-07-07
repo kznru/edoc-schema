@@ -4,6 +4,10 @@
 
   ],
   "properties": {
+    "xml_response": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/file",
+      "title": "Xml файл"
+    },
     "cadastre_number": {
       "type": "string",
       "title": "Кадастровый номер"

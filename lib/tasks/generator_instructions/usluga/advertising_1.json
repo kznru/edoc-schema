@@ -1,0 +1,161 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "advertising_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "advertising_exclusion_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "advt_exclusion_advt_owner_legal_entity_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_legal_entity_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_natural_person_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_natural_person_with_agent_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_egrn_legal_entity_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_egrn_natural_person_1"
+            },
+            {
+              "name": "advt_exclusion_property_owner_egrn_natural_person_with_agent_1"
+            }
+          ]
+        },
+        {
+          "name": "advertising_insertion_1",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "advertising_insertion_private_land_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advt_insertion_private_land_for_in_registery_1"
+                },
+                {
+                  "name": "advt_insertion_private_land_for_not_in_registery_1"
+                },
+                {
+                  "name": "advt_insertion_private_land_for_in_registery_owner_of_advt_is_owner_of_land_1"
+                }
+              ]
+            },
+            {
+              "name": "advertising_insertion_bidding_land_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advt_insertion_bidding_land_with_executive_committee_1"
+                },
+                {
+                  "name": "advt_insertion_bidding_land_not_with_executive_committee_1"
+                }
+              ]
+            },
+            {
+              "name": "advertising_insertion_apartment_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advt_insertion_apartment_facade_only_projection_1"
+                },
+                {
+                  "name": "advt_insertion_apartment_facade_except_projection_1"
+                }
+              ]
+            },
+            {
+              "name": "advertising_insertion_nonresidential_not_owner_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advertising_insertion_nonresidential_not_owner_facade_only_projection_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "advt_insertion_nonresidential_not_owner_facade_only_projection_for_in_registery_1"
+                    },
+                    {
+                      "name": "advt_insertion_nonresidential_not_owner_facade_only_projection_for_not_in_registery_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "advertising_insertion_nonresidential_not_owner_facade_except_projection_1",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "advt_insertion_nonresidential_not_owner_facade_except_projection_for_not_in_registery_1"
+                    },
+                    {
+                      "name": "advt_insertion_nonresidential_not_owner_facade_except_projection_for_in_registery_1"
+                    }
+                  ]
+                },
+                {
+                  "name": "advt_insertion_nonresidential_not_owner_facade_except_projection_many_owners_1"
+                }
+              ]
+            },
+            {
+              "name": "advertising_insertion_nonresidential_owner_facade_1",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_only_projection_for_not_in_registery_1"
+                },
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_except_projection_for_not_in_registery_1"
+                },
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_only_projection_for_in_registery_1"
+                },
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_only_projection_for_in_registery_on_nonresidential_building_owned_by_another_owner_1"
+                },
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_only_projection_for_in_registery_on_nonresidential_building_owned_by_self_1"
+                },
+                {
+                  "name": "advt_insertion_nonresidential_owner_facade_except_projection_for_in_registery_1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "advertising_update_1",
+          "virtual": true,
+          "keys": [
+            { "name": "advt_update_change_ownership_facades_except_projection_legal_entity_1"},
+            { "name": "advt_update_change_ownership_private_land_except_projection_natural_person_with_agent_1"},
+            { "name": "advt_update_change_ownership_facades_except_projection_natural_person_1"},
+            { "name": "advt_update_changing_information_posted_on_roof_installation_legal_entity_1"},
+            { "name": "advt_update_change_ownership_facades_except_projection_natural_person_with_agent_1"},
+            { "name": "advt_update_changing_information_posted_on_roof_installation_natural_person_1"},
+            { "name": "advt_update_change_ownership_of_projection_legal_entity_1"},
+            { "name": "advt_update_changing_information_posted_on_roof_installation_natural_person_with_agent_1"},
+            { "name": "advt_update_change_ownership_of_projection_natural_person_1"},
+            { "name": "advt_update_redesign_of_stand_alone_legal_entity_1"},
+            { "name": "advt_update_change_ownership_of_projection_natural_person_with_agent_1"},
+            { "name": "advt_update_redesign_of_stand_alone_natural_person_1"},
+            { "name": "advt_update_change_ownership_private_land_except_projection_legal_entity_1"},
+            { "name": "advt_update_redesign_of_stand_alone_natural_person_with_agent_1"},
+            { "name": "advt_update_change_ownership_private_land_except_projection_natural_person_1"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "type": "object",
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Заявитель",
       "description": "ФИО Застройщика и Правообладателя земельного участка"
     },
@@ -11,13 +11,14 @@
       "title": "Данные заявителя",
       "properties": {
         "registration_address": {
-          "$ref": "http://edoc-schema.kzn.ru/schemas/location/ru/address_with_map",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
           "title": "Место жительства",
           "description": "Адрес проживания"
         },
         "passport": {
           "type": "object",
-          "title": "Реквизиты документа, удостоверяющего личность",
+          "title": "Реквизиты документа, удостоверяющего личность заявителя",
+          "required": ["seria", "issued_by", "issue_date"],
           "properties": {
             "seria": {
               "type": "string",
@@ -29,6 +30,7 @@
             },
             "issue_date": {
               "type": "string",
+              "format": "date",
               "title": "Дата выдачи"
             }
           }

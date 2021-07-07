@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_from_esia"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
+    },
+    "employees_list": {
+      "title": "Список сотрудников",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "passport_seria": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$",
+            "title": "Серия паспорта сотрудника",
+            "description": "Первые 4 цифры номера паспорта"
+          },
+          "passport_number": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$",
+            "title": "Номер паспорта сотрудника",
+            "description": "Последние 6 цифр номера паспорта"
+          }
+        },
+        "required": [
+          "passport_seria",
+          "passport_number"
+        ]
+      },
+      "minItems": 1
+    },
+    "work_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес места работы или ближайший адрес"
+    },
+    "work_reason_by_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_reason",
+       "description": "Необходимо указать подробный список причин",
+      "title": "Причина, по которой деятельность организации НЕ приостановлена в соответствии с постановлением Кабинета Министров Республики Татарстан от 30.03.2020 №234."
+    },
+    "agreement_default": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я предупреждён, что за предоставление в систему данных о лицах, не являющихся работниками предприятия, учреждения, организации, или о лицах, чье нахождение на рабочем месте (передвижение по маршрутам перевозки) не является критически важным в соответствии с законодательством Российской Федерации, в зависимости от тяжести последствий, установлена административная и уголовная ответственность по ст. 6.3. и ст.20.6-1 КоАП РФ и ст.236 УК РФ."
+    }
+  },
+  "required": [
+    "organization",
+    "work_address",
+    "agent",
+    "employees_list",
+    "work_reason_by_organization",
+    "agreement_default"
+  ]
+}

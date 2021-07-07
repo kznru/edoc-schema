@@ -1,0 +1,77 @@
+{
+  "required": [
+    "certificate_of_state_registration_ownership",
+    "area",
+    "project_organization",
+    "person_in_zkh",
+    "person_in_district",
+    "working_group_decision",
+    "head_in_district"
+  ],
+  "properties": {
+    "certificate_of_state_registration_ownership": {
+      "type": "object",
+      "title": "Свидетельство о государственной регистрации права собственности",
+      "required": [
+        "date",
+        "seria",
+        "number"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        },
+        "seria": {
+          "type": "string",
+          "title": "Серия"
+        },
+        "number": {
+          "type": "string",
+          "title": "Номер"
+        }
+      }
+    },
+    "area": {
+      "title": "Площадь помещения",
+      "type": "string"
+    },
+    "working_group_decision": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_required_fields",
+      "title": "Решение рабочей группы по рассмотрению документов по выдаче разрешения на перевод жилого помещения в нежилое помещение и нежилого помещения в жилое помещение"
+    },
+    "project_organization": {
+      "title": "Компания-разработчик проекта перепланировки",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_with_certificate"
+    },
+    "person_in_zkh": {
+      "title": "Ответственный отдела жилищно-коммунального хозяйства Администрации района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "person_in_district": {
+      "title": "Контроль за исполнением настоящего распоряжения возложить на:",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_with_position"
+    },
+    "head_in_district": {
+      "title": "Глава района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Файлы для заявителя"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    }
+  },
+  "type": "object"
+}

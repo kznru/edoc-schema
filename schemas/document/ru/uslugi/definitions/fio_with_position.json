@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_with_position",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Ф.И.О. и должность",
+  "type": "object",
+  "required":["fio", "position"],
+  "properties": {
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "Ф.И.О."
+    },
+    "position":{
+      "type": "string",
+      "title": "Должность"
+    }
+  }
+}

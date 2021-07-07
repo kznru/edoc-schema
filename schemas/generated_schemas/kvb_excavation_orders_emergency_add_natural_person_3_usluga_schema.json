@@ -1,0 +1,114 @@
+{
+  "required": [
+    "agent",
+    "applicant_address",
+    "contractor",
+    "address_with_map",
+    "images_before",
+    "begin_date",
+    "end_date",
+    "emergency_repair_of",
+    "conclusion_place_of_damage",
+    "topography_of_networks",
+    "warranty_restore",
+    "certificate_sro",
+    "certificate_of_separation"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "ФИО балансодержателя / собственника инженерных коммуникаций, полностью",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "applicant_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес заявителя"
+    },
+    "contractor": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/contractor"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "title": "Фото до выполнения работ"
+    },
+    "begin_date": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/date",
+      "title": "Дата окончания работ",
+      "description": "Аварии независимо от типа коммуникации (сооружения) с полным восстановлением благоустройства в местах аварийных разрытий должны устраняться в течение пяти суток, а в осенне-зимний период – в течение восьми дней"
+    },
+    "emergency_repair_of": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Ликвидация аварии на:",
+      "description": "Выберите вид коммуникации (сооружения) из списка",
+      "enum": [
+        "Водопровод",
+        "Волжский водовод",
+        "Водопровод пожарный",
+        "Хозяйственно-бытовая канализация",
+        "Ливневая канализация",
+        "Кабельная канализация",
+        "Электрокабель",
+        "Газопровод",
+        "ЭХЗ анодного контура газопровода",
+        "Теплотрасса",
+        "Сеть отопления",
+        "Сеть ГВС",
+        "Подпорное сооружение",
+        "Гидротехническое сооружение"
+      ]
+    },
+    "area_of_damage_to_road": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_sidewalk": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Площадь повреждения тротуара (кв. м)",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "area_of_damage_to_lawn": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Площадь повреждения газона (кв. м)",
+      "description": "Общая площадь места  разрытия не должна превышать 10 кв.м."
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    },
+    "conclusion_place_of_damage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_place_of_damage"
+    },
+    "certificate_of_separation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_of_separation"
+    },
+    "certificate_sro": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
+    },
+    "warranty_restore": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

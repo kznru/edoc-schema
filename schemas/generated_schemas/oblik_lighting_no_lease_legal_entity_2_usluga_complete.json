@@ -1,12 +1,6 @@
 {
-  "required": [
-    "response_text"
-  ],
+  "type": "object",
   "properties": {
-    "number": {
-      "type": "string",
-      "title": "Номер в MapEditor"
-    },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
     },
@@ -22,6 +16,5 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения"
     }
-  },
-  "type": "object"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_with_description_5mb",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Файлы с описанием",
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "title": "Описание"
+    },
+    "files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files",
+      "title": " ",
+      "config": {
+        "max_size_in_bytes": 5242880,
+        "title_suffix": "5МБ (5242880 байт)"
+      }
+    }
+  }
+}

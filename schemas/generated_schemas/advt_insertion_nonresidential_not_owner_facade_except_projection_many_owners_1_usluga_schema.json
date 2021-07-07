@@ -1,0 +1,114 @@
+{
+  "required": [
+    "address_with_map",
+    "type",
+    "property_owners",
+    "installation_and_operation_document",
+    "state_duty_payment",
+    "photo",
+    "photomontage",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "constructive_images",
+    "field_size",
+    "field_area",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "type": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type",
+      "title": "Тип рекламной конструкции"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото  ситуации",
+      "description": "Прикрепляется фотография предполагаемого места размещения рекламной конструкции, выполненная не более чем за один месяц до обращения за получением мун.услуги (фотография должна давать полное представление о здании, сооружении, в том числе о месте его расположения в градостроительной ситуации). Фотография должна быть цветная, четкая, выполненная в светлое время суток."
+    },
+    "photomontage": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотомонтаж",
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "situational_plan": {
+      "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ситуационный план"
+    },
+    "topography_of_networks": {
+      "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции на здании, сооружении",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности"
+    },
+    "graphic_image_of_structure": {
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции"
+    },
+    "constructive_images": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Конструктивные изображения",
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту"
+    },
+    "field_size": {
+      "title": "Размер информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Размер информационного поля, м"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "property_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/property_owners"
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Письменное согласие собственников",
+      "description": "Прикрепляется скан подтверждения в письменной форме  согласия собственников или иных законных владельцев  соответствующего недвижимого имущества на присоединение к этому имуществу рекламной конструкции, а также о заключении договора на установку и эксплуатацию рекламной конструкции с лицом (лицами), уполномоченным от имени собственников помещений на заключение договора на установку и эксплуатацию рекламной конструкции. В письменном согласии должны быть указаны сведения о документах, подтверждающих право собственности на недвижимое имущество (сведения об основных характеристиках и зарегистрированных правах на объект недвижимости или договоре, определяющем права на объект недвижимости, кадастровые или условные номера)."
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment_with_payer"
+    },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

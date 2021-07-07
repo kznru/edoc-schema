@@ -4,6 +4,12 @@
 
   ],
   "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
     "kzio_request_information_for_property_smev_2": {
       "type": "object",
       "title": "Запрос на сведения об имуществе (росреестр)",
@@ -316,7 +322,7 @@
     },
     "kzio_request_information_for_property_department_control_2": {
       "type": "object",
-      "title": "Запрос на сведения об имуществе (отдел контроля)",
+      "title": "Запрос на сведения об имуществе (фото и сведения об объекте, отдел контроля)",
       "properties": {
         "photo": {
           "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -329,6 +335,42 @@
         "being_tested": {
           "type": "string",
           "title": "Проводится проверка"
+        },
+        "location_and_area_of_premises": {
+          "type": "string",
+          "title": "Расположение и площадь нежилых помещений"
+        },
+        "property": {
+          "type": "string",
+          "title": "Собственность"
+        },
+        "engineering_support": {
+          "type": "string",
+          "title": "Инженерно-техническое обеспечение"
+        },
+        "technical_condition": {
+          "type": "string",
+          "title": "Техническое состояние"
+        },
+        "availability_of_technical_doc": {
+          "type": "string",
+          "title": "Наличие технической документации и регистрация права собственности"
+        },
+        "contractual_relations_presence": {
+          "type": "string",
+          "title": "Наличие договорных отношений"
+        },
+        "result_of_checking": {
+          "type": "string",
+          "title": "Результат проверки"
+        },
+        "tech_doc": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+          "title": "Копии технической документации в электронном виде"
+        },
+        "is_planned_to_produce_tech_doc": {
+          "type": "string",
+          "title": "Планируется ли изготовление тех.документации"
         }
       }
     },
@@ -485,6 +527,18 @@
         "civil_defense_facility": {
           "type": "string",
           "title": "Объект гражданской обороны"
+        },
+        "ownership_registered": {
+          "type": "string",
+          "title": "Право собственности за МО г.Казань зарегистрировано"
+        },
+        "information_about_other_use_of_property": {
+          "type": "string",
+          "title": "Сведения об ином использовании имущества (передано в оперативное управление/ хозяйственное ведение)"
+        },
+        "extract_from_egrn": {
+          "type": "string",
+          "title": "Выписка из ЕГРН"
         }
       }
     },
@@ -589,6 +643,14 @@
         "gratuitous_use": {
           "type": "string",
           "title": "Безвозмездное пользование"
+        },
+        "room_belongs_to_municipal_treasury": {
+          "type": "string",
+          "title": "Запрашиваемое помещение находится в составе муниципальной казны"
+        },
+        "information_about_other_use_of_property": {
+          "type": "string",
+          "title": "Сведения об ином использовании имущества (передано в безвозмездное пользование)"
         }
       }
     }

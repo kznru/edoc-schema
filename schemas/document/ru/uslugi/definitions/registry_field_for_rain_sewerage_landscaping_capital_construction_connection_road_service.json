@@ -1,0 +1,5 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field_for_rain_sewerage_landscaping_capital_construction_connection_road_service",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field_string"
+}

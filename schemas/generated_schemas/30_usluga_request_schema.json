@@ -9,7 +9,7 @@
       "title": "Организация"
     },
     "agent": {
-      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/agent",
+      "$ref": "http://localhost:4000/person/ru/agent",
       "title": "Представитель"
     },
     "address_with_map": {

@@ -1,0 +1,38 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "address_with_map": {
+    "title": "Адрес",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "opisanie_mestopolozheniq": {
+    "title": "Описание местоположения",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "osnowanie": {
+    "title": "Основание",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "jeskiz_informacionnogo_znaka_indiwidual_nogo_proektirowaniq_s_informacionnym_modulem": {
+    "title": "Эскиз информационного знака индивидуального проектирования (с информационным модулем)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "fotomontazh": {
+    "title": "Фотомонтаж",
+    "description": "Графическая врисовка информационного знака индивидуального проектирования (с информационным модулем) на месте его предполагаемой установки в существующую ситуацию.",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "agent",
+    "address_with_map",
+    "opisanie_mestopolozheniq",
+    "osnowanie",
+    "jeskiz_informacionnogo_znaka_indiwidual_nogo_proektirowaniq_s_informacionnym_modulem",
+    "fotomontazh"
+  ],
+  "type": "object"
+}

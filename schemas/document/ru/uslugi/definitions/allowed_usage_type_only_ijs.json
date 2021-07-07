@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/allowed_usage_type_only_ijs",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Виды разрешённого использования",
+  "type": "string",
+  "description": "Целевое назначение - только Индивидуальное жилищное строительство (ИЖС)",
+  "enum": [
+    "Индивидуальное жилищное строительство (ИЖС)"
+  ],
+  "default": "Индивидуальное жилищное строительство (ИЖС)"
+}

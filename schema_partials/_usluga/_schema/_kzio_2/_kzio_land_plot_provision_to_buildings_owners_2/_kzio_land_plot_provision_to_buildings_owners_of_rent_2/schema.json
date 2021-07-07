@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "lease_contract": {
+      "title": "Срок аренды",
+      "description": "Указать количество лет (от 3 до 49 лет)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_rental_period_min_3_max_49_years"
+    }
+  },
+  "required": [
+    "lease_contract"
+  ]
+}

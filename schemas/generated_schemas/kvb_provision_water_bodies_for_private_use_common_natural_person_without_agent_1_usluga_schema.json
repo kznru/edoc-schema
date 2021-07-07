@@ -1,0 +1,44 @@
+{
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "water_body_name": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Наименование водного объекта"
+    },
+    "water_body_location": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_optional"
+    },
+    "usage_time": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation",
+      "title": "Сроки водопользования"
+    },
+    "events_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация о намечаемых заявителем водохозяйственных мероприятиях и мероприятиях по охране водного объекта с указанием размера и источника средств, необходимых для их реализации"
+    },
+    "equipment_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Сведения о наличии контрольно-измерительной аппаратуры для контроля качества воды в водном объекте"
+    },
+    "water_body_mapping": {
+      "title": "Материалы в графической форме с отображением водного объекта, указанного в заявлении о предоставлении в водного объекта в пользование, и размещения средств и объектов водопользования, а также пояснительная записка к ним",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/water_body_mapping"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

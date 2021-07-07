@@ -1,0 +1,60 @@
+{
+  "required": [
+    "cadastre_number",
+    "land_documents",
+    "agent",
+    "address_with_map",
+    "address_comments",
+    "work_description",
+    "emergency_plantations_photos"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта с четкими границами обследования территории",
+      "description": "Адрес с обязательным указанием наименования улицы и номера здания, находящихся ближе всего к месту проведения работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Описание местоположения",
+      "description": "В свободной форме указать размещение объекта обследования с обязательной привязкой к местности (например, «во дворе дома №... по ул. ...», или «в районе дома №... по ул.А.Кутуя», или «у подъезда №... дома №... по ул....» , или «с торца дома №... по ул....» и т.п.)"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "work_description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
+      "default": "Выдача акта обследования зелёных насаждений"
+    },
+    "land_documents": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документы на земельный участок",
+      "description": "Выписка из ЕГРН либо договор аренды"
+    },
+    "emergency_plantations_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото аварийных насаждений",
+      "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
+    },
+    "trees_in_good_condition_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото деревьев в удовлетворительном состоянии"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь вы можете оставить комментарий, касающийся выполнения работ, в рамках оказания данной муниципальной услуги"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

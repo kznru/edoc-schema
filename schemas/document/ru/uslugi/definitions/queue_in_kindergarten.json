@@ -1,0 +1,132 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergartens",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Выбор детского сада",
+  "type": "object",
+  "properties": {
+    "kindergarten":{
+      "title": "",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "dependencies": {
+    "kindergarten": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kindergarten": {
+              "type": "string",
+              "enum": [
+                "1"
+              ]
+            },
+            "number": {
+              "title": "Номер детского сада",
+              "type": "string",
+              "default": "1"
+            },
+            "state_in_queue": {
+              "title": "Номер в очереди",
+              "type": "string",
+              "default": "13"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kindergarten": {
+              "type": "string",
+              "enum": [
+                "2"
+              ]
+            },
+            "number": {
+              "title": "Номер детского сада",
+              "type": "string",
+              "default": "2"
+            },
+            "state_in_queue": {
+              "title": "Номер в очереди",
+              "type": "string",
+              "default": "3"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kindergarten": {
+              "type": "string",
+              "enum": [
+                "3"
+              ]
+            },
+            "number": {
+              "title": "Номер детского сада",
+              "type": "string",
+              "default": "3"
+            },
+            "state_in_queue": {
+              "title": "Номер в очереди",
+              "type": "string",
+              "default": "133"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kindergarten": {
+              "type": "string",
+              "enum": [
+                "4"
+              ]
+            },
+            "number": {
+              "title": "Номер детского сада",
+              "type": "string",
+              "default": "4"
+            },
+            "state_in_queue": {
+              "title": "Номер в очереди",
+              "type": "string",
+              "default": "143"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kindergarten": {
+              "type": "string",
+              "enum": [
+                "5"
+              ]
+            },
+            "number": {
+              "title": "Номер детского сада",
+              "type": "string",
+              "default": "5"
+            },
+            "state_in_queue": {
+              "title": "Номер в очереди",
+              "type": "string",
+              "default": "153"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

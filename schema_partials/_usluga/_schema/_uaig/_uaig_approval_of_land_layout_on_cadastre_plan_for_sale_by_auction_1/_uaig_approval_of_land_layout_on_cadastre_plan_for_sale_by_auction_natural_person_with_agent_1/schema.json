@@ -1,0 +1,58 @@
+{
+  "properties": {
+  "applicant": {
+    "title": "Заявитель",
+    "description": "Сведения о заявителе",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+  },
+  "applicant_living_address": {
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+    "title": "Адрес местожительства",
+    "description": "Адрес местожительства"
+  },
+  "agent": {
+    "title": "Представитель",
+    "description": "Представитель физического  лица",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "letter_of_attorney": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+    "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+    "title": "Доверенность"
+  },
+  "address_with_map": {
+    "title": "Адрес, по которому находится  запрашиваемый земельный участок",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "ploschad": {
+    "title": "Площадь",
+    "description": "ориентировочная",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+  },
+  "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka": {
+    "title": "Иная информация, необходимая для идентификации  запрашиваемого земельного участка",
+    "description": "Можно указать ближайший кадастровый номер, для идентификации местоположения запрашиваемого земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "cel": {
+    "title": "Цель ",
+    "description": "указывается цель использования земельного участка, в том числе и цели, не связанные со строительством",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land_uaig"
+  },
+  "shema_s_nanesennymi_granicami_zaprashiwaemogo_zemel_nogo_uchastka": {
+    "title": "Схематичное изображение границ земельного участка",
+    "description": "Схематичное изображение границ земельного участка с указанием данных, позволяющих идентифицировать местоположение земельного участка или схема расположения земельного участка на кадастровом плане территории",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "applicant",
+    "applicant_living_address",
+    "agent",
+    "address_with_map",
+    "inaq_informaciq_neobhodimaq_dlq_identifikacii_zaprashiwaemogo_zemel_nogo_uchastka",
+    "cel",
+    "letter_of_attorney"
+  ],
+  "type": "object"
+}

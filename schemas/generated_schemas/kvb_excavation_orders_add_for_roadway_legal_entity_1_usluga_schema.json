@@ -20,7 +20,7 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -42,8 +42,6 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
       "title": "Доверенность на подписанта",
       "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
-    },
-    "applicant": {
     },
     "begin_date": {
       "type": "string",
@@ -80,22 +78,29 @@
     },
     "area_of_damage_to_road": {
       "type": "string",
-      "title": "Площадь повреждения дорожного покрытия"
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_local_road": {
       "type": "string",
-      "title": "Площадь повреждения местных проездов"
+      "title": "Площадь повреждения местных проездов (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_sidewalk": {
       "type": "string",
-      "title": "Площадь повреждения тротуара"
+      "title": "Площадь повреждения тротуара (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "area_of_damage_to_lawn": {
       "type": "string",
-      "title": "Площадь повреждения газона"
+      "title": "Площадь повреждения газона (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
     },
     "contractor": {
       "type": "object",
+      "required": [
+        "contractor_organization"
+      ],
       "title": "Подрядчик",
       "properties": {
         "contractor_organization": {
@@ -103,13 +108,21 @@
           "title": "Организация подрядчика"
         },
         "contractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
           "title": "Ответственный производитель работ со стороны подрядчика"
         }
       }
     },
     "subcontractor": {
       "type": "object",
+      "required": [
+        "subcontractor_organization",
+        "subcontractor_responsible"
+      ],
       "title": "Субподрядчик",
       "properties": {
         "subcontractor_organization": {
@@ -117,7 +130,11 @@
           "title": "Организация субподрядчика"
         },
         "subcontractor_responsible": {
-          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/person_mobile_optional",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
           "title": "Ответственный производитель работ со стороны субподрядчика"
         }
       }
@@ -127,34 +144,35 @@
       "title": "Фотофиксация исходной ситуации"
     },
     "operating_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "График выполнения работ"
     },
     "topography_of_networks": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "description": "Топосъемка г.Казани (М 1:500) с обозначением инженерных сетей, заключение трасс инженерных коммуникаций (с печатью УАиГ) (если идет строительство, реконструкция, капитальный ремонт или демонтаж инженерных сетей)"
     },
     "topography_of_placements": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Топосъёмка мест установки"
     },
     "contract_for_order": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Договора подряда"
     },
     "certificate_sro": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/certificate_sro"
     },
     "order_of_responsible_in_place": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Приказ об ответственном на объекте"
     },
     "order_of_responsible_for_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Приказ об ответственном за благоустройство",
       "description": "Отсканированный приказ об ответственном за благоустройство"
     },
     "contract_for_restore": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Договор на восстановление благоустройства",
       "description": "Договор на благоустройство территории (если благоустройство выполняется не самим производителем работ)"
     },
@@ -162,7 +180,7 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/warranty_restore"
     },
     "interested_party_list": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Заинтересованные стороны"
     },
     "traffic_scheme": {

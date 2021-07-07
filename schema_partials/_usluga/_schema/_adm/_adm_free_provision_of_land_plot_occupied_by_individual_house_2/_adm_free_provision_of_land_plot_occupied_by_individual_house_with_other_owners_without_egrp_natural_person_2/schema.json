@@ -1,0 +1,65 @@
+{
+  "properties": {
+  "agent": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "address_with_map_residence": {
+    "title": "Адрес",
+    "description": "Указывается адрес проживания",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "address_with_map": {
+    "title": "Местоположение земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "ploschad": {
+    "title": "Площадь земельного участка",
+    "description": "Площадь указывается в кв.м согласно сведениям из ЕГРН на земельный участок",
+    "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
+  },
+  "cadastre_number": {
+    "title": "Кадастровый номер земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "cadastre_number_of_capital_construction_object": {
+    "title": "Кадастровый номер объекта капитального строительства",
+    "description": "Указываются кадастровые номера всех индивидуальных жилых домов, расположенных на земельном участке",
+    "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+  },
+  "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_indiwidual_nyi_zhiloi_dom_esli_prawo_na_takoi_indiwidual_nyi_zhiloi_dom_ne_zaregistrirowano_w_egrp": {
+    "title": "Копия документа, удостоверяющего (устанавливающего) права заявителя на индивидуальный жилой дом, если право на такой индивидуальный жилой дом не зарегистрировано в ЕГРП;",
+    "description": "1.Для бесплатного предоставления ЗУ право собственности на жилой дом у собственника либо у его наследодателя должно быть зарегистрировано до введения в действие Земельного кодекса РФ, те. До 25.10.2001г. (п.4 ст3 ФЗ от 25.10.2001 №137-ФЗ). 2. Документы на индивидуальный жилой дом, подтверждающие право заявителя на приобретение земельного участка без проведения торгов и позволяющие установить право заявителя на приобретение земельного участка в собственность бесплатно (договоры купли-продажи, дарения, мены, свидетельства о праве собственности, о праве собственности по закону, по завещанию и т.д.",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_isprashiwaemyi_zemel_nyi_uchastok_esli_prawo_na_takoi_zemel_nyi_uchastok_ne_zaregistrirowano_w_egrp": {
+    "title": "Копия документа, удостоверяющего (устанавливающего) права заявителя на испрашиваемый земельный участок, если право на такой земельный участок не зарегистрировано в ЕГРП;",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow": {
+    "title": "Сообщение заявителя (заявителей), содержащее перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием их\nкадастровых (условных, инвентарных) номеров и адресных ориентиров",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "informaciq_o_drugih_sobstwennikah": {
+    "title": "Информация о других собственниках",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "soglasen_na_obrabotku_personal_nyh_dannyh_s_sobl_deniem_trebowanii_federal_nogo_zakona_ot_27_07_2006_no152_fz_o_personal_nyh_dannyh": {
+    "title": "Согласен на обработку персональных данных с соблюдением требований Федерального закона от 27.07.2006 No152-ФЗ «О персональных данных».",
+    "$ref": "http://edoc-schema.kzn.ru/generic/boolean"
+  }
+},
+  "required": [
+    "agent",
+    "address_with_map",
+    "address_with_map_residence",
+    "ploschad",
+    "cadastre_number",
+    "cadastre_number_of_capital_construction_object",
+    "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_indiwidual_nyi_zhiloi_dom_esli_prawo_na_takoi_indiwidual_nyi_zhiloi_dom_ne_zaregistrirowano_w_egrp",
+    "kopiq_dokumenta_udostowerq_schego_ustanawliwa_schego_prawa_zaqwitelq_na_isprashiwaemyi_zemel_nyi_uchastok_esli_prawo_na_takoi_zemel_nyi_uchastok_ne_zaregistrirowano_w_egrp",
+    "soobschenie_zaqwitelq_zaqwitelei__soderzhaschee_perechen_wseh_zdanii__sooruzhenii__raspolozhennyh_na_isprashiwaemom_zemel_nom_uchastke_s_ukazaniem_ih_kadastrowyh_uslownyh_inwentarnyh_nomerow_i_adresnyh_orientirow",
+    "soglasen_na_obrabotku_personal_nyh_dannyh_s_sobl_deniem_trebowanii_federal_nogo_zakona_ot_27_07_2006_no152_fz_o_personal_nyh_dannyh"
+  ],
+  "type": "object"
+}

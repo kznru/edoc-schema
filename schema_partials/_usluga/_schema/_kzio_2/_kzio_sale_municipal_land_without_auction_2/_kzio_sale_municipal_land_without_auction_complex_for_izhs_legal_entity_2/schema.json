@@ -1,0 +1,26 @@
+{
+  "required": ["organization", "letter_of_attorney"],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {},
+    "distribution_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Решение органа некоммерческой организации о распределении испрашиваемого земельного участка заявителю"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор о комплексном освоении территории"
+    }
+  }
+}

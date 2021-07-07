@@ -1,0 +1,17 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "subsidy_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "subsidy_financial_support_1"
+        },
+        {
+          "name": "subsidy_for_reimbursement_of_lost_income_1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "cadastre_number",
+    "letter_of_attorney",
     "land_documents",
+    "land_topographic_photography",
     "agent",
     "address_with_map",
     "address_comments",
-    "work_description"
+    "work_description",
+    "emergency_plantations_photos"
   ],
   "properties": {
     "organization": {
@@ -15,7 +17,7 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
@@ -44,17 +46,33 @@
       "title": "Документы на земельный участок",
       "description": "Выписка из ЕГРН либо договор аренды"
     },
-    "applicant": {
+    "land_survey": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Проектная документация"
+    },
+    "land_topographic_photography": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Топосъёмка участка",
+      "description": "Топосъёмка обследуемого участка с указанием зелёных насаждений, предназначенных на снос/обрезку"
+    },
+    "emergency_plantations_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото аварийных насаждений",
+      "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
+    },
+    "trees_in_good_condition_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото деревьев в удовлетворительном состоянии"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
-      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+      "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
-      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+      "description": "Здесь вы можете оставить комментарий, касающийся выполнения работ, в рамках оказания данной муниципальной услуги"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#",

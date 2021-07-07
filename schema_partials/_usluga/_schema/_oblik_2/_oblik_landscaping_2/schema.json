@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [
+        "landscape_visual_analysis",
+        "photo"
+      ],
+      "properties": {
+        "general_plan": {
+          "title": "Генеральный план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Генеральный план. В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка"
+        },
+        "landscape_visual_analysis": {
+          "title": "Ландшафтно-визуальный анализ",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры)"
+        },
+        "projections": {
+          "title": "Проекции",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        },
+        "photo": {
+          "title": "Фото исходной ситуации (файл)",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Фотофиксация существующего состояния объекта и его окружения"
+        }
+      }
+    }
+  }
+}

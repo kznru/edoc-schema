@@ -1,7 +1,7 @@
 {
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
@@ -27,10 +27,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "agent",
     "cadastre_number",
     "address"
   ],

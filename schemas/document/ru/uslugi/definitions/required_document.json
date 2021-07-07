@@ -1,0 +1,22 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/required_document",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Документ",
+  "title": " ",
+  "type": "object",
+  "required": [
+    "number",
+    "date"
+  ],
+  "properties": {
+    "number": {
+      "type": "string",
+      "title": "Номер документа"
+    },
+    "date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата документа"
+    }
+  }
+}

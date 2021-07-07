@@ -1,0 +1,14 @@
+{
+  "required": ["reason"],
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "area": {},
+    "reason": {
+      "title": "Основание для передачи муниципального имущества",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/basis_for_transfer_municipal_property"
+    }
+  }
+}

@@ -1,19 +1,21 @@
 {
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/calculation_of_surface_runoff",
   "type": "object",
   "title": "Расчёт поверхностных стоков",
+  "required": ["drainage_flow_rate", "collector_diameter"],
   "properties": {
     "drainage_flow_rate": {
       "type": "number",
       "title": "Расчётный расход водостока, л/с"
     },
-    "collector diameter": {
+    "collector_diameter": {
       "type": "number",
       "title": "Диаметр коллектора, необходимый для отвода ливневых и талых вод, мм",
       "description": "Укажите 0, если коллектор не предусмотрен проектом"
     },
     "content": {
       "title": "Файл с расчётами",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
     }
   }
 }

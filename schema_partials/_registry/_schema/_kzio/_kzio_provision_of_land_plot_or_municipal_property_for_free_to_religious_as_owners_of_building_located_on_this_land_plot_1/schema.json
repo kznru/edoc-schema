@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item_state": {},
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "area": {
+      "title": "Площадь (кв.м)",
+      "description": "Площадь участка, кв.м.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "type_of_permitted_use": {
+      "title": "Вид разрешенного использования",
+      "description": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "property_identification_data": {
+      "title": "Данные, идентифицирующие здания",
+      "description": "Сообщение заявителя (заявителей), содержащее перечень всех зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием кадастровых (условных, инвентарных) номеров и адресных ориентиров зданий, сооружений, принадлежащих на соответствующем праве заявителю.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
+    },
+    "documents_confirming_applicant_right": {
+      "title": "Документы, подтверждающие право заявителя на приобретение земельного участка без проведения торгов",
+      "description": "Файлы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+  }
+}

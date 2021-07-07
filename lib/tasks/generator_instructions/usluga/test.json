@@ -1,0 +1,14 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "test",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "test_1"
+        }
+      ]
+    }
+  ]
+}

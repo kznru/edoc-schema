@@ -1,0 +1,40 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description_and_fragments_and_details_optional_and_plan_and_general_plan_and_landscape_visual_analysis",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "plan",
+    "general_plan",
+    "landscape_visual_analysis"
+  ],
+  "properties": {
+    "facades": {
+      "title": "Фасады",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facades_with_type_photo_sketch_description_material_color_description"
+    },
+    "fragments_and_details":{
+      "title": "Фрагменты и детали",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "description": "Файлы в формате jpg или png."
+    },
+    "plan":{
+      "title": "План",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "Файлы в формате jpg или png."
+    },
+    "general_plan": {
+      "accept": "image/png, image/jpeg",
+      "title": "Генеральный план",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "В цвете на съемке текущих изменений в М 1:500, выполненной не позднее шести месяцев с начала проектирования объекта, с указанием границ предоставляемого участка. Файлы в формате jpg или png."
+    },
+    "landscape_visual_analysis": {
+      "accept": "image/png, image/jpeg",
+      "title": "Ландшафтно-визуальный анализ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "description": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта (видовые кадры). Файлы в формате jpg или png."
+    }
+  }
+}

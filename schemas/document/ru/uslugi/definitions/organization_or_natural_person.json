@@ -1,0 +1,17 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Организация или физическое лицо",
+  "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция",
+  "type": "object",
+  "properties": {
+    "natural_person": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - физ.лицо"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
+    }
+  }
+}

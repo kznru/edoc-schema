@@ -1,0 +1,15 @@
+{
+  "required": [
+    "agent",
+    "applicant_address"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "applicant_address":{
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес заявителя"
+    }
+  }
+}

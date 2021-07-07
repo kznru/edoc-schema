@@ -1,0 +1,31 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/insurance_for_owner_hazardous_facility",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта",
+  "type": "object",
+  "properties": {
+    "document":{
+      "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта",
+      "description": "Отсканированный оригинал документа в формате PDF",
+      "accept": "application/pdf",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "number":{
+      "title": "Номер",
+      "description": "Номер документа",
+      "type": "string"
+    },
+    "date_issue":{
+      "title": "Дата выдачи",
+      "description": "Дата выдачи документа",
+      "type": "string",
+      "format": "date"
+    },
+    "end_date":{
+      "title": "Дата окончания действия договора",
+      "description": "Дата окончания действия договора",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

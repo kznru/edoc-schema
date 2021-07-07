@@ -3,6 +3,7 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
   "type": "object",
+  "required": ["inn", "ogrn"],
   "properties": {
     "inn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/inn" },
     "ogrn": { "$ref": "http://edoc-schema.kzn.ru/identifier/ru/ogrn" },

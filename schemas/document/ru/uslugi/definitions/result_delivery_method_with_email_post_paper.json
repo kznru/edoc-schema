@@ -1,0 +1,71 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method_with_email_post_paper",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Способ и данные для предоставления результата услуги",
+  "description": "Необходимо выбрать один из способов",
+  "type": "object",
+  "required": ["method"],
+  "properties": {
+    "method": {
+      "title": "Способ предоставления результата",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "на бумажном носителе (на руки)",
+        "почтовым отправлением",
+        "в электронном виде"
+      ]
+    }
+  },
+  "dependencies": {
+    "method": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "почтовым отправлением"
+              ]
+            },
+            "address": {
+              "title": "Почтовый адрес",
+              "description": "Помимо адреса, необходимо указать почтовый индекс ",
+              "type": "string"
+            }
+          },
+          "required": ["address"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "в электронном виде"
+              ]
+            },
+            "email": {
+              "title": "Email",
+              "type": "string"
+            }
+          },
+          "required": ["email"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "на бумажном носителе (на руки)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

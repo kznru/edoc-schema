@@ -1,0 +1,11 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/facade_type",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Тип фасада",
+  "type": "string",
+  "enum": [
+    "главный",
+    "боковой",
+    "дворовый"
+  ]
+}

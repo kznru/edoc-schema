@@ -1,0 +1,30 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {
+    "title": "Заявитель (родитель)"
+  },
+  "queue_in_kindergartens": {
+    "type": "object",
+    "title": "Выбор детского сада",
+    "description": "выберите садик",
+    "required": ["kindergarten_1"],
+    "properties":{
+      "kindergarten_1":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      },
+      "kindergarten_2":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      },
+      "kindergarten_3":{
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+      }
+    }
+  }
+},
+  "required": [
+    "registry_item",
+    "queue_in_kindergartens"
+  ],
+  "type": "object"
+}

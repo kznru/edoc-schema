@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
+    "organization": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "employee": {
+      "title": "Сотрудник",
+      "type": "object",
+      "properties": {
+        "passport_seria": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$",
+          "title": "Серия паспорта сотрудника",
+          "description": "Первые 4 цифры номера паспорта"
+        },
+        "passport_number": {
+          "type": "string",
+          "pattern": "^[0-9]{6}$",
+          "title": "Номер паспорта сотрудника",
+          "description": "Последние 6 цифр номера паспорта"
+        },
+        "snils": {
+          "$ref": "http://edoc-schema.kzn.ru/identifier/ru/snils",
+          "title": "СНИЛС"
+        },
+        "birth_year": {
+          "title": "Год рождения",
+          "type": "number"
+        },
+        "route": {
+          "title": "Маршрут движения",
+          "description": "Если работа связана с перевозками",
+          "type": "string"
+        },
+        "work_address_comment": {
+          "type": "string",
+          "title": "Описание места работы"
+        },
+        "work_schedule": {
+          "type": "string",
+          "title": "Режим работы"
+        },
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО сотрудника"
+        },
+        "phone": {
+          "type": "string",
+          "title": "Мобильный телефон"
+        },
+        "allowed_areas": {
+          "title": "Разрешённый район",
+          "type": "string",
+          "enum": [
+            "Весь город",
+            "Авиастроительный",
+            "Вахитовский",
+            "Кировский",
+            "Московский",
+            "Ново-Савиновский",
+            "Приволжский",
+            "Советский"
+          ]
+        }
+      }
+    },
+    "work_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Место работы"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {
+    "title": "Заявитель (опекун)"
+  },
+  "guardianship_confirmation_documents": {
+    "title": "Документы подтверждающие право представлять интересы ребенка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+  },
+  "child": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+  }
+},
+  "required": [
+    "guardianship_confirmation_documents",
+    "child"
+  ],
+  "type": "object"
+}

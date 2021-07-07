@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "applicant": {
+      "title": "Заявитель (физ. лицо)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "organization": {
+      "title": "Заявитель (ЮЛ, ИП)",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "title": "Адрес",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "name_object_capital_construction": {
+      "title": "Наименование объекта капитального строительства",
+      "description": "Наименование объекта капитального строительства в соответствии с проектной документацией",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "scheme_showing_location_object": {
+      "title": "Схема, отображающая расположение построенного, реконструированного объекта капитального строительства, расположение сетей инженерно-технического обеспечения в границах земельного участка и планировочную организацию земельного участка и подписанная лицом, осуществляющим строительство",
+      "description": "Схема, отображающая расположение построенного, реконструированного объекта капитального строительства, расположение сетей инженерно-технического обеспечения в границах земельного участка и планировочную организацию земельного участка и подписанная лицом, осуществляющим строительство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "document_confirming_compliance_of_constructed_object": {
+      "title": "Документ, подтверждающий соответствие построенного, реконструированного объекта капитального строительства требованиям технических регламентов и подписанный лицом, осуществляющим строительство",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "document_confirming_compliance_of_constructed_object_of_engineering_network": {
+      "title": "Документы, подтверждающие соответствие построенного, реконструированного объекта капитального строительства техническим условиям и подписанные представителями организаций, осуществляющих эксплуатацию сетей инженерно-технического обеспечения (при их наличии)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "document_confirming_conclusion_of_compulsory_insurance_contract": {
+      "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте в соответствии с законодательством Российской Федерации об обязательном страховании гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "technical_plan_of_property": {
+      "title": "Технический план объекта недвижимости",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "act_acceptance_of_capital_construction": {
+      "title": "Акт приемки объекта капитального строительства",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    }
+  },
+  "type": "object"
+}

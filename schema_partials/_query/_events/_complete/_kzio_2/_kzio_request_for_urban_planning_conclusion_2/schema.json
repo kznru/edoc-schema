@@ -1,0 +1,10 @@
+{
+  "type":"object",
+  "required":["urban_conclusion"],
+  "properties":{
+    "urban_conclusion": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Градостроительное заключение о возможности предоставлении земельного участка в собственность (местонахождение земельного участка, площадь, использование земельного участка, градостроительная ситуация, заключение)"
+    }
+  }
+}

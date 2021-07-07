@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель (родитель или опекун)",
+      "description": "общее описание",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "child": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+    },
+    "queue_in_kindergartens": {
+      "type": "object",
+      "title": "Выбор детских садов (Точный механизм интеграции после обсуждения с разработчиками ЭДС)",
+      "description": "Точный механизм интеграции после обсуждения с разработчиками ЭДС",
+      "required": [
+        "kindergarten_1"
+      ],
+      "properties": {
+        "kindergarten_1": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        },
+        "kindergarten_2": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        },
+        "kindergarten_3": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        }
+      }
+    },
+    "group_type": {
+      "title": "Тип группы",
+      "type": "string",
+      "enum": [
+        "Русская",
+        "Татарская"
+      ]
+    },
+    "desired_date_enrollment": {
+      "type": "object",
+      "title": "Желаемая дата зачисления",
+      "required": [
+        "date"
+      ],
+      "properties": {
+        "date": {
+          "title": "Дата",
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "child",
+    "desired_date_enrollment",
+    "group_type",
+    "queue_in_kindergartens",
+    "agent"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

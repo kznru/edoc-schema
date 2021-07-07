@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item_state": {},
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "identification_data_of_lands": {
+      "title": "Адрес земельного участка или земельных участков, перераспределение которых планируется осуществить",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_lands"
+    }
+  }
+}

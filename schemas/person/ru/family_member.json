@@ -1,0 +1,60 @@
+{
+  "id": "http://edoc-schema.kzn.ru/person/ru/family_member",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Член семьи",
+  "description": "Член семьи",
+  "required": [
+    "family_relation_type",
+    "fio",
+    "birth_date",
+    "birth_place",
+    "phone_number",
+    "living_place",
+    "living_place_registration_at"
+  ],
+  "properties": {
+    "family_relation_type": {
+      "title": "Родственные отношения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/family_relation_type"
+    },
+    "fio": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "birth_date": {
+      "title": "Дата рождения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "birth_place": {
+      "title": "Место рождения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "document_type": {
+      "title": "Документ, удостоверяющий личность",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_type"
+    },
+    "phone_number": {
+      "title": "Телефон",
+      "description": "Телефон члена семьи",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Электронная почта члена семьи",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "living_place": {
+      "title": "Место жительства",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "living_place_registration_at": {
+      "title": "Дата регистрации по месту жительства",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "share_size": {
+      "title": "Размер доли",
+      "description": "Размер доли члена семьи",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    }
+  }
+}

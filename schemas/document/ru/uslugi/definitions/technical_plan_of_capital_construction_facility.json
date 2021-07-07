@@ -1,0 +1,38 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_capital_construction_facility",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Технический план объекта капитального строительства",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "technical_plan":{
+        "title": "Технический план объекта капитального строительства",
+        "description": "В формате zip файл GKUOKS_000a8916...",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+      },
+      "date":{
+        "type": "string",
+        "format": "date",
+        "title": "Дата документа"
+      },
+      "fio_cadastre_engineer": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+        "title": "ФИО Кадастрового инженера",
+        "description": "Указать Фамилия, Имя, Отчество"
+      },
+      "number_certificate_cadastre_engineer":{
+        "type": "string",
+        "description": "Указать номер квалификационного аттестата кадастрового инженера",
+        "title": "№ квалификационного аттестата кадастрового инженера"
+      }
+    },
+    "required": [
+      "technical_plan",
+      "date",
+      "fio_cadastre_engineer",
+      "number_certificate_cadastre_engineer"
+    ]
+  }
+}

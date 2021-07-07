@@ -1,0 +1,182 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "addressing_3",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "address_assignment_building_on_cadastral_register_from_scratch_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_from_scratch_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_from_scratch_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_construction_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_construction_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_construction_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_apartment_house_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_apartment_house_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_on_cadastral_register_apartment_house_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_from_scratch_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_from_scratch_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_from_scratch_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_construction_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_construction_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_construction_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_apartment_house_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_apartment_house_natural_person_3"
+        },
+        {
+          "name": "address_assignment_building_not_on_cadastral_register_apartment_house_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_room_on_cadastral_register_convert_between_living_and_nonresidental_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_room_on_cadastral_register_convert_between_living_and_nonresidental_natural_person_3"
+        },
+        {
+          "name": "address_assignment_room_on_cadastral_register_convert_between_living_and_nonresidental_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_unification_rooms_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_unification_rooms_natural_person_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_unification_rooms_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_partitioning_room_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_partitioning_room_natural_person_3"
+        },
+        {
+          "name": "address_assignment_room_not_on_cadastral_register_create_by_partitioning_room_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_assignment_land_on_cadastral_register_from_scratch_legal_entity_3"
+        },
+        {
+          "name": "address_assignment_land_on_cadastral_register_from_scratch_natural_person_3"
+        },
+        {
+          "name": "address_assignment_land_on_cadastral_register_from_scratch_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_building_with_assignment_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_building_with_assignment_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_building_with_assignment_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_room_with_assignment_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_room_with_assignment_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_room_with_assignment_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_land_with_assignment_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_land_with_assignment_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_land_with_assignment_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_cadastral_registration_denial_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_cadastral_registration_denial_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_cadastral_registration_denial_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_cadastral_registration_denial_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_cadastral_registration_denial_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_cadastral_registration_denial_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_cadastral_registration_denial_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_cadastral_registration_denial_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_cadastral_registration_denial_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_existence_termination_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_existence_termination_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_building_due_to_existence_termination_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_existence_termination_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_existence_termination_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_room_due_to_existence_termination_natural_person_with_agent_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_existence_termination_legal_entity_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_existence_termination_natural_person_3"
+        },
+        {
+          "name": "address_cancellation_land_due_to_existence_termination_natural_person_with_agent_3"
+        }
+      ]
+    }
+  ]
+}

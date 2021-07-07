@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес, по которому находится земельный участок"
+    },
+    "cadastre_numbers_real_estates": {
+      "title": "Кадастровые номера расположенных в пределах ЗУ объектов недвижимости",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+      }
+    },
+    "border_information": {
+      "type": "string",
+      "title": "Сведения об установлении границ земельного участка"
+    },
+    "restrictions_on_land": {
+      "type": "string",
+      "title": "Ограничения и обременения в отношении земельного участка"
+    },
+    "permitted_use": {
+      "type": "string",
+      "title": "Разрешенное использование земельного участка"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "cadastre_number",
+    "address_with_map",
+    "cadastre_numbers_real_estates",
+    "restrictions_on_land",
+    "permitted_use"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": ["address_with_map", "lease_contract_info"],
+  "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "lease_contract_info": {
+      "title": "Договор аренды",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_info"
+    }
+  }
+}

@@ -1,9 +1,23 @@
 {
   "type": "object",
   "properties": {
-    "town_planning_conclusion": {
+    "town_planning_response": {
+      "type": "string",
+      "title": "Градостроительное заключение (выбор)",
+      "minItems": 1,
+      "enum": [
+        "положительный",
+        "с правками",
+        "отрицательный"
+      ]
+    },
+    "response_text": {
+      "type": "string",
+      "title": "Градостроительное заключение (правки)"
+    },
+    "response_files": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
-      "title": "Градостроительное заключение"
+      "title": "Градостроительное заключение (файлы)"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number_or_quarter",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area"
+    },
+    "allowed_usage_type": {
+      "title": "Виды разрешённого использования",
+      "description": "Целевое назначение",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/allowed_usage_type_only_ijs"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "agent",
+    "address_with_map",
+    "area",
+    "allowed_usage_type"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

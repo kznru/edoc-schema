@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    }
+  }
+}

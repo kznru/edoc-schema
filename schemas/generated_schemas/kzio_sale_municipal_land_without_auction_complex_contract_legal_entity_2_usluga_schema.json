@@ -1,0 +1,57 @@
+{
+  "required": [
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "address_with_map",
+    "cadastre_number",
+    "area",
+    "types_of_permitted_use_of_land"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес земельного участка"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "title": "Площадь земельного участка",
+      "description": "Кадастровый номер земельного участка или кадастрового квартала"
+    },
+    "types_of_permitted_use_of_land": {
+      "title": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор о комплексном освоении территории"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

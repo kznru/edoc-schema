@@ -1,0 +1,14 @@
+{
+  "type":"object",
+  "required":["act", "phototable"],
+  "properties":{
+    "act": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Акт обследования земельного участка"
+    },
+    "phototable": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фототаблица"
+    }
+  }
+}

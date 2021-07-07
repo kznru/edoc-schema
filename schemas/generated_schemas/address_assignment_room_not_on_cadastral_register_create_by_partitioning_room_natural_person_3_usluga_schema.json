@@ -1,20 +1,16 @@
 {
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
     "identification_data_of_rooms": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_rooms_with_required_fields",
       "minItems": 1,
       "maxItems": 1,
       "title": "Данные, идентифицирующие помещение",
-      "description": "Кадастровый номер и адрес помещения, раздел которого осуществляется",
-      "required": [
-        "cadastre_number",
-        "address"
-      ]
+      "description": "Кадастровый номер и адрес помещения, раздел которого осуществляется"
     },
     "purpose_of_room": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_of_room",
@@ -22,7 +18,7 @@
       "description": "Назначение исходного помещения"
     },
     "result_rooms_count": {
-      "type": "integer",
+      "$ref": "http://edoc-schema.kzn.ru/generic/integer",
       "title": "Количество помещений",
       "description": "Количество образуемых помещений"
     },
@@ -43,10 +39,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "agent",
     "identification_data_of_rooms",
     "purpose_of_room",
     "result_rooms_count",

@@ -1,0 +1,111 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_1"
+      },
+      "title": "Технические условия для выполнения",
+      "description": "Номер технических условий в реестре"
+    },
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    },
+    "naimenowanie_ob_ekta": {
+      "title": "Наименование объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
+    },
+    "ploschad_ob_ekta": {
+      "title": "Площадь объекта",
+      "description": "Площадь, кв.м",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "nomer_i_data_razresheniq_na_stroitel_stwo_rekonstrukci": {
+      "title": "Номер и дата разрешения на строительство (реконструкцию)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_permit"
+    },
+    "ispolnitel_no_tehnicheskaq_dokumentaciq": {
+      "title": "Исполнительно-техническая документация",
+      "description": "Файл с исполнительной съемкой",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "akt_podtwerzhda_schij_podkl_chenie_k_gorodskim_setqm_liwnewoj_kanalizacii": {
+      "title": "Акт, подтверждающий подключение к городским сетям ливневой канализации",
+      "description": "Файл (в случае, если предусмотрено техническими условиями)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "protokol_izmereniq_prob_stochnyh_wod": {
+      "title": "Протокол измерения проб сточных вод",
+      "description": "Файл (в случае, если техническими\nусловиями предусмотрена очистка отводимых стоков до норм СаНПиН 2.1.5.980-00",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "proekt_organizacii_dorozhnogo_dwizheniq": {
+      "title": "Проект организации дорожного движения",
+      "description": "Файл с размещением технических средств организации дорожного движения, согласованный с Комитетом по транспорту Исполнительного комитета г. Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "topograficheskij_plan": {
+      "title": "Топографический план",
+      "description": "Файл с обновленными копиями оригиналов, заверенные печатью геослужбы геофонда города Казани (выполненные после всех работ по благоустройству и озеленению)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+    },
+    "proektnaq_dokumentaciq": {
+      "title": "Проектная документация",
+      "description": "Файл с положительным заключением проектной документации, выданное органом, осуществляющим государственную (негосударственную) экспертизу (для объектов, предусмотренных статьей 49 Градостроительного кодекса РФ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "razdel_genplan_proektnoj_dokumentacii": {
+      "title": "Раздел \"Генплан\" проектной документации",
+      "description": "Разработанный специализированной организацией и согласованный (рассмотренный) Главным архитектором Управления архитектуры и градостроительства Исполнительного комитета г.Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "foto_tekuschego_sostoqniq": {
+      "title": "Фото текущего состояния",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
+    },
+    "s_emka_tekuschih_izmenenij_w_masshtabe_1_500_so_wsemi_podzemnymi_kommunikaciqmi_w_tom_chisle_s_wnow_postroennymi": {
+      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks_optional"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "dowerennost",
+    "ploschad_ob_ekta",
+    "nomer_i_data_razresheniq_na_stroitel_stwo_rekonstrukci",
+    "ispolnitel_no_tehnicheskaq_dokumentaciq",
+    "akt_podtwerzhda_schij_podkl_chenie_k_gorodskim_setqm_liwnewoj_kanalizacii",
+    "protokol_izmereniq_prob_stochnyh_wod",
+    "proekt_organizacii_dorozhnogo_dwizheniq",
+    "topograficheskij_plan",
+    "proektnaq_dokumentaciq",
+    "razdel_genplan_proektnoj_dokumentacii",
+    "registry_item",
+    "foto_tekuschego_sostoqniq"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

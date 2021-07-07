@@ -1,8 +1,6 @@
 {
   "properties": {
     "reject_reasons": {
-      "title": "Причина отказа",
-      "type": "array",
       "items": {
         "type": "string",
         "enum": [
@@ -18,8 +16,10 @@
           "Другое (указать)"
         ]
       },
-      "uniqueItems": true,
-      "minItems": 1
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true
     },
     "response_text": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"

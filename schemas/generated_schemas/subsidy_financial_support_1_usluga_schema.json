@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_with_requisites",
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя."
+    },
+    "rukovoditel": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+      "title": "Руководитель",
+      "description": "Лицо, представляющее организацию"
+    },
+    "document_polnomochia_rukovoditelya": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+      "title": "Документ подтверждающий полномочия",
+      "description": "Документ подтверждающий полномочия руководителя"
+    },
+    "razmer_subsidii": {
+      "title": "Размер субсидии",
+      "description": "Размер субсидии, руб.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/float"
+    },
+    "otchetnyj_period": {
+      "title": "Отчетный период",
+      "description": "Отчетный период",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/time_limitation"
+    },
+    "address": {
+      "title": "Место оказания услуги",
+      "description": "Адрес местонахождения ",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "bankowskie_rekwizity_dlq_perechisleniq_subsidii": {
+      "title": "Банковские реквизиты для перечисления субсидии",
+      "description": "Банковские реквизиты для перечисления субсидии",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
+    },
+    "dokumenty_podtwerzhda_schie_otsutstwie_u_organizacii_zadolzhennosti_po_nalogam_sboram_i_inym_obqzatel_nym_platezham_w_b_dzhety_rossijskoj_federacii": {
+      "title": "Документы, подтверждающие отсутствие у организации задолженности по налогам, сборам и иным обязательным платежам в бюджеты Российской Федерации",
+      "description": "Документы (справки, выписки), подтверждающие отсутствие у организации задолженности по налогам, сборам и иным обязательным платежам в бюджеты бюджетной системы Российской Федерации, срок исполнения по которым наступил в соответствии с законодательством Российской Федерации, на 1-е число месяца, предшествующего месяцу, в котором планируется заключение соглашения (договора) о предоставлении субсидии;",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "kopiq_licenzii_na_osuschestwlenie_hozqjstwennoj_deqtel_nosti": {
+      "title": "Копия лицензии на осуществление хозяйственной деятельности",
+      "description": "Копия лицензии на осуществление хозяйственной деятельности в случае осуществления заявителем лицензируемых видов деятельности в соответствии с законодательством Российской Федерации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "dokumenty_podtwerzhda_schie_otsutstwie_zadolzhennosti_po_wozwratu_w_b_dzhet_municipal_nogo_obrazowaniq_goroda_kazani": {
+      "title": "Документы, подтверждающие отсутствие задолженности по возврату в бюджет муниципального образования города Казани",
+      "description": "Документы (справки, выписки), подтверждающие отсутствие задолженности по возврату в бюджет муниципального образования города Казани субсидий, бюджетных инвестиций, предоставленных в том числе в соответствии с иными правовыми актами, и иной просроченной задолженности перед бюджетом муниципального образования города Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "raschet_razmera_subsidii": {
+      "title": "Расчет размера субсидии",
+      "description": "Расчет суммы финансового обеспечения затрат в связи с производством (реализацией) товаров, выполнением работ, оказанием услуг с приложением документов, обосновывающих ее размер",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "dopolnitel_nye_dokumenty": {
+      "title": "Дополнительные документы",
+      "description": "Иные документы в соответствии с порядком предоставления субсидий из бюджета муниципального образования города Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "rukovoditel",
+    "document_polnomochia_rukovoditelya",
+    "razmer_subsidii",
+    "otchetnyj_period",
+    "address",
+    "bankowskie_rekwizity_dlq_perechisleniq_subsidii",
+    "dokumenty_podtwerzhda_schie_otsutstwie_u_organizacii_zadolzhennosti_po_nalogam_sboram_i_inym_obqzatel_nym_platezham_w_b_dzhety_rossijskoj_federacii",
+    "dokumenty_podtwerzhda_schie_otsutstwie_zadolzhennosti_po_wozwratu_w_b_dzhet_municipal_nogo_obrazowaniq_goroda_kazani",
+    "raschet_razmera_subsidii"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

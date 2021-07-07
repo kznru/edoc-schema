@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_conditions",
   "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
   "title": "Технические условия"
 }

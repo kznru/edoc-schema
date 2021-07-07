@@ -1,0 +1,15 @@
+{
+  "properties": {
+  "registry_item": {},
+  "agent": {
+    "title": "Заявитель (родитель)"
+  },
+  "child": {
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/child_for_kindergarten"
+  }
+},
+  "required": [
+    "child"
+  ],
+  "type": "object"
+}

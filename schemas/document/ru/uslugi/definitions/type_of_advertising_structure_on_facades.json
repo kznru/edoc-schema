@@ -1,0 +1,14 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_advertising_structure_on_facades",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "string",
+  "description": "Тип рекламной конструкции на фасадах",
+  "minItems": 1,
+  "enum": [
+    "крышная установка",
+    "брандмауэр",
+    "медиафасад",
+    "видеоэкран",
+    "строительная сетка"
+  ]
+}

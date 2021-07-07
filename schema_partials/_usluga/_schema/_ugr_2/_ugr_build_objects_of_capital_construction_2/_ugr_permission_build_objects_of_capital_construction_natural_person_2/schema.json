@@ -1,0 +1,145 @@
+{
+  "properties": {
+  "organization": {
+    "title": "Заявитель",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "agent": {
+    "title": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "dowerennost": {
+    "title": "Доверенность",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+  },
+  "naimenowanie_ob_ekta": {
+    "title": "Наименование объекта",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "address_with_map": {
+    "title": "Адрес",
+    "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+  },
+  "srok": {
+    "title": "Срок",
+    "description": "Число месяцев",
+    "$ref": "http://edoc-schema.kzn.ru/generic/number"
+  },
+  "osnowanie_dlq_stroitel_stwa": {
+    "title": "Основание для строительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name"
+  },
+  "organizaciq_razrabotawshaq_proektnu_dokumentaci": {
+    "title": "Организация, разработавшая проектную документацию",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "razreshenie_na_prowedenie_rabot": {
+    "title": "Разрешение на проведение работ",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
+  },
+  "polozhitel_noe_zakl_chenie_gosudarstwennoj_xpertizy_polucheno": {
+    "title": "Положительное заключение государственной экспертизы получено",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document"
+  },
+  "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_soglasowana": {
+    "title": "Схема планировочной организации земельного участка согласована",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization"
+  },
+  "proektno_smetnaq_dokumentaciq_utwerzhdena": {
+    "title": "Проектно-сметная документация утверждена",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization"
+  },
+  "rekwizity_dlq_finansirowaniq": {
+    "title": "Реквизиты для финансирования",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/bank_details"
+  },
+  "dogowor_podrqda": {
+    "title": "Договор подряда",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
+  },
+  "razreshenie_na_prowedenie_stroitel_no_montazhnyh_rabot": {
+    "title": "Разрешение на проведение строительно-монтажных работ",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_name_and_organization"
+  },
+  "prikaz_na_naznachenie_proizwoditelq_rabot": {
+    "title": "Приказ на назначение производителя работ",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_with_organization"
+  },
+  "fio_proizwoditelq_rabot": {
+    "title": "ФИО производителя работ",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+  },
+  "obrazowaniq_proizwoditelq_rabot": {
+    "title": "Образования производителя работ",
+    "description": "Высшее, среднее",
+    "$ref": "http://edoc-schema.kzn.ru/generic/string"
+  },
+  "stazh_raboty_w_stroitel_stwe": {
+    "title": "Стаж работы в строительстве",
+    "description": "Число лет",
+    "$ref": "http://edoc-schema.kzn.ru/generic/number"
+  },
+  "poqsnitel_naq_zapiska": {
+    "title": "Пояснительная записка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_wypolnennaq_w_sootwetstwii_s_gradostroitel_nym_planom_zemel_nogo_uchastka_s_oboznacheniem_mesta_razmescheniq_ob_ekta_kapital_nogo_stroitel_stwa_pod_ezdow_i_prohodow_k_nemu_granic_zon_dejstwiq_publichnyh_serwitutow_ob_ektow_arheologicheskogo_naslediq": {
+    "title": "Схема планировочной организации земельного участка, выполненная в соответствии с градостроительным планом земельного участка, с обозначением места размещения объекта капитального строительства, подъездов и проходов к нему, границ зон действия публичных сервитутов, объектов\nархеологического наследия",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_podtwerzhda_schaq_raspolozhenie_linejnogo_ob_ekta_w_predelah_krasnyh_linij_utwerzhdennyh_w_sostawe_dokumentacii_po_planirowke_territorii_primenitel_no_k_linejnym_ob_ektam": {
+    "title": "Схема планировочной организации земельного участка,\nподтверждающая расположение линейного объекта в пределах\nкрасных линий, утвержденных в составе документации по\nпланировке территории применительно к линейным объектам",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "shemy_otobrazha_schie_arhitekturnye_resheniq": {
+    "title": "Схемы, отображающие архитектурные решения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "swedeniq_ob_inzhenernom_oborudowanii_swodnyj_plan_setej_inzhenerno_tehnicheskogo_obespecheniq_s_oboznacheniem_mest_podkl_cheniq_tehnologicheskogo_prisoedineniq_proektiruemogo_ob_ekta_kapital_nogo_stroitel_stwa_k_setqm_inzhenerno_tehnicheskogo_obespecheniq": {
+    "title": "Сведения об инженерном оборудовании, сводный план сетей\nинженерно-технического обеспечения с обозначением мест\nподключения (технологического присоединения)\nпроектируемого объекта капитального строительства к сетям\nинженерно-технического обеспечения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "proekt_organizacii_stroitel_stwa_ob_ekta_kapital_nogo_stroitel_stwa": {
+    "title": "Проект организации строительства объекта капитального\nстроительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "proekt_organizacii_rabot_po_snosu_ili_demontazhu_ob_ektow_kapital_nogo_stroitel_stwa_ih_chastej": {
+    "title": "Проект организации работ по сносу или демонтажу объектов\nкапитального строительства, их частей",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  },
+  "soglasie_wseh_prawoobladatelej_ob_ekta_kapital_nogo_stroitel_stwa_w_sluchae_rekonstrukcii_takogo_ob_ekta": {
+    "title": "Согласие всех правообладателей объекта капитального строительства в случае реконструкции такого объекта",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+  }
+},
+  "required": [
+    "organization",
+    "agent",
+    "dowerennost",
+    "naimenowanie_ob_ekta",
+    "address_with_map",
+    "srok",
+    "osnowanie_dlq_stroitel_stwa",
+    "organizaciq_razrabotawshaq_proektnu_dokumentaci",
+    "razreshenie_na_prowedenie_rabot",
+    "polozhitel_noe_zakl_chenie_gosudarstwennoj_xpertizy_polucheno",
+    "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_soglasowana",
+    "proektno_smetnaq_dokumentaciq_utwerzhdena",
+    "rekwizity_dlq_finansirowaniq",
+    "dogowor_podrqda",
+    "razreshenie_na_prowedenie_stroitel_no_montazhnyh_rabot",
+    "prikaz_na_naznachenie_proizwoditelq_rabot",
+    "fio_proizwoditelq_rabot",
+    "obrazowaniq_proizwoditelq_rabot",
+    "stazh_raboty_w_stroitel_stwe",
+    "poqsnitel_naq_zapiska",
+    "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_wypolnennaq_w_sootwetstwii_s_gradostroitel_nym_planom_zemel_nogo_uchastka_s_oboznacheniem_mesta_razmescheniq_ob_ekta_kapital_nogo_stroitel_stwa_pod_ezdow_i_prohodow_k_nemu_granic_zon_dejstwiq_publichnyh_serwitutow_ob_ektow_arheologicheskogo_naslediq",
+    "shema_planirowochnoj_organizacii_zemel_nogo_uchastka_podtwerzhda_schaq_raspolozhenie_linejnogo_ob_ekta_w_predelah_krasnyh_linij_utwerzhdennyh_w_sostawe_dokumentacii_po_planirowke_territorii_primenitel_no_k_linejnym_ob_ektam",
+    "shemy_otobrazha_schie_arhitekturnye_resheniq",
+    "swedeniq_ob_inzhenernom_oborudowanii_swodnyj_plan_setej_inzhenerno_tehnicheskogo_obespecheniq_s_oboznacheniem_mest_podkl_cheniq_tehnologicheskogo_prisoedineniq_proektiruemogo_ob_ekta_kapital_nogo_stroitel_stwa_k_setqm_inzhenerno_tehnicheskogo_obespecheniq",
+    "proekt_organizacii_stroitel_stwa_ob_ekta_kapital_nogo_stroitel_stwa",
+    "proekt_organizacii_rabot_po_snosu_ili_demontazhu_ob_ektow_kapital_nogo_stroitel_stwa_ih_chastej",
+    "soglasie_wseh_prawoobladatelej_ob_ekta_kapital_nogo_stroitel_stwa_w_sluchae_rekonstrukcii_takogo_ob_ekta"
+  ],
+  "type": "object"
+}

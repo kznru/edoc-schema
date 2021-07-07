@@ -1,0 +1,32 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/egrn_extract",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Выписка из Единого государственного реестра недвижимости об основных характеристиках и зарегистрированных правах на объект недвижимости",
+  "required": [
+    "date",
+    "number",
+    "type",
+    "registration_date"
+  ],
+  "properties":{
+    "date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата"
+    },
+    "type":{
+      "type": "string",
+      "title": "Вид государственной регистрации права"
+    },
+    "number":{
+      "type": "string",
+      "title": "Номер государственной регистрации права"
+    },
+    "registration_date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата государственной регистрации права"
+    }
+  }
+}

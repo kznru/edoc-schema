@@ -1,0 +1,116 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_excavation_orders_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_excavation_orders_add_for_roadway_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_3"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_add_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_with_agent_3"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_add_on_paper_carrier_legal_entity_3"
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_add_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_with_agent_3"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_delete_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_delete_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_with_agent_3"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_3"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_emergency_3",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_legal_entity_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_3"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

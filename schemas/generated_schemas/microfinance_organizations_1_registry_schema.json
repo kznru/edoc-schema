@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    },
     "external_id": {
       "type": "string",
       "title": "Регистрационный номер записи"

@@ -1,0 +1,100 @@
+{
+  "type": "object",
+  "required": [
+    "agent",
+    "registration_address",
+    "confirm_for_not_intended_division_on_independent_real_estate",
+    "cadastre_number",
+    "cadastre_number_quarter",
+    "address_with_map",
+    "developer_rights",
+    "availability_rights_of_other_person",
+    "type_of_permitted_use_of_land",
+    "schematic_depiction",
+    "result_delivery_method"
+  ],
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "registration_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Место жительства",
+      "description": "Адрес проживания"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка",
+      "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
+    },
+    "cadastre_number_quarter": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_quarter",
+      "title": "Кадастровый номер кадастрового квартала",
+      "description": "Указание кадастрового номера кадастрового квартала"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес или местоположение земельного участка",
+      "description": "Местоположение строящегося дома, согласно выписке на земельный участок"
+    },
+    "developer_rights": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
+      "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
+    },
+    "availability_rights_of_other_person": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
+      "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
+    },
+    "type_of_permitted_use_of_land": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о виде разрешенного использования земельного участка",
+      "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
+    },
+    "planning_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/house_planned_parameters"
+    },
+    "permission_to_deviate_from_limiting_parameters": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Сведения о решении о предоставлении разрешения на отклонение от предельных параметров разрешенного строительства, реконструкции (при наличии)",
+      "description": "Заполняется при наличии такого согласования с УАиГ"
+    },
+    "typical_architectural_solution_description": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
+      "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (описание)"
+    },
+    "typical_architectural_solution_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "description": "Заполняется в случае, если строящийся объект расположен в границах территории исторического поселения и требуется Согласование с Министерством культуры РТ или РФ",
+      "title": "Сведения о типовом архитектурном решении объекта капитального строительства, в случае строительства или реконструкции такого объекта в границах территории исторического поселения федерального или регионального значения (файлы)"
+    },
+    "schematic_depiction": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "image/png, image/jpeg",
+      "title": "Схематичное изображение планируемого к строительству или реконструкции объекта капитального строительства на земельном участке",
+      "description": "Отсканированное в цвете в формате JPG схематичное изображение планируемого к строительству (реконструкции) объекта на земельном участке со всеми отступами и желательным ориентиром (к примеру, где располагается дорога)"
+    },
+    "confirm_for_not_intended_division_on_independent_real_estate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Настоящим уведомлением подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Согласование с КАПО им.Горбунова, КВЗ, Средволгаводхоз, Электросетевая организация и т.д."
+    },
+    "result_delivery_method": {
+      "title": "Способ и данные для получения результата услуги (желательно использовать электронную почту)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

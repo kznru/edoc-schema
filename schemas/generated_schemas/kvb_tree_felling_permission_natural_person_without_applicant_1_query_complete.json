@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "required": [
+    "gardening_undertaker",
+    "work_description",
+    "work_title"
+  ],
+  "properties": {
+    "work_description": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/work_description"
+    },
+    "work_title": {
+      "type": "string",
+      "title": "Наименование выполняемых работ (в винительном падеже)",
+      "description": "Должно отвечать на вопрос кого, что"
+    },
+    "commission": {
+      "type": "object",
+      "title": "Комиссия",
+      "properties": {
+        "members": {
+          "type": "array",
+          "title": "Члены комиссии",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fio": {
+                "$ref": "http://localhost:4000/person/ru/natural_person",
+                "title": "ФИО"
+              },
+              "organization": {
+                "$ref": "http://localhost:4000/organization/ru/organization",
+                "title": "Организация"
+              },
+              "position": {
+                "type": "string",
+                "title": "Должность"
+              }
+            },
+            "required": [
+              "fio",
+              "organization",
+              "position"
+            ]
+          }
+        },
+        "witnesses": {
+          "type": "array",
+          "title": "В присутствии",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fio": {
+                "$ref": "http://localhost:4000/person/ru/natural_person",
+                "title": "ФИО"
+              },
+              "organization": {
+                "$ref": "http://localhost:4000/organization/ru/organization",
+                "title": "Организация"
+              },
+              "position": {
+                "type": "string",
+                "title": "Должность"
+              }
+            },
+            "required": [
+              "fio",
+              "organization",
+              "position"
+            ]
+          }
+        }
+      }
+    },
+    "gardening_undertaker": {
+      "$ref": "http://localhost:4000/organization/ru/organization",
+      "title": "Сторона, принимающая работу по компенсационному озеленению"
+    },
+    "green_report": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/green_report"
+    },
+    "attachments": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://localhost:4000/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

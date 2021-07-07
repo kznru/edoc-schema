@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "previous_order": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ранее выданное разрешение"
+    },
+    "genplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Генеральный план г.Казани с указанием выполненных и не завершённых работ"
+    }
+  }
+}

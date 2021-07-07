@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_analysis_of_pedestrian_and_transport_links_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_25mb",
+  "title": "Анализ пешеходных и транспортных связей",
+  "description": "(схема организации пешеходного и транспортного движения на рассматриваемой территории с графическим указанием пешеходных и транспортных связей, радиусов поворота машин, заездов-выездов на парковки, заездов с основных транспортных магистралей)"
+}

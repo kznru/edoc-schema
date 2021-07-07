@@ -1,4 +1,5 @@
 {
+  "id": "http://edoc-schema.kzn.ru/geo/lineStringCoordinates",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Line String Coordinates",
   "description": "For type `LineString`, the `coordinates` member must be an array of two or more positions.",

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "address_with_map",
+    "result_delivery_method",
+    "shipping_status"
+  ],
+  "properties": {
+    "usluga_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/usluga_number_field"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_optional",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
+      "title": "Представитель"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес или местоположение земельного участка",
+      "description": "Местоположение строящегося дома"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер"
+    },
+    "result_delivery_method": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
+    "shipping_status": {
+      "title": "Статус отправки результата услуги",
+      "type": "string",
+      "enum": [
+        "Не отправлено",
+        "Отправлено"
+      ],
+      "default": "Не отправлено"
+    },
+    "registry_item_state": {
+      "title": "Статус реестровой записи",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_and_draft_proposal",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Эскизное предложение для архитектурно-градостроительного облика",
+  "properties": {
+    "content": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Содержание эскизного предложения"
+    },
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Пояснительная записка"
+    },
+    "situational_plan":{
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ситуационный план"
+    },
+    "photofixation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фотофиксация существующего состояния территории и ее окружения"
+    },
+    "territory_analysis": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Анализ территории"
+    },
+    "genplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Генплан"
+    },
+    "construction_order": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Очередность строительства"
+    },
+    "land_improvement_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "План комплексного благоустройства территории"
+    },
+    "analysis_of_pedestrian_and_transport_links": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Анализ пешеходных и транспортных связей"
+    },
+    "facades": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фасады проектируемого объекта"
+    },
+    "plans_by_floor": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Поэтажные планы"
+    },
+    "sections": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Разрезы"
+    },
+    "street_scan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Развертки по улицам"
+    },
+    "landscape_visual_analisys": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ландшафтно-визуальный анализ с привязкой проектируемого объекта"
+    },
+    "night_lightning_concept": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Концепция ночного освещения"
+    },
+    "advertising_placement_concept": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Концепция рационального и эффективного размещения средств наружной рекламы и информации"
+    },
+    "air_conditioning_and_engineering_equipment_concept": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема размещения кондиционерного и инженерного оборудования"
+    },
+    "dendroplan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Дендроплан",
+      "accept": "image/jpeg"
+    },
+    "solid_plan_small_architectural_forms": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "План твердых покрытий и малых архитектурных форм",
+      "accept": "image/jpeg"
+    },
+    "graphic_materials_of_beautification_elements": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Графические материалы элементов благоустройства",
+      "accept": "image/jpeg"
+    },
+    "visualization_project_proposal": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Визуализация (или фотомонтаж) проектного предложения",
+      "accept": "image/jpeg"
+    }
+  }
+}

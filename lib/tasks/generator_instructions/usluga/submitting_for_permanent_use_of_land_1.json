@@ -1,0 +1,12 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "submitting_for_permanent_use_of_land_1",
+      "virtual": true,
+      "keys": [
+        { "name": "submitting_for_permanent_use_of_land_legal_entity_1" }
+      ]
+    }
+  ]
+}

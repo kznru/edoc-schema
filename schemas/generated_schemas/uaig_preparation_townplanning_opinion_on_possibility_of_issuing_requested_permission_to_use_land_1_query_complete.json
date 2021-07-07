@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "required": [
+    "town_planning_response"
+  ],
+  "properties": {
+    "town_planning_response": {
+      "type": "string",
+      "title": "Градостроительное заключение (выбор)",
+      "minItems": 1,
+      "enum": [
+        "положительный",
+        "отрицательный"
+      ]
+    },
+    "town_planning_response_number": {
+      "title": "Номер градостроительного заключения",
+      "type": "string"
+    },
+    "town_planning_response_date": {
+      "title": "Дата градостроительного заключения",
+      "type": "string",
+      "format": "date"
+    },
+    "grafical_part": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Графическя часть"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

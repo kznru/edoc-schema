@@ -1,0 +1,190 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_with_inn",
+      "title": "Заявитель",
+      "description": "ФИО Застройщика и Правообладателя земельного участка"
+    },
+    "applicant_info": {
+      "type": "object",
+      "title": "Данные заявителя",
+      "properties": {
+        "registration_address": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+          "title": "Место жительства",
+          "description": "Адрес проживания (указывается адрес по регистрации)"
+        },
+        "passport": {
+          "type": "object",
+          "title": "Реквизиты документа, удостоверяющего личность",
+          "properties": {
+            "seria": {
+              "type": "string",
+              "title": "Серия"
+            },
+            "issued_by": {
+              "type": "string",
+              "title": "Кем выдан"
+            },
+            "issue_date": {
+              "type": "string",
+              "format": "date",
+              "title": "Дата выдачи"
+            }
+          }
+        }
+      }
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес или местоположение земельного участка",
+      "description": "Местоположение строящегося дома"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка",
+      "description": "Земельный участок, на котором планируется реконструкция, согласно выписке на этот земельный участок в формате 6:4:16:18"
+    },
+    "developer_rights": {
+      "type": "string",
+      "title": "Сведения о праве застройщика на земельный участок (правоустанавливающие документы)",
+      "description": "Документы подтверждающие право заказчика на указанный земельный участок: Свидетельство о регистрации права №___; ИЛИ договор купли-продажи №____; ИЛИ договор дарения №___; ИЛИ выписка из ЕГРН от____________;"
+    },
+    "availability_rights_of_other_person": {
+      "type": "string",
+      "title": "Сведения о наличии прав иных лиц на земельный участок (при наличии)",
+      "description": "Являюсь единственным собственником или Ф.И.О. иных собственников"
+    },
+    "type_of_permitted_use_of_land": {
+      "type": "string",
+      "title": "Сведения о виде разрешенного использования земельного участка",
+      "description": "Информация содержится в выписке из ЕГРН или свидетельстве о регистрации права собственности (например ведение личного подсобного хозяйства, садоводство, индивидуальное жилищное строительство или…….)"
+    },
+    "planning_parameters": {
+      "properties": {
+        "above_floors_number": {
+          "minItems": 1,
+          "enum": [
+            "1",
+            "2",
+            "3"
+          ],
+          "type": "string",
+          "title": "Количество надземных этажей",
+          "description": "Должно быть целое число (1,2,3…), в формате выбора только из позиций: 1; 2; 3"
+        },
+        "limiting_height": {
+          "type": "number",
+          "title": "Высота",
+          "description": "Высота от поверхности земли до конька крыши"
+        },
+        "building_area": {
+          "type": "number",
+          "title": "Площадь застройки (кв.м)",
+          "description": "Площадь застройки дома по внешнему контуру, рассчитывается как длина х ширину (1 этаж)"
+        },
+        "distance_from_boundaries_of_land": {
+          "type": "object",
+          "title": "Сведения об отступах от границ земельного участка (м)",
+          "required": [
+            "front",
+            "back",
+            "left",
+            "right"
+          ],
+          "description": "отступ от боковой левой границы з/у до объекта капитального строительства 3 метра; отступ от правой границы 2 метра; отступ от передней границы 4_метра; отступ от задней границы 10 метров.",
+          "properties": {
+            "front": {
+              "type": "string",
+              "title": "передняя граница"
+            },
+            "back": {
+              "type": "string",
+              "title": "задняя граница"
+            },
+            "left": {
+              "type": "string",
+              "title": "боковая левая граница"
+            },
+            "right": {
+              "type": "string",
+              "title": "боковая правая граница"
+            }
+          }
+        }
+      },
+      "type": "object",
+      "title": "Сведения о параметрах",
+      "required": [
+        "above_floors_number",
+        "limiting_height",
+        "building_area",
+        "distance_from_boundaries_of_land"
+      ]
+    },
+    "schematic_depiction": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "image/png, image/jpeg",
+      "title": "Схематичное изображение реконструированного объекта капитального строительства на земельном участке",
+      "description": "Отсканированное в цвете схематичное изображение реконструированного объекта капитального строительства на земельном участке"
+    },
+    "technical_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Технический план объекта капитально строительства",
+      "description": "Подготовленный кадастровым инженером, в соответствии с Федеральным законом №218-ФЗ"
+    },
+    "rights_determination_agreement": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключенное соглашение об определении долей в праве общей долевой собственности",
+      "description": "Если земельный участок, на котором построен или реконструирован объект ИЖС или СД, принадлежит двум и более гражданам на праве общей долевой собственности или на праве аренды со множественностью лиц на стороне арендатора"
+    },
+    "state_duty_payment": {
+      "title": "Сведения об оплате государственной пошлины",
+      "description": "Сведения об оплате: 1) наименование плательщика: юридическое лицо, ИНН или фамилия, имя, отчество физического лица, серия и номер паспорта, СНИЛС; 2) номер  и дата документа, подтверждающего оплату государственной пошлины",
+      "type": "object",
+      "required": [
+        "document",
+        "scanned_document"
+      ],
+      "properties": {
+        "document": {
+          "title": "Номер и дата документа",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document",
+          "description": "Номер и дата документа, подтверждающего оплату государственной пошлины"
+        },
+        "scanned_document": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "title": "Чек, квитанция об оплате государственной пошлины",
+          "description": "Квитанция оплачивается на имя каждого собственника в соответствии с долями"
+        }
+      }
+    },
+    "confirm_that_will_not_separate": {
+      "type": "boolean",
+      "title": "Подтверждаю, что объект индивидуального жилищного строительства не предназначен для раздела на самостоятельные объекты недвижимости"
+    },
+    "confirm_that_conforms_city_rules": {
+      "type": "boolean",
+      "title": "Подтверждаю, что объект индивидуального жилищного строительства соответствует Градостроительному уставу г.Казани, утвержденному решением Казанского Совета народных депутатов от 26.06.1998 №2-12; местным нормативам градостроительного проектирования городского округа Казань, утвержденным решением Казанской городской Думы от 14.12.2016 №8-12, требованиям технических регламентов (норм и правил)"
+    },
+    "result_delivery_method": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/result_delivery_method"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "required": [
+    "developer_rights",
+    "availability_rights_of_other_person",
+    "state_duty_payment",
+    "result_delivery_method"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "required": [
+    "agent",
+    "organization",
+    "letter_of_attorney",
+    "address_with_map",
+    "images_before"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель",
+      "description": "Полное наименование организации - заказчика работ по договору"
+    },
+    "organization_phone": {
+      "type": "string",
+      "title": "Телефон организации-заявителя"
+    },
+    "applicant_address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес заявителя"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы (улиц), номер здания(зданий), находящихся ближе всего к месту производства работ"
+    },
+    "address_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments",
+      "title": "Уточнение адреса или места проведения работ"
+    },
+    "extra_addresses": {
+      "type": "array",
+      "title": "Дополнительные адреса",
+      "minItems": 0,
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+      }
+    },
+    "objects_of_work": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work",
+      "title": "Разрешённые работы"
+    },
+    "objects_of_work_comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/objects_of_work_comments"
+    },
+    "begin_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата начала работ"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "title": "Дата окончания работ"
+    },
+    "area_of_damage_to_road": {
+      "type": "string",
+      "title": "Площадь повреждения дорожного покрытия (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_sidewalk": {
+      "type": "string",
+      "title": "Площадь повреждения тротуара (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "area_of_damage_to_lawn": {
+      "type": "string",
+      "title": "Площадь повреждения газона (кв. м)",
+      "description": "Целое или дробное число площади повреждения в квадратных метрах, единицу измерения указывать не надо"
+    },
+    "contractor": {
+      "type": "object",
+      "required": [
+        "contractor_organization",
+        "contractor_organization_address"
+      ],
+      "title": "Подрядчик",
+      "properties": {
+        "contractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+          "title": "Организация подрядчика"
+        },
+        "contractor_organization_phone": {
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "contractor_organization_address": {
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        },
+        "contractor_responsible": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
+          "title": "Ответственный производитель работ со стороны подрядчика"
+        }
+      }
+    },
+    "subcontractor": {
+      "type": "object",
+      "required": [
+        "subcontractor_organization",
+        "subcontractor_responsible",
+        "subcontractor_organization_address"
+      ],
+      "title": "Субподрядчик",
+      "properties": {
+        "subcontractor_organization": {
+          "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+          "title": "Организация субподрядчика"
+        },
+        "subcontractor_organization_phone": {
+          "type": "string",
+          "title": "Телефон организации-подрядчика"
+        },
+        "subcontractor_organization_address": {
+          "title": "Адрес организации-подрядчика",
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+        },
+        "subcontractor_responsible": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+          },
+          "title": "Ответственный производитель работ со стороны субподрядчика"
+        }
+      }
+    },
+    "images_before": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотофиксация исходной ситуации"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

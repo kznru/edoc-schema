@@ -1,0 +1,67 @@
+{
+  "required": [
+    "organization",
+    "letter_of_attorney",
+    "agent",
+    "registry_item",
+    "address_with_map",
+    "images_after",
+    "certificate_of_acceptance"
+  ],
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_excavation_orders_1"
+      },
+      "title": "Ордер для закрытия",
+      "description": "Введите реестровый номер ордера, который нужно закрыть. Номер был присвоен при открытии ордера"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес (ближайший к месту работ)",
+      "description": "Укажите наименование улицы, номер здания, находящихся ближе всего к месту производства работ"
+    },
+    "images_after": {
+      "title": "Фотографии мест работ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "description": "Фотофиксация должна осуществляться в светлое время суток (в темное время – с использованием искусственного освещения). На фотографии должно быть место проведения земляных работ с привязкой на местности, с состоянием почвы, рельефа, улично-дорожной сети, зеленых насаждений, зданий и сооружений, малых архитектурных форм. Для дальнейшего хранения в архиве фотофиксация должна представляться в формате JPEG с минимальным разрешением от 1280*960 пикселей.Конвертация файлов в другие форматы с другим качеством недопустима.Количество представляемой фотофиксации:при производстве земляных работ, связанных с аварийно-восстановительным ремонтом инженерных коммуникаций, – не менее двух фотографий места производства работ (с разных ракурсов);при производстве земляных работ, связанных с нарушением элементов наружного благоустройства города Казани (линейных объектов), – не менее двух фотографий места производства работ (с разных ракурсов) на каждые 20 метров по всей длине объекта. Не допускается представление фотографий, отпечатанных с пленок и наклеенных на бумажный носитель."
+    },
+    "certificate_qa": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Заключение о контроле качества"
+    },
+    "certificate_of_acceptance_intermediate": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Акт промежуточной приёмки"
+    },
+    "certificate_of_acceptance": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Акт приёмки"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения",
+      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии",
+      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

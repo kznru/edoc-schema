@@ -1,0 +1,41 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cadastral_numbers_of_land_for_construction",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Кадастровый (-е) номер (-а) земельного (-ых) участка (-ов)",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "properties": {
+      "cadastre_number": {
+        "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+        "title": "Кадастровый номер",
+        "description": "В формате 12:12:1234567:123"
+      },
+      "address_with_map": {
+        "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+      },
+      "scanned_document_optional": {
+        "title": "Правоустанавливающие документы",
+        "description": "Цветные отсканированные правоустанавливающие документы на земельный участок в формате PDF",
+        "accept": "application/pdf",
+        "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+      },
+      "document_number_requisits":{
+        "title": "Реквизиты права собственности",
+        "description": "Например, №16-16/001-16/047/001/2015-7620/1",
+        "type": "string"
+      },
+      "date":{
+        "type": "string",
+        "format": "date",
+        "description": "Указать дату выдачи (регистрации)",
+        "title": "Дата выдачи (регистрации)"
+      }
+    },
+    "required": [
+      "cadastre_number",
+      "address_with_map"
+    ]
+  }
+}

@@ -1,15 +1,17 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "applicant_position",
     "cadastre_number",
     "project_plan",
+    "letter_of_attorney",
     "land_documents",
+    "compliance_of_design_materials",
     "agent",
     "address_with_map",
     "address_comments",
-    "work_description"
+    "work_description",
+    "emergency_plantations_photos"
   ],
   "properties": {
     "organization": {
@@ -17,11 +19,11 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "applicant_position": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Должность заявителя"
     },
     "letter_of_attorney": {
@@ -45,6 +47,15 @@
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/work_description",
       "default": "Выдача акта обследования зелёных насаждений"
     },
+    "permission_to_build": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Разрешение на строительство"
+    },
+    "compliance_of_design_materials": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключения на соответствие проектных материалов экологическим требованиям",
+      "description": "Положительная государственная (негосударственная) экспертиза"
+    },
     "project_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"
@@ -54,17 +65,24 @@
       "title": "Документы на земельный участок",
       "description": "Выписка из ЕГРН либо договор аренды"
     },
-    "applicant": {
+    "emergency_plantations_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото аварийных насаждений",
+      "description": "Приложить, если на обследуемом участке имеются аварийные насаждения"
+    },
+    "trees_in_good_condition_photos": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Фото деревьев в удовлетворительном состоянии"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
       "title": "Дополнительные приложения",
-      "description": "Здесь Вы можете прикрепить продленные документы, которые предоставлялись при оформлении разрешения на производство земляных работ, и срок действия которых истек, либо истекает до новой даты окончания работ (доверенность, договора, список заинтересованных лиц и т.д.) "
+      "description": "Здесь вы можете прикрепить дополнительные документы, необходимые для предоставления данной муниципальной услуги"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
       "title": "Комментарии",
-      "description": "Здесь Вы можете оставить комментарий, касающийся производства земляных работ на Вашем объекте, в рамках оказания данной муниципальной услуги "
+      "description": "Здесь вы можете оставить комментарий, касающийся выполнения работ, в рамках оказания данной муниципальной услуги"
     }
   },
   "$schema": "http://json-schema.org/draft-06/schema#",

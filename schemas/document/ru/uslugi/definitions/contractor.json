@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/contractor",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": ["contractor_organization", "contractor_organization_phone"],
+  "title": "Подрядчик",
+  "properties": {
+    "contractor_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Организация подрядчика"
+    },
+    "contractor_organization_phone":{
+      "type": "string",
+      "title": "Телефон организации-подрядчика"
+    },
+    "contractor_responsible": {
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+      },
+      "title": "Ответственный производитель работ со стороны подрядчика"
+    }
+  }
+}

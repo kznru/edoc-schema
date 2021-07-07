@@ -1,0 +1,143 @@
+{
+  "required": [
+    "address_with_map",
+    "address_with_map_for_projection_equipment",
+    "confirming_ownership_document",
+    "written_consent_of_owners",
+    "installation_and_operation_document",
+    "property_owner",
+    "property_owner_projection",
+    "confirming_ownership_document_projection",
+    "type",
+    "photo",
+    "photomontage",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "constructive_images",
+    "field_size",
+    "field_area",
+    "permission_period",
+    "state_duty_payment",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места места размещения проецируемого изображения",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места размещения проецируемого изображения: 1) район; 2) улица; 3) дом, корпус."
+    },
+    "address_with_map_for_projection_equipment": {
+      "title": "Адрес предполагаемого места установки проекционного оборудования",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки проекционного оборудования: 1) район; 2) улица; 3) дом, корпус."
+    },
+    "type": {
+      "default": "Проекционная рекламная конструкция",
+      "title": "Тип рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "photo": {
+      "description": "Прикрепляются фотографии предполагаемого места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, выполненные не более чем за один месяц до обращения за получением мун.услуги (фотографии должны давать полное представление о зданиях, сооружениях, в том числе о месте их расположений в градостроительной ситуации). Фотографии должны быть цветные, четкие, выполненные в светлое время суток",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фото  ситуации"
+    },
+    "photomontage": {
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Фотомонтаж"
+    },
+    "situational_plan": {
+      "description": "Прикрепляется ситуационный план (размещение здания, сооружения и рекламной конструкции на карте города, дающее полное представление о градостроительной ситуации относительно пересечения улиц с обязательным указанием названий улиц и номеров домов)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ситуационный план"
+    },
+    "topography_of_networks": {
+      "description": "Прикрепляется скан топографического плана местности, выполненного на съемке текущих изменений в масштабе 1:500 с указанием места размещения рекламной конструкции, состоящей из проецируемого изображения и проекционного оборудования, на зданиях, сооружениях.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности"
+    },
+    "graphic_image_of_structure": {
+      "description": "Требования приведены в п.4.1 Приложения №2 к Административному регламенту",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции"
+    },
+    "constructive_images": {
+      "description": "Прикрепляется скан, содержащий чертежи проекционного оборудования, его краткое описание",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Конструктивные изображения"
+    },
+    "field_size": {
+      "title": "Размер информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Размер информационного поля, м"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "property_owner": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проецируемое изображение)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
+    "confirming_ownership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество (проецируемое оборудование)",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
+    },
+    "property_owner_projection": {
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция (проекционное оборудование)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/organization_or_natural_person"
+    },
+    "confirming_ownership_document_projection": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Сведения о документе, подтверждающем право собственности на недвижимое имущество (проекционное изображение)",
+      "description": "Указываются сведения об основных характеристиках и зарегистрированных правах на объект недвижимости (в том числе кадастровый или условный номер)."
+    },
+    "written_consent_of_owners": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Письменное согласие собственника (собственников) нежилого здания"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции (проецируемое изображение)"
+    },
+    "permission_period": {
+      "title": "Срок действия разрешения по",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/validity_time"
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment_with_payer"
+    },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

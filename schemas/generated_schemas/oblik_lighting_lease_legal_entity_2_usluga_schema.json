@@ -1,99 +1,99 @@
 {
+  "type": "object",
   "required": [
     "organization",
-    "letter_of_attorney",
-    "lease_contracts",
-    "arhitechural_lighting_proposal",
-    "cadastre_number",
-    "address_with_map",
     "agent",
-    "planeta_number",
-    "explanatory_note",
-    "sketch_offer"
+    "letter_of_attorney",
+    "lease_contract",
+    "cadastre_number"
   ],
   "properties": {
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
-    "letter_of_attorney": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
-      "title": "Доверенность",
-      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
-    },
-    "lease_contracts": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts",
-      "title": "Договора аренды"
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
-    "applicant": {
-    },
-    "arhitechural_lighting_proposal": {
-      "title": "Предложение по архитектурно-художественной подсветке",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
     "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
     },
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
       "title": "Кадастровый номер",
-      "description": "Введите кадастровый номер помещения, здания или территории, на котором размещена вывеска. Например, 12:12:1234567:123 или 12:12:123456:12"
+      "description": "Кадастровый номер в виде число:число:число..."
     },
-    "planeta_number": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/planeta_number",
-      "description": "В целях облегчения предоставления данной услуги Управлением архитектуры и градостроительства Исполнительного комитета города Казани предоставлена возможность предварительного согласования эскизов через бесплатный интернет-сервис 'Планета задач'. Укажите номер предварительного согласования паспорта в планете задач"
+    "lease_contract": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contracts"
     },
     "explanatory_note": {
-      "type": "array",
-      "title": "Пояснительная записка",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "properties": {
-          "description": {
-            "type": "string",
-            "title": "Описание проектируемого объекта",
-            "description": "Кратко описываются планируемые работы. Например: покраска, облицовка, замена дверных и оконных блоков ..."
-          },
-          "material": {
-            "type": "string",
-            "title": "Материал"
-          },
-          "color": {
-            "type": "string",
-            "title": "Описание цвета (с указанием системы: RAL, NCS и т.п.)"
-          }
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
     },
-    "sketch_offer": {
-      "type": "array",
-      "title": "Эскизное предложение",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "properties": {
-          "facades": {
-            "type": "string",
-            "title": "Фасады"
-          },
-          "facade_type": {
-            "type": "string",
-            "title": "Тип фасада",
-            "enum": [
-              "главный",
-              "левый",
-              "правый",
-              "боковой",
-              "дворовой",
-              "иное"
-            ]
+    "graphic_part": {
+      "type": "object",
+      "title": "Графическая часть",
+      "required": [
+        "photo"
+      ],
+      "properties": {
+        "facades": {
+          "type": "array",
+          "minItems": 1,
+          "title": "Фасады",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "title": "Тип фасада",
+                "enum": [
+                  "главный",
+                  "боковой"
+                ]
+              },
+              "sketch": {
+                "title": "Эскизное предложение (Предложения рационального и эффективного размещения средств наружной рекламы и информации, выполненное с учетом потребностей)",
+                "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+                "description": "Эскизное предложение"
+              },
+              "description": {
+                "title": "Описание",
+                "type": "string"
+              },
+              "material": {
+                "title": "Материал",
+                "type": "string"
+              },
+              "color_description": {
+                "title": "Описание цвета (с указанием системы: RAL,NCS и т.п.)",
+                "type": "string"
+              }
+            }
           }
+        },
+        "photo": {
+          "title": "Фото исходной ситуации (файл)",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Фотофиксация существующего состояния объекта и его окружения"
+        },
+        "sketch": {
+          "title": "Эскизное предложение",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Предложение по архитектурной подсветке объекта с описанием технических характеристик, с указанием размещения оборудования на фасадах и(или) земельном участке"
+        },
+        "topographic_plan": {
+          "title": "Топографический план",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        },
+        "light_technical_calculation": {
+          "title": "Светотехнический расчет",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+          "description": "Обоснование используемого оборудования"
         }
       }
     },
@@ -106,6 +106,5 @@
       "title": "Комментарии"
     }
   },
-  "type": "object",
   "$schema": "http://json-schema.org/draft-06/schema#"
 }

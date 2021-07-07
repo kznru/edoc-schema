@@ -1,0 +1,59 @@
+{
+  "base": "_usluga",
+  "keys": [
+    {
+      "name": "ugr_3",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "ugr_notification_of_finished_or_planned_construction_of_individual_house_or_garden_house_3",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_3",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "ugr_notification_of_finished_construction_of_garden_house_3",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_legal_entity_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_garden_house_natural_person_with_agent_3" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_construction_of_individual_house_3",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_legal_entity_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_construction_of_individual_house_natural_person_with_agent_3" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_reconstruction_of_garden_house_3",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_legal_entity_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_garden_house_natural_person_with_agent_3" }
+                  ]
+                },
+                {
+                  "name": "ugr_notification_of_finished_reconstruction_of_individual_house_3",
+                  "virtual": true,
+                  "keys": [
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_legal_entity_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_3" },
+                    { "name": "ugr_notification_of_finished_construction_of_individual_house_or_garden_house_only_reconstruction_of_individual_house_natural_person_with_agent_3" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

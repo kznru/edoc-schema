@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "registry_item": {
+      "title": "Данные записи в очередь (реестровый номер)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kindergarten_registered_child_1"
+      }
+    },
+    "agent": {
+      "title": "Заявитель (родитель)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "required": [
+    "registry_item",
+    "agent"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

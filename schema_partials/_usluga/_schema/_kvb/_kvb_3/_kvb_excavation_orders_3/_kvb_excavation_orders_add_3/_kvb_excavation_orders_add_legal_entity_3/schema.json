@@ -1,0 +1,34 @@
+{
+  "required": [
+    "responsible",
+    "organization",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель",
+      "description": "Полное наименование организации - заказчика работ по договору"
+    },
+    "organization_phone":{
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Телефон организации-заявителя"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность на представителя",
+      "description": "Доверенность представлять интересы заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    },
+    "responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/fio_in_object",
+      "title": "Подписант заявителя",
+      "description": "ФИО заявителя, либо представителя по доверенности на право подписи заявки от имени заявителя на внесение в реестр разрешений на аварийные земляные работы по данному объекту"
+    },
+    "letter_of_attorney_responsible": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
+      "title": "Доверенность на подписанта",
+      "description": "Доверенность подписывать документы от имени заявителя в Комитете внешнего благоустройства Исполнительного комитета г.Казани по вопросам оформления разрешения на производство земляных работ по данному объекту"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "organization": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "address_with_map": {},
+    "address_description": {},
+    "type": {},
+    "field_area": {},
+    "number_of_fields": {},
+    "total_area_of_fields": {},
+    "topography_of_networks": {},
+    "graphic_image_of_structure": {},
+    "description": {},
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "state_duty_payment": {}
+  }
+}

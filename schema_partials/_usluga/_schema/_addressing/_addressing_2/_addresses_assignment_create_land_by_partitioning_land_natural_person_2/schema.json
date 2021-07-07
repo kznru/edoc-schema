@@ -15,7 +15,7 @@
       "title": "Собственник"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent_optional"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",

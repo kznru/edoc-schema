@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/layout_of_capital_building",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Схема расположения построенного, реконструированного объекта капитального строительства",
+  "required": [
+    "scanned_document",
+    "date"
+  ],
+  "type": "object",
+  "properties": {
+    "scanned_document": {
+      "title": "Схема",
+      "description": "Цветной скан оригинала топосьемки в формате PDF",
+      "accept": "application/pdf",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "date":{
+      "title": "Дата выдачи",
+      "description": "Дата выдачи документа",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

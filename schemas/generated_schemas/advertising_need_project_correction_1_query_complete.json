@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "is_approved"
+  ],
+  "properties": {
+    "is_approved": {
+      "type": "string",
+      "title": "Согласовано",
+      "enum": [
+        "Да",
+        "Нет"
+      ]
+    },
+    "approval_reject_reason": {
+      "type": "string",
+      "title": "Причина отказа в согласования"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  }
+}

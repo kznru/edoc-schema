@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "reject_reasons": {
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Организация не соответствует постановлению",
+          "Другое (указать)"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "reject_reasons"
+  ]
+}

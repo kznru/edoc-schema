@@ -1,0 +1,101 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "uaig_2",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "uaig_providing_information_of_urban_development_for_free_2",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_providing_information_of_urban_development_for_free_legal_entity_2" },
+            { "name": "uaig_providing_information_of_urban_development_for_free_natural_person_2" },
+            { "name": "uaig_providing_information_of_urban_development_for_free_natural_person_with_agent_2"}
+          ]
+        },
+        {
+          "name": "uaig_providing_information_of_urban_development_not_free_2",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_providing_information_of_urban_development_not_free_legal_entity_2" },
+            { "name": "uaig_providing_information_of_urban_development_not_free_natural_person_2" },
+            { "name": "uaig_providing_information_of_urban_development_not_free_natural_person_with_agent_2"}
+          ]
+        },
+        {
+          "name": "uaig_task_to_save_culture_objects_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_legal_entity_2",
+              "virtual": true,
+              "keys":[
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_legal_entity_legal_entity_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_legal_entity_natural_person_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_different_legal_entity_natural_person_with_agent_2"}
+              ]
+            },
+            {
+              "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_2",
+              "virtual": true,
+              "keys":[
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_legal_entity_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_natural_person_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_and_project_organization_same_legal_entity_natural_person_with_agent_2"}
+              ]
+            },
+            {
+              "name": "uaig_task_to_save_culture_objects_if_owner_natural_person_and_project_organization_legal_entity_2",
+              "virtual": true,
+              "keys":[
+                { "name": "uaig_task_to_save_culture_objects_if_owner_natural_person_and_project_organization_legal_entity_legal_entity_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_natural_person_and_project_organization_legal_entity_natural_person_2" },
+                { "name": "uaig_task_to_save_culture_objects_if_owner_natural_person_and_project_organization_legal_entity_natural_person_with_agent_2"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_2",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_legal_entity_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_legal_entity_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_legal_entity_natural_person_with_agent_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_natural_person_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_natural_person_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_constructive_project_organization_natural_person_natural_person_with_agent_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_legal_entity_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_legal_entity_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_legal_entity_natural_person_with_agent_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_natural_person_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_natural_person_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_multiple_owners_project_organization_natural_person_natural_person_with_agent_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_legal_entity_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_legal_entity_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_legal_entity_natural_person_with_agent_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_natural_person_legal_entity_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_natural_person_natural_person_2" },
+            { "name": "uaig_coordination_of_design_documentation_for_conservation_of_municipal_cultural_heritage_project_organization_natural_person_natural_person_with_agent_2" }
+          ]
+        },
+        {
+          "name": "uaig_agreement_of_architectural_urban_design_of_object_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_legal_entity_2"
+            },
+            {
+              "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_natural_person_2"
+            },
+            {
+              "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_natural_person_with_agent_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

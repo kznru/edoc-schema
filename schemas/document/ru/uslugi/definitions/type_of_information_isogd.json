@@ -1,0 +1,29 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_isogd",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Вид сведений ИСОГД",
+  "description": "Вид сведений ИСОГД",
+  "type": "object",
+  "required": ["type_of_information"],
+  "properties": {
+    "type_of_information":{
+      "title": "Вид сведений",
+      "type": "integer",
+      "minItems": 1,
+      "enum": [
+        1, 2, 3, 4, 5
+      ],
+      "enumNames": [
+        "по генеральному плану",
+        "по проекту планировки",
+        "по правилам застройки и землепользования",
+        "по градостроительному плану земельного участка",
+        "прочее (указать)"
+      ]
+    },
+    "response_text":{
+      "title": "Прочее",
+      "type": "string"
+    }
+  }
+}

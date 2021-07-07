@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "registry_item": {},
+    "agent": {},
+    "guardianship_confirmation_documents": {
+      "title": "Документы подтверждающие право представлять интересы ребенка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "group_type":{
+      "title": "Тип группы",
+      "type": "string",
+      "enum": [
+        "Русская",
+        "Татарская"
+      ]
+    }
+  },
+  "required": [
+    "group_type",
+    "guardianship_confirmation_documents"
+  ],
+  "type": "object"
+}

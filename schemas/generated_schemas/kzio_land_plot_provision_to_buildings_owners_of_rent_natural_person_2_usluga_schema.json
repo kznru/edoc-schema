@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "description": "Данные заявителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address": {
+      "title": "Адрес",
+      "description": "Адрес земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "ploschad__kw_m": {
+      "title": "Площадь (кв.м)",
+      "description": "Площадь участка, кв.м.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "vid_razreshennogo_ispol_zowaniq": {
+      "title": "Вид разрешенного использования",
+      "description": "Вид разрешенного использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/types_of_permitted_use_of_land"
+    },
+    "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka": {
+      "title": "Документы, подтверждающие право заявителя на приобретение земельного участка",
+      "description": "Скан-копии документов, подтверждающие право заявителя на приобретение в аренду без проведения торгов земельного участка, на котором расположены здания, сооружения, собственникам которых он является и (или) если эти объекты недвижимости предоставлены на праве хозяйственного ведения.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "dannye_identificiru_schie_ob_ekty_nedwizhimosti": {
+      "title": "Данные, идентифицирующие объекты недвижимости",
+      "description": "Адресные ориентиры зданий, сооружений, расположенных на испрашиваемом земельном участке, с указанием их кадастровых номеров",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/identification_data_of_buildings"
+    },
+    "lease_contract": {
+      "title": "Срок аренды",
+      "description": "Указать количество лет (от 3 до 49 лет)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_rental_period_min_3_max_49_years"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "vid_razreshennogo_ispol_zowaniq",
+    "agent",
+    "address",
+    "cadastre_number",
+    "dokumenty_podtwerzhda_schie_prawo_zaqwitelq_na_priobretenie_zemel_nogo_uchastka",
+    "dannye_identificiru_schie_ob_ekty_nedwizhimosti",
+    "lease_contract"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

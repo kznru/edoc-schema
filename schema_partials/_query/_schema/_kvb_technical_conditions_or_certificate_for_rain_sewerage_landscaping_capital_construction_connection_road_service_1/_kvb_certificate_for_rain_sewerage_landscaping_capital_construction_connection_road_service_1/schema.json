@@ -1,0 +1,75 @@
+{
+  "type": "object",
+  "properties": {
+    "registry_item": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kvb_technical_conditions_for_rain_sewerage_landscaping_capital_construction_connection_road_service_1"
+      },
+      "title": "Технические условия для выполнения",
+      "description": "Номер технических условий в реестре"
+    },
+    "organization": {},
+    "applicant": {},
+    "agent": {},
+    "letter_of_attorney": {},
+    "building_object_name": {
+      "title": "Наименование объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
+    },
+    "green_report_area": {
+      "title": "Площадь объекта",
+      "description": "Площадь, кв.м",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/green_report_area"
+    },
+    "building_permit": {
+      "title": "Номер и дата разрешения на строительство (реконструкцию)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_permit"
+    },
+    "performance_technical_documentation": {
+      "title": "Исполнительно-техническая документация",
+      "description": "Файл с исполнительной съемкой",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "act_confirming_connection_to_networks": {
+      "title": "Акт, подтверждающий подключение к городским сетям ливневой канализации",
+      "description": "Файл (в случае, если предусмотрено техническими условиями)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "wastewater_sample_measurement_protocol": {
+      "title": "Протокол измерения проб сточных вод",
+      "description": "Файл (в случае, если техническими\nусловиями предусмотрена очистка отводимых стоков до норм СаНПиН 2.1.5.980-00",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "traffic_management_project": {
+      "title": "Проект организации дорожного движения",
+      "description": "Файл с размещением технических средств организации дорожного движения, согласованный с Комитетом по транспорту Исполнительного комитета г. Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "image_topographic": {
+      "title": "Топографический план",
+      "description": "Файл с обновленными копиями оригиналов, заверенные печатью геослужбы геофонда города Казани (выполненные после всех работ по благоустройству и озеленению)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/image_topographic"
+    },
+    "project_documentation": {
+      "title": "Проектная документация",
+      "description": "Файл с положительным заключением проектной документации, выданное органом, осуществляющим государственную (негосударственную) экспертизу (для объектов, предусмотренных статьей 49 Градостроительного кодекса РФ)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "general_plan": {
+      "title": "Раздел \"Генплан\" проектной документации",
+      "description": "Разработанный специализированной организацией и согласованный (рассмотренный) Главным архитектором Управления архитектуры и градостроительства Исполнительного комитета г.Казани",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "original_photo": {
+      "title": "Фото текущего состояния",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/original_photo"
+    },
+    "topography_of_networks": {
+      "title": "Съемка текущих изменений в масштабе 1:500 со всеми подземными коммуникациями (в том числе с вновь построенными)",
+      "description": "Файл",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks"
+    }
+  }
+}

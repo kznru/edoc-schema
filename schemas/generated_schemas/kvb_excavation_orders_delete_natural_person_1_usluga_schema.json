@@ -11,17 +11,12 @@
       "config": {
         "registry_key": "kvb_excavation_orders_1"
       },
-      "title": "Ордер для закрытия"
+      "title": "Ордер для закрытия",
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
-    },
-    "organization": {
-    },
-    "applicant": {
-    },
-    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "address_with_map": {
       "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
@@ -30,7 +25,8 @@
     },
     "images_after": {
       "title": "Фотографии мест работ",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images"
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/images",
+      "description": "Требования к фотографиям приведены в Регламенте"
     },
     "certificate_qa": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
@@ -41,7 +37,7 @@
       "title": "Акт промежуточной приёмки"
     },
     "certificate_of_acceptance": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Акт приёмки"
     },
     "attachments": {

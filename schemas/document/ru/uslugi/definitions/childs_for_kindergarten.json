@@ -1,0 +1,106 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/childs_for_kindergarten",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Дети",
+  "type": "object",
+  "properties": {
+    "childs":{
+      "title": "Выберите ребенка из списка (Здесь будет выводиться список из есиа)",
+      "type": "string",
+      "minItems": 1,
+      "enum": [
+        "Иванов Алексей Иванович",
+        "Иванова Ольга Ивановна"
+      ]
+    }
+  },
+  "dependencies": {
+    "childs": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "childs": {
+              "type": "string",
+              "enum": [
+                "Иванов Алексей Иванович"
+              ]
+            },
+            "fio": {
+              "title": "ФИО",
+              "type": "string",
+              "default": "Иванов Алексей Иванович"
+            },
+            "birth_certificate": {
+              "title": "Свидетельство о рождении (данные получены из есиа)",
+              "type": "object",
+              "required": [
+                "number",
+                "seria"
+              ],
+              "properties":{
+                "number":{
+                  "title": "Номер",
+                  "type": "string",
+                  "default": "123123123123123"
+                },
+                "seria":{
+                  "title": "Серия",
+                  "type": "string",
+                  "default": "IV-КБ"
+                }
+              }
+            },
+            "birthday":{
+              "title": "Дата рождения",
+              "type": "string",
+              "default": "22.11.2018"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "childs": {
+              "type": "string",
+              "enum": [
+                "Иванова Ольга Ивановна"
+              ]
+            },
+            "fio": {
+              "title": "ФИО",
+              "type": "string",
+              "default": "Иванова Ольга Ивановна"
+            },
+            "birth_certificate": {
+              "title": "Свидетельство о рождении (данные получены из есиа)",
+              "type": "object",
+              "required": [
+                "number",
+                "seria"
+              ],
+              "properties":{
+                "number":{
+                  "title": "Номер",
+                  "type": "string",
+                  "default": "32132131321321"
+                },
+                "seria":{
+                  "title": "Серия",
+                  "type": "string",
+                  "default": "III-ОА"
+                }
+              }
+            },
+            "birthday":{
+              "title": "Дата рождения",
+              "type": "string",
+              "default": "01.01.2020"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

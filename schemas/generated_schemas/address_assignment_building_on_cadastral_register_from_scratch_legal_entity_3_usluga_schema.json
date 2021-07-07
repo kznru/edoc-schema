@@ -5,7 +5,7 @@
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
@@ -31,7 +31,7 @@
       "description": "Кадастровый номер объекта адресации"
     },
     "building_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта адресации",
       "description": "При наличии проектной документации указывается в соответствии с ней"
     },
@@ -52,12 +52,10 @@
       "title": "Комментарии"
     }
   },
-  "require": [
+  "required": [
     "organization",
     "agent",
-    "letter_of_attorney"
-  ],
-  "required": [
+    "letter_of_attorney",
     "cadastre_number",
     "building_name",
     "cadastre_number_of_land",

@@ -1,0 +1,23 @@
+{
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    },
+    "buildings_info": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Сведения о технических параметрах указанных сооружений",
+      "description": "Площадь и границы используемой для их строительства акватории водного объекта с учётом размеров охранных зон этих сооружений, длина, ширина и высота сооружений, глубина прокладки подводных коммуникаций и конструктивные особенности, связанные с обеспечением их безопасности"
+    },
+    "project_documentation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документ об утверждении  проектно-сметной документации, в которой отражены технические параметры предполагаемых к созданию и строительству сооружений"
+    },
+    "entrenched_documentation": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Правоустанавливающий документ на земельный участок, право на который незарегистрировано в Едином государственном реестре прав на недвижимое имущество и сделок с ним"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type":"object",
+  "required":["networks_available_or_not"],
+  "properties":{
+    "networks_available_or_not": {
+      "type": "string",
+      "title": "Инженерные сети (выбор)",
+      "minItems": 1,
+      "enum": [
+        "имеются",
+        "не имеются"
+      ]
+    }
+  }
+}

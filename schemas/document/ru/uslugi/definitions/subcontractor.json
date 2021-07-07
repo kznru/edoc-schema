@@ -1,0 +1,24 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/subcontractor",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "title": "Субподрядчик",
+  "properties": {
+    "subcontractor_organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Организация субподрядчика",
+      "description": "Наименование организации, выполняющей земляные работы на данном объекте по договору субподряда (если предусмотрен договором)"
+    },
+    "subcontractor_organization_phone":{
+      "type": "string",
+      "title": "Телефон организации-субподрядчика"
+    },
+    "subcontractor_responsible": {
+      "type": "array",
+      "items": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/person_mobile_optional"
+      },
+      "title": "Ответственный производитель работ со стороны субподрядчика"
+    }
+  }
+}

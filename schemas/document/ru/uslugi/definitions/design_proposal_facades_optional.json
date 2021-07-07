@@ -1,0 +1,7 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/design_proposal_facades_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional_25mb",
+  "title": "Фасады проектируемого объекта",
+  "description": "(главные, боковые, дворовые) с указанием высотных параметров объекта, цветовое решение с  экспликацией отделочных фасадных материалов по наружной отделке (в читабельном масштабе);"
+}

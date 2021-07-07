@@ -1,19 +1,29 @@
 {
   "required": [
-    "organization"
+    "organization",
+    "text",
+    "address_with_map"
   ],
   "properties": {
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map_and_comments",
+      "title": "Адрес размещения"
+    },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
-      "title": "Заявитель"
+      "title": "Собственник конструкции"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
-    "address_with_map": {
-      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
-      "title": "Адрес объекта"
+    "text": {
+      "type": "string",
+      "title": "Текст вывески"
+    },
+    "previous_registry_item": {
+      "type": "string",
+      "title": "Информация об исключаемом проекте размещения СНИ"
     },
     "comments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",

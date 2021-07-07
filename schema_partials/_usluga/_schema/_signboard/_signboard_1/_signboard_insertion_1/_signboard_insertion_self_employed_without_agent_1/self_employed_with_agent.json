@@ -1,0 +1,11 @@
+{
+  "required": ["agent"],
+  "properties": {
+    "address_with_map": {},
+    "cadastre_number": {},
+    "agent": {
+      "title": "Собственник конструкции"
+    },
+    "text": {}
+  }
+}

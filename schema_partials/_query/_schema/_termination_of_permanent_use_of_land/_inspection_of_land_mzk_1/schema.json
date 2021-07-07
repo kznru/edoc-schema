@@ -1,0 +1,20 @@
+{
+  "type":"object",
+  "required":[],
+  "properties":{
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "address": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+      "title": "Адрес объекта",
+      "description": "Адрес объекта"
+    },
+    "organization": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    }
+  }
+}

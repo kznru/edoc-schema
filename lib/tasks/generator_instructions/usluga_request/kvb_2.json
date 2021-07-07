@@ -1,0 +1,176 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "kvb",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "kvb_2",
+          "virtual": true,
+          "keys": [
+            {
+              "name": "kvb_excavation_orders_2",
+              "virtual": true,
+              "keys": [
+                {
+                  "name": "kvb_excavation_orders_add_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_add_on_paper_carrier_legal_entity_2"
+                },
+                {
+                  "name": "kvb_excavation_orders_add_for_roadway_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_add_for_roadway_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_add_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_add_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_prolong_cause_winter_emergency_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_prolong_cause_winter_emergency_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_delete_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_delete_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_delete_without_registry_number_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_delete_without_registry_number_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_delete_without_registry_number_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_delete_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_natural_person_with_agent_2"
+                    }
+                  ]
+                },
+                {
+                  "name": "kvb_excavation_orders_emergency_delete_without_registry_number_2",
+                  "virtual": true,
+                  "keys": [
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_legal_entity_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_2"
+                    },
+                    {
+                      "name": "kvb_excavation_orders_emergency_delete_without_registry_number_natural_person_with_agent_2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

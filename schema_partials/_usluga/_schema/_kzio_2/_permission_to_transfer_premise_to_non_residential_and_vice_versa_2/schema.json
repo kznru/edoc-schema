@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "consent_of_all_owners": {
+      "title": "Согласие всех собственников",
+      "description": "В том числе временно отсутствующих собственников, в письменной форме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "conclusion_sanitary_and_epidemiological_surveillance":{
+      "title": "Заключение санитарно-эпидемиологического надзора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    }
+  },
+  "required": [
+    "consent_of_all_owners",
+    "conclusion_sanitary_and_epidemiological_surveillance"
+  ]
+}

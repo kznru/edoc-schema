@@ -1,0 +1,137 @@
+{
+  "required": [
+    "installation_and_operation_document",
+    "information_on_results_tenders",
+    "address_with_map",
+    "type",
+    "field_area",
+    "number_of_fields",
+    "total_area_of_fields",
+    "topography_of_networks",
+    "graphic_image_of_structure",
+    "description",
+    "state_duty_payment",
+    "organization",
+    "agent",
+    "letter_of_attorney"
+  ],
+  "properties": {
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
+      "title": "Заявитель"
+    },
+    "agent": {
+      "description": "Данные о представителе: 1)фамилия, имя, отчество; 2)номер мобильного телефона, факс (при наличии) E-mail",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
+      "title": "Представитель"
+    },
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность",
+      "description": "Прикрепляется отсканированный оригинал документа, подтверждающего полномочия представителя"
+    },
+    "address_with_map": {
+      "title": "Адрес предполагаемого места установки",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "description": "Указывается адрес предполагаемого места установки: 1) район; 2) улица; 3) дом, корпус; 4) описательный адрес"
+    },
+    "address_description": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Уточнение местоположения рекламной конструкции"
+    },
+    "type": {
+      "title": "Тип рекламной конструкции",
+      "description": "Выбирается один из типов рекламных конструкций: суперсайт, суперборд, еврощит, ситиборд, пилларс, пилон, пилон в составе ПООТ, афишная щитовая конструкция; афишная тумба, коммуникационный указатель.",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type_2"
+    },
+    "field_area": {
+      "title": "Площадь информационного поля",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Указывается площадь информационного поля (одной стороны), кв.м"
+    },
+    "number_of_fields": {
+      "title": "Количество информационных полей",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Указывается количество информационных полей"
+    },
+    "total_area_of_fields": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Общая площадь информационного поля (информационных полей), кв.м",
+      "description": "Указывается общая площадь информационного поля (информационных полей), кв.м"
+    },
+    "situational_plan": {
+      "description": "Прикрепляется скан фрагмента Схемы размещения рекламных конструкций на территории г.Казани с указанием места размещения рекламной конструкции",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Ситуационный план"
+    },
+    "topography_of_networks": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/topography_of_networks",
+      "title": "Топографический план местности",
+      "description": "Прикрепляется скан топографического плана местности с указанием места размещения рекламной конструкции, выполненный на съемке текущих изменений в масштабе 1:500"
+    },
+    "graphic_image_of_structure": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Графическое изображение конструкции",
+      "description": "Требования приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "description": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Краткое описание",
+      "description": "Прикрепляется скан пояснительной записки, требования к которой приведены в п.4.2. Приложения №2 к Административному регламенту"
+    },
+    "property_owner_info": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Данные о собственнике имущества, к которому присоединяется рекламная конструкция - юр.лицо"
+    },
+    "property_owner": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Собственник недвижимого имущества"
+    },
+    "installation_and_operation_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Договор на установку и эксплуатацию рекламной конструкции",
+      "description": "Прикрепляется отсканированный оригинал договора или копия, заверенная путем подписания уполномоченным лицом и скрепления печатью (при наличии) с указанием даты заверения."
+    },
+    "information_on_results_tenders": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites",
+      "title": "Сведения о результатах проведенных торгов на право заключения договора на установку и эксплуатацию рекламной конструкции"
+    },
+    "state_duty_payment": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/state_duty_payment_with_payer"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "type_of_information_field_a": {
+      "title": "Тип информационного поля А",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_b": {
+      "title": "Тип информационного поля Б",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_v": {
+      "title": "Тип информационного поля В",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "type_of_information_field_g": {
+      "title": "Тип информационного поля Г",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_field"
+    },
+    "legal_entity_address": {
+      "title": "Адрес места жительства ИП",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object"
+}

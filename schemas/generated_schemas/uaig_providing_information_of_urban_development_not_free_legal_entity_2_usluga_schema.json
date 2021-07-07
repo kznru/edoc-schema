@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "organization": {
+      "title": "Заявитель",
+      "description": "Ввести данные заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "dowerennost": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "swedeniq_isogd": {
+      "title": "Сведения ИСОГД",
+      "description": "Уточнить, какие именно сведения необходимо предоставить",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/type_of_information_isogd"
+    },
+    "kategoriq_zaprosa": {
+      "title": "Категория запроса",
+      "description": "Выбрать категорию запроса",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/request_category_isogd"
+    },
+    "cadastre_number": {
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер",
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
+    },
+    "address": {
+      "title": "Точный адрес или обозначение местонахождения интересующей территории",
+      "description": "Указать адрес или местоположение территории",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_comments"
+    },
+    "razdel_isogd": {
+      "title": "Раздел ИСОГД",
+      "description": "Выбрать нужные разделы",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/section_isogd"
+    },
+    "forma_predostawleniq_swedenij": {
+      "title": "Форма предоставления сведений",
+      "description": "Выбрать одно из значений",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/information_submission_form"
+    },
+    "agreement_default": {
+      "title": "Уведомлен (а) о том, что сведения ИСОГД являются платными и что в предоставлении сведений ИСОГД может быть отказано по причине установленного в соответствии с законодательством запрета в предоставлении указанных сведений или в случае, если на момент обращения запрашиваемые мною сведения в ИСОГД не размещены",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "organization",
+    "agent",
+    "dowerennost",
+    "swedeniq_isogd",
+    "kategoriq_zaprosa",
+    "cadastre_number",
+    "address",
+    "razdel_isogd",
+    "forma_predostawleniq_swedenij",
+    "agreement_default"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

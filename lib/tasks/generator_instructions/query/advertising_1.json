@@ -1,0 +1,41 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "advertising_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "advertising_issuance_consent_for_installation_and_operation_of_advertising_constructure_kzio_1"
+        },
+        {
+          "name": "advertising_issuance_consent_for_installation_and_operation_of_advertising_constructure_mzio_1"
+        },
+        {
+          "name": "advertising_issuance_consent_for_installation_and_operation_of_advertising_constructure_federal_agency_state_property_management_1"
+        },
+        {
+          "name": "advertising_information_from_egrul_1"
+        },
+        {
+          "name": "advertising_information_document_confirming_ownership_real_estate_1"
+        },
+        {
+          "name": "advertising_information_main_characteristics_and_registered_rights_to_property_1"
+        },
+        {
+          "name": "advertising_number_and_date_of_payment_document_1"
+        },
+        {
+          "name": "advertising_number_and_date_of_contract_for_installation_and_operation_of_advertising_structure_1"
+        },
+        {
+          "name": "advertising_determining_possibility_of_placing_an_advertising_structure_1"
+        },
+        {
+          "name": "advertising_need_project_correction_1"
+        }
+      ]
+    }
+  ]
+}

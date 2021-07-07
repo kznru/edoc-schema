@@ -1,0 +1,10 @@
+{
+  "required": [
+    "agent"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель"
+    }
+  }
+}

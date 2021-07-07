@@ -1,8 +1,7 @@
 {
   "required": [
-    "letter_of_attorney",
-    "applicant_position",
     "cadastre_number",
+    "letter_of_attorney",
     "land_documents"
   ],
   "properties": {
@@ -11,11 +10,10 @@
       "title": "Заявитель"
     },
     "agent": {},
-    "applicant_position": {
-      "type": "string",
-      "title": "Должность заявителя"
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
     },
-    "letter_of_attorney": {},
     "address_with_map": {},
     "address_comments": {},
     "cadastre_number": {

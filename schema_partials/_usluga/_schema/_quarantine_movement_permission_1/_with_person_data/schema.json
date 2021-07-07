@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "employees_list": {
+      "title": "Список сотрудников",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "passport_seria": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$",
+            "title": "Серия паспорта сотрудника",
+            "description": "Первые 4 цифры номера паспорта"
+          },
+          "passport_number": {
+            "type": "string",
+            "pattern": "^[0-9]{6}$",
+            "title": "Номер паспорта сотрудника",
+            "description": "Последние 6 цифр номера паспорта"
+          },
+          "snils": {
+            "$ref": "http://edoc-schema.kzn.ru/identifier/ru/snils",
+            "title": "СНИЛС"
+          },
+          "birth_year": {
+            "title": "Год рождения",
+            "type": "number"
+          },
+          "fio": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+            "title": "ФИО сотрудника"
+          },
+          "phone": {
+            "type": "string",
+            "title": "Мобильный телефон"
+          },
+          "work_address": {
+            "$ref": "http://edoc-schema.kzn.ru/location/ru/address_optional",
+            "title": "Адрес места работы"
+          },
+          "route": {
+            "title": "Маршрут движения",
+            "description": "Если работа связана с перевозками",
+            "type": "string"
+          },
+          "work_address_comment": {
+            "type": "string",
+            "title": "Описание места работы"
+          },
+          "work_schedule": {
+            "type": "string",
+            "title": "Режим работы"
+          },
+          "allowed_areas": {
+            "title": "Разрешённый район",
+            "type": "string",
+            "enum": [
+              "Весь город",
+              "Авиастроительный",
+              "Вахитовский",
+              "Кировский",
+              "Московский",
+              "Ново-Савиновский",
+              "Приволжский",
+              "Советский"
+            ]
+          }
+        },
+        "required": [
+          "passport_seria",
+          "passport_number",
+          "fio",
+          "phone",
+          "snils",
+          "birth_year",
+          "work_schedule"
+        ]
+      },
+      "minItems": 1
+    },
+    "work_reason": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+       "description": "Необходимо указать подробный список причин",
+      "title": "Причина, по которой деятельность организации НЕ приостановлена в соответствии с постановлением Кабинета Министров Республики Татарстан от 30.03.2020 №234."
+    },
+    "agreement_default": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_default",
+      "title": "Я предупреждён, что за предоставление в систему данных о лицах, не являющихся работниками предприятия, учреждения, организации, или о лицах, чье нахождение на рабочем месте (передвижение по маршрутам перевозки) не является критически важным в соответствии с законодательством Российской Федерации, в зависимости от тяжести последствий, установлена административная и уголовная ответственность по ст. 6.3. и ст.20.6-1 КоАП РФ и ст.236 УК РФ."
+    }
+  },
+  "required": [
+    "employees_list",
+    "work_reason",
+    "agreement_default"
+  ]
+}

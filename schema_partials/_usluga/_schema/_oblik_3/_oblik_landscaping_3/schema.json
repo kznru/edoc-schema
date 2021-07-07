@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "documents_of_title": {
+      "title": "Правоустанавливающие документы",
+      "description": "Скан-копии правоустанавливающих документов, подтверждающие имущественные права заявителя на занимаемое здание, помещение, некапитальный объект",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "explanatory_note": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note"
+    },
+    "graphic_part": {
+      "title": "Графическая часть",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/general_plan_and_landscape_visual_analysis_and_projections_and_photo"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер",
+      "description": "Кадастровый номер в виде число:число:число..."
+    }
+  }
+}

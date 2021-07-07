@@ -1,7 +1,8 @@
 {
   "required": [
     "organization",
-    "agent"
+    "agent",
+    "registry_item"
   ],
   "properties": {
     "registry_item": {

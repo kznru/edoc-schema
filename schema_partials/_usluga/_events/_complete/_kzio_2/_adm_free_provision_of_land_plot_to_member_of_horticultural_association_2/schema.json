@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "number_of_land_plot":{
+      "title": "Номер земельного участка",
+      "type": "string"
+    },
+    "types_of_permitted_use_of_land":{
+      "title": "Вид разрешенного использования",
+      "type": "string"
+    },
+    "holder":{
+      "title": "Правообладатель",
+      "type": "string"
+    },
+    "extract_from_protocol":{
+      "type": "object",
+      "title": "Выписка из протокола",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/extract_from_protocol_without_title_document"
+    },
+    "gas_zone":{
+      "title": "2.4. соблюдать ограничения в соответствии с постановлением Правительства Российской Федерации от 20.11.2000 №878 «Об утверждении Правил охраны газораспределительных сетей» для зоны",
+      "type": "string"
+    },
+    "electricity_zone":{
+      "title": "2.5. соблюдать ограничения в соответствии с постановлением Правительства Российской Федерации от 24.02.2009 №160 «О порядке установления охранных зон объектов электросетевого хозяйства и особых условий использования земельных участков, расположенных в границах таких зон» для зоны",
+      "type": "string"
+    },
+    "administration_of":{
+      "title": "Администрация",
+      "type": "string"
+    },
+    "responsible":{
+      "title": "ФИО ответственного",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "head_person":{
+      "title": "Руководитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    }
+  },
+  "required":[
+    "number_of_land_plot",
+    "types_of_permitted_use_of_land",
+    "holder",
+    "extract_from_protocol",
+    "gas_zone",
+    "electricity_zone",
+    "administration_of",
+    "responsible",
+    "head_person"
+  ]
+}

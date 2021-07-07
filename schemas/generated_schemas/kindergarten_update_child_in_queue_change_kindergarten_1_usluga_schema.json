@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "registry_item": {
+      "title": "Данные записи в очередь (реестровый номер)",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
+      "config": {
+        "registry_key": "kindergarten_registered_child_1"
+      }
+    },
+    "agent": {
+      "title": "Заявитель (родитель)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "queue_in_kindergartens": {
+      "type": "object",
+      "title": "Выбор детского сада",
+      "description": "выберите садик",
+      "required": [
+        "kindergarten_1"
+      ],
+      "properties": {
+        "kindergarten_1": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        },
+        "kindergarten_2": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        },
+        "kindergarten_3": {
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/queue_in_kindergarten"
+        }
+      }
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "registry_item",
+    "queue_in_kindergartens",
+    "agent"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

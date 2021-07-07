@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "response_text": {
+      "type": "string",
+      "title": "Результат запроса"
+    },
+    "response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional",
+      "title": "Результат запроса (файлы)"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

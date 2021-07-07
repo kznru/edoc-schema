@@ -1,0 +1,44 @@
+{
+  "required": ["egrn_data", "protocol_date", "person_in_pru"],
+  "properties": {
+    "egrn_data":{
+      "type": "object",
+      "title": "Выписка из Единого государственного реестра недвижимости об основных характеристиках и зарегистрированных правах на объект недвижимости",
+      "required": [
+        "date",
+        "number",
+        "type",
+        "registration_date"
+      ],
+      "properties":{
+        "date":{
+          "type": "string",
+          "format": "date",
+          "title": "Дата"
+        },
+        "type":{
+          "type": "string",
+          "title": "Вид государственной регистрации права"
+        },
+        "number":{
+          "type": "string",
+          "title": "Номер государственной регистрации права"
+        },
+        "registration_date":{
+          "type": "string",
+          "format": "date",
+          "title": "Дата государственной регистрации права"
+        }
+      }
+    },
+    "person_in_pru":{
+      "title": "Ответственный отдела потребительского рынка и услуг Администрации района",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+    },
+    "protocol_date":{
+      "type": "string",
+      "format": "date",
+      "title": "Дата протоколa общего собрания собственников помещений в многоквартирном доме"
+    }
+  }
+}

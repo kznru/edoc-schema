@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "reject_reasons": {
+      "items": {
+        "enum": [
+          "Истечение срока действия разрешения на установку и эксплуатацию рекламной конструкции.",
+          "Отсутствие документа, подтверждающего прекращение договора на установку и эксплуатацию рекламной конструкции, заключенного между собственником или владельцем недвижимого имущества и владельцем рекламной конструкции (в случае обращения собственника или иного законного владельца недвижимого имущества).",
+          "Другое (указать)"
+        ],
+        "type": "string"
+      },
+      "title": "Причина отказа",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "reject_reasons"
+  ]
+}

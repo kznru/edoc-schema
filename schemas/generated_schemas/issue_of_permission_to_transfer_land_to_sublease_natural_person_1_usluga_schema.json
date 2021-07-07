@@ -2,7 +2,7 @@
   "properties": {
     "agent": {
       "title": "Заявитель",
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent"
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional",
@@ -10,19 +10,8 @@
       "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя, указанного в пункте 1.2.2 Регламента муниципальной услуги, или его скан-копия (при заполнении электронной формы)."
     },
     "lease_contract_info": {
-      "type": "object",
-      "title": "Договор аренды",
-      "properties": {
-        "number": {
-          "type": "string",
-          "title": "Номер"
-        },
-        "date": {
-          "type": "string",
-          "format": "date",
-          "title": "Дата"
-        }
-      }
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/lease_contract_info",
+      "title": "Договор аренды"
     },
     "attachments": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",

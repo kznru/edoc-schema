@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": ["is_approved"],
+  "properties": {
+    "is_approved": {
+      "type": "string",
+      "title": "Согласовано",
+      "enum": [
+          "Да",
+          "Нет"
+        ]
+    },
+    "term_approval": {
+      "type": "string",
+      "title": "Срок согласования",
+      "description": "Cрок согласования от 5 до 10 лет"
+    },
+    "approval_reject_reason": {
+      "type": "string",
+      "title": "Причина отказа в согласования"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_rebuilding_permit",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Разрешение на строительство (реконструкцию)",
+  "required": [
+    "number",
+    "date_issue",
+    "end_date"
+  ],
+  "type": "object",
+  "properties": {
+    "building_permit":{
+      "title": "Разрешение на строительство (реконструкцию)",
+      "description": "Отсканированный оригинал документа в формате PDF",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "number":{
+      "title": "Номер",
+      "description": "В формате 16-RU16301000-2076-2017",
+      "type": "string"
+    },
+    "date_issue":{
+      "title": "Дата выдачи",
+      "description": "Дата выдачи документа",
+      "type": "string",
+      "format": "date"
+    },
+    "end_date":{
+      "title": "Дата окончания действия разрешения на строительство",
+      "description": "Дата окончания действия разрешения на строительство",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

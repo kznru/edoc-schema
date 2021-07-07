@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя, в случае обращения представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney_optional"
+    },
+    "address_with_map": {
+      "title": "Адрес, по которому находится переводимое помещение",
+      "description": "Адрес с указанием города, улицы, номера дома, квартиры",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie": {
+      "title": "Правоустанавливающие документы на переводимое помещение",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "plan_perewodimogo_pomescheniq_s_ego_tehnicheskim_opisaniem": {
+      "title": "План переводимого помещения с его техническим описанием",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie": {
+      "title": "Поэтажный план дома, в котором находится переводимое помещение",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq": {
+      "title": "Проект переустройства и (или) перепланировки переводимого помещения",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "kopii_resheniq_i_protokola_obschego_sobraniq_wseh_sobstwennikow_pomeschenij_w_mnogokwartirnom_dome": {
+      "title": "Копии решения и протокола общего собрания всех собственников помещений в многоквартирном доме",
+      "description": "С отметкой (печать и подпись руководителя) управляющей организации (правления товарищества собственников жилья, жилищного или жилищно-строительного кооператива, иного специализированного потребительского кооператива, а при непосредственном способе управления многоквартирным домом − органа государственного жилищного надзора) о предоставлении подлинников в данные организации",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/protocol_optional_with_required_number_date"
+    },
+    "consent_of_all_owners": {
+      "title": "Согласие всех собственников",
+      "description": "В том числе временно отсутствующих собственников, в письменной форме",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "conclusion_sanitary_and_epidemiological_surveillance": {
+      "title": "Заключение санитарно-эпидемиологического надзора",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "required": [
+    "applicant",
+    "agent",
+    "letter_of_attorney",
+    "address_with_map",
+    "prawoustanawliwa_schie_dokumenty_na_perewodimoe_pomeschenie",
+    "plan_perewodimogo_pomescheniq_s_ego_tehnicheskim_opisaniem",
+    "po_tazhnyj_plan_doma_w_kotorom_nahoditsq_perewodimoe_pomeschenie",
+    "proekt_pereustrojstwa_i_ili_pereplanirowki_perewodimogo_pomescheniq",
+    "consent_of_all_owners",
+    "conclusion_sanitary_and_epidemiological_surveillance"
+  ],
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Кадастровый номер земельного участка"
+    },
+    "schema_land_plot": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Схема расположения земельного участка"
+    }
+  }
+}

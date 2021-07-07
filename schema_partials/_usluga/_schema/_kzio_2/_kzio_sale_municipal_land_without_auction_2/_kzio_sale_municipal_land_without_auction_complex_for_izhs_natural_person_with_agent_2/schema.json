@@ -1,0 +1,30 @@
+{
+  "required": ["letter_of_attorney"],
+  "properties": {
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
+      "title": "Заявитель"
+    },
+    "agent": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
+    "address_with_map": {},
+    "cadastre_number": {},
+    "area": {},
+    "types_of_permitted_use_of_land": {},
+    "to_buy_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Решение органа некоммерческой организации о распределении испрашиваемого земельного участка заявителю"
+    },
+    "complex_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Договор о комплексном освоении территории"
+    },
+    "membership_document": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Документ, подтверждающий членство заявителя в некоммерческой организации"
+    }
+  }
+}

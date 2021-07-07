@@ -1,4 +1,7 @@
 {
+  "required": [
+    "registry_item"
+  ],
   "properties": {
     "registry_item": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/registry_field",
@@ -11,6 +14,7 @@
     "applicant": {
       "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
       "title": "Заявитель"
-    }
+    },
+    "agent": {}
   }
 }

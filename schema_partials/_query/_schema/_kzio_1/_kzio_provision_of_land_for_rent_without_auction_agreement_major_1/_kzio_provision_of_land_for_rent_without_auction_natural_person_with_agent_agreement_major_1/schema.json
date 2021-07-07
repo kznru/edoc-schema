@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant": {
+      "title": "Заявитель",
+      "description": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant"
+    },
+    "agent": {
+      "title": "Представитель",
+      "description": "Данные представителя (ФИО, паспорт, телефон, электронная почта)",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "letter_of_attorney": {
+      "title": "Доверенность",
+      "description": "Документ, подтверждающий полномочия представителя заявителя",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+    }
+  }
+}

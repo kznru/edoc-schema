@@ -3,7 +3,7 @@
   "required":[],
   "properties":{
     "technical_plan":{
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Техничесикй план"
     },
     "result_comment":{

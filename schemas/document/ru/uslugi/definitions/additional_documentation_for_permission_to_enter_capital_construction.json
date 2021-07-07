@@ -1,0 +1,27 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/additional_documentation_for_permission_to_enter_capital_construction",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Дополнительная документация для получения разрешения на ввод объекта капитального строительства",
+  "type": "object",
+  "properties": {
+    "photo_building":{
+      "title": "Фото здания",
+      "description": "Приложить фотографии со всех 4 сторон здания",
+      "accept": "image/png, image/jpeg",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "sketch_proposal_of_constructed_object":{
+      "title": "Эскизное предложение построенного объекта, согласованное с МКУ Управление архитектуры и градостроительства (последнее согласование на момент подачи заявления)",
+      "description": "Отсканированный оригинал документа в формате PDF",
+      "accept": "application/pdf",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    },
+    "address_assignment_order":{
+      "title": "Распоряжение о присвоении адреса (при наличии)",
+      "accept": "application/pdf",
+      "description": "Отсканированный оригинал документа в формате PDF",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional"
+    }
+
+  }
+}

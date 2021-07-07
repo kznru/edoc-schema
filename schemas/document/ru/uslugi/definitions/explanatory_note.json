@@ -1,0 +1,19 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/explanatory_note",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Пояснительная записка",
+  "description": "Идейная и технологическая состовляющая проекта",
+  "type": "object",
+  "properties": {
+    "technical_economic_indicators": {
+      "type": "string",
+      "title": "Технико-экономические показатели",
+      "description": "Указывается площадь объекта или помещения или зем. участка, краткое описание условий его эксплуатации"
+    },
+    "brief_description": {
+      "type": "string",
+      "description":"Указывается перечень работ по изменению внешнего облика объекта",
+      "title": "Краткое описание проектируемого объекта"
+    }
+  }
+}

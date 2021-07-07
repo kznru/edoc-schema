@@ -1,0 +1,103 @@
+{
+  "base": "_usluga_request",
+  "keys": [
+    {
+      "name": "quarantine_movement_permission_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "without_person_data",
+          "virtual": true,
+          "keys":[
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_1",
+              "keys": [
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_avia_novosav_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_kir_mos_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_sov_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_vahit_privol_1"
+                }
+              ]
+            },
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_1",
+              "keys": [
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_kzn_admin_avia_novosav_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_kzn_admin_kir_mos_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_kzn_admin_sov_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_kzn_admin_vahit_privol_1"
+                }
+              ]
+            },
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_1",
+              "keys": [
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_kzn_admin_avia_novosav_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_kzn_admin_kir_mos_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_kzn_admin_sov_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_xlsx_kzn_admin_vahit_privol_1"
+                }
+              ]
+            },
+            {
+              "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_1",
+              "keys": [
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_avia_novosav_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_kir_mos_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_sov_1"
+                },
+                {
+                  "name": "quarantine_movement_permission_without_person_data_legal_entity_esia_xlsx_kzn_admin_vahit_privol_1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "quarantine_movement_permission_legal_entity_v2_1",
+          "keys": [
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_avia_novosav_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_kir_mos_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_sov_1"
+            },
+            {
+              "name": "quarantine_movement_permission_legal_entity_v2_kzn_admin_vahit_privol_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,11 +1,12 @@
 {
   "required": [
     "organization",
-    "letter_of_attorney",
     "applicant_position",
     "cadastre_number",
     "project_plan",
-    "land_documents"
+    "letter_of_attorney",
+    "land_documents",
+    "compliance_of_design_materials"
   ],
   "properties": {
     "organization": {
@@ -14,16 +15,28 @@
     },
     "agent": {},
     "applicant_position": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Должность заявителя"
     },
-    "letter_of_attorney": {},
+    "letter_of_attorney": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
+      "title": "Доверенность"
+    },
     "address_with_map": {},
     "address_comments": {},
     "cadastre_number": {
       "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number"
     },
     "work_description": {},
+    "permission_to_build": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Разрешение на строительство"
+    },
+    "compliance_of_design_materials": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "title": "Заключения на соответствие проектных материалов экологическим требованиям",
+      "description": "Положительная государственная (негосударственная) экспертиза"
+    },
     "project_plan": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Проектная документация"

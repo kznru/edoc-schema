@@ -14,21 +14,19 @@
         "registry_key": "kvb_excavation_orders_1"
       },
       "title": "Ордер для продления",
-      "description": "Укажите номер ранее выданного разрешения на производство земляных работ, которое продлевается"
+      "description": "Введите номер ордера в реестре ордеров, присвоенный системой при выдаче ордера"
     },
     "organization": {
       "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization",
       "title": "Заявитель"
     },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "letter_of_attorney": {
       "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney",
       "title": "Доверенность"
-    },
-    "applicant": {
     },
     "end_date": {
       "type": "string",
@@ -51,12 +49,12 @@
       }
     },
     "operating_schedule": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "График выполнения работ",
       "description": "График невыполненных работ на объекте на новый период"
     },
     "drawing": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
       "title": "Рабочий чертеж на проводимые работы",
       "description": "С указанием выполненных и незавершенных работ"
     },

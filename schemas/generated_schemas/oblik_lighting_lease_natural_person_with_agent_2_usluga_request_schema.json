@@ -1,12 +1,8 @@
 {
   "type": "object",
   "properties": {
-    "applicant": {
-      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant",
-      "title": "Заявитель"
-    },
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель"
     },
     "address_with_map": {

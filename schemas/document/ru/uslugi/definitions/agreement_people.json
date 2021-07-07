@@ -1,0 +1,45 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agreement_people",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Согласующие лица",
+  "type": "array",
+  "minItems": 1,
+  "uniqItems": true,
+  "items": {
+    "type": "object",
+    "title": "Согласующие лицо",
+    "description": "Необходимо указать либо физ. лицо, либо юр. лицо",
+    "required": [
+      "agreement_person_status",
+      "signatory",
+      "date"
+    ],
+    "properties": {
+      "agreement_person_status": {
+        "title": "Статус согласующего",
+        "type": "string"
+      },
+      "natural_person": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional",
+        "title": "Физ. лицо"
+      },
+      "organization": {
+        "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+        "title": "Наименование юр. лица"
+      },
+      "position": {
+        "title": "Должность",
+        "type": "string"
+      },
+      "signatory": {
+        "title": "Подписант",
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+      },
+      "date": {
+        "title": "Дата",
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+}

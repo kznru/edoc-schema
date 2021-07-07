@@ -1,0 +1,425 @@
+{
+  "properties": {
+    "positive_task_number": {
+      "title": "Номер задания на проведение работ по сохранению объекта культурного наследия местного (муниципального) значения (памятника истории и культуры) народов Российской Федерации",
+      "type": "string"
+    },
+    "owner_address": {
+      "title": "Адрес собственника (пользователя) объекта культурного наследия",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address"
+    },
+    "information_on_current_protection_obligations": {
+      "title": "Сведения о действующих охранных обязательствах, охранно-арендных договорах или охранных договорах",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "number",
+          "date",
+          "characteristic"
+        ],
+        "properties": {
+          "type": {
+            "title": "Вид",
+            "type": "string"
+          },
+          "number": {
+            "title": "Номер",
+            "type": "string"
+          },
+          "date": {
+            "title": "Дата",
+            "type": "string",
+            "format": "date"
+          },
+          "characteristic": {
+            "title": "Характер современного использования",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "description_of_boundaries_of_property": {
+      "title": "Описание границы территории объекта культурного наследия и зон его охраны (краткое описание со ссылкой на документ об утверждении)",
+      "type": "string"
+    },
+    "cultural_heritage_property": {
+      "title": "Предмет охраны объекта культурного наследия",
+      "type": "object",
+      "required": [
+        "image",
+        "description"
+      ],
+      "properties": {
+        "description": {
+          "title": "Описание",
+          "type": "string"
+        },
+        "image": {
+          "title": "Изображение",
+          "accept": "image/png, image/jpeg",
+          "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document"
+        }
+      }
+    },
+    "basis_for_conservation_of_cultural_heritage": {
+      "title": "Основание для проведения работ по сохранению объекта культурного наследия",
+      "type": "object",
+      "required": [
+        "type_of_approved_document",
+        "registration_number",
+        "approval_date",
+        "content_of_conservation_of_cultural_heritage",
+        "start_date",
+        "end_date",
+        "intended_use_of_cultural_property",
+        "intended_sequence_of_work_on_safety_or_local_work"
+      ],
+      "properties": {
+        "type_of_approved_document": {
+          "title": "Вид утвержденного документа",
+          "type": "string"
+        },
+        "registration_number": {
+          "title": "Регистрационный номер",
+          "type": "string"
+        },
+        "approval_date": {
+          "title": "Дата утверждения",
+          "type": "string",
+          "format": "date"
+        },
+        "content_of_conservation_of_cultural_heritage": {
+          "title": "Основное содержание проведения работ по сохранению объекта культурного наследия",
+          "type": "string"
+        },
+        "start_date": {
+          "title": "Срок начала работ",
+          "type": "string",
+          "format": "date"
+        },
+        "end_date": {
+          "title": "Срок окончания работ",
+          "type": "string",
+          "format": "date"
+        },
+        "intended_use_of_cultural_property": {
+          "title": "Предполагаемое использование объекта культурного наследия",
+          "type": "string"
+        },
+        "intended_sequence_of_work_on_safety_or_local_work": {
+          "title": "Намечаемая очередность проведения работ по сохранности или локальных работ",
+          "type": "string"
+        }
+      }
+    },
+    "customer_details": {
+      "title": "Сведения о заказчике",
+      "type": "object",
+      "required": [
+        "organization_or_natural_person",
+        "address",
+        "responsible_agent",
+        "phone_number"
+      ],
+      "properties": {
+        "organization_or_natural_person": {
+          "title": "",
+          "type": "object",
+          "properties": {
+            "natural_person": {
+              "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional",
+              "title": "Физическое лицо"
+            },
+            "organization": {
+              "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+              "title": "Полное наименование, организационно-правовая форма юридического лица в соответствии с учредительными документами - юр.лицо"
+            }
+          }
+        },
+        "address": {
+          "$ref": "http://edoc-schema.kzn.ru/location/ru/address",
+          "title": "Адрес места нахождения"
+        },
+        "responsible_agent": {
+          "title": "Ответственный представитель",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
+        },
+        "phone_number": {
+          "title": "Контактный телефон",
+          "description": "Включая код города",
+          "type": "string"
+        }
+      }
+    },
+    "project_organization_details": {
+      "title": "Сведения о проектной организации",
+      "type": "object",
+      "required": [
+        "responsible_agent",
+        "phone_number",
+        "information_of_license"
+      ],
+      "properties": {
+        "information_of_license": {
+          "title": "Сведения о лицензии на осуществление деятельности по сохранению объекта культурного наследия",
+          "type": "object",
+          "required": [
+            "registration_number",
+            "date"
+          ],
+          "properties": {
+            "registration_number": {
+              "title": "Регистрационный номер",
+              "type": "string"
+            },
+            "date": {
+              "title": "Дата выдачи",
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "responsible_agent": {
+          "title": "Ответственный представитель",
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional"
+        },
+        "phone_number": {
+          "title": "Контактный телефон",
+          "description": "Включая код города",
+          "type": "string"
+        }
+      }
+    },
+    "information_about_additional_project_documentation": {
+      "title": "К ранее выполненной проектной документации разработать",
+      "type": "object",
+      "required": [
+        "preliminary_work",
+        "scientific_research",
+        "project_of_restoration",
+        "working_scientific_project_documentation",
+        "reporting_documentation"
+      ],
+      "properties": {
+        "preliminary_work": {
+          "title": "Раздел 1. Предварительные работы",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "scientific_research": {
+          "title": "Раздел 2. Комплексные научные исследования",
+          "type": "object",
+          "required": [
+            "stage_before_start_work",
+            "stage_in_work"
+          ],
+          "properties": {
+            "stage_before_start_work": {
+              "title": "Этап до начала производства работ",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "stage_in_work": {
+              "title": "Этап в процессе производства работ",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "project_of_restoration": {
+          "title": "Раздел 3. Проект реставрации и приспособления",
+          "type": "object",
+          "required": [
+            "preliminary_project",
+            "project"
+          ],
+          "properties": {
+            "preliminary_project": {
+              "title": "Эскизный проект",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "project": {
+              "title": "Проект",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "working_scientific_project_documentation": {
+          "title": "Раздел 4. Рабочая научно-проектная документация",
+          "type": "object",
+          "required": [
+            "stage_before_start_work",
+            "stage_in_work"
+          ],
+          "properties": {
+            "stage_before_start_work": {
+              "title": "Этап до начала производства работ",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "stage_in_work": {
+              "title": "Этап в процессе производства работ",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "reporting_documentation": {
+          "title": "Раздел 5. Отчетная документация",
+          "type": "string"
+        }
+      }
+    },
+    "need_for_experimental_work": {
+      "title": "Необходимость проведения экспериментальных работ по технологии и методам производства работ с указанием видов работ",
+      "type": "string"
+    },
+    "additional_terms_and_conditions": {
+      "title": "Дополнительные требования и условия",
+      "type": "string"
+    },
+    "management_staff": {
+      "title": "Должности и ФИО сотрудников Управления",
+      "type": "array",
+      "minItems": 1,
+      "uniqItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "position",
+          "fio"
+        ],
+        "properties": {
+          "position": {
+            "type": "string",
+            "title": "Должность"
+          },
+          "fio": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+            "title": "ФИО",
+            "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+          }
+        }
+      }
+    },
+    "head_of_department": {
+      "title": "Должность и ФИО утверждающего из УАИГ Исполнительного коммитета г. Казани",
+      "type": "object",
+      "required": [
+        "position",
+        "fio"
+      ],
+      "properties": {
+        "position": {
+          "type": "string",
+          "title": "Должность"
+        },
+        "fio": {
+          "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+          "title": "ФИО",
+          "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+        }
+      }
+    },
+    "agreement_people": {
+      "title": "Согласующие лица",
+      "type": "array",
+      "minItems": 1,
+      "uniqItems": true,
+      "items": {
+        "type": "object",
+        "title": "Согласующие лицо",
+        "description": "Необходимо указать либо физ. лицо, либо юр. лицо",
+        "required": [
+          "agreement_person_status",
+          "signatory",
+          "date"
+        ],
+        "properties": {
+          "agreement_person_status": {
+            "title": "Статус согласующего",
+            "type": "string"
+          },
+          "natural_person": {
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/natural_person_optional",
+            "title": "Физ. лицо"
+          },
+          "organization": {
+            "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+            "title": "Наименование юр. лица"
+          },
+          "position": {
+            "title": "Должность",
+            "type": "string"
+          },
+          "signatory": {
+            "title": "Подписант",
+            "$ref": "http://edoc-schema.kzn.ru/person/ru/fio"
+          },
+          "date": {
+            "title": "Дата",
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "response_text": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/response_text"
+    },
+    "response_files": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Файлы для заявителя"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    }
+  },
+  "required": [
+    "positive_task_number",
+    "information_on_current_protection_obligations",
+    "description_of_boundaries_of_property",
+    "cultural_heritage_property",
+    "basis_for_conservation_of_cultural_heritage",
+    "customer_details",
+    "project_organization_details",
+    "information_about_additional_project_documentation",
+    "need_for_experimental_work",
+    "additional_terms_and_conditions",
+    "management_staff",
+    "head_of_department",
+    "agreement_people"
+  ],
+  "type": "object"
+}

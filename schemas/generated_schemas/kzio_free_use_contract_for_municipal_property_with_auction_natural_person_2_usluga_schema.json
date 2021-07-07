@@ -1,0 +1,84 @@
+{
+  "required": [
+    "agent",
+    "address_with_map",
+    "purpose",
+    "name_type",
+    "usage_type"
+  ],
+  "properties": {
+    "agent": {
+      "title": "Заявитель",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+    },
+    "address_with_map": {
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map",
+      "title": "Адрес объекта (или ближайший)",
+      "description": "Адрес, по которому находится муниципальное имущество"
+    },
+    "name_type": {
+      "title": "Наименование объекта",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_type"
+    },
+    "area": {
+      "$ref": "http://edoc-schema.kzn.ru/schemas/magnitude/ru/area",
+      "title": "Площадь объекта"
+    },
+    "floor_number": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Информация, необходимая для идентификации имущества: этаж"
+    },
+    "property_number": {
+      "title": "Информация, необходимая для идентификации имущества: номер помещения",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "description": "Согласно поэтажному плану объекта или техническому паспорту"
+    },
+    "floors_plan": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: поэтажный план"
+    },
+    "cadastre_number": {
+      "$ref": "http://edoc-schema.kzn.ru/identifier/ru/cadastre_number",
+      "title": "Информация, необходимая для идентификации имущества: кадастровый номер",
+      "description": "Кадастровый номер запрашиваемого объекта"
+    },
+    "photo": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "title": "Информация, необходимая для идентификации имущества: фото"
+    },
+    "other_info": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Информация, необходимая для идентификации имущества: иная информация"
+    },
+    "purpose": {
+      "title": "Цель использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/purpose_use_object"
+    },
+    "other_purpose": {
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
+      "title": "Иная цель"
+    },
+    "usage_type": {
+      "title": "Вид использования",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/usage_type_object"
+    },
+    "other_usage_type": {
+      "title": "Иной вид использования",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "lease_contract": {
+      "title": "Срок заключения договора",
+      "$ref": "http://edoc-schema.kzn.ru/generic/date"
+    },
+    "attachments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/attachments",
+      "title": "Дополнительные приложения"
+    },
+    "comments": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/comments",
+      "title": "Комментарии"
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

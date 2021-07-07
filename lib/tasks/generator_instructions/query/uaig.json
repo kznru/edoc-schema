@@ -1,0 +1,68 @@
+{
+  "base": "_query",
+  "keys": [
+    {
+      "name": "uaig_1",
+      "virtual": true,
+      "keys": [
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_1"
+        },
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_with_schema_land_plot_1",
+          "keys": [
+            { "name": "uaig_request_for_urban_planning_conclusion_with_schema_land_plot_for_adm_free_provision_of_land_plot_occupied_by_individual_house_1"}
+          ]
+        },
+        {
+          "name": "uaig_preparation_townplanning_opinion_on_possibility_of_issuing_requested_permission_to_use_land_1"
+        },
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_resolution_made_to_application_edo_1"
+        },
+        {
+          "name": "uaig_request_for_urban_planning_conclusion_resolution_made_to_application_edo_complete_or_another_place_1"
+        },
+        {
+          "name": "uaig_engineering_networks_passing_within_boundaries_of_formed_land_1"
+        },
+        {
+          "name": "uaig_engineering_networks_passing_within_boundaries_of_formed_land_available_or_not_1"
+        },
+        {
+          "name": "uaig_agreement_of_architectural_urban_design_of_object_agreement_major_1",
+          "virtual": true,
+          "keys": [
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_capital_repair_of_building_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_capital_repair_of_building_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_capital_repair_of_building_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_color_decision_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_color_decision_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_color_decision_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_if_existing_capital_construction_projects_within_boundaries_of_design_section_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_if_existing_capital_construction_projects_within_boundaries_of_design_section_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_if_existing_capital_construction_projects_within_boundaries_of_design_section_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_installation_of_non_capital_objects_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_installation_of_non_capital_objects_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_installation_of_non_capital_objects_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_land_improvement_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_capital_entry_group_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_capital_entry_group_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_capital_entry_group_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_non_capital_entry_group_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_non_capital_entry_group_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_organization_of_non_capital_entry_group_natural_person_with_agent_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_reconstruction_of_capital_construction_legal_entity_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_reconstruction_of_capital_construction_natural_person_agreement_major_1" },
+            { "name": "uaig_agreement_of_architectural_urban_design_of_object_reconstruction_of_capital_construction_natural_person_with_agent_agreement_major_1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

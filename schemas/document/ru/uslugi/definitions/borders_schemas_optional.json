@@ -1,0 +1,23 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/borders_schemas_optional",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Схема расположения земельного участка на кадастровом плане территории",
+  "type": "object",
+  "properties":{
+    "format_xml": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/xml, text/xml",
+      "title": "Формат XML"
+    },
+    "format_html": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "text/html",
+      "title": "Формат HTML"
+    },
+    "format_pdf": {
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/scanned_document_optional",
+      "accept": "application/pdf",
+      "title": "Формат PDF"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/management_staff",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Должности и ФИО сотрудников Управления",
+  "type": "array",
+  "minItems": 1,
+  "uniqItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "position",
+      "fio"
+    ],
+    "properties": {
+      "position": {
+        "type": "string",
+        "title": "Должность"
+      },
+      "fio": {
+        "$ref": "http://edoc-schema.kzn.ru/person/ru/fio",
+        "title": "ФИО",
+        "description": "Начните вводить ФИО и выберите из подгрузившегося справочника соответствующее"
+      }
+    }
+  }
+}

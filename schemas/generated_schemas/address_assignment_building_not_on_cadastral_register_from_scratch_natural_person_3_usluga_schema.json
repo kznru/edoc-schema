@@ -1,7 +1,7 @@
 {
   "properties": {
     "agent": {
-      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/agent",
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent",
       "title": "Представитель",
       "description": "Представитель заявителя"
     },
@@ -16,7 +16,7 @@
       "title": "Местоположение земельного участка"
     },
     "building_name": {
-      "type": "string",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string",
       "title": "Наименование объекта адресации",
       "description": "При наличии проектной документации указывается в соответствии с ней"
     },
@@ -37,10 +37,8 @@
       "title": "Комментарии"
     }
   },
-  "require": [
-    "applicant"
-  ],
   "required": [
+    "agent",
     "building_name",
     "cadastre_number_of_land",
     "address_with_map",

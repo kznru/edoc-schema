@@ -1,0 +1,99 @@
+{
+  "properties": {
+  "organization": {
+    "title": "Заявитель",
+    "description": "Начните вводить наименование российской организации и выберите из подгрузившегося справочника соответствующую",
+    "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization"
+  },
+  "agent": {
+    "title": "Представитель",
+    "description": "Представитель",
+    "$ref": "http://edoc-schema.kzn.ru/person/ru/agent"
+  },
+  "letter_of_attorney": {
+    "title": "Доверенность",
+    "description": "Цветная отсканированная доверенность в формате PDF (в случае представления интересов собственика по доверенности)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/letter_of_attorney"
+  },
+  "building_object_name": {
+    "title": "Наименование объекта капитального строительства",
+    "description": "Наименование объекта капитального строительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_object_name"
+  },
+  "vid_rabot": {
+    "title": "Вид работ",
+    "description": "Строительство, Реконструкция",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/const_reconst"
+  },
+  "cadastral_numbers_of_land_for_construction": {
+    "title": "Кадастровый (-е) номер (-а) земельного (-ых) участка (-ов)",
+    "description": "Укажите кадастровый (-е) номер (-а), адрес -(а), правоустанавливающие документы на земельный участок (участки)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/cadastral_numbers_of_land_for_construction"
+  },
+  "proekt_planirowki_territorii_w_sluchae_wydachi_razresheniq_na_wwod_w_xpluataci_linejnogo_ob_ekta": {
+    "title": "Проект планировки территории в случае выдачи разрешения на ввод в эксплуатацию линейного объекта",
+    "description": "Проект планировки территории в случае выдачи разрешения на ввод в эксплуатацию линейного объекта, для размещения которого не требуется образование земельного участка",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+  },
+  "building_rebuilding_permit": {
+    "title": "Разрешение на строительство (реконструкцию)",
+    "description": "Разрешение на строительство (реконструкцию)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/building_rebuilding_permit"
+  },
+  "akt_priemki_ob_ekta_kapital_nogo_stroitel_stwa": {
+    "title": "Акт приемки объекта капитального строительства",
+    "description": "В случае осуществления строительства, реконструкции на основании договора строительного подряда. Образец по ссылке https://www.kzn.ru/meriya/ispolnitelnyy-komitet/upravlenie-gradostroitelnykh-razresheniy/oformlenie-razresheniy-na-vvod-obektov-v-ekspluatatsiyu/",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+  },
+  "akt_podtwerzhda_schij_sootwetstwie_parametrow_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_proektnoj_dokumentacii": {
+    "title": "Акт, подтверждающий соответствие параметров построенного, реконструированного объекта капитального строительства проектной документации",
+    "description": "Акт, подтверждающий соответствие параметров построенного, реконструированного объекта капитального строительства проектной документации, в том числе требованиям энергетической эффективности и требованиям оснащенности объекта капитального строительства приборами учета используемых энергетических ресурсов, и подписанный лицом, осуществляющим строительство (лицом, осуществляющим строительство, и застройщиком или техническим заказчиком в случае осуществления строительства, реконструкции на основании договора строительного подряда, а также лицом, осуществляющим строительный контроль, в случае осуществления строительного контроля на основании договора). Образец по ссылке https://www.kzn.ru/meriya/ispolnitelnyy-komitet/upravlenie-gradostroitelnykh-razresheniy/oformlenie-razresheniy-na-vvod-obektov-v-ekspluatatsiyu/",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites"
+  },
+  "documents_confirming_compliance_of_capital_construction_project": {
+    "title": "Документы, подтверждающие соответствие построенного, реконструированного объекта капитального строительства техническим условиям",
+    "description": "Документы, подтверждающие соответствие построенного, реконструированного объекта капитального строительства техническим условиям и подписанные представителями организаций, осуществляющих эксплуатацию сетей инженерно-технического обеспечения",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/documents_confirming_compliance_of_capital_construction_project"
+  },
+  "conclusion_of_state_building_authority": {
+    "title": "Заключение органа государственного строительного надзора о соответствии построенного, реконструированного объекта капитального строительства требованиям проектной документации",
+    "description": "В случае, если предусмотрено осуществление государственного строительного надзора в соответствии с частью 1 статьи 54 настоящего Градостроительно кодекса РФ",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/conclusion_of_state_building_authority_optional"
+  },
+  "insurance_for_owner_hazardous_facility": {
+    "title": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта",
+    "description": "Документ, подтверждающий заключение договора обязательного страхования гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте в соответствии с законодательством Российской Федерации об обязательном страховании гражданской ответственности владельца опасного объекта за причинение вреда в результате аварии на опасном объекте. К опасным объектам также отноятся: Лифты, Инвалидные подьемники, Эскалаторы и т.д.",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/insurance_for_owner_hazardous_facility"
+  },
+  "technical_plan_of_capital_construction_facility": {
+    "title": "Технический план объекта капитального строительства",
+    "description": "Технический план объекта капитального строительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/technical_plan_of_capital_construction_facility"
+  },
+  "soglasowanie_razmescheniq_ob_ekta_kapital_nogo_stroitel_stwa_w_zone_s_osobymi_uslowiqmi_ispol_zowaniq_territorii_pri_neobhodimosti_soglasowaniq": {
+    "title": "Согласование размещения объекта капитального строительства в зоне с особыми условиями использования территории (при необходимости согласования)",
+    "description": "Если объект расположен в зоне с особыми условиями использования территории (электрических сетей, газовых сетей, охранной зоны КАПО и т.д.)",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/document_requisites_optional"
+  },
+  "additional_documentation_for_permission_to_enter_capital_construction": {
+    "title": "Дополнительная документация для получения разрешения на ввод объекта капитального строительства",
+    "description": "Дополнительная документация для получения разрешения на ввод объекта капитального строительства",
+    "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/additional_documentation_for_permission_to_enter_capital_construction"
+  }
+},
+  "required": [
+    "organization",
+    "agent",
+    "letter_of_attorney",
+    "building_object_name",
+    "vid_rabot",
+    "cadastral_numbers_of_land_for_construction",
+    "proekt_planirowki_territorii_w_sluchae_wydachi_razresheniq_na_wwod_w_xpluataci_linejnogo_ob_ekta",
+    "building_rebuilding_permit",
+    "akt_priemki_ob_ekta_kapital_nogo_stroitel_stwa",
+    "akt_podtwerzhda_schij_sootwetstwie_parametrow_postroennogo_rekonstruirowannogo_ob_ekta_kapital_nogo_stroitel_stwa_proektnoj_dokumentacii",
+    "documents_confirming_compliance_of_capital_construction_project",
+    "technical_plan_of_capital_construction_facility"
+  ],
+  "type": "object"
+}

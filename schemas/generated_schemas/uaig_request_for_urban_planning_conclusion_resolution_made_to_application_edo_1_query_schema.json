@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "address_with_map": {
+      "title": "Адрес, по которому находится  запрашиваемый земельный участок",
+      "$ref": "http://edoc-schema.kzn.ru/location/ru/address_with_map"
+    },
+    "information_for_indentification_land_plot": {
+      "title": "Иная информация, необходимая для идентификации  запрашиваемого земельного участка",
+      "description": "Можно указать ближайший кадастровый номер, для идентификации местоположения запрашиваемого земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/generic/string"
+    },
+    "schema_with_borders": {
+      "title": "Схема с нанесенными границами запрашиваемого земельного участка",
+      "description": "Желательно приложить схематичное изображение границ",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/files_optional"
+    },
+    "organization": {
+      "$ref": "http://edoc-schema.kzn.ru/organization/ru/organization_optional",
+      "title": "Заявитель (ЮЛ, ИП)"
+    },
+    "applicant": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/applicant_optional",
+      "title": "Заявитель (физ. лицо c представителем)"
+    },
+    "agent": {
+      "$ref": "http://edoc-schema.kzn.ru/person/ru/agent_optional",
+      "title": "Заявитель (физ. лицо)"
+    },
+    "intended_use_of_land": {
+      "title": "Вид разрешенного использования земельного участка",
+      "$ref": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/intended_use_of_land"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#"
+}

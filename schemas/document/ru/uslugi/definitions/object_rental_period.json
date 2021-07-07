@@ -1,0 +1,12 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/object_rental_period",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Срок аренды",
+  "type": "string",
+  "enum": [
+    "30 календарных дней",
+    "11 месяцев",
+    "3 года",
+    "5 лет"
+  ]
+}

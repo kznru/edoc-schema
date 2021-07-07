@@ -1,0 +1,18 @@
+{
+  "id": "http://edoc-schema.kzn.ru/document/ru/uslugi/definitions/advertising_construction_type_2",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Тип рекламной конструкции",
+  "type": "string",
+  "enum": [
+    "суперсайт",
+    "суперборд",
+    "еврощит",
+    "ситиборд",
+    "пилларс",
+    "пилон",
+    "пилон в составе ПООТ",
+    "афишная щитовая конструкция",
+    "афишная тумба",
+    "коммуникационный указатель"
+  ]
+}
